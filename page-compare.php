@@ -82,7 +82,7 @@
 					<li title="Limits imposed by either the purchased plan or your own infrastructure when self-hosting" rel="tooltip">Unlimited storage and amount of files</li> <!-- Unlimited storage -->
 					<li title="" rel="tooltip">Large file support</li> <!--Large file support-->
 					<li title="" rel="tooltip">Self hosted/on premises</li> <!--Self hosted/on premises-->
-					<li title="Based on active users, not read-only connected accounts" rel="tooltip">Scalability limits</li> <!--Scalability limits-->
+					<li title="Sharding across clusters and data centers" rel="tooltip">Global scalability</li> <!--Scalability limits-->
 						<li class="cd-group">Clients</li> <!--Client-->
 					<li title="" rel="tooltip">Mobile Clients</li> <!--Mobile Clients-->
 					<li title="" rel="tooltip">Auto upload images/video/other files</li> <!-- Auto upload images/video/other files -->
@@ -91,23 +91,21 @@
 					<li title="Allows third party to write apps that integrate apps in the cloud itself, adding functionality" rel="tooltip">Extensible with apps</li> <!--Extensible with apps-->
 					<li title="" rel="tooltip">Outlook integration</li> <!--Outlook integration-->
 						<li class="cd-group">Server features</li> <!--Server features-->
-					<li title="file name search/full text search" rel="tooltip">Full text search</li> <!--Full text search-->
+					<li title="Cross-application search (Calendars, mails, chat messages, files etc)" rel="tooltip">Unified search</li> <!--Full text search-->
 					<li title="" rel="tooltip">File Versioning</li> <!--File Versioning-->
 					<li title="Block a file temporarily from being edited while you work offline with it" rel="tooltip">File Locking/checkout</li> <!--File Locking-->
-					<li title="" rel="tooltip">File Metadata</li> <!--File Metadata-->
 					<li title="" rel="tooltip">Multiple link shares</li> <!--Multiple shares-->
-					<li title="Add a note for the sharee / identify shares with name or note" rel="tooltip">Share Metadata</li> <!--Share Metadata-->
+					<li title="Add a note for the sharee" rel="tooltip">Share note</li> <!--Share Metadata-->
+					<li title="Dashboard app with overview of info like recent files, chats, calendar items and more" rel="tooltip">Dashboard</li> <!--Dashboard-->
 					<li title="" rel="tooltip">View PDF, images, video, gallery</li> <!--View PDF, images, video, gallery-->
 					<li title="" rel="tooltip">Integrated Audio/Video/Text chat</li> <!--Audio/Video/Text chat-->
 					<li title="" rel="tooltip">Integrated Groupware<br> (Calendar/Contacts/<br>Mail/Kanban)</li> <!--Calendar/Contact/Mail integration-->
 					<li title="" rel="tooltip">Mobile calendar/contact integration</li> <!--Mobile calendar/contact integration-->
- 					<li title="" rel="tooltip">Online Office in web / mobile</li> <!--Online Office-->
+ 					<li title="Integrated in browser / integrated in own mobile apps" rel="tooltip">Online Office web / mobile apps</li> <!--Online Office-->
 					<li title="Public link to folder recipient can upload to, which hides existing content of the shared folder" rel="tooltip">File Drop (customer file upload)</li> <!--File Drop (customer file upload)-->
-					<li title="Option to block downloading from a public link" rel="tooltip">Block downloads</li> <!-- Block downloads -->
 					<li title="Protect public links with Video Verification" rel="tooltip">Video Verification</li> <!-- Video Verification -->
 					<li title="Sharing between separate cloud instances of different vendors. Example, Nextcloud users can share files with users on Pydio and ownCloud servers." rel="tooltip">Inter-server sharing</li> <!--Inter-server sharing-->
 					<li title="Add context to a folder by having a space to add comments, notes and todo lists" rel="tooltip">Workspaces</li> <!-- Workspaces -->
-					<li title="" rel="tooltip">File ownership transfer</li> <!-- ownership transfer -->
                         <li class="cd-group">Accessibility</li> <!--Accessibility-->
 					<li title="" rel="tooltip">Keyboard/screen reader support</li> <!--Keyboard/screen reader support-->
 					<li title="" rel="tooltip">WCAG 2.1 support</li> <!--WCAG 2.1 support-->
@@ -130,7 +128,6 @@
                         <li class="cd-group">Security features</li> <!--Security features-->
 					<li title="" rel="tooltip">Server side encryption</li> <!--Server side encryption-->
 					<li title="" rel="tooltip">Client side encryption</li> <!--Client side encryption-->
-					<li title="warning on possible ransomware upload/automated recovery that doesn't require manually restoring either all data or doing it file by file" rel="tooltip">Ransomware prevention/recovery</li> <!--Ransomware protection-->
 					<li title="Optionally verify identity of recipient by video call" rel="tooltip">Video Verification</li> <!--Video Verification-->
 					<li title="" rel="tooltip">Brute force hacking protection</li> <!--Brute force hacking protection-->
 					<li title="" rel="tooltip">NIST compliant password policy</li> <!--NIST compliant password policy-->
@@ -168,7 +165,7 @@
 							<li title="The limit is customer infrastructure. There are no limits from the Nextcloud side." rel="tooltip"><i class="fa fa-check"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Large file support-->
 							<li title="can be hosted wherever you decide, including hybrid." rel="tooltip"><i class="fa fa-check"></i></li> <!--Self hosted/on premises-->
-							<li title="single cluster: up to 100K active users. With Global Scale: unlimited." rel="tooltip">Unlimited</li> <!--Scalability limits-->
+							<li title="single cluster: up to 100K active users. With Global Scale: unlimited." rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i> <i class="fa fa-windows"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-check"></i></li> <!-- Auto upload images/video/other files -->
@@ -181,20 +178,18 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Full text search-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Versioning-->
 							<li title="Does NOT block collaborative editing" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Multiple shares-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Share Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Share Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Dashboard-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="both Android/iOS (Android with integrated 3rd party tool)" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="With Collabora Online, ONLYOFFICE, Hancom Office or MS Office Online" rel="tooltip"><div><i class="fa fa-check"></i> / <i class="fa fa-check"></i><br />4 options</div></li> <!--Online Office-->
+							<li title="With Collabora Online, ONLYOFFICE, Hancom Office or MS Office Online" rel="tooltip"><div><i class="fa fa-check"></i> / <i class="fa fa-check"></i><br /><small>4 options</small></div></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Inter-server sharing-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Workspaces -->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- ownership transfer -->
                                 <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Keyboard/screen reader support-->
                             <li title="AAA with optional theme" class="green" rel="tooltip">AA/AAA</li> <!--WCAG 2.1 support-->
@@ -217,7 +212,6 @@
 							<li class="cd-group"></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Server side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Client side encryption-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Ransomware prevention/recovery-->
 							<li title="Optionally verify identity of recipient by video call" rel="tooltip"><i class="fa fa-check"></i></li> <!--Video Verification-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--NIST compliant password policy-->
@@ -253,7 +247,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Self hosted/on premises-->
-							<li title="5K in one group, 10K for educational organizations, unclear limits otherwise" rel="tooltip">5K/10K/unlimited</li> <!--Scalability limits-->
+							<li title="5K in one group, 10K for educational organizations, unclear limits otherwise" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
 							<li title="can do files with external app" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
@@ -263,23 +257,21 @@
 
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Outlook integration-->
 								<li class="cd-group"></li> <!--Server features-->
-							<li title="" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Full text search-->
+							<li title="Full-text search costs money, cross-application search free" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Full text search-->
 							<li title="" rel="tooltip">limited</li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Locking-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
-							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i></li> <!--Share Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Share Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Dashboard-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Workspaces -->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- ownership transfer -->
 							    <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--WCAG 2.1 support-->
@@ -302,7 +294,6 @@
 								<li class="cd-group"></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Server side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-cross"></i></li> <!--Ransomware prevention/recovery-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Video Verification-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--NIST compliant password policy-->
@@ -339,7 +330,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip">10GB</li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Self hosted/on premises-->
-							<li title="" rel="tooltip">500K</li> <!--Scalability limits-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
 							<li title="Can be done with external app" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
@@ -352,20 +343,18 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Full text search-->
 							<li title="Only for MS Office files" rel="tooltip">limited</li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
-							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i></li> <!--Share Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Share Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Dashboard-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="feature-limited in web and mobile UI compared to desktop" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Drop (customer file upload)-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
 							<li title="Can pin files to the top of a folder, which gives a big preview." rel="tooltip"><i class="fa fa-times"></i>*</li> <!-- Workspaces -->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- ownership transfer -->
 							    <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--WCAG 2.1 support-->
@@ -388,7 +377,6 @@
 								<li class="cd-group"></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Server side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-cross"></i></li> <!--Ransomware prevention/recovery-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Video Verification-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--NIST compliant password policy-->
@@ -424,7 +412,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Self hosted/on premises-->
-                            <li title="" rel="tooltip">20K users</li> <!--Scalability limits-->
+                            <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Scalability limits-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i></li> <!-- Auto upload images/video/other files -->
@@ -434,23 +422,21 @@
 
 							<li title="" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Outlook integration-->
 								<li class="cd-group"></li> <!--Server features-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Full text search-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Full text search-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Multiple shares-->
-							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i></li> <!--Share Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Share Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Dashboard-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="unsupported" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Audio/Video/Text chat-->
 							<li title="Only as unsupported (Nextcloud-developed) third party apps" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="Unsupported. Available for iOS, Android possible with tool from Nextcloud partner" rel="tooltip"><i class="fa fa-check optional"></i>/<i class="fa fa-check optional"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="Collabora Online, OnlyOffice, MS Office Online" rel="tooltip"><div><i class="fa fa-check"></i> / <i class="fa fa-times"></i><br /><small>3 options</small></div></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
-							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Inter-server sharing-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Workspaces -->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- ownership transfer -->
                                 <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--WCAG 2.1 support-->
@@ -473,7 +459,6 @@
 							<li class="cd-group"></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Server side encryption-->
 							<li title="Only offering a web E2E solution without client support so failing to provide zero-knowledge protection" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-cross"></i></li> <!--Ransomware prevention/recovery-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Video Verification-->
 							<li title="There is an unsupported external app developed by community student, occasionally updated" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--NIST compliant password policy-->
@@ -509,7 +494,7 @@
 							<li title="" rel="tooltip">Varies per plan</li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip">5GB</li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Self hosted/on premises-->
-							<li title="Some limitations exist but nothing is clearly documented" rel="tooltip">Unlimited</li> <!--Scalability limits-->
+							<li title="Some limitations exist but nothing is clearly documented" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
 							<li title="Only paid. Files can be done with external app" rel="tooltip"><i class="fa fa-usd"></i> / <i class="fa fa-usd"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
@@ -518,23 +503,21 @@
 							<li title="Limited Microsoft office integration" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
 							<li title="" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Outlook integration-->
 								<li class="cd-group"></li> <!--Server features-->
-							<li title="" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Full text search-->
+							<li title="full-text search paid, cross-app search not available" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Full text search-->
 							<li title="25-50 revisions depending on plan" rel="tooltip">limited</li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
-							<li title="Varies per plan" rel="tooltip"><i class="fa fa-usd"></i></li> <!--File Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
-							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i></li> <!--Share Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Share Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Dashboard-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Audio/Video/Text chat-->
 							<li title="not natively, third party app" rel="tooltip"><i class="fa fa-clock-o"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="Through Microsoft Office" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Drop (customer file upload)-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Workspaces -->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- ownership transfer -->
                                 <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Keyboard/screen reader support-->
                             <li title="AAA with Box.com accessiblity site" rel="tooltip" class="green">AA/AAA</li> <!--WCAG 2.1 support-->
@@ -557,7 +540,6 @@
 							<li class="cd-group"></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Server side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-cross"></i></li> <!--Ransomware prevention/recovery-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Video Verification-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--NIST compliant password policy-->
@@ -593,7 +575,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip">10GB</li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Self hosted/on premises-->
-							<li title="2K users in a share, more limits exist but not clearly documented" rel="tooltip">2K/unclear</li> <!--Scalability limits-->
+							<li title="2K users in a share, more limits exist but not clearly documented" rel="tooltip"><i class="fa fa-times"></i></li> <!--Scalability limits-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
 							<li title="Extra paid feature. Files can be done with third party app" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
@@ -606,20 +588,18 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Full text search-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Versioning-->
 							<li title="not available in web UI or WebDAV" rel="tooltip"><i class="fa fa-check"></i>*</li> <!--File Locking-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
-							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i></li> <!--Share Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Share Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Dashboard-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-times"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Workspaces -->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- ownership transfer -->
                                 <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--WCAG 2.1 support-->
@@ -642,7 +622,6 @@
 								<li class="cd-group"></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Server side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-cross"></i></li> <!--Ransomware prevention/recovery-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Video Verification-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--NIST compliant password policy-->
@@ -677,7 +656,7 @@
 							<li title="" rel="tooltip">Varies per plan</li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip">20GB</li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Self hosted/on premises-->
-							<li title="" rel="tooltip">Unlimited</li> <!--Scalability limits-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="free version only supports up to 3 client devices total" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
 							<li title="Files can be done with third party app" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
@@ -687,23 +666,21 @@
 
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Outlook integration-->
 								<li class="cd-group"></li> <!--Server features-->
-							<li title="" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Full text search-->
+							<li title="full-text search only in paid versions, with 365 integration no cross-app search" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Full text search-->
 							<li title="Max 1 month, up to 1 year with Business subscription" rel="tooltip">limited</li> <!--File Versioning-->
 							<li title="only for business edition" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
-							<li title="Only with business subscription" rel="tooltip"><i class="fa fa-usd"></i></li> <!--File Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
-							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i></li> <!--Share Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Share Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Dashboard-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i title="through Google Apps" rel="tooltip" class="fa fa-google"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Workspaces -->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- ownership transfer -->
                                 <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--WCAG 2.1 support-->
@@ -726,7 +703,6 @@
 								<li class="cd-group"></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Server side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-cross"></i></li> <!--Ransomware prevention/recovery-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Video Verification-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--NIST compliant password policy-->
@@ -774,20 +750,18 @@
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Full text search-->
 							<li title="max 3 revisions" rel="tooltip">limited</li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
-							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i></li> <!--Share Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Share Metadata-->
+							<li title="Admins have a dashboard, users not" rel="tooltip"><i class="fa fa-times"></i></li> <!--Dashboard-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Workspaces -->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- ownership transfer -->
 							    <li class="cd-group"></li> <!--Accessibility-->
                             <li title="could not find information" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--WCAG 2.1 support-->
@@ -810,7 +784,6 @@
 								<li class="cd-group"></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Server side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-cross"></i></li> <!--Ransomware prevention/recovery-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Video Verification-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--NIST compliant password policy-->
@@ -846,7 +819,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip">2GB</li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Self hosted/on premises-->
-							<li title="real limites are unclear" rel="tooltip">Unlimited*</li> <!--Scalability limits-->
+							<li title="real limites are unclear" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
@@ -859,20 +832,18 @@
 							<li title="" rel="tooltip">limited</li> <!--Full text search-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
-							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i></li> <!--Share Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Share Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Dashboard-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="Microsoft Lync plug-in" rel="tooltip"><i class="fa fa-clock-o"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Workspaces -->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- ownership transfer -->
 							    <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--WCAG 2.1 support-->
@@ -895,7 +866,6 @@
 								<li class="cd-group"></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Server side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-cross"></i></li> <!--Ransomware prevention/recovery-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Video Verification-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--NIST compliant password policy-->
