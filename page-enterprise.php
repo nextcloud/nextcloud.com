@@ -73,12 +73,12 @@
         <div class="row">
             <div class="col-md-6   image--floated">
                 <div class="ilustration">
-                    <?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/security-new.svg"); ?>
+                    <?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/security.svg"); ?>
                 </div>
             </div>
             <div class="col-md-6 benefit">
                 <h2><?php echo $l->t('Security');?></h2>
-                <p>Advanced security capabilities to customers.');?></p>
+                <p><?php echo $l->t('Advanced security capabilities to customers.');?></p>
                 <p>
                 • <?php echo $l->t('Early security patches');?><br />
                 • <?php echo $l->t('Enterprise-grade security features and hardening');?><br />
@@ -94,12 +94,12 @@
             </div>
             <div class="col-md-6 benefit">
                 <h2><?php echo $l->t('Expertise');?></h2>
-                <p>Direct access to Nextcloud engineering expertise without call center people in between.');?></p>
+                <p><?php echo $l->t('Direct access to Nextcloud engineering expertise without call center people in between.');?></p>
                 <p>
                 • <?php echo $l->t('Full proof of concept package where our experts help you integrate Nextcloud in your infrastructure');?><br />
                 • <?php echo $l->t('Migration assistance: We help to migrate from your previous solution');?><br />
                 • <?php echo $l->t('Access to enterprise documentation and the knowledge base');?><br />
-                • <?php echo $l->t('Access to expertise around scaling, security and best practices');?></p>
+                • <?php echo $l->t('Access to expertise around scaling, security and best practices');?><br />
                 • <?php echo $l->t('Access to optional workshops and training');?></p>
             </div>
         </div>
