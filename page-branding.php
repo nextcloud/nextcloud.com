@@ -82,7 +82,7 @@ require(["require.config"], function() {
          <div class="col-md-8 col-md-offset-2">
             <h2 class="text-center"><?php echo $l->t('Comparison');?></h2>
                 <h3 class="section--paragraph__title"><?php echo $l->t('Deployment and control with MDM and MSI');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('Many larger organizations have tools to manage their deployments of desktop and mobile apps. For mobile apps, various tools provide so-called Mobile Device Management services. Nextcloud supports this as part of our Nextcloud Enterprise Premium Subscription. With this also come branded desktop clients as MSI packages for easy roll-out in large organizations.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Many larger organizations have tools to manage their deployments of desktop and mobile apps. For mobile apps, various tools provide so-called Mobile Device Management services. Nextcloud supports these as part of our Nextcloud Enterprise Premium Subscription.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Here is a complete overview of the Nextcloud branded client options.');?></p>
             </div>
         </div>
@@ -193,18 +193,6 @@ require(["require.config"], function() {
                             </tr>
                             <tr>
                             <td><small><strong>MDM</strong> functionalities</small></td>
-                            <td>
-                            <p></p>
-                            </td>
-                            <td>
-                            <p></p>
-                            </td>
-                            <td>
-                            <p>✔️️</p>
-                            </td>
-                            </tr>
-                            <tr>
-                            <td><small><strong>MSI</strong> installation package (Windows)</small></td>
                             <td>
                             <p></p>
                             </td>
