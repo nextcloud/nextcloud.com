@@ -8,21 +8,9 @@
   margin-bottom: 50px
 }
 
-section {
-	margin-top: 100px;
-/* 	padding: 50px 0; */
-
-	.section--paragraph__title {
-		padding: 0;
-	}
-}
-
 .section--intro {
-    padding-top: 0;
-    margin-top: 20px;
-    .section--paragraph__title {
-		padding: 20px 0 0 0;
-	}
+    //padding-top: 0;
+    //margin-top: 20px;
     p {
         margin-top: 20px;
     }
@@ -32,14 +20,6 @@ section {
 }
 
 
-
-.section--features {
-    .row {
-        margin-bottom: 150px;
-    }
-}
-
-
 footer {
-    margin-top: 0px;
+    margin-top: 100px;
 }

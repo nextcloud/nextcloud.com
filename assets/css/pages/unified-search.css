@@ -36,26 +36,12 @@
   background-size: cover;
   margin-bottom: 50px; }
 
-section {
-  margin-top: 100px;
-  /* 	padding: 50px 0; */ }
-  section .section--paragraph__title {
-    padding: 0; }
-
-.section--intro {
-  padding-top: 0;
+.section--intro p {
   margin-top: 20px; }
-  .section--intro .section--paragraph__title {
-    padding: 20px 0 0 0; }
-  .section--intro p {
-    margin-top: 20px; }
-  .section--intro .video .video-js {
-    background-color: transparent !important; }
-
-.section--features .row {
-  margin-bottom: 150px; }
+.section--intro .video .video-js {
+  background-color: transparent !important; }
 
 footer {
-  margin-top: 0px; }
+  margin-top: 100px; }
 
 /*# sourceMappingURL=unified-search.css.map */
