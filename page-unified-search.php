@@ -41,7 +41,7 @@
             </div>
             <div class="col-md-6 featureblock">
                 <h3 class="section--paragraph__tittle"><?php echo $l->t('Integrated and third party options');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('Core Nextcloud apps like Files, Calendar, Contacts, Talk, Mail and Deck provide results in unified search. A number of integration apps provide results from third parties like source code management and ticketing systems, e-learning platforms and more. Developers can build their own additions easily and many apps are available in our app store.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Core Nextcloud apps like Files, Calendar, Contacts, Talk, Mail and Deck provide results in unified search. A wide range of integration apps provide results from third parties like source code management platforms Github and Gitlab, ticketing systems like Jira and Zammad, e-learning platforms like Moodle, social media and forum platforms like Twitter, Redditm Discourse and many more. Developers can build their own additions easily and many apps are available in our app store.');?></p>
                 <a href="https://apps.nextcloud.com/apps/fulltextsearch" class="button button--blue button--arrow button--large"><?php echo $l->t('Integrations in app store');?></a>
             </div>
         </div>
