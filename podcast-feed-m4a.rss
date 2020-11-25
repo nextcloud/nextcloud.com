@@ -47,7 +47,7 @@
       </description>
       <pubDate>Thu, 26 Nov 2020 9:00:00 GMT</pubDate>
       <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_005.m4a"
-                 type="audio/mpeg" length="16023113"/>
+                 type="audio/x-m4a" length="16023113"/>
       <itunes:author>Nextcloud</itunes:author>
       <itunes:explicit>no</itunes:explicit>
       <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_005.m4a</guid>
