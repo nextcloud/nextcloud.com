@@ -39,6 +39,23 @@
     <atom:link href="https://nextcloud.com/podcast-feed.xml" rel="self" type="application/rss+xml" />
     <link>https://nextcloud.com/podcast/</link>
 
+      
+    <item>
+      <title>Interview with Björn about federation, sharing and sales engineering</title>
+      <itunes:subtitle>On our fifth podcast, Ingo talks to Nextcloud sales engineer Björn about his work and Nextcloud sharing features.</itunes:subtitle>
+      <itunes:summary>A brief discussion with the Nextcloud sales engineering team lead about sales and engineering, as well as the Nextcloud features around sharing between Nextcloud servers (federation), global address books and how Nextcloud makes it easier to keep your data private.
+      </itunes:summary>
+      <itunes:duration>00:26:01</itunes:duration>
+      <description>A brief discussion with the Nextcloud sales engineering team lead about sales and engineering, as well as the Nextcloud features around sharing between Nextcloud servers (federation), global address books and how Nextcloud makes it easier to keep your data private.
+      </description>
+      <pubDate>Thu, 26 Nov 2020 9:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_005.opus"
+                 type="audio/opus" length="21985810"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_005.opus</guid>
+      <link>https://nextcloud.com/blog/podcast-5-interview-with-bjorn-about-federation-sharing-and-sales-engineering/</link>
+    </item>
     <item>
       <title>Interview with Rhys Davies from Canonical</title>
       <itunes:subtitle>On our fourth podcast, host Ingo interviews Rhys Davies from Canonical about the Nextcloud Ubuntu Appliance.</itunes:subtitle>
