@@ -2,6 +2,22 @@
 
 <h2>2020</h2>
 
+<h3>Contacts App 3.4.1</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-044">XSS through image upload on contacts using svg file with png extension (NC-SA-2020-044)</a> 2020-10-20</li>
+</ul>
+
+<h3>Contacts App 3.4.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-045">XSS through image upload of contacts using svg file (NC-SA-2020-045)</a> 2020-10-20</li>
+</ul>
+
+<h3>Social App 0.4.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-043">Social App does not validate server certificates for outgoing connections (NC-SA-2020-043)</a> 2020-10-15</li>
+	<li><a href="/security/advisory/?id=NC-SA-2020-042">Improper access control to messages of Social app (NC-SA-2020-042)</a> 2020-10-15</li>
+</ul>
+
 <h3>Nextcloud Server 20.0.0</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2020-041">Improper integrity protection of server-side encryption keys (NC-SA-2020-041)</a> 2020-10-03</li>

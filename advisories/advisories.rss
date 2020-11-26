@@ -5,6 +5,30 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Contacts App: XSS through image upload of contacts using svg file (NC-SA-2020-045)</title>
+  <description>A missing file type check in Nextcloud Contacts 3.3.0 allowed a malicious user to upload malicious SVG files to perform XSS attacks.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-045&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-045</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-045</guid>
+  <pubDate>Tue, 20 Oct 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Contacts App: XSS through image upload on contacts using svg file with png extension (NC-SA-2020-044)</title>
+  <description>A missing file type check in Nextcloud Contacts 3.4.0 allowed a malicious user to upload SVG files as PNG files to perform XSS attacks.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-044&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-044</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-044</guid>
+  <pubDate>Tue, 20 Oct 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Social App: Social App does not validate server certificates for outgoing connections (NC-SA-2020-043)</title>
+  <description>Missing validation of server certificates for out-going connections allowed a man-in-the-middle attack.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-043&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-043</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-043</guid>
+  <pubDate>Thu, 15 Oct 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Social App: Improper access control to messages of Social app (NC-SA-2020-042)</title>
+  <description>Improper access control in Social app 0.3.1 allowed to read posts of any user.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-042&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-042</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-042</guid>
+  <pubDate>Thu, 15 Oct 2020 14:00:00 +0200</pubDate>
+ </item><item>
   <title>Server: Improper integrity protection of server-side encryption keys (NC-SA-2020-041)</title>
   <description>Insufficient protection of the server-side encryption keys in Nextcloud Server 19.0.1 allowed an attacker to replace the encryption keys.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-041&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-041</link>
