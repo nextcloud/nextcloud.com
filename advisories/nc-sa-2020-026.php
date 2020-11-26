@@ -27,7 +27,7 @@
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
-            <li><a href="https://nextcloud.com/" target="_blank" rel="noreferrer"> - Nextcloud GmbH - Vulnerability discovery and disclosure.</a></li>
+            <li><a href="https://nextcloud.com/" target="_blank" rel="noreferrer">N/A - Nextcloud GmbH - Vulnerability discovery and disclosure.</a></li>
         </ul>
         <br/>
         <small style="color:grey">This advisory is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</small>
