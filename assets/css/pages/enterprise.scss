@@ -25,15 +25,15 @@
 }
 
 .section--benefits {
-	padding-top: 0; // due to margin-top above h2
+
 	h2 {
-		margin-top: 100px;
-        margin-bottom: 0px; // due to images having lots of white space above them
+        margin-bottom: 3px;
+
 	}
 	.ilustration {
 		max-width: 900px;
-		margin: 0 auto;
-		padding: 60px 0;
+		margin: 0px auto 0 auto;
+		padding: 60px;
 		svg {
 			display: block !important;
 			margin-left: auto !important;
