@@ -87,7 +87,7 @@ require(["require.config"], function() {
         </div>
         <div class="col-lg-4 col-md-6">
             <div class="quote--container">
-                <blockquote class="quote--paragraph">I store everything in NextCloud</blockquote>
+                <blockquote class="quote--paragraph">I store everything in Nextcloud</blockquote>
                 <div class="quote--brand">
                     <a href="https://www.wired.com/story/how-to-sync-your-data-everywhere/"><div class="quote--wired--logo"></div></a>
                 </div>
