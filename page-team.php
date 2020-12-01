@@ -83,7 +83,7 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/roeland.jpg" />
 				<h2 class="teamname">Roeland Douma</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">‘Server Engineering and Support Lead</h3>
+					<h3 class="teamtitle">Server Engineering and Support Lead</h3>
 					<h4 class="teamexpertise">Co-founder, Security, Sharing</h4>
 					<h4 class="teamlocation">lives in Zuidoostbeemster, Netherlands</h4>
 					<p class="teamsocial"><a href="http://rullzer.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/rullzer"><i class="fa-github fa"></i></a> </p>
