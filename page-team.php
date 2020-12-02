@@ -282,6 +282,19 @@
     <div class="row">
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Alex Zolotov</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Desktop Client</h4>
+					<h4 class="teamlocation">Brovary, Ukraine</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/alexander-zolotov-78ab7b70/"><i class="fa-linkedin fa"></i></a> <a href="https://github.com/allexzander"><i class="fa-github fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Alex has a master's degree in computer science. He worked in the gaming industry on well-known game franchises doing C++ and ActionScript but also freelanced while traveling through South East Asia in a variety of front-end and back-end work with JS, and even more with C++ and Qt. He's into cyberpunk and 80's heavy metal.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/arthur.jpg" />
 				<h2 class="teamname">Arthur Schiwon</h2>
 				<div class="teammeta">
