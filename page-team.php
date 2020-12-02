@@ -290,7 +290,7 @@
 					<h4 class="teamlocation">Brovary, Ukraine</h4>
 					<p class="teamsocial"><a href="https://www.linkedin.com/in/alexander-zolotov-78ab7b70/"><i class="fa-linkedin fa"></i></a> <a href="https://github.com/allexzander"><i class="fa-github fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Alex has a master's degree in computer science. He worked in the gaming industry on well known game franschises doing C++ and ActionScript but also freelanced in South East Asia in a variety of front-end and back-end work from JS to NoSQL fun, as well as more C++ and Qt. He's into cyberpunk and 80's heavy metal.</p>
+				<p class="teamdescription">Alex has a master's degree in computer science. He worked in the gaming industry on well-known game franchises doing C++ and ActionScript but also freelanced while traveling through South East Asia in a variety of front-end and back-end work with JS, and even more with C++ and Qt. He's into cyberpunk and 80's heavy metal.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
