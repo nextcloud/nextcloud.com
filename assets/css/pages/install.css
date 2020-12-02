@@ -98,8 +98,10 @@ footer {
     .content .PopupGetStarted .instructions {
       position: absolute;
       max-width: 95%;
-      padding: 15px;
-      margin: 130px auto 0 auto;
+	  padding: 0 32px 32px 32px;
+	  height: 80vh;
+	  overflow-y: auto;
+      margin: 10vh auto 0 auto;
       background: white !important;
       /* I seem to have to enforce this, comes from main.min.css*/
       border-radius: 4px;
@@ -134,7 +136,6 @@ footer {
       text-decoration: none; }
     .content .PopupGetStarted ul.nav-tabs {
       position: absolute;
-      margin-top: 0px;
       font-size: 15px;
       font-weight: 400;
       border: none;
@@ -162,7 +163,7 @@ footer {
         .content .PopupGetStarted ul.nav-tabs li i {
           /* 				font-size: 13px; */ }
         .content .PopupGetStarted ul.nav-tabs li:focus, .content .PopupGetStarted ul.nav-tabs li:hover, .content .PopupGetStarted ul.nav-tabs li:active, .content .PopupGetStarted ul.nav-tabs li.active {
-          border-bottom: 1px solid #333; }
+          border-bottom: 2px solid #333; }
           .content .PopupGetStarted ul.nav-tabs li:focus a, .content .PopupGetStarted ul.nav-tabs li:hover a, .content .PopupGetStarted ul.nav-tabs li:active a, .content .PopupGetStarted ul.nav-tabs li.active a {
             margin: 0 auto;
             text-align: center;
@@ -223,6 +224,18 @@ footer {
   @media (max-width: 996px) {
     .content hr.narrow {
       display: block;
-      margin-top: 50px; } }
+	  margin-top: 50px; } }
+	  
+.navigation-row {
+	position: sticky;
+    top: 0;
+    background-color: white;
+    height: 90px;
+    z-index: 1;
+}
+
+.install-close {
+	margin-top: 4px !important;
+}
 
 /*# sourceMappingURL=install.css.map */

@@ -1,8 +1,8 @@
 <div class="installers">
 	<div id="install-clients" name="install-clients" class="container row PopupGetStarted">
 		<div class="instructions">
-			<div class="row">
-				<a href="#" class="close">&times;</a>
+			<div class="row navigation-row">
+				<a href="#" class="close install-close">&times;</a>
 				<ul class="install-nav nav-tabs" role="tablist">
 					<li id="li-tab-desktop" class="active">
                         <a href="#tab-desktop" title="Download for desktop" role="tab" data-toggle="tab">

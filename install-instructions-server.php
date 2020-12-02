@@ -1,8 +1,8 @@
 <div class="installers">
 	<div id="instructions-server" class="container row PopupGetStarted">
 		<div class="instructions">
-            <div class="row">
-                <a href="#" class="close">&times;</a>
+            <div class="row navigation-row">
+                <a href="#" class="close install-close">&times;</a>
                 <ul class="install-nav nav-tabs" role="tablist">
                     <li id="li-tab-archive" class="active">
                         <a href="#tab-archive" title="For server owners" role="tab" data-toggle="tab">
