@@ -10828,6 +10828,9 @@ blockquote.twitter-tweet {
     margin-left: auto; }
   .section--whitepaper .wp-center .mail, .whitepaper .wp-center .mail {
     width: 100%;
-    max-width: 500px; }
-
+	max-width: 500px; }
+	
+	.download--description_server {
+		margin-top: 48px
+	}
 /*# sourceMappingURL=custom.css.map */

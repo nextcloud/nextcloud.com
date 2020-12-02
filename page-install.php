@@ -12,31 +12,33 @@
 <div class="container">
 
 <div class="row download--description">
-	<div class="col-md-4">
-		<div class="numbadge centre devicebadge">
-			<i class="fa-server"></i>
-		</div>
-		<h2><?php echo $l->t('Server');?></h2>
-		<p><?php echo $l->t('There are several ways to get your own Nextcloud for you and your data.');?></p>
-        <p class="text-center"><a class="button button--blue button--large" href="#instructions-server"  ><?php echo $l->t('Download for server');?></a></p>
-        <p class="text-center"><a class="button button--white" href="<?php echo home_url('signup'); ?>"><?php echo $l->t('Sign up with a provider');?></a></p>
-        <p class="text-center"><a class="hyperlink" href="<?php echo home_url('devices') ?>"><?php echo $l->t('Buy devices');?></a> &nbsp; &nbsp; <a class="hyperlink" href="<?php echo home_url('providers') ?>"><?php echo $l->t('Find a provider');?></a> <br> <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Enterprise Solutions');?></a></p>
-	</div>
-	<div class="col-md-4">
+	<div class="col-md-6">
 		<div class="numbadge centre devicebadge">
 			<i class="fa-laptop"></i>
 		</div>
 		<h2><?php echo $l->t('Desktop');?></h2>
-		<p><?php echo $l->t('Connect to your Nextcloud with our clients for Windows, macOS and Linux.');?></p>
+		<p class="text-center"><?php echo $l->t('Connect to your Nextcloud from Windows, macOS or Linux.');?></p>
 		<p class="text-center"><a class="button button--blue button--large" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients"><?php echo $l->t('Download for desktop');?></a></p>
 	</div>
-	<div class="col-md-4">
+	<div class="col-md-6">
 		<div class="numbadge centre devicebadge">
 			<i class="fa-mobile"></i>
 		</div>
 		<h2><?php echo $l->t('Mobile');?></h2>
-		<p><?php echo $l->t('Use your Nextcloud on the go with our Android and iOS apps.');?></p>
-        <p class="text-center"><a class="button button--blue button--large" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients"><?php echo $l->t('Mobile apps');?></a></p>
+		<p class="text-center"><?php echo $l->t('Use your Nextcloud on the go with our Android and iOS apps.');?></p>
+		<p class="text-center"><a class="button button--blue button--large" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients"><?php echo $l->t('Mobile apps');?></a></p>
+	</div>
+</div>
+
+<div class="row download--description download--description_server">
+	<div class="col-md-12">
+		<div class="numbadge centre devicebadge">
+			<i class="fa-server"></i>
+		</div>
+		<h2><?php echo $l->t('Server');?></h2>
+		<p class="text-center"><?php echo $l->t('Stay in control of your data!');?><br><?php echo $l->t('Choose one of the providers or download the Nextcloud server for self hosting.');?></p>
+		<p class="text-center"><a class="button button--blue button--large" href="<?php echo home_url('signup'); ?>"><?php echo $l->t('Sign up with a provider');?></a> <a class="button button--white button--large" href="#instructions-server"  ><?php echo $l->t('Download for server');?></a></p>
+		<p class="text-center"><a class="hyperlink" href="<?php echo home_url('devices') ?>"><?php echo $l->t('Buy devices');?></a> &nbsp; &nbsp; <a class="hyperlink" href="<?php echo home_url('providers') ?>"><?php echo $l->t('Find a provider');?></a> &nbsp; &nbsp; <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Enterprise Solutions');?></a></p>
 	</div>
 </div>
 
