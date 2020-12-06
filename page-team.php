@@ -490,6 +490,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">	Marcel Hibbe</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Android Talk app</h4>
+					<h4 class="teamlocation">lives in Berlin, Germany</h4>
+					<p class="teamsocial"> <a href="https://github.com/mahibi"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Marcel has a master's degree in Geoinformation and Visualization at University of Potsdam and has been developing mapping web applications, working on routing and naviation related topics.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marco.jpg" />
 				<h2 class="teamname">Marco Ambrosini</h2>
 				<div class="teammeta">
