@@ -70,7 +70,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <h2 class=""><?php echo $l->t('NCC Group security review');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download the full NCC Group security review report');?><br>
                      <td colspan="2" style="text-align:center">
                     <div class="">

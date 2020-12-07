@@ -119,7 +119,7 @@
         <div class="row">
 			<div class="col-lg-8">
                 <h2><?php echo $l->t('Get our datasheet');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our free datasheet: <br /> File Access Control and Retention');?><br>
                     <td colspan="2" style="text-align:center">
                     <div class="">

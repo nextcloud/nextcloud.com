@@ -29,7 +29,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('Architecture Overview');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Get an overview of the Nextcloud architecture and capabilities like user management, external storage and more.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField1"></div>
@@ -57,7 +57,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('Security');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('The Nextcloud security white paper gives an overview of the security features and processes designed to keep data in Nextcloud confidential.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField2"></div>
@@ -85,7 +85,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('Server-side Encryption');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Nextcloud features server-side encryption to encrypt data at rest. It is particularly powerful when used with external storage as it ensures keys never leave the Nextcloud server.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField3"></div>
@@ -113,7 +113,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('TU Berlin Migration');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('The TU Berlin successfully migrated 30.000 users to Nextcloud, achieving near 50% lower database load and feature benefits. Find out what their setup looks like today.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField4"></div>
@@ -141,7 +141,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('German Radio and TV');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('IVZ, Germany’s public radio and television deploys Nextcloud with ONLYOFFICE for efficient file exchange and online content collaboration.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField4"></div>
@@ -169,7 +169,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('North-West University Study');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('The North-West University of South Africa improves user storage mobility, collaboration and productivity with Nextcloud and Collabora Online.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField7"></div>
@@ -197,7 +197,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('Konrad-Adenauer-Stiftung Case Study');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Keeping data secure for a globally distributed organization working with politically sensitive data.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField7"></div>
@@ -225,7 +225,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('End-to-end Encryption');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Nextcloud end-to-end encryption offers the ultimate protection for data, encrypting it on the client before sending it to the server.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField5"></div>
@@ -253,7 +253,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('NCC Group review');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('We had the security experts from the independent NCC Group review our security processes and capabilities. Read their full report!');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField6"></div>
@@ -281,7 +281,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('Global Scale');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Global Scale delivers aglobally scalable solution for deployments with hundreds of millions of users, control over data locality and significant cost reductions.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField7"></div>
@@ -309,7 +309,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('Casestudy DEGES');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Nextcloud provides project management organization DEGES a content collaboration platform to efficiently manage over € 22 billion in construction projects in Germany');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField7"></div>
@@ -337,7 +337,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('North-West University Study');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('The North-West University of South Africa improves user storage mobility, collaboration and productivity with Nextcloud and ONLYOFFICE.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField7"></div>
@@ -400,7 +400,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('Health care analysis');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('The Health care market poses a special challenge to IT, requiring immediate availability of life-saving data while securing Protected Health Information. Nextcloud is an uniquely fitting solution.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField8"></div>
@@ -428,7 +428,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('GDPR analysis');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('The GDPR offers a challenge for all enterprises looking to do business in Europe. European data centers as offered by Amazon, Dropbox or Microsoft are hardly a real solution: self-hosting is easier and safer.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField9"></div>
@@ -456,7 +456,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('GDPR Overview');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Our GDPR Overview document offers a basic 12 step process to GDPR compliance, as part of our GDPR Compliance Kit. Customers can download the complementing GDPR Admin Manual on our customer portal.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField15"></div>
@@ -484,7 +484,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('Monitoring and Auditing');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Monitoring is crucial to keep servers running smoothly. Nextcloud also features powerful activity tracking and compliance-ready auditing capabilities.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField10"></div>
@@ -514,7 +514,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('Workflow and File Access Control');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Nextcloud features a powerful File Access Control feature to ensure only authorized file access. Our Workflow and data retention capabilites help optimize processes in the enterprise.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField11"></div>
@@ -542,7 +542,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('User management with LDAP');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Nextcloud features integration with external user directories like LDAP/Active Directory or others as well as built-in account management, two-factor authentication and Single-sign-on support.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField12"></div>
@@ -570,7 +570,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('Windows Network Drive');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Nextcloud supports a wide range of External Storage solutions, enabling enterprises to keep their data where it is while making it seamlessly available through Nextcloud. Windows Network Drive is one such integration available.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField13"></div>
@@ -598,7 +598,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('SharePoint Integration');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Nextcloud supports a wide range of External Storage solutions, enabling enterprises to keep their data where it is while making it seamlessly available through Nextcloud. SharePoint is one such integration available.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField14"></div>
@@ -628,7 +628,7 @@
 					<h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Outlook Add-in');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Microsoft Outlook is a standard in most offices and Nextcloud offers integration through our add-in, making sharing large files easier & more secure and tracking downloads or uploads by recipients.');?></p>
                 </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <td colspan="2">
                     <div class="recaptcha">
                         <div id="RecaptchaField15"></div>

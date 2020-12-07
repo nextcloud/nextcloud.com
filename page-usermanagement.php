@@ -151,7 +151,7 @@
         <div class="row">
 			<div class="col-lg-8">
                 <h2 class=""><?php echo $l->t('Get our LDAP datasheet');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our free datasheet: <br /> LDAP user management');?><br>
                     <td colspan="2">
                     <div class="">

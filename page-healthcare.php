@@ -57,7 +57,7 @@ require(["require.config"], function() {
                 <h2><?php echo $l->t('Analysis: data in healthcare');?></h2>
                 <p><?php echo $l->t('We recommend to keep sensitive data on your own infrastructure instead of in a public cloud as the easiest and most cost-effective way of ensuring compliance.<br />Download our free healthcare security analysis.');?></p>
 
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
 
                     <p><label for="email">
                     <td colspan="2" style="text-align:center">
@@ -339,7 +339,7 @@ require(["require.config"], function() {
         <div class="col-md-offset-4 col-md-4 wp-center">
             <p>
             <div class="row "><img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/architecture-thumbnail-banner.png"/></div>
-            <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+            <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
                 <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper');?><br>
                 <input class="mail text-center" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
                 <td colspan="2" style="">
