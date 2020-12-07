@@ -498,7 +498,7 @@
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"> <a href="https://github.com/mahibi"><i class="fa-github fa"></i></a></p>
 				</div>
-				<p class="teamdescription">Marcel has a master's degree in Geoinformation and Visualization at University of Potsdam and has been developing mapping web applications, working on routing and naviation related topics.</p>
+				<p class="teamdescription">Marcel has a master's degree in Geoinformation and Visualization at University of Potsdam and has been developing mapping web applications, working on routing and navigation related topics.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
