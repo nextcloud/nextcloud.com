@@ -58,7 +58,7 @@ try {
     $whitepaper_url = $storeArray[$whitepaper_nr]['whitepaper_url'];
 
     if($newsletter === 1) {
-        subscribe($_POST['email']);
+        subscribe($email_to);
     }
 
 // send email
