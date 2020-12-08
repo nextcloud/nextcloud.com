@@ -48,8 +48,8 @@ try {
     if(!filter_var($email_to, FILTER_VALIDATE_EMAIL)) {
         throw new HintException('The email address supplied is invalid.');
     }
-    $newsletter= $_POST['moreinfo'];
-    $whitepaper_nr = $_POST['segmentId'];
+    $newsletter = (int)$_POST['moreinfo'];
+    $whitepaper_nr = (int)$_POST['segmentId'];
 
 // turn $whitepapernr into $whitepaper_name and $whitepaper_url from a json file
     $storeVar = file_get_contents(get_template_directory_uri()."/assets/whitepapers.json");
@@ -57,7 +57,7 @@ try {
     $whitepaper_name = $storeArray[$whitepaper_nr]['whitepaper_name'];
     $whitepaper_url = $storeArray[$whitepaper_nr]['whitepaper_url'];
 
-    if($newsletter == 1) {
+    if($newsletter === 1) {
         subscribe($_POST['email']);
     }
 
@@ -71,8 +71,9 @@ try {
     $email_subject = "Whitepaper download: ".clean_string($whitepaper_name);
     $email_message .= "Download our ".clean_string($whitepaper_name)." paper here:\n";
     $email_message .= "<".clean_string($whitepaper_url).">\n\n";
+    $email_from = 'no-reply@nextcloud.com';
 // add note that we added them to our newsletter (if they did tick the box)
-     if($newsletter == 1) {
+     if($newsletter === 1) {
         $email_message .= "We have subscribed you to the Nextcloud newsletter, thank you for your interest!\n\n";
     }
     $email_message .= "If you have any questions about the whitepaper or Nextcloud,\n please contact our sales team through our website.\n <https://nextcloud.com/contact>\n";
