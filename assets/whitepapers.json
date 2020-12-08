@@ -1,11 +1,9 @@
 {
     "0": {
-        "whitepaper_nr": "0",
         "whitepaper_name": "Architecture Overview",
         "whitepaper_url": "https://nextcloud.com/media/wp135098u/architecture_overview.pdf"
     },
     "1": {
-        "whitepaper_nr": "1",
         "whitepaper_name": "Security Overview",
         "whitepaper_url": "https://nextcloud.com/media/wp135098u/security_overview.pdf"
     }
