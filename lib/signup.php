@@ -3,6 +3,7 @@
 use GeoIp2\Database\Reader;
 
 require_once realpath(dirname(__FILE__)) . '/../vendor/autoload.php';
+require_once realpath(dirname(__FILE__)) . '/newsletter-api.php';
 require_once realpath(dirname(__FILE__)) . '/../config.php';
 
 const USER_AGENT_CLIENT_ANDROID = '/^Mozilla\/5\.0 \(Android\) (ownCloud|Nextcloud)\-android.*$/';
@@ -248,30 +249,10 @@ function get_providers_list() {
 	return $json;
 }
 
-function subscribe($email) {
-
-	$data = array(
-		'headers' => array(
-			'Content-Type' => 'application/x-www-form-urlencoded;charset=UTF-8'
-		),
-		'body'    => 'login=' . NEWSLETTER_API_USER . '&password=' . NEWSLETTER_API_TOKEN,
-		'timeout' => 5
-	);
-
-	// login
-	$post = wp_remote_post(NEWSLETTER_API_URL . '&cmd=login', $data);
-
-	// subscribe
-	$data['body'] .= '&email=' . $email . '&lists=' . NEWSLETTER_ID;
-	$post = wp_remote_post(NEWSLETTER_API_URL . '&cmd=subscribe', $data);
-
-	return $post;
-}
-
 function get_statistics($params) {
 	if ($_GET['key'] && $_GET['key'] === PPP_KEY) {
 		global $redis;
-		
+
 		// select every proper timestamp ()
 		// TODO: change the timestamp for May 18, 2033 @ 5:33:20 am 😂
 		$keys = $redis->keys('1*');

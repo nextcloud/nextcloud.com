@@ -18,8 +18,9 @@
 </section>
 
 <?php
-include __DIR__ . '/vendor/autoload.php';
-include __DIR__ . '/config.php';
+require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/lib/newsletter-api.php';
 
 class HintException extends \Exception {
     private $hint;
@@ -57,7 +58,7 @@ try {
     $whitepaper_url = $storeArray[$whitepaper_nr]['whitepaper_url'];
 
     if($newsletter == 1) {
-// TODO subscribe $email_to to newsletter
+        subscribe($_POST['email']);
     }
 
 // send email
