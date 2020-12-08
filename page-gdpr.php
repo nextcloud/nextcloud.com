@@ -215,7 +215,7 @@
         <div class="row">
 			<div class="col-lg-8">
                 <h2><?php echo $l->t('Get our whitepaper');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p class="section--paragraph"><label for="email"><?php echo $l->t('Our GDPR Overview document offers a basic 12 step process to GDPR compliance, as part of our GDPR Compliance Kit. Customers can download the complementing GDPR Admin Manual on our customer portal.');?><br>
                     <td colspan="2" style="text-align:center">
                     <div class="">
@@ -410,7 +410,7 @@
         <div class="col-md-offset-4 col-md-4 wp-center">
             <p>
             <div class="row "><img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/architecture-thumbnail-banner.png"/></div>
-            <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
+            <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper!');?><br>
                     <td colspan="2">
                     <div class="">

@@ -42,7 +42,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <h2><?php echo $l->t('Windows Network Drive');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our free Windows Network Drive datasheet');?><br>
                      <td colspan="2" style="text-align:center">
                     <div class="">
@@ -103,7 +103,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <h2><?php echo $l->t('SharePoint Integration');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our free datasheet on SharePoint as External Storage');?><br>
                      <td colspan="2" style="text-align:center">
                     <div class="">

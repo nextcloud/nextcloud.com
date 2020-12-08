@@ -145,7 +145,7 @@
         <div class="row">
 			<div class="col-lg-8">
                 <h2><?php echo $l->t('Get our datasheet');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our free auditing and monitoring datasheet!');?><br>
                     <td colspan="2">
                     <div class="">

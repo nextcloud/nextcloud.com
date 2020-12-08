@@ -530,7 +530,7 @@
         <div class="col-md-offset-4 col-md-4 wp-center">
             <p>
             <div class="row "><img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/architecture-thumbnail-banner.png"/></div>
-            <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
+            <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                 <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper');?><br>
                 <input class="mail text-center" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
                 <td colspan="2" style="">

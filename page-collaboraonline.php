@@ -44,7 +44,7 @@
         <div class="row">
 			<div class="col-lg-8">
                 <h2><?php echo $l->t('North-West University<br/> Case Study');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Get the free case study:');?><br>
                     <?php echo $l->t('The North-West University of South Africa improves user storage mobility,<br /> collaboration and productivity with Nextcloud and Collabora Online.');?><br>
                     <td colspan="2" style="text-align:center">

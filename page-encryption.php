@@ -63,7 +63,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <h2><?php echo $l->t('Server-side Encryption');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our free whitepaper');?><br>
                      <td colspan="2" style="text-align:center">
                     <div class="">
@@ -177,7 +177,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <h2><?php echo $l->t('End-to-end Encryption');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our free whitepaper');?><br>
                      <td colspan="2" style="text-align:center">
                     <div class="">

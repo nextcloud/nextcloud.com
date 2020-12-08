@@ -257,7 +257,7 @@
         </div>
         <div class="row">
             <div class="col-lg-8">
-                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper!');?><br>
                     <td colspan="2">
                     <div class="">
@@ -286,7 +286,7 @@
         <div class="row">
 			<div class="col-lg-8">
                 <h2><?php echo $l->t('<span class="avoidwrap">How the TU Berlin delivers</span> <span class="avoidwrap">file sync and share</span> <span class="avoidwrap">to 22.000 users</span>');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo home_url('mautic-submit') ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our free case study: <br /> TU Berlin and 9 other institutions migrate to Nextcloud');?><br>
                     <td colspan="2" style="text-align:center">
                     <div class="">
