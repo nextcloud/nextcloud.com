@@ -82,14 +82,14 @@ try {
     $headers = "From: ".$email_from."\r\n".
     'Reply-To: '.$email_from."\r\n" .
     'Content-Type: text/plain; charset=UTF-8'."\r\n";
-// store in log
-    $data = [
-        'to' => $email_to,
-        'subject' => $email_subject,
-        'message' => $email_message,
-        'headers' => $headers,
-    ];
-    file_put_contents('/var/log/whitepapers.txt', json_encode($data) . PHP_EOL, FILE_APPEND | LOCK_EX);
+// store in log (we could enable this for debugging but it is otherwise not really useful so let's keep it off)
+//     $data = [
+//         'to' => $email_to,
+//         'subject' => $email_subject,
+//         'message' => $email_message,
+//         'headers' => $headers,
+//     ];
+//     file_put_contents('/var/log/whitepapers.txt', json_encode($data) . PHP_EOL, FILE_APPEND | LOCK_EX);
 // Send the email
     @mail($email_to, $email_subject, $email_message, $headers);
 

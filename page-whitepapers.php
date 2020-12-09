@@ -19,6 +19,7 @@
 <div class="container">
     <h1 class="section--heading-2"><?php echo $l->t('Whitepapers and case studies');?></h1>
     <p class="section--paragraph"><?php echo $l->t('The Nextcloud white papers and case studies give a deep-dive in Nextcloud technology, processes around security, scalability and real-world benefits of deployments.');?></p>
+    <p class="section--paragraph"><small><?php echo $l->t('Note: unless you opt in to the newsletter, we do not store your email address, we just email you the link to the whitepaper.');?></small></p>
 	<div class="row list display-flex">
 		<div class="col-md-3">
             <div class="row wpthumbnail">
