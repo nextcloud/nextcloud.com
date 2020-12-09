@@ -273,7 +273,8 @@
     </div>
     <div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-            <stream src="4b66104c586170a4dc5b6ebbed80b193" controls preload poster="https://nextcloud.com/media/Home-Office-video-thumb.jpg"></stream> <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=4b66104c586170a4dc5b6ebbed80b193"></script>
+            <stream src="4b66104c586170a4dc5b6ebbed80b193" controls preload poster="<?php bloginfo('template_directory'); ?>/assets/img/features/homeoffice-video.png">
+            </stream> <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=4b66104c586170a4dc5b6ebbed80b193"></script>
         </div>
     </div>
 </div>

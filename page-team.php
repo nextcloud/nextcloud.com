@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/team.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/team.css?v=1" rel="stylesheet">
 <script>
 	require(["require.config"], function() {
 		require(["modules/submenu"])
@@ -486,6 +486,19 @@
 					<p class="teamsocial"><a href="https://ervin.ipsquad.net"><i class="fa-rss fa"></i></a> <a href="https://github.com/er-vin"><i class="fa-github fa"></i></a> <a href="https://mamot.fr/@ervin"><i class="fa-mastodon fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Kevin Ottens has a Ph.D. in artificial intelligence which led him to focus on Ontology engineering and multi-agent systems. As a student, he fell in love with the KDE community and never stopped contributing code. Lately, he has been also helping with the community stewardship, for instance participating in the creation of the KDE Manifesto. Nowadays he spends time rethinking his job via a strong interest in software craftsmanship and graphics facilitation.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Marcel Hibbe</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Android Talk app</h4>
+					<h4 class="teamlocation">lives in Berlin, Germany</h4>
+					<p class="teamsocial"> <a href="https://github.com/mahibi"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Marcel has a master's degree in Geoinformation and Visualization at University of Potsdam and has been developing mapping web applications, working on routing and navigation related topics.</p>
 			</div>
 		</div>
 		<div class="col-md-4">

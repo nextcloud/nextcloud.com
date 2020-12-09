@@ -1,24 +1,23 @@
-<!-- TODO: add usual headers and nice look to replace what I have below -->
+<head>
+<script>
+	require(["require.config"], function() {
+		require(["pages/enterprise"])
+	});
+</script>
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/enterprise.css" rel="stylesheet">
+</head>
+<section class="enterprise-hero-section second-menu">
+	<div class="container-fluid background">
+		<div class="container">
+			<div class="col-md-6 topheader">
+                <h1><?php echo $l->t('Nextcloud Enterprise');?></h1>
+                <h2><?php echo $l->t('The enterprise-ready Content Collaboration Platform');?></h2>
+			</div>
+		</div>
+	</div>
+</section>
 <style>
-h3 {
-    font-family: 'Open Sans', Frutiger, Calibri, 'Myriad Pro', Myriad, sans-serif;
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 1.5;
-    color: #555;
-    text-align: center;
-    margin: 30vh auto 20px auto;
-}
-p {
-    font-family: 'Open Sans', Frutiger, Calibri, 'Myriad Pro', Myriad, sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 1;
-    color: #555;
-    text-align: center;
-    margin: 10px auto;
-}
-</style>
+
 <?php
 include __DIR__ . '/vendor/autoload.php';
 include __DIR__ . '/config.php';

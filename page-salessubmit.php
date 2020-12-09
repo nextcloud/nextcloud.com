@@ -10,8 +10,8 @@
 	<div class="container-fluid background">
 		<div class="container">
 			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Get support from the source');?></h1>
-				<h2><?php echo $l->t('The best expertise whenever you need it!');?></h2>
+                <h1><?php echo $l->t('Nextcloud Enterprise');?></h1>
+                <h2><?php echo $l->t('The enterprise-ready Content Collaboration Platform');?></h2>
 			</div>
 		</div>
 	</div>
