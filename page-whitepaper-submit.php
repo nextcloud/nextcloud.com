@@ -71,15 +71,15 @@ try {
     $email_subject = "Whitepaper download: ".clean_string($whitepaper_name);
     $email_message .= "Download our ".clean_string($whitepaper_name)." paper here:\n";
     $email_message .= "<".clean_string($whitepaper_url).">\n\n";
-    $email_from = 'no-reply@nextcloud.com';
+    $email_from = "sales@nextcloud.com";
 // add note that we added them to our newsletter (if they did tick the box)
      if($newsletter === 1) {
         $email_message .= "We have subscribed you to the Nextcloud newsletter, thank you for your interest!\n\n";
     }
-    $email_message .= "If you have any questions about the whitepaper or Nextcloud,\n please contact our sales team through our website.\n <https://nextcloud.com/contact>\n";
+    $email_message .= "If you have any questions about the whitepaper or Nextcloud,\nplease contact our sales team by replying to this message or\nthrough our website.\n<https://nextcloud.com/contact>\n";
 
 // create email headers
-    $headers = 'From: no-reply@nextcloud.com'."\r\n".
+    $headers = "From: ".$email_from."\r\n".
     'Reply-To: '.$email_from."\r\n" .
     'Content-Type: text/plain; charset=UTF-8'."\r\n";
 // store in log
@@ -102,6 +102,9 @@ try {
             <h3>Thank you for requesting a white paper, case study or datasheet!</h3>
             <p>A link to download our <?php echo($whitepaper_name); ?> paper has been sent to <?php echo($email_to); ?>.</p>
             <p>check your spam folder if you can't find it!</p>
+            <?php  if($newsletter === 1) { ?>
+                <p>We have subscribed you to the Nextcloud newsletter, thank you for your interest!</p>
+            <?php } ?>
 
         </div>
     </section>
