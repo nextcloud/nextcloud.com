@@ -27,13 +27,34 @@ require(["require.config"], function() {
 <?php
   // This is ordered by:
   //  * available
-  //  * announced
+  //  * announced or pre-order
   //  * not available any more
 ?>
 
 <section class="section--devices">
     <div class="container">
         <h4>Currently available</h4>
+        <div class="row feature--block">
+            <div class="col-md-5">
+                <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-odroid-hc2/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/ubosbox-nextcloud-on-odroid-hc2-500x375.jpg" class="img-responsive featureimg" /></a>
+            </div>
+            <div class="col-md-7">
+                <h3 class="section--paragraph__title"><?php echo $l->t('UBOSbox Nextcloud on ODROID-HC2 &ndash; Home/Office Server');?></h3>
+                <p class="section--paragraph"><em><?php echo $l->t('Large disk options on this NAS-class device');?></em></p>
+                <ul class="section--paragraph" style="list-style-type: disc">
+                    <li><?php echo $l->t('Preconfigured: UBOS Linux (pre-installed) and Nextcloud plus apps (auto-install on first boot)');?></li>
+                    <li><?php echo $l->t('Can be set up and maintained without attached monitor and keyboard')?></li>
+                    <li><?php echo $l->t('Choose from several large disk options up to 8TB (larger on request)')?></li>
+                    <li><?php echo $l->t('Easy day-to-day management: upgrades, backups, network configuration and more are just a single command')?></li>
+                    <li><?php echo $l->t('UBOS Live systems management service for automatic upgrades, remote systems diagnosis and troubleshooting (option)');?></li>
+                </ul>
+                <div class="devices-tags">
+                    <span>Commercial</span>
+                    <span>Managed</span>
+                </div>
+                <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more and order');?></a>
+            </div>
+        </div>
         <div class="row feature--block">
             <div class="col-md-5">
                 <a href="https://shop.hanssonit.se/product-category/nextcloud/home-sme-server/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/nuc10side.jpeg" class="img-responsive featureimg" /></a>
@@ -75,7 +96,8 @@ require(["require.config"], function() {
                 <p class="section--paragraph"><em><?php echo $l->t('Fully-assembled based on Intel NUC with optional management service');?></em></p>
                 <ul class="section--paragraph" style="list-style-type: disc">
                     <li><?php echo $l->t('Preconfigured: UBOS Linux (pre-installed) and Nextcloud plus apps (auto-install on first boot)');?></li>
-                    <li><?php echo $l->t('Designed for use without monitor and keyboard')?></li>
+                    <li><?php echo $l->t('Can be set up and maintained without attached monitor and keyboard')?></li>
+                    <li><?php echo $l->t('Choose low power option for energy-conscious 24x7 operation or speed option for many concurrent users')?></li>
                     <li><?php echo $l->t('Easy day-to-day management: upgrades, backups, network configuration and more are just a single command')?></li>
                     <li><?php echo $l->t('UBOS Live systems management service for automatic upgrades, remote systems diagnosis and troubleshooting (option)');?></li>
                 </ul>
@@ -86,6 +108,23 @@ require(["require.config"], function() {
                 <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more and order');?></a>
             </div>
         </div>
+        <div class="row feature--block">
+            <div class="col-md-5">
+                <img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/MOX.png" class="img-responsive featureimg" />
+            </div>
+            <div class="col-md-7">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Turris MOX: Cloud');?></h3>
+                <p class="section--paragraph"><em><?php echo $l->t('Modular router comes with private cloud module.');?></em></p>
+                <p class="section--paragraph"><?php echo $l->t('The Turris MOX: Cloud bundle  is a ready-to-go kit with a 64bit dualcore CPU, 1GB RAM, wifi connectivity and four USB 3.0 ports for attaching storage. The MOX makes it easy for users to set up RAID storage and Nextcloud for hosting and can be extended with other router modules like network ports.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The Turris MOX: Cloud bundle is available for pre-order with a 34% discount for 115 dollar until the end of the fundraising. Final pricing to be determined.');?></p>
+                <div class="devices-tags">
+                    <span>Commercial</span>
+                </div>
+                <a href="https://nextcloud.com/blog/turris-mox-adds-nextcloud-to-put-users-back-in-control-over-their-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+            </div>
+        </div>
+
+        <h4>Announced and available for pre-order</h4>
         <div class="row feature--block">
             <div class="col-md-5">
                 <a href="https://www.homedrive.io/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/homedrive.png" class="img-responsive featureimg" /></a>
@@ -103,42 +142,6 @@ require(["require.config"], function() {
                     <span>Managed</span>
                 </div>
                 <a href="https://www.homedrive.io/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
-            </div>
-        </div>
-        <div class="row feature--block">
-            <div class="col-md-5">
-                <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-raspberrypi/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/ubosbox-nextcloud-on-raspberrypi-on-500x375.png" class="img-responsive featureimg" /></a>
-            </div>
-            <div class="col-md-7">
-                <h3 class="section--paragraph__title"><?php echo $l->t('UBOSbox Nextcloud on Raspberry Pi &ndash; Home Server (kit)');?></h3>
-                <p class="section--paragraph"><em><?php echo $l->t('Complete kit for the enthusiast; physical assembly (but no software installation) required');?></em></p>
-                <ul class="section--paragraph" style="list-style-type: disc">
-                    <li><?php echo $l->t('Preconfigured: UBOS Linux (pre-installed) and Nextcloud plus apps (auto-install on first boot)');?></li>
-                    <li><?php echo $l->t('Designed for use without monitor and keyboard')?></li>
-                    <li><?php echo $l->t('Easy day-to-day management: upgrades, backups, network configuration and more are just a single command')?></li>
-                    <li><?php echo $l->t('UBOS Live systems management service for automatic upgrades, remote systems diagnosis and troubleshooting (option)');?></li>
-                </ul>
-                <div class="devices-tags">
-                    <span>Commercial</span>
-                    <span>Managed</span>
-                    <span>Do-It-Yourself</span>
-                </div>
-                <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-raspberrypi/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more and order');?></a>
-            </div>
-        </div>
-        <div class="row feature--block">
-            <div class="col-md-5">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/MOX.png" class="img-responsive featureimg" />
-            </div>
-            <div class="col-md-7">
-                <h3 class="section--paragraph__title"><?php echo $l->t('Turris MOX: Cloud');?></h3>
-                <p class="section--paragraph"><em><?php echo $l->t('Modular router comes with private cloud module.');?></em></p>
-                <p class="section--paragraph"><?php echo $l->t('The Turris MOX: Cloud bundle  is a ready-to-go kit with a 64bit dualcore CPU, 1GB RAM, wifi connectivity and four USB 3.0 ports for attaching storage. The MOX makes it easy for users to set up RAID storage and Nextcloud for hosting and can be extended with other router modules like network ports.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('The Turris MOX: Cloud bundle is available for pre-order with a 34% discount for 115 dollar until the end of the fundraising. Final pricing to be determined.');?></p>
-                <div class="devices-tags">
-                    <span>Commercial</span>
-                </div>
-                <a href="https://nextcloud.com/blog/turris-mox-adds-nextcloud-to-put-users-back-in-control-over-their-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
             </div>
         </div>
 
