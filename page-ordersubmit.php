@@ -72,7 +72,8 @@ if(isset($_POST['email'])) {
     $collaboraCheck = $_POST['collaboraCheck']  === 'collaboraCheck' ? 'yes' : 'no';
     $onlyofficeCheck = $_POST['onlyofficeCheck']  === 'onlyofficeCheck' ? 'yes' : 'no';
     $outlook = $_POST['outlook'] === 'outlook' ? 'yes' : 'no';
-    $remoteinstall = $_POST['remoteinstall'] === 'remoteinstall' ? 'yes' : 'no';
+//     $remoteinstall = $_POST['remoteinstall'] === 'remoteinstall' ? 'yes' : 'no';
+    $remoteinstall = 'no';
     $givenprice = $_POST['givenPrice'];
     //$spreed = $_POST['spreed'];
     //$branding = $_POST['branding'];
@@ -141,20 +142,20 @@ if(isset($_POST['email'])) {
         $error_message .= '<li>Only "basic" and "standard" are valid subscriptions.</li>';
     } else {
         $basicNumbers = [
-            50 => 1900,
-            75 => 2650,
-            100 => 3400,
-            150 => 4400,
-            200 => 5400,
-            250 => 6400,
+            50 => 1995,
+            75 => 2782,
+            100 => 3570,
+            150 => 4620,
+            200 => 5670,
+            250 => 6720,
         ];
         $standardNumbers = [
-            50 => 3400,
-            75 => 4750,
-            100 => 6100,
-            150 => 7600,
-            200 => 9100,
-            250 => 10600,
+            50 => 3604,
+            75 => 5034,
+            100 => 6466,
+            150 => 8056,
+            200 => 9646,
+            250 => 11235,
         ];
 
         switch($edition) {
@@ -178,7 +179,7 @@ if(isset($_POST['email'])) {
 
             // OUTLOOK
             if ($outlook === 'yes') {
-                $outlookPrice = $users * 5;
+                $outlookPrice = $users * 7.2;
             }
 
             if ($edition === 'standard') {
@@ -242,15 +243,15 @@ if(isset($_POST['email'])) {
             } else {
                 switch ($duration) {
                     case 2:
-                        $usersPrice *= 1.9;
-                        $outlookPrice *= 1.9;
-                        $collaboraPrice *= 1.9;
+                        $usersPrice *= 1.92;
+                        $outlookPrice *= 1.92;
+                        $collaboraPrice *= 1.92;
                         $onlyofficePrice *= 2;
                         break;
                     case 3:
-                        $usersPrice *= 2.75;
-                        $outlookPrice *= 2.75;
-                        $collaboraPrice *= 2.75;
+                        $usersPrice *= 2.8;
+                        $outlookPrice *= 2.8;
+                        $collaboraPrice *= 2.8;
                         $onlyofficePrice *= 3;
                         break;
                 }

@@ -93,8 +93,8 @@ imagedestroy($image);
 			<hr>
 			<p><label for="users"><?php echo $l->t('Number of seats');?><br>
 			<select name="users" onChange="setUsers()">
-				<option value="50">50</option>
-				<option value="75">75</option>
+<!-- 				<option value="50">50</option> -->
+<!-- 				<option value="75">75</option> -->
 				<option value="100">100</option>
 				<option value="150">150</option>
 				<option value="200">200</option>
@@ -123,7 +123,7 @@ imagedestroy($image);
 				<option value="charity"><?php echo $l->t('Charitable');?></option>
 			</select></label>
 			<p><h3><?php echo $l->t('Optional features:');?></h3></p>
-			<input disabled type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>" target="_blank"><?php echo $l->t('our Outlook add-in <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 5/user)');?></span><br/>
+			<input disabled type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>" target="_blank"><?php echo $l->t('our Outlook add-in <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 7.20/user)');?></span><br/>
 			<p><h4><?php echo $l->t('Only with a Standard Subscription:');?></h4></p>
 			<input disabled id="collaboraCheck" type="checkbox" name="collaboraCheck" value="collaboraCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('collaboraonline') ?>" target="_blank">Collabora Online <i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('(€ 17/user for the first 100, € 16/user after that)');?></span><br/>
 			<input disabled id="onlyofficeCheck" type="checkbox" name="onlyofficeCheck" value="onlyofficeCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('onlyoffice') ?>" target="_blank">ONLYOFFICE <i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('(€ 935 for the first 250 users)');?></span><br/>
@@ -146,7 +146,7 @@ imagedestroy($image);
 				</small></p>
 			</div>-->
 			<!--<input disabled type="checkbox" name="spreed" value="spreed" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('webrtc') ?>" target="_blank">Spreed audio/video chat</a> (Eur 5/user)');?></span><br/>-->
-			<input disabled type="checkbox" name="remoteinstall" value="remoteinstall" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include one day remote installation/integration support (mail, telephone, video call) (€ 990)');?></span><br/>
+<!-- 			<input disabled type="checkbox" name="remoteinstall" value="remoteinstall" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include one day remote installation/integration support (mail, telephone, video call) (€ 990)');?></span><br/> -->
 			<!--<input disabled type="checkbox" name="branding" value="branding" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include branded clients (Eur 6000)');?></span><br/>-->
 			</p>
 			<h2 class="price"><?php echo $l->t('Price: ');?><span id="totalprice"></span><br></h2>
@@ -190,54 +190,54 @@ imagedestroy($image);
 		    {
 				if(usersNumber.value==50)
 				{
-					usersPrice = 1900;
+					usersPrice = 1995;
 				}
 				if(usersNumber.value=="75")
 				{
-					usersPrice = 2650;
+					usersPrice = 2782;
 				}
 				if(usersNumber.value=="100")
 				{
-					usersPrice = 3400;
+					usersPrice = 3570;
 				}
 				if(usersNumber.value=="150")
 				{
-					usersPrice = 4400;
+					usersPrice = 4620;
 				}
 				if(usersNumber.value=="200")
 				{
-					usersPrice = 5400;
+					usersPrice = 5670;
 				}
 				if(usersNumber.value=="250")
 				{
-					usersPrice = 6400;
+					usersPrice = 6720;
 				}
 			}
 		    if(chosenEdition.value=="standard")
 		    {
 				if(usersNumber.value=="50")
 				{
-					usersPrice = 3400;
+					usersPrice = 3604;
 				}
 				if(usersNumber.value=="75")
 				{
-					usersPrice = 4750;
+					usersPrice = 5034;
 				}
 				if(usersNumber.value=="100")
 				{
-					usersPrice = 6100;
+					usersPrice = 6466;
 				}
 				if(usersNumber.value=="150")
 				{
-					usersPrice = 7600;
+					usersPrice = 8056;
 				}
 				if(usersNumber.value=="200")
 				{
-					usersPrice = 9100;
+					usersPrice = 9646;
 				}
 				if(usersNumber.value=="250")
 				{
-					usersPrice = 10600;
+					usersPrice = 11235;
 				}
 			}
 			// apply multi-year discount and edu/gov/charity discount
@@ -312,11 +312,11 @@ imagedestroy($image);
 
 			if(contractLength.value==2)
 			{
-				return price *= 1.90;
+				return price *= 1.92;
 			}
 			else if(contractLength.value==3)
 			{
-				return price *= 2.75;
+				return price *= 2.8;
 			}
 			else return price;
 		}
@@ -333,7 +333,7 @@ imagedestroy($image);
 		    var includeCollaboraCheck = theForm.elements["collaboraCheck"];
 		    var includeOnlyofficeCheck = theForm.elements["onlyofficeCheck"];
 			var includeOutlook = theForm.elements["outlook"];
-			var includeRemoteinstall = theForm.elements["remoteinstall"];
+// 			var includeRemoteinstall = theForm.elements["remoteinstall"];
 			// var includeBranding = theForm.elements["branding"];
 			// var includeSpreed = theForm.elements["spreed"];
 			var selectedUsersNumber = theForm.elements["users"];
@@ -345,7 +345,7 @@ imagedestroy($image);
 			// collabora, Outlook and remote install only with Standard
 			if(includeOutlook.checked==true)
 			{
-				outlookPrice = multiYearDiscount(selectedUsersNumber.value * 5);
+				outlookPrice = multiYearDiscount(selectedUsersNumber.value * 7.2);
 				// apply edu/gov/charity discount
 				outlookPrice = edugovcharDiscount(outlookPrice);
 				optionsPrice = optionsPrice + outlookPrice;
