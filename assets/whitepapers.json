@@ -89,10 +89,15 @@
     },
     "15": {
         "whitepaper_name": "Nextcloud Product data sheets",
-        "whitepaper_url": "https://nextcloud.com/media/wp135098u/product_overview.pdf"
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/product_overview.zip"
     },
     "16": {
         "whitepaper_name": "Nextcloud subscription data sheets",
-        "whitepaper_url": "https://nextcloud.com/media/wp135098u/nextcloud_enterprise_subscriptions.pdf"
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/nextcloud_enterprise_subscriptions.zip"
+    },
+    "17": {
+        "whitepaper_name": "Nextcloud Industry Analysis on privacy shield and the GDPR",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/industryanalysis_privacy_shield.pdf"
     }
+
 }

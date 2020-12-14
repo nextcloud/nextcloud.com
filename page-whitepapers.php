@@ -426,8 +426,8 @@
             </div>
             <div class="row">
 				<div class="description">
-					<h3 class="section--paragraph__title"><?php echo $l->t('GDPR analysis');?></h3>
-                    <p class="section--paragraph"><?php echo $l->t('The GDPR offers a challenge for all enterprises looking to do business in Europe. European data centers as offered by Amazon, Dropbox or Microsoft are hardly a real solution: self-hosting is easier and safer.');?></p>
+					<h3 class="section--paragraph__title"><?php echo $l->t('Privacy Shield and GDPR analysis');?></h3>
+                    <p class="section--paragraph"><?php echo $l->t('With Privacy Shield struck down by the highest EU court, GDPR risks have increased massively for all manners of organizations. On-premises hosting is one of the easiest way to avoid legal risks.');?></p>
                 </div>
                 <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <td colspan="2">
@@ -435,7 +435,7 @@
                         <div id="RecaptchaField9"></div>
                     </div>
                     </td>
-                    <input type="hidden" name="segmentId" value="15">
+                    <input type="hidden" name="segmentId" value="17">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <div class="newsletter">
                         <input type="hidden" name="newsletter" value="0" />

@@ -43,8 +43,6 @@
 @import 'modules/overlay';
 @import 'vendor/fork-awesome/css/fork-awesome.min';
 
-// To remove everything above and split in other files
-
 
 html {
   margin-top: 0 !important;
@@ -174,6 +172,8 @@ span.avoidwrap {
 		}
 	}
 }
+
+// image floating on feature pages
 
 @media (min-width: $break-small) {
 	.image--floated {
