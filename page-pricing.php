@@ -211,6 +211,7 @@
             <p class=" epricevat"><?php echo $l->t('Prices are in Euro per year and net/excl. VAT.');?></p>
             <p class=" epricevat"><?php echo $l->t('Nextcloud subscriptions are available from 100 users and up.');?></p>
             <p class=" epricevat"><?php echo $l->t('¹ subject to limitations, discuss with your sales representative');?></p>
+            <p class=" epricevat"><?php echo $l->t('Our support is in English. Other languages possible through partners.');?></p>
             <p class=" epricevat"><?php echo $l->t('Nextcloud employees never gain access to your data as we do not offer hosting.');?></p>
             <p class=" epricevat"><?php echo $l->t('Unless explicitly stated, Nextcloud 5x8 support is in UTC +01:00. Other times possible on request.');?></p>
             <p class=" epricevat"><?php echo $l->t('Our Subscription offers direct access to Nextcloud engineering expertise without a layer of support people in between.');?></p>
