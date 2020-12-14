@@ -67,9 +67,9 @@ try {
         $string = str_replace($bad,"",$string);
         return htmlspecialchars($string);
     }
-    $email_message = "Thank you for requesting a Nextcloud white paper.\n\n";
-    $email_subject = "Whitepaper download: ".clean_string($whitepaper_name);
-    $email_message .= "Download our ".clean_string($whitepaper_name)." paper here:\n";
+    $email_message = "Thank you for requesting a Nextcloud white paper or data sheet.\n\n";
+    $email_subject = "Nextcloud download: "clean_string($whitepaper_name);
+    $email_message .= "Download our ".clean_string($whitepaper_name)." here:\n";
     $email_message .= "<".clean_string($whitepaper_url).">\n\n";
     $email_from = "sales@nextcloud.com";
 // add note that we added them to our newsletter (if they did tick the box)
@@ -138,7 +138,7 @@ try {
         <div class="container text-center">
             <h3>Apologies</h3>
             <p>There was a problem on our side</p>
-            <p>Please <a href="https://nextcloud.com/contact">contact us</a> and ask for the whitepaper you tried to download.</p>
+            <p>Please <a href="https://nextcloud.com/contact">contact us</a> and ask for the whitepaper or data sheet you tried to download.</p>
         </div>
     </section>
     <?php

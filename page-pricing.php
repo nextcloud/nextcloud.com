@@ -31,6 +31,7 @@
 	</div>
 </section>
 
+<section class="section--plans">
 <a name="plans" id="plans"></a>
 <div class="container plans">
 	<div class="row">
@@ -204,14 +205,43 @@
 		</div>
 	</div>
 </div>
-<div class="container text-center">
-	<p class=" epricevat"><?php echo $l->t('Prices are in Euro per year and net/excl. VAT.');?></p>
-	<p class=" epricevat"><?php echo $l->t('Nextcloud subscriptions are available from 100 users and up.');?></p>
-    <p class=" epricevat"><?php echo $l->t('¹ subject to limitations, discuss with your sales representative');?></p>
-	<p class=" epricevat"><?php echo $l->t('Nextcloud employees never gain access to your data as we do not offer hosting.');?></p>
-	<p class=" epricevat"><?php echo $l->t('Unless explicitly stated, Nextcloud 5x8 support is in UTC +01:00. Other times possible on request.');?></p>
-	<p class=" epricevat"><?php echo $l->t('Our Subscription offers direct access to Nextcloud engineering expertise without a layer of support people in between.');?></p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <p class=" epricevat"><?php echo $l->t('Prices are in Euro per year and net/excl. VAT.');?></p>
+            <p class=" epricevat"><?php echo $l->t('Nextcloud subscriptions are available from 100 users and up.');?></p>
+            <p class=" epricevat"><?php echo $l->t('¹ subject to limitations, discuss with your sales representative');?></p>
+            <p class=" epricevat"><?php echo $l->t('Nextcloud employees never gain access to your data as we do not offer hosting.');?></p>
+            <p class=" epricevat"><?php echo $l->t('Unless explicitly stated, Nextcloud 5x8 support is in UTC +01:00. Other times possible on request.');?></p>
+            <p class=" epricevat"><?php echo $l->t('Our Subscription offers direct access to Nextcloud engineering expertise without a layer of support people in between.');?></p>
+        </div>
+    </div>
 </div>
+<div class="container ">
+    <div class="row">
+<!--         <div style="width: 600px; margin-left: auto; margin-right:auto;"> -->
+        <div class="col-md-12">
+            <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
+                <label for="email">
+                    <p>
+                        <?php echo $l->t('For more details, download our subscription data sheets: ');?>
+                        <input type="hidden" name="segmentId" value="15">
+                        <input class="form-mail" type="text" name="email" maxlength="80" placeholder=" Enter your email ">
+                    </p>
+                </label>
+                <div class="newsletter">
+                    <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                    <input type="hidden" name="moreinfo" value="0" />
+                    <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small>
+                    <small><?php echo $l->t('(We do not use your email for anything else. See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy.)');?></a></small>
+                </div>
+                <input class="button button--white button--small" type="submit" value=" Get the data sheets ">
+            </form>
+        </div>
+    </div>
+</div>
+</section>
 
 <section class="section--others quote">
 <div class="container">
@@ -319,6 +349,30 @@
 		</div>
     </div>
 </div>
+</section>
+
+<section class="section--whitepaper quote">
+	<div class="container ">
+        <div class="row">
+			<div class="col-lg-8">
+                <h2 class=""><?php echo $l->t('Get an overview');?></h2>
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
+                    <p><label for="email"><?php echo $l->t('Download our product overview data sheets');?><br>
+                    <input type="hidden" name="segmentId" value="16">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small><br/>
+                        <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
+                    </div>
+                    <input class="button button--large" type="submit" value=" Get the case study "></p>
+                </form>
+            </div>
+        </div>
+        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/product-overview-thumbnail-banner.png"/>
+	</div>
 </section>
 
 

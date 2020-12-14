@@ -86,5 +86,13 @@
     "6": {
         "whitepaper_name": "File Access Control and Retention data sheet",
         "whitepaper_url": "https://nextcloud.com/media/wp135098u/FileAccessControlAndRetention-Datasheet-WebVersion-072018.pdf"
+    },
+    "15": {
+        "whitepaper_name": "Nextcloud Product data sheets",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/product_overview.pdf"
+    },
+    "16": {
+        "whitepaper_name": "Nextcloud subscription data sheets",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/nextcloud_enterprise_subscriptions.pdf"
     }
 }
