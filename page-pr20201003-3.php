@@ -48,19 +48,9 @@ Alex Han<br />
 <a href="mailto:alexhan@hancom.com" class="email">alexhan@hancom.com</a></p>
 <h2>Graphics</h2>
 <ul>
-<li>Hancom office document <a href="https://cloud.nextcloud.com/s/JZ8JEk36HfHPe3e" class="uri">https://cloud.nextcloud.com/s/JZ8JEk36HfHPe3e</a></li>
-<li>Hancom office spreadsheet <a href="https://cloud.nextcloud.com/s/kHPMmaj8LKj8pbA" class="uri">https://cloud.nextcloud.com/s/kHPMmaj8LKj8pbA</a></li>
-<li>Hancom office presentation <a href="https://cloud.nextcloud.com/s/DSCaPkAd5oZWfXN" class="uri">https://cloud.nextcloud.com/s/DSCaPkAd5oZWfXN</a></li>
-<li>logo Nextcloud
-<ul>
-<li>Logo default <a href="https://cloud.nextcloud.com/s/bjjmBFdj846S83R" class="uri">https://cloud.nextcloud.com/s/bjjmBFdj846S83R</a></li>
-<li>Logo inverted <a href="https://cloud.nextcloud.com/s/P3yPzEAFELFkXjf" class="uri">https://cloud.nextcloud.com/s/P3yPzEAFELFkXjf</a></li>
-</ul></li>
-<li>Logo Hancom
-<ul>
-<li>Logo horizontal <a href="https://cloud.nextcloud.com/s/DKWCDY6sRREfHox" class="uri">https://cloud.nextcloud.com/s/DKWCDY6sRREfHox</a></li>
-<li>Logo vertical <a href="https://cloud.nextcloud.com/s/F5MSq2DRQmGSm3g" class="uri">https://cloud.nextcloud.com/s/F5MSq2DRQmGSm3g</a></li>
-</ul></li>
+<li><a href="<?php bloginfo('template_directory'); ?>/assets/img/features/hancom_office_presentation.png">Screenshot of Hancom Office presentation in Nextcloud</a></li>
+<li><a href="<?php bloginfo('template_directory'); ?>/assets/img/features/hancom_office_document.png">Screenshot of Hancom Office document editor in Nextcloud</a></li>
+<li><a href="<?php bloginfo('template_directory'); ?>/assets/img/features/hancom_office_spreadsheet.png">Screenshot of Hancom Office spreadsheet editor in Nextcloud</a></li>
 </ul>
 </div>
 </div>
