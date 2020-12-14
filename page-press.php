@@ -50,8 +50,8 @@
     <a href="<?php echo home_url('hub') ?>" class="button button--blue">Key Features of Nextcloud Hub</a>
     <a href="<?php echo home_url('install') ?>" class="button button--blue">Download Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></a>
     <div class="row">
-        <div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/files/screenshots.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/screenshots.png" style="width: 100%" alt="Download a zip file with screenshots" class="img-thumbnail"></a></div>
-        <div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/files/videos.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/videofiles.png" style="width: 100%" alt="Download a zip file with video files" class="img-thumbnail"></a></div>
+        <div class="col-md-3"><a href="https://nextcloud.com/media/screenshots.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/screenshots.png" style="width: 100%" alt="Download a zip file with press photos and screenshots" class="img-thumbnail"></a></div>
+        <div class="col-md-3"><a href="https://nextcloud.com/media/videos.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/videofiles.png" style="width: 100%" alt="Download a zip file with video files" class="img-thumbnail"></a></div>
         <div class="col-md-3"><a href="https://www.youtube.com/c/Nextcloud"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/youtube.png" style="width: 100%" alt="View the Nextcloud community YouTube channel" class="img-thumbnail"></a></div>
     <!-- 		<div class="col-md-3"><a href="/nine"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/newfeatures.png" style="width: 100%" alt="See what is new in Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>" class="img-thumbnail"></a></div> -->
     </div>
