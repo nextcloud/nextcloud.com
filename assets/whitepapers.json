@@ -1,0 +1,90 @@
+{
+    "1": {
+        "whitepaper_name": "Architecture Overview",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/Architecture-Whitepaper-WebVersion-072018.pdf"
+    },
+    "83": {
+        "whitepaper_name": "DEGES case study",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/CaseStudy_DEGES_Web_22072019.pdf"
+    },
+    "12": {
+        "whitepaper_name": "End-to-end Encryption",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/E2E-Encryption-Whitepaper-WebVersion.pdf"
+    },
+    "46": {
+        "whitepaper_name": "GDPR Overview",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/General_GDPR_overview.pdf"
+    },
+    "4": {
+        "whitepaper_name": "Global Scale",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/GlobalScale-Whitepaper-WebVersion-072018.pdf"
+    },
+    "2": {
+        "whitepaper_name": "Healthcare Analysis",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/IndustryAnalysis-Jan2018-HealthCare-WebVersion-31012018.pdf"
+    },
+    "93": {
+        "whitepaper_name": "IVZ case study",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/CaseStudy-IVZ_Web.pdf"
+    },
+    "56": {
+        "whitepaper_name": "KAS case study",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/CaseStudy-KonradAdenauerStiftung-WebVersion-072018.pdf"
+    },
+    "7": {
+        "whitepaper_name": "LDAP data sheet",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/LDAP-Datasheet-WebVersion-072018.pdf"
+    },
+    "13": {
+        "whitepaper_name": "Monitoring Overview",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/MonitoringAndAuditing-Datasheet-WebVersion-072018.pdf"
+    },
+    "10": {
+        "whitepaper_name": "NCC Group Security Review",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/NCCGP_Nextcloud_11_security_review_v1.1.pdf"
+    },
+    "48": {
+        "whitepaper_name": "NWU case study",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/CaseStudy-NWU-WebVersion-13062018.pdf"
+    },
+    "90": {
+        "whitepaper_name": "NWU OnlyOffice case study",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/CaseStudy-NWU-ONLYOFFICE_Print.pdf"
+    },
+    "58": {
+        "whitepaper_name": "Outlook Add-in data sheet",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/Datasheet-Outlook-Add-in-WebVersion-112018.pdf"
+    },
+    "14": {
+        "whitepaper_name": "Security Overview",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/Security-Whitepaper-WebVersion-072018.pdf"
+    },
+    "11": {
+        "whitepaper_name": "Server-side Encryption",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/Server-side-Encryption-Whitepaper-WebVersion-072018.pdf"
+    },
+    "9": {
+        "whitepaper_name": "SharePoint data sheet",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/Sharepoint-Datasheet-WebVersion-072018.pdf"
+    },
+    "5": {
+        "whitepaper_name": "TU Berlin case study",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/CaseStudy-tubCloud-TUBerlin-WebVersion-072018.pdf"
+    },
+    "8": {
+        "whitepaper_name": "Windows Network Drive data sheet",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/WindowsNetworkDrive-Datasheet-WebVersion-072018.pdf"
+    },
+    "2": {
+        "whitepaper_name": "Reasons to use Nextcloud Hub",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/Reasons-to-use-Nextcloud-Hub-web.pdf"
+    },
+    "3": {
+        "whitepaper_name": "Geneva Audit",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/Audit_city_of_Geneva_754-001-v2.0_Redacted.pdf"
+    },
+    "6": {
+        "whitepaper_name": "File Access Control and Retention data sheet",
+        "whitepaper_url": "https://nextcloud.com/media/wp135098u/FileAccessControlAndRetention-Datasheet-WebVersion-072018.pdf"
+    }
+}
