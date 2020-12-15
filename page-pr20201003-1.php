@@ -60,12 +60,12 @@
 <li><a href="https://nextcloud.com/conf-2020">Nextcloud Conference 2020</a></li>
 <li><a href="https://apps.nextcloud.com/categories/integration">Overview of integrations in Nextcloud app store</a></li>
 <li><a href="https://open-collaboration-services.org">Open Collaboration Services website</a></li>
-<li><a href="https://nextcloud.com/press/pr20202003-0">Nextcloud 20 announcement press release</a></li>
-<li><a href="https://nextcloud.com/press/pr20202003-2">Gitlab integration press release</a></li>
-<li><a href="https://nextcloud.com/press/pr20202003-3">Hancom Office integration press release</a></li>
-<li><a href="https://nextcloud.com/press/pr20202003-4">Moodle integration press release</a></li>
-<li><a href="https://nextcloud.com/press/pr20202003-5">Zammad integration press release</a></li>
-<li><a href="https://nextcloud.com/press/pr20202003-1">This press release</a></li>
+<li><a href="https://nextcloud.com/press/pr20201003-0">Nextcloud 20 announcement press release</a></li>
+<li><a href="https://nextcloud.com/press/pr20201003-2">Gitlab integration press release</a></li>
+<li><a href="https://nextcloud.com/press/pr20201003-3">Hancom Office integration press release</a></li>
+<li><a href="https://nextcloud.com/press/pr20201003-4">Moodle integration press release</a></li>
+<li><a href="https://nextcloud.com/press/pr20201003-5">Zammad integration press release</a></li>
+<li><a href="https://nextcloud.com/press/pr20201003-1">This press release</a></li>
 </ul>
 <h2>Graphics</h2>
 <ul>
