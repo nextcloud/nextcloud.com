@@ -68,7 +68,7 @@ try {
         return htmlspecialchars($string);
     }
     $email_message = "Thank you for requesting a Nextcloud white paper or data sheet.\n\n";
-    $email_subject = "Nextcloud download: "clean_string($whitepaper_name);
+    $email_subject = "Nextcloud download: ".clean_string($whitepaper_name);
     $email_message .= "Download our ".clean_string($whitepaper_name)." here:\n";
     $email_message .= "<".clean_string($whitepaper_url).">\n\n";
     $email_from = "sales@nextcloud.com";
@@ -85,7 +85,8 @@ try {
 // store in log, to track how much and what is downloaded
     $data = [
 //         'to' => $email_to, //  we could enable this for debugging but it is otherwise not really useful so let's keep it off
-        'subject' => $email_subject,
+        'whitepaper' => $whitepaper_name,
+        'newsletter' => $newsletter,
 //         'message' => $email_message,
 //         'headers' => $headers,
     ];
