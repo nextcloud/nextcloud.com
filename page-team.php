@@ -249,6 +249,19 @@
         <h2>Marketing</h2>
     </div>
     <div class="row">
+    <div class="col-md-4">
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/joshua.jpg" />
+                <h2 class="teamname">Joshua Ofor</h2>
+                <div class="teammeta">
+                    <h3 class="teamtitle">Designer</h3>
+                    <h4 class="teamexpertise">Visual Identity, Design Systems, Animation, Illustration</h4>
+                    <h4 class="teamlocation">Lives in Port Harcourt, Nigeria</h4>
+                    <p class="teamsocial"> <!--<a href="https://www.linkedin.com/in/marija-puselja"><i class="fa-rss fa"></i></a>--></p>
+                </div>
+                <p class="teamdescription">Joshua is a multidisciplinary designer & art director, with a push for visual storytelling, sustainability & design par problem-solving. He currently seeks to design systems, spaces & create other forms of visual arts. He holds a brief but viable experience in the creative industry, previously working as a Snr. Creative Designer at Mesh Design Studios. He’s a TEDx aficionado, a design contributor at the Open Source Community Africa and a UN Youth Delegate.</p>
+            </div>
+        </div>
         <div class="col-md-4">
             <div class="teamp">
                 <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marija.jpg" />
