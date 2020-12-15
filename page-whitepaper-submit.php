@@ -87,6 +87,7 @@ try {
 //         'to' => $email_to, //  we could enable this for debugging but it is otherwise not really useful so let's keep it off
         'whitepaper' => $whitepaper_name,
         'newsletter' => $newsletter,
+        'timestamp' => time(),
 //         'message' => $email_message,
 //         'headers' => $headers,
     ];
