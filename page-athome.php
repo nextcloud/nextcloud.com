@@ -177,7 +177,6 @@
 		<div class="col-md-6 feature--block">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Mobile and desktop clients');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('The free Nextcloud clients for Android, iOS and desktop systems allow you to sync and share files, in a fully secure way through an encrypted connection. The mobile clients feature automatic upload of pictures and videos you take and can synchronize select files and folders. The clients can handle multiple accounts, show all activity happening on your server and notify you of new events such as the availability of new shares.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Note that E2E is currently (early 2019) in beta. V2 is expected end summer 2019.');?></p>
 			<a href="<?php echo home_url('clients') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
 		</div>
 	</div>

@@ -458,7 +458,7 @@
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Terms-of-service-->
 							<li class="cd-group"></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Server side encryption-->
-							<li title="Only offering a web E2E solution without client support so failing to provide zero-knowledge protection" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
+							<li title="Only offering a web E2EE solution without client support so failing to provide zero-knowledge protection" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Video Verification-->
 							<li title="There is an unsupported external app developed by community student, occasionally updated" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--NIST compliant password policy-->
