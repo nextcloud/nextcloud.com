@@ -21,9 +21,9 @@
     <a href="<?php echo home_url('press/pr20201003-0') ?>" class="button button--large button--white button--arrow">Press release</a>
     <h2>Press releases 2020</h2>
     <ul>
-        <li><a href="<?php echo home_url('press/pr202-1214-2') ?>">December 14, 2020: Hancom Works brings productivity, collaboration, and self-managed data privacy to the Cloud</a></li>
-        <li><a href="<?php echo home_url('press/pr202-1214-1') ?>">December 14, 2020: Hancom and Nextcloud announce Strategic Partnership</a></li>
-        <li><a href="<?php echo home_url('press/pr202-1210') ?>">December 10, 2020: SalesAgility and Nextcloud announce SuiteCRM integration collaboration</a></li>
+        <li><a href="<?php echo home_url('press/pr20201214-2') ?>">December 14, 2020: Hancom Works brings productivity, collaboration, and self-managed data privacy to the Cloud</a></li>
+        <li><a href="<?php echo home_url('press/pr20201214-1') ?>">December 14, 2020: Hancom and Nextcloud announce Strategic Partnership</a></li>
+        <li><a href="<?php echo home_url('press/pr20201210') ?>">December 10, 2020: SalesAgility and Nextcloud announce SuiteCRM integration collaboration</a></li>
         <li><a href="<?php echo home_url('press/pr20201003-0') ?>">October 3, 2020: Nextcloud Hub 20 debuts Dashboard, unifies search, becomes an integration platform</a></li>
         <li><a href="<?php echo home_url('press/pr20201003-1') ?>">October 3, 2020: Nextcloud becomes an integration platform with Microsoft, Google, Slack, Moodle, Github, Jira, Dropbox, Matrix and more</a></li>
         <li><a href="<?php echo home_url('press/pr20201003-2') ?>">October 3, 2020: Nextcloud announces Gitlab integration at Nextcloud Conference</a></li>
