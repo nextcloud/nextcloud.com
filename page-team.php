@@ -62,7 +62,7 @@
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="http://blog.jospoortvliet.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jospoortvliet"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jospoortvliet"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Jos graduated in Psychology from the University of Utrecht and did project and service level management at Royal Bank of Scottland, KPN and the Dutch Department of Education. He has over a decade open source marketing and PR experience, previously working as Community Manager for SUSE Linux and ownCloud Inc.</p>
+				<p class="teamdescription">Jos graduated in Psychology from the University of Utrecht and handled project and service level management at Royal Bank of Scottland, KPN and the Dutch Department of Education. He has over a decade open source marketing and PR experience, being active in the KDE community for over a decade and working as Community Manager for SUSE Linux and ownCloud Inc.</p>
 			</div>
 		</div>
         <div class="col-md-4">
