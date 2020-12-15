@@ -368,7 +368,7 @@
                         <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small><br/>
                         <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
                     </div>
-                    <input class="button button--large" type="submit" value=" Get the case study "></p>
+                    <input class="button button--large" type="submit" value=" Get the data sheets "></p>
                 </form>
             </div>
         </div>
