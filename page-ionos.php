@@ -247,7 +247,7 @@ imagedestroy($image);
                         <option value="charity"><?php echo $l->t('Charitable');?></option>
                     </select></label>-->
                     <p><h3><?php echo $l->t('Optional features:');?></h3></p>
-                    <input disabled type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>" target="_blank"><?php echo $l->t('our Outlook add-in <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 0.5/user/month)');?></span><br/>
+                    <input disabled type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>" target="_blank"><?php echo $l->t('our Outlook add-in <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 0.6/user/month)');?></span><br/>
         <!-- 			<p><h4><?php echo $l->t('Only with a Standard Subscription:');?></h4></p> -->
         <!-- 			<input disabled id="collaboraCheck" type="checkbox" name="collaboraCheck" value="collaboraCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('collaboraonline') ?>" target="_blank">Collabora Online <i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('(€ 17/user for the first 100, € 16/user after that)');?></span><br/> -->
         <!-- 			<input disabled id="onlyofficeCheck" type="checkbox" name="onlyofficeCheck" value="onlyofficeCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('onlyoffice') ?>" target="_blank">ONLYOFFICE <i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('(€ 935 for the first 250 users)');?></span><br/> -->
@@ -297,7 +297,7 @@ imagedestroy($image);
             <li class="section--paragraph"><?php echo $l->t('The subscription can be cancelled monthly.');?></li>
             <li class="section--paragraph"><?php echo $l->t('5GB storage per user is included. Additional storage is available with prices starting at Eur 2,00/month for 50GB.');?></li>
             <li class="section--paragraph"><?php echo $l->t('Multiple backup options available, depending on storage needs.');?></li>
-            <li class="section--paragraph"><?php echo $l->t('Education and government pricing available with discounts up to 80%.');?></li>
+            <li class="section--paragraph"><?php echo $l->t('Education and government pricing available with discounts up to 80%. Note this in the form and we will send you an offer.');?></li>
             <li class="section--paragraph"><?php echo $l->t('IONOS hosting is currently only available for customers in Europe.');?></li>
         </div>
     </div>
@@ -424,7 +424,7 @@ imagedestroy($image);
 			// collabora, Outlook and remote install only with Standard
 			if(includeOutlook.checked==true)
 			{
-				outlookPrice = multiYearDiscount(selectedUsersNumber.value * 0.5);
+				outlookPrice = multiYearDiscount(selectedUsersNumber.value * 0.6);
 				// apply edu/gov/charity discount
 				outlookPrice = edugovcharDiscount(outlookPrice);
 				optionsPrice = optionsPrice + outlookPrice;

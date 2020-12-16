@@ -36,8 +36,7 @@ if(isset($_POST['email'])) {
                         echo $error . "<br />";
                         ?>
                     </p>
-                    <p><?php echo $l->t('Use the back key to go to the previous page and fix the
-                        issue!');?></p>
+                    <p><?php echo $l->t('Use the back key to go to the previous page and fix the issue!');?></p>
                 </div>
             </section>
             <?php
@@ -146,7 +145,7 @@ if(isset($_POST['email'])) {
 
             // OUTLOOK
             if ($outlook === 'yes') {
-                $outlookPrice = $users * 0.5;
+                $outlookPrice = $users * 0.6;
             }
 
             if (!in_array($edugov, ['no', 'edu', 'gov', 'charity'])) {
@@ -236,14 +235,14 @@ if(isset($_POST['email'])) {
 		$email_message .= "Number of users: " . clean_string($users) . "\n";
 // 		$email_message .= "Edition: " . clean_string($edition) . "\n";
 // 		$email_message .= "How many years: " . clean_string($duration) . "\n";
-		$email_message .= "Education/government/charity discount: " . clean_string($edugov) . "\n\n" . "Options:\n";
-		$email_message .= "Would like Outlook option (5€/user): " . clean_string($outlook) . "\n";
+// 		$email_message .= "Education/government/charity discount: " . clean_string($edugov) . "\n\n" . "Options:\n";
+		$email_message .= "Outlook option (€0.6/user/month): " . clean_string($outlook) . "\n";
 // 		$email_message .= "Number of Collabora users (17€ for first 99, then 16€/user): " . clean_string($collaboraCheck) . "\n";
 // 		$email_message .= "Would like ONLYOFFICE option (935€ for first 250): " . clean_string($onlyofficeCheck) . "\n";
 // 		$email_message .= "Would like remote installation help (990 €): " . clean_string($remoteinstall) . "\n\n";
 		// 	$email_message .= "Would like Branding option: ".clean_string($branding)."\n";
 		// 	$email_message .= "Would like Spreed option: ".clean_string($spreed)."\n";
-		$email_message .= "Price: " . clean_string($givenprice) . "\n";
+		$email_message .= "Price per month: " . clean_string($givenprice) . "\n";
 		//$email_message .= "Would like to pay in dollars: ".clean_string($dollars)."\n";
 		$email_message .= "Signed terms: " . clean_string($terms) . "\n\n";
 
