@@ -167,7 +167,7 @@
 		<li><?php echo $l->t('ownCloud 9.0.x -> Nextcloud 9.0.x -> Nextcloud 10.0.x');?></li>
 		<li><?php echo $l->t('ownCloud 9.1.x -> Nextcloud 10.0.x -> Nextcloud 11.0.x');?></li>
 		<li><?php echo $l->t('ownCloud 10.0.x -> Nextcloud 12.0.0');?></li>
-		<li><?php echo $l->t('ownCloud 10.1+ -> ownCloud 10.0.5 -> Nextcloud 20.0.4');?></li>
+		<li><?php echo $l->t('ownCloud 10.1+ -> ownCloud 10.5 -> Nextcloud 20.0.4');?></li>
 	</ul>
 	<p class="section--paragraph"><?php echo $l->t('When upgrading, make sure to enable apps after every upgrade step so they can run their own upgrade scripts. We have fixed this issue in Nextcloud 12: apps will no longer be disabled when upgrading on systems running PHP 7. Note that we recommend to move to Nextcloud as soon as possible, to ensure a more reliable upgrade process.');?></p>
 	<p class="section--paragraph"><?php echo $l->t('If you are on a very old ownCloud release or want more details, read our advanced and detailed upgrade documentation in our blog on how to <a  class="hyperlink" href="https://nextcloud.com/blog/protect-your-privacy-time-to-upgrade-to-nextcloud-11./">protect your privacy by upgrading to Nextcloud 11 or higher.</a> Note that upgrading from a Windows Server is not supported beyond moving over the data.');?></p>
