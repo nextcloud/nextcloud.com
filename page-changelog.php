@@ -35,6 +35,27 @@
 
 <a name="latest20"></a>
 
+<h3 id="20-0-4">Version 20.0.4 <small>December 17 2020</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.4.tar.bz2">nextcloud-20.0.4.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.4.zip">nextcloud-20.0.4.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.4.tar.bz2.md5">nextcloud-20.0.4.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.4.zip.md5">nextcloud-20.0.4.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.4.tar.bz2.sha256">nextcloud-20.0.4.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.4.zip.sha256">nextcloud-20.0.4.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.4.tar.bz2.sha512">nextcloud-20.0.4.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.4.zip.sha512">nextcloud-20.0.4.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.4.tar.bz2.asc">nextcloud-20.0.4.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.4.zip.asc">nextcloud-20.0.4.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/24636">Avoid dashboard crash when accessibility app is not installed (server#24636)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/24649">Bump ini from 1.3.5 to 1.3.7 (server#24649)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/24653">Handle owncloud migration to latest release (server#24653)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/24654">Use string for storing a OCM remote id (server#24654)</a></li>
+        <li><a href="https://github.com/nextcloud/serverinfo/pull/262">Fix MySQL database size calculation (serverinfo#262)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/722">Bump cypress-io/github-action@v2 (viewer#722)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/723">Fix] sidebar opening animation (viewer#723)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/725">Fix not.exist cypress and TESTING checks (viewer#725)</a></li>
+</ul>
+<p>Note: the main improvement in this very small release is the migration support.</p>
+
 <h3 id="20-0-3">Version 20.0.3 <small>December 10 2020</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.3.tar.bz2">nextcloud-20.0.3.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.3.zip">nextcloud-20.0.3.zip</a></br>
 Check the file integrity with:</br>
