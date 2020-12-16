@@ -271,6 +271,16 @@
                 <a class="button button--white" href="https://cloud.tab.digital">Learn more</a>
             </div>
             <div class="col-md-4">
+                <a href="https://tamkeentech.sa/" target="_blank" title="Tamkeen technology">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/tamkeen.png" title="Tamkeen technology logo" />
+                </a>
+                <p class="partnertext">Tamkeen Technologies is a Saudi company established in 2013 with a clear and ambitious vision to be the first choice for the government sector in IT. Our innovative solutions are designed to digitally transform the businesses of the public sector by adopting leading technologies, and leveraging on our strategic partnerships. Our services are formed to fit various modules and to ensure self-sustainability, improve performance and efficiency for our partners.</p>
+                <a class="button button--white" href="https://tamkeentech.sa/">Learn more</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
                 <a href="https://viakom.de/unsere-produkte/managed-nextcloud/" target="_blank" title="Viakom">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/viakom.png" title="Viakom logo" />
                 </a>
