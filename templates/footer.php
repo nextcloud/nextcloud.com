@@ -66,6 +66,7 @@ $l = new L10N('footer');
                 <li><a href="<?php echo home_url('developer'); ?>"><?php echo $l->t('Developer program'); ?></a></li>
                 <li><a href="<?php echo home_url('security'); ?>"><?php echo $l->t('Security'); ?></a></li>
                 <li><a href="https://github.com/nextcloud"><?php echo $l->t('Code on GitHub'); ?></a></li>
+                <li><a href="<?php echo home_url('compare'); ?>"><?php echo $l->t('Compare'); ?></a></li>
             </ul>
         </div>
         <div class="col-sm-3">
