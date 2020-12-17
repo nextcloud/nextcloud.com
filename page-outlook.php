@@ -288,7 +288,7 @@
                             <td class="text-center green">✔</td>
                         </tr>
                         <tr>
-                            <th scope="row"><?php echo $l->t('Secure Mail');?></th>
+                            <th scope="row">Secure Mail <small>(<?php echo $l->t('create and send message through guest account');?>)</small></th>
                             <td class="text-center red">❌</td>
                             <td class="text-center green">❌</td>
                             <td class="text-center green">❌</td>
