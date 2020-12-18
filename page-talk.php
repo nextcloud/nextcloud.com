@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/talk.css?v=5" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/talk.css?v=6" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
@@ -139,6 +139,17 @@
 </div>
 </section>
 
+<section class="section--quote">
+<div class="container">
+        <div class="row quote--container">
+            <blockquote class="quote--paragraph">In addition to online data storage, Nextcloud Hub (...) offers groupware components for mail, contacts and calendar. Nextcloud Talk fits in seamlessly here, so all in all the whole thing is more of an alternative to Microsoft Teams or Slack.</blockquote>
+            <div class="quote--brand">
+                <a href="https://www.derstandard.de/story/2000116203521/videochat-ohne-datenspionage-freie-software-macht-es-moeglich"><div class="quote--derstandard--logo"></div></a>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
 
 
 <section class="section--features">
@@ -177,7 +188,7 @@
         </div>
         <div class="row">
             <p class="section--paragraph text-center"><?php echo $l->t('* with optional Nextcloud Talk High Performance Backend');?></p>
-            <p class="section--paragraph text-center"><?php echo $l->t('starting at Eur 4000/USD 4500');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Starting at EUR 65 per user per year at 100 users');?></p>
             <p class="section--paragraph text-center"><a class="button button--medium" href="#hpb"><?php echo $l->t('Learn more');?></a></p>
         </div>
     </div>
@@ -514,17 +525,19 @@
 <a name="pricing" id="pricing"></a>
 <div class="container">
     <div class="row">
-        <h2 class="text-center"><?php echo $l->t('Pricing');?></h2>
-        <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud Talk High Performance Backend');?></p>
-        <p class="section--paragraph text-center"><?php echo $l->t('providing SFU, STUN, TURN and optional SIP bridge');?></p>
+        <div class="col-md-6 col-md-offset-3">
+            <h2 class="text-center"><?php echo $l->t('Pricing');?></h2>
+            <h3 class="section--paragraph__tittle text-center"><?php echo $l->t('Nextcloud Talk Enterprise');?></h3>
+            <p class="section--paragraph text-center"><?php echo $l->t('Providing SFU, STUN, TURN, signaling and optional phone dial-in');?></p>
+        </div>
     </div>
     <div class="row">
         <div class="col-sm-6">
-            <p class="section--paragraph"><?php echo $l->t('Starting at EUR 4000/USD 4500 per year');?>
+            <p class="section--paragraph"><?php echo $l->t('Starting at EUR 65 per user per year at 100 users');?>
             </p>
             <ul >
-                <li><?php echo $l->t('EUR 80/USD 90 per user per year at 50 users');?></li>
-                <li><?php echo $l->t('EUR 40/USD 45 per user per year at 500 users');?></li>
+                <li><?php echo $l->t('EUR 5.41/USD 6.6 per user per month at 100 users');?></li>
+                <li><?php echo $l->t('EUR 2.75/USD 3.33 per user per year at 500 users');?></li>
             </ul>
             <p class="section--paragraph">
             <small><?php echo $l->t('(further volume discounts at larger user numbers available)');?></small>
@@ -536,7 +549,12 @@
             </div>
         </div>
     </div>
-</div>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <p class="section--paragraph text-center"><small><?php echo $l->t('Pricing is per user. Talk offers unlimited participants per call and unlimited number of calls per user, up to the technical limitations of customer infrastructure.');?></small></p>
+        </div>
+    </div>
+    </div>
 </section>
 <?php require get_template_directory().'/verticals.php';?>
 <?php require get_template_directory().'/overlay.php'; ?>
