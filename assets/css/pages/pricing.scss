@@ -15,10 +15,10 @@
     }
 }
 
-.plans {
+.section--plans {
   margin-top: 133px;
     h1 {
-        margin-bottom: 10px;
+        margin-bottom: 40px;
     }
     h3 {
         font-size: 1.8em;
@@ -30,13 +30,10 @@
 	border: solid 1px #eeeeee;
 	padding: 0px;
 	width: 31%;
-	margin-left: 1%;
-	margin-right: 1%;
-	margin-bottom: 50px;
+    margin: 20px 1% 50px 1%;
 	@media (max-width: $break-big) {
 		width: 80%;
-		margin: auto;
-		margin-bottom: 60px;
+		margin: 20px auto 60px auto;
 	}
 	.table-header {
 		padding: 0px;
@@ -220,8 +217,15 @@
 	.overinfo:hover .infotext {
 		opacity: 1;
 	}
-
-
+    .datasheet {
+        margin-bottom: 50px;
+        h4 {
+            margin-bottom: 10px;
+        }
+        .button {
+            margin: 0;
+        }
+    }
 }
 
 .form-mail {

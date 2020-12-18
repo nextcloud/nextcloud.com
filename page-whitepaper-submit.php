@@ -46,7 +46,7 @@ try {
     }
     $email_to = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
     if(!filter_var($email_to, FILTER_VALIDATE_EMAIL)) {
-        throw new HintException('The email address supplied is invalid.');
+        throw new HintException('The email address is invalid or missing.');
     }
     $newsletter = (int)$_POST['moreinfo'];
     $whitepaper_nr = (int)$_POST['segmentId'];
@@ -116,10 +116,9 @@ try {
     ?>
     <section class="section--whitepaper">
         <div class="container text-center">
-            <h3>Sorry, there was an error with the form you submitted</h3>
-            <p>Did you fill in all mandatory fields?<br />
-            The error(s) detected include:<br/>
-                <?php echo htmlentities($e->getHint());  ?>
+            <p>Sorry, there was an error with the form you submitted.<br />
+            The error(s) detected:<br/>
+                <h3><?php echo htmlentities($e->getHint());  ?></h3>
             </p>
             <p>Please use the back key to go to <br/>the previous page and fix the issue, or <br /> <a href="https://nextcloud.com/contact">contact us with the error message.</a></p>
             </div>

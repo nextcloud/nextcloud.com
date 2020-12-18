@@ -1,5 +1,5 @@
 <head>
-	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/pricing.css?v=8" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/pricing.css?v=9" rel="stylesheet">
 	<script>
 	require(["require.config"], function() {
 		require(["pages/pricing", "modules/submenu", "bootstrap"])
@@ -23,21 +23,20 @@
 			<a href="#options"><?php echo $l->t('options');?></a>
 			<a href="#discounts"><?php echo $l->t('discounts');?></a>
 			<a class="button button--blue" href="<?php echo home_url('faq') ?>"><?php echo $l->t('FAQ');?></a>
-			<a class="button button--blue" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('Order online');?></a>
-			<a class="button button--blue" href="<?php echo home_url('buy') ?>"><?php echo $l->t('get a quote');?></a>
-			<a class="button button--blue" href="<?php echo home_url('trial') ?>"><?php echo $l->t('Start a trial');?></a>
-			<a class="button button--blue" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('enterprise offering');?></a>
+			<a class="button button--blue" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('Order');?></a>
+			<a class="button button--blue" href="<?php echo home_url('buy') ?>"><?php echo $l->t('Quote');?></a>
+			<a class="button button--blue" href="<?php echo home_url('trial') ?>"><?php echo $l->t('Trial');?></a>
+			<a class="button button--blue" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Enterprise');?></a>
 		</div>
 	</div>
 </section>
 
 <section class="section--plans">
 <a name="plans" id="plans"></a>
-<div class="container plans">
+<div class="container">
 	<div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h1 class="header"><?php echo $l->t('Plans and Pricing<br>
-            for Nextcloud Enterprise');?></h1>
+            <h1 class="header"><?php echo $l->t('Plans and Pricing');?></h1>
             <h3 class="text-center"><?php echo $l->t('Successfully host your private cloud');?><br /> <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('with Nextcloud Enterprise.');?></a></h3>
             <p class="section--paragraph text-center"><?php echo $l->t('Run a Proof of Concept or trial for free with Nextcloud Enterprise.');?> <a class="hyperlink" href="<?php echo home_url('trial') ?>"><?php echo $l->t('Request a trial!');?></a></p>
 		</div>
@@ -205,6 +204,29 @@
 		</div>
 	</div>
 </div>
+<div class="container datasheet">
+    <div class="row">
+<!--         <div style="width: 600px; margin-left: auto; margin-right:auto;"> -->
+        <div class="col-md-12">
+            <div class="text-center">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+    <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <h4><?php echo $l->t('Get the pricing data sheets for more information');?></h4>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small>
+                    </div>
+                    <label for="email">
+                            <input type="hidden" name="segmentId" value="15">
+                            <input class="form-mail" type="text" name="email" maxlength="80" placeholder=" Enter your email "> <input class="button button--white button--small" type="submit" value=" Get the data sheets "> <br />
+                            <small><?php echo $l->t('(We do not use your email for anything else. See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy.)');?></a></small>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -215,30 +237,6 @@
             <p class=" epricevat"><?php echo $l->t('Nextcloud employees never gain access to your data as we do not offer hosting.');?></p>
             <p class=" epricevat"><?php echo $l->t('Unless explicitly stated, Nextcloud 5x8 support is in UTC +01:00. Other times possible on request.');?></p>
             <p class=" epricevat"><?php echo $l->t('Our Subscription offers direct access to Nextcloud engineering expertise without a layer of support people in between.');?></p>
-        </div>
-    </div>
-</div>
-<div class="container ">
-    <div class="row">
-<!--         <div style="width: 600px; margin-left: auto; margin-right:auto;"> -->
-        <div class="col-md-12">
-            <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
-                <label for="email">
-                    <p>
-                        <?php echo $l->t('For more details, download our subscription data sheets: ');?>
-                        <input type="hidden" name="segmentId" value="15">
-                        <input class="form-mail" type="text" name="email" maxlength="80" placeholder=" Enter your email ">
-                    </p>
-                </label>
-                <div class="newsletter">
-                    <input type="hidden" name="newsletter" value="0" />
-<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
-                    <input type="hidden" name="moreinfo" value="0" />
-                    <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small>
-                    <small><?php echo $l->t('(We do not use your email for anything else. See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy.)');?></a></small>
-                </div>
-                <input class="button button--white button--small" type="submit" value=" Get the data sheets ">
-            </form>
         </div>
     </div>
 </div>

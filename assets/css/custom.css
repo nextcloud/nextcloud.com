@@ -5567,15 +5567,15 @@ footer.page-footer {
     transition: transform 500ms ease;
     transform: translate3d(0px, 0px, 0px);
     opacity: 0;
-    margin-top: 0px !important; }
+    margin-top: 0px !important;
+    height: 100px; }
     .second-menu .menu.hidedPrincipalNavigation {
       transform: translate3d(0px, -100px, 0px); }
     .second-menu .menu .buttons {
       text-transform: uppercase;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 600;
-      padding: 40px 0 30px 0;
-      border-bottom: solid 1px #e4e4e4; }
+      padding: 30px 0 20px 0; }
       @media (max-width: 991px) {
         .second-menu .menu .buttons {
           padding: 30px 0 25px 0; } }
@@ -5599,13 +5599,17 @@ footer.page-footer {
         .second-menu .menu .buttons a:hover {
           text-decoration: none;
           color: #0082c9; }
+      .second-menu .menu .buttons .button {
+        min-height: 40px !important;
+        height: 40px !important;
+        min-width: 100px !important; }
       .second-menu .menu .buttons .btn-primary {
         float: right;
-        font-size: 14px;
-        padding: 8px 20px;
-        margin-left: 20px;
-        margin-top: -5px;
-        color: white; }
+        font-size: 13px;
+        padding: 0 15px 0 15px;
+        margin: -9px 0px 0px 10px;
+        color: white;
+        line-height: 45px; }
         @media (max-width: 768px) {
           .second-menu .menu .buttons .btn-primary {
             margin-top: 10px; } }
@@ -5618,12 +5622,9 @@ footer.page-footer {
         float: right;
         font-size: 14px;
         padding: 0 20px 0 20px;
-        margin: -9px 0px 0px 20px;
-        /* 				margin-left: 20px; */
-        /* 				margin-top: -5px; */
+        margin: -5px 0px 0px 10px;
         color: white;
-        height: 40px;
-        line-height: 50px; }
+        line-height: 40px; }
         @media (max-width: 768px) {
           .second-menu .menu .buttons .button--blue {
             margin-top: 10px; } }

@@ -49,36 +49,33 @@
   .pricing-background .menu {
     margin-top: -100px; }
 
-.plans {
+.section--plans {
   margin-top: 133px;
   /* Tooltips */
   /* Tooltip text */
   /* Show the tooltip text when you mouse over the tooltip container */ }
-  .plans h1 {
-    margin-bottom: 10px; }
-  .plans h3 {
+  .section--plans h1 {
+    margin-bottom: 40px; }
+  .section--plans h3 {
     font-size: 1.8em;
     margin-bottom: 45px; }
-  .plans .table-column {
+  .section--plans .table-column {
     cursor: default;
     border-radius: 8px;
     border: solid 1px #eeeeee;
     padding: 0px;
     width: 31%;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: 50px; }
+    margin: 20px 1% 50px 1%; }
     @media (max-width: 991px) {
-      .plans .table-column {
+      .section--plans .table-column {
         width: 80%;
-        margin: auto;
-        margin-bottom: 60px; } }
-    .plans .table-column .table-header {
+        margin: 20px auto 60px auto; } }
+    .section--plans .table-column .table-header {
       padding: 0px;
       margin: 0px;
       width: 100%;
       border-radius: 7px 7px 0px 0px; }
-      .plans .table-column .table-header h1 {
+      .section--plans .table-column .table-header h1 {
         text-align: center;
         color: #2a2a36;
         font-size: 22px;
@@ -88,7 +85,7 @@
         margin: 0px;
         padding-top: 42px;
         letter-spacing: 0; }
-      .plans .table-column .table-header h2 {
+      .section--plans .table-column .table-header h2 {
         font-size: 18px;
         font-weight: 300;
         text-align: center;
@@ -98,24 +95,24 @@
         margin: 0px;
         padding-top: 0px;
         padding-bottom: 29px; }
-    .plans .table-column .basic {
+    .section--plans .table-column .basic {
       background-color: #f9f9f9; }
-    .plans .table-column .standard {
+    .section--plans .table-column .standard {
       background-color: #c4e1f7; }
-    .plans .table-column .premium {
+    .section--plans .table-column .premium {
       background-color: #178ecd; }
-      .plans .table-column .premium h1 {
+      .section--plans .table-column .premium h1 {
         color: white !important; }
-      .plans .table-column .premium h2 {
+      .section--plans .table-column .premium h2 {
         color: white !important; }
-    .plans .table-column .highlight {
+    .section--plans .table-column .highlight {
       box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.16); }
-  .plans .table-content {
+  .section--plans .table-content {
     margin: 15px;
     padding: 0px;
     margin-left: 30px;
     margin-right: 30px; }
-    .plans .table-content h1 {
+    .section--plans .table-content h1 {
       font-size: 18px;
       font-weight: 600;
       font-style: normal;
@@ -126,44 +123,44 @@
       letter-spacing: 0;
       margin-top: 25px;
       margin-bottom: 0px; }
-    .plans .table-content .button--large {
+    .section--plans .table-content .button--large {
       margin-top: 30px;
       margin-bottom: 30px;
       width: 100%; }
-  .plans .line {
+  .section--plans .line {
     width: 100%;
     border: solid 1px #eeeeee;
     margin-top: -5px;
     margin-bottom: 15px; }
-  .plans .hyperlink {
+  .section--plans .hyperlink {
     color: #555555; }
-  .plans .list li {
+  .section--plans .list li {
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.2;
     height: 50px; }
-  .plans .list .check {
+  .section--plans .list .check {
     list-style-image: url("../../img/enterprise/check.svg");
     list-style-position: inside;
     color: #555555; }
-  .plans .list .nocheck {
+  .section--plans .list .nocheck {
     list-style-image: url("../../img/enterprise/nocheck.svg");
     list-style-position: inside;
     color: #b1b1b1; }
-    .plans .list .nocheck a {
+    .section--plans .list .nocheck a {
       color: #b1b1b1;
       text-decoration: none; }
-  .plans .list .optional {
+  .section--plans .list .optional {
     list-style-image: url("../../img/enterprise/optional.svg");
     list-style-position: inside;
     color: #555555; }
-  .plans .list .ball {
+  .section--plans .list .ball {
     list-style-image: url("../../img/enterprise/blank.svg");
     list-style-position: inside;
     color: #555555; }
-  .plans .overinfo .infotext {
+  .section--plans .overinfo .infotext {
     visibility: hidden;
     /*     width: 200px; */
     background-color: #555555;
@@ -179,9 +176,9 @@
     /*     top: 100%; */
     /*     left: 50%;  */
     /*     margin-left: -100px; */ }
-  .plans .overinfo:hover .infotext {
+  .section--plans .overinfo:hover .infotext {
     visibility: visible; }
-  .plans .overinfo .infotext::after {
+  .section--plans .overinfo .infotext::after {
     content: " ";
     position: absolute;
     bottom: 100%;
@@ -191,11 +188,17 @@
     border-width: 5px;
     border-style: solid;
     border-color: transparent transparent #555555 transparent; }
-  .plans .overinfo .infotext {
+  .section--plans .overinfo .infotext {
     opacity: 0;
     transition: opacity 0.5s; }
-  .plans .overinfo:hover .infotext {
+  .section--plans .overinfo:hover .infotext {
     opacity: 1; }
+  .section--plans .datasheet {
+    margin-bottom: 50px; }
+    .section--plans .datasheet h4 {
+      margin-bottom: 10px; }
+    .section--plans .datasheet .button {
+      margin: 0; }
 
 .form-mail {
   height: 30px;
