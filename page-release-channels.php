@@ -36,6 +36,7 @@
             <h3><?php echo $l->t('Where is my new stable release?');?></h3>
             <p><?php echo $l->t('Nextcloud makes new versions <strong>incrementally available</strong> to user installations in the Stable channel. When a major new version comes out, we wait about one week and only when no problems are found we start the roll out in steps of about 20% of our user base per week. In practice this means a new release is typically only available in the stable channel <strong>after the first minor release.</strong> Users can always upgrade sooner by choosing the beta channel, which typically tracks stable releases immediately after publishing.');?></p>
             <p><?php echo $l->t('After upgrading to the new major release from the Beta channel, you can switch back to stable where you will be notified of minor releases as usual.');?></p>
+            <p><?php echo $l->t('If you are looking for our release- and maintenance schedule, you can find that ');?><a href="https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule"><?php echo $l->t('in Github.');?></a></p>
         </div>
             <div class="col-md-6">
                 <iframe width="100%" height="300" src="https://www.youtube.com/embed/3hsQNPlQOSE" frameborder="0" allowfullscreen></iframe>
