@@ -38,6 +38,23 @@
     <language>en-us</language>
     <atom:link href="https://nextcloud.com/podcast-feed.xml" rel="self" type="application/rss+xml" />
     <link>https://nextcloud.com/podcast/</link>
+    
+
+ <item>
+      <title>Nextcloud’s first-hand work experience: Life and X-mas in Hawaii</title>
+      <itunes:subtitle>On our sixth podcast, Ingo talks to Edeltraut about remote work experience, life and X-mas in Hawaii</itunes:subtitle>
+      <itunes:summary>Edeltraut had the opportunity to work for Nextcloud from different locations and here’s her story from her current location: tuning in directly from Hawaii!
+      <itunes:duration>00:44:41</itunes:duration>
+      <description>Edeltraut had the opportunity to work for Nextcloud from different locations and here’s her story from her current location: tuning in directly from Hawaii!
+      </description>
+      <pubDate>Tue, 22 Dec 2020 9:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_006.opus"
+                 type="audio/opus" length="35165810"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_006.opus</guid>
+      <link>https://nextcloud.com/blog/nextclouds-first-hand-work-experience-life-and-x-mas-in-hawaii/</link>
+    </item>
 
       
     <item>
