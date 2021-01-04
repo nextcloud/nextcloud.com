@@ -97,8 +97,8 @@
                 <h2 class="teamname">Uwe Presler</h2>
                 <div class="teammeta">
                     <h3 class="teamtitle">Director Sales</h3>
-                    <h4 class="teamexpertise">Sales and parnterships</h4>
-                    <h4 class="teamlocation">lives in Augsburg, Germany</h4>
+                    <h4 class="teamexpertise">Sales and partnerships</h4>
+                    <h4 class="teamlocation">lives in Karlsruhe, Germany</h4>
                     <p class="teamsocial"><a href="https://www.linkedin.com/in/uwe-presler/"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Uwe_Presler/"><i class="fa-xing fa"></i></a></p>
                 </div>
                 <p class="teamdescription">Uwe has been educated in IT sales an has worked for a variety of tech enterprises including Deutsche Telekom and Vodafone and more recently the SME market leading CRM, xRM CAS Software AG. He is experienced in the areas of partner and sales management as well as business development.</p>
