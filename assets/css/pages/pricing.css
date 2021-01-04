@@ -45,7 +45,8 @@
   background-position: center;
   background-size: cover;
   margin-bottom: 50px;
-  padding-bottom: 0px; }
+  padding-bottom: 0px;
+  height: 700px !important; }
   .pricing-background .menu {
     margin-top: -100px; }
 

@@ -5553,7 +5553,7 @@ footer.page-footer {
 
 .second-menu {
   /*         margin-bottom: 150px !important; */ }
-  @media (max-width: 991px) {
+  @media (max-width: 1200px) {
     .second-menu .scrollmagic-pin-spacer {
       display: none !important; } }
   .second-menu .menu {
@@ -5576,13 +5576,13 @@ footer.page-footer {
       font-size: 13px;
       font-weight: 600;
       padding: 30px 0 20px 0; }
-      @media (max-width: 991px) {
+      @media (max-width: 1200px) {
         .second-menu .menu .buttons {
           padding: 30px 0 25px 0; } }
-      @media (max-width: 991px) {
+      @media (max-width: 1200px) {
         .second-menu .menu .buttons a:not(.btn) {
           display: none; } }
-      @media (max-width: 991px) {
+      @media (max-width: 1200px) {
         .second-menu .menu .buttons a:not(.button) {
           display: none; } }
       .second-menu .menu .buttons a {

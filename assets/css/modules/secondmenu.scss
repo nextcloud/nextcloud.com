@@ -5,7 +5,7 @@
 .second-menu {
 /*         margin-bottom: 150px !important; */
 
-    @media (max-width: $break-big) {
+    @media (max-width: $navbar-breaksize) {
         .scrollmagic-pin-spacer {
             display: none !important;
         }
@@ -35,18 +35,18 @@
 			padding: 30px 0 20px 0;
 
 
-        	@media (max-width: $break-big) {
+        	@media (max-width: $navbar-breaksize) {
 				padding: 30px 0 25px 0;
 			}
 
 			a:not(.btn) {
-        	@media (max-width: $break-big) {
+        	@media (max-width: $navbar-breaksize) {
         		display: none;
 				}
 			}
 
 			a:not(.button) {
-        	@media (max-width: $break-big) {
+        	@media (max-width: $navbar-breaksize) {
         		display: none;
 				}
 			}
