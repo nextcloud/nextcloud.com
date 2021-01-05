@@ -19,12 +19,14 @@ section {
 	min-width: 320px;
 
 	.row {
-		padding-top: 30px;
+		padding-top: 60px;
 	}
 
 	.list {
+        .col-md-3 {
+            padding-bottom: 20px;
+        }
 		.row {
-			padding-top: 0px;
 			margin-left: 0px;
 			margin-right: 0px;
 		}
@@ -37,11 +39,14 @@ section {
 			}
 		}
 		.description {
-			height: 180px;
+			height: 200px;
 		}
 		.section--paragraph__title {
-			padding: 0;
+			padding: 0 0;
 			font-size: 18px;
+            height: 60px;
+            margin-top: 5px;
+            margin-bottom: 0px;
 		}
 		.section--paragraph {
 			font-size: 14px;
@@ -131,13 +136,14 @@ section {
 			max-width: 300px;
 		}
 	    .newsletter {
-		padding-left: 15px;
-		line-height: 1.2;
-		small {
-			line-height: 1.2;
-		}
-		input {
-			margin-left: -15px;
+            margin-top: 5px;
+            padding-left: 15px;
+            line-height: 1.2;
+            small {
+                line-height: 1.2;
+            }
+            input {
+                margin-left: -15px;
 			}
 		}
 	}
