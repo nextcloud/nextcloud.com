@@ -65,11 +65,11 @@
     </div>
 	<div class="row">
         <div class="col-md-6">
-           <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/Files_Sharing_Share_Link_Permissions.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/Files_Sharing_Share_Link_Permissions.png" alt="file view" ></a><br />
+           <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/Files_Sharing_Share_Link_Permissions.png"><img class="overlay-trigger img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/Files_Sharing_Share_Link_Permissions.png" alt="file view" ></a><br />
            A typical EFSS web interface showing files and a sidebar with sharing options for the selected file
         </div>
         <div class="col-md-6">
-           <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/text-and-talk.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/text-and-talk.png" alt="sidebar with talk" ></a><br />
+           <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/text-and-talk.png"><img class="overlay-trigger img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/text-and-talk.png" alt="sidebar with talk" ></a><br />
            More advanced solutions allow real-time document editing and communication in one interface
         </div>
        <!-- <div class="col-md-6">
@@ -368,3 +368,4 @@
 	</div>
 </div>
 
+<?php require get_template_directory().'/overlay.php'; ?>

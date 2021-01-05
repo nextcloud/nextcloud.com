@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/securesharing.css?v=1" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/securesharing.css?v=2" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/broken.jpg">
@@ -8,35 +8,38 @@
 <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/broken.jpg">
 </head>
 <div class="background security-background">
-	<div class="container">
-		<div class="col-md-6 topheader">
-			<h1>Secure file exchange</h1>
-			<h2>Keep your IT compliant with Nextcloud</h2>
-		</div>
-	</div>
+    <div class="container">
+        <div class="col-md-6 topheader">
+            <h1>Secure file exchange</h1>
+            <h2>Keep your IT compliant with Nextcloud</h2>
+        </div>
+    </div>
 </div>
 <section class="section--intro">
 <div class="container">
-	<div class="row">
-		<div class="col-md-8 col-md-offset-2">
-			<p class="section--paragraph text-center">A recent Forrester report notes that unsecured and uncontrolled sharing of data opens the door to loss of version control, auditability, and control over innovative IP, creating business and legal risks.</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-8 col-md-offset-2">
-			<blockquote>Seventy-five percent of companies <small>(…)</small> rely on email for file sharing and collaboration, while more than half use FTP sites.</blockquote>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-8 col-md-offset-2">
-			<p class="section--paragraph text-center"><span class="avoidwrap">Public consumer clouds are a risk! A McAfee survey showed that</span> <span class="avoidwrap"><a class="hyperlink" href="https://www.zdnet.com/article/report-1-in-4-public-cloud-users-has-had-data-stolen/">25% of organizations using public cloud suffered data theft.</a></span></p>
-			<p class="section--paragraph text-center"><span class="avoidwrap">A 2020 study from Code42 concluded employers fail to stop employees from</span> <span class="avoidwrap"><a class="hyperlink" href="https://www.helpnetsecurity.com/2020/02/25/cloud-based-collaboration-tools/">syncing company files to personal cloud accounts.</a></span></p>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <p class="section--paragraph text-center">A recent Forrester report notes that unsecured and uncontrolled sharing of data opens the door to loss of version control, auditability, and control over innovative IP, creating business and legal risks.</p>
         </div>
-	</div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <blockquote>Seventy-five percent of companies <small>(…)</small> rely on email for file sharing and collaboration, while more than half use FTP sites.</blockquote>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h3 class="text-center">More studies show the risks of an uncontrolled SaaS strategy.</h3>
+            <p class="section--paragraph text-center">Public consumer clouds are risky. A McAfee survey showed that <a class="hyperlink" href="https://www.zdnet.com/article/report-1-in-4-public-cloud-users-has-had-data-stolen/">25% of organizations using public cloud suffered data theft.</a></p>
+            <p class="section--paragraph text-center">A Code42 study concluded employers fail to stop employees from <a class="hyperlink" href="https://www.helpnetsecurity.com/2020/02/25/cloud-based-collaboration-tools/">syncing company files to personal cloud accounts.</a></p>
+            <p class="section--paragraph text-center">A study by Veritas Technologies shows the wild growth in SaaS services <a class="hyperlink" href="https://www.onlinepc.ch/business/cloud/multi-cloud-strategie-anfaelliger-ransomware-2614574.html">multiplies the cost of ransomware attacks.</a></p>
+            <p class="section--paragraph text-center">With all these risks, it is not illogical to see 70% of enterprises <a class="hyperlink" href="https://nextcloud.com/blog/over-70-of-enterprises-moving-applications-back-on-premises-among-security-and-cost-concerns/">planning to move one or more SaaS applications back on-premises.</a></p>
+        </div>
+    </div>
 </section>
 <section>
 <div class="container">
-	<div class="row">
+    <div class="row">
         <p class="section--paragraph">Forrester urges senior corporate management and IT professionals to shift away from ad-hoc solutions like email, outdated technologies like FTP or customer-grade file sync and share like Dropbox or Google Drive. Key requirements they identify for a solution include:</p>
         <ul>
             <li>Enterprise-grade security, with governance and policies to protect valuable content and code</li>
@@ -44,8 +47,8 @@
             <li>APIs for integration with engineering, support desk, and other essential work processes</li>
         </ul>
         <p class="section--paragraph">The goal should be to streamline productivity without sacrificing visibility into the distribution of digital knowledge assets.</p>
-        <br>
-	</div>
+    <br>
+    </div>
 </div>
 </section>
 <section>
@@ -80,19 +83,19 @@
 
 <section class="section--risk">
 <div class="container">
-	<div class="row">
-		<div class="col-md-6 ">
+    <div class="row">
+        <div class="col-md-6 ">
             <a href="https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2020/06/30/data-protection-impact-assessment-office-365-for-the-web-and-mobile-office-apps/DPIA+Office+for+the+Web+and+mobile+Office+apps+30+June+2020.pdf"><img src="https://nextcloud.com/media/DPIA.png" alt="" class="img-responsive" /></a><br /> DPIA commisioned by the Dutch government shows a series of issues in Office 365
-		</div>
-		<div class="col-md-6 ">
-			<h3 class="section--paragraph__title"><?php echo $l->t('Office 365 not GDPR compliant');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('Use of Office 365 adds significantly to compliance risks. Like many other SaaS solutions, it, fails to follow the requirements and risk business data as a Data Protection Impact Assesment of Office 365 by the Dutch government showed again in mid 2020. This after serious flaws were found and promised to be fixed first in early 2019 and again later that year. Legal challenges are mounted continuously and can cause significant harm.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Links:');?></p>
-			<ul>
-			<li><a class="hyperlink" href="https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2020/06/30/data-protection-impact-assessment-office-365-for-the-web-and-mobile-office-apps/DPIA+Office+for+the+Web+and+mobile+Office+apps+30+June+2020.pdf" target="_blank">Data Protection Impact Assesment by Dutch Government mid 2020</a></li>
-			<li><a class="hyperlink" href="https://www.euractiv.com/section/digital/news/schrems-charts-us-surveillance-pushback-after-ecj-ruling/" target="_blank">Another round of legal challenges against US firms threatening their ability to offer any GPDR compliant services.</a></li>
-			</ul>
-	</div>
+        </div>
+        <div class="col-md-6 ">
+            <h3 class="section--paragraph__title"><?php echo $l->t('Office 365 not GDPR compliant');?></h3>
+            <p class="section--paragraph"><?php echo $l->t('Use of Office 365 adds significantly to compliance risks. Like many other SaaS solutions, it, fails to follow the requirements and risk business data as a Data Protection Impact Assesment of Office 365 by the Dutch government showed again in mid 2020. This after serious flaws were found and promised to be fixed first in early 2019 and again later that year. Legal challenges are mounted continuously and can cause significant harm.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Links:');?></p>
+            <ul>
+            <li><a class="hyperlink" href="https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2020/06/30/data-protection-impact-assessment-office-365-for-the-web-and-mobile-office-apps/DPIA+Office+for+the+Web+and+mobile+Office+apps+30+June+2020.pdf" target="_blank">Data Protection Impact Assesment by Dutch Government mid 2020</a></li>
+            <li><a class="hyperlink" href="https://www.euractiv.com/section/digital/news/schrems-charts-us-surveillance-pushback-after-ecj-ruling/" target="_blank">Another round of legal challenges against US firms threatening their ability to offer any GPDR compliant services.</a></li>
+            </ul>
+    </div>
 </div>
 </section>
 
@@ -117,7 +120,7 @@
             <p class="section--paragraph">Employees in modern organizations use tens, sometimes dozens different online services for tracking tasks, tickets, managing blogs, updating documentation, editing files, communicating with partners and more. But this outgrowth of IT services complicates work and multiplies the risk of data leaks.</p>
         </div>
     </div>
-	<div class="row">
+    <div class="row">
         <div class="col-md-6">
             <h3 class="section--paragraph__title">5x inefficiency and waste of time</h3>
             <p class="section--paragraph">1. Tools don't connect so data is uploaded to multiple places and employees lose track of what is where</p>
@@ -135,7 +138,7 @@
                 <p class="section--paragraph">4. Central or connected authentication and storage means breach in one is breach in all</p>
                 <p class="section--paragraph">5. Password re-use by employees across platforms means even a breach in a low-risk service risks all</p>
             </ul>
-		</div>
+        </div>
     </div>
     <hr>
     <div class="col-md-8 col-md-offset-2"><blockquote><span class="avoidwrap">You thought that a breach in a non-critical online tool is low-risk?</span> <span class="avoidwrap">Guess what, the hacked passwords were re-used on critical company infrastructure.</span></blockquote></div>
@@ -145,7 +148,7 @@
 
 <section class="section--solution">
 <div class="container">
-	<div class="row">
+    <div class="row">
         <div class="col-md-4 image--feature">
             <img class="img-responsive acess__anywhere" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/access-anywhere.png" alt="access on any device" >
         </div>
@@ -156,7 +159,7 @@
             <p class="section--paragraph">Its familiar, easy to use interface on web, mobile and desktop allows users to work efficiently and be confident everybody has access to the same, latest version of data. Its enterprise capabilities ensure IT maintains <a class="hyperlink" href="<?php echo home_url('workflow') ?>">full control</a> over sharing, retention and availability of data within and across the boundaries of the organization.</p>
             <h3 class="section--paragraph__title">Decentralized and hybrid</h3>
             <p class="section--paragraph">Last but not least, Nextcloud is a perfect fit for a <strong>Hybrid Cloud strategy,</strong> enabling universal access to data irrespective of where it is stored: on an internal network, in the cloud or even at a partner. Through <a class="hyperlink" href="<?php echo home_url('globalscale') ?>">Global Scale,</a> it is possible to host multiple separate Nextcloud servers to ensure data locality rules are while inter-server sharing and encryption of unsafe storage ensure data is both safe and seamlessly accessible at all times.</p>
-		</div>
+        </div>
     </div>
 </div>
 </section>
@@ -191,7 +194,7 @@
                 <p class="section--paragraph text-center">Nextcloud is famously easy to deploy and easy to use, a key reason behind its market leadership.</p>
             </div>
         </div>
-	</div>
+    </div>
 </div>
 </section>
 
@@ -223,7 +226,7 @@
             <h3>No new data silos</h3>
             <p class="section--paragraph">Modern organizations have data in a wide variety of silos like Sharepoint, Windows Network Drives, FTP sites and (often without knowledge of management) Dropbox or Google Drive. Nextcloud acts as a <a class="hyperlink" href="<?php echo home_url('storage') ?>">single file access, sync and share layer</a> across all these storage systems, integrating with enterprise native account handling like LDAP or SAML.</p>
             <p class="section--paragraph">That does not exclude using public cloud, nor requires you to give up on data locality. Nextcloud fits perfectly in a hybrid cloud strategy, enabling access to data on Amazon S3 and other public storage technologies. Even cutting-edge Blockchain storage technologies like <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-joins-storj-labs-to-deliver-decentralized-secure-storage/">Storj.io</a> and Sia.tech are available to augment storage at extremely low cost.</p>
-		</div>
+        </div>
     </div>
 </div>
 </section>
@@ -233,10 +236,10 @@
         <div class="col-md-4 image--floated  image--feature">
             <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/firewall.png" alt="Nextcloud File Firewall" >
         </div>
-	    <div class="col-md-8">
+        <div class="col-md-8">
             <h3>Under IT's control</h3>
             <p class="section--paragraph">No matter the storage solution used, Nextcloud can <a class="hyperlink" href="<?php echo home_url('workflow') ?>">ensure corporate policies are followed.</a> Sharing can be restricted through the file firewall, filtering on user properties like location or group, or file properties like (automatically or manually) assigned tags, file type and more. Extensive sharing permissions and restrictions are available, as are <a class="hyperlink" href="<?php echo home_url('permissions') ?>">Access Control Lists</a> for shared folder structures. With storage transparent to users, generic data can remain where it is while IT can make sure that business critical or compliance-relevant information is stored on internal infrastructure and does not leave the company. Use our secure <a href="<?php echo home_url('file-drop') ?>">File Drop</a> to let customers upload files to you in a easy and secure way!</p>
-   		</div>
+           </div>
     </div>
 </div>
 </section>
@@ -246,10 +249,10 @@
         <div class="col-md-6 image--feature">
             <img class="img-responsive acess__anywhere" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/endtoend-android2-nw.png" alt="access on any device" >
         </div>
-	    <div class="col-md-6">
+        <div class="col-md-6">
             <h3>With uniquely layered encryption</h3>
             <p class="section--paragraph">Nextcloud offers a supremely easy to use, well integrated file sync and share solution with an uniquely layered approach to security. Together with the support for nearly any storage technology, it features server-side encryption and offers the ability to employ <a href="<?php echo home_url('encryption') ?>">end-to-end, client side encryption</a> for a subset of user files. Rather than making it an either-or choice, your business can rely on utmost security where it is needed but keep collaborative online document editing and full-text search on the server over the rest of the stored data.</p>
-		</div>
+        </div>
     </div>
 </div>
 </section>
@@ -270,13 +273,13 @@
 <section>
 <div class="container">
     <div class="row">
-        <div class="col-md-6 image--floated">
+        <div class="col-md-6">
             <iframe width="100%" height="250" src="https://www.youtube-nocookie.com/embed/I5wcLS9xxMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
-	    <div class="col-md-6">
+        <div class="col-md-6">
             <h3>At global scale and ensuring data locality</h3>
-			<p class="section--paragraph">Our unique <a href="<?php echo home_url('globalscale') ?>" class="hyperlink">Global Scale</a> technology enables multiple Nextcloud instances to work as one, enabling enterprises to maintain multiple locations. Local regulations to ensure data locality can be satisfied without user impact and scaling to millions of users can be done cost-effectively.</p>
-		</div>
+            <p class="section--paragraph">Our unique <a href="<?php echo home_url('globalscale') ?>" class="hyperlink">Global Scale</a> technology enables multiple Nextcloud instances to work as one, enabling enterprises to maintain multiple locations. Local regulations to ensure data locality can be satisfied without user impact and scaling to millions of users can be done cost-effectively.</p>
+        </div>
     </div>
 </div>
 </section>
@@ -293,18 +296,18 @@
 
             <p class="section--paragraph">The layered approach to security makes sure users have the maximum amount of productivity in their web interface while making sure sensitive data receives the ultimate protection, client-to-client. Keeping it all in a single solution simplifies management and avoids mistakes from users or IT departments that might cause costly data leaks.</p>
         </div>
-	</div>
+    </div>
 </div>
 </section>
 <div class="container-fluid quote">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 featureblock">
-				<p class="text-center">Contact us to learn how we can help you secure corporate data.</p>
-				<div class="text-center morebuttondiv">
-					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow">Contact us <i class="icon-arrow-circle-o-right icon"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 featureblock">
+                <p class="text-center">Contact us to learn how we can help you secure corporate data.</p>
+                <div class="text-center morebuttondiv">
+                    <a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow">Contact us <i class="icon-arrow-circle-o-right icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
