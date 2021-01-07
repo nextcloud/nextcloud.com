@@ -66,6 +66,8 @@ require(["require.config"], function() {
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="2">
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <input class="button button--large" type="submit" value=" Get the Analysis ">
                     <div class="newsletter">
