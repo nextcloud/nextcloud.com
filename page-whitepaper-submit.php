@@ -41,6 +41,19 @@ try {
     if(!isset($_POST['email'])) {
         throw new HintException('The submitted form was invalid and missed the email address.');
     }
+    if(!isset($_POST['firstname']) || $_POST['firstname'] !== '') {
+        throw new HintException('The request is invalid. Please try again.');
+    }
+    $twoDaysInSeconds = 2 * 24 * 60 * 60;
+    if(!isset($_POST['requesttime'])
+        || (int)$_POST['requesttime'] < $twoDaysInSeconds
+        || (int)$_POST['requesttime'] > (time() - 8))
+    {
+        // denies action when the time rendering the previous page and the
+        // sending the request took more than 2 days, less then 8s or is
+        // unknown
+        throw new HintException('The request is invalid. Please try again.');
+    }
     if(!isset($_POST['segmentId']) && !is_numeric($_POST['segmentId'])) {
             throw new HintException('The submitted form was invalid.');
     }
