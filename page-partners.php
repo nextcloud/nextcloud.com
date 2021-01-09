@@ -118,7 +118,7 @@
 				<a href="https://hanssonit.se" target="_blank" title="Hansson IT">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/hansson.png" title="Hansson IT" />
 				</a>
-				<p  class="partnertext">The Nextcloud professionals at Hansson IT have been working with Nextcloud since day one, specializing in Linux and Virtual Machine development and helping thousands of customers to success together with the Nextcloud VM they develop. They offer a variety of virtual machine images in <a href="https://shop.hanssonit.se/product-category/virtual-machine/nextcloud-vm/" target="_blank" title="their shop"> as well as Nextcloud Enterprise licenses. You can follow <a href="https://twitter.com/tmhanssonit">@tmhanssonit on twitter</a>.
+				<p  class="partnertext">The Nextcloud professionals at Hansson IT based in Sweden have, been working with Nextcloud since day one. They specialize in Linux and Virtual Machine development and are helping thousands of customers to success together with the Nextcloud VM they develop. They offer a variety of support options and virtual machine images in <a href="https://shop.hanssonit.se/product-category/virtual-machine/nextcloud-vm/" target="_blank">their shop</a>, as well as Nextcloud Enterprise licenses. You can follow <a href="https://twitter.com/tmhanssonit">@tmhanssonit on Twitter</a>.
 				<a class="button button--white" href="https://hanssonit.se">Learn more</a>
 			</div>
 			<div class="col-md-4">
