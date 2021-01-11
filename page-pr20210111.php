@@ -63,7 +63,9 @@ About T-Systems: <a href="https://www.t-systems.com/de/en/about-t-systems/compan
 Corporate Communications<br />
 
 Tel.: 0228 181 – 49494<br />
-Email: media@telekom.de</p>
+Email: media@telekom.de<br />
+<a href="https://www.telekom.com/en/media/media-information/archive/telekom-and-nextcloud-offer-collaboration-platform-615708">https://www.telekom.com/en/media/media-information/archive/telekom-and-nextcloud-offer-collaboration-platform-615708</a>
+</p>
 <p><strong>Nextcloud GmbH</strong><br />
 Jos Poortvliet<br />
 Phone: +49 (0) 171 121 7528<br />
@@ -121,7 +123,8 @@ Phone: +49 (0) 171 121 7528<br />
 Corporate Communications<br />
 
 Tel.: 0228 181 – 49494<br />
-Email: media@telekom.de</p>
+Email: media@telekom.de<br />
+<a href="https://www.telekom.com/de/medien/medieninformationen/detail/telekom-und-nextcloud-bieten-collaboration-loesung-615692">https://www.telekom.com/de/medien/medieninformationen/detail/telekom-und-nextcloud-bieten-collaboration-loesung-615692</a></p>
 <p><strong>Nextcloud GmbH</strong><br />
 Jos Poortvliet<br />
 Phone: +49 (0) 171 121 7528<br />
