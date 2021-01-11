@@ -418,6 +418,13 @@
 				</a>
 				<p  class="partnertext">Univention is a leading provider of Open Source products for running and managing whole IT infrastructures and applications. Our core product is Univention Corporate Server (UCS), a flexible, effective alternative to Microsoft solutions with AD functions, a strong identity management and a wide range of applications in our App Center.</p>
 			</div>
+			<div class="col-md-4">
+				<a href="https://www.vibecyber.com/" target="_blank" title="Vibe Cyber">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/vibe.png" title="Vibe Cyber" />
+				</a>
+				<p  class="partnertext">VIBE Cybersecurity International’s core offering, Verifiable Identity-Based Encryption (VIBE), is a modern certificate-less, authenticating, cryptosystem that completely disrupts today’s security landscape, and affords organizations which embrace it the opportunity to eliminate their reliance on vulnerable, costly, complex certificate-based technologies.<br />
+                VIBE Cybersecurity’s mission is to prevent the cyberattacks that are crippling governments, businesses and the people they serve and protect, thereby rendering our world a safer place.</p>
+			</div>
 		</div>
 
 		<br /><br />
