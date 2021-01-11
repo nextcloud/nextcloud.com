@@ -295,6 +295,14 @@
                 <a class="button button--white" href="https://tamkeentech.sa/">Learn more</a>
             </div>
             <div class="col-md-4">
+                <a href="https://open-telekom-cloud.com/en/solutions/digital-workplace" target="_blank" title="Telekom">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/telekom.png" title="Deutsche Telekom" />
+                </a>
+                <p class="partnertext">Deutsche Telekom is one of the world's leading integrated telecommunications companies, with some 235.8 million mobile customers, 27,3 million fixed-network lines, and 21.3 million broadband lines.<br />
+                We provide fixed-network/broadband, mobile communications, Internet, and IPTV products and services for consumers, and information and communication technology (ICT) solutions for business and corporate customers.</p>
+                <a class="button button--white" href="https://open-telekom-cloud.com/en/solutions/digital-workplace">Learn more</a>
+            </div>
+            <div class="col-md-4">
                 <a href="https://viakom.de/unsere-produkte/managed-nextcloud/" target="_blank" title="Viakom">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/viakom.png" title="Viakom logo" />
                 </a>
