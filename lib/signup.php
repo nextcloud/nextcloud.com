@@ -160,7 +160,7 @@ function request_account($request) {
 			'Content-Type' => 'application/x-www-form-urlencoded;charset=UTF-8'
 		),
 		'body'    => 'email=' . $email,
-		'timeout' => 30
+		'timeout' => 60
 	);
 
 	// request account && consume one rate token
