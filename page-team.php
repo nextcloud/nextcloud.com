@@ -394,7 +394,7 @@
 					<h4 class="teamlocation">lives near Stuttgart, Germany</h4>
 					<p class="teamsocial"> <a href="https://github.com/FlexW"><i class="fa-github fa"></i></a> <a href="https://www.linkedin.com/in/felix-weilbach-73a0651b9/"><i class="fa-linkedin fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Felix apprenticed in automotive megatronics and then decided to study Computer Science in Augsburg. He is a big free software fan and develops a small Android app named SplitBills. He's an Emacs user and loves mountain biking.</p>
+				<p class="teamdescription">Felix apprenticed in automotive mechatronics and then decided to study Computer Science in Augsburg. He is a big free software fan and develops a small Android app named SplitBills. He's an Emacs user and loves mountain biking.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
