@@ -104,7 +104,7 @@ require(["require.config"], function() {
 <div class="container-widest">
     <h1 class="section--heading-1 text-center"><?php echo $l->t('Some of our customers');?></h1>
     <div class="row">
-		<div class="col-sm-4 col-lg-2 col-lg-offset-1 customer">
+		<div class="col-sm-4 col-lg-2 customer">
             <div class="customer-logo">
                 <a href="https://nextcloud.com/blog/german-federal-administration-relies-on-nextcloud-as-a-secure-file-exchange-solution/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/itzbund.png" /></a>
             </div>
@@ -127,6 +127,11 @@ require(["require.config"], function() {
         <div class="col-sm-4 col-lg-2 customer">
             <div class="customer-logo">
                 <a href="https://www.mfa.gov.af/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/mfa.png" /></a>
+            </div>
+        </div>
+        <div class="col-sm-4 col-lg-2 customer">
+            <div class="customer-logo">
+                <a href="https://www.paris.fr/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/paris.png" /></a>
             </div>
         </div>
     </div>
