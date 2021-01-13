@@ -47,7 +47,7 @@
 					<h3 class="teamtitle">Chief Commercial Officer</h3>
 					<h4 class="teamexpertise">Sales and Partnerships</h4>
 					<h4 class="teamlocation">lives in Hannover, Germany</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/andreas-rode-8296434/"><i class="fa-linkedin fa"></i></a><!--<a href="https://github.com/nickvergessen"><i class="fa-github fa"></i></a>--> <!--<a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a>--> &nbsp; </p>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/andreas-rode-8296434/"><i class="fa-linkedin fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Andreas studied Economics and has 20 years experience in Business Development, Partner- and Sales Management. Andreas worked for companies like Oracle, EMC, Yahoo and Google and also for start ups in the Cloud Computing and Online Marketing space.</p>
 			</div>
@@ -91,6 +91,19 @@
 				<p class="teamdescription">Roeland has been working on improving private file sharing since 2015. He has a MSc degree in Computer Science from the University of Amsterdam, having done research for his PhD in cache partitioning for real time systems. He is in charge of engineering and support and works on various security hardenings.</p>
 			</div>
 		</div>
+        <div class="col-md-4">
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/uwe.jpg" />
+                <h2 class="teamname">Uwe Presler</h2>
+                <div class="teammeta">
+                    <h3 class="teamtitle">Director Sales</h3>
+                    <h4 class="teamexpertise">Sales and partnerships</h4>
+                    <h4 class="teamlocation">lives in Karlsruhe, Germany</h4>
+                    <p class="teamsocial"><a href="https://www.linkedin.com/in/uwe-presler/"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Uwe_Presler/"><i class="fa-xing fa"></i></a></p>
+                </div>
+                <p class="teamdescription">Uwe has been educated in IT sales an has worked for a variety of tech enterprises including Deutsche Telekom and Vodafone and more recently the SME market leading CRM, xRM CAS Software AG. He is experienced in the areas of partner and sales management as well as business development.</p>
+            </div>
+        </div>
         <div class="col-md-4">
             <div class="teamp">
                 <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/vanessa.jpg" />
