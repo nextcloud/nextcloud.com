@@ -89,6 +89,25 @@ require(["require.config"], function() {
         </div>
         <div class="row feature--block">
             <div class="col-md-5">
+                <a href="https://www.homedrive.io/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/homedrive.png" class="img-responsive featureimg" /></a>
+            </div>
+            <div class="col-md-7">
+                <h3 class="section--paragraph__title"><?php echo $l->t('HomeDrive');?></h3>
+                <p class="section--paragraph"><em><?php echo $l->t('Easy Nextcloud hosting at home. Access your data anywhere in the world.');?></em></p>
+                <ul class="section--paragraph" style="list-style-type: disc">
+                    <li><?php echo $l->t('HomeDrive provides an easy way to host Nextcloud at your home. It requires zero configuration to work, and automatically updates itself.');?></li>
+                    <li><?php echo $l->t('Setting up HomeDrive is as simple as plugging it into your home router. You can start accessing your data under a custom domain name from anywhere in the world right away.')?></li>
+                    <li><?php echo $l->t('Traffic from and to your HomeDrive server is end-to-end encrypted to ensure security and your privacy.')?></li>
+                </ul>
+                <div class="devices-tags">
+                    <span>Commercial</span>
+                    <span>Managed</span>
+                </div>
+                <a href="https://www.homedrive.io/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+            </div>
+        </div>
+        <div class="row feature--block">
+            <div class="col-md-5">
                 <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/ubosbox-nextcloud-on-nuc-model-a-on-500x375.png" class="img-responsive featureimg" /></a>
             </div>
             <div class="col-md-7">
@@ -121,27 +140,6 @@ require(["require.config"], function() {
                     <span>Commercial</span>
                 </div>
                 <a href="https://nextcloud.com/blog/turris-mox-adds-nextcloud-to-put-users-back-in-control-over-their-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
-            </div>
-        </div>
-
-        <h4>Announced and available for pre-order</h4>
-        <div class="row feature--block">
-            <div class="col-md-5">
-                <a href="https://www.homedrive.io/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/homedrive.png" class="img-responsive featureimg" /></a>
-            </div>
-            <div class="col-md-7">
-                <h3 class="section--paragraph__title"><?php echo $l->t('HomeDrive');?></h3>
-                <p class="section--paragraph"><em><?php echo $l->t('Easy Nextcloud hosting at home. Access your data anywhere in the world.');?></em></p>
-                <ul class="section--paragraph" style="list-style-type: disc">
-                    <li><?php echo $l->t('HomeDrive provides an easy way to host Nextcloud at your home. It requires zero configuration to work, and automatically updates itself.');?></li>
-                    <li><?php echo $l->t('Setting up HomeDrive is as simple as plugging it into your home router. You can start accessing your data under a custom domain name from anywhere in the world right away.')?></li>
-                    <li><?php echo $l->t('Traffic from and to your HomeDrive server is end-to-end encrypted to ensure security and your privacy.')?></li>
-                </ul>
-                <div class="devices-tags">
-                    <span>Commercial</span>
-                    <span>Managed</span>
-                </div>
-                <a href="https://www.homedrive.io/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
             </div>
         </div>
 
