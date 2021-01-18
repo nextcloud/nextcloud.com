@@ -95,7 +95,7 @@
         </div>
 		<div class="col-md-6 image--feature">
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_itinerary.png"><img alt="<?php echo $l->t('screenshot of mail itinerary reading in action');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_itinerary.png" /></a><br />
-            <?php echo $l->t('Adding an ittinerary to the Calendar');?>
+            <?php echo $l->t('Adding an itinerary to the Calendar');?>
         </div>
 	</div>
 	<div class="row">
