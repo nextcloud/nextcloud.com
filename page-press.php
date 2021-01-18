@@ -21,6 +21,7 @@
     <a href="<?php echo home_url('press/pr20201003-0') ?>" class="button button--large button--white button--arrow">Press release</a>
     <h2>Press releases 2020</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20210111') ?>">January 18, 2020: Nextcloud and VIBE Cybersecurity Join Forces to Launch Crypto as a Service</a></li>
         <li><a href="<?php echo home_url('press/pr20210111') ?>">January 11, 2020: Telekom and Nextcloud offer Collaboration Platform</a></li>
         <li><a href="<?php echo home_url('press/pr20201216') ?>">December 16, 2020: Nextcloud introduces one-click migration from privacy-unfriendly public cloud platforms</a></li>
         <li><a href="<?php echo home_url('press/pr20201214-2') ?>">December 14, 2020: Hancom Works brings productivity, collaboration, and self-managed data privacy to the Cloud</a></li>

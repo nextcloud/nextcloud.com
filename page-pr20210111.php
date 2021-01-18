@@ -69,7 +69,7 @@ Email: media@telekom.de<br />
 <p><strong>Nextcloud GmbH</strong><br />
 Jos Poortvliet<br />
 Phone: +49 (0) 171 121 7528<br />
-<a href="mailto:jos.poortvliet@nextcloud.com" class="email">jos.poortvliet@nextcloud.com</a></p>
+<a href="mailto:pr@nextcloud.com" class="email">pr@nextcloud.com</a></p>
 <h2>Graphics</h2>
 <ul>
 <li><a href="https://nextcloud.com/media/Telekom-and-Nextcloud-small.pngg">Launch graphic</a></li>
@@ -127,8 +127,8 @@ Email: media@telekom.de<br />
 <a href="https://www.telekom.com/de/medien/medieninformationen/detail/telekom-und-nextcloud-bieten-collaboration-loesung-615692">https://www.telekom.com/de/medien/medieninformationen/detail/telekom-und-nextcloud-bieten-collaboration-loesung-615692</a></p>
 <p><strong>Nextcloud GmbH</strong><br />
 Jos Poortvliet<br />
-Phone: +49 (0) 171 121 7528<br />
-<a href="mailto:jos.poortvliet@nextcloud.com" class="email">jos.poortvliet@nextcloud.com</a></p>
+Phone: +49 (0) 711 25 24 28 90<br />
+<a href="mailto:pr@nextcloud.com" class="email">pr@nextcloud.com</a></p>
 <h2>Graphics</h2>
 <ul>
 <li><a href="https://nextcloud.com/media/Telekom-and-Nextcloud-small.pngg">Launch graphic</a></li>
