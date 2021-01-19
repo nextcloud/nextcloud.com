@@ -42,11 +42,28 @@ section {
   section .section--paragraph__title {
     padding: 0; }
 
-.feature--block {
+.section--devices .feature--block {
   padding-top: 60px; }
-
-.row {
+.section--devices .row {
   padding-top: 60px; }
+.section--devices .col-md-4 {
+  padding: 20px; }
+.section--devices .block-container {
+  height: 800px;
+  overflow-y: auto;
+  box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+  transition: all .5s ease;
+  background: white;
+  border-radius: 10px 10px 0 0;
+  margin: 20px 0;
+  padding-top: 10px; }
+  .section--devices .block-container:hover {
+    box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+    transition: all .3s ease;
+    transform: translate3D(0, -1px, 0); }
+.section--devices .featureimg {
+  max-height: 400px;
+  max-width: 400px; }
 
 footer {
   margin-top: 150px; }
