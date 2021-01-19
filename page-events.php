@@ -54,6 +54,32 @@ require(["require.config"], function() {
 				<h2>Conferences, tradeshows and other events</h2>
 				<p class="section--paragraph">Nextcloud is participating in trade shows and conferences to present our community and technology to visitors.<br/>
 				Below is a list of tradeshows and conferences where Nextcloud is represented! If you have questions and would like to meet us at an event, check out this list and <a class="hyperlink" href="https://help.nextcloud.com/c/conference">let us know on the forums</a> you will be there.</p>
+            <a class="button button--blue" href="#2021" data-toggle="collapse">Events in 2021</a>
+                <div id="2021" class="collapse in">
+                <br>
+                <table class="table table-striped">
+					<tr>
+						<th>Event</th>
+						<th>Location</th>
+						<th>Date</th>
+					</tr>
+                     <tr>
+						<td><a class="hyperlink" target="_blank" href="https://fosdem.org/2021/">FOSDEM</a></td>
+						<td>Online/Brussels, Belgium</td>
+						<td>February 6-7</td>
+					</tr>
+					<tr>
+						<td><a class="hyperlink" target="_blank" href="https://www.univention-summit.de/">Univention Summit</a></td>
+						<td>Online/Bremen, Germany</td>
+						<td>January 28-29</td>
+					</tr>
+					<tr>
+						<td><a class="hyperlink" target="_blank" href="hhttp://www.cs3community.org/2021/">CS3 cloud services workshop</a></td>
+						<td>Online</td>
+						<td>January 25-29</td>
+					</tr>
+				</table>
+			</div>
             <a class="button button--blue" href="#2020" data-toggle="collapse">Events in 2020</a>
                 <div id="2020" class="collapse in">
                 <br>
@@ -63,6 +89,11 @@ require(["require.config"], function() {
 						<th>Location</th>
 						<th>Date</th>
 					</tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/conf/">Nextcloud Conference</a></td>
+						<td>Online/Berlin, Germany</td>
+						<td>October 3-4</td>
+                    </tr>
                      <tr>
 						<td><a class="hyperlink" target="_blank" href="https://fosdem.org/2020/">FOSDEM</a></td>
 						<td>Brussels, Belgium</td>
