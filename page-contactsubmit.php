@@ -110,7 +110,7 @@ if(isset($_POST['email'])) {
             $string = str_replace($bad,"",$string);
             return htmlspecialchars($string);
         }
-// the app review mailing list address
+    // Prepare email text
     $email_message = "Form details below.\n\n";
     $email_to = "sales@nextcloud.com";
     $email_subject = "Nextcloud Contact Form: ".clean_string($organization);
@@ -120,12 +120,11 @@ if(isset($_POST['email'])) {
     $email_message .= "Role: ".clean_string($role)."\n";
     $email_message .= "Phone: ".clean_string($phone)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
-// create email headers
+    // create email headers
     $headers = 'From: no-reply@nextcloud.com'."\r\n".
     'Reply-To: '.$email_from."\r\n" .
-    'Content-Type: text/plain; charset=UTF-8'."\r\n" .
-    'Cc: '.$email_from;
-// store in log
+    'Content-Type: text/plain; charset=UTF-8';
+    // store in log
     $data = [
             'to' => $email_to,
             'subject' => $email_subject,
@@ -133,10 +132,19 @@ if(isset($_POST['email'])) {
             'headers' => $headers,
     ];
     file_put_contents('/var/log/sales-leads.txt', json_encode($data) . PHP_EOL, FILE_APPEND | LOCK_EX);
-// Send the email to the list
+    // Send the email to the list
     @mail($email_to, $email_subject, $email_message, $headers);
-// Second email to subscribe to the mailing list
-//     @mail("frank@nextcloud.org", "website form", "website form", $headers);
+
+    // Send email to given address without the input
+    $email_subject = 'Nextcloud Contact Form';
+    $email_message = "Thanks for reaching out to Nextcloud.\nYou will here back shortly from our Sales Team.\n\n";
+
+    $headers = 'From: no-reply@nextcloud.com'."\r\n".
+    'Reply-To: '.$email_to."\r\n" .
+    'Content-Type: text/plain; charset=UTF-8';
+    // Send the email to user
+    @mail($email_from, 'Nextcloud Contact Form', $email_message, $headers);
+
  ?>
 
   <!-- success html here -->
