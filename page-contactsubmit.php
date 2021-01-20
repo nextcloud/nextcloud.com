@@ -113,7 +113,7 @@ if(isset($_POST['email'])) {
     // Prepare email text
     $email_message = "Form details below.\n\n";
     $email_to = "sales@nextcloud.com";
-    $email_subject = "Nextcloud Contact Form: ".clean_string($organization);
+    $email_subject = "Website Contact Form: ".clean_string($organization);
     $email_message .= "Name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Organization: ".clean_string($organization)."\n";
@@ -136,8 +136,8 @@ if(isset($_POST['email'])) {
     @mail($email_to, $email_subject, $email_message, $headers);
 
     // Send email to given address without the input
-    $email_subject = 'Nextcloud Contact Form';
-    $email_message = "Thanks for reaching out to Nextcloud.\nYou will here back shortly from our Sales Team.\n\n";
+    $email_subject = 'Nextcloud Contact Form confirmation';
+    $email_message = "Thanks for reaching out to Nextcloud.\nYou will hear back shortly from our Sales Team.\n\n";
 
     $headers = 'From: no-reply@nextcloud.com'."\r\n".
     'Reply-To: '.$email_to."\r\n" .
