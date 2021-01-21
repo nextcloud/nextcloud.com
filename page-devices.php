@@ -34,8 +34,8 @@ require(["require.config"], function() {
 <section class="section--devices">
 <div class="container-widest">
     <div class="row">
-        <h4>Currently available</h4>
-        <div class="col-md-4">
+<!--         <h4>Currently available</h4> -->
+        <div class="col-lg-4">
             <div class="block-container">
                 <div class="text-center">
                     <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-odroid-hc2/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/ubosbox-nextcloud-on-odroid-hc2-500x375.jpg" class="text-center featureimg" /></a>
@@ -54,11 +54,11 @@ require(["require.config"], function() {
                         <span>Commercial</span>
                         <span>Managed</span>
                     </div>
-                    <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more and order');?></a>
+                    <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about UbosBox');?></a>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4">
             <div class="block-container">
                 <div class="text-center">
                     <a href="https://shop.hanssonit.se/product-category/nextcloud/home-sme-server/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/nuc10side.jpeg" class="text-center featureimg" /></a>
@@ -74,11 +74,11 @@ require(["require.config"], function() {
                         <span>Commercial</span>
                         <span>Community</span>
                     </div>
-                    <a href="https://shop.hanssonit.se/product-category/nextcloud/home-sme-server/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more and order');?></a>
+                    <a href="https://shop.hanssonit.se/product-category/nextcloud/home-sme-server/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about HanssonIT');?></a>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4">
             <div class="block-container">
                 <div class="text-center">
                     <a href="<?php bloginfo('template_directory'); ?>/assets/img/devices/syncloud.jpg"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/syncloud.jpg" class="text-center featureimg" /></a>
@@ -90,11 +90,11 @@ require(["require.config"], function() {
                     <div class="devices-tags">
                         <span>Commercial</span>
                     </div>
-                    <a href="http://syncloud.org" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+                    <a href="http://syncloud.org" class="button button--blue button--arrow button--large"><?php echo $l->t('More about Syncloud');?></a>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4">
             <div class="block-container">
                 <div class="text-center">
                     <a href="https://www.homedrive.io/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/homedrive.png" class="text-center featureimg" /></a>
@@ -111,11 +111,11 @@ require(["require.config"], function() {
                         <span>Commercial</span>
                         <span>Managed</span>
                     </div>
-                    <a href="https://www.homedrive.io/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+                    <a href="https://www.homedrive.io/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about homedrive');?></a>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4">
             <div class="block-container">
                 <div class="text-center">
                     <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/ubosbox-nextcloud-on-nuc-model-a-on-500x375.png" class="text-center featureimg" /></a>
@@ -134,11 +134,11 @@ require(["require.config"], function() {
                         <span>Commercial</span>
                         <span>Managed</span>
                     </div>
-                    <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more and order');?></a>
+                    <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about Indiecomputing');?></a>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4">
             <div class="block-container">
                 <div class="text-center">
                     <img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/MOX.png" class="text-center featureimg" />
@@ -151,7 +151,7 @@ require(["require.config"], function() {
                     <div class="devices-tags">
                         <span>Commercial</span>
                     </div>
-                    <a href="https://nextcloud.com/blog/turris-mox-adds-nextcloud-to-put-users-back-in-control-over-their-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+                    <a href="https://nextcloud.com/blog/turris-mox-adds-nextcloud-to-put-users-back-in-control-over-their-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about Turris Mox');?></a>
                 </div>
             </div>
         <div>
@@ -159,7 +159,7 @@ require(["require.config"], function() {
 </div>
         <div class="row">
             <h4>Sold out, or not available any more</h4>
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="block-container">
                     <div class="text-center">
                         <a href="https://spreedbox.me/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/spreedbox.png" class="text-center featureimg" /></a>
@@ -173,21 +173,21 @@ require(["require.config"], function() {
                         <div class="devices-tags">
                             <span>Commercial</span>
                         </div>
-                        <a href="https://spreedbox.me/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+                        <a href="https://spreedbox.me/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about spreedbox');?></a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="block-container">
-                    <div class="text-center">>
+                    <div class="text-center">
                         <a href="<?php echo home_url('box') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/box-perspective.png" class="text-center featureimg" /></a>
                     </div>
                         <div class="col-md-12">
-                            <h3 class="section--paragraph__title"><em><?php echo $l->t('Nextcloud Box');?></em></h3>
+                            <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Box');?></h3>
                             <p class="section--paragraph"><?php echo $l->t('The Nextcloud Box comes preinstalled with Nextcloud, running on Ubuntu Core (based on the new super-secure, remotely upgradeable Linux app packages known as snaps) as the OS.');?></p>
                             <p class="section--paragraph"><?php echo $l->t('The box consists of a 1 TB USB3 hard drive from WDLabs, a Nextcloud case with room for the drive and a compute board, a microUSB charger, cables and adapters, a screw driver and screws');?></p>
                             <p class="section--paragraph"><strong><?php echo $l->t('Sadly, the box is sold out and no longer produced by WD Labs!');?></strong></p>
-                            <a href="<?php echo home_url('box') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+                            <a href="<?php echo home_url('box') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('More about the Nc Box');?></a>
                         </div>
                     </div>
                 </div>
