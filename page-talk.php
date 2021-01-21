@@ -284,7 +284,7 @@
                     </div>
                 </div>
                 <div class="col-sm-9 col-lg-10 featureblock">
-                    <p class="section--paragraph"><?php echo $l->t('<strong>Stay Connected</strong><br>Bridge with other chat networks');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('<strong>Stay Connected</strong><br>Bridge with other servers and chat networks');?></p>
                 </div>
 			</div>
         </div>
@@ -302,7 +302,7 @@
 			<p class="section--paragraph__tittle"><?php echo $l->t('Designed for privacy');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk is a fully self hosted, on-premises audio/video and chat communication service. It features web and mobile apps and is designed to offer the highest degree of security while being easy to use.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk lowers the barrier for communication and lets your team connect any time, any where, on any device, with each other, customers or partners.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('While Nextcloud Talk itself is free, the optional Nextcloud Talk High Performance Backend enables enterprise class scalability, reliability and features.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The optional Nextcloud Talk High Performance Backend enables enterprise class scalability, reliability and features.');?></p>
 		</div>
 	</div>
 	<div class="row">
@@ -335,8 +335,8 @@
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Bridging with other networks');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Nextcloud Bridging allows the connection of Talk rooms to one or more channels on other services like IRC, Slack, Microsoft Teams, Matrix, Mattermost, XMPP and many more.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('A bridge sends any messages from the third party network into the Talk room where it was configured, and any messages put in the Talk room to the bridget third party network.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud Bridging allows the connection of Talk rooms to one or more channels on other Talk servers, but also other services like IRC, Slack, Microsoft Teams, Matrix, Mattermost, XMPP and many more.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('A bridge sends any messages from the third party network into the Talk room where it was configured, and any messages put in the Talk room to the bridged third party network.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Multiple networks can be bridged into a single Nextcloud Talk room, so messages can go from Slack to Teams and IRC via Nextcloud.');?></p>
 		</div>
 	</div>
