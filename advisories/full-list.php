@@ -1,5 +1,27 @@
 <hr>
 
+<h2>2021</h2>
+
+<h3>Nextcloud Server 20.0.2</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2021-002">Stored XSS in markdown file with Nextcloud Talk using Internet Explorer (NC-SA-2021-002)</a> 2020-11-18</li>
+	<li><a href="/security/advisory/?id=NC-SA-2021-001">Potential DDoS when posting long data into workflow validation rules (NC-SA-2021-001)</a> 2020-11-18</li>
+</ul>
+
+<h3>Nextcloud Server 19.0.5</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2021-002">Stored XSS in markdown file with Nextcloud Talk using Internet Explorer (NC-SA-2021-002)</a> 2020-11-18</li>
+	<li><a href="/security/advisory/?id=NC-SA-2021-001">Potential DDoS when posting long data into workflow validation rules (NC-SA-2021-001)</a> 2020-11-18</li>
+</ul>
+
+<h3>Nextcloud Server 18.0.11</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2021-002">Stored XSS in markdown file with Nextcloud Talk using Internet Explorer (NC-SA-2021-002)</a> 2020-11-18</li>
+	<li><a href="/security/advisory/?id=NC-SA-2021-001">Potential DDoS when posting long data into workflow validation rules (NC-SA-2021-001)</a> 2020-11-18</li>
+</ul>
+
+<hr>
+
 <h2>2020</h2>
 
 <h3>Contacts App 3.4.1</h3>
