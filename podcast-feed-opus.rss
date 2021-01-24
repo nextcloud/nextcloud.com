@@ -39,7 +39,22 @@
     <atom:link href="https://nextcloud.com/podcast-feed.xml" rel="self" type="application/rss+xml" />
     <link>https://nextcloud.com/podcast/</link>
 
-
+<item>
+      <title>Interview with Stefan Niedermann, our amazing community member!</title>
+      <itunes:subtitle>On our seventh podcast, Ingo talks to our community member, Stefan Niedermann about how he started contributing to Nextcloud and developing Nextcloud Notes and Nextcloud Deck app.</itunes:subtitle>
+      <itunes:summary>On our seventh podcast, Ingo talks to our community member, Stefan Niedermann about his work and how he started contributing to Nextcloud and developing Nextcloud Notes and Nextcloud Deck app.
+      </itunes:summary>
+      <itunes:duration>00:29:58</itunes:duration>
+      <description>On our seventh podcast, Ingo talks to our amazing community member, Stefan Niedermann about how he started contributing to Nextcloud and developing Nextcloud Notes and Nextcloud Deck app.
+      </description>
+      <pubDate>Tue, 26 Jan 2020 9:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_007.opus"
+                 type="audio/opus" length="23991906"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_007.opus</guid>
+      <link>https://nextcloud.com/blog/the-first-episode-in-2021-interview-with-our-amazing-community-member-stefan/</link>
+    </item>
  <item>
       <title>Nextcloud’s first-hand work experience: Life and X-mas in Hawaii</title>
       <itunes:subtitle>On our sixth podcast, Ingo talks to Edeltraut about remote work experience, life and X-mas in Hawaii</itunes:subtitle>
