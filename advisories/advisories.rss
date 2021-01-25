@@ -5,6 +5,24 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Server: Stored XSS in markdown file with Nextcloud Talk using Internet Explorer (NC-SA-2021-003)</title>
+  <description>A wrong check in Nextcloud Server 19 and prior allowed to perform a denial of service attack when resetting the password for a user.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-003&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-003</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2021-003</guid>
+  <pubDate>Sat, 03 Oct 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Stored XSS in markdown file with Nextcloud Talk using Internet Explorer (NC-SA-2021-002)</title>
+  <description>A missing link validation in Nextcloud Server 20.0.1 allowed to execute a stored XSS attack on Internet Explorer users by saving a javascript url in a Markdown.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-002&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-002</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2021-002</guid>
+  <pubDate>Wed, 18 Nov 2020 13:00:00 +0100</pubDate>
+ </item><item>
+  <title>Server: Potential DDoS when posting long data into workflow validation rules (NC-SA-2021-001)</title>
+  <description>A missing input validation in Nextcloud Server 20.0.1 allowed users to store unlimited data in workflow rules causing load and potential DDoS on later interactions and usage with those rules.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-001&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-001</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2021-001</guid>
+  <pubDate>Wed, 18 Nov 2020 13:00:00 +0100</pubDate>
+ </item><item>
   <title>Contacts App: XSS through image upload of contacts using svg file (NC-SA-2020-045)</title>
   <description>A missing file type check in Nextcloud Contacts 3.3.0 allowed a malicious user to upload malicious SVG files to perform XSS attacks.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-045&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-045</link>
