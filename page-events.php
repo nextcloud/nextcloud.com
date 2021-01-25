@@ -74,7 +74,7 @@ require(["require.config"], function() {
 						<td>January 28-29</td>
 					</tr>
 					<tr>
-						<td><a class="hyperlink" target="_blank" href="hhttp://www.cs3community.org/2021/">CS3 cloud services workshop</a></td>
+						<td><a class="hyperlink" target="_blank" href="http://www.cs3community.org/2021/">CS3 cloud services workshop</a></td>
 						<td>Online</td>
 						<td>January 25-29</td>
 					</tr>
