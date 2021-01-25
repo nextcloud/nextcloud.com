@@ -5,6 +5,12 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Server: Stored XSS in markdown file with Nextcloud Talk using Internet Explorer (NC-SA-2021-003)</title>
+  <description>A wrong check in Nextcloud Server 19 and prior allowed to perform a denial of service attack when resetting the password for a user.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-003&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-003</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2021-003</guid>
+  <pubDate>Sat, 03 Oct 2020 14:00:00 +0200</pubDate>
+ </item><item>
   <title>Server: Stored XSS in markdown file with Nextcloud Talk using Internet Explorer (NC-SA-2021-002)</title>
   <description>A missing link validation in Nextcloud Server 20.0.1 allowed to execute a stored XSS attack on Internet Explorer users by saving a javascript url in a Markdown.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-002&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-002</link>

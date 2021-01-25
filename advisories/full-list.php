@@ -20,6 +20,11 @@
 	<li><a href="/security/advisory/?id=NC-SA-2021-001">Potential DDoS when posting long data into workflow validation rules (NC-SA-2021-001)</a> 2020-11-18</li>
 </ul>
 
+<h3>Nextcloud Server 20.0.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2021-003">Stored XSS in markdown file with Nextcloud Talk using Internet Explorer (NC-SA-2021-003)</a> 2020-10-03</li>
+</ul>
+
 <hr>
 
 <h2>2020</h2>
