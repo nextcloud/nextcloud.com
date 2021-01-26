@@ -35,6 +35,37 @@
 
 <a name="latest20"></a>
 
+<h3 id="20-0-6">Version 20.0.6 <small>January 27 2021</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.6.tar.bz2">nextcloud-20.0.6.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.6.zip">nextcloud-20.0.6.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.6.tar.bz2.md5">nextcloud-20.0.6.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.6.zip.md5">nextcloud-20.0.6.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.6.tar.bz2.sha256">nextcloud-20.0.6.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.6.zip.sha256">nextcloud-20.0.6.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.6.tar.bz2.sha512">nextcloud-20.0.6.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.6.zip.sha512">nextcloud-20.0.6.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.6.tar.bz2.asc">nextcloud-20.0.6.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.6.zip.asc">nextcloud-20.0.6.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/25077">Make sure to do priority app upgrades first (server#25077)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25120">Respect DB restrictions on number of arguments in statements and queries (server#25120)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25143">Add a hint about the direction of priority (server#25143)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25146">Do not redirect to logout after login (server#25146)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25152">Fix comparison of PHP versions (server#25152)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25178">Add "composer.lock" for acceptance tests to git (server#25178)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25190">Update CRL due to revoked gravatar.crl (server#25190)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25193">Don't log keys on checkSignature (server#25193)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25199">Update 3rdparty after Archive_Tar (server#25199)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25219">Bump CA bundle (server#25219)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25225">Update handling of user credentials (server#25225)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25244">Fix encoding issue with OC.Notification.show (server#25244)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25261">Also use storage copy when dav copying directories (server#25261)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25263">Silence log message (server#25263)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25276">Extend ILDAPProvider to allow reading arbitrairy ldap attributes for users (server#25276)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25278">Do not obtain userFolder of a federated user (server#25278)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/603">Bump pear/archive_tar from 1.4.11 to 1.4.12 (3rdparty#603)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/604">Add gitignore entry for .github folder of dependencies (3rdparty#604)</a></li>
+        <li><a href="https://github.com/nextcloud/activity/pull/551">Clear event array on getting them (activity#551)</a></li>
+</ul>
+
 <h3 id="20-0-5">Version 20.0.5 <small>January 15 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.5.tar.bz2">nextcloud-20.0.5.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.5.zip">nextcloud-20.0.5.zip</a></br>
 Check the file integrity with:</br>
@@ -400,6 +431,29 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p>An exhaustive changelog would be unreasonably long, but one can always see our entire development history in github. For the core Server repository, see for example <a href="https://github.com/nextcloud/server/milestone/117?closed=1">here the 783 pull requests merged for Milestone 20.</a></p>
 
 <a name="latest19"></a>
+
+<h3 id="19-0-8">Version 19.0.8 <small>January 27 2021</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.8.tar.bz2">nextcloud-19.0.8.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.8.zip">nextcloud-19.0.8.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.8.tar.bz2.md5">nextcloud-19.0.8.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.8.zip.md5">nextcloud-19.0.8.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.8.tar.bz2.sha256">nextcloud-19.0.8.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.8.zip.sha256">nextcloud-19.0.8.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.8.tar.bz2.sha512">nextcloud-19.0.8.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.8.zip.sha512">nextcloud-19.0.8.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.8.tar.bz2.asc">nextcloud-19.0.8.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.8.zip.asc">nextcloud-19.0.8.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/25078">Make sure to do priority app upgrades first (server#25078)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25147">Do not redirect to logout after login (server#25147)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25179">Add "composer.lock" for acceptance tests to git (server#25179)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25191">Update CRL due to revoked gravatar.crl (server#25191)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25194">Don't log keys on checkSignature (server#25194)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25200">Update 3rdparty after Archive_Tar (server#25200)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25220">Bump CA bundle (server#25220)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25262">Also use storage copy when dav copying directories (server#25262)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25264">Silence log message (server#25264)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25277">Do not obtain userFolder of a federated user (server#25277)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/600">Bump pear/archive_tar from 1.4.11 to 1.4.12 (3rdparty#600)</a></li>
+</ul>
 
 <h3 id="19-0-7">Version 19.0.7 <small>January 15 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.7.tar.bz2">nextcloud-19.0.7.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.7.zip">nextcloud-19.0.7.zip</a></br>
@@ -845,6 +899,24 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 
 <a name="latest18"></a>
 
+<h3 id="18-0-14">Version 18.0.14 <small>January 27 2021</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.14.tar.bz2">nextcloud-18.0.14.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.14.zip">nextcloud-18.0.14.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.14.tar.bz2.md5">nextcloud-18.0.14.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.14.zip.md5">nextcloud-18.0.14.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.14.tar.bz2.sha256">nextcloud-18.0.14.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.14.zip.sha256">nextcloud-18.0.14.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.14.tar.bz2.sha512">nextcloud-18.0.14.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.14.zip.sha512">nextcloud-18.0.14.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.14.tar.bz2.asc">nextcloud-18.0.14.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.14.zip.asc">nextcloud-18.0.14.zip.asc</a></p>
+
+<h4>Changes</h4>
+<p>This is the final release of Nextcloud Hub 18. To protect the security of your data, <a class="hyperlink" href="https://docs.nextcloud.com/server/latest/admin_manual/maintenance/upgrade.html">upgrade to Nextcloud Hub 19</a> or get a <a class="hyperlink" href="https://nextcloud.com/enterprise">subscription to Nextcloud Enterprise</a> to benefit from long term support.</p>
+
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/25201">Update 3rdparty after Archive_Tar (server#25201)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25221">Bump CA bundle (server#25221)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/602">Bump pear/archive_tar from 1.4.11 to 1.4.12 (3rdparty#602)</a></li>
+        <li><a href="https://github.com/nextcloud/recommendations/pull/348">Bump ini from 1.3.5 to 1.3.8 (recommendations#348)</a></li>
+</ul>
+
 <h3 id="18-0-13">Version 18.0.13 <small>January 15 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.13.tar.bz2">nextcloud-18.0.13.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.13.zip">nextcloud-18.0.13.zip</a></br>
 Check the file integrity with:</br>
@@ -854,8 +926,6 @@ SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.1
 PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.13.tar.bz2.asc">nextcloud-18.0.13.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.13.zip.asc">nextcloud-18.0.13.zip.asc</a></p>
 
 <h4>Changes</h4>
-<p>This is the final release of Nextcloud Hub 18. To protect the security of your data, <a class="hyperlink" href="https://docs.nextcloud.com/server/latest/admin_manual/maintenance/upgrade.html">upgrade to Nextcloud Hub 19</a> or get a <a class="hyperlink" href="https://nextcloud.com/enterprise">subscription to Nextcloud Enterprise</a> to benefit from long term support.</p>
-
 <ul>
         <li><a href="https://github.com/nextcloud/server/pull/24651">Bump ini from 1.3.5 to 1.3.7 (server#24651)</a></li>
         <li><a href="https://github.com/nextcloud/server/pull/24761">Enables the file name check also to match name of mountpoints (server#24761)</a></li>
