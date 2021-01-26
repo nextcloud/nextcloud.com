@@ -6,7 +6,7 @@
 </div>
 <div class="row">
     <div class="col-md-12">
-        <h2>Stored XSS in markdown file with Nextcloud Talk using Internet Explorer (NC-SA-2021-003)</h2>
+        <h2>Denial of Service by requesting to reset a password (NC-SA-2021-003)</h2>
         <p>3rd October 2020</p>
         <p>Risk level: <strong>Low</strong></p>
         <p>CVSS v3 Base Score: 7.5 (<a href="https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H">AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H</a>)</p>
@@ -26,7 +26,7 @@
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
-            <li>Jesús Ramos (contact.makerlab@gmail.com) - Vulnerability discovery and disclosure.</li>
+            <li><a href="https://makerlab.sytes.net/" target="_blank" rel="noreferrer">Jesús Ramos (contact.makerlab@gmail.com) - Vulnerability discovery and disclosure.</a></li>
         </ul>
         <br/>
         <small style="color:grey">This advisory is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</small>
