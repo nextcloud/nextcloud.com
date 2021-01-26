@@ -201,6 +201,25 @@ require(["require.config"], function() {
     </div>
 </section>
 
+<section class="section--customerdetail">
+	<div class="container">
+         <div class="row feature-row">
+            <div class="col-md-6">
+                <blockquote><?php echo $l->t('The need for Sweden as a country to have control over its information and the consequences of not having access to the information should be considered from the perspective of national security and sovereignty. In an international crisis or conflict, the willingness and ability of other countries to access, manipulate or deny access to information handled by a service provider should be considered.');?></blockquote>
+                <p class="alignright" style="margin-top: -40px"><?php echo $l->t('-- Swedish National Procurement Services');?></p>
+                <p class="section--paragraph"><?php echo $l->t('In a report from mid 2019, the Dutch government came to a similar conclusion with regards to data protection, recommending its own government departments against using');?> <a href="https://www.rijksoverheid.nl/documenten/rapporten/2019/06/11/data-protection-impact-assessment-windows-10-enterprise" class="hyperlink">Microsoft Office 365.</a></p>
+            </div>
+            <div class="col-md-6 feature--block">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Sweden deploying Nextcloud');?></h3>
+                <blockquote>The uncertainty about how the public sector may use cloud services creates problems</blockquote>
+                <p>Said Försäkringskassans cto, Mikael Norberg</p>
+                <p class="section--paragraph"><?php echo $l->t('Försäkringskassan is working on developing user functionality for such things as file storing internal messaging services, end-to-end encrypted and self hosted.');?></p>
+                <a href="https://computersweden.idg.se/2.2683/1.719614/statens-moln-forsakringskassan" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more (Swedish)');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <a name="convenient"></a>
 <section class="section--convenient">
 	<div class="container">
@@ -248,20 +267,18 @@ require(["require.config"], function() {
     </div>
 </section>
 
+
 <section class="section--customerdetail">
 	<div class="container">
          <div class="row feature-row">
             <div class="col-md-6">
-                <blockquote><?php echo $l->t('The need for Sweden as a country to have control over its information and the consequences of not having access to the information should be considered from the perspective of national security and sovereignty. In an international crisis or conflict, the willingness and ability of other countries to access, manipulate or deny access to information handled by a service provider should be considered.');?></blockquote>
-                <p class="alignright" style="margin-top: -40px"><?php echo $l->t('-- Swedish National Procurement Services');?></p>
-                <p class="section--paragraph"><?php echo $l->t('In a report from mid 2019, the Dutch government came to a similar conclusion with regards to data protection, recommending its own government departments against using');?> <a href="https://www.rijksoverheid.nl/documenten/rapporten/2019/06/11/data-protection-impact-assessment-windows-10-enterprise" class="hyperlink">Microsoft Office 365.</a></p>
+            <div data-type="youtube" data-video-id="_JYU8b3gXFw"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/_JYU8b3gXFw" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 feature--block">
-                <h3 class="section--paragraph__title"><?php echo $l->t('Sweden deploying Nextcloud');?></h3>
-                <blockquote>The uncertainty about how the public sector may use cloud services creates problems</blockquote>
-                <p>Said Försäkringskassans cto, Mikael Norberg</p>
-                <p class="section--paragraph"><?php echo $l->t('Försäkringskassan is working on developing user functionality for such things as file storing internal messaging services, end-to-end encrypted and self hosted.');?></p>
-                <a href="https://computersweden.idg.se/2.2683/1.719614/statens-moln-forsakringskassan" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more (Swedish)');?></a>
+                <h3 class="section--paragraph__title"><?php echo $l->t('How Nextcloud saved our work from Covid-19');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('A report from the Italian city government Comune di Macerata about how Nextcloud saved their work during the COVID-19 crisis, covering what feature and setup was used.');?></p>
+                <a class="button button--blue button--arrow" href="https://www.youtube.com/watch?v=_JYU8b3gXFw">View on YouTube</a>
             </div>
         </div>
     </div>

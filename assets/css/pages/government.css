@@ -158,6 +158,10 @@ section {
           height: 200px;
           line-height: 200px; } }
 
+.section--whitepaper {
+  margin-top: 200px;
+  margin-bottom: 200px; }
+
 .section--convenient .container {
   padding-top: 8.54296875em;
   padding-bottom: 8.54296875em; }
