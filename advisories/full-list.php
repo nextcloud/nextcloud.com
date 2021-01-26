@@ -22,7 +22,7 @@
 
 <h3>Nextcloud Server 20.0.0</h3>
 <ul>
-	<li><a href="/security/advisory/?id=NC-SA-2021-003">Stored XSS in markdown file with Nextcloud Talk using Internet Explorer (NC-SA-2021-003)</a> 2020-10-03</li>
+	<li><a href="/security/advisory/?id=NC-SA-2021-003">Denial of Service by requesting to reset a password (NC-SA-2021-003)</a> 2020-10-03</li>
 </ul>
 
 <hr>
