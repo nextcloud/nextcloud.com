@@ -359,7 +359,7 @@ section {
 					.article.video-wall {
 						@media (min-width: $break-small) {
 							min-width: 0px !important;
-							max-width: 100% !important;
+                            max-width: 100% !important;
 							max-height: 450px !important;
 							.video-link {
 								width: 100% !important;
@@ -372,6 +372,7 @@ section {
 					@media (max-width: $break-small) {
                         width: 90vw;
                         height: auto;
+                        max-height: none;
                         box-shadow: 0 0 2px 1px #EEE;
                         padding: 5px 5px 5px 5px;
                         float: none !important;
