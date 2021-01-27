@@ -202,7 +202,7 @@ require get_template_directory() . '/strings.php';
                     </ul>
                 </li>
                 <li class="ghost-btn">
-                    <a href="https://demo.nextcloud.com/" class="nav__label">
+                    <a href="https://try.nextcloud.com/" class="nav__label">
                         <?php echo $l->t('Demo'); ?>
                     </a>
                 </li>
