@@ -80,19 +80,6 @@
         </div>
         <div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
-				<h2 class="teamname">Jan-Christoph Borchardt</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Head of Design</h3>
-					<h4 class="teamexpertise">Co-founder, Simplicity & Ease of Use</h4>
-					<h4 class="teamlocation">lives in Berlin, Germany</h4>
-					<p class="teamsocial"><a href="https://jancborchardt.net/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jancborchardt"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jancborchardt"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Jan-Christoph is responsible for design on ownCloud since early 2011, continuing at Nextcloud. He pushes forward better design in open source through founding and contributing to several projects, giving talks, working with universities, and fostering the Open Source Design collective.</p>
-			</div>
-		</div>
-        <div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/patrick.jpg" />
 				<h2 class="teamname">Patrick Walther</h2>
 				<div class="teammeta">
@@ -317,6 +304,19 @@
 					<p class="teamsocial"><a href="http://blog.wuc.me/"><i class="fa-rss fa"></i></a> <a href="https://github.com/ChristophWurst"><i class="fa-github fa"></i></a> <a href="https://twitter.com/ChristophWurst"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Christoph has been contributing to ownCloud since 2014. He has a master's degree in Software Engineering from the University of Applied Sciences Upper Austria.</p>
+			</div>
+		</div>
+        <div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
+				<h2 class="teamname">Jan-Christoph Borchardt</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Design Lead</h3>
+					<h4 class="teamexpertise">Co-founder, Simplicity & Ease of Use</h4>
+					<h4 class="teamlocation">lives in Berlin, Germany</h4>
+					<p class="teamsocial"><a href="https://jancborchardt.net/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jancborchardt"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jancborchardt"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Jan-Christoph is responsible for design on ownCloud since early 2011, continuing at Nextcloud. He pushes forward better design in open source through founding and contributing to several projects, giving talks, working with universities, and fostering the Open Source Design collective.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
