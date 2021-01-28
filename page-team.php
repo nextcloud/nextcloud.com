@@ -66,32 +66,6 @@
 			</div>
 		</div>
         <div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/patrick.jpg" />
-				<h2 class="teamname">Patrick Walther</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Sales manager</h3>
-					<h4 class="teamexpertise">Sales, accounting and finance</h4>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"> &nbsp; </p>
-				</div>
-				<p class="teamdescription">Patrick was co-founder of struktur AG in 2000, responsible for sales and finance. He held several sales and marketing positions at IBM and Oracle, adding up to more than two decades of experience in the IT industry.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/roeland.jpg" />
-				<h2 class="teamname">Roeland Douma</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Server Engineering and Support Lead</h3>
-					<h4 class="teamexpertise">Co-founder, Security, Sharing</h4>
-					<h4 class="teamlocation">lives in Zuidoostbeemster, Netherlands</h4>
-					<p class="teamsocial"><a href="http://rullzer.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/rullzer"><i class="fa-github fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Roeland has been working on improving private file sharing since 2015. He has a MSc degree in Computer Science from the University of Amsterdam, having done research for his PhD in cache partitioning for real time systems. He is in charge of engineering and support and works on various security hardenings.</p>
-			</div>
-		</div>
-        <div class="col-md-4">
             <div class="teamp">
                 <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/uwe.jpg" />
                 <h2 class="teamname">Uwe Presler</h2>
@@ -104,6 +78,32 @@
                 <p class="teamdescription">Uwe has been educated in IT sales an has worked for a variety of tech enterprises including Deutsche Telekom and Vodafone and more recently the SME market leading CRM, xRM CAS Software AG. He is experienced in the areas of partner and sales management as well as business development.</p>
             </div>
         </div>
+        <div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
+				<h2 class="teamname">Jan-Christoph Borchardt</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Head of Design</h3>
+					<h4 class="teamexpertise">Co-founder, Simplicity & Ease of Use</h4>
+					<h4 class="teamlocation">lives in Berlin, Germany</h4>
+					<p class="teamsocial"><a href="https://jancborchardt.net/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jancborchardt"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jancborchardt"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Jan-Christoph is responsible for design on ownCloud since early 2011, continuing at Nextcloud. He pushes forward better design in open source through founding and contributing to several projects, giving talks, working with universities, and fostering the Open Source Design collective.</p>
+			</div>
+		</div>
+        <div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/patrick.jpg" />
+				<h2 class="teamname">Patrick Walther</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Head of Finance</h3>
+					<h4 class="teamexpertise">Accounting and finance</h4>
+					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+					<p class="teamsocial"> &nbsp; </p>
+				</div>
+				<p class="teamdescription">Patrick was co-founder of struktur AG in 2000, responsible for sales and finance. He held several sales and marketing positions at IBM and Oracle, adding up to more than two decades of experience in the IT industry.</p>
+			</div>
+		</div>
         <div class="col-md-4">
             <div class="teamp">
                 <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/vanessa.jpg" />
@@ -308,6 +308,58 @@
     <div class="row">
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/christoph.jpg" />
+				<h2 class="teamname">Christoph Wurst</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Groupware lead</h3>
+					<h4 class="teamexpertise">Front-end, Two-factor Authenthication and Mail</h4>
+					<h4 class="teamlocation">lives in Hadres, Austria</h4>
+					<p class="teamsocial"><a href="http://blog.wuc.me/"><i class="fa-rss fa"></i></a> <a href="https://github.com/ChristophWurst"><i class="fa-github fa"></i></a> <a href="https://twitter.com/ChristophWurst"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Christoph has been contributing to ownCloud since 2014. He has a master's degree in Software Engineering from the University of Applied Sciences Upper Austria.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/joas.jpg" />
+				<h2 class="teamname">Joas Schilling</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Talk Lead</h3>
+					<h4 class="teamexpertise">Co-founder, Security, Server and Talk</h4>
+					<h4 class="teamlocation">lives near Stuttgart, Germany</h4>
+					<p class="teamsocial"><a href="https://www.schilljs.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/nickvergessen"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Joas has been involved in open source since 2006, being a core member of the phpBB™ developer team and has been working on ownCloud code since late 2013. He graduated from the University of Stuttgart and is the Team Lead of Nextcloud's WebRTC chat and video solution Nextcloud Talk.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/roeland.jpg" />
+				<h2 class="teamname">Roeland Douma</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Server Engineering and Support Lead</h3>
+					<h4 class="teamexpertise">Co-founder, Security, Sharing</h4>
+					<h4 class="teamlocation">lives in Zuidoostbeemster, Netherlands</h4>
+					<p class="teamsocial"><a href="http://rullzer.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/rullzer"><i class="fa-github fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Roeland has been working on improving private file sharing since 2015. He has a MSc degree in Computer Science from the University of Amsterdam, having done research for his PhD in cache partitioning for real time systems. He is in charge of engineering and support and works on various security hardenings.</p>
+			</div>
+		</div>
+        <div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/tobias.jpg" />
+				<h2 class="teamname">Tobias Kaminsky</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Client lead</h3>
+					<h4 class="teamexpertise">Android Client</h4>
+					<h4 class="teamlocation">lives in Langen, Germany</h4>
+					<p class="teamsocial"><a href="https://github.com/tobiasKaminsky"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Tobias studied Sports and Computer Science in Darmstadt, is an experienced Java/Scala engineer and has a background in database development at a research institute for applied training science. He has been contributing to the Android app since 2013.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
 				<h2 class="teamname">Alex Zolotov</h2>
 				<div class="teammeta">
@@ -369,19 +421,6 @@
 					<p class="teamsocial"><a href="https://camila.codes"><i class="fa-rss fa"></i></a> <a href="https://github.com/camilasan"><i class="fa-github fa"></i></a> <a href="https://www.linkedin.com/in/camilasan"><i class="fa-linkedin fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Camila is from Brazil and has worked as front-end developer, with C#, Java and even Delphi. She got into open source doing C++/Qt development in the KDE community. After moving to Germany she worked with PHP, Ruby on Rails, AngluarJS, Go and Drupal 7. She's now a desktop client developer at Nextcloud but just might do other things than C++ sometimes.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/christoph.jpg" />
-				<h2 class="teamname">Christoph Wurst</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Front-end, Two-factor Authenthication and Mail</h4>
-					<h4 class="teamlocation">lives in Hadres, Austria</h4>
-					<p class="teamsocial"><a href="http://blog.wuc.me/"><i class="fa-rss fa"></i></a> <a href="https://github.com/ChristophWurst"><i class="fa-github fa"></i></a> <a href="https://twitter.com/ChristophWurst"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Christoph has been contributing to ownCloud since 2014. He has a master's degree in Software Engineering from the University of Applied Sciences Upper Austria.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -449,19 +488,6 @@
 				<p class="teamdescription">Ivan graduated as CS engineer from the University of the Basque Country and is involved in Nextcloud Talk development since the beginning. He is also the principal author and maintainer of the Nextcloud Talk iOS app.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
-				<h2 class="teamname">Jan-Christoph Borchardt</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Design Lead</h3>
-					<h4 class="teamexpertise">Co-founder, Simplicity & Ease of Use</h4>
-					<h4 class="teamlocation">lives in Berlin, Germany</h4>
-					<p class="teamsocial"><a href="https://jancborchardt.net/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jancborchardt"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jancborchardt"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Jan-Christoph is responsible for design on ownCloud since early 2011, continuing at Nextcloud. He pushes forward better design in open source through founding and contributing to several projects, giving talks, working with universities, and fostering the Open Source Design collective.</p>
-			</div>
-		</div>
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/joachim.jpg" />
@@ -473,19 +499,6 @@
 					<p class="teamsocial"><a href="https://www.joachim-bauch.de"><i class="fa-rss fa"></i></a> <a href="https://github.com/fancycode"><i class="fa-github fa"></i></a> <a href="https://twitter.com/fancycode"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Joachim graduated computer science in Stuttgart and has been committing to various open source projects for a long time, including Google's WebRTC project and was core developer for the Red5 streaming server between 2005 and 2008.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/joas.jpg" />
-				<h2 class="teamname">Joas Schilling</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Talk Lead</h3>
-					<h4 class="teamexpertise">Co-founder, Security, Server and Talk</h4>
-					<h4 class="teamlocation">lives near Stuttgart, Germany</h4>
-					<p class="teamsocial"><a href="https://www.schilljs.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/nickvergessen"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Joas has been involved in open source since 2006, being a core member of the phpBB™ developer team and has been working on ownCloud code since late 2013. He graduated from the University of Stuttgart and is the Team Lead of Nextcloud's WebRTC chat and video solution Nextcloud Talk.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -629,19 +642,6 @@
 					<p class="teamsocial"><a href="https://icewind.nl"><i class="fa-rss fa"></i></a> <a href="https://github.com/icewind1991"><i class="fa-github fa"></i></a> <a href="https://twitter.com/icewind1991"><i class="fa-twitter fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Robin studied computer science and is highly experienced in scaling file storage and handling systems. He has been working on ownCloud code since 2010 and has, at one point or another, touched code in every corner.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/tobias.jpg" />
-				<h2 class="teamname">Tobias Kaminsky</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Android Client</h4>
-					<h4 class="teamlocation">lives in Langen, Germany</h4>
-					<p class="teamsocial"><a href="https://github.com/tobiasKaminsky"><i class="fa-github fa"></i></a></p>
-				</div>
-				<p class="teamdescription">Tobias studied Sports and Computer Science in Darmstadt, is an experienced Java/Scala engineer and has a background in database development at a research institute for applied training science. He has been contributing to the Android app since 2013.</p>
 			</div>
 		</div>
 	</div>
