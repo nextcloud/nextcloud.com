@@ -2,7 +2,20 @@
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/generic.css?v=1" rel="stylesheet">
 <!--     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css"> -->
 <!--     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script> -->
-
+<script>
+    require(["require.config"], function() {
+        require(["pages/scroll"])
+    });
+</script>
+<style>
+.thelogo {
+    height: 200px;
+}
+.description {
+height: 100px;
+}
+</style>
+</head>
 <div class="background generic-background">
 	<div class="container">
 		<div class="row">
@@ -50,24 +63,11 @@
 
     <h2>Latest News and Annoucements</h2>
     <?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 5, 'format' => 'html' ) ); ?>
+<a name="logo"></a>
     <h2>Nextcloud Resources</h2>
     <!-- <p>Find an overview of Nextcloud history <a href="/history">on our history page</a> and an overview with <a href="/faq">frequently asked questions in our FAQ</a>.</p> -->
     <a href="<?php echo home_url('hub') ?>" class="button button--blue">Key Features of Nextcloud Hub</a>
     <a href="<?php echo home_url('install') ?>" class="button button--blue">Download Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></a>
-    <div class="row">
-        <div class="col-md-3"><a href="https://nextcloud.com/media/screenshots.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/screenshots.png" class="img-responsive" alt="Download a zip file with press photos and screenshots"></a></div>
-        <div class="col-md-3"><a href="https://nextcloud.com/media/videos.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/videofiles.png" style="width: 100%" alt="Download a zip file with video files" class="img-responsive"></a></div>
-        <div class="col-md-3"><a href="https://www.youtube.com/c/Nextcloud"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/youtube.png" style="width: 100%" alt="View the Nextcloud community YouTube channel" class="img-responsive"></a></div>
-    </div>
-<style>
-.thelogo {
-    height: 200px;
-}
-.description {
-height: 100px;
-}
-</style>
-
     <h3>Official logo resources</h3>
     <div class="row logolist">
         <div class="col-md-2">
@@ -144,6 +144,12 @@ height: 100px;
                 Nextcloud Hub background <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Hub_background.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Hub_background.png">png</a></small>
             </div>
         </div>
+    </div>
+ <h3>press photos, screenshots and videos</h3>
+    <div class="row">
+        <div class="col-md-3"><a href="https://nextcloud.com/media/screenshots.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/screenshots.png" class="img-responsive" alt="Download a zip file with press photos and screenshots"></a></div>
+        <div class="col-md-3"><a href="https://nextcloud.com/media/videos.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/videofiles.png" style="width: 100%" alt="Download a zip file with video files" class="img-responsive"></a></div>
+        <div class="col-md-3"><a href="https://www.youtube.com/c/Nextcloud"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/youtube.png" style="width: 100%" alt="View the Nextcloud community YouTube channel" class="img-responsive"></a></div>
     </div>
 
     <h2>Branding and Trademark Guidelines</h2>
