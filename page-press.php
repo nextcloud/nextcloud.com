@@ -55,13 +55,99 @@
     <a href="<?php echo home_url('hub') ?>" class="button button--blue">Key Features of Nextcloud Hub</a>
     <a href="<?php echo home_url('install') ?>" class="button button--blue">Download Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></a>
     <div class="row">
-        <div class="col-md-3"><a href="https://nextcloud.com/media/screenshots.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/screenshots.png" style="width: 100%" alt="Download a zip file with press photos and screenshots" class="img-thumbnail"></a></div>
-        <div class="col-md-3"><a href="https://nextcloud.com/media/videos.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/videofiles.png" style="width: 100%" alt="Download a zip file with video files" class="img-thumbnail"></a></div>
-        <div class="col-md-3"><a href="https://www.youtube.com/c/Nextcloud"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/youtube.png" style="width: 100%" alt="View the Nextcloud community YouTube channel" class="img-thumbnail"></a></div>
-    <!-- 		<div class="col-md-3"><a href="/nine"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/newfeatures.png" style="width: 100%" alt="See what is new in Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>" class="img-thumbnail"></a></div> -->
+        <div class="col-md-3"><a href="https://nextcloud.com/media/screenshots.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/screenshots.png" class="img-responsive" alt="Download a zip file with press photos and screenshots"></a></div>
+        <div class="col-md-3"><a href="https://nextcloud.com/media/videos.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/videofiles.png" style="width: 100%" alt="Download a zip file with video files" class="img-responsive"></a></div>
+        <div class="col-md-3"><a href="https://www.youtube.com/c/Nextcloud"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/youtube.png" style="width: 100%" alt="View the Nextcloud community YouTube channel" class="img-responsive"></a></div>
     </div>
+<style>
+.thelogo {
+    height: 200px;
+}
+.description {
+height: 100px;
+}
+</style>
+
+    <h3>Official logo resources</h3>
+    <div class="row logolist">
+        <div class="col-md-2">
+            <div class="thelogo">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-logo.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-logo.png" class="img-responsive"></a>
+            </div>
+            <div class="description">
+                Standard logo <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-logo.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-logo.png">png</a></small>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="thelogo">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-enterprise-logo.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-enterprise-logo.png" class="img-responsive"></a>
+            </div>
+            <div class="description">
+                Nextcloud Enterprise logo <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-enterprise-logo.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-enterprise-logo.png">png</a></small>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="thelogo">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Hub-logo.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Hub-logo.png" class="img-responsive"></a>
+            </div>
+            <div class="description">
+                Nextcloud Hub logo <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Hub-logo.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Hub-logo.png">png</a></small>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="thelogo">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_nextcloud_white.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_nextcloud_white.png" class="img-responsive" style="background: rgba(128, 128, 128, 0.3)"></a>
+            </div>
+            <div class="description">
+                Transparent white logo <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_nextcloud_white.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_nextcloud_white.png">png</a></small>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="thelogo">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_nextcloud_blue.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_nextcloud_blue.png" class="img-responsive"></a>
+            </div>
+            <div class="description">
+                Inverted blue logo <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_nextcloud_blue.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_nextcloud_blue.png">png</a></small>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="thelogo">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Enterprise.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Enterprise.png" class="img-responsive"></a>
+            </div>
+            <div class="description">
+                Nextcloud Enterprise inverted logo <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Enterprise.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Enterprise.png">png</a></small>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 30px;">
+        <div class="col-md-2">
+            <div class="thelogo">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Enterprise-white.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Enterprise-white.png" class="img-responsive" style="background: rgba(128, 128, 128, 0.3)"></a>
+            </div>
+            <div class="description">
+                Nextcloud Enterprise white logo <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Enterprise-white.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Enterprise-white.png">png</a></small>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="thelogo">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Hub-logo-transparent.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Hub-logo-transparent.png" class="img-responsive" style="background: rgba(128, 128, 128, 0.3)"></a>
+            </div>
+            <div class="description">
+                Nextcloud Hub transparent logo <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Hub-logo-transparent.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Hub-logo-transparent.png">png</a></small>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thelogo">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Hub_background.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Hub_background.png" class="img-responsive"></a>
+            </div>
+            <div class="description">
+                Nextcloud Hub background <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Hub_background.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Hub_background.png">png</a></small>
+            </div>
+        </div>
+    </div>
+
     <h2>Branding and Trademark Guidelines</h2>
-    <p>Our general Trademark guidelines <a href="<?php echo home_url('trademarks') ?>">can be found here</a>.
+    <p>Our Trademark guidelines <a href="<?php echo home_url('trademarks') ?>">can be found here</a>.
 
     <!-- Find graphics like posters, stickers, flyers, release banners and other designs in our <a href="https://github.com/nextcloud/promo">promo github account</a>.</p>-->
     <h2>Inquiries</h2>
