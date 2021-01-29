@@ -95,11 +95,11 @@
     </div>
     <div class="row">
         <div class="col-md-4">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-user.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-user.png" alt="Remote wipe as a user, per device" class="img-responsive"></a><br />
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-user.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-user.png" alt="Remote wipe as a user, per device" class="img-responsive overlay-trigger"></a><br />
             <?php echo $l->t('Remote wipe as a user, per device');?>
         </div>
         <div class="col-md-4">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-admin.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-admin.png" alt="Remote wipe as admin, per user" class="img-responsive"></a><br />
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-admin.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-admin.png" alt="Remote wipe as admin, per user" class="img-responsive overlay-trigger"></a><br />
             <?php echo $l->t('Remote wipe as admin, per user');?>
         </div>
         <div class="col-md-4">
@@ -210,29 +210,29 @@
         <h2 class="text-center"><?php echo $l->t('Desktop client in action');?></h2>
         <div class="row">
             <div class="col-md-4">
-                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/share-dialog.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/share-dialog.png" alt="" class="img-responsive" /></a>
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/share-dialog.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/share-dialog.png" alt="" class="img-responsive overlay-trigger" /></a>
                 Easy to use sharing dialog
             </div>
             <div class="col-md-4">
-                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/share-dialog-options.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/share-dialog-options.png" alt="" class="img-responsive" /></a>
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/share-dialog-options.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/share-dialog-options.png" alt="" class="img-responsive overlay-trigger" /></a>
                 Share dialog options only show when needed
             </div>
             <div class="col-md-4">
-                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/context-menu.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/context-menu.png" alt="" class="img-responsive" /></a>
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/context-menu.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/context-menu.png" alt="" class="img-responsive overlay-trigger" /></a>
                 Open Nextcloud apps from the context menu
             </div>
         </div>
         <div class="row">
             <div class="col-md-4">
-                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/space-used.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/space-used.png" alt="" class="img-responsive" /></a>
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/space-used.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/space-used.png" alt="" class="img-responsive overlay-trigger" /></a>
                 See how much storage you have left
             </div>
             <div class="col-md-4">
-                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/edit-ignored-files.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/edit-ignored-files.png" alt="" class="img-responsive" /></a>
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/edit-ignored-files.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/edit-ignored-files.png" alt="" class="img-responsive overlay-trigger" /></a>
                 List which files should not be synced
             </div>
             <div class="col-md-4">
-            <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/separate-activities.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/separate-activities.png" alt="" class="img-responsive" /></a>
+            <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/separate-activities.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/separate-activities.png" alt="" class="img-responsive overlay-trigger" /></a>
             View and respond to activities and notifications
             </div>
         </div>
@@ -252,16 +252,16 @@
         </div>
         <div class="row vertical-image-list">
             <div class="col-sm-3 col-xs-6">
-                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/iPhoneX.png" alt="in action" >
+                <img class="img-responsive overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/iPhoneX.png" alt="in action" >
             </div>
             <div class="col-sm-3 col-xs-6">
-                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/iPhone2.png" alt="in action" >
+                <img class="img-responsive overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/iPhone2.png" alt="in action" >
             </div>
             <div class="col-sm-3 col-xs-6">
-                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/android.png" alt="in action" >
+                <img class="img-responsive overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/android.png" alt="in action" >
             </div>
             <div class="col-sm-3 col-xs-6">
-                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/android2.png" alt="in action" >
+                <img class="img-responsive overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/android2.png" alt="in action" >
             </div>
         </div>
         <div class="row">
@@ -305,22 +305,22 @@
             <p class="section--paragraph__tittle text-center"><?php echo $l->t('Document scanner in action');?></p>
             <br>
             <div class="col-xs-6 col-sm-4 col-lg-2">
-                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-1.png"><img class="thumbnail img-thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-1.png" class="" ></a>
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-1.png"><img class="thumbnail img-thumbnail overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-1.png" class="" ></a>
             </div>
             <div class="col-xs-6 col-sm-4 col-lg-2">
-                <a  href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-2.jpg"><img class="thumbnail img-thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-2.jpg" class="" ></a>
+                <a  href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-2.jpg"><img class="thumbnail img-thumbnail overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-2.jpg" class="" ></a>
             </div>
             <div class="col-xs-6 col-sm-4 col-lg-2">
-                <a  href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-3.png"><img class="thumbnail img-thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-3.png" class="" ></a>
+                <a  href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-3.png"><img class="thumbnail img-thumbnail overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-3.png" class="" ></a>
             </div>
             <div class="col-xs-6 col-sm-4 col-lg-2">
-                <a  href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-4.png"><img class="thumbnail img-thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-4.png" class="" ></a>
+                <a  href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-4.png"><img class="thumbnail img-thumbnail overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-4.png" class="" ></a>
             </div>
             <div class="col-xs-6 col-sm-4 col-lg-2">
-                <a  href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-5.png"><img class="thumbnail img-thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-5.png" class="" ></a>
+                <a  href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-5.png"><img class="thumbnail img-thumbnail overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-5.png" class="" ></a>
             </div>
             <div class="col-xs-6 col-sm-4 col-lg-2">
-                <a  href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-6.png"><img class="thumbnail img-thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-6.png" class="" ></a>
+                <a  href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-6.png"><img class="thumbnail img-thumbnail overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-6.png" class="" ></a>
             </div>
         </div>
     </div>
@@ -439,19 +439,19 @@
 <div class="container">
     <div class="row">
         <div class="col-md-3">
-            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/utf-in-android.jpg" alt="in action" ><br />
+            <img class="img-responsive overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/utf-in-android.jpg" alt="in action" ><br />
             <?php echo $l->t('Plug in a UTF key for authentication');?>
         </div>
         <div class="col-md-3">
-            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/android-rich-workspaces.png" alt="in action" ><br />
+            <img class="img-responsive overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/android-rich-workspaces.png" alt="in action" ><br />
             <?php echo $l->t('See and edit notes above your folders');?>
         </div>
         <div class="col-md-3">
-            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/android-upload1.png" alt="in action" ><br />
+            <img class="img-responsive overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/android-upload1.png" alt="in action" ><br />
             <?php echo $l->t('Configure upload');?>
         </div>
         <div class="col-md-3">
-            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/android-conflict1.png" alt="in action" ><br />
+            <img class="img-responsive overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/android-conflict1.png" alt="in action" ><br />
             <?php echo $l->t('Handle file conflicts');?>
         </div>
     </div>
@@ -469,3 +469,4 @@
 		</div>
 	</div>
 </section>
+<?php require get_template_directory().'/overlay.php'; ?>
