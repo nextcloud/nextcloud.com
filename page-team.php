@@ -334,6 +334,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/lukas.jpg" />
+				<h2 class="teamname">Lukas Reschke</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Security Lead</h3>
+					<h4 class="teamexpertise">Co-founder, Security</h4>
+					<h4 class="teamlocation">lives in Berlin, Germany</h4>
+					<p class="teamsocial"><a href="https://statuscode.ch/"><i class="fa-rss fa"></i></a> <a href="https://github.com/LukasReschke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/LukasReschke"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Lukas has been contributing to ownCloud since 2012 and is responsible for many of the security hardenings in the code. He has worked as security assessment and forensic investigator, reviewing security, training and dealing with breaches at Fortune 500 companies and several of the largest Swiss financial institutes. He also worked at Facebook, creating privacy and security roadmaps, working on privacy incident management, security analysis, review and more.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/roeland.jpg" />
 				<h2 class="teamname">Roeland Douma</h2>
 				<div class="teammeta">
