@@ -299,7 +299,7 @@
 				<h2 class="teamname">Christoph Wurst</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Groupware lead</h3>
-					<h4 class="teamexpertise">Front-end, Two-factor Authenthication and Mail</h4>
+					<h4 class="teamexpertise">Front-end, Two-factor Authentication and Mail</h4>
 					<h4 class="teamlocation">lives in Hadres, Austria</h4>
 					<p class="teamsocial"><a href="http://blog.wuc.me/"><i class="fa-rss fa"></i></a> <a href="https://github.com/ChristophWurst"><i class="fa-github fa"></i></a> <a href="https://twitter.com/ChristophWurst"><i class="fa-twitter fa"></i></a> </p>
 				</div>
