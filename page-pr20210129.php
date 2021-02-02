@@ -18,7 +18,7 @@
 <section class="section--pressrelease">
 <div class="container">
 <div class="row">
-<div class="pr">
+<!-- <div class="pr"> -->
 <p><a href="#german">Deutsche Version unter</a></p>
 <h1>Nextcloud, Open-Xchange and Univention partner to create Sovereign Productivity suite</h1>
 <h3>Leading Open-Source software companies sign agreement to build industry first</h3>
@@ -46,7 +46,7 @@ Peter Ganten, CEO at Univention, said:
 
 <h2>About Open-Xchange</h2>
 
-<p>Open-Xchange (OX) is a developer of secure and open communication and office productivity software, IMAP server software and DNS solutions. Since 2005, it has partnered with many of the world’s largest Internet Service Providers (ISPs), telcos and carriers to deliver Open-Source email and productivity solutions that include secure storage, file and document management. OX Dovecot is the world’s most popular IMAP server software and OX PowerDNS provides secure DNS services to telco customers and their users worldwide. Software developed by Open-Xchange is used by 200 million people globally. It is headquartered in Germany, with offices in Bremen, Cologne, Dortmund, Hamburg, Nuremberg and Olpe, and international offices in Finland, Italy, Japan, the Netherlands and the USA. For further details, visit www.open-xchange.com.</p>
+<p>Open-Xchange (OX) is a developer of secure and open communication and office productivity software, IMAP server software and DNS solutions. Since 2005, it has partnered with many of the world’s largest Internet Service Providers (ISPs), telcos and carriers to deliver Open-Source email and productivity solutions that include secure storage, file and document management. OX Dovecot is the world’s most popular IMAP server software and OX PowerDNS provides secure DNS services to telco customers and their users worldwide. Software developed by Open-Xchange is used by 200 million people globally. It is headquartered in Germany, with offices in Bremen, Cologne, Dortmund, Hamburg, Nuremberg and Olpe, and international offices in Finland, Italy, Japan, the Netherlands and the USA. For further details, visit <a href="https://www.open-xchange.com">www.open-xchange.com</a>.</p>
 
 <h2>About Univention</h2>
 
@@ -54,7 +54,7 @@ Peter Ganten, CEO at Univention, said:
 
 <p>By participating in the European cloud infrastructure Gaia-X and its Sovereign Cloud Stack (SCS), as well as in the Sovereign Productivity Suite (SPS), Univention is working to realize the modernization of IT infrastructure for the public sector, as well as for private companies.</p>
 
-<p>With UCS @ school, Univention offers a platform optimized for digital education with central identity management and the simple provision of services from third-party vendors, such as learning management systems, email, cloud and office applications for schools, school authorities and federal states via their own school portals. UCS and UCS @ school are used by a number of federal states, and a range of municipalities and districts, administrations and companies. For more information: www.univention.de.</p>
+<p>With UCS @ school, Univention offers a platform optimized for digital education with central identity management and the simple provision of services from third-party vendors, such as learning management systems, email, cloud and office applications for schools, school authorities and federal states via their own school portals. UCS and UCS @ school are used by a number of federal states, and a range of municipalities and districts, administrations and companies. For more information: <a href="https://www.univention.de">www.univention.de</a>.</p>
 
 <a name="german"></a>
 
@@ -92,7 +92,7 @@ Peter Ganten, CEO von Univention, ergänzt:
 
 <h2>Über Open-Xchange</h2>
 
-<p>Open-Xchange (OX) ist ein Entwickler von sicherer und offener Kommunikations- und Office-Produktivitätssoftware, IMAP-Server-Software und DNS-Lösungen. Seit 2005 arbeitet das Unternehmen mit vielen der weltweit größten Internet Service Provider (ISPs), Telcos und Carriern zusammen, um Open-Source-E-Mail- und Produktivitätslösungen anzubieten, die eine sichere Speicherung, Datei- und Dokumentenverwaltung umfassen. OX Dovecot ist die weltweit beliebteste IMAP-Server-Software und OX PowerDNS bietet sichere DNS-Dienste für Telco-Kunden und deren Anwender weltweit. Die von Open-Xchange entwickelte Software wird von 200 Millionen Menschen weltweit genutzt. Das Unternehmen hat seinen Hauptsitz in Deutschland, mit Niederlassungen in Bremen, Köln, Dortmund, Hamburg, Nürnberg und Olpe sowie internationalen Niederlassungen in Finnland, Italien, Japan, den Niederlanden und den USA. Weitere Informationen finden Sie unter www.open-xchange.com.</p>
+<p>Open-Xchange (OX) ist ein Entwickler von sicherer und offener Kommunikations- und Office-Produktivitätssoftware, IMAP-Server-Software und DNS-Lösungen. Seit 2005 arbeitet das Unternehmen mit vielen der weltweit größten Internet Service Provider (ISPs), Telcos und Carriern zusammen, um Open-Source-E-Mail- und Produktivitätslösungen anzubieten, die eine sichere Speicherung, Datei- und Dokumentenverwaltung umfassen. OX Dovecot ist die weltweit beliebteste IMAP-Server-Software und OX PowerDNS bietet sichere DNS-Dienste für Telco-Kunden und deren Anwender weltweit. Die von Open-Xchange entwickelte Software wird von 200 Millionen Menschen weltweit genutzt. Das Unternehmen hat seinen Hauptsitz in Deutschland, mit Niederlassungen in Bremen, Köln, Dortmund, Hamburg, Nürnberg und Olpe sowie internationalen Niederlassungen in Finnland, Italien, Japan, den Niederlanden und den USA. Weitere Informationen finden Sie unter <a href="https://www.open-xchange.com">www.open-xchange.com</a>.</p>
 
 <h2>Über Univention</h2>
 
@@ -100,7 +100,7 @@ Peter Ganten, CEO von Univention, ergänzt:
 
 <p>Mit der Mitwirkung an der europäischen Cloud-Infrastruktur GAIA-X und dem Sovereign Cloud Stack (SCS) sowie der Sovereign Productivity Suite (SPS) arbeitet Univention daran, die Modernisierung der IT-Infrastruktur der Öffentlichen Hand genauso wie von Unternehmen zu realisieren.</p>
 
-<p>Mit UCS@school bietet Univention eine für die digitale Bildung optimierte Plattform mit einem zentralen Identitätsmanagement zur einfachen Bereitstellung von Diensten unterschiedlicher Anbieter, darunter Lernmanagementsysteme, E-Mail, Cloud- und Office-Anwendungen für Schulen, Schulträger und Länder über eigene Schulportale. UCS und UCS@school werden von mehreren Bundesländern, zahlreichen Kommunen und Landkreisen, Verwaltungen und Unternehmen eingesetzt. Mehr unter: www.univention.de.</p>
+<p>Mit UCS@school bietet Univention eine für die digitale Bildung optimierte Plattform mit einem zentralen Identitätsmanagement zur einfachen Bereitstellung von Diensten unterschiedlicher Anbieter, darunter Lernmanagementsysteme, E-Mail, Cloud- und Office-Anwendungen für Schulen, Schulträger und Länder über eigene Schulportale. UCS und UCS@school werden von mehreren Bundesländern, zahlreichen Kommunen und Landkreisen, Verwaltungen und Unternehmen eingesetzt. Mehr unter: <a href="https://www.univention.de">www.univention.de</a>.</p>
 
 <h2>Nextcloud press contact</h2>
 <p><strong>Nextcloud GmbH</strong><br />
@@ -109,7 +109,7 @@ Phone: +49 (0) 711 25 24 28 90<br />
 <a href="mailto:pr@nextcloud.com" class="email">pr@nextcloud.com</a></p>
 <h2>Graphics</h2>
 <ul>
-<li><a href="https://nextcloud.com/media/sps-logo.png">Vibe Cyber logo</a></li>
+<li><a href="https://nextcloud.com/media/sps-logo.png">SPS logo</a></li>
 </ul>
 </div>
 </div>
