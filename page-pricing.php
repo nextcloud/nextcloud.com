@@ -219,6 +219,13 @@
                     </div>
                     <label for="email">
                             <input type="hidden" name="segmentId" value="15">
+                            <input type="hidden" name="firstname" value="">
+                        <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
+                        <div class="newsletter">
+                            <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                            <input type="hidden" name="moreinfo" value="0" />
+                        </div>
                             <input class="form-mail" type="text" name="email" maxlength="80" placeholder=" Enter your email "> <input class="button button--white button--small" type="submit" value=" Get the data sheets "> <br />
                             <small><?php echo $l->t('(We do not use your email for anything else. See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy.)');?></a></small>
                     </label>

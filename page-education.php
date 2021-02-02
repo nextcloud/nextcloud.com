@@ -323,11 +323,6 @@ require(["require.config"], function() {
                 <h2 class=""><?php echo $l->t('Case Study: North-West University');?></h2>
                 <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('The North-West University from South Africa improves user storage mobility,<br /> collaboration and productivity with Nextcloud and Collabora Online.');?><br>
-                    <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-                    </div>
-                    </td>
                     <input type="hidden" name="segmentId" value="48">
                     <input type="hidden" name="firstname" value="">
                     <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
@@ -411,11 +406,19 @@ require(["require.config"], function() {
             <div class="row "><img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/architecture-thumbnail-banner.png"/></div>
             <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                 <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper');?><br>
-                <input class="mail text-center" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
                 <td colspan="2">
                 <input type="hidden" name="segmentId" value="1">
-                <div class="g-recaptcha text-center" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-                <input class="button button--blue button--large" type="submit" value=" Get the whitepaper ">
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?>. <?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
+
             </form>
             </p>
         </div>

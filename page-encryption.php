@@ -180,12 +180,7 @@
             <div class="col-lg-8">
                 <h2><?php echo $l->t('End-to-end Encryption');?></h2>
                 <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
-                    <p><label for="email"><?php echo $l->t('Download our free whitepaper');?><br>
-                     <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div id="RecaptchaField2"></div>
-                    </div>
-                    </td>
+                    <p><label for="email"><?php echo $l->t('Download our free whitepaper');?></p>
                     <input type="hidden" name="segmentId" value="12">
                     <input type="hidden" name="firstname" value="">
                     <input type="hidden" name="requesttime" value="<?php echo time(); ?>">

@@ -50,14 +50,21 @@ require(["require.config"], function() {
             <div class="row "><img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/gs-thumbnail-banner.png"/></div>
             <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                 <p><label for="email"><?php echo $l->t('Download our whitepaper!');?><br>
-                <input class="mail text-center" type="text" name="email" maxlength="80" placeholder="Enter your email"></label></p>
                 <td colspan="2">
                 <div class="row text-center">
-                    <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
                 </div>
                 </td>
                 <input type="hidden" name="segmentId" value="4">
-                <p><input class="button button--blue button--large" type="submit" value=" Get the whitepaper "></p>
+                <input type="hidden" name="firstname" value="">
+                <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
+                <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                <div class="newsletter">
+                    <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                    <input type="hidden" name="moreinfo" value="0" />
+                    <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?>. <?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
+                </div>
+                <input class="button button--blue button--small" type="submit" value="Download whitepaper"></p>
             </form>
         </p>
 	</div>

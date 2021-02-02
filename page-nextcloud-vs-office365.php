@@ -526,19 +526,22 @@
             <p class="section--paragraph"><?php echo $l->t('Data storage can be one or multiple NFS, Object Storage, Samba or a variety of other powerful storage mechanisms. This way Nextcloud provides seamless access to data on existing storage mechanisms, respecting existing access control policies and transparently handling changes on the underlying storage layer.');?></p>
         </div>
     </div>
-    <div class="row whitepaper text-center ">
+    <div class="row whitepaper text-center " style="margin-top: 50px;">
         <div class="col-md-offset-4 col-md-4 wp-center">
             <p>
             <div class="row "><img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/architecture-thumbnail-banner.png"/></div>
             <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                 <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper');?><br>
                 <input class="mail text-center" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
-                <td colspan="2" style="">
-                    <div style="margin-left: auto; width: 304px; height: 78px; margin-right: auto; text-align: center;">
-                        <div id="RecaptchaField2"></div>
-                    </div>
-                </td>
                 <input type="hidden" name="segmentId" value="1">
+                <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?>. <?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
+                    </div>
                 <input class="button button--blue button--large" type="submit" value=" Get the whitepaper ">
             </form>
             </p>
