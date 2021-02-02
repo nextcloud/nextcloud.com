@@ -80,13 +80,29 @@
 	<h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud is people');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud is an open source community of developers and contributors, some helping out in their free time, others paid by their company to make Nextcloud better.');?> <!--<a class="hyperlink" href="<?php echo home_url('contributors') ?>"><?php echo $l->t('You can see some of the people involved in Nextcloud here.</a>');?>--></p>
 			<p class="section--paragraph"><?php echo $l->t('We organize events, attend conferences, hang out together at meetups and hackweeks. If you would like to meet Nextclouders,');?> <a class="hyperlink" href="<?php echo home_url('events') ?>"><?php echo $l->t('check out our events page!</a>');?></p>
-			<a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017.jpg"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017-small.jpg" alt="in action" ></a>
+			<a class="overlay-trigger" href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017.jpg"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017-small.jpg" alt="in action" ></a>
 	</div>
 	<div class="col-md-6">
         <div class="text-center">
             <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/github-activity.png" alt="in action" >
             <p><a class="hyperlink" href="https://www.openhub.net/p/nextcloud"><?php echo $l->t('See some development statistics.');?></a></p>
         </div>
+	</div>
+</div>
+</section>
+
+<section class="section--dashboard">
+<div class="container">
+	<div class="row">
+        <div class="col-md-6 image--feature">
+			<stream src="b5442e477fa8b39c31119a1f2321ddcf" controls loop poster="<?php bloginfo('template_directory'); ?>/assets/img/features/nextcloud20.png"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=b5442e477fa8b39c31119a1f2321ddcf"></script>
+		</div>
+		<div class="col-md-6 feature--block">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Start your day informed');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('The Nextcloud Dashboard is your starting point of the day, giving you an overview of your upcoming appointments, urgent emails, chat messages, incoming tickets, latest tweets and much more! Users can set their status so others know what they are up to..');?></p>
+                <a href="<?php echo home_url('dashboard') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Dashboard features');?></a>
+		</div>
 	</div>
 </div>
 </section>
@@ -110,7 +126,7 @@
 	<a name="files" id="files"></a>
 	<div class="container">
 		<div class="col-md-6 image--feature new-img">
-            <img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/Admin_Overview_Security_and_setup_warnings.png" alt="in action" >
+            <img class="img-responsive featureimg overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/Admin_Overview_Security_and_setup_warnings.png" alt="in action" >
 
 		</div>
 		<div class="col-md-6 feature--block">
@@ -124,7 +140,8 @@
 <section class="section--design">
 	<div class="container">
 		<div class="col-md-6 image--floated">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/LrF4jf1ROOc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <stream src="eb1384b4fa48d8f47abdec5051bc922d" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/hub-video.png"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=eb1384b4fa48d8f47abdec5051bc922d"></script>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Designed for humans');?></h3>
@@ -138,7 +155,7 @@
 	<a name="security" id="security"></a>
 	<div class="container">
 		<div class="col-md-6 image--feature">
-		<img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP.png" alt="in action" >
+		<img class="overlay-trigger img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP.png" alt="in action" >
 		</div>
 
 		<div class="col-md-6 feature--block">
@@ -157,7 +174,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6 image--feature new-img image--floated">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/privacy_big.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/privacy.png" alt="in action" ></a>
+            <a class="overlay-trigger " href="<?php bloginfo('template_directory'); ?>/assets/img/features/privacy_big.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/privacy.png" alt="in action" ></a>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Privacy center');?></h3>
@@ -186,14 +203,12 @@
 	<a name="calendar" id="calendar"></a>
 	<div class="container">
 		<div class="col-md-6 image--floated image--feature">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png"/></a>
+			<stream src="3e135d59fff771d1909c4b8d588d5800" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/groupware-video.png"></stream>
+                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=3e135d59fff771d1909c4b8d588d5800"></script>
 		</div>
 		<div class="col-md-6">
-			<h3 class="section--paragraph__title"><?php echo $l->t('Calendar and Contacts');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('The Nextcloud Calendar and Contacts apps allow you to store, sync and share your plans and contacts. You can share with users or groups on your server or sync the calendar or contacts with your devices and access them wherever you are. The Calendar and Contacts app feature:');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Easy to use interface with views for days, weeks, months and years');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Private and shared calendars and addressbooks with permissions management');?></p>
-			<p class="section--paragraph"><?php echo $l->t('CalDAV and CardDAV sync with third party clients both on mobile and desktop (i.e with Thunderbird, iOS and more)');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Calendar, Contacts and Mail');?></h3>
+			<p class="section--paragraph"><?php echo $l->t('The Nextcloud Calendar and Contacts apps allow you to store, sync and share your plans and contacts. You can share with users or groups on your server or sync the calendar or contacts with your devices and access them wherever you are. Nextcloud Mail gives you a easy to use but powerful mail client, directly integrated in Nextcloud, that can talk to your existing IMAP or POP mail server.');?></p>
 		</div>
 	</div>
 </section>
@@ -202,7 +217,8 @@
 	<a name="calls" id="calls"></a>
 	<div class="container">
 		<div class="col-md-6 image--feature">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png"/></a>
+			<stream src="58bf7b0f3ae662ee1d6b368099c8c94f" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-video.png"></stream>
+                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=58bf7b0f3ae662ee1d6b368099c8c94f"></script>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Secure audio and video calls');?></h3>
@@ -229,7 +245,7 @@
 	<a name="picocms" id="picocms">
 	<div class="container">
 		<div class="col-md-6 image--feature">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/picocms-nw.png"/></a>
+			<a><img class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/picocms-nw.png"/></a>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Build your own website!');?></h3>
@@ -244,7 +260,8 @@
 	<a name="collabora" id="collabora"></a>
 	<div class="container">
 		<div class="col-md-6 image--feature image--floated">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-nw.png"/></a>
+			<stream src="6644f6c1e7c0a5e3ff5b877e07ed1dea" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/documents-video.png"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=6644f6c1e7c0a5e3ff5b877e07ed1dea"></script>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('View and edit documents with Collabora');?></h3>
@@ -254,6 +271,24 @@
 			<a href="<?php echo home_url('collaboraonline') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Collabora Online Office');?></a>
 		</div>
 	</div>
+</section>
+
+<section class="section--search">
+<div class="container">
+	<div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+			<stream src="d496e44cb39e8570a52a22259545aec4" controls loop preload mute autoplay poster="<?php bloginfo('template_directory'); ?>/assets/img/features/search_moodle_course_module.png"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=d496e44cb39e8570a52a22259545aec4"></script>
+		</div>
+    </div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+                <h3 class="section--paragraph__tittle"><?php echo $l->t('Find everything in one place');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('On the top-right of your Nextcloud window, a search glass shows search results from all over Nextcloud. Additional search providers can be installed and over a dozen different search providers are available to show you Github issues, Moodle courses, Jira tickets and more');?></p>
+                <p><a href="<?php echo home_url('unified-search') ?>" class="overlay-trigger button button--blue button--arrow"><?php echo $l->t('Unified Search');?></a></p>
+		</div>
+	</div>
+</div>
 </section>
 
 <a name="calendar" id="calendar"></a>
@@ -279,7 +314,7 @@
 <!-- 			<h1 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
 			<div class="row">
 				<div class="col-md-6 image--feature image--floated">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/moztb.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb.png" alt="in action" /></a>
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/moztb.png"><img class="overlay-trigger img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb.png" alt="in action" /></a>
 				</div>
 				<div class="col-md-6 featureblock">
 					<h3 class="section--paragraph__title"><?php echo $l->t('Mozilla Thunderbird');?></h3>
@@ -296,7 +331,7 @@
 	<a name="storage" id="storage"></a>
 	<div class="container">
         <div class="col-md-6 image--feature new-img image--floated">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/usermanagement.png" alt="in action" ></a>
+            <a class="overlay-trigger " href="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/usermanagement.png" alt="in action" ></a>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Integrated account management');?></h3>
@@ -309,12 +344,12 @@
 <section class="section--workflow">
 	<a name="workflow" id="workflow"></a>
 	<div class="container">
-		<div class="col-md-6 image--feature">
-			<a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/file-access-control-nw.png" alt="in action"/></a>
+		<div class="col-md-6 image--feature new-img">
+			<a><img class="overlay-trigger img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/flow-as-user.png" alt="in action"/></a>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Workflow management');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('With Nextcloud, system administrators can control and direct the flow of data between users on or between servers. The File Access Control app and other workflow tools can be used to prevent accidental sharing of sensitive data, adding an additional layer of protection to Nextcloud.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('With Nextcloud Flow, you can automate common actions like turning a file into a PDF when it is dropped into a specific folder, or receiving a notification when a file with a certain tag is updated. The File Access Control app and other workflow tools can be used to prevent accidental sharing of sensitive data, adding an additional layer of protection to Nextcloud.');?></p>
 			<a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Workflow handling');?></a>
 		</div>
 	</div>
@@ -323,8 +358,8 @@
 <section class="section--monitoring">
     <a name="monitoring" id="monitoring"></a>
     <div class="container">
-        <div class="col-md-6 image--feature image--floated">
-            <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-nw.png" alt="in action"/></a>
+        <div class="col-md-6 image--feature image--floated new-img">
+            <a><img class="overlay-trigger img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring.png" alt="in action"/></a>
         </div>
         <div class="col-md-6">
             <h3 class="section--paragraph__title"><?php echo $l->t('Tracking changes to your files');?></h3>
@@ -339,8 +374,8 @@
 <section class="section--storage">
 	<a name="storage" id="storage"></a>
 	<div class="container">
-		<div class="col-md-6 image--feature">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png"/></a>
+		<div class="col-md-6 image--feature new-img">
+			<a><img class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png"/></a>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('External storage, securely encrypted');?></h3>
@@ -351,17 +386,6 @@
 	</div>
 </section>
 
-<section class="section--fulltextsearch">
-	<div class="container">
-		<div class="col-md-6 image--feature image--floated">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/fulltextsearch.png"/></a>
-		</div>
-		<div class="col-md-6">
-			<h3 class="section--paragraph__title"><?php echo $l->t('Powerful search');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud includes a powerful full-text search engine capable of using ElasticSearch as back-end. Its flexible plugin-based interface enables search capabilities beyond files and accomodates other back-end solutions like Apache Solr.');?></p>
-		</div>
-	</div>
-</section>
 
 <section class="section--appstore benefits">
 <div class="container-fluid banner quote">
@@ -507,3 +531,4 @@
         </div>
     </div>
 </section>
+<?php require get_template_directory().'/overlay.php'; ?>
