@@ -35,6 +35,32 @@
 
 <a name="latest20"></a>
 
+<h3 id="20-0-7">Version 20.0.7 <small>February 3 2021</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.7.tar.bz2">nextcloud-20.0.7.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.7.zip">nextcloud-20.0.7.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.7.tar.bz2.md5">nextcloud-20.0.7.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.7.zip.md5">nextcloud-20.0.7.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.7.tar.bz2.sha256">nextcloud-20.0.7.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.7.zip.sha256">nextcloud-20.0.7.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.7.tar.bz2.sha512">nextcloud-20.0.7.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.7.zip.sha512">nextcloud-20.0.7.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.7.tar.bz2.asc">nextcloud-20.0.7.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.7.zip.asc">nextcloud-20.0.7.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/25315">Catch NotFoundException when querying quota (server#25315)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25324">CalDAV] Validate notified emails (server#25324)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25347">Fix/app fetcher php compat comparison (server#25347)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25352">Show the actual error on share requests (server#25352)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25366">Fix parameter provided as string not array (server#25366)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25374">The objectid is a string (server#25374)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25387">20.0.7 final (server#25387)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/25421">Properly handle SMB ACL blocking scanning a directory (server#25421)</a></li>
+        <li><a href="https://github.com/nextcloud/activity/pull/556">Don't break completely when creating the digest fail for one user (activity#556)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/296">Only attempt to use a secure view if hide download is actually set (files_pdfviewer#296)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/298">Fix opening PDF files with special characters in their name (files_pdfviewer#298)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/299">Fix PDF viewer failing on Edge (not based on Chromium) (files_pdfviewer#299)</a></li>
+        <li><a href="https://github.com/nextcloud/notifications/pull/846">Cannot unfold plain text notifications (notifications#846)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1391">Remove EPUB mimetype (text#1391)</a></li>
+</ul>
+
 <h3 id="20-0-6">Version 20.0.6 <small>January 27 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.6.tar.bz2">nextcloud-20.0.6.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.6.zip">nextcloud-20.0.6.zip</a></br>
 Check the file integrity with:</br>
