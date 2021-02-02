@@ -34,6 +34,7 @@ height: 100px;
     <a href="<?php echo home_url('press/pr20201003-0') ?>" class="button button--large button--white button--arrow">Press release</a>
     <h2>Press releases 2020</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20210203') ?>">February 03, 2020: Harvard Medical School, Kiel University of Applied Sciences and others are using Nextcloud in the fight against COVID-19</a></li>
         <li><a href="<?php echo home_url('press/pr20210118') ?>">January 29, 2020: Nextcloud, Open-Xchange and Univention partner to create Sovereign Productivity suite</a></li>
         <li><a href="<?php echo home_url('press/pr20210111') ?>">January 11, 2020: Telekom and Nextcloud offer Collaboration Platform</a></li>
         <li><a href="<?php echo home_url('press/pr20201216') ?>">December 16, 2020: Nextcloud introduces one-click migration from privacy-unfriendly public cloud platforms</a></li>
