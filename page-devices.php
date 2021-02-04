@@ -51,10 +51,10 @@ require(["require.config"], function() {
                         <li><?php echo $l->t('UBOS Live systems management service for automatic upgrades, remote systems diagnosis and troubleshooting (option)');?></li>
                     </ul>
                     <div class="devices-tags">
-                        <span>Commercial</span>
                         <span>Managed</span>
+                        <span>Commercial</span>
                     </div>
-                    <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about UbosBox');?></a>
+                    <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about UBOSbox Nextcloud');?></a>
                 </div>
             </div>
         </div>
@@ -125,7 +125,7 @@ require(["require.config"], function() {
                     <p class="section--paragraph"><em><?php echo $l->t('Fully-assembled based on Intel NUC with optional management service');?></em></p>
                     <ul class="section--paragraph" style="list-style-type: disc">
                         <li><?php echo $l->t('Preconfigured: UBOS Linux (pre-installed) and Nextcloud plus apps (auto-install on first boot)');?></li>
-                        <li><?php echo $l->t('Can be set up and maintained without attached monitor and keyboard')?></li>
+                        <li><?php echo $l->t('No need to attach a monitor or keyboard')?></li>
                         <li><?php echo $l->t('Choose low power option for energy-conscious 24x7 operation or speed option for many concurrent users')?></li>
                         <li><?php echo $l->t('Easy day-to-day management: upgrades, backups, network configuration and more are just a single command')?></li>
                         <li><?php echo $l->t('UBOS Live systems management service for automatic upgrades, remote systems diagnosis and troubleshooting (option)');?></li>
@@ -134,7 +134,7 @@ require(["require.config"], function() {
                         <span>Commercial</span>
                         <span>Managed</span>
                     </div>
-                    <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about Indiecomputing');?></a>
+                    <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about UBOSbox Nextcloud');?></a>
                 </div>
             </div>
         </div>
