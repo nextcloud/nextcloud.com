@@ -38,6 +38,29 @@ require(["require.config"], function() {
         <div class="col-lg-4">
             <div class="block-container">
                 <div class="text-center">
+                    <a href="https://nitrokey.com/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/nextbox.png" class="text-center featureimg" /></a>
+                </div>
+                <div class="col-md-12">
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Nitrokey Nextbox - Your Private Home Cloud.');?></h3>
+                    <p class="section--paragraph"><em><?php echo $l->t('The cloud in your home or office. With NextBox by Nitrokey you get everything you need for your secure and private cloud');?></em></p>
+                    <ul class="section--paragraph" style="list-style-type: disc">
+                        <li><?php echo $l->t('For photos, videos, backups, files, address books, calendars, office and more');?></li>
+                        <li><?php echo $l->t('Compatible with Android, iPhone, Windows, macOS, Linux');?></li>
+                        <li><?php echo $l->t('Easy operation without technical administration including Remote Access');?></li>
+                        <li><?php echo $l->t('Automatic, long-term updates and no monthly costs');?></li>
+                        <li><?php echo $l->t('Based on Ubuntu Core & RaspberryPI 4');?></li>
+                    </ul>
+                    <div class="devices-tags">
+                        <span>Commercial</span>
+                        <span>Managed</span>
+                    </div>
+                    <a href="https://nitrokey.com/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about NextBox');?></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="block-container">
+                <div class="text-center">
                     <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-odroid-hc2/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/ubosbox-nextcloud-on-odroid-hc2-500x375.jpg" class="text-center featureimg" /></a>
                 </div>
                 <div class="col-md-12">
