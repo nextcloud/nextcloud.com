@@ -25,62 +25,13 @@ require(["require.config"], function() {
 </div>
 
 <?php
-  // This is ordered by:
-  //  * available
-  //  * announced or pre-order
-  //  * not available any more
+  // This is ordered by name of the company/org behind it
 ?>
 
 <section class="section--devices">
 <div class="container-widest">
     <div class="row">
 <!--         <h4>Currently available</h4> -->
-        <div class="col-lg-4">
-            <div class="block-container">
-                <div class="text-center">
-                    <a href="https://nitrokey.com/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/nextbox.png" class="text-center featureimg" /></a>
-                </div>
-                <div class="col-md-12">
-                    <h3 class="section--paragraph__title"><?php echo $l->t('Nitrokey Nextbox - Your Private Home Cloud.');?></h3>
-                    <p class="section--paragraph"><em><?php echo $l->t('The cloud in your home or office. With NextBox by Nitrokey you get everything you need for your secure and private cloud');?></em></p>
-                    <ul class="section--paragraph" style="list-style-type: disc">
-                        <li><?php echo $l->t('For photos, videos, backups, files, address books, calendars, office and more');?></li>
-                        <li><?php echo $l->t('Compatible with Android, iPhone, Windows, macOS, Linux');?></li>
-                        <li><?php echo $l->t('Easy operation without technical administration including Remote Access');?></li>
-                        <li><?php echo $l->t('Automatic, long-term updates and no monthly costs');?></li>
-                        <li><?php echo $l->t('Based on Ubuntu Core & RaspberryPI 4');?></li>
-                    </ul>
-                    <div class="devices-tags">
-                        <span>Commercial</span>
-                        <span>Managed</span>
-                    </div>
-                    <a href="https://nitrokey.com/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about NextBox');?></a>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4">
-            <div class="block-container">
-                <div class="text-center">
-                    <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-odroid-hc2/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/ubosbox-nextcloud-on-odroid-hc2-500x375.jpg" class="text-center featureimg" /></a>
-                </div>
-                <div class="col-md-12">
-                    <h3 class="section--paragraph__title"><?php echo $l->t('UBOSbox Nextcloud on ODROID-HC2 &ndash; Home/Office Server');?></h3>
-                    <p class="section--paragraph"><em><?php echo $l->t('Large disk options on this NAS-class device');?></em></p>
-                    <ul class="section--paragraph" style="list-style-type: disc">
-                        <li><?php echo $l->t('Preconfigured: UBOS Linux (pre-installed) and Nextcloud plus apps (auto-install on first boot)');?></li>
-                        <li><?php echo $l->t('Can be set up and maintained without attached monitor and keyboard')?></li>
-                        <li><?php echo $l->t('Choose from several large disk options up to 8TB (larger on request)')?></li>
-                        <li><?php echo $l->t('Easy day-to-day management: upgrades, backups, network configuration and more are just a single command')?></li>
-                        <li><?php echo $l->t('UBOS Live systems management service for automatic upgrades, remote systems diagnosis and troubleshooting (option)');?></li>
-                    </ul>
-                    <div class="devices-tags">
-                        <span>Managed</span>
-                        <span>Commercial</span>
-                    </div>
-                    <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about UBOSbox Nextcloud');?></a>
-                </div>
-            </div>
-        </div>
         <div class="col-lg-4">
             <div class="block-container">
                 <div class="text-center">
@@ -104,16 +55,47 @@ require(["require.config"], function() {
         <div class="col-lg-4">
             <div class="block-container">
                 <div class="text-center">
-                    <a href="<?php bloginfo('template_directory'); ?>/assets/img/devices/syncloud.jpg"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/syncloud.jpg" class="text-center featureimg" /></a>
+                    <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/ubosbox-nextcloud-on-nuc-model-a-on-500x375.png" class="text-center featureimg" /></a>
                 </div>
                 <div class="col-md-12">
-                    <h3 class="section--paragraph__title"><?php echo $l->t('Syncloud');?></h3>
-                    <p class="section--paragraph"><em><?php echo $l->t('Syncloud is a home server device which fully supports Nextcloud.');?></em></p>
-                    <p class="section--paragraph"><?php echo $l->t('It features easy installation and activation, selection of hardware among 10+ boards, easy use of external hard drives for storage, domain name for device and access to device through Internet, automatic HTTPS setup and more applications.');?></p>
+                    <h3 class="section--paragraph__title"><?php echo $l->t('UBOSbox Nextcloud on NUC &ndash; Home/Office Server');?></h3>
+                    <p class="section--paragraph"><em><?php echo $l->t('Fully-assembled based on Intel NUC with optional management service');?></em></p>
+                    <ul class="section--paragraph" style="list-style-type: disc">
+                        <li><?php echo $l->t('Preconfigured: UBOS Linux (pre-installed) and Nextcloud plus apps (auto-install on first boot)');?></li>
+                        <li><?php echo $l->t('Can be set up and maintained without attached monitor and keyboard')?></li>
+                        <li><?php echo $l->t('Choose low power option for energy-conscious 24x7 operation or speed option for many concurrent users')?></li>
+                        <li><?php echo $l->t('Easy day-to-day management: upgrades, backups, network configuration and more are just a single command')?></li>
+                        <li><?php echo $l->t('UBOS Live systems management service for automatic upgrades, remote systems diagnosis and troubleshooting (option)');?></li>
+                        <li><?php echo $l->t('Different variants available including ARM SBC devices')?></li>
+                    </ul>
                     <div class="devices-tags">
                         <span>Commercial</span>
+                        <span>Managed</span>
                     </div>
-                    <a href="http://syncloud.org" class="button button--blue button--arrow button--large"><?php echo $l->t('More about Syncloud');?></a>
+                    <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about Indiecomputing');?></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="block-container">
+                <div class="text-center">
+                    <a href="https://nitrokey.com/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/nextbox.png" class="text-center featureimg" /></a>
+                </div>
+                <div class="col-md-12">
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Nitrokey Nextbox - Your Private Home Cloud.');?></h3>
+                    <p class="section--paragraph"><em><?php echo $l->t('The cloud in your home or office. With NextBox by Nitrokey you get everything you need for your secure and private cloud');?></em></p>
+                    <ul class="section--paragraph" style="list-style-type: disc">
+                        <li><?php echo $l->t('For photos, videos, backups, files, address books, calendars, office and more');?></li>
+                        <li><?php echo $l->t('Compatible with Android, iPhone, Windows, macOS, Linux');?></li>
+                        <li><?php echo $l->t('Easy operation without technical administration including Remote Access');?></li>
+                        <li><?php echo $l->t('Automatic, long-term updates and no monthly costs');?></li>
+                        <li><?php echo $l->t('Based on Ubuntu Core & RaspberryPI 4');?></li>
+                    </ul>
+                    <div class="devices-tags">
+                        <span>Commercial</span>
+                        <span>Managed</span>
+                    </div>
+                    <a href="https://nitrokey.com/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about NextBox');?></a>
                 </div>
             </div>
         </div>
@@ -141,23 +123,16 @@ require(["require.config"], function() {
         <div class="col-lg-4">
             <div class="block-container">
                 <div class="text-center">
-                    <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/ubosbox-nextcloud-on-nuc-model-a-on-500x375.png" class="text-center featureimg" /></a>
+                    <a href="<?php bloginfo('template_directory'); ?>/assets/img/devices/syncloud.jpg"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/syncloud.jpg" class="text-center featureimg" /></a>
                 </div>
                 <div class="col-md-12">
-                    <h3 class="section--paragraph__title"><?php echo $l->t('UBOSbox Nextcloud on NUC &ndash; Home/Office Server');?></h3>
-                    <p class="section--paragraph"><em><?php echo $l->t('Fully-assembled based on Intel NUC with optional management service');?></em></p>
-                    <ul class="section--paragraph" style="list-style-type: disc">
-                        <li><?php echo $l->t('Preconfigured: UBOS Linux (pre-installed) and Nextcloud plus apps (auto-install on first boot)');?></li>
-                        <li><?php echo $l->t('No need to attach a monitor or keyboard')?></li>
-                        <li><?php echo $l->t('Choose low power option for energy-conscious 24x7 operation or speed option for many concurrent users')?></li>
-                        <li><?php echo $l->t('Easy day-to-day management: upgrades, backups, network configuration and more are just a single command')?></li>
-                        <li><?php echo $l->t('UBOS Live systems management service for automatic upgrades, remote systems diagnosis and troubleshooting (option)');?></li>
-                    </ul>
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Syncloud');?></h3>
+                    <p class="section--paragraph"><em><?php echo $l->t('Syncloud is a home server device which fully supports Nextcloud.');?></em></p>
+                    <p class="section--paragraph"><?php echo $l->t('It features easy installation and activation, selection of hardware among 10+ boards, easy use of external hard drives for storage, domain name for device and access to device through Internet, automatic HTTPS setup and more applications.');?></p>
                     <div class="devices-tags">
                         <span>Commercial</span>
-                        <span>Managed</span>
                     </div>
-                    <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about UBOSbox Nextcloud');?></a>
+                    <a href="http://syncloud.org" class="button button--blue button--arrow button--large"><?php echo $l->t('More about Syncloud');?></a>
                 </div>
             </div>
         </div>
