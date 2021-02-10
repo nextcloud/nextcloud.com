@@ -633,19 +633,6 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/michael.jpg" />
-				<h2 class="teamname">Michael Schuster</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Desktop Client</h4>
-					<h4 class="teamlocation">lives in Hamburg, Germany</h4>
-					<p class="teamsocial"> <a href="https://github.com/misch7"><i class="fa-github fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Michael Schuster has been working in C, C++ and web tech for over 20 years, doing game development, docker and Linux work and more. He is passionate about free and open software and control about your own data.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/morris.jpg" />
 				<h2 class="teamname">Morris Jobke</h2>
 				<div class="teammeta">
