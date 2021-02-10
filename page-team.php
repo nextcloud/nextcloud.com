@@ -161,19 +161,6 @@
 				<p class="teamdescription">After an apprenticeship in publishing and a communication management study, Nils worked over 20 years in different industries. Stations in the management of marketing, sales, and account management followed each other and all with a strong customer focus.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/nina.jpg" />
-				<h2 class="teamname">Nina Cercy</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Account manager</h3>
-					<h4 class="teamexpertise">Compliance and cybersecurity</h4>
-					<h4 class="teamlocation">lives in Lyon, France</h4>
-					<p class="teamsocial"> <a href="https://github.com/NinaNC"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nlapalice"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Nina studied Business and Management at HEC Paris. Nina is specialized in GDPR compliance and cybersecurity. She works as an Account Manager on the French Market and she is based in Lyon. She co-directed <i>Numérique, reprendre le contrôle</i> in 2016.</p>
-			</div>
-		</div>
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/olivier.jpg" />
@@ -216,19 +203,6 @@
 					<p class="teamsocial"><a href="https://schiessle.org/"><i class="fa-rss fa"></i></a> <a href="https://mastodon.social/@bjoern"><i class="fa-mastodon fa"></i></a> <a href="https://twitter.com/schiessle"><i class="fa-twitter fa"></i></a>  <a href="https://www.linkedin.com/in/schiessle/"><i class="fa-linkedin fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Björn is a computer scientist, graduated at the University of Stuttgart. He conducted research in the area of cloud robotics before he joined ownCloud in 2012 and later co-founded Nextcloud. Björn has a deep knowledge about all technical and legal aspects of Free and Open Source Software. After working for several years as a software engineer he became a sales engineer, using his in-depth knowledge to provide the best possible solutions to our customers.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-				<h2 class="teamname">Dimitri Rupp</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Sales Engineer</h3>
-					<h4 class="teamexpertise">Engineering and project management</h4>
-					<h4 class="teamlocation">lives in Vienna, Austria</h4>
-					<p class="teamsocial"><a href="https://infeather.one/"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/dimitrirupp/"><i class="fa-linkedin fa"></i></a> <a href="https://www.facebook.com/dimitri.rupp.54"><i class="fa-facebook fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Dimitri has a commercial and business organization education. With more than 20 years of experiences in system administration and project management, including working abroad for a well-known European cybersecurity company. Dimitri loves intelligent software solutions which are supporting work processes in the most efficient and intuitive way. He is ambitious to provide first-class support and collaboration with a strong focus to bring your Nextcloud project to excellent success.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -386,19 +360,6 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-				<h2 class="teamname">Alex Zolotov</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Desktop Client</h4>
-					<h4 class="teamlocation">Brovary, Ukraine</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/alexander-zolotov-78ab7b70/"><i class="fa-linkedin fa"></i></a> <a href="https://github.com/allexzander"><i class="fa-github fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Alex has a master's degree in computer science. He worked in the gaming industry on well-known game franchises doing C++ and ActionScript but also freelanced while traveling through South East Asia in a variety of front-end and back-end work with JS, and even more with C++ and Qt. He's into cyberpunk and 80's heavy metal.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/arthur.jpg" />
 				<h2 class="teamname">Arthur Schiwon</h2>
 				<div class="teammeta">
@@ -473,19 +434,6 @@
 					<p class="teamsocial"> <a href="https://github.com/FlexW"><i class="fa-github fa"></i></a> <a href="https://www.linkedin.com/in/felix-weilbach-73a0651b9/"><i class="fa-linkedin fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Felix apprenticed in automotive mechatronics and then decided to study Computer Science in Augsburg. He is a big free software fan and develops a small Android app named SplitBills. He's an Emacs user and loves mountain biking.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/georg.jpg" />
-				<h2 class="teamname">Georg Ehrke</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Calendar, Front-end</h4>
-					<h4 class="teamlocation">lives in Kiel, Germany</h4>
-					<p class="teamsocial"><a href="https://georg.coffee/"><i class="fa-rss fa"></i></a> <a href="https://github.com/georgehrke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/georgehrke"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Georg Ehrke studied computer science at University of Rostock and is the maintainer of the Calendar app since the very beginning. He's been doing ownCloud, now Nextcloud, for many years and knows both the front and backend code well.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -629,19 +577,6 @@
 					<p class="teamsocial"> <a href="https://github.com/daita"><i class="fa-github fa"></i></a> <a href="https://twitter.com/AnArtificialOwl"><i class="fa-twitter fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Maxence has extensive experience in PHP and Java/android development as well as database and network management. He is the principal author and maintainer of the Nextant full-text search app.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/michael.jpg" />
-				<h2 class="teamname">Michael Schuster</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Desktop Client</h4>
-					<h4 class="teamlocation">lives in Hamburg, Germany</h4>
-					<p class="teamsocial"> <a href="https://github.com/misch7"><i class="fa-github fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Michael Schuster has been working in C, C++ and web tech for over 20 years, doing game development, docker and Linux work and more. He is passionate about free and open software and control about your own data.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
