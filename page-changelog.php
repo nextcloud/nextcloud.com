@@ -20,7 +20,7 @@
     <ul>
     <li><a href="#latest20">Nextcloud 20</a></li>
     <li><a href="#latest19">Nextcloud 19</a></li>
-    <li><a href="#latest18">Nextcloud 18</a></li>
+    <li><a href="#latest18">Nextcloud 18 (unsupported!)</a></li>
     <li><a href="#latest17">Nextcloud 17 (unsupported!)</a></li>
     <li><a href="#latest16">Nextcloud 16 (unsupported!)</a></li>
     <li><a href="#latest15">Nextcloud 15 (unsupported!)</a></li>
@@ -31,7 +31,7 @@
     <li><a href="#latest10">Nextcloud 10 (unsupported!)</a></li>
     <li><a href="#latest9">Nextcloud 9 (unsupported!)</a></li>
     </ul>
-
+<p>Note here that with 'supported' in this context we mean that software updates will be available to the public, not that there is any actual support beyond community members answering questions in our home user forums. If you need to run Nextcloud in an enterprise setting, we recommend <a class="hyperlink" href="https://nextcloud.com/enterprise">Nextcloud Enterprise.</a></p>
 
 <a name="latest20"></a>
 
