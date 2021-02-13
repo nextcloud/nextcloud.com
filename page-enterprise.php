@@ -37,6 +37,22 @@
 	</div>
 </section>
 
+<section class="section--links">
+	<div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                <a class="button button--white button--small" href="<?php echo home_url('faq') ?>"><?php echo $l->t('FAQ');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('order online');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('get a quote');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('trial') ?>"><?php echo $l->t('Start a trial');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('pricing plans');?></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section--intro">
 	<div class="container">
             <div class="row">

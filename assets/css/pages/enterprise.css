@@ -49,6 +49,16 @@
   .enterprise-hero-section .menu {
     margin-top: -100px; }
 
+.section--links {
+  padding-top: 0;
+  padding-bottom: 0; }
+  .section--links .button {
+    margin: 7px 7px;
+    min-width: 100px; }
+  @media (min-width: 1200px) {
+    .section--links {
+      display: none; } }
+
 .separator {
   height: 40px;
   background: #f6f6f6; }

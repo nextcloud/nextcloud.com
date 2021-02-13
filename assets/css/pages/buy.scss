@@ -14,6 +14,18 @@
   }
 }
 
+.section--links {
+    padding-top: 0;
+    padding-bottom: 0;
+    .button {
+        margin: 7px 7px;
+        min-width: 100px;
+    }
+    @media (min-width: $navbar-breaksize) {
+        display: none;
+    }
+}
+
 .section--welcome {
     padding-top: 150px;
 }

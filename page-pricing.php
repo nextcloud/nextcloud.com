@@ -31,6 +31,22 @@
 	</div>
 </section>
 
+<section class="section--links">
+	<div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                <a class="button button--white button--small" href="<?php echo home_url('faq') ?>"><?php echo $l->t('FAQ');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('Order');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('buy') ?>"><?php echo $l->t('Quote');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('trial') ?>"><?php echo $l->t('Trial');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Enterprise');?></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section--plans">
 <a name="plans" id="plans"></a>
 <div class="container">

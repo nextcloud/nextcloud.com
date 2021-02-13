@@ -15,6 +15,19 @@
     }
 }
 
+.section--links {
+    padding-top: 0;
+    padding-bottom: 40px;
+    margin-top: 0;
+    .button {
+        margin: 7px 7px;
+        min-width: 100px;
+    }
+    @media (min-width: $navbar-breaksize) {
+        display: none;
+    }
+}
+
 .section--plans {
   margin-top: 133px;
     h1 {

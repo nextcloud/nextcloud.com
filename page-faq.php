@@ -28,6 +28,22 @@
 	</div>
 </section>
 
+<section class="section--links">
+	<div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                <a class="button button--white button--small" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('Order online');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('buy') ?>"><?php echo $l->t('get a quote');?></a></a>
+                <a class="button button--white button--small" href="<?php echo home_url('trial') ?>"><?php echo $l->t('Start a trial');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('pricing plans');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('enterprise offering');?></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section--faq">
 <a name="faq" id="faq"></a>
 <div class="container-fluid">
