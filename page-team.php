@@ -468,7 +468,7 @@
 				<h2 class="teamname">Daniel Kesselberg</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Mail and Server</h4>
+					<h4 class="teamexpertise">Groupware and Server</h4>
 					<h4 class="teamlocation">lives near Darmstadt, Germany</h4>
 					<p class="teamsocial"> <a href="https://github.com/kesselb"><i class="fa-github fa"></i></a> </p>
 				</div>
