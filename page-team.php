@@ -465,6 +465,19 @@
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Daniel Kesselberg</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Groupware and Server</h4>
+					<h4 class="teamlocation">lives near Darmstadt, Germany</h4>
+					<p class="teamsocial"> <a href="https://github.com/kesselb"><i class="fa-github fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Daniel has been contributing to Nextcloud for several years and worked as a software engineer for much longer.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
 				<h2 class="teamname">	Felix Weilbach</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
