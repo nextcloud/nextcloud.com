@@ -86,7 +86,7 @@ $(document).ready(function(){
 		}
 		//
 		$("#countdown").countdown({
-			date: "17 January 2020 13:59:59", // change date/time here - do not change the format!
+			date: "22 February 2021 11:59:59", // change date/time here - do not change the format!
 			format: "on"
 		});
 	});
@@ -101,7 +101,7 @@ $(document).ready(function(){
     <div class="container">
         <div class="col-md-6 topheader">
             <h1>Coming soon!</h1>
-            <h2>Stay tuned for our announcement on January 17 2020</h2>
+            <h2>Stay tuned for our announcement on February 22<br>at 1PM CET</h2>
         </div>
     </div>
 </div>
@@ -135,7 +135,7 @@ $(document).ready(function(){
 <section>
     <div class="container">
         <div class="row text-center">
-            <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/9Sx8_9ZSWzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/bjivOowRao4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 </section>
@@ -158,7 +158,7 @@ $(document).ready(function(){
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
             <p class="section--paragraph__tittle"><?php echo $l->t('Be a part of it!');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Join us at our Berlin office we share with Wikimedia at Tempelhofer Ufer 23-24 on January 17, 13:00.');?></p>
+            <p class="section--paragraph"><a class="hyperlink" href="https://youtu.be/bjivOowRao4"><?php echo $l->t('Join us at the live stream on our YouTube channel.');?></a></p>
 		</div>
 	</div>
 	<div class="row program">
@@ -168,29 +168,15 @@ $(document).ready(function(){
                 <tbody>
                     <tr>
                     <th scope="row">13:00</th>
-                    <td><span class="break">Welcome<br>
-                    <small>with drinks and conversation.</small></span></td>
-                    <td></td>
+                    <td><span class="break">Start of presentation<br>
+                    <small>On our YouTube channel.</small></span></td>
+                    <td>Frank, Mitzi, Jan, Jos</td>
                     </tr>
                     <tr>
-                    <th scope="row">14:00</th>
-                    <td>Our big reveal!
+                    <th scope="row">13:30-14:30</th>
+                    <td>Live Q&A<!-- - <a href="https://cloud.nextcloud.com/call/c6grieqy">-->ask questions in the chat!<!--</a>-->
                     </td>
-                    <td><span class="break">Frank Karlitschek <br><small>Nextcloud CEO & founder</small></span></td>
-                    </tr>
-                    <tr>
-                    <th scope="row">15:30</th>
-                    <td>A second announcement.
-                    <br>
-                    <span class="break"><small></small></span></td>
-                    <td><span class="break">Nextcloud and ...</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">17:00</th>
-                    <td>Drinks<br>
-                    <span class="break"><small> and snacks on us!</small><span class="break">
-                    </td>
-                    <td><span class="break">Everybody</td>
+                    <td><span class="break">Frank Karlitschek<br>Jos Poortvliet</span></td>
                     </tr>
                 </tbody>
             </table>
