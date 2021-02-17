@@ -104,19 +104,6 @@
 				<p class="teamdescription">Patrick was co-founder of struktur AG in 2000, responsible for sales and finance. He held several sales and marketing positions at IBM and Oracle, adding up to more than two decades of experience in the IT industry.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
-            <div class="teamp">
-                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/vanessa.jpg" />
-                <h2 class="teamname">Vanessa Steeg</h2>
-                <div class="teammeta">
-                    <h3 class="teamtitle">Executive assistant</h3>
-                    <h4 class="teamexpertise">Sales, marketing, design and project management</h4>
-                    <h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-                    <p class="teamsocial">&nbsp;</p>
-                </div>
-                <p class="teamdescription">Vanessa has a degree in Media Design and qualifications as Executive Assistant in various languages (German, English and Spanish). Her experience ranges from project management to graphic design, marketing and communication.</p>
-            </div>
-        </div>
     </div>
     <div class="row">
         <h2>Account management</h2>
@@ -300,6 +287,37 @@
 				</div>
 				<p class="teamdescription">Marinela studied Business Informatics in the Faculty of Economics, University of Tirana. She got involved in open source in 2015, first by contributing to open source projects and then, in 2016, she started co-organizing events or conferences in Tirana to promote software freedom, open knowledge and the importance of open source in the public sector.</p>
 			</div>
+        </div>
+    </div>
+    <div class="row">
+        <h2>Back office</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/vanessa.jpg" />
+                <h2 class="teamname">Vanessa Steeg</h2>
+                <div class="teammeta">
+                    <h3 class="teamtitle">Executive assistant</h3>
+                    <h4 class="teamexpertise">Sales, marketing, design and project management</h4>
+                    <h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+                    <p class="teamsocial">&nbsp;</p>
+                </div>
+                <p class="teamdescription">Vanessa has a degree in Media Design and qualifications as Executive Assistant in various languages (German, English and Spanish). Her experience ranges from project management to graphic design, marketing and communication.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+                <h2 class="teamname">	Alexandra Boehm</h2>
+                <div class="teammeta">
+                    <h3 class="teamtitle">Accountant</h3>
+                    <h4 class="teamexpertise">Accounting and finance</h4>
+                    <h4 class="teamlocation">lives in Berlin, Germany</h4>
+                    <p class="teamsocial"><a href="http://www.linkedin.com/in/alexandra-boehm-02bba3a1"><i class="fa-linkedin fa"></i></a></p>
+                </div>
+                <p class="teamdescription">Experienced Accountant and Office Manager with a long history of working in the computer software industry. </p>
+            </div>
         </div>
     </div>
     <div class="row">
