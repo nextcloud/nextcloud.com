@@ -27,74 +27,86 @@ process easy and effective for everyone involved.
 
 * Fork the repository
 * Setup your local development environment using the instructions above, changing the remote origin url
-* Submit a pull request to master, on github once the feature/bugfix is complete (this is so we can test it on the staging server)
-* After review (usually following one or two thumbs up), a developer will permit the merge into master
-* Code will be pulled onto staging.nextcloud.com for testing (this has to be set up still but the goal is to have this work automatically)
-* Once the test looks good, staging will be cloned over to nextcloud.com - this is handled by @jospoortvliet or the Nextcloud sysadmins including @LukasReschke
+* Submit a pull request to master, on github once the feature/bugfix is complete
+* After review (usually following one or two thumbs up), somebody from Nc marketing merges (typically @jospoortvliet )
+* Deploment on nextcloud.com is handled manually by @jospoortvliet or the Nextcloud sysadmins including @LukasReschke
 
 ### Notes
 
-* Please don't commit straight into the master or live branches, these branches should remain as stable as possible, and changes should be discussed within the community.
 * If you are changing SCSS files during development, following command for automatic compilation is recommended:
   * `sass --watch [location to scss files]`
-  
-## Testing
-The list below covers most pages on our site, copy it in a PR that needs site-wide testing, so one can just quickly click the links and check all pages:
+* Only Nc marketing merges things
 
-- [ ] https://nextcloud.com/?staging=true
-- [ ] https://nextcloud.com/files/?staging=true
-- [ ] https://nextcloud.com/groupware/?staging=true
-- [ ] https://nextcloud.com/talk/?staging=true
-- [ ] https://nextcloud.com/athome/?staging=true
-- [ ] https://nextcloud.com/install/?staging=true
-- [ ] https://nextcloud.com/changelog/?staging=true
-- [ ] https://nextcloud.com/secure/?staging=true
-- [ ] https://nextcloud.com/globalscale/?staging=true
-- [ ] https://nextcloud.com/file-drop/?staging=true
-- [ ] https://nextcloud.com/sharing/?staging=true
-- [ ] https://nextcloud.com/collaboraonline/?staging=true
-- [ ] https://nextcloud.com/outlook/?staging=true
-- [ ] https://nextcloud.com/workflow/?staging=true all
-- [ ] https://nextcloud.com/clients/?staging=true all
-- [ ] https://nextcloud.com/storage/?staging=true all
-- [ ] https://nextcloud.com/monitoring/?staging=true all
-- [ ] https://nextcloud.com/enterprise/?staging=true
-- [ ] https://nextcloud.com/pricing/?staging=true
-- [ ] https://nextcloud.com/enterprise/buy/?staging=true
-- [ ] https://nextcloud.com/enterprise/order/?staging=true
-- [ ] https://nextcloud.com/partners/?staging=true
-- [ ] https://nextcloud.com/providers/?staging=true
-- [ ] https://nextcloud.com/providers/apply/?staging=true
-- [ ] https://nextcloud.com/compare/?staging=true
-- [ ] https://nextcloud.com/about/?staging=true
-- [ ] https://nextcloud.com/press/?staging=true
-- [ ] https://nextcloud.com/contact/?staging=true
-- [ ] https://nextcloud.com/support/?staging=true
-- [ ] https://nextcloud.com/team/?staging=true
-- [ ] https://nextcloud.com/healthcare/?staging=true
-- [ ] https://nextcloud.com/education/?staging=true
-- [ ] https://nextcloud.com/devices/?staging=true
-- [ ] https://nextcloud.com/box/?staging=true
-- [ ] https://nextcloud.com/events/?staging=true
-- [ ] https://nextcloud.com/events/meetups/?staging=true
-- [ ] https://nextcloud.com/events/conference-program/?staging=true
-- [ ] https://nextcloud.com/events/conference-program/speaking/?staging=true
-- [ ] https://nextcloud.com/contribute/?staging=true
-- [ ] https://nextcloud.com/design/?staging=true
-- [ ] https://nextcloud.com/contributors/?staging=true
-- [ ] https://nextcloud.com/partners/?staging=true
-- [ ] https://nextcloud.com/release-channels/?staging=true
-- [ ] https://nextcloud.com/conf/?staging=true
-- [ ] https://nextcloud.com/confinfo/?staging=true
-- [ ] https://nextcloud.com/security/?staging=true
-- [ ] https://nextcloud.com/security/advisories/?staging=true
-- [ ] https://nextcloud.com/security/threat-model/?staging=true
-- [ ] https://nextcloud.com/connect/?staging=true
-- [ ] https://nextcloud.com/federation/?staging=true
-- [ ] https://nextcloud.com/securesharing/?staging=true
-- [ ] https://nextcloud.com/spreedbox/?staging=true
-- [ ] https://nextcloud.com/code-of-conduct/?staging=true
-- [ ] https://nextcloud.com/trademarks/?staging=true
-- [ ] https://nextcloud.com/privacy/?staging=true
-- [ ] https://nextcloud.com/impressum/?staging=true
+## Testing
+The list below covers most pages on our site, copy it in a PR that needs site-wide testing, so one can just quickly click the links and check all pages. This is assuming you have a local setup on 127.0.0.1 for testing - we sadly have no working staging server.
+
+- [ ] http://127.0.0.1/wordpress/
+- [ ] http://127.0.0.1/wordpress/files/
+- [ ] http://127.0.0.1/wordpress/groupware/
+- [ ] http://127.0.0.1/wordpress/talk/
+- [ ] http://127.0.0.1/wordpress/athome/
+- [ ] http://127.0.0.1/wordpress/install/
+- [ ] http://127.0.0.1/wordpress/changelog/
+- [ ] http://127.0.0.1/wordpress/secure/
+- [ ] http://127.0.0.1/wordpress/encryption/
+- [ ] http://127.0.0.1/wordpress/endtoend/
+- [ ] http://127.0.0.1/wordpress/unified-search/
+- [ ] http://127.0.0.1/wordpress/file-drop/
+- [ ] http://127.0.0.1/wordpress/sharing/
+- [ ] http://127.0.0.1/wordpress/collaboraonline/
+- [ ] http://127.0.0.1/wordpress/outlook/
+- [ ] http://127.0.0.1/wordpress/workflow/
+- [ ] http://127.0.0.1/wordpress/industries/
+- [ ] http://127.0.0.1/wordpress/industries/healthcare
+- [ ] http://127.0.0.1/wordpress/industries/government
+- [ ] http://127.0.0.1/wordpress/industries/education
+- [ ] http://127.0.0.1/wordpress/industries/finance
+- [ ] http://127.0.0.1/wordpress/industries/globalscale
+- [ ] http://127.0.0.1/wordpress/industries/agencies
+- [ ] http://127.0.0.1/wordpress/industries/legal
+- [ ] http://127.0.0.1/wordpress/industries/engineering
+- [ ] http://127.0.0.1/wordpress/dashboard/
+- [ ] http://127.0.0.1/wordpress/search/
+- [ ] http://127.0.0.1/wordpress/clients/
+- [ ] http://127.0.0.1/wordpress/storage/
+- [ ] http://127.0.0.1/wordpress/monitoring/
+- [ ] http://127.0.0.1/wordpress/enterprise/
+- [ ] http://127.0.0.1/wordpress/pricing/
+- [ ] http://127.0.0.1/wordpress/enterprise/buy/
+- [ ] http://127.0.0.1/wordpress/enterprise/order/
+- [ ] http://127.0.0.1/wordpress/partners/
+- [ ] http://127.0.0.1/wordpress/providers/
+- [ ] http://127.0.0.1/wordpress/providers/apply/
+- [ ] http://127.0.0.1/wordpress/compare/
+- [ ] http://127.0.0.1/wordpress/about/
+- [ ] http://127.0.0.1/wordpress/press/
+- [ ] http://127.0.0.1/wordpress/contact/
+- [ ] http://127.0.0.1/wordpress/support/
+- [ ] http://127.0.0.1/wordpress/team/
+- [ ] http://127.0.0.1/wordpress/healthcare/
+- [ ] http://127.0.0.1/wordpress/education/
+- [ ] http://127.0.0.1/wordpress/devices/
+- [ ] http://127.0.0.1/wordpress/box/
+- [ ] http://127.0.0.1/wordpress/events/
+- [ ] http://127.0.0.1/wordpress/events/meetups/
+- [ ] http://127.0.0.1/wordpress/events/conference-program/
+- [ ] http://127.0.0.1/wordpress/events/conference-program/speaking/
+- [ ] http://127.0.0.1/wordpress/contribute/
+- [ ] http://127.0.0.1/wordpress/design/
+- [ ] http://127.0.0.1/wordpress/contributors/
+- [ ] http://127.0.0.1/wordpress/partners/
+- [ ] http://127.0.0.1/wordpress/release-channels/
+- [ ] http://127.0.0.1/wordpress/conf/
+- [ ] http://127.0.0.1/wordpress/confinfo/
+- [ ] http://127.0.0.1/wordpress/security/
+- [ ] http://127.0.0.1/wordpress/security/advisories/
+- [ ] http://127.0.0.1/wordpress/security/threat-model/
+- [ ] http://127.0.0.1/wordpress/connect/
+- [ ] http://127.0.0.1/wordpress/federation/
+- [ ] http://127.0.0.1/wordpress/securesharing/
+- [ ] http://127.0.0.1/wordpress/spreedbox/
+- [ ] http://127.0.0.1/wordpress/code-of-conduct/
+- [ ] http://127.0.0.1/wordpress/trademarks/
+- [ ] http://127.0.0.1/wordpress/privacy/
+- [ ] http://127.0.0.1/wordpress/impressum/
 
