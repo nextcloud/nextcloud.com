@@ -34,6 +34,8 @@ height: 100px;
     <a href="<?php echo home_url('press/pr20201003-0') ?>" class="button button--large button--white button--arrow">Press release</a>
     <h2>Press releases 2020</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20210222-1') ?>">February 22, 2020: Nextcloud Hub 21 out with up to 10x better performance, whiteboard and more collaboration features</a></li>
+        <li><a href="<?php echo home_url('press/pr20210222-2') ?>">February 22, 2020: Nextcloud near to double bookings in 2020, invests in expanding for 2021</a></li>
         <li><a href="<?php echo home_url('press/pr20210203') ?>">February 03, 2020: Harvard Medical School, Kiel University of Applied Sciences and others are using Nextcloud in the fight against COVID-19</a></li>
         <li><a href="<?php echo home_url('press/pr20210129') ?>">January 29, 2020: Nextcloud, Open-Xchange and Univention partner to create Sovereign Productivity suite</a></li>
         <li><a href="<?php echo home_url('press/pr20210118') ?>">January 18, 2020: Nextcloud and VIBE Cybersecurity Join Forces to Launch Crypto as a Service</a></li>
