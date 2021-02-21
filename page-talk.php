@@ -302,6 +302,7 @@
 			<p class="section--paragraph__tittle"><?php echo $l->t('Designed for privacy');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk is a fully self hosted, on-premises audio/video and chat communication service. It features web and mobile apps and is designed to offer the highest degree of security while being easy to use.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk lowers the barrier for communication and lets your team connect any time, any where, on any device, with each other, customers or partners.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Message status indicators show when a message is sent and received - for more privacy, users can disable this on their side.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The optional Nextcloud Talk High Performance Backend enables enterprise class scalability, reliability and features.');?></p>
 		</div>
 	</div>
@@ -314,6 +315,7 @@
 			<p class="section--paragraph"><?php echo $l->t('Talk makes it easy to call customers and partners in one-to-one or group-scenarios.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Users can invite external chat participants with an URL into public rooms on the Nextcloud server.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The chat, which remains open even when the user leaves a call, enables participants to easily exchange messages, links and notes.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Configurable visibility on chats allows team members and/or guests to find and join open chat rooms.');?></p>
 		</div>
 	</div>
 	<div class="row">
@@ -329,8 +331,20 @@
             <blockquote class="section--paragraph"><?php echo $l->t('Drag a document into a chat and edit it with other participants during a video call');?></blockquote>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col-md-6 image--feature">
+			<stream src="" controls loop autoplay poster="<?php bloginfo('template_directory'); ?>/assets/img/features/whiteboard.png"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video="></script>
+		</div>
+        <div class="col-md-6">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Whiteboard');?></p>
+            <p class="section--paragraph"><?php echo $l->t('One application that is very useful during audio/video calls or chat sessions is Nextcloud Whiteboard.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('It is a collaborative whiteboard with the ability for all participants to draw lines and shapes, take notes and write text, upload images, give a presentation and more.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Files created with Whiteboard are saved among other regular files and can thus easily be shared.');?></p>
+		</div>
+	</div>
     <div class="row">
-		<div class="col-md-6 image--feature new-img">
+		<div class="col-md-6  image--floated  image--feature new-img">
 			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk_bridge_slack_matrix.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk_bridge_slack_matrix.png" class="overlay-trigger img-responsive featureimg" alt="<?php echo $l->t('Bridging Slack and Matrix into a room');?>" /></a>
 		</div>
         <div class="col-md-6">
@@ -361,6 +375,7 @@
 			<p class="section--paragraph"><?php echo $l->t('Manage participants by inviting, muting or removing them.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Schedule meetings and be notified when they start.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('A lobby is provided for guests to wait until the call starts.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Participants can raise their hand to get attention or be allowed to speak.');?></p>
 		</div>
 	</div>
 	<div class="row">

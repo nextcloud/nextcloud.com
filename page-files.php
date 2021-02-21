@@ -166,10 +166,27 @@
 	</div>
 </section>
 
+
+<section class="section--templates">
+	<div class="container">
+        <div class="row">
+            <div class="col-md-6 image--floated">
+                <stream src="" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/templates.png"></stream>
+                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video="></script>
+            </div>
+            <div class="col-md-6 feature--block">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Note taking and templates');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('Nextcloud comes out of the box with an easy to use collaborative note taking application, Nextcloud Text. It supports a variety of rich text formats like headers, bold and italics as well as images and links. During a group editing session, author colors can show who has changed what.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Template support in Nextcloud allow quick creation of a variety of files. A number of default templates is included and users can manage their own templates in the Templates folder.');?></p>
+            </div>
+        </div>
+	</div>
+</section>
+
 <section class="section--design">
 	<div class="container">
         <div class="row">
-                <div class="col-md-6 image--floated">
+                <div class="col-md-6">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/LrF4jf1ROOc" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="col-md-6 feature--block">
@@ -185,7 +202,7 @@
 <section class="section--sharing">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 image--floated">
                 <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
                 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
             </div>
