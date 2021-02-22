@@ -34,35 +34,13 @@ height: 100px;
     <a href="<?php echo home_url('press/pr20201003-0') ?>" class="button button--large button--white button--arrow">Press release</a>
     <h2>Press releases 2020</h2>
     <ul>
-        <li><a href="<?php echo home_url('press/pr20210222-1') ?>">February 22, 2020: Nextcloud Hub 21 out with up to 10x better performance, whiteboard and more collaboration features</a></li>
-        <li><a href="<?php echo home_url('press/pr20210222-2') ?>">February 22, 2020: Nextcloud near to double bookings in 2020, invests in expanding for 2021</a></li>
-        <li><a href="<?php echo home_url('press/pr20210203') ?>">February 03, 2020: Harvard Medical School, Kiel University of Applied Sciences and others are using Nextcloud in the fight against COVID-19</a></li>
-        <li><a href="<?php echo home_url('press/pr20210129') ?>">January 29, 2020: Nextcloud, Open-Xchange and Univention partner to create Sovereign Productivity suite</a></li>
-        <li><a href="<?php echo home_url('press/pr20210118') ?>">January 18, 2020: Nextcloud and VIBE Cybersecurity Join Forces to Launch Crypto as a Service</a></li>
-        <li><a href="<?php echo home_url('press/pr20210111') ?>">January 11, 2020: Telekom and Nextcloud offer Collaboration Platform</a></li>
-        <li><a href="<?php echo home_url('press/pr20201216') ?>">December 16, 2020: Nextcloud introduces one-click migration from privacy-unfriendly public cloud platforms</a></li>
-        <li><a href="<?php echo home_url('press/pr20201214-2') ?>">December 14, 2020: Hancom Works brings productivity, collaboration, and self-managed data privacy to the Cloud</a></li>
-        <li><a href="<?php echo home_url('press/pr20201214-1') ?>">December 14, 2020: Hancom and Nextcloud announce Strategic Partnership</a></li>
-        <li><a href="<?php echo home_url('press/pr20201210') ?>">December 10, 2020: SalesAgility and Nextcloud announce SuiteCRM integration collaboration</a></li>
-        <li><a href="<?php echo home_url('press/pr20201003-0') ?>">October 3, 2020: Nextcloud Hub 20 debuts Dashboard, unifies search, becomes an integration platform</a></li>
-        <li><a href="<?php echo home_url('press/pr20201003-1') ?>">October 3, 2020: Nextcloud becomes an integration platform with Microsoft, Google, Slack, Moodle, Github, Jira, Dropbox, Matrix and more</a></li>
-        <li><a href="<?php echo home_url('press/pr20201003-2') ?>">October 3, 2020: Nextcloud announces Gitlab integration at Nextcloud Conference</a></li>
-        <li><a href="<?php echo home_url('press/pr20201003-3') ?>">October 3, 2020: Nextcloud and Hancom partner up to provide users a secure, real-time co-authoring experience</a></li>
-        <li><a href="<?php echo home_url('press/pr20201003-4') ?>">October 3, 2020: Moodle and Nextcloud announce further integration steps at Nextcloud Conference</a></li>
-        <li><a href="<?php echo home_url('press/pr20201003-5') ?>">October 3, 2020: Zammad and Nextcloud announce collaboration at Nextcloud Conference</a></li>
-        <li><a href="<?php echo home_url('press/pr20201003-6') ?>">October 3, 2020: Nextcloud and Struktur offer easy 30 day trial and integrated signup for hosted HPB in Talk 10</a></li>
-        <li><a href="<?php echo home_url('press/pr20200831') ?>">August 31, 2020: Nextcloud and Kaspersky partner up to protect users from malicious files</a></li>
-        <li><a href="<?php echo home_url('press/pr20200818') ?>">August 18, 2020: Production ready end-to-end encryption and new user interface for desktop client 3.0</a></li>
-        <li><a href="<?php echo home_url('press/pr20200728') ?>">July 28, 2020: Nextcloud introduces Forms to protect privacy-sensitive survey data</a></li>
-        <li><a href="<?php echo home_url('press/pr20200616') ?>">June 16, 2020: Nextcloud Mail introduces Machine Learning for Priority Inbox</a></li>
-        <li><a href="<?php echo home_url('press/pr20200603') ?>">June 3, 2020: Nextcloud Hub brings productivity to home office workers</a></li>
-        <li><a href="<?php echo home_url('press/pr20200519') ?>">May 19, 2020: Talk 9: big step forward for team calls, efficient work flows and open source back-end</a></li>
-        <li><a href="<?php echo home_url('press/pr20200430') ?>">April 30, 2020: Massachusetts General Hospital and Nextcloud support fight against COVID</a></li>
-        <li><a href="<?php echo home_url('press/pr20200408') ?>">April 8, 2020: German cloud giants launch GDPR-compliant collaboration platform for schools, government agencies and SMB</a></li>
-        <li><a href="<?php echo home_url('press/pr20200312') ?>">March 12, 2020: Nextcloud doubles order intake and customer base, remains profitable and independent</a></li>
-        <li><a href="<?php echo home_url('press/pr20200117-1') ?>">January 17, 2020: IONOS and Nextcloud together for more data sovereignty</a></li>
-        <li><a href="<?php echo home_url('press/pr20200117-2') ?>">January 17, 2020: Nextcloud challenges SAAS vendors with launch of Hub</a></li>
-        <li>See below for press releases from 2019 and before.</li>
+        <li><a href="<?php echo home_url('press/pr20210222-1') ?>">February 22, 2021: Nextcloud Hub 21 out with up to 10x better performance, whiteboard and more collaboration features</a></li>
+        <li><a href="<?php echo home_url('press/pr20210222-2') ?>">February 22, 2021: Nextcloud near to double bookings in 2020, invests in expanding for 2021</a></li>
+        <li><a href="<?php echo home_url('press/pr20210203') ?>">February 03, 2021: Harvard Medical School, Kiel University of Applied Sciences and others are using Nextcloud in the fight against COVID-19</a></li>
+        <li><a href="<?php echo home_url('press/pr20210129') ?>">January 29, 2021: Nextcloud, Open-Xchange and Univention partner to create Sovereign Productivity suite</a></li>
+        <li><a href="<?php echo home_url('press/pr20210118') ?>">January 18, 2021: Nextcloud and VIBE Cybersecurity Join Forces to Launch Crypto as a Service</a></li>
+        <li><a href="<?php echo home_url('press/pr20210111') ?>">January 11, 2021: Telekom and Nextcloud offer Collaboration Platform</a></li>
+        <li>See below for press releases from 2020 and before.</li>
     </ul>
 
     <h2>Latest News and Annoucements</h2>
@@ -164,6 +142,28 @@ height: 100px;
     <p>For press inquiries, please contact <a href="mailto:pr@nextcloud.com" target="_blank">our marketing and PR team</a>.<p>
     <h2>Older press releases</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20201216') ?>">December 16, 2020: Nextcloud introduces one-click migration from privacy-unfriendly public cloud platforms</a></li>
+        <li><a href="<?php echo home_url('press/pr20201214-2') ?>">December 14, 2020: Hancom Works brings productivity, collaboration, and self-managed data privacy to the Cloud</a></li>
+        <li><a href="<?php echo home_url('press/pr20201214-1') ?>">December 14, 2020: Hancom and Nextcloud announce Strategic Partnership</a></li>
+        <li><a href="<?php echo home_url('press/pr20201210') ?>">December 10, 2020: SalesAgility and Nextcloud announce SuiteCRM integration collaboration</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-0') ?>">October 3, 2020: Nextcloud Hub 20 debuts Dashboard, unifies search, becomes an integration platform</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-1') ?>">October 3, 2020: Nextcloud becomes an integration platform with Microsoft, Google, Slack, Moodle, Github, Jira, Dropbox, Matrix and more</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-2') ?>">October 3, 2020: Nextcloud announces Gitlab integration at Nextcloud Conference</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-3') ?>">October 3, 2020: Nextcloud and Hancom partner up to provide users a secure, real-time co-authoring experience</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-4') ?>">October 3, 2020: Moodle and Nextcloud announce further integration steps at Nextcloud Conference</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-5') ?>">October 3, 2020: Zammad and Nextcloud announce collaboration at Nextcloud Conference</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-6') ?>">October 3, 2020: Nextcloud and Struktur offer easy 30 day trial and integrated signup for hosted HPB in Talk 10</a></li>
+        <li><a href="<?php echo home_url('press/pr20200831') ?>">August 31, 2020: Nextcloud and Kaspersky partner up to protect users from malicious files</a></li>
+        <li><a href="<?php echo home_url('press/pr20200818') ?>">August 18, 2020: Production ready end-to-end encryption and new user interface for desktop client 3.0</a></li>
+        <li><a href="<?php echo home_url('press/pr20200728') ?>">July 28, 2020: Nextcloud introduces Forms to protect privacy-sensitive survey data</a></li>
+        <li><a href="<?php echo home_url('press/pr20200616') ?>">June 16, 2020: Nextcloud Mail introduces Machine Learning for Priority Inbox</a></li>
+        <li><a href="<?php echo home_url('press/pr20200603') ?>">June 3, 2020: Nextcloud Hub brings productivity to home office workers</a></li>
+        <li><a href="<?php echo home_url('press/pr20200519') ?>">May 19, 2020: Talk 9: big step forward for team calls, efficient work flows and open source back-end</a></li>
+        <li><a href="<?php echo home_url('press/pr20200430') ?>">April 30, 2020: Massachusetts General Hospital and Nextcloud support fight against COVID</a></li>
+        <li><a href="<?php echo home_url('press/pr20200408') ?>">April 8, 2020: German cloud giants launch GDPR-compliant collaboration platform for schools, government agencies and SMB</a></li>
+        <li><a href="<?php echo home_url('press/pr20200312') ?>">March 12, 2020: Nextcloud doubles order intake and customer base, remains profitable and independent</a></li>
+        <li><a href="<?php echo home_url('press/pr20200117-1') ?>">January 17, 2020: IONOS and Nextcloud together for more data sovereignty</a></li>
+        <li><a href="<?php echo home_url('press/pr20200117-2') ?>">January 17, 2020: Nextcloud challenges SAAS vendors with launch of Hub</a></li>
         <li><a href="<?php echo home_url('press/pr20191016') ?>">October 16, 2019: French universities and research organizations will gain access to secure, private collaboration platform</a></li>
         <li><a href="<?php echo home_url('press/pr20190930') ?>">September 30, 2019: Nextcloud 17 brings remote wipe, collaborative text editor and next generation secure watermarking</a></li>
         <li><a href="<?php echo home_url('press/pr20190827') ?>">August 27, 2019: Amid escalating trade disputes, EU governments choose independence from US cloud providers</a></li>
