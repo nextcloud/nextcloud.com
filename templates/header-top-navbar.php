@@ -5,7 +5,7 @@ require get_template_directory() . '/strings.php';
 
 <script>
 // Set the date we're counting down to (in UTC)
-var countDownDate = new Date("Feb 22, 2021 11:59:59").getTime();
+var countDownDate = new Date("Feb 22, 2021 12:59:59").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
