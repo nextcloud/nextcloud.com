@@ -134,7 +134,7 @@
                     <div role="tabpanel" class="tab-pane active" id="differentiators-tab1">
                         <div class="feature">
                             <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/mobile.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/mobile.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('A simple, familiar interface is key for fast adoption. While the more complex document management solutions, groupware products or workflow tools are introducing EFSS features, they tend to be too complicated so users keep using Dropbox or Google Drive.');?></p>
                         </div>
@@ -142,7 +142,7 @@
                     <div role="tabpanel" class="tab-pane" id="differentiators-tab2">
                         <div class="feature">
                             <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/storage.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/storage.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('Another key barrier to adoption is integration in existing data silos and user management. While most off-premises solutions integrate with Active Directory, data typically has to be migrated. On-premises solutions can offer access to existing data on Windows Network Drive, Sharepoint or FTP storages, as well as Outlook and other integrations.');?></p>
                         </div>
@@ -150,7 +150,7 @@
                     <div role="tabpanel" class="tab-pane" id="differentiators-tab3">
                         <div class="feature">
                             <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/people.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/people.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('The market is quickly moving away from file exchange solutions and towards integrated work flows with video chat, task management and collaborative document editing built in ("content collaboration platforms"). Solutions which are slow to adopt to these trends present a long-term risks for their customers as migrations are costly.');?></p>
                         </div>

@@ -137,7 +137,7 @@
     <div class="row">
         <div class="col-md-1 featureblock">
         <div class="icon">
-            <?php echo file_get_contents(get_template_directory()."/assets/img/logo/Nextcloud-Flow.svg"); ?>
+            <?php echo file_get_contents(__DIR__."/assets/img/logo/Nextcloud-Flow.svg"); ?>
         </div>
         </div>
         <div class="col-md-3 featureblock">

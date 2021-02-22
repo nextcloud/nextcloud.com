@@ -121,7 +121,7 @@
                     <div role="tabpanel" class="tab-pane active" id="control-tab1">
                         <div class="feature">
                             <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/monitoring.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/monitoring.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('Nextcloud has built in monitoring and logging tools</a>, compatible with industry standard tools like Splunk, Nagios and OpenNMS. It also offers a full, compliance-ready activity log for reporting and auditing purposes.');?></p>
                             <a href="<?php echo home_url('monitoring') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring');?></a>
@@ -130,7 +130,7 @@
                     <div role="tabpanel" class="tab-pane" id="control-tab2">
                         <div class="feature">
                             <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/permissions.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/permissions.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('Administrators can set permissions on sharing and access to files using groups. Permissions of underlying storage, like Windows Network Drive access rights, are respected by Nextcloud');?></p>
                             <p class="section--paragraph"><?php echo $l->t('Sharing can be protected by passwords, expiration dates, hiding of existing files, blocking downloads and the enforcing of a video call before access is granted (Video Verification). There is also support for ACLs on team folders.');?></p>
@@ -140,7 +140,7 @@
                     <div role="tabpanel" class="tab-pane" id="control-tab3">
                         <div class="feature">
                             <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/retention.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/retention.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('Define rules for data retention, allowing regular cleanup of files or ensurances that data stays put for a set amount of time.');?></p>
                             <a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Tagging and retention');?></a>
@@ -149,7 +149,7 @@
                     <div role="tabpanel" class="tab-pane" id="control-tab4">
                         <div class="feature">
                             <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/firewall.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/firewall.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('The powerful workflow tools in Nextcloud enable administrators to limit access to data in accordance to business and legal requirements and perform automatic actions like file conversion. Describe restrictions like "XLSX files from the HR department are not to be accessible outside company IP ranges" or "employees in the US shouldn\'t access customer data from European data centers" for Nextcloud to enforce.');?></p>
                             <a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('File access control');?></a>
@@ -158,7 +158,7 @@
                     <div role="tabpanel" class="tab-pane" id="control-tab5">
                         <div class="feature">
                             <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/encryption.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/encryption.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('Nextcloud uses industry-standard SSL/TLS encryption for data in transfer. Additionally, data at rest in storage can be encrypted using a default military grade AES-256 encryption with server-based or custom key management. Also optionally and on a per-folder base data can be');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('end-to-end encrypted</a> on the client with the server assisting in sharing and key management using a Zero-Knowledge model.');?>
                             <a href="<?php echo home_url('encryption') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Encryption');?></a>
@@ -167,7 +167,7 @@
                     <div role="tabpanel" class="tab-pane" id="control-tab6">
                         <div class="feature">
                             <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/secure-server.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/secure-server.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('Nextcloud puts all the pieces for compliance with regulations like HIPAA and GDRP at your fingertips. This goes from extensive documentation on our customer portal to specific apps for data requests as well as encryption and security capabilities in Nextcloud itself.');?></p>
                             <a href="<?php echo home_url('gdpr') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Compliance');?></a>
@@ -218,7 +218,7 @@
                     <div role="tabpanel" class="tab-pane active" id="integration-tab1">
                         <div class="feature">
                             <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/storage.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/storage.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('Nextcloud supports your existing storage solution, keeping data under control of trusted IT administrators and managed with established policies. Nextcloud works with industry standard SQL databases like PostgreSQL, MySQL and MariaDB for user and metadata storage.');?></p>
                         </div>
@@ -226,7 +226,7 @@
                     <div role="tabpanel" class="tab-pane" id="integration-tab2">
                         <div class="feature">
                             <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/tools.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/tools.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('Nextcloud offers built in monitoring tools and integrates with existing MDM, DLP, event logging and backup tools, enabling existing tool chains to be used to monitor, back up and restore systems.');?></p>
                         </div>
@@ -234,7 +234,7 @@
                     <div role="tabpanel" class="tab-pane" id="integration-tab3">
                         <div class="feature">
                             <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/securitypolicies.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/securitypolicies.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('Nextcloud leverages existing data storage and database technologies so current security policies and governance processes can continue to be used to manage, control and secure operations with Nextcloud. Your IT department is fully in control.');?></p>
                         </div>
@@ -301,7 +301,7 @@
                     <div role="tabpanel" class="tab-pane active" id="authentication-tab1">
                         <div class="feature">
                             <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/ldap.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/ldap.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('Nextcloud has extensive LDAP/Active Directory support with an easy installation wizard.');?></p>
                             <p class="section--paragraph"><?php echo $l->t('Nextcloud can also work with Kerberos and other authentication mechanisms like');?> <a class="hyperlink" href="https://github.com/pingidentity/mod_auth_openidc" target="_blank">OAuth2</a>, <a class="hyperlink" href="https://github.com/pingidentity/mod_auth_openidc" target="_blank">OpenID Connect</a>, <a class="hyperlink" href="https://github.com/AnthonyDeroche/mod_authnz_jwt" target="_blank">JWT</a>, <a class="hyperlink" href="https://github.com/Jasig/mod_auth_cas" target="_blank">CAS</a> <?php echo $l->t('or <a class="hyperlink" href="https://httpd.apache.org/docs/2.2/mod/mod_authn_dbd.html" target="_blank">Any SQL database</a> mediated by Apache modules.');?></p>
@@ -310,7 +310,7 @@
                     <div role="tabpanel" class="tab-pane" id="authentication-tab2">
                         <div class="feature">
                             <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/saml.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/saml.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('Nextcloud supports Single Sign On (SSO) and provides native SAML 2.0 (and Shibboleth) authentication in its web front end.');?></p>
                             <p class="section--paragraph"><?php echo $l->t('The native SAML integration negates the need for external software like Apache modules. Native SAML is compatible with all webservers and supports group memberships, flexible session management and app specific passwords. It can handle multiple Identity Providers and can authenticate to Samba servers with Kerberos.');?></p>
@@ -319,7 +319,7 @@
                     <div role="tabpanel" class="tab-pane" id="authentication-tab3">
                         <div class="feature">
                             <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/2fa.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/2fa.svg"); ?>
                             </div>
                              <p class="section--paragraph"><?php echo $l->t('Nextcloud includes a variety of second factors like TOTP, U2F and SMS gateaways. 2-factor authentication can be enforced and user sessions and devices can be managed.');?></p>
                               <p class="section--paragraph"><?php echo $l->t('Nextcloud is also among the first in the industry to provide support for the WebAuthn standard, enabling password-less authentication and support for Windows Hello, varous FIDO2 keys and other standards-compliant authentication devices');?></p>
@@ -329,7 +329,7 @@
                         <div class="feature">
                             <div class="icon">
                                 <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/manual.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/manual.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('Nextcloud offers an easy to use, REST based provisioning API to create and configure user accounts.');?></p>
                         </div>

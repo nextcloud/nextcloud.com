@@ -108,7 +108,7 @@
     <div class="features--container row">
         <div class="col-md-4">
             <div class="feature">
-                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/saml.svg"); ?>
+                <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/saml.svg">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Encrypted data transfer');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud employs industry-standard TLS to encrypt data in transfer. Usage of Object Storage like Amazon S3 or other external storage systems can be secured through Server Side Encryption.');?></p>
             </div>

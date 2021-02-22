@@ -56,7 +56,7 @@
 					<div class="overlay-body row">
 						<div class="col-md-6">
 							<p><?php echo $l->t('The Nextcloud mobile apps are available in various app stores.');?> <a class="hyperlink" href="<?php echo home_url('clients');?>"><?php echo $l->t('Learn more about our clients here.');?></a></p>
-							<h3><span class="appicon"><?php echo file_get_contents(get_template_directory()."/assets/img/logo/Nextcloud-Files.svg");?></span> Nextcloud Files</h3>
+							<h3><span class="appicon"><?php echo file_get_contents(__DIR__."/assets/img/logo/Nextcloud-Files.svg");?></span> Nextcloud Files</h3>
 							<p><?php echo $l->t('The apps allow you to access, sync and upload your data and feature instant upload for photos and videos, upload management and more features.');?></p>
 							<div class="row mobileclientbuttons">
 								<div class="col-xs-4">
@@ -74,7 +74,7 @@
 								</div>
 							</div>
 							<p><a class="hyperlink" href="https://github.com/nextcloud/ios"><?php echo $l->t('Find iOS Sources here');?></a>, <a class="hyperlink" href="https://github.com/nextcloud/android"><?php echo $l->t('Android Sources here and');?></a>  <a class="hyperlink" href="https://download.nextcloud.com/android"><?php echo $l->t('direct APK download here.');?></a></p>
-							<h3><span class="appicon"><?php echo file_get_contents(get_template_directory()."/assets/img/logo/Nextcloud-Talk.svg");?></span> Nextcloud Talk</h3>
+							<h3><span class="appicon"><?php echo file_get_contents(__DIR__."/assets/img/logo/Nextcloud-Talk.svg");?></span> Nextcloud Talk</h3>
 							<div class="row mobileclientbuttons">
 								<div class="col-xs-4">
 									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_TALK; ?>">
