@@ -417,6 +417,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Anna Larch</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Groupware</h4>
+					<h4 class="teamlocation">Innsbruck, Austria</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/anna-larch"><i class="fa-linkedin fa"></i></a> <a href="https://github.com/miaulalala"><i class="fa-github fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Anna gained her BSc at University of Central Lancashire and worked for a few companies, most recently Barracuda.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/arthur.jpg" />
 				<h2 class="teamname">Arthur Schiwon</h2>
 				<div class="teammeta">
