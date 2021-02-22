@@ -86,7 +86,7 @@ $(document).ready(function(){
 		}
 		//
 		$("#countdown").countdown({
-			date: "22 February 2021 11:59:59", // change date/time here - do not change the format!
+			date: "22 February 2021 12:59:59", // change date/time here - do not change the format!
 			format: "on"
 		});
 	});
