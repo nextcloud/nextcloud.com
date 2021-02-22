@@ -14,9 +14,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-hub-20-debuts-dashboard-unifies-search-and-notifications-integrates-with-other-technologies/">
+				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-hub-21-out-with-up-to-10x-better-performance-whiteboard-and-more-collaboration-features/">
 				<span class="type">News</span>
-				<span class="message"><strong><?php echo $l->t('Nextcloud 20');?>:</strong> <?php echo $l->t('Dashboard, unified search, integration with third party platforms and more!');?></span>
+				<span class="message"><strong><?php echo $l->t('Nextcloud 21');?>:</strong> <?php echo $l->t('up to 10x faster with high performance back-end. Also whiteboard, author colors and much more!');?></span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Regain control');?></h1>
