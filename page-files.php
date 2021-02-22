@@ -171,8 +171,8 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-6 image--floated">
-                <stream src="" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/templates.png"></stream>
-                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video="></script>
+                <stream src="04ad14bfbc3e1eeb8a4e1c87f7f22a80" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/templates.png"></stream>
+                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=04ad14bfbc3e1eeb8a4e1c87f7f22a80"></script>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Note taking and templates');?></h3>

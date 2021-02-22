@@ -333,8 +333,8 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 image--feature">
-			<stream src="" controls loop autoplay poster="<?php bloginfo('template_directory'); ?>/assets/img/features/whiteboard.png"></stream>
-            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video="></script>
+			<stream src="d4b98b1675418d383ddc349572f2fc44" controls loop autoplay poster="<?php bloginfo('template_directory'); ?>/assets/img/features/whiteboard.png"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=d4b98b1675418d383ddc349572f2fc44"></script>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Whiteboard');?></p>
