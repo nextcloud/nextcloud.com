@@ -18,6 +18,7 @@
     <p>We recommend you follow our <a href="<?php echo home_url('release-channels') ?>">Release Channels</a> to always have the latest and most secure Nextcloud Server version which fits your needs.</p>
     Go directly to the latest maintenance release of:
     <ul>
+    <li><a href="#latest20">Nextcloud 21</a></li>
     <li><a href="#latest20">Nextcloud 20</a></li>
     <li><a href="#latest19">Nextcloud 19</a></li>
     <li><a href="#latest18">Nextcloud 18 (unsupported!)</a></li>
@@ -32,6 +33,27 @@
     <li><a href="#latest9">Nextcloud 9 (unsupported!)</a></li>
     </ul>
 <p>Note here that with 'supported' in this context we mean that software updates will be available to the public, not that there is any actual support beyond community members answering questions in our home user forums. If you need to run Nextcloud in an enterprise setting, we recommend <a class="hyperlink" href="https://nextcloud.com/enterprise">Nextcloud Enterprise.</a></p>
+<a name="latest21"></a>
+
+<h3 id="21-0-0">Version 21.0.0<small> February 22 2021</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.0.tar.bz2">nextcloud-21.0.0.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.0.zip">nextcloud-21.0.0.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.0.tar.bz2.md5">nextcloud-21.0.0.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.0.zip.md5">nextcloud-21.0.0.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.0.tar.bz2.sha256">nextcloud-21.0.0.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.0.zip.sha256">nextcloud-21.0.0.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.0.tar.bz2.sha512">nextcloud-21.0.0.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.0.zip.sha512">nextcloud-21.0.0.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.0.tar.bz2.asc">nextcloud-21.0.0.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.0.zip.asc">nextcloud-21.0.0.zip.asc</a></p>
+
+<h4>Changes</h4>
+<p>The biggest improvements we introduce with Nextcloud 21 are:</p>
+<ul>
+<li>🚀 High Performance Back-end for Nextcloud Files: reduces server load from desktop clients and web interface polling by 90% while delivering instant notifications to users.</li>
+<li>➕🚀 And a wide range of performance improvements all over on top, decreasing loading times of pages and reducing load on the server</li>
+<li>🤝 Collaborative features: new Whiteboard, author colours in Text and Document Templates to increase team productivity</li>
+<li>🗨 Nextcloud Talk: debuts message status indicators, a raise hand feature, a group conversation description and more!</li>
+<li>📫 A range of Groupware improvements like drag'n'drop and nicer threading in Mail and syncing social media avatars in Contacts.</li>
+</ul>
+<p><a href="https://nextcloud.com/blog/nextcloud-hub-21-out-with-up-to-10x-better-performance-whiteboard-and-more-collaboration-features/">Read the full announcement on our blog.</a></p>
+<p>An exhaustive changelog would be unreasonably long, but one can always see our entire development history in github. For the core Server repository, see for example <a href="https://github.com/nextcloud/server/milestone/120?closed=1">here the 762 pull requests merged for Milestone 21.</a></p>
 
 <a name="latest20"></a>
 
