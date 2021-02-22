@@ -47,14 +47,16 @@
 <div class="container">
 	<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-			<stream src="eb1384b4fa48d8f47abdec5051bc922d" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/hub-video.png"></stream>
-            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=eb1384b4fa48d8f47abdec5051bc922d"></script>
+			<!--<stream src="eb1384b4fa48d8f47abdec5051bc922d" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/hub-video.png"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=eb1384b4fa48d8f47abdec5051bc922d"></script>-->
+            <iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/bjivOowRao4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
     </div>
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-                <p class="section--paragraph text-center"><?php echo $l->t('Share and collaborate on documents, send and receive email, manage your calendar and have video chats without data leaks');?></p>
-                <p class="section--paragraph text-center"><?php echo $l->t('As fully on-premises solution, Nextcloud Hub provides the benefits of online collaboration without the compliance and security risks.');?></p>
+                <!--<p class="section--paragraph text-center"><?php echo $l->t('Share and collaborate on documents, send and receive email, manage your calendar and have video chats without data leaks');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('As fully on-premises solution, Nextcloud Hub provides the benefits of online collaboration without the compliance and security risks.');?></p>-->
+                <p class="section--paragraph text-center">Watch our live stream announcement of Nextcloud 21 now, and ask live questions! Starting at 1PM Amsterdam/Berlin/Paris time.</p>
 		</div>
 	</div>
 </div>
