@@ -135,7 +135,8 @@ $(document).ready(function(){
 <section>
     <div class="container">
         <div class="row text-center">
-            <iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/bjivOowRao4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!--<iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/bjivOowRao4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+            <p>Stay tuned for the recording of our live stream coming here!</p>
         </div>
     </div>
 </section>
