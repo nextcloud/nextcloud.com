@@ -303,12 +303,12 @@ padding-left: 0;
 														</a>
                         </li>
                     </ul>
-                    <li class="ghost-btn clock">
+                   <!-- <li class="ghost-btn clock">
                         <a href="<?php echo home_url('countdown'); ?>" class="nav__label">
-<!--                             Livestream -->
+
                             <span id="clockday"></span><span id="clockhour"></span><span id="clockmin"></span><span id="clocksec"></span>
                         </a>
-                    </li>
+                    </li>-->
                 </li>
             </ul>
 			</div>
