@@ -100,8 +100,10 @@ $(document).ready(function(){
 <div class=" background security-background">
     <div class="container">
         <div class="col-md-6 topheader">
-            <h1>Coming soon!</h1>
-            <h2>Stay tuned for our announcement on February 22<br>at 1PM CET</h2>
+            <!--<h1>Coming soon!</h1>-->
+            <!--<h2>Stay tuned for our announcement on February 22<br>at 1PM CET</h2>-->
+            <h1>Nextcloud 21 is here!</h2>
+            <h2>Re-watch our announcement below.</h2>
         </div>
     </div>
 </div>
@@ -136,7 +138,11 @@ $(document).ready(function(){
     <div class="container">
         <div class="row text-center">
             <!--<iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/bjivOowRao4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-            <p>Stay tuned for the recording of our live stream coming here!</p>
+            <p>Announcement video:</p>
+            <stream src="5179c6614b314152c4bb93ff9830f7cb" controls loop autoplay poster="https://nextcloud.com/media/2IxvNyCAEio.jpg"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=5179c6614b314152c4bb93ff9830f7cb"></script>
+            <p>Live Q&A recording:</p>
+            <iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/bjivOowRao4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 </section>
@@ -159,7 +165,7 @@ $(document).ready(function(){
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
             <p class="section--paragraph__tittle"><?php echo $l->t('Be a part of it!');?></p>
-            <p class="section--paragraph"><a class="hyperlink" href="https://youtu.be/bjivOowRao4"><?php echo $l->t('Join us at the live stream on our YouTube channel.');?></a></p>
+            <p class="section--paragraph"><!--<a class="hyperlink" href="https://youtu.be/">--><?php echo $l->t('Join us at the live stream on our YouTube channel.');?><!--</a>--></p>
 		</div>
 	</div>
 	<div class="row program">
@@ -175,7 +181,7 @@ $(document).ready(function(){
                     </tr>
                     <tr>
                     <th scope="row">13:30-14:30</th>
-                    <td>Live Q&A<!-- - <a href="https://cloud.nextcloud.com/call/c6grieqy">-->ask questions in the chat!<!--</a>-->
+                    <td>Live Q&A ask questions in the chat!
                     </td>
                     <td><span class="break">Frank Karlitschek<br>Jos Poortvliet</span></td>
                     </tr>

@@ -43,7 +43,7 @@
 </script>
 <a name="scroll"></a>
 
-<section class="section--intro">
+<!--<section class="section--intro">
 <div class="container">
 	<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
@@ -55,6 +55,23 @@
 		<div class="col-md-8 col-md-offset-2">
                 <p class="section--paragraph text-center"><?php echo $l->t('Share and collaborate on documents, send and receive email, manage your calendar and have video chats without data leaks');?></p>
                 <p class="section--paragraph text-center"><?php echo $l->t('As fully on-premises solution, Nextcloud Hub provides the benefits of online collaboration without the compliance and security risks.');?></p>
+		</div>
+	</div>
+</div>
+</section>-->
+
+<section class="section--intro">
+<div class="container">
+	<div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+			<stream src="5179c6614b314152c4bb93ff9830f7cb" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/2IxvNyCAEio.jpg"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=5179c6614b314152c4bb93ff9830f7cb"></script>
+		</div>
+    </div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+                <p class="section--paragraph text-center"><?php echo $l->t('Watch the announcement of Nextcloud Hub 21');?></p>
+                <p class="section--paragraph text-center"><a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-hub-21-out-with-up-to-10x-better-performance-whiteboard-and-more-collaboration-features/"><?php echo $l->t('Learn more in the blog.');?></a></p>
 		</div>
 	</div>
 </div>
