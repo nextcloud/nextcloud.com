@@ -185,7 +185,7 @@ $(document).ready(function(){
     </div>
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <p>Can't make it? No worries, we'll have a <strong>live video stream</strong> right here!</p>
+            <p>Can't make it? No worries, we'll publish the video and live stream later!</p>
         </div>
     </div>
 </div>
