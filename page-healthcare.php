@@ -329,11 +329,11 @@ require(["require.config"], function() {
     </div>
     <div class="row ">
         <div class="col-md-6">
-            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/kerberos.svg");?>
+            <?php echo file_get_contents(__DIR__."/assets/img/icons/kerberos.svg");?>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud integrates in hospital infrastructure with support for SAML and Shibboleth, LDAP, Kerberos, Oauth, and other often used authentication mechanisms and runs on all enterprise Linux systems offering support options to match their life cycle.');?></p>
         </div>
         <div class="col-md-6">
-            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/storage.svg");?>
+            <?php echo file_get_contents(__DIR__."/assets/img/icons/storage.svg");?>
             <p class="section--paragraph"><?php echo $l->t('Data storage can be one or multiple NFS, Object Storage, Samba or a variety of other powerful storage mechanisms. This way Nextcloud provides seamless access to data on existing storage mechanisms, respecting existing access control policies and transparently handling changes on the underlying storage layer.');?></p>
         </div>
     </div>

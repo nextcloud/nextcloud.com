@@ -70,7 +70,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="ilustration">
-                    <?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/stability.svg"); ?>
+                    <?php echo file_get_contents(__DIR__."/assets/img/enterprise/stability.svg"); ?>
                 </div>
             </div>
             <div class="col-md-6 benefit">
@@ -89,7 +89,7 @@
         <div class="row">
             <div class="col-md-6   image--floated">
                 <div class="ilustration">
-                    <?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/security.svg"); ?>
+                    <?php echo file_get_contents(__DIR__."/assets/img/enterprise/security.svg"); ?>
                 </div>
             </div>
             <div class="col-md-6 benefit">
@@ -105,7 +105,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="ilustration">
-                    <?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/ilustration_matterexperts-new.svg"); ?>
+                    <?php echo file_get_contents(__DIR__."/assets/img/enterprise/ilustration_matterexperts-new.svg"); ?>
                 </div>
             </div>
             <div class="col-md-6 benefit">
@@ -139,7 +139,7 @@
         <div class="row">
             <div class="col-md-6  image--floated">
                 <div class="ilustration">
-                    <?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/influence.svg"); ?>
+                    <?php echo file_get_contents(__DIR__."/assets/img/enterprise/influence.svg"); ?>
                 </div>
             </div>
             <div class="col-md-6 benefit">
@@ -154,7 +154,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="ilustration">
-                    <?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/functionality.svg"); ?>
+                    <?php echo file_get_contents(__DIR__."/assets/img/enterprise/functionality.svg"); ?>
                 </div>
             </div>
             <div class="col-md-6 benefit">
@@ -170,7 +170,7 @@
         <div class="row">
             <div class="col-md-6  image--floated">
                 <div class="ilustration">
-                    <?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/data_safe-new.svg"); ?>
+                    <?php echo file_get_contents(__DIR__."/assets/img/enterprise/data_safe-new.svg"); ?>
                 </div>
             </div>
             <div class="col-md-6 benefit">
@@ -194,7 +194,7 @@
 	<div class="container">
 		<h2 class="text-center"><?php echo $l->t('Security');?></h2>
         <div class="ilustration">
-            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/security-new.svg"); ?>
+            <?php echo file_get_contents(__DIR__."/assets/img/enterprise/security-new.svg"); ?>
         </div>
         <div class="content">
             <p class="text-center"><?php echo $l->t('Nextcloud develops its software with a rigorous focus on security through the entire life cycle of the product. Our active and passive security measures are backed by the some of the highest security bug bounties in the open source industry.');?></p>
@@ -210,7 +210,7 @@
 	<div class="container">
         <h2 class="text-center"><?php echo $l->t('Compliance');?></h2>
         <div class="ilustration integrity__ilustration">
-            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/data_safe-new.svg"); ?>
+            <?php echo file_get_contents(__DIR__."/assets/img/enterprise/data_safe-new.svg"); ?>
         </div>
         <div class="content">
             <p class="text-center"><?php echo $l->t('Nextcloud Enterprise is a guaranteed proven, certified code base for legal compliance legislation like the GDPR and HIPAA. You can count on our expertise, documentation and reviews.');?></p>
@@ -227,7 +227,7 @@
 	<div class="container">
 		<h2 class="text-center"><?php echo $l->t('Scalability');?></h2>
         <div class="ilustration illustration-scalability">
-            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/globalscale/final.svg"); ?>
+            <?php echo file_get_contents(__DIR__."/assets/img/globalscale/final.svg"); ?>
         </div>
         <div class="content">
             <p class="text-center"><?php echo $l->t('Nextcloud Enterprise is pre-configured and optimized for the needs of professional organizations rather than home users.');?></p>
@@ -245,7 +245,7 @@
 	<div class="container">
 		<h2 class="text-center"><?php echo $l->t('Reliability');?></h1>
         <div class="ilustration lifecycle__ilustration">
-            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/ilustration_matterexperts-new.svg"); ?>
+            <?php echo file_get_contents(__DIR__."/assets/img/enterprise/ilustration_matterexperts-new.svg"); ?>
         </div>
         <div class="content">
             <p class="text-center"><?php echo $l->t('Nextcloud Enterprise undergoes additional testing and quality assurance to provide you the most reliable solution. Align to your platform with a life cycle of up to 15 years.');?></p>

@@ -405,13 +405,13 @@
 	<div class="row">
 		<h1 class="header "><?php echo $l->t('Discounts');?></h1>
 		<div class="col-md-5 box ">
-            <?php echo file_get_contents(get_template_directory_uri().'/assets/img/enterprise/publicsector.svg'); ?>
+            <?php echo file_get_contents(__DIR__.'/assets/img/enterprise/publicsector.svg'); ?>
             <h3 class="section--paragraph__title text-center"><?php echo $l->t('Public Sector');?></h3>
             <p class="section--paragraph text-center"><?php echo $l->t('We provide interesting discount options to organizations in the public sector.');?></p>
             <p class="section--paragraph text-center"><a class="hyperlink"  href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('Contact us');?></a></p>
         </div>
         <div class="col-md-5 col-md-offset-2 box ">
-            <?php echo file_get_contents(get_template_directory_uri().'/assets/img/enterprise/education.svg'); ?>
+            <?php echo file_get_contents(__DIR__.'/assets/img/enterprise/education.svg'); ?>
             <h3 class="section--paragraph__title text-center"><?php echo $l->t('Education');?></h3>
             <p class="section--paragraph text-center"><?php echo $l->t('Organizations in the educational sector receive a significant discount on all subscriptions');?></p>
             <p class="section--paragraph text-center"><a class="hyperlink" href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('Contact us');?></a></p>
