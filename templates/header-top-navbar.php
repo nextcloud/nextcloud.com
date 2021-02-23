@@ -92,7 +92,7 @@ require get_template_directory() . '/strings.php';
                         <li class="nav__item">
                             <a href="<?php echo home_url('industries'); ?>">
                                 <div class="nav__logo">
-                                    <?php echo file_get_contents(__DIR__."/assets/img/icons/industries.svg");?>
+                                    <?php echo file_get_contents(__DIR__."/../assets/img/icons/industries.svg");?>
                                 </div>
                                 <div class="nav__text">
                                     <?php echo $l->t('<strong>Industry solutions</strong><br><small>Optimized for your enterprise</small>'); ?>

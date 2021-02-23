@@ -65,7 +65,7 @@ try {
     $whitepaper_nr = (int)$_POST['segmentId'];
 
 // turn $whitepapernr into $whitepaper_name and $whitepaper_url from a json file
-    $storeVar = file_get_contents(get_template_directory_uri()."/assets/whitepapers.json");
+    $storeVar = file_get_contents(__DIR__."/assets/whitepapers.json");
     $storeArray = json_decode($storeVar, true);
     $whitepaper_name = $storeArray[$whitepaper_nr]['whitepaper_name'];
     $whitepaper_url = $storeArray[$whitepaper_nr]['whitepaper_url'];

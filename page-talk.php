@@ -207,7 +207,7 @@
                 <div class="col-sm-3 col-lg-2 featureblock">
                     <div class="icon">
                         <div class="scaling-svg-container">
-                            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/monitoring.svg"); ?>
+                            <?php echo file_get_contents(__DIR__."/assets/img/icons/monitoring.svg"); ?>
                         </div>
                     </div>
                 </div>
@@ -219,7 +219,7 @@
                 <div class="col-sm-3 col-lg-2 featureblock">
                     <div class="icon">
                         <div class="scaling-svg-container">
-                            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/cut.svg"); ?>
+                            <?php echo file_get_contents(__DIR__."/assets/img/icons/cut.svg"); ?>
                         </div>
                     </div>
                 </div>
@@ -231,7 +231,7 @@
                 <div class="col-sm-3 col-lg-2 featureblock">
                     <div class="icon">
                         <div class="scaling-svg-container">
-                            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/people.svg"); ?>
+                            <?php echo file_get_contents(__DIR__."/assets/img/icons/people.svg"); ?>
                         </div>
                     </div>
                 </div>
@@ -243,7 +243,7 @@
                 <div class="col-sm-3 col-lg-2 featureblock">
                     <div class="icon">
                         <div class="scaling-svg-container">
-                            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/encrypted-communication.svg"); ?>
+                            <?php echo file_get_contents(__DIR__."/assets/img/icons/encrypted-communication.svg"); ?>
                         </div>
                     </div>
                 </div>
@@ -255,7 +255,7 @@
                 <div class="col-sm-3 col-lg-2 featureblock">
                     <div class="icon">
                         <div class="scaling-svg-container">
-                            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/manual.svg"); ?>
+                            <?php echo file_get_contents(__DIR__."/assets/img/icons/manual.svg"); ?>
                         </div>
                     </div>
                 </div>
@@ -267,7 +267,7 @@
                 <div class="col-sm-3 col-lg-2 featureblock">
                     <div class="icon">
                         <div class="scaling-svg-container">
-                            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/mobile.svg"); ?>
+                            <?php echo file_get_contents(__DIR__."/assets/img/icons/mobile.svg"); ?>
                         </div>
                     </div>
                 </div>
@@ -279,7 +279,7 @@
                 <div class="col-sm-3 col-lg-2 featureblock">
                     <div class="icon">
                         <div class="scaling-svg-container">
-                            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/group.svg"); ?>
+                            <?php echo file_get_contents(__DIR__."/assets/img/icons/group.svg"); ?>
                         </div>
                     </div>
                 </div>
