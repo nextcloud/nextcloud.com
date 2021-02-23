@@ -30,9 +30,9 @@ height: 100px;
 <div class="container">
     <h2>Current Release Information</h2>
     <h3>Nextcloud <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></h3>
-    <a class="button button--large button--white button--arrow" target="_blank" href="https://nextcloud.com/blog/nextcloud-hub-20-debuts-dashboard-unifies-search-and-notifications-integrates-with-other-technologies/">Announcement blog</a><br />
-    <a href="<?php echo home_url('press/pr20201003-0') ?>" class="button button--large button--white button--arrow">Press release</a>
-    <h2>Press releases 2020</h2>
+    <a class="button button--large button--white button--arrow" target="_blank" href="https://nextcloud.com/blog/nextcloud-hub-21-out-with-up-to-10x-better-performance-whiteboard-and-more-collaboration-features/">Announcement blog</a><br />
+    <a href="<?php echo home_url('press/pr20210222-1') ?>" class="button button--large button--white button--arrow">Press release</a>
+    <h2>Press releases 2021</h2>
     <ul>
         <li><a href="<?php echo home_url('press/pr20210222-1') ?>">February 22, 2021: Nextcloud Hub 21 out with up to 10x better performance, whiteboard and more collaboration features</a></li>
         <li><a href="<?php echo home_url('press/pr20210222-2') ?>">February 22, 2021: Nextcloud near to double bookings in 2020, invests in expanding for 2021</a></li>
