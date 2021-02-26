@@ -38,6 +38,22 @@
     <language>en-us</language>
     <atom:link href="https://nextcloud.com/podcast-feed.rss" rel="self" type="application/rss+xml" />
     <link>https://nextcloud.com/podcast/</link>
+      
+          <item>
+      <title>Podcast No. 8 - Interview with Arthur Schiwon about Nextcloud Flow</title>
+      <itunes:subtitle>In this eight-episode, our host Ingo talked with Arthur, Senior Software Engineer at Nextcloud, about Nextcloud Flow.</itunes:subtitle>
+      <itunes:summary> In this eight-episode, our host Ingo talked with Arthur, Senior Software Engineer at Nextcloud, about Nextcloud Flow. Nextcloud Flow is the workflow engine of Nextcloud.
+      </itunes:summary>
+      <itunes:duration>00:25:39</itunes:duration>
+      <description>In this eight-episode, our host Ingo talked with Arthur, the Senior Software Engineer at Nextcloud about Nextcloud Flow. Nextcloud Flow is the workflow engine of Nextcloud.</description>
+      <pubDate>Fri, 26 Feb 2021 9:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_008.mp3"
+                 type="audio/mpeg" length="21688138"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_008.mp3</guid>
+      <link>https://nextcloud.com/blog/podcast-no-8-interview-with-arthur-schiwon-about-nextcloud-flow/</link>
+    </item>
 
     <item>
       <title>Interview with Stefan Niedermann, an amazing community member!</title>
