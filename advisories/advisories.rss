@@ -5,6 +5,30 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Deck App: New users can read all Nextcloud Deck data from previous user with same username (NC-SA-2021-007)</title>
+  <description>A logic error in Nextcloud Deck 1.0.1 allowed new users with a duplicate user identifier to use deck data of a previous deleted user.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-007&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-007</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2021-007</guid>
+  <pubDate>Wed, 03 Jun 2020 12:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: External storage app saves password for all users in the database (NC-SA-2021-006)</title>
+  <description>A missing condition in Nextcloud Server 19 and prior caused the external storage app to always store the users password in a recoverable format.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-006&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-006</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2021-006</guid>
+  <pubDate>Sat, 03 Oct 2020 12:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Reflected XSS when renaming malicious file (NC-SA-2021-005)</title>
+  <description>Missing sanitization in Nextcloud Server 20.0.5 and prior allowed to perform a reflected XSS when saving html as file name and causing an error on rename e.g. by renaming to an existing file. The risk is mostly mitigated due to the strict Content-Security-Policy (CSP) of Nextcloud, and thus mainly targets browsers not supporting CSP such as Internet Explorer.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-005&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-005</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2021-005</guid>
+  <pubDate>Mon, 25 Jan 2021 12:00:00 +0100</pubDate>
+ </item><item>
+  <title>Server: External storage credentials stored for wrong user (NC-SA-2021-004)</title>
+  <description>A missing user check in Nextcloud 20.0.5 and prior allowed to populate your own credentials for other users external storage configuration when they did not configure one yet.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-004&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-004</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2021-004</guid>
+  <pubDate>Mon, 25 Jan 2021 12:00:00 +0100</pubDate>
+ </item><item>
   <title>Server: Denial of Service by requesting to reset a password (NC-SA-2021-003)</title>
   <description>A wrong check in Nextcloud Server 19 and prior allowed to perform a denial of service attack when resetting the password for a user.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-003&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-003</link>

@@ -2,6 +2,12 @@
 
 <h2>2021</h2>
 
+<h3>Nextcloud Server 20.0.6</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2021-005">Reflected XSS when renaming malicious file (NC-SA-2021-005)</a> 2021-01-25</li>
+	<li><a href="/security/advisory/?id=NC-SA-2021-004">External storage credentials stored for wrong user (NC-SA-2021-004)</a> 2021-01-25</li>
+</ul>
+
 <h3>Nextcloud Server 20.0.2</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2021-002">Stored XSS in markdown file with Nextcloud Talk using Internet Explorer (NC-SA-2021-002)</a> 2020-11-18</li>
@@ -22,7 +28,13 @@
 
 <h3>Nextcloud Server 20.0.0</h3>
 <ul>
+	<li><a href="/security/advisory/?id=NC-SA-2021-006">External storage app saves password for all users in the database (NC-SA-2021-006)</a> 2020-10-03</li>
 	<li><a href="/security/advisory/?id=NC-SA-2021-003">Denial of Service by requesting to reset a password (NC-SA-2021-003)</a> 2020-10-03</li>
+</ul>
+
+<h3>Deck App 1.0.2</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2021-007">New users can read all Nextcloud Deck data from previous user with same username (NC-SA-2021-007)</a> 2020-06-03</li>
 </ul>
 
 <hr>
