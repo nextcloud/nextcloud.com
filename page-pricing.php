@@ -234,7 +234,7 @@
                         <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small>
                     </div>
                     <label for="email">
-                            <input type="hidden" name="segmentId" value="15">
+                            <input type="hidden" name="segmentId" value="16">
                             <input type="hidden" name="firstname" value="">
                         <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
                         <div class="newsletter">
@@ -380,7 +380,7 @@
                 <h2 class=""><?php echo $l->t('Get an overview');?></h2>
                 <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our product overview data sheets');?><br>
-                    <input type="hidden" name="segmentId" value="16">
+                    <input type="hidden" name="segmentId" value="15">
                     <input type="hidden" name="firstname" value="">
                     <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
