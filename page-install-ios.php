@@ -5,4 +5,4 @@
     }
     </style>
 </head>
-<?php require get_template_directory().'/page-install.php';?>
+<?php require __DIR__."/page-install.php"; ?>

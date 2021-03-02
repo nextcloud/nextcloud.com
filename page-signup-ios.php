@@ -5,4 +5,4 @@
     }
     </style>
 </head>
-<?php require get_template_directory().'/page-signup.php';?>
+<?php require __DIR__."/page-signup.php"; ?>
