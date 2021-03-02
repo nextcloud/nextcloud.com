@@ -4,6 +4,7 @@ define(['jquery', 'lodash', 'enquire', 'TweenMax', 'velocity'],
 			'use strict';
 			var main = {
 				init: function() {
+				    this.hideNavigationForFileApps();
 					this.variables.buttonDropdownSelector.on('click', _.bind(this.buttonDropdown, this));
 					$(window).on('scroll.fadeOnce', _.bind(this.revealOnScroll, this));
 					this.animationOnLoadPage();
@@ -79,6 +80,14 @@ define(['jquery', 'lodash', 'enquire', 'TweenMax', 'velocity'],
 					});
 				},
 
+				hideNavigationForFileApps: function() {
+                        var iosFilesApp = /^Mozilla\/5\.0 \(iOS\) (ownCloud|Nextcloud)-iOS.*$/;
+					if(iosFilesApp.test(navigator.userAgent)) {
+						var nav = document.getElementById('nav');
+						nav.style.display = 'none';
+					}
+				},
+
 				revealOnScroll: function(event) {
 // 					var scrollTop = $(window).scrollTop();
 // 					$('.revealOnScroll:not(.fade-in)').each(function(index, element) {
@@ -92,3 +101,4 @@ define(['jquery', 'lodash', 'enquire', 'TweenMax', 'velocity'],
 			main.init();
 		});
 	});
+
