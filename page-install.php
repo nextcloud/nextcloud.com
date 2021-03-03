@@ -38,7 +38,7 @@
 		<h2><?php echo $l->t('Server');?></h2>
 		<p class="text-center"><?php echo $l->t('Stay in control of your data!');?><br><?php echo $l->t('Choose one of the providers or download the Nextcloud server for self hosting.');?></p>
 		<p class="text-center"><a class="button button--blue button--large" href="<?php echo home_url('signup'); ?>"><?php echo $l->t('Sign up with a provider');?></a> <a class="button button--white button--large" href="#instructions-server"  ><?php echo $l->t('Download for server');?></a></p>
-		<p class="text-center"><a class="hyperlink" href="<?php echo home_url('devices') ?>"><?php echo $l->t('Buy devices');?></a> &nbsp; &nbsp; <a class="hyperlink" href="<?php echo home_url('providers') ?>"><?php echo $l->t('Find a provider');?></a> &nbsp; &nbsp; <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Enterprise Solutions');?></a></p>
+		<p class="text-center"><a class="hyperlink" href="<?php echo home_url('devices') ?>"><?php echo $l->t('Buy devices');?></a> &nbsp; &nbsp; <a class="hyperlink" href="<?php echo home_url('providers') ?>"><?php echo $l->t('Find a provider');?></a> &nbsp; &nbsp; <a class="hyperlink eios" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Enterprise Solutions');?></a></p>
 	</div>
 </div>
 
@@ -74,7 +74,7 @@
 		<p><?php echo $l->t('These consist of users helping each other. Consider helping out others, too!');?><br />
 		<p><?php echo $l->t('Browse dozens of free apps and services you could use with your Nextcloud on');?>
         <a class="hyperlink" href="https://apps.nextcloud.com" target="_blank" rel="tooltip" title="App Store"><?php echo $l->t('the Nextcloud app store.');?></a></p>
-		<p><a class="button button--blue" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Enterprise support</a>');?></p></p>
+		<p><a class="button button--blue eios" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Enterprise support</a>');?></p></p>
 	</div>
 	<a name="testing"></a>
 	<div class="col-md-4">
