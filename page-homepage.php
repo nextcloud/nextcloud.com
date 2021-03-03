@@ -16,7 +16,7 @@
 			<div class="col-md-6 toptext ">
 				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-hub-21-out-with-up-to-10x-better-performance-whiteboard-and-more-collaboration-features/">
 				<span class="type">News</span>
-				<span class="message"><strong><?php echo $l->t('Nextcloud 21');?>:</strong> <?php echo $l->t('up to 10x faster with high performance back-end. Also whiteboard, author colors and much more!');?></span>
+				<span class="message"><strong><?php echo $l->t('Nextcloud 21');?>:</strong> <?php echo $l->t('up to 10x faster with high performance back-end, plus whiteboard, author colors and more');?></span>
 				<?php echo file_get_contents(__DIR__."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Regain control');?></h1>
@@ -43,7 +43,7 @@
 </script>
 <a name="scroll"></a>
 
-<!--<section class="section--intro">
+<section class="section--intro">
 <div class="container">
 	<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
@@ -58,9 +58,9 @@
 		</div>
 	</div>
 </div>
-</section>-->
+</section>
 
-<section class="section--intro">
+<!--<section class="section--intro">
 <div class="container">
 	<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
@@ -75,7 +75,7 @@
 		</div>
 	</div>
 </div>
-</section>
+</section>-->
 
 <section class="section--hub">
 <div class="container-fluid icon-background">
