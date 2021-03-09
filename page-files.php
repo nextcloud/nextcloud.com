@@ -103,16 +103,12 @@
                 <p class="section--paragraph"><?php echo $l->t('Real-time notifications of shares or comments on mobile devices, built-in collaborative editing of Microsoft Office compatible files, seamless transition to chat and audio/video calls and a wide variety of productivity tools to handle mail, appointments, tasks and more are available in Nextcloud.');?></p>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <h1> </h1>
-        <div class="row">
+       <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <p class="text-center"><?php echo $l->t('Improve collaboration and communication and reduce operational expenses with the leading content collaboration platform.');?></p>
                 <p class="text-center"><?php echo $l->t('Contact us now to learn how we can help you!');?></p>
             <div class="text-center morebuttondiv">
                 <a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
-            </div>
             </div>
         </div>
 	</div>
