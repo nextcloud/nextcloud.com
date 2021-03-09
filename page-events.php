@@ -1,4 +1,4 @@
-    hub<head>
+<head>
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/events.css?v=1">
 <script>
 require(["require.config"], function() {
