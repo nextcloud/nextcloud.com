@@ -135,6 +135,21 @@
                                 </td>
                             </tr>
                             <tr>
+                                <td><small>NFR license</small></td>
+                                <td>
+                                    <p><i class="fa fa-check" aria-hidden="true"></i></p>
+                                </td>
+                                <td>
+                                    <p><i class="fa fa-check" aria-hidden="true"></i></p>
+                                </td>
+                                <td>
+                                    <p><i class="fa fa-check" aria-hidden="true"></i></p>
+                                </td>
+                                <td>
+                                    <p><i class="fa fa-check" aria-hidden="true"></i></p>
+                                </td>
+                            </tr>
+                            <tr>
                                 <td><small>Lead sharing</small></td>
                                 <td>
                                     <p>-</p>
