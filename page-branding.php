@@ -110,25 +110,25 @@ require(["require.config"], function() {
                             <tr>
                                 <td><small><strong>Colors</strong> for application and fonts</small></td>
                                 <td>
-                                    <p>✔️<small>*</small></p>
+                                    <p><i class="fa fa-check" aria-hidden="true"></i><small>*</small></p>
                                 </td>
                                 <td>
-                                    <p>✔️</p>
+                                    <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                                 <td>
-                                    <p>✔️️</p>
+                                    <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                             </tr>
                             <tr>
                                 <td><small><strong>Logo</strong> for login page and header</small></td>
                                 <td>
-                                    <p>✔️️</p>
+                                    <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                                 <td>
-                                    <p>✔️️</p>
+                                    <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                                 <td>
-                                    <p>✔️️</p>
+                                    <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                             </tr>
                             <tr>
@@ -137,10 +137,10 @@ require(["require.config"], function() {
                                     <p></p>
                                 </td>
                                 <td>
-                                    <p>✔️️</p>
+                                    <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                                 <td>
-                                    <p>✔️️</p>
+                                    <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                             </tr>
                             <tr>
@@ -149,10 +149,10 @@ require(["require.config"], function() {
                                     <p></p>
                                 </td>
                                 <td>
-                                    <p>✔️️</p>
+                                    <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                                 <td>
-                                    <p>✔️️</p>
+                                    <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                             </tr>
                             <tr>
@@ -161,10 +161,10 @@ require(["require.config"], function() {
                                     <p></p>
                                 </td>
                                 <td>
-                                    <p>✔️️</p>
+                                    <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                             <td>
-                            <p>✔️️</p>
+                            <p><i class="fa fa-check" aria-hidden="true"></i></p>
                             </td>
                             </tr>
                             <tr>
@@ -173,10 +173,10 @@ require(["require.config"], function() {
                             <p></p>
                             </td>
                             <td>
-                            <p>✔️</p>
+                            <p><i class="fa fa-check" aria-hidden="true"></i></p>
                             </td>
                             <td>
-                            <p>✔️️</p>
+                            <p><i class="fa fa-check" aria-hidden="true"></i></p>
                             </td>
                             </tr>
                             <tr>
@@ -185,10 +185,10 @@ require(["require.config"], function() {
                             <p></p>
                             </td>
                             <td>
-                            <p>✔️️</p>
+                            <p><i class="fa fa-check" aria-hidden="true"></i></p>
                             </td>
                             <td>
-                            <p>✔️️</p>
+                            <p><i class="fa fa-check" aria-hidden="true"></i></p>
                             </td>
                             </tr>
                             <tr>
@@ -200,7 +200,7 @@ require(["require.config"], function() {
                             <p></p>
                             </td>
                             <td>
-                            <p>✔️️</p>
+                            <p><i class="fa fa-check" aria-hidden="true"></i></p>
                             </td>
                             </tr>
                         </tbody>
@@ -230,61 +230,61 @@ require(["require.config"], function() {
                             <tr>
                                 <td><small><strong>Logo</strong> in the header bar, on the login page and the favicon</small></td>
                                 <td>
-                                <p>✔️</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                                 <td>
-                                <p>✔️</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                                 <td>
-                                <p>✔️️</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                             </tr>
                             <tr>
                                 <td><small><strong>Color</strong> of header bar, checkboxes and folder icons</small></td>
                                 <td>
-                                <p>✔️</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                                 <td>
-                                <p>✔️</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                                 <td>
-                                <p>✔️️</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                             </tr>
                             <tr>
                                 <td><small><strong>Name</strong> and slogan</small></td>
                                 <td>
-                                <p>✔️</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                                 <td>
-                                <p>✔️</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                                 <td>
-                                <p>✔️️</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                                 </tr>
                             <tr>
                                 <td><small>Login page <strong>background image</strong></small></td>
                                 <td>
-                                <p>✔️</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                                 <td>
-                                <p>✔️️</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                                 <td>
-                                <p>✔️</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                                 </tr>
                             <tr>
                                 <td><small>Additional <strong>compliance</strong> links for web UI (Legal notice/Privacy policy link)</small></td>
                                 <td>
-                                <p>✔️</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                                 <td>
-                                <p>✔️️</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                                 <td>
-                                <p>✔️</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i></p>
                                 </td>
                             </tr>
                         </tbody>
