@@ -18,7 +18,7 @@
 </section>
 <section class="section--team">
 	<div class="container">
-		<p class="section--paragraph">Open source cloud computing is our passion at Nextcloud GmbH and we've built a great team of experts around it. Our engineers, designers and support professionals work as an integral part of the wider Nextcloud community to give customers direct access to the most advanced, in-depth knowledge they need for success.</p>
+		<p class="section--paragraph">Open source cloud collaboration is our passion at Nextcloud GmbH and we've built a great team of experts around it. Our engineers, designers and support professionals work as an integral part of the wider Nextcloud community to give customers direct access to the most advanced, in-depth knowledge they need for their success.</p>
 	</div>
 	<div class="featurerow">
 	<div class="wrap container teamgroup">
