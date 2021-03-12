@@ -344,8 +344,6 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --re
 				It is possible your firewall is blocking connections. Try to start docker after you started the firewall, it makes changes to your iptables to enable Collabora Online to function.');?></li>
 				<li class="section--paragraph"><?php echo $l->t('<strong>Issue:</strong> <code>We are sorry, this is an unexpected connection error. Please try again.</code> error.<br />
 				The Collabora Online app doesn\'t work at the moment, if you enable it only for certain groups. Remove the group filter in the App section.');?></li>
-				<li class="section--paragraph"><?php echo $l->t('<strong>Issue:</strong> Collabora Online doesn\'t handle my 100 users.<br/>
-				This docker image is designed for home usage with a limited numbers of users and 10 open documents. If you need a more scalable solution, consider');?> <a href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('a support subscription</a> for a reliable, business-ready online office experience.');?></li>
 				<li class="section--paragraph"><?php echo $l->t('<strong>Issue:</strong> Collabora Online doesn\'t work with Encryption.<br/>
 				Yes, this is currently unsupported.');?></li>
 			</ul>
