@@ -216,11 +216,21 @@
 			</div>
 			<div class="col-md-4">
 				<a href="https://nws.netways.de" target="_blank" title="Netways">
-				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/netways.png" title="Netways" />
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/netways.png" title="Netways logo">
 				</a>
 				<p class="partnertext">NETWAYS' expertise is in the data center space, taking care of monitoring and  metrics, automatisation as well as training and support. With the NETWAYS Web Services they run managed services, hosting customer infrastructure, and are expanding in the areas of Open Stack and Kubernetes. With 70 employees and headquartered in Nuremberg, NETWAYS can offer in-depth consulting and advice to customers.</p>
 				<a class="button button--white" href="http://nws.netways.de/">Learn more</a>
 			</div>
+            <div class="col-md-4">
+				<a href="https://nxme.net/" target="_blank" title="NXme">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/nxme.png" title="NXme logo" />
+				</a>
+				<p class="partnertext">NXme is an agile partner to turn your business challenges and opportunities into secure web services and mobile apps. Our range of software development services start from helping you to clarify your idea and technology strategy to practical implementation, development and operations. We are also our customers trustworthy partner in designing, implementing, securing, and operating your critical information systems and infrastructure. We also provide other professional services like SIEM, application firewall, IPAM, application delivery controller (ADC), AAA and single sign-on or network security expertise. We serve our clients in Finland, Saudi Arabia, Dubai & Abu Dhabi and elsewhere in the Middle East.</p>
+				<a class="button button--white" href="https://nxme.net/">Learn more</a>
+			</div>
+        </div>
+
+        <div class="row">
 			<div class="col-md-4">
 				<a href="https://www.open-dsi.fr/collaborer-nextcloud/" target="_blank" title="Open-DSI">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/opendsi.png" title="open-DSI logo" />
@@ -228,9 +238,13 @@
 				<p  class="partnertext">Open-DSI is a French company which supports organizations and companies with their computing projects. Our specialty is the implementation of open source cloud computing solutions and outsourcing. Our solutions are based on three main building blocks: Nextcloud, ERP+CRM Dolibarr and WooCommerce.</p>
 				<a class="button button--white" href="https://www.open-dsi.fr/collaborer-nextcloud/">Learn more</a>
 			</div>
-        </div>
-
-        <div class="row">
+            <div class="col-md-4">
+				<a href="https://oivan.com/" target="_blank" title="Oivan">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/oivan.png" title="oivan logo" />
+				</a>
+				<p  class="partnertext">We turn our customers ideas into leading digital services with the experience of over twenty years. We harness the strengths of the web, mobile, cloud, cyber security, and blockchain technologies to help our clients to launch transformative digital services. Our international team of digitalization experts manages digital services’ full lifecycle, from design and development to operations and analytics. Our operations and cybersecurity experts manage the continuous operations of several high-profile services with multi-million userbases. We employ 130 experts in Finland, Saudi Arabia, the United Arab Emirates, Thailand and Vietnam.</p>
+				<a class="button button--white" href="https://oivan.com/">Learn more</a>
+			</div>
             <div class="col-md-4">
 				<a href="https://www.procilon.de/pesa-cloud-plattform" target="_blank" title="Procilon">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/procilon.png" title="procilon logo" />
@@ -238,6 +252,9 @@
 				<p  class="partnertext">The procilon GROUP specializes in the development of cryptographic security-software 'Made in Germany'. Using Cloud based security components, procilon can provide various options of electronic signatures and services. That includes eIDAS-compliant qualified remote signatures, end-to-end data encryption and secure Identity- & Access-Management. Thus, procilon cloud services complement industry-specific applications and customer portals with cryptographic elements for a security-driven user experience.</p>
 				<a class="button button--white" href="https://www.procilon.de/pesa-cloud-plattform">Learn more</a>
 			</div>
+        </div>
+
+        <div class="row">
             <div class="col-md-4">
 				<a href="https://www.qloud.my" target="_blank" title="Qloud MSP">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/qloudmsp.png" title="Qloud MSP logo" />
@@ -252,9 +269,6 @@
 				<p  class="partnertext">regio iT is a service provider with over 300 employees delivering solutions for communities, schools, non-profits as well as customers in the energy production and distribution space.</p>
 				<a class="button button--white" href="http://www.regioit.de">Learn more</a>
 			</div>
-        </div>
-
-        <div class="row">
 			<div class="col-md-4">
 				<a href="https://www.siedl.net/portfolio/nextcloud" target="_blank" title="Siedl">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/siedl.png" title="siedl logo" />
@@ -262,6 +276,9 @@
 				<p  class="partnertext">Since 2002, Siedl Networks has been delivering innovative and reliable open source IT solutions to companies, schools and non-profits throughout Austria. We help small and medium sized organizations run their on-premises file storage and collaboration solution, monitoring and supporting their infrastructure and taking care of maintenance and backup.</p>
 				<a class="button button--white" href="https://www.siedl.net/portfolio/nextcloud">Learn more</a>
 			</div>
+        </div>
+
+        <div class="row">
 			<div class="col-md-4">
 				<a href="https://nextcloud.stylez.co.jp/" target="_blank" title="Stylez">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/stylez.png" title="stylez logo" />
@@ -277,9 +294,6 @@
 				Our Services and deep industry experiences includes Cloud, Virtualization, Open Source Linux & Network Solutions, Security, Software-Mobile APP & IoT.</p>
 				<a class="button button--white" href="http://sndkcorp.com/">Learn more</a>
 			</div>
-        </div>
-
-        <div class="row">
             <div class="col-md-4">
                 <a href="https://cloud.tab.digital" target="_blank" title="Tab.digital">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/tab.png" title="Tab.digital logo" />
@@ -287,6 +301,9 @@
                 <p class="partnertext">TAB Digital is a private company based in the EU, helping customers build private collaboration systems and clouds in EU and Russia. The newest technology and high staff competence will help you to build you success. Want to build a Nextcloud solution and have a provider take care of it? <a class="hyperlink" href="https://cloud.tab.digital">Contact us!</a></p>
                 <a class="button button--white" href="https://cloud.tab.digital">Learn more</a>
             </div>
+        </div>
+
+        <div class="row">
             <div class="col-md-4">
                 <a href="https://tamkeentech.sa/" target="_blank" title="Tamkeen technology">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/tamkeen.png" title="Tamkeen technology logo" />
