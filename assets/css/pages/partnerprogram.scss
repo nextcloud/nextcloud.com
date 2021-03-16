@@ -17,3 +17,16 @@ footer.page-footer {
 		list-style-position: inside;
 	}
 }
+
+.section--logos {
+    @media (max-width: $break-small) {
+        .col-sm-3 {
+            float: left;
+        }
+    }
+    .partner-badge {
+        width: 100%;
+        max-width: 150px;
+        padding-top: 30px;
+    }
+}

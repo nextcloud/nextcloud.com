@@ -41,4 +41,12 @@ footer.page-footer {
   list-style-image: url("../../img/common/check.svg");
   list-style-position: inside; }
 
+@media (max-width: 768px) {
+  .section--logos .col-sm-3 {
+    float: left; } }
+.section--logos .partner-badge {
+  width: 100%;
+  max-width: 150px;
+  padding-top: 30px; }
+
 /*# sourceMappingURL=partnerprogram.css.map */
