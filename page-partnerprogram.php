@@ -21,9 +21,11 @@
 <section class="section--intro">
 <div class="container">
 	<div class="row">
-        <p class="section--paragraph text-center">With 100% year over year organic growth and well over 400 enterprise customers, Nextcloud GmbH is a sustainable and professional business offering what your customers need: a reliable, secure, on-premises collaboration platform.</p>
+        <div class="col-md-8 col-md-offset-2">
+            <p class="section--paragraph text-center">With 100% year over year organic growth and well over 400 enterprise customers, Nextcloud GmbH is a sustainable and professional business offering what your customers need: a reliable, secure, on-premises collaboration platform.</p>
 
-        <p class="section--paragraph text-center">Join us on our growth path to increase revenue for your own business and give your customers the certainty that you are working with the market leading firm in on-premises productivity.</p>
+            <p class="section--paragraph text-center">Join us on our growth path to increase revenue for your own business and give your customers the certainty that you are working with the market leading firm in on-premises productivity.</p>
+        </div>
 	</div>
 </div>
 </section>
