@@ -83,6 +83,15 @@
 		</div>
 
 		<div class="row">
+            <div class="col-md-4">
+				<a href="https://corewin.com.ua/nextcloud/" target="_blank" title="CoreWin">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/corewin.png" title="CoreWin" />
+				</a>
+				<p class="partnertext">CoreWin is a distributor of software with a focus on process optimization, information security, data analysis and consulting.<br /> CoreWin’s team speaks English fluently, that’s why company works directly with software vendors to provide a quick response to all inquiries.<br />
+                CoreWin also provides the first level of technical support for all products. Being a distributor, CoreWin carries out pre-sales and technical consultations, as well as provide implementation services.<br />
+                CoreWin – first Core, then Win.</p>
+				<a class="button button--white" href="https://corewin.com.ua/nextcloud/">Learn more</a>
+			</div>
 			<div class="col-md-4">
 				<a href="https://www.dass-it.de/" target="_blank" title="Dass IT">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/dassit.png" title="Dass IT" />
@@ -97,6 +106,9 @@
 				<p  class="partnertext">DASEQ is delivering Nextcloud as integral part of their OpenSource solution framework which consists of open source technology, services and training as well as security solutions.</p>
 				<a class="button button--white" href="http://www.daseq.de/produkte/nextcloud/">Learn more</a>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.fgts.ru/collection/nextcloud" target="_blank" title="FGTS">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/fgts.png" title="FGTS" />
@@ -104,9 +116,6 @@
 				<p  class="partnertext">Factor group specializes in supplying the telecommunications industry with the world's leading equipment and technological solutions, offering consulting services, pre-design and design works, pre-sale advice, equipment installation and commissioning support, employee training, as well as after-sales service, product versions updates, equipment repair and replacement. Factor group executives have expertise in networking and information technologies market in Russia and the CIS countries since 1991.</p>
 				<a class="button button--white" href="https://www.fgts.ru/collection/nextcloud">Learn more</a>
 			</div>
-		</div>
-
-		<div class="row">
 			<div class="col-md-4">
 				<a href="https://thegood.cloud/" target="_blank" title="The Good Cloud">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/goodcloud.png" title="The Good Cloud logo" />
@@ -121,6 +130,9 @@
 				<p  class="partnertext">The Nextcloud professionals at Hansson IT based in Sweden, have been working with Nextcloud since day one. They specialize in Linux and Virtual Machine development and are helping thousands of customers to success together with the Nextcloud VM they develop. They offer a variety of support options and virtual machine images in <a href="https://shop.hanssonit.se/product-category/virtual-machine/nextcloud-vm/" target="_blank">their shop</a>, as well as Nextcloud Enterprise licenses. You can follow <a href="https://twitter.com/tmhanssonit">@tmhanssonit on Twitter</a>.
 				<a class="button button--white" href="https://hanssonit.se">Learn more</a>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="https://hbps.co.za" target="_blank" title="HBPS">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/hbps.png" title="hbps" />
@@ -128,9 +140,6 @@
 				<p  class="partnertext">We pride ourselves in listening to our clients as we believe that every customer is different and unique. Our service offering is not a one-size-fits-all solution to everyone. By truly listening to our customers we can help to customise and tailor our solutions to be fit for purpose to solve the problem at hand. HBPS is focused on helping companies take back control of what is rightly yours: your data. We want to empower our customers by helping them understand how the magic of data works and how it can help them to be future fit.</p>
 				<a class="button button--white" href="https://hbps.co.za">Learn more</a>
 			</div>
-		</div>
-
-		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.hosting.de/managed-nextcloud/" target="_blank" title="hosting.de">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/hostingde.png" title="hosting.de" />
@@ -147,6 +156,9 @@
 				<p  class="partnertext">Started in 1996 and now a team of 10 strong, HKN has been betting on scaleable, open source clusters since its inception. HKN offers bigger organizations a scaleable, HA-capable, resilient platform with Nextcloud that is hosted in their own data centers in three German cities. HKN offers optional 'hybrid' cloud solutions, with an internally, on-premises hosted Nextcloud at the customer working seamlessly with a Nextcloud hosted by HKN.</p>
 				<a class="button button--white" href="https://www.hkn.de/nextcloud-cloud-speicher">Learn more</a>
 			</div>
+        </div>
+
+        <div class="row">
             <div class="col-md-4">
 				<a href="https://www.ionos.de/enterprise-cloud/nextcloud" target="_blank" title="IONOS">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/ionos.png" title="IONOS" />
@@ -154,9 +166,6 @@
 				<p class="partnertext">With more than eight million customer contracts, IONOS is the leading European provider of cloud infrastructure, cloud services and hosting services. The product portfolio offers everything that companies need to be successful in the cloud: from domains, classic websites and do-it-yourself solutions, online marketing tools to full-fledged servers and an IaaS solution. The portfolio is aimed at freelancers, business people and consumers as well as corporate customers with complex IT requirements. The 1&1 IONOS brand family includes STRATO, Arsys, Fasthosts, home.pl, InterNetX, SEDO, United Domains and World4You.</p>
 				<a class="button button--white" href="https://www.ionos.de/enterprise-cloud/nextcloud">Learn more</a>
 			</div>
-        </div>
-
-        <div class="row">
 			<div class="col-md-4">
 				<a href="https://www.it25.de/" target="_blank" title="IT25">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/it25.png" title="it25" />
@@ -171,6 +180,9 @@
 				<p  class="partnertext">An Italian Company, ITServicenet has over 2 decades experience managing open source servers and developing software. They handle virtualization, high availability, monitoring and storage, helping customers set up and manage a powerful, reliable infrastructure. ITServicenet offers support in Italian language for Nextcloud.</p>
 				<a class="button button--white" href="http://www.itservicenet.net">Learn more</a>
 			</div>
+        </div>
+
+        <div class="row">
 			<div class="col-md-4">
 				<a href="http://www.kafit.se/" target="_blank" title="kafit AB">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/kafit.png" title="kafit logo" />
@@ -180,9 +192,6 @@
 <!--                We take pride in the delivery of services and products and get our recommendations from customers that realize the value of this.</p>-->
 				<a class="button button--white" href="http://kafit.se/">Learn more</a>
 			</div>
-        </div>
-
-        <div class="row">
             <div class="col-md-4">
 				<a href="https://www.linuxfabrik.ch" target="_blank" title="Linuxfabrik AG">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/linuxfabrik.png" title="linuxfabrik logo" />
@@ -197,6 +206,9 @@
 				<p  class="partnertext">Netcloud AG is a Winterthur (Zurich)-based company with 130 employees. Core competencies include consulting, designing, implementing and operating IT infrastructure solutions around Cisco technology, borderless networks, data-center and unified communications solutions.</p>
 				<a class="button button--white" href="http://www.netcloud.ch/">Learn more</a>
 			</div>
+        </div>
+
+        <div class="row">
 			<div class="col-md-4">
 				<a href="http://www.networkers.pl/" target="_blank" title="Networkers">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/networkers.png" title="networkers logo" />
@@ -204,9 +216,6 @@
 				<p  class="partnertext">Networkers delivers solutions for IT systems, data centers and DevOps environments. We sell NextCloud Enterprise in Poland with Polish support and can fully implement and operate a NextCloud environment with all the infrastructure on which it will run. All needed hard- and software can be delivered and installed and Networkers has partnerships with a number of other large organizations to deliver a wide range of solutions.</p>
 				<a class="button button--white" href="http://www.networkers.pl/private-cloud">Learn more</a>
 			</div>
-        </div>
-
-        <div class="row">
 			<div class="col-md-4">
 				<a href="http://www.nobugs.gmbh/" target="_blank" title="NOBUGS IT GMBH">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/nobugs.png" title="nobugs logo" />
@@ -221,6 +230,9 @@
 				<p class="partnertext">NETWAYS' expertise is in the data center space, taking care of monitoring and  metrics, automatisation as well as training and support. With the NETWAYS Web Services they run managed services, hosting customer infrastructure, and are expanding in the areas of Open Stack and Kubernetes. With 70 employees and headquartered in Nuremberg, NETWAYS can offer in-depth consulting and advice to customers.</p>
 				<a class="button button--white" href="http://nws.netways.de/">Learn more</a>
 			</div>
+        </div>
+
+        <div class="row">
             <div class="col-md-4">
 				<a href="https://nxme.net/" target="_blank" title="NXme">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/nxme.png" title="NXme logo" />
@@ -228,9 +240,6 @@
 				<p class="partnertext">NXme is an agile partner to turn your business challenges and opportunities into secure web services and mobile apps. Our range of software development services start from helping you to clarify your idea and technology strategy to practical implementation, development and operations. We are also our customers trustworthy partner in designing, implementing, securing, and operating your critical information systems and infrastructure. We also provide other professional services like SIEM, application firewall, IPAM, application delivery controller (ADC), AAA and single sign-on or network security expertise. We serve our clients in Finland, Saudi Arabia, Dubai & Abu Dhabi and elsewhere in the Middle East.</p>
 				<a class="button button--white" href="https://nxme.net/">Learn more</a>
 			</div>
-        </div>
-
-        <div class="row">
 			<div class="col-md-4">
 				<a href="https://www.open-dsi.fr/collaborer-nextcloud/" target="_blank" title="Open-DSI">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/opendsi.png" title="open-DSI logo" />
@@ -245,6 +254,9 @@
 				<p  class="partnertext">We turn our customers ideas into leading digital services with the experience of over twenty years. We harness the strengths of the web, mobile, cloud, cyber security, and blockchain technologies to help our clients to launch transformative digital services. Our international team of digitalization experts manages digital services’ full lifecycle, from design and development to operations and analytics. Our operations and cybersecurity experts manage the continuous operations of several high-profile services with multi-million userbases. We employ 130 experts in Finland, Saudi Arabia, the United Arab Emirates, Thailand and Vietnam.</p>
 				<a class="button button--white" href="https://oivan.com/">Learn more</a>
 			</div>
+        </div>
+
+        <div class="row">
             <div class="col-md-4">
 				<a href="https://www.procilon.de/pesa-cloud-plattform" target="_blank" title="Procilon">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/procilon.png" title="procilon logo" />
@@ -252,9 +264,6 @@
 				<p  class="partnertext">The procilon GROUP specializes in the development of cryptographic security-software 'Made in Germany'. Using Cloud based security components, procilon can provide various options of electronic signatures and services. That includes eIDAS-compliant qualified remote signatures, end-to-end data encryption and secure Identity- & Access-Management. Thus, procilon cloud services complement industry-specific applications and customer portals with cryptographic elements for a security-driven user experience.</p>
 				<a class="button button--white" href="https://www.procilon.de/pesa-cloud-plattform">Learn more</a>
 			</div>
-        </div>
-
-        <div class="row">
             <div class="col-md-4">
 				<a href="https://www.qloud.my" target="_blank" title="Qloud MSP">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/qloudmsp.png" title="Qloud MSP logo" />
@@ -269,6 +278,9 @@
 				<p  class="partnertext">regio iT is a service provider with over 300 employees delivering solutions for communities, schools, non-profits as well as customers in the energy production and distribution space.</p>
 				<a class="button button--white" href="http://www.regioit.de">Learn more</a>
 			</div>
+        </div>
+
+        <div class="row">
 			<div class="col-md-4">
 				<a href="https://www.siedl.net/portfolio/nextcloud" target="_blank" title="Siedl">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/siedl.png" title="siedl logo" />
@@ -276,9 +288,6 @@
 				<p  class="partnertext">Since 2002, Siedl Networks has been delivering innovative and reliable open source IT solutions to companies, schools and non-profits throughout Austria. We help small and medium sized organizations run their on-premises file storage and collaboration solution, monitoring and supporting their infrastructure and taking care of maintenance and backup.</p>
 				<a class="button button--white" href="https://www.siedl.net/portfolio/nextcloud">Learn more</a>
 			</div>
-        </div>
-
-        <div class="row">
 			<div class="col-md-4">
 				<a href="https://nextcloud.stylez.co.jp/" target="_blank" title="Stylez">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/stylez.png" title="stylez logo" />
@@ -294,6 +303,9 @@
 				Our Services and deep industry experiences includes Cloud, Virtualization, Open Source Linux & Network Solutions, Security, Software-Mobile APP & IoT.</p>
 				<a class="button button--white" href="http://sndkcorp.com/">Learn more</a>
 			</div>
+        </div>
+
+        <div class="row">
             <div class="col-md-4">
                 <a href="https://cloud.tab.digital" target="_blank" title="Tab.digital">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/tab.png" title="Tab.digital logo" />
@@ -301,9 +313,6 @@
                 <p class="partnertext">TAB Digital is a private company based in the EU, helping customers build private collaboration systems and clouds in EU and Russia. The newest technology and high staff competence will help you to build you success. Want to build a Nextcloud solution and have a provider take care of it? <a class="hyperlink" href="https://cloud.tab.digital">Contact us!</a></p>
                 <a class="button button--white" href="https://cloud.tab.digital">Learn more</a>
             </div>
-        </div>
-
-        <div class="row">
             <div class="col-md-4">
                 <a href="https://tamkeentech.sa/" target="_blank" title="Tamkeen technology">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/tamkeen.png" title="Tamkeen technology logo" />
@@ -319,6 +328,9 @@
                 We provide fixed-network/broadband, mobile communications, Internet, and IPTV products and services for consumers, and information and communication technology (ICT) solutions for business and corporate customers.</p>
                 <a class="button button--white" href="https://open-telekom-cloud.com/en/solutions/digital-workplace">Learn more</a>
             </div>
+        </div>
+
+        <div class="row">
             <div class="col-md-4">
                 <a href="https://viakom.de/unsere-produkte/managed-nextcloud/" target="_blank" title="Viakom">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/viakom.png" title="Viakom logo" />
@@ -326,9 +338,6 @@
                 <p class="partnertext">Viakom GmbH is a managed service provider and software development company specializing in ICT solutions for the B2B market. The Viakom experts and specialists from the sister company Nextrag Solutions GmbH combine know-how in the areas of managed service consulting, software development and sales and support. In-house software developments in the area of ​​(Vo)IP technology and monitoring have been in use by well-known telecommunications network operators since 2009.</p>
                 <a class="button button--white" href="https://viakom.de/unsere-produkte/managed-nextcloud/">Learn more</a>
             </div>
-        </div>
-
-        <div class="row">
             <div class="col-md-4">
                 <a href="https://vmsources.com/managed-it/nextcloud" target="_blank" title="VMsources">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/vmsources.png" title="vmsources logo" />
