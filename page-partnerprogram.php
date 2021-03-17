@@ -1,9 +1,4 @@
 <head>
-<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/search_moodle_course_module.png">
-<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/search_moodle_course_module.png">
-<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/search_moodle_course_module.png">
-<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/search_moodle_course_module.png">
-<meta name=”Description” content="Integrated email communication in Nextcloud.">
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/partnerprogram.css?v=1" rel="stylesheet">
 </head>
 
@@ -60,7 +55,7 @@
                 <p class="section--paragraph__title text-center">Get started!</p>
                 <p class="section--paragraph text-center">You know your customer. We know our product.<br /> Let's work together for the best results!</p>
             <div class="text-center morebuttondiv">
-                <a href="https://cloud.nextcloud.com/apps/forms/wyWbxHRYEFqGDW6z" class="button button--large button--arrow">Apply as partner <i class="icon-arrow-circle-o-right icon"></i></a>
+                <a href="<?php echo home_url('partnerapply') ?>" class="button button--large button--arrow">Apply as partner <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
         </div>
 	</div>
@@ -124,7 +119,7 @@
             <div class="col-md-6 col-md-offset-3">
                 <p class="text-center">Get started today.</p>
             <div class="text-center morebuttondiv">
-                <a href="https://cloud.nextcloud.com/apps/forms/wyWbxHRYEFqGDW6z" class="button button--large button--arrow">Apply as partner <i class="icon-arrow-circle-o-right icon"></i></a>
+                <a href="<?php echo home_url('partnerapply') ?>" class="button button--large button--arrow">Apply as partner <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
         </div>
 	</div>

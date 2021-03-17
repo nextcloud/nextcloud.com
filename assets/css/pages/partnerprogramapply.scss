@@ -1,0 +1,58 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+.partnerprogram-background {
+  background: url("../../img/headers/partners_new.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section--order-form {
+    padding-top: 0px;
+    p {
+            margin-bottom: 16px;
+        }
+}
+
+
+#orderform input,
+#orderform textarea,
+#orderform label span {
+	font-weight: normal;
+}
+#orderform input.error,
+#orderform textarea.error {
+	border: 1px solid rgb(210, 4, 6);
+}
+#orderform #form-error {
+  color: rgb(210, 4, 6);
+}
+
+#orderform input[type="submit"] {
+  padding: 8px 20px;
+}
+
+label {
+    margin-bottom: 0px;
+}
+
+.question {
+    margin-bottom: 0px;
+}
+
+.details {
+    margin-top: 0px;
+}
+
+
+.section--links {
+    padding-top: 0;
+    padding-bottom: 0;
+    .button {
+        margin: 7px 7px;
+        min-width: 100px;
+    }
+    @media (min-width: $navbar-breaksize) {
+        display: none;
+    }
+}
