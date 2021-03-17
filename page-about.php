@@ -204,6 +204,11 @@
 				</a>
 			</div>
             <div class="col-md-4">
+            <a class="hyperlink" href="its potential feature set, easily expanded by administrators through a one-click app installation, puts the likes of Dropbox, Google Drive, and iCloud to shame." target="_blank" title="Pro-privacy on Nextcloud">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/pro-privacy.png" title="Der Spiegel on German government going for Nextcloud"/>
+				</a>
+			</div>
+            <div class="col-md-4">
             <a class="hyperlink" href="http://www.spiegel.de/netzwelt/web/open-source-software-nextcloud-baut-die-bundescloud-a-1203261.html" target="_blank" title="Der Spiegel on German government going for Nextcloud">
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/spiegel-gergov.png" title="Der Spiegel on German government going for Nextcloud"/>
 				</a>
