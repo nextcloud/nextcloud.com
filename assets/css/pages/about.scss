@@ -40,8 +40,13 @@ section {
     }
 }
 
+.section--quote-list {
+    .quote--container {
+        height: 250px;
+    }
+}
 
-.section--differentiators {
+.section--differentiators,.section--mission,.section--quote-list {
 	.floating--quote--container {
         display: flex;
         justify-content: center;
@@ -50,7 +55,7 @@ section {
         padding: 40px 40px 30px 40px ;
         background: #FFFFFF;
         border: 1px solid #FCFCFC;
-        box-shadow: 0 1px 40px 0 rgba(0,0,0,0.14);
+        //box-shadow: 0 1px 40px 0 rgba(0,0,0,0.14);
         margin: 30px 20px;
         @media (min-width: $break-big) {
             float: right;
@@ -71,7 +76,7 @@ section {
         padding: 20px 20px 15px 20px ;
         background: #FFFFFF;
         border: 1px solid #FCFCFC;
-        box-shadow: 0 1px 40px 0 rgba(0,0,0,0.14);
+        //box-shadow: 0 1px 40px 0 rgba(0,0,0,0.14);
         margin: 20px 5%;
         @media (min-width: $break-big) {
             width: 90%;

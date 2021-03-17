@@ -48,11 +48,11 @@
         <p class="section--paragraph"><?php echo $l->t('Security is Nextcloud customers\' greatest concerns and our prime advantage over competitors. Nextcloud features a host of unique, innovative security technologies from brute force protection to advanced server side and integrated end-to-end, client side encryption with enterprise-grade key handling and a wide range of security hardenings. Our security has been reviewed by trusted third parties and is backed by a USD 10000 Security Bug Bounty Program, providing the confidence that data meant to stay private will stay private.');?></p>
     </div>
     <div class="row floating--quote--container">
-            <blockquote class="quote--paragraph">European governments rely on German start-up Nextcloud.</blockquote>
-            <div class="quote--brand">
-                <a href="https://www.handelsblatt.com/technik/it-internet/cloud-dienste-eu-staaten-setzen-auf-deutsches-start-up-nextcloud/24942352.html"><div class="quote--handelsblatt--logo"></div></a>
-            </div>
+        <blockquote class="quote--paragraph">European governments rely on German start-up Nextcloud.</blockquote>
+        <div class="quote--brand">
+            <a href="https://www.handelsblatt.com/technik/it-internet/cloud-dienste-eu-staaten-setzen-auf-deutsches-start-up-nextcloud/24942352.html"><div class="quote--handelsblatt--logo"></div></a>
         </div>
+    </div>
     <div class="row">
         <h3 class="section--paragraph__title"><?php echo $l->t('User Focus');?></h3>
 		<p class="section--paragraph"><?php echo $l->t('At Nextcloud, we believe that an open, transparent development process and a clear focus on the needs of users and customers results in a better product.');?></p>
@@ -62,7 +62,9 @@
 		<p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('See our enterprise page</a> for more information about our Enterprise Support Subscriptions.');?></p>
     </div>
 </div>
-<div class="container-widest">
+</section>
+<section class="section--quote-list">
+<div class="container-widest quote-list">
     <div class="row">
         <div class="col-lg-4 col-md-6">
             <div class="quote--container">
@@ -90,6 +92,8 @@
         </div>
     </div>
 </div>
+</section>
+<section class="section--mission">
 <div class="container">
     <div class="row">
         <h2><?php echo $l->t('Our company');?></h2>
@@ -143,8 +147,8 @@
 		<p class="section--paragraph"><?php echo $l->t('Nextcloud was started by <a class="hyperlink" href="https://karlitschek.de">Frank Karlitschek</a> and a dozen experienced open source entrepreneurs and engineers to empower users to take back control over their data and communication. We envisioned our company to develop the next generation open source Enterprise File Sync and Share and have been relentlessly pursuing that vision, raising the bar for self-hosted solutions.');?></p>
 
 		<p class="section--paragraph"><?php echo $l->t('Fully employee-funded and pursuing an organic-growth strategy, Nextcloud already turned profitable by the end of 2016 and had nearly tripled to 35 employees by the end of 2017. See our full ');?><a class="hyperlink" href="<?php echo home_url('team') ?>"><?php echo $l->t('team here.');?></a> </p>
-        <p class="section--paragraph"><?php echo $l->t('By January 2018, <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-grew-customer-base-7x-added-over-6.6-million-lines-of-code-and-doubled-its-team-in-2017/">after record growth in 2017</a>, Nextcloud had become the most sought-after Enterprise File Sync and Share solution <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-grew-customer-base-7x-added-over-6.6-million-lines-of-code-and-doubled-its-team-in-2017/">according to Google Trends</a> and was widely recognized as leading the on-premises Enterprise File Sync and Share industry.');?></p>
-        <p class="section--paragraph"><?php echo $l->t('With an estimated over 250.000 Nextcloud servers online, no other on-premises content collaboration platform comes close in terms of installed base.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('By January 2018, <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-grew-customer-base-7x-added-over-6.6-million-lines-of-code-and-doubled-its-team-in-2017/">after record growth in 2017</a>, Nextcloud had become the most sought-after Enterprise File Sync and Share solution <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-grew-customer-base-7x-added-over-6.6-million-lines-of-code-and-doubled-its-team-in-2017/">according to Google Trends</a> and was widely recognized as leading the on-premises Enterprise File Sync and Share industry. Since then, Nextcloud has continued to organically double its revenue year after year.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('With an estimated over 400.000 Nextcloud servers online, no other on-premises content collaboration platform comes close in terms of installed base.');?></p>
 		<p class="section--paragraph"><?php echo $l->t('You can follow what we are up to');?> <a class="hyperlink" href="<?php echo home_url('news') ?>"><?php echo $l->t('in our blogs</a> and subscribe to <a class="hyperlink" href="https://newsletter.nextcloud.com">our newsletter.</a>');?></p>
 	</div>
 </section>
@@ -155,6 +159,42 @@
 		<h2><?php echo $l->t('Media coverage');?></h2>
 		<p class="section--paragraph"><?php echo $l->t('We keep track of some of the mentions of Nextcloud in the press.');?> Find our Press center <a href="<?php echo home_url('press') ?>" class="hyperlink">here.</a></p>
         <div class="row newsrow">
+            <div class="col-md-4">
+				<a class="hyperlink" href="https://www.techrepublic.com/article/nextcloud-21-improvements-in-speed-and-added-features-make-its-cloud-offering-more-business-friendly/" target="_blank" title="Techrepublic on Nextcloud Hub">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/techrepublic.png" title="Techrepublic on Nextcloud Hub"/>
+				<span class="text">"the best on-premise cloud solution available"</span>
+				</a>
+			</div>
+            <div class="col-md-4">
+				<a class="hyperlink" href="https://www.golem.de/news/office-kollaboration-nextcloud-21-verspricht-zehnfache-leistung-2102-154388.html" target="_blank" title="Golem on Nextcloud Hub">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/golem.png" title="Golem on Nextcloud Hub"/>
+				<span class="text">"Nextcloud 21 verspricht zehnfache Leistung."</span>
+				</a>
+			</div>
+            <div class="col-md-4">
+				<a class="hyperlink" href="https://cloud7.news/cloud/nextcloud-hub-21-is-available/" target="_blank" title="Cloud7 on Nextcloud Hub">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/cloud7.png" title="Cloud7 on Nextcloud Hub"/>
+				<span class="text">"The Nextcloud team introduced Nextcloud Hub 21 at a virtual presentation streamed worldwide."</span>
+				</a>
+			</div>
+            <div class="col-md-4">
+				<a class="hyperlink" href="https://www.forbes.com/sites/jasonevangelho/2020/12/22/nextcloud-attacks-google-and-onedrive-with-1-click-migration-feature/" target="_blank" title="Forbes on Nextcloud Hub">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/forbes.png" title="Forbes on Nextcloud Hub"/>
+				<span class="text">"Nextcloud Attacks Google And OneDrive With 1-Click Migration Feature"</span>
+				</a>
+			</div>
+            <div class="col-md-4">
+            <a class="hyperlink" href="https://proprivacy.com/cloud/review/nextcloud" target="_blank" title="Pro-privacy on Nextcloud">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/pro-privacy.png" title="Pro-privacy on Nextcloud"/>
+				<span class="text">"its potential feature set, easily expanded by administrators through a one-click app installation, puts the likes of Dropbox, Google Drive, and iCloud to shame"</span>
+				</a>
+			</div>
+            <div class="col-md-4">
+				<a class="hyperlink" href="https://www.heise.de/news/Nextcloud-migriert-Daten-von-Dropbox-Google-und-OneDrive-4990876.html" target="_blank" title="Heise on Nextcloud Hub">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/heise.png" title="Heise on Nextcloud Hub"/>
+				<span class="text">"Nextcloud migriert Daten von Dropbox, Google und OneDrive"</span>
+				</a>
+			</div>
             <div class="col-md-4">
 				<a class="hyperlink" href="https://www.nextinpact.com/news/108156-le-ministere-linterieur-migre-sur-solution-libre-nextcloud.htm" target="_blank" title="Nextinpact about French ministry of Interior deploying Nextcloud (French)">
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/nextinpact-no-text.png" title="Nextinpact about French ministry of Interior deploying Nextcloud (French)"/>
@@ -167,10 +207,16 @@
 				<span class="text">Handelsblatt interviews Frank (German)</span>
 				</a>
 			</div>
+			<div class="col-md-4">
+				<a class="hyperlink" href="https://www.forbes.com/sites/jasonevangelho/2020/01/17/nextcloud-hub-launches-to-compete-with-google-docs-and-office-365/" target="_blank" title="Forbes on Nextcloud Hub">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/forbes.png" title="Forbes on Nextcloud Hub"/>
+				<span class="text">"Nextcloud Hub Launches To Compete Directly With Google Docs And Microsoft 365"</span>
+				</a>
+			</div>
             <div class="col-md-4">
 				<a class="hyperlink" href="https://www.zdnet.com/article/eu-turns-from-american-public-clouds-to-nextcloud-private-clouds/" target="_blank" title="ZDNet on EU moving to self-hosted clouds">
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/ZDNet-no-text.png" title="ZDNet on EU moving to self-hosted clouds"/>
-				<span class="text">EU turns from American public clouds to Nextcloud private clouds</span>
+				<span class="text">"EU turns from American public clouds to Nextcloud private clouds"</span>
 				</a>
 			</div>
             <div class="col-md-4">
@@ -201,11 +247,6 @@
             <div class="col-md-4">
                 <a class="hyperlink" href="https://www.techradar.com/news/german-government-goes-open-source-with-open-source-cloud-firm-nextcloud" target="_blank" title="Techradar Pro on German government going for Nextcloud">
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/techradarpro.png" title="Techradar Pro on German government going for Nextcloud"/>
-				</a>
-			</div>
-            <div class="col-md-4">
-            <a class="hyperlink" href="its potential feature set, easily expanded by administrators through a one-click app installation, puts the likes of Dropbox, Google Drive, and iCloud to shame." target="_blank" title="Pro-privacy on Nextcloud">
-				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/pro-privacy.png" title="Der Spiegel on German government going for Nextcloud"/>
 				</a>
 			</div>
             <div class="col-md-4">
@@ -250,7 +291,7 @@
 			</div>
 			<div class="col-md-4">
 				<a class="hyperlink" href="http://www.techrepublic.com/article/nextcloud-11-cloud-server-an-impressive-security-focused-update/" target="_blank" title="Techrepublic on Nextcloud 11">
-				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/techrepublic.png" title="Techrepublic on Nextcloud 11"/>
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/techrepublic-11.png" title="Techrepublic on Nextcloud 11"/>
 				</a>
 			</div>
 			<div class="col-md-4">
@@ -298,7 +339,7 @@
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/radiotux.png" title="Radio Tux interview"/>
 				</a>
 			</div>
-			<div class="col-md-4">
+<!--			<div class="col-md-4">
                 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/Yjqd7MX434I?start=2678" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div>
 			<div class="col-md-4">
@@ -306,7 +347,7 @@
 			</div>
 			<div class="col-md-4">
                 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/iMfokaX2r8g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
+			</div>-->
 		</div>
 	</div>
 </section>
