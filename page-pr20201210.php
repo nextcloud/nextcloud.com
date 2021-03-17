@@ -39,7 +39,7 @@
 <p>Nextcloud Hub is the industry-leading, fully open source, on-premises team productivity platform, combining the easy user interface of consumer-grade cloud solutions with the security and compliance measures enterprises need. Nextcloud Hub brings together universal access to data through mobile, desktop and web interfaces with next-generation, on-premise secure communication and collaboration features like real-time document editing, chat and video calls, putting them under direct control of IT and integrated with existing infrastructure.</p>
 <p>Nextcloud’s easy and quick deployment, open, modular architecture and emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing file storage assets within and across the borders of their organization. For more information, visit <a href="https://nextcloud.com">nextcloud.com</a> or follow <a href="https://twitter.com/Nextclouders">https://twitter.com/Nextclouders</a> on Twitter.</p>
 
-<h2>About SalesAgility</p>
+<h2>About SalesAgility</h2>
 
 <p>SalesAgility are experts in delivering open source Customer Relationship Management (CRM) solutions worldwide to organisations of all sizes, on time and within budget.</p>
 
