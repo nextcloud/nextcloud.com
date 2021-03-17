@@ -281,6 +281,13 @@
         </div>
 
         <div class="row">
+            <div class="col-md-4">
+				<a href="https://www.safespring.com/" target="_blank" title="Safespring">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/safespring.png" title="Safespring logo" />
+				</a>
+				<p  class="partnertext">Safesprings is a Nordic provider of cloud infrastructure services. Based on Open Source technology, our compute and storage services is highly scalable and support API driven workflows. We support federated login to enable single sign-on. Safespring is trusted by more than 60 universities, institutions and research platforms and we’re hoping to be part of your digital future as well. Welcome to make a first contact!</p>
+				<a class="button button--white" href="https://www.safespring.com/">Learn more</a>
+			</div>
 			<div class="col-md-4">
 				<a href="https://www.siedl.net/portfolio/nextcloud" target="_blank" title="Siedl">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/siedl.png" title="siedl logo" />
@@ -295,6 +302,9 @@
 				<p  class="partnertext">Since 2013, Stylez has grown by focusing on integration and Business Process Outsourcing. Today Stylez expands its scope into cloud and open source services, keeping up their focus on customers and quality.</p>
 				<a class="button button--white" href="https://nextcloud.stylez.co.jp/">Learn more</a>
 			</div>
+        </div>
+
+        <div class="row">
 			<div class="col-md-4">
 				<a href="http://sndkcorp.com/" target="_blank" title="SNDK-corp">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/sndk-corp.png" title="SNDK Corp logo" />
@@ -303,9 +313,6 @@
 				Our Services and deep industry experiences includes Cloud, Virtualization, Open Source Linux & Network Solutions, Security, Software-Mobile APP & IoT.</p>
 				<a class="button button--white" href="http://sndkcorp.com/">Learn more</a>
 			</div>
-        </div>
-
-        <div class="row">
             <div class="col-md-4">
                 <a href="https://cloud.tab.digital" target="_blank" title="Tab.digital">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/tab.png" title="Tab.digital logo" />
@@ -320,6 +327,9 @@
                 <p class="partnertext">Tamkeen Technologies is a Saudi company established in 2013 with a clear and ambitious vision to be the first choice for the government sector in IT. Our innovative solutions are designed to digitally transform the businesses of the public sector by adopting leading technologies, and leveraging on our strategic partnerships. Our services are formed to fit various modules and to ensure self-sustainability, improve performance and efficiency for our partners.</p>
                 <a class="button button--white" href="https://tamkeentech.sa/">Learn more</a>
             </div>
+        </div>
+
+        <div class="row">
             <div class="col-md-4">
                 <a href="https://open-telekom-cloud.com/en/solutions/digital-workplace" target="_blank" title="Telekom">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/telekom.png" title="Deutsche Telekom" />
@@ -328,9 +338,6 @@
                 We provide fixed-network/broadband, mobile communications, Internet, and IPTV products and services for consumers, and information and communication technology (ICT) solutions for business and corporate customers.</p>
                 <a class="button button--white" href="https://open-telekom-cloud.com/en/solutions/digital-workplace">Learn more</a>
             </div>
-        </div>
-
-        <div class="row">
             <div class="col-md-4">
                 <a href="https://viakom.de/unsere-produkte/managed-nextcloud/" target="_blank" title="Viakom">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/viakom.png" title="Viakom logo" />
