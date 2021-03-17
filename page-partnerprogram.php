@@ -4,7 +4,7 @@
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/search_moodle_course_module.png">
 <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/search_moodle_course_module.png">
 <meta name=”Description” content="Integrated email communication in Nextcloud.">
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/partnerprogram.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/partnerprogram.css?v=1" rel="stylesheet">
 </head>
 
 <section class="hero-section">
@@ -84,6 +84,7 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <p class="section--paragraph">Nextcloud works with a variety of partners, building on, providing services around and complementing our product. The Nextcloud partner program is designed to ensure that our partners receive the highest quality training, support, and enablement in the industry. We recognize that you, our partners, are critical to our growth initiatives and ultimate objective: to deliver innovative technology that is beautiful, functional, and easy to use.</p>
+                <br />
                 <p class="section--paragraph">As partner you benefit from:</p>
             </div>
         </div>
