@@ -19,6 +19,8 @@ footer.page-footer {
 }
 
 .section--logos {
+    padding-top: 0;
+    padding-bottom: 0;
     @media (max-width: $break-small) {
         .col-sm-3 {
             float: left;
