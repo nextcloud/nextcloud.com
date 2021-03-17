@@ -21,7 +21,6 @@
 <div class="pr">
 <h1>Zammad and Nextcloud announce collaboration at Nextcloud Conference</h1>
 <p><em>October 3, 2020, Berlin</em> - Zammad GmbH, the amazing open source Help Desk and Ticket System and Nextcloud GmbH, provider of the most popular on-premises content collaboration platform announce the result of integration efforts at the Nextcloud Conference in Berlin, Germany. Both platforms are available under open source licenses and designed for on-premises hosting or cloud hosting, giving customers control over security, compliance and cost factors and protecting their digital sovereignty.</p>
-<p>Just a rough quote proposal:</p>
 <blockquote>Zammad enables users to manage tasks and incoming customer requests. Open source, self-hosted cloud technologies allow networking and integration with each other. Nextcloud and Zammad complement each other and integration provides users with improved productivity.</blockquote>
 <p>-- Martin Edenhofer, Founder and CEO at Zammad GmbH</p>
 <p>With Nextcloud 20, a Zammad integration app provides a Dashboard widget with a Zammad ticket overview, support for finding Zammad tickets using Nextcloud’s new unified search and notifications on status updates to tickets. The integration features make it easier for Nextcloud users to track the state of Zammad tickets, saving time and improving response times to customers.</p>
