@@ -46,6 +46,7 @@ if(isset($_POST['email'])) {
         !isset($_POST['phone']) ||
         !isset($_POST['role']) ||
         !isset($_POST['checksum']) ||
+        !isset($_POST['employees']) ||
         !isset($_POST['captcha'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted - did you fill in all mandatory fields?'); }
     $yourname = $_POST['yourname']; // required
@@ -53,12 +54,11 @@ if(isset($_POST['email'])) {
     $phone = $_POST['phone']; // required
     $email_from = $_POST['email']; // required
     $role = $_POST['role']; // required
-
-    $businessmodel = $_POST['businessmodel']; // required
-    $customers = $_POST['customers']; // required
-    $geography = $_POST['geography']; // required
-    $experience = $_POST['experience']; // required
-
+    $employees = $_POST['employees']; // required
+    $businessmodel = $_POST['businessmodel'];
+    $customers = $_POST['customers'];
+    $geography = $_POST['geography'];
+    $experience = $_POST['experience'];
     $comments = $_POST['comments']; // required
     $checksum = $_POST['checksum']; // required
     $gdprcheck = $_POST['gdprcheck'];
@@ -130,6 +130,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Phone number: ".clean_string($phone)."\n";
     $email_message .= "Organization: ".clean_string($organization)."\n";
     $email_message .= "Role: ".clean_string($role)."\n";
+    $email_message .= "Employees: ".clean_string($employees)."\n";
     $email_message .= "Business model: ".clean_string($businessmodel)."\n";
     $email_message .= "Target customers: ".clean_string($customers)."\n";
     $email_message .= "Target geography: ".clean_string($geography)."\n";
