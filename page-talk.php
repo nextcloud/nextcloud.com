@@ -320,7 +320,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6  image--floated  image--feature">
-			<stream src="8c70d0777e1c971aad0640cad4593875" controls loop autoplay poster="<?php bloginfo('template_directory'); ?>/assets/img/features/Talk_upload_files.png"></stream>
+			<stream src="8c70d0777e1c971aad0640cad4593875" controls loop poster="<?php bloginfo('template_directory'); ?>/assets/img/features/Talk_upload_files.png"></stream>
             <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=8c70d0777e1c971aad0640cad4593875"></script>
 		</div>
         <div class="col-md-6">
@@ -333,7 +333,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 image--feature">
-			<stream src="d4b98b1675418d383ddc349572f2fc44" controls loop autoplay poster="<?php bloginfo('template_directory'); ?>/assets/img/features/whiteboard.png"></stream>
+			<stream src="d4b98b1675418d383ddc349572f2fc44" controls loop poster="<?php bloginfo('template_directory'); ?>/assets/img/features/whiteboard.png"></stream>
             <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=d4b98b1675418d383ddc349572f2fc44"></script>
 		</div>
         <div class="col-md-6">
