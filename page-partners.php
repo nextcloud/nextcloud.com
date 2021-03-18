@@ -366,6 +366,19 @@
     </div>
 </section>
 
+<section class="section--register quote">
+	<div class="container">
+       <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <p class="section--paragraph__title text-center">Join our partner program!!</p>
+                <p class="section--paragraph text-center">You know your customer. We know our product.<br /> Let's work together for the best results!</p>
+            <div class="text-center morebuttondiv">
+                <a href="<?php echo home_url('partnerprogram') ?>" class="button button--large button--arrow">Learn about the partner program <i class="icon-arrow-circle-o-right icon"></i></a>
+            </div>
+        </div>
+	</div>
+</section>
+
 <section class="section--partners">
 	<div class="wrap container partnergroup">
 		<div class="row">
