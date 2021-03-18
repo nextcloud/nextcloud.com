@@ -36,7 +36,7 @@
 		<div class="col-md-4">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/permissions.svg" /></div>
 			<h3 class="section--paragraph__title text-center">Go to market together</h3>
-			<p class="section--paragraph text-center">Promote, market and sell Nextcloud together. Organize and attend events with us, aqcuire leads, participate in tenders and close deals.</p>
+			<p class="section--paragraph text-center">Promote, market and sell Nextcloud together. Organize and attend events with us, acquire leads, participate in tenders and close deals.</p>
 		</div>
 		<div class="col-md-4">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/storage.svg" /></div>
