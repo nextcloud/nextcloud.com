@@ -28,7 +28,7 @@
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
 				<h1 class="text-center">Solution providers</h1>
-				<p class="section--paragraph text-center">If you want to ensure your Nextcloud contributes to your business success, we recommend working locally with one of our partners which have the full backing of Nextcloud GmbH. These partners can help you do a proof of concept and purchase, deploy, optimize and maintain your Nextcloud. If you want to become a partner, <a href="<?php echo home_url('partnerprogram') ?>" class="hyperlink">see here.</a></p>
+				<p class="section--paragraph text-center">If you want to ensure your Nextcloud contributes to your business success, we recommend working locally with one of our partners which have the full backing of Nextcloud GmbH. These partners can help you do a proof of concept and purchase, deploy, optimize and maintain your Nextcloud. <br /> If you want to become a partner, <a href="<?php echo home_url('partnerprogram') ?>" class="hyperlink">see here.</a></p>
 			</div>
 		</div>
 		<div class="row">
