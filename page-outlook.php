@@ -107,7 +107,7 @@
             </div>
             <div class="col-md-6 featureblock">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Secure Mail');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('The Secure Mail feature protects the content as well as attachments from emails. It uploads the email body and can automatically create guest accounts for recipients. With account protections like 2-factor authentication, brute-force protection and suspiscious login detection, this provides the level of security that banks, notaries or hospitals need to exchange confidential information with their clients or patients.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The Secure Mail feature protects the content as well as attachments from emails. It uploads the email body and can automatically create guest accounts for recipients. With account protections like 2-factor authentication, brute-force protection and suspicious login detection, this provides the level of security that banks, notaries or hospitals need to exchange confidential information with their clients or patients.');?></p>
                 <h3 class="section--paragraph__title"><?php echo $l->t('Other features:');?></h3>
                 <ul>
                     <li><?php echo $l->t('Users can pick files from the local desktop or from the Nextcloud server');?></li>
@@ -330,7 +330,7 @@
             </div>
             <div class="col-md-6 featureblock">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Mozilla Thunderbird');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('Users of Mozilla Thunderbird will be delighted to hear that there is a <a href="https://addons.thunderbird.net/en-US/thunderbird/addon/filelink-nextcloud-owncloud/">Thunderbird Filelink Addon!</a>');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Users of Mozilla Thunderbird will be delighted to hear that there is a');?> <a href="https://addons.thunderbird.net/en-US/thunderbird/addon/filelink-nextcloud-owncloud/">Thunderbird Filelink Addon!</a></p>
                 <p class="section--paragraph"><?php echo $l->t('This Thunderbird extension makes it easy to send large attachments with Thunderbird by automatically uploading them first to a Nextcloud server and by then inserting the link into the body of your email.');?></p>
             </div>
         </div>
@@ -364,7 +364,7 @@
             <div class="col-md-6 featureblock">
                 <h3 class="section--paragraph__title"><?php echo $l->t('What it does');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('The CalDAV and CardDAV plugin offers two-way sync for CalDAV calendars and tasks, CardDAV contacts and can also handle the Google native Contacts and Tasks API.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('The plugin handles Outlook categories, mapping CalDAV server colors to Outlook category colors and syncing calendars and tasks to the categories. The plugin also handles timezones and recurring events with exceptions and can deal with Outlook custom properties.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The plugin handles Outlook categories, mapping CalDAV server colors to Outlook category colors and syncing calendars and tasks to the categories. The plugin also handles time zones and recurring events with exceptions and can deal with Outlook custom properties.');?></p>
             </div>
 		</div>
 
@@ -374,12 +374,12 @@
             </div>
             <div class="col-md-6 featureblock">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Features');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('The Outlook CalDav Synchronizer supports:</br>
-                SSL/TLS, also with self-signed certificates and proxy;</br>
-                Auto discovery of calendars and address books;</br>
-                Configurable sync time range filter;</br>
-                Time-triggered-sync and sync changes from Outlook immediately;</br>
-                and it can use server settings from an Outlook IMAP/POP3 account profile.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The Outlook CalDav Synchronizer supports:');?></br>
+                <?php echo $l->t('SSL/TLS, also with self-signed certificates and proxy;');?></br>
+                <?php echo $l->t('Auto discovery of calendars and address books;');?></br>
+                <?php echo $l->t('Configurable sync time range filter;');?></br>
+                <?php echo $l->t('Time-triggered-sync and sync changes from Outlook immediately;');?></br>
+                <?php echo $l->t('and it can use server settings from an Outlook IMAP/POP3 account profile.');?></p>
                 <div class="row">
                     <div class="wrapper--buttons">
                         <a href="https://nextcloud.com/blog/nextcloud-offers-caldav-synchronizer-for-outlook-users/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
