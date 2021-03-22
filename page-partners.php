@@ -281,12 +281,22 @@
         </div>
 
         <div class="row">
-            <div class="col-md-4">
+<!--            <div class="col-md-4">
 				<a href="http://www.regioit.de/" target="_blank" title="Regioit">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/regioit.png" title="regioit logo" />
 				</a>
 				<p  class="partnertext">regio iT is a service provider with over 300 employees delivering solutions for communities, schools, non-profits as well as customers in the energy production and distribution space.</p>
 				<a class="button button--white" href="http://www.regioit.de">Learn more</a>
+			</div>-->
+			            <div class="col-md-4">
+				<a href="http://www.robhost.de" target="_blank" title="Robhost">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/robhost.png" title="Robhost logo" />
+				</a>
+				<p  class="partnertext">RobHost GmbH specialises in managed hosting "made in Germany" and has been offering server solutions for the most varied requirements since 2009. Individual support is one of our strengths. The well-coordinated team based in Dresden specializes in managed hosting in the B2B sector.<br />
+                At the Frankfurt/Main location, we currently operate and manage more than 2000 Linux instances. From conventional managed servers, e.g., for online shops or web hosting for agencies, to private cloud infrastructures and distributed high-availability clusters with 24/7 support, we respond to the most diverse requirements of our approx. 1000 business customers from all over Europe.<br />
+                Our focus is on the smooth operation of your IT infrastructure and its continuous expansion. In the course of this, individual and customer-oriented support form the basis for long-term cooperation. Moreover, we offer programming services for web applications to our customers.<br />
+                Our many years of experience in hosting and consulting enable us to implement your IT projects in the best possible way. In addition, all IT employees have a degree or training with a focus on IT and therefore possess competent knowledge. </p>
+				<a class="button button--white" href="http://www.robhost.de">Learn more</a>
 			</div>
             <div class="col-md-4">
 				<a href="https://www.safespring.com/en/ocre/" target="_blank" title="Safespring">
