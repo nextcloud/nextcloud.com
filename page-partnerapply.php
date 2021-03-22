@@ -7,7 +7,7 @@
 		require(["pages/order" ])
 	});
 	</script>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/partnerprogramapply.css?v=1" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/partnerprogramapply.css?v=2" rel="stylesheet">
 </head>
 
 <section class="hero-section">

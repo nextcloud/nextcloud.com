@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/partnerprogram.css?v=2" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/partnerprogram.css?v=3" rel="stylesheet">
 </head>
 
 <section class="hero-section">
