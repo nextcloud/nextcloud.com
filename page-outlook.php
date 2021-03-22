@@ -374,12 +374,14 @@
             </div>
             <div class="col-md-6 featureblock">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Features');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('The Outlook CalDav Synchronizer supports:');?></br>
-                <?php echo $l->t('SSL/TLS, also with self-signed certificates and proxy;');?></br>
-                <?php echo $l->t('Auto discovery of calendars and address books;');?></br>
-                <?php echo $l->t('Configurable sync time range filter;');?></br>
-                <?php echo $l->t('Time-triggered-sync and sync changes from Outlook immediately;');?></br>
-                <?php echo $l->t('and it can use server settings from an Outlook IMAP/POP3 account profile.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The Outlook CalDav Synchronizer supports:');?>
+                <ul>
+                    <li><?php echo $l->t('SSL/TLS, also with self-signed certificates and proxy');?></li>
+                    <li><?php echo $l->t('Auto discovery of calendars and address books');?></li>
+                    <li><?php echo $l->t('Configurable sync time range filter');?></li>
+                    <li><?php echo $l->t('Time-triggered-sync and sync changes from Outlook immediately');?></li>
+                </ul>
+                <p><?php echo $l->t('And it can use server settings from an Outlook IMAP/POP3 account profile.');?></p>
                 <div class="row">
                     <div class="wrapper--buttons">
                         <a href="https://nextcloud.com/blog/nextcloud-offers-caldav-synchronizer-for-outlook-users/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
