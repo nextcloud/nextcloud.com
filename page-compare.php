@@ -1,5 +1,5 @@
 <head>
-<!-- <script src="<?php echo get_template_directory_uri(); ?>/assets/js/modules/jquery-321.min.js"></script> -->
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/modules/jquery-321.min.js"></script>
 <script>
 	require(["require.config"], function() {
 		require(["jquery", "pages/compare"])
