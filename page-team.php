@@ -18,12 +18,12 @@
 </section>
 <section class="section--team">
 	<div class="container">
-		<p class="section--paragraph">Open source cloud collaboration is our passion at Nextcloud GmbH and we've built a great team of experts around it. Our engineers, designers and support professionals work as an integral part of the wider Nextcloud community to give customers direct access to the most advanced, in-depth knowledge they need for their success.</p>
+		<p class="section--paragraph"><?php echo $l->t('Open source cloud collaboration is our passion at Nextcloud GmbH and we have built a great team of experts around it. Our engineers, designers and support professionals work as an integral part of the wider Nextcloud community to give customers direct access to the most advanced, in-depth knowledge they need for their success.');?></p>
 	</div>
 	<div class="featurerow">
 	<div class="wrap container teamgroup">
     <div class="row">
-	<h2>Management</h2>
+	<h2><?php echo $l->t('Management');?></h2>
 	</div>
 	<div class="row">
 		<div class="col-md-4">
@@ -106,7 +106,7 @@
 		</div>
     </div>
     <div class="row">
-        <h2>Account management</h2>
+        <h2><?php echo $l->t('Account management');?></h2>
     </div>
     <div class="row">
         <div class="col-md-4">
@@ -189,7 +189,7 @@
 		</div>
     </div>
     <div class="row">
-    <h2>Sales engineering</h2>
+    <h2><?php echo $l->t('Sales engineering');?></h2>
     </div>
 	<div class="row">
 		<div class="col-md-4">
@@ -246,7 +246,7 @@
 		</div>
     </div>
     <div class="row">
-        <h2>Marketing</h2>
+        <h2><?php echo $l->t('Marketing');?></h2>
     </div>
     <div class="row">
     <div class="col-md-4">
@@ -290,7 +290,7 @@
         </div>
     </div>
     <div class="row">
-        <h2>Back office</h2>
+        <h2><?php echo $l->t('Back office');?></h2>
     </div>
     <div class="row">
         <div class="col-md-4">
@@ -321,7 +321,7 @@
         </div>
     </div>
     <div class="row">
-        <h2>Engineering and support</h2>
+        <h2><?php echo $l->t('Engineering and support');?></h2>
     </div>
     <div class="row">
 		<div class="col-md-4">
