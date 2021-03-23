@@ -161,8 +161,8 @@
 							<li title="<?php echo $l->t('can be hosted wherever you decide, including hybrid.');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Self hosted/on premises-->
 							<li title="<?php echo $l->t('single cluster: up to 100K active users. With Global Scale: unlimited.');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
-							<li title="" rel="tooltip"><?php echo $l->t('<i class="fa fa-apple"></i> <i class="fa fa-android"></i> <i class="fa fa-windows"></i>');?></li> <!--Mobile Clients-->
-							<li title="" rel="tooltip"><?php echo $l->t('<i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-check"></i>');?></li> <!-- Auto upload images/video/other files -->
+							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-check"></i></li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i> <i class="fa fa-linux"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--LAN Synchronization-->
 							<li title="<?php echo $l->t('Over 200 apps available');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
@@ -227,7 +227,7 @@
 							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small>2013/2016</small></div></li> <!--Sharepoint-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible storage-->
 						</ul>
-					');?></li> <!-- .product -->
+					</li> <!-- .product -->
 
 					<li class="product">
 						<div class="top-info">
@@ -309,7 +309,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Sharepoint-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Extensible storage-->
 							</ul>
-					');?></li> <!-- .product -->
+					</li> <!-- .product -->
 
 					<li class="product">
 						<div class="top-info">
@@ -392,7 +392,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Sharepoint-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible storage-->
 							</ul>
-					');?></li> <!-- .product -->
+					</li> <!-- .product -->
 
 					<li class="product">
 						<div class="top-info">
@@ -474,7 +474,7 @@
 							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small>2013/2016</small></div></li> <!--Sharepoint-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible storage-->
 						</ul>
-					');?></li> <!-- .product -->
+					</li> <!-- .product -->
 
 					<li class="product">
 						<div class="top-info">
@@ -555,7 +555,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Sharepoint-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Extensible storage-->
 							</ul>
-					');?></li> <!-- .product -->
+					</li> <!-- .product -->
 
 					<li class="product">
 						<div class="top-info">
@@ -637,7 +637,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Sharepoint-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible storage-->
 							</ul>
-					');?></li> <!-- .product -->
+					</li> <!-- .product -->
 					<li class="product">
 						<div class="top-info">
 							<div class="check"></div>
@@ -718,7 +718,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Sharepoint-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Extensible storage-->
 							</ul>
-					');?></li> <!-- .product -->
+					</li> <!-- .product -->
 					<li class="product">
 						<div class="top-info">
 							<div class="check"></div>
@@ -799,7 +799,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Sharepoint-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible storage-->
 							</ul>
-					');?></li> <!-- .product -->
+					</li> <!-- .product -->
 
 					<li class="product">
 						<div class="top-info">
@@ -896,8 +896,12 @@
 </section>
 <section class="disclaimer">
 <div class="container">
-<p><?php echo $l->t('Based on public information to our best knowledge, gathered September 2 2018. We understand the world is constantly changing, if you see we missed a feature or made a mistake, let us know.');?> You can use <a href="<?php echo home_url('contact') ?>">our contact form.</a></p>
-<p><?php echo $l->t('Note that end-to-end encryption in a browser is not the same as client-side encryption as it fails to protect adequately from the server (it does not offer \'zero-knowledge\' protection). The security experts at the British NCC Group have <a class="hyperlink" href="https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2011/august/javascript-cryptography-considered-harmful/">written on this subject,</a> considering javascript encryption in the browser "harmful".');?></p>
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <p><?php echo $l->t('Based on public information to our best knowledge, gathered September 2 2018. We understand the world is constantly changing, if you see we missed a feature or made a mistake, let us know.');?> You can use <a href="<?php echo home_url('contact') ?>">our contact form.</a></p>
+            <p><?php echo $l->t('Note that end-to-end encryption in a browser is not the same as client-side encryption as it fails to protect adequately from the server (it does not offer \'zero-knowledge\' protection). The security experts at the British NCC Group have <a class="hyperlink" href="https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2011/august/javascript-cryptography-considered-harmful/">written on this subject,</a> considering javascript encryption in the browser "harmful".');?></p>
+        </div>
+    </div>
 </div>
 </section>
 
