@@ -813,7 +813,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip"><?php echo $l->t('2GB');?></li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Self hosted/on premises-->
-							<li title="<?php echo $l->t('real limites are unclear');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
+							<li title="<?php echo $l->t('real limits are unclear');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
