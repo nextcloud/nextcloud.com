@@ -1,11 +1,11 @@
-<head
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/modules/jquery-321.min.js"></script>
+<head>
+<!-- <script src="<?php echo get_template_directory_uri(); ?>/assets/js/modules/jquery-321.min.js"></script> -->
 <script>
 	require(["require.config"], function() {
 		require(["jquery", "pages/compare"])
 	});
 </script>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/compare.css?v=1" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/compare.css?v=2" rel="stylesheet">
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/comparison.png">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/comparison.png">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/comparison.png">
@@ -50,8 +50,7 @@
     </div>
 </div>
 </section>
-<hr>
-<section class="section--comparision">
+<section class="section--comparison">
 <div class="container">
     <h1 class="text-center"><?php echo $l->t('Compare products');?></h1>
     <div class="row">
@@ -60,94 +59,89 @@
         </div>
     </div>
 </div>
-<section class="cd-products-comparison-table">
-	<div class="container-fluid">
-	<section class="cd-intro">
-<!-- 		<h1>Compare Cloud Storage Technologies</h1> -->
-	</section> <!-- .cd-intro -->
-	<section class="cd-products-comparison-table">
+<div class="container-fluid">
+	<div class="cd-products-comparison-table">
 		<header>
-			<h2><small><?php echo $l->t('Click on or hover items to learn more.');?><br/><?php echo $l->t('You can pick a few items and filter the list to only show those.');?></small></h2>
 			<div class="actions">
-			<br />
 				<a href="#0" class="reset">Reset</a>
 				<a href="#0" class="filter">Filter</a>
 			</div>
+			<p><?php echo $l->t('Click on or hover items to learn more.');?><br/><?php echo $l->t('You can pick a few items and filter the list to only show those.');?></p>
 		</header>
 		<div class="cd-products-table">
 			<div class="features">
 				<div class="top-info"></div>
 				<ul class="cd-features-list">
-					<li title="" rel="tooltip"><a href="https://nextcloud.com/blog/why-the-agpl-is-great-for-business-users/">License</a></li> <!--License-->
-					<li title="Limits imposed by either the purchased plan or your own infrastructure when self-hosting" rel="tooltip">Unlimited storage and amount of files</li> <!-- Unlimited storage -->
-					<li title="" rel="tooltip">Large file support</li> <!--Large file support-->
-					<li title="" rel="tooltip">Self hosted/on premises</li> <!--Self hosted/on premises-->
-					<li title="Sharding across clusters and data centers" rel="tooltip">Global scalability</li> <!--Scalability limits-->
-						<li class="cd-group">Clients</li> <!--Client-->
-					<li title="" rel="tooltip">Mobile Clients</li> <!--Mobile Clients-->
-					<li title="" rel="tooltip">Auto upload images/video/other files</li> <!-- Auto upload images/video/other files -->
-					<li title="" rel="tooltip">Desktop clients</li> <!--Desktop clients-->
-					<li title="" rel="tooltip">LAN Synchronization</li> <!--LAN Synchronization-->
-					<li title="Allows third party to write apps that integrate apps in the cloud itself, adding functionality" rel="tooltip">Extensible with apps</li> <!--Extensible with apps-->
-					<li title="" rel="tooltip">Outlook integration</li> <!--Outlook integration-->
-						<li class="cd-group">Server features</li> <!--Server features-->
-					<li title="Cross-application search (Calendars, mails, chat messages, files etc)" rel="tooltip">Unified search</li> <!--Full text search-->
-					<li title="" rel="tooltip">File Versioning</li> <!--File Versioning-->
-					<li title="Block a file temporarily from being edited while you work offline with it" rel="tooltip">File Locking/checkout</li> <!--File Locking-->
-					<li title="" rel="tooltip">Multiple link shares</li> <!--Multiple shares-->
-					<li title="Add a note for the sharee" rel="tooltip">Share note</li> <!--Share Metadata-->
-					<li title="Dashboard app with overview of info like recent files, chats, calendar items and more" rel="tooltip">Dashboard</li> <!--Dashboard-->
-					<li title="" rel="tooltip">View PDF, images, video, gallery</li> <!--View PDF, images, video, gallery-->
-					<li title="" rel="tooltip">Integrated Audio/Video/Text chat</li> <!--Audio/Video/Text chat-->
-					<li title="" rel="tooltip">Integrated Groupware<br> (Calendar/Contacts/<br>Mail/Kanban)</li> <!--Calendar/Contact/Mail integration-->
-					<li title="" rel="tooltip">Mobile calendar/contact integration</li> <!--Mobile calendar/contact integration-->
- 					<li title="Integrated in browser / integrated in own mobile apps" rel="tooltip">Online Office web / mobile apps</li> <!--Online Office-->
-					<li title="Public link to folder recipient can upload to, which hides existing content of the shared folder" rel="tooltip">File Drop (customer file upload)</li> <!--File Drop (customer file upload)-->
-					<li title="Protect public links with Video Verification" rel="tooltip">Video Verification</li> <!-- Video Verification -->
-					<li title="Sharing between separate cloud instances of different vendors. Example, Nextcloud users can share files with users on Pydio and ownCloud servers." rel="tooltip">Inter-server sharing</li> <!--Inter-server sharing-->
-					<li title="Add context to a folder by having a space to add comments, notes and todo lists" rel="tooltip">Workspaces</li> <!-- Workspaces -->
-                        <li class="cd-group">Accessibility</li> <!--Accessibility-->
-					<li title="" rel="tooltip">Keyboard/screen reader support</li> <!--Keyboard/screen reader support-->
-					<li title="" rel="tooltip">WCAG 2.1 support</li> <!--WCAG 2.1 support-->
-					<li title="" rel="tooltip">Dyslexia-friendly font</li> <!--Dyslexia-friendly font-->
-						<li class="cd-group">Admin features</li> <!--Admin features-->
-                    <li title="Permissions on files and folders, inherited by default, can be overridden at any level." rel="tooltip">Access control lists</li> <!--Access control lists-->
-					<li title="" rel="tooltip">Content workflow automation</li> <!--Content workflow automation-->
-					<li title="" rel="tooltip">Automatic script execution</li> <!--Automatic script execution-->
-					<li title="" rel="tooltip">Impersonate users</li> <!--impersonate users-->
-					<li title="files created, updated, shared, unshared and deleted by user or others, chat or call received etc" rel="tooltip">Real time notifications</li> <!--Real-time (push) notifications-->
-					<li title="" rel="tooltip">Monitoring web/API interface</li> <!--Monitoring web/API interface-->
-					<li title="" rel="tooltip">Data retention policy support</li> <!--Data retention policy support-->
-					<li title="Life cycle matching your operating system" rel="tooltip">Long term support (5-10 years)</li> <!--Long term support (5-10 years)-->
-					<li title="" rel="tooltip">Branding</li> <!--Branding-->
-						<li class="cd-group">Compliance features</li> <!--Compliance features-->
-					<li title="Mandatory if you have a legal requirement to find out who did what and when." rel="tooltip">Full audit trail</li> <!--Full audit trail-->
-					<li title="" rel="tooltip">Imprint and privacy links</li> <!--Imprint and privacy links-->
-					<li title="" rel="tooltip">Built in data-request/account deletion</li> <!--Built in data-request/account deletion-->
-					<li title="" rel="tooltip">Terms-of-service</li> <!--Terms-of-service-->
-                        <li class="cd-group">Security features</li> <!--Security features-->
-					<li title="" rel="tooltip">Server side encryption</li> <!--Server side encryption-->
-					<li title="" rel="tooltip">Client side encryption</li> <!--Client side encryption-->
-					<li title="Optionally verify identity of recipient by video call" rel="tooltip">Video Verification</li> <!--Video Verification-->
-					<li title="" rel="tooltip">Brute force hacking protection</li> <!--Brute force hacking protection-->
-					<li title="" rel="tooltip">NIST compliant password policy</li> <!--NIST compliant password policy-->
-					<li title="" rel="tooltip">Web UI secured with CSP 3.0</li> <!--Web UI secured with CSP 3.0-->
-					<li title="" rel="tooltip">With same-site cookie attribute</li> <!--With same-site cookies-->
-					<li title="" rel="tooltip">File Access Control</li> <!--File Access Control-->
-					<li title="Allow restricting mobile/desktop/third party applications access to filesystem or other data" rel="tooltip">App access rights</li> <!--App access rights-->
-						<li class="cd-group">Authentication</li> <!--Authentication-->
-					<li title="" rel="tooltip">enforcable 2-factor authentication</li> <!--2-factor authentication-->
-                    <li title="Uses machine learning technology to protect authentication" rel="tooltip">ML based suspicious login detection</li> <!--Suspicious Login Detection-->
-					<li title="" rel="tooltip">LDAP/AD</li> <!--LDAP/AD-->
-					<li title="Native SAML is implemented directly in the application without a requirements on external software like Apache modules. Native SAML is compatible with all webservers and supports group memberships, flexible session management, multiple identity providers and app specific passwords." rel="tooltip">Native SAML</li> <!-- Native SAML -->
-					<li title="Authentication through Apache modules allows eg SAML/ShibbolethADFS, OAuth, OpenID, CAS and more." rel="tooltip">Auth via env variable</li> <!--Auth via env variable-->
-					<li title="" rel="tooltip">Kerberos</li> <!--Kerberos-->
-						<li class="cd-group">Storage</li> <!--Storage-->
-					<li title="" rel="tooltip">File storage (local/NFS)</li> <!--File storage (local/NFS)-->
-					<li title="" rel="tooltip">Object storage (S3/Swift)</li> <!--Object storage (S3/Swift)-->
-					<li title="" rel="tooltip">CIFS/Windows Shares</li> <!--CIFS/Windows Shares-->
-					<li title="" rel="tooltip">Sharepoint</li> <!--Sharepoint-->
-					<li title="" rel="tooltip">Extensible storage</li> <!--Extensible storage-->
+					<li title="" rel="tooltip"><a href="https://nextcloud.com/blog/why-the-agpl-is-great-for-business-users/"><?php echo $l->t('Licensing');?></a></li> <!--License-->
+					<li title="<?php echo $l->t('Limits imposed by either the purchased plan or your own infrastructure when self-hosting');?>" rel="tooltip"><?php echo $l->t('Unlimited storage and amount of files');?></li> <!-- Unlimited storage -->
+					<li title="" rel="tooltip"><?php echo $l->t('Large file support');?></li> <!--Large file support-->
+					<li title="" rel="tooltip"><?php echo $l->t('Self hosted/on premises');?></li> <!--Self hosted/on premises-->
+					<li title="<?php echo $l->t('Sharding across clusters and data centers');?>" rel="tooltip"><?php echo $l->t('Global scalability');?></li> <!--Scalability limits-->
+						<li class="cd-group"><?php echo $l->t('Clients');?></li> <!--Client-->
+					<li title="" rel="tooltip"><?php echo $l->t('Mobile Clients');?></li> <!--Mobile Clients-->
+					<li title="" rel="tooltip"><?php echo $l->t('Auto upload images/video/other files');?></li> <!-- Auto upload images/video/other files -->
+					<li title="" rel="tooltip"><?php echo $l->t('Desktop clients');?></li> <!--Desktop clients-->
+					<li title="" rel="tooltip"><?php echo $l->t('LAN Synchronization');?></li> <!--LAN Synchronization-->
+					<li title="<?php echo $l->t('Allows third party to write apps that integrate apps in the cloud itself, adding functionality');?>" rel="tooltip"><?php echo $l->t('Extensible with apps');?></li> <!--Extensible with apps-->
+					<li title="" rel="tooltip"><?php echo $l->t('Outlook integration');?></li> <!--Outlook integration-->
+						<li class="cd-group"><?php echo $l->t('Server features');?></li> <!--Server features-->
+					<li title="<?php echo $l->t('Cross-application search (Calendars, mails, chat messages, files etc)');?>" rel="tooltip"><?php echo $l->t('Unified search');?></li> <!--Full text search-->
+					<li title="" rel="tooltip"><?php echo $l->t('File Versioning');?></li> <!--File Versioning-->
+					<li title="<?php echo $l->t('Block a file temporarily from being edited while you work offline with it');?>" rel="tooltip"><?php echo $l->t('File Locking/checkout');?></li> <!--File Locking-->
+					<li title="" rel="tooltip"><?php echo $l->t('Multiple link shares');?></li> <!--Multiple shares-->
+					<li title="<?php echo $l->t('Add a note for the sharee');?>" rel="tooltip"><?php echo $l->t('Share note');?></li> <!--Share Metadata-->
+					<li title="<?php echo $l->t('Dashboard app with overview of info like recent files, chats, calendar items and more');?>" rel="tooltip"><?php echo $l->t('Dashboard');?></li> <!--Dashboard-->
+					<li title="" rel="tooltip"><?php echo $l->t('View PDF, images, video, gallery');?></li> <!--View PDF, images, video, gallery-->
+					<li title="" rel="tooltip"><?php echo $l->t('Integrated Audio/Video/Text chat');?></li> <!--Audio/Video/Text chat-->
+					<li title="" rel="tooltip"><?php echo $l->t('Integrated Groupware<br> (Calendar/Contacts/<br>Mail/Kanban)');?></li> <!--Calendar/Contact/Mail integration-->
+					<li title="" rel="tooltip"><?php echo $l->t('Mobile calendar/contact integration');?></li> <!--Mobile calendar/contact integration-->
+ 					<li title="<?php echo $l->t('Integrated in browser / integrated in own mobile apps');?>" rel="tooltip"><?php echo $l->t('Online Office web / mobile apps');?></li> <!--Online Office-->
+					<li title="<?php echo $l->t('Public link to folder recipient can upload to, which hides existing content of the shared folder');?>" rel="tooltip"><?php echo $l->t('File Drop (customer file upload)');?></li> <!--File Drop (customer file upload)-->
+					<li title="<?php echo $l->t('Protect public links with Video Verification');?>" rel="tooltip"><?php echo $l->t('Video Verification');?></li> <!-- Video Verification -->
+					<li title="<?php echo $l->t('Sharing between separate cloud instances of different vendors. Example, Nextcloud users can share files with users on Pydio and ownCloud servers.');?>" rel="tooltip"><?php echo $l->t('Inter-server sharing');?></li> <!--Inter-server sharing-->
+					<li title="<?php echo $l->t('Add context to a folder by having a space to add comments, notes and todo lists');?>" rel="tooltip"><?php echo $l->t('Workspaces');?></li> <!-- Workspaces -->
+                        <li class="cd-group"><?php echo $l->t('Accessibility');?></li> <!--Accessibility-->
+					<li title="" rel="tooltip"><?php echo $l->t('Keyboard/screen reader support');?></li> <!--Keyboard/screen reader support-->
+					<li title="" rel="tooltip"><?php echo $l->t('WCAG 2.1 support');?></li> <!--WCAG 2.1 support-->
+					<li title="" rel="tooltip"><?php echo $l->t('Dyslexia-friendly font');?></li> <!--Dyslexia-friendly font-->
+						<li class="cd-group"><?php echo $l->t('Admin features');?></li> <!--Admin features-->
+                    <li title="<?php echo $l->t('Permissions on files and folders, inherited by default, can be overridden at any level.');?>" rel="tooltip"><?php echo $l->t('Access control lists');?></li> <!--Access control lists-->
+					<li title="" rel="tooltip"><?php echo $l->t('Content workflow automation');?></li> <!--Content workflow automation-->
+					<li title="" rel="tooltip"><?php echo $l->t('Automatic script execution');?></li> <!--Automatic script execution-->
+					<li title="" rel="tooltip"><?php echo $l->t('Impersonate users');?></li> <!--impersonate users-->
+					<li title="<?php echo $l->t('files created, updated, shared, unshared and deleted by user or others, chat or call received etc');?>" rel="tooltip"><?php echo $l->t('Real time notifications');?></li> <!--Real-time (push) notifications-->
+					<li title="" rel="tooltip"><?php echo $l->t('Monitoring web/API interface');?></li> <!--Monitoring web/API interface-->
+					<li title="" rel="tooltip"><?php echo $l->t('Data retention policy support');?></li> <!--Data retention policy support-->
+					<li title="<?php echo $l->t('Life cycle matching your operating system');?>" rel="tooltip"><?php echo $l->t('Long term support (5-10 years)');?></li> <!--Long term support (5-10 years)-->
+					<li title="" rel="tooltip"><?php echo $l->t('Branding');?></li> <!--Branding-->
+						<li class="cd-group"><?php echo $l->t('Compliance features');?></li> <!--Compliance features-->
+					<li title="<?php echo $l->t('Mandatory if you have a legal requirement to find out who did what and when.');?>" rel="tooltip"><?php echo $l->t('Full audit trail');?></li> <!--Full audit trail-->
+					<li title="" rel="tooltip"><?php echo $l->t('Imprint and privacy links');?></li> <!--Imprint and privacy links-->
+					<li title="" rel="tooltip"><?php echo $l->t('Built in data-request/account deletion');?></li> <!--Built in data-request/account deletion-->
+					<li title="" rel="tooltip"><?php echo $l->t('Terms-of-service');?></li> <!--Terms-of-service-->
+                        <li class="cd-group"><?php echo $l->t('Security features');?></li> <!--Security features-->
+					<li title="" rel="tooltip"><?php echo $l->t('Server side encryption');?></li> <!--Server side encryption-->
+					<li title="" rel="tooltip"><?php echo $l->t('Client side encryption');?></li> <!--Client side encryption-->
+					<li title="<?php echo $l->t('Optionally verify identity of recipient by video call');?>" rel="tooltip"><?php echo $l->t('Video Verification');?></li> <!--Video Verification-->
+					<li title="" rel="tooltip"><?php echo $l->t('Brute force hacking protection');?></li> <!--Brute force hacking protection-->
+					<li title="" rel="tooltip"><?php echo $l->t('NIST compliant password policy');?></li> <!--NIST compliant password policy-->
+					<li title="" rel="tooltip"><?php echo $l->t('Web UI secured with CSP 3.0');?></li> <!--Web UI secured with CSP 3.0-->
+					<li title="" rel="tooltip"><?php echo $l->t('With same-site cookie attribute');?></li> <!--With same-site cookies-->
+					<li title="" rel="tooltip"><?php echo $l->t('File Access Control');?></li> <!--File Access Control-->
+					<li title="<?php echo $l->t('Allow restricting mobile/desktop/third party applications access to filesystem or other data');?>" rel="tooltip"><?php echo $l->t('App access rights');?></li> <!--App access rights-->
+						<li class="cd-group"><?php echo $l->t('Authentication');?></li> <!--Authentication-->
+					<li title="" rel="tooltip"><?php echo $l->t('enforcable 2-factor authentication');?></li> <!--2-factor authentication-->
+                    <li title="<?php echo $l->t('Uses machine learning technology to protect authentication');?>" rel="tooltip"><?php echo $l->t('ML based suspicious login detection');?></li> <!--Suspicious Login Detection-->
+					<li title="" rel="tooltip"><?php echo $l->t('LDAP/AD');?></li> <!--LDAP/AD-->
+					<li title="<?php echo $l->t('Native SAML is implemented directly in the application without a requirements on external software like Apache modules. Native SAML is compatible with all webservers and supports group memberships, flexible session management, multiple identity providers and app specific passwords.');?>" rel="tooltip"><?php echo $l->t('Native SAML');?></li> <!-- Native SAML -->
+					<li title="<?php echo $l->t('Authentication through Apache modules allows eg SAML/ShibbolethADFS, OAuth, OpenID, CAS and more.');?>" rel="tooltip"><?php echo $l->t('Auth via env variable');?></li> <!--Auth via env variable-->
+					<li title="" rel="tooltip"><?php echo $l->t('Kerberos');?></li> <!--Kerberos-->
+						<li class="cd-group"><?php echo $l->t('Storage');?></li> <!--Storage-->
+					<li title="" rel="tooltip"><?php echo $l->t('File storage (local/NFS)');?></li> <!--File storage (local/NFS)-->
+					<li title="" rel="tooltip"><?php echo $l->t('Object storage (S3/Swift)');?></li> <!--Object storage (S3/Swift)-->
+					<li title="" rel="tooltip"><?php echo $l->t('CIFS/Windows Shares');?></li> <!--CIFS/Windows Shares-->
+					<li title="" rel="tooltip"><?php echo $l->t('Sharepoint');?></li> <!--Sharepoint-->
+					<li title="" rel="tooltip"><?php echo $l->t('Extensible storage');?></li> <!--Extensible storage-->
 				</ul>
 			</div> <!-- .features -->
 
@@ -161,40 +155,40 @@
 						</div> <!-- .top-info -->
 
 						<ul class="cd-features-list">
-							<li title="open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Open Source</li> <!--License-->
-							<li title="The limit is customer infrastructure. There are no limits from the Nextcloud side." rel="tooltip"><i class="fa fa-check"></i></li> <!-- Unlimited storage -->
+							<li title="<?php echo $l->t('open source = any OSI approved license. Anything else is proprietary.');?>" rel="tooltip"><?php echo $l->t('Open Source');?></li> <!--License-->
+							<li title="<?php echo $l->t('The limit is customer infrastructure. There are no limits from the Nextcloud side.');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Large file support-->
-							<li title="can be hosted wherever you decide, including hybrid." rel="tooltip"><i class="fa fa-check"></i></li> <!--Self hosted/on premises-->
-							<li title="single cluster: up to 100K active users. With Global Scale: unlimited." rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
-								<li class="cd-group"></li> <!--Client-->
-							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i> <i class="fa fa-windows"></i></li> <!--Mobile Clients-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-check"></i></li> <!-- Auto upload images/video/other files -->
+							<li title="<?php echo $l->t('can be hosted wherever you decide, including hybrid.');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Self hosted/on premises-->
+							<li title="<?php echo $l->t('single cluster: up to 100K active users. With Global Scale: unlimited.');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
+							<li title="" rel="tooltip"><?php echo $l->t('<i class="fa fa-apple"></i> <i class="fa fa-android"></i> <i class="fa fa-windows"></i>');?></li> <!--Mobile Clients-->
+							<li title="" rel="tooltip"><?php echo $l->t('<i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-check"></i>');?></li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i> <i class="fa fa-linux"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--LAN Synchronization-->
-							<li title="Over 200 apps available" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
+							<li title="<?php echo $l->t('Over 200 apps available');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
 
-							<li title="Free version for home/small business users, paid with more features for larger enterprises" rel="tooltip"><i class="fa fa-check"></i></li> <!--Outlook integration-->
-								<li class="cd-group"></li> <!--Server features-->
+							<li title="<?php echo $l->t('Free version for home/small business users, paid with more features for larger enterprises');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Outlook integration-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Server features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Full text search-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Versioning-->
-							<li title="Does NOT block collaborative editing" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
+							<li title="<?php echo $l->t('Does NOT block collaborative editing');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Multiple shares-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Share Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Dashboard-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Calendar/Contact/Mail integration-->
-							<li title="both Android/iOS (Android with integrated 3rd party tool)" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="With Collabora Online, ONLYOFFICE, Hancom Office or MS Office Online" rel="tooltip"><div><i class="fa fa-check"></i> / <i class="fa fa-check"></i><br /><small>4 options</small></div></li> <!--Online Office-->
+							<li title="<?php echo $l->t('both Android/iOS (Android with integrated 3rd party tool)');?>" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Mobile calendar/contact integration-->
+							<li title="<?php echo $l->t('With Collabora Online, ONLYOFFICE, Hancom Office or MS Office Online');?>" rel="tooltip"><div><i class="fa fa-check"></i> / <i class="fa fa-check"></i><br /><small>4 options</small></div></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Inter-server sharing-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Workspaces -->
-                                <li class="cd-group"></li> <!--Accessibility-->
+                                <li class="cd-group"><?php echo $l->t('');?></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Keyboard/screen reader support-->
-                            <li title="AAA with optional theme" class="green" rel="tooltip">AA/AAA</li> <!--WCAG 2.1 support-->
+                            <li title="<?php echo $l->t('AAA with optional theme" class="green');?>" rel="tooltip">AA/AAA</li> <!--WCAG 2.1 support-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Dyslexia-friendly font-->
-								<li class="cd-group"></li> <!--Admin features-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Admin features-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Access control lists-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Automatic script execution-->
@@ -203,37 +197,37 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Data retention policy support-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Long term support (5-10 years)-->
-							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small>Easy self-service in UI or full custom CSS</small></div></li> <!--Branding-->
-								<li class="cd-group"></li> <!--Compliance features-->
+							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small><?php echo $l->t('Easy self-service in UI or full custom CSS');?></small></div></li> <!--Branding-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Compliance features-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Full audit trail-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Imprint and privacy links-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Terms-of-service-->
-							<li class="cd-group"></li> <!--Security features-->
+							<li class="cd-group"><?php echo $l->t('');?></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Server side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Client side encryption-->
-							<li title="Optionally verify identity of recipient by video call" rel="tooltip"><i class="fa fa-check"></i></li> <!--Video Verification-->
+							<li title="<?php echo $l->t('Optionally verify identity of recipient by video call');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Video Verification-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--NIST compliant password policy-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Web UI secured with CSP 3.0-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--With same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--App access rights-->
-								<li class="cd-group"></li> <!--Authentication-->
-                            <li title="Supports multiple factors" rel="tooltip">U2F/OTP/SMS Signal/Telegram notifications</li> <!--2-factor authentication-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Authentication-->
+                            <li title="<?php echo $l->t('Supports multiple factors');?>" rel="tooltip"><?php echo $l->t('U2F/OTP/SMS Signal/Telegram notifications');?></li> <!--2-factor authentication-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Suspicious Login Detection-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Auth via env variable-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Kerberos-->
-								<li class="cd-group"></li> <!--Storage-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Storage-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File storage (local/NFS)-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Object storage (S3/Swift)-->
-							<li title="Also supports Kerberos" rel="tooltip"><i class="fa fa-check"></i></li> <!--CIFS/Windows Shares-->
+							<li title="<?php echo $l->t('Also supports Kerberos');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--CIFS/Windows Shares-->
 							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small>2013/2016</small></div></li> <!--Sharepoint-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible storage-->
 						</ul>
-					</li> <!-- .product -->
+					');?></li> <!-- .product -->
 
 					<li class="product">
 						<div class="top-info">
@@ -243,22 +237,22 @@
 						</div> <!-- .top-info -->
 
 						<ul class="cd-features-list">
-							<li title="open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Proprietary</li> <!--License-->
+							<li title="<?php echo $l->t('open source = any OSI approved license. Anything else is proprietary.');?>" rel="tooltip"><?php echo $l->t('Proprietary');?></li> <!--License-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Self hosted/on premises-->
-							<li title="5K in one group, 10K for educational organizations, unclear limits otherwise" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
-								<li class="cd-group"></li> <!--Client-->
+							<li title="<?php echo $l->t('5K in one group, 10K for educational organizations, unclear limits otherwise');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
-							<li title="can do files with external app" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
+							<li title="<?php echo $l->t('can do files with external app');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--LAN Synchronization-->
-							<li title="No third-party apps that can be integrated" rel="tooltip"><i class="fa fa-times"></i></li> <!--Extensible with apps-->
+							<li title="<?php echo $l->t('No third-party apps that can be integrated');?>" rel="tooltip"><i class="fa fa-times"></i></li> <!--Extensible with apps-->
 
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Outlook integration-->
-								<li class="cd-group"></li> <!--Server features-->
-							<li title="Full-text search costs money, cross-application search free" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Full text search-->
-							<li title="" rel="tooltip">limited</li> <!--File Versioning-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Server features-->
+							<li title="<?php echo $l->t('Full-text search costs money, cross-application search free');?>" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Full text search-->
+							<li title="" rel="tooltip"><?php echo $l->t('limited');?></li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Share Metadata-->
@@ -272,26 +266,26 @@
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Workspaces -->
-							    <li class="cd-group"></li> <!--Accessibility-->
+							    <li class="cd-group"><?php echo $l->t('');?></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--WCAG 2.1 support-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Dyslexia-friendly font-->
-								<li class="cd-group"></li> <!--Admin features-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Admin features-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Access control lists-->
-							<li title="Only via third party app" rel="tooltip"><i class="fa fa-clock-o"></i></li> <!--Content workflow automation-->
+							<li title="<?php echo $l->t('Only via third party app');?>" rel="tooltip"><i class="fa fa-clock-o"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--impersonate users-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Monitoring web/API interface-->
-							<li title="max 6 months" rel="tooltip">limited	</li> <!--Data retention policy support-->
-							<li title="Hosted only, customer has no control over when/what changes" rel="tooltip">N.A.</li> <!--Long term support (5-10 years)-->
-							<li title="" rel="tooltip">very limited</li> <!--Branding-->
-                                <li class="cd-group"></li> <!--Compliance features-->
-							<li title="" rel="tooltip">limited</li> <!--Full audit trail-->
-                            <li title="Only to their imprint and privacy policy, not yours" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Imprint and privacy links-->
-                            <li title="You can request (deletion of) data" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
-                            <li title="You and your customers you share with have to agree to their terms" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Terms-of-service-->
-								<li class="cd-group"></li> <!--Security features-->
+							<li title="<?php echo $l->t('max 6 months');?>" rel="tooltip"><?php echo $l->t('limited	');?></li> <!--Data retention policy support-->
+							<li title="<?php echo $l->t('Hosted only, customer has no control over when/what changes');?>" rel="tooltip"><?php echo $l->t('N.A.');?></li> <!--Long term support (5-10 years)-->
+							<li title="" rel="tooltip"><?php echo $l->t('very limited');?></li> <!--Branding-->
+                                <li class="cd-group"><?php echo $l->t('');?></li> <!--Compliance features-->
+							<li title="" rel="tooltip"><?php echo $l->t('limited');?></li> <!--Full audit trail-->
+                            <li title="<?php echo $l->t('Only to their imprint and privacy policy, not yours');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Imprint and privacy links-->
+                            <li title="<?php echo $l->t('You can request (deletion of) data');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
+                            <li title="<?php echo $l->t('You and your customers you share with have to agree to their terms');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Terms-of-service-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Server side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Video Verification-->
@@ -301,21 +295,21 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--With same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--App access rights-->
-								<li class="cd-group"></li> <!--Authentication-->
-                            <li title="Multiple factors" rel="tooltip">U2F/OTP/SMS notifications</li> <!--2-factor authentication-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Authentication-->
+                            <li title="<?php echo $l->t('Multiple factors');?>" rel="tooltip"><?php echo $l->t('U2F/OTP/SMS notifications');?></li> <!--2-factor authentication-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Suspicious Login Detection-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Auth via env variable-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Kerberos-->
-								<li class="cd-group"></li> <!--Storage-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Storage-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File storage (local/NFS)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Object storage (S3/Swift)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--CIFS/Windows Shares-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Sharepoint-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Extensible storage-->
 							</ul>
-					</li> <!-- .product -->
+					');?></li> <!-- .product -->
 
 					<li class="product">
 						<div class="top-info">
@@ -326,22 +320,22 @@
 						</div> <!-- .top-info -->
 
 						<ul class="cd-features-list">
-							<li title="open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Proprietary</li> <!--License-->
+							<li title="<?php echo $l->t('open source = any OSI approved license. Anything else is proprietary.');?>" rel="tooltip"><?php echo $l->t('Proprietary');?></li> <!--License-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Unlimited storage -->
-							<li title="" rel="tooltip">10GB</li> <!--Large file support-->
+							<li title="" rel="tooltip"><?php echo $l->t('10GB');?></li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Self hosted/on premises-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
-								<li class="cd-group"></li> <!--Client-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
-							<li title="Can be done with external app" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
+							<li title="<?php echo $l->t('Can be done with external app');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--LAN Synchronization-->
-							<li title="Limited to Microsoft Apps" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
+							<li title="<?php echo $l->t('Limited to Microsoft Apps');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
 
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Outlook integration-->
-								<li class="cd-group"></li> <!--Server features-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Server features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Full text search-->
-							<li title="Only for MS Office files" rel="tooltip">limited</li> <!--File Versioning-->
+							<li title="<?php echo $l->t('Only for MS Office files');?>" rel="tooltip"><?php echo $l->t('limited');?></li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Share Metadata-->
@@ -350,31 +344,31 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="feature-limited in web and mobile UI compared to desktop" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
+							<li title="<?php echo $l->t('feature-limited in web and mobile UI compared to desktop');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
-							<li title="Can pin files to the top of a folder, which gives a big preview." rel="tooltip"><i class="fa fa-times"></i>*</li> <!-- Workspaces -->
-							    <li class="cd-group"></li> <!--Accessibility-->
+							<li title="<?php echo $l->t('Can pin files to the top of a folder, which gives a big preview.');?>" rel="tooltip"><i class="fa fa-times"></i>*</li> <!-- Workspaces -->
+							    <li class="cd-group"><?php echo $l->t('');?></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--WCAG 2.1 support-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Dyslexia-friendly font-->
-								<li class="cd-group"></li> <!--Admin features-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Admin features-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Access control lists-->
-							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small>limited to admins</small></div></li> <!--Content workflow automation-->
+							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small><?php echo $l->t('limited to admins');?></small></div></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--impersonate users-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Data retention policy support-->
-							<li title="Hosted only, customer has no control over when/what changes" rel="tooltip">N.A.</li> <!--Long term support (5-10 years)-->
+							<li title="<?php echo $l->t('Hosted only, customer has no control over when/what changes');?>" rel="tooltip"><?php echo $l->t('N.A.');?></li> <!--Long term support (5-10 years)-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Branding-->
-                                <li class="cd-group"></li> <!--Compliance features-->
-							<li title="" rel="tooltip">limited</li> <!--Full audit trail-->
-                            <li title="Only to their imprint and privacy policy, not yours" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Imprint and privacy links-->
-                            <li title="You can request (deletion of) data" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
-                            <li title="You and your customers you share with have to agree to their terms" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Terms-of-service-->
-								<li class="cd-group"></li> <!--Security features-->
+                                <li class="cd-group"><?php echo $l->t('');?></li> <!--Compliance features-->
+							<li title="" rel="tooltip"><?php echo $l->t('limited');?></li> <!--Full audit trail-->
+                            <li title="<?php echo $l->t('Only to their imprint and privacy policy, not yours');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Imprint and privacy links-->
+                            <li title="<?php echo $l->t('You can request (deletion of) data');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
+                            <li title="<?php echo $l->t('You and your customers you share with have to agree to their terms');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Terms-of-service-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Server side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Video Verification-->
@@ -384,21 +378,21 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--With same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--App access rights-->
-								<li class="cd-group"></li> <!--Authentication-->
-                            <li title="Supports multiple 2nd factor options" rel="tooltip">U2F/OTP/SMS notifications</li> <!--2-factor authentication-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Authentication-->
+                            <li title="<?php echo $l->t('Supports multiple 2nd factor options');?>" rel="tooltip"><?php echo $l->t('U2F/OTP/SMS notifications');?></li> <!--2-factor authentication-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Suspicious Login Detection-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Auth via env variable-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Kerberos-->
-								<li class="cd-group"></li> <!--Storage-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Storage-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File storage (local/NFS)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Object storage (S3/Swift)-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--CIFS/Windows Shares-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Sharepoint-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible storage-->
 							</ul>
-					</li> <!-- .product -->
+					');?></li> <!-- .product -->
 
 					<li class="product">
 						<div class="top-info">
@@ -408,20 +402,20 @@
 						</div> <!-- .top-info -->
 
 						<ul class="cd-features-list">
-							<li title="[ownCloud Enterprise Edition] open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Proprietary</li> <!--License-->
+							<li title="<?php echo $l->t('[ownCloud Enterprise Edition] open source = any OSI approved license. Anything else is proprietary.');?>" rel="tooltip"><?php echo $l->t('Proprietary');?></li> <!--License-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Self hosted/on premises-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Scalability limits-->
-								<li class="cd-group"></li> <!--Client-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i></li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i> <i class="fa fa-linux"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--LAN Synchronization-->
-							<li title="Over 70 apps available" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
+							<li title="<?php echo $l->t('Over 70 apps available');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
 
 							<li title="" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Outlook integration-->
-								<li class="cd-group"></li> <!--Server features-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Server features-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Full text search-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
@@ -429,58 +423,58 @@
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Share Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Dashboard-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
-							<li title="unsupported" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Audio/Video/Text chat-->
-							<li title="Only as unsupported (Nextcloud-developed) third party apps" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Calendar/Contact/Mail integration-->
-							<li title="Unsupported. Available for iOS, Android possible with tool from Nextcloud partner" rel="tooltip"><i class="fa fa-check optional"></i>/<i class="fa fa-check optional"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="Collabora Online, OnlyOffice, MS Office Online" rel="tooltip"><div><i class="fa fa-check"></i> / <i class="fa fa-times"></i><br /><small>3 options</small></div></li> <!--Online Office-->
+							<li title="<?php echo $l->t('unsupported');?>" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Audio/Video/Text chat-->
+							<li title="<?php echo $l->t('Only as unsupported (Nextcloud-developed) third party apps');?>" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Calendar/Contact/Mail integration-->
+							<li title="<?php echo $l->t('Unsupported. Available for iOS, Android possible with tool from Nextcloud partner');?>" rel="tooltip"><?php echo $l->t('<i class="fa fa-check optional"></i>/<i class="fa fa-check optional"></i>');?></li> <!--Mobile calendar/contact integration-->
+							<li title="<?php echo $l->t('Collabora Online, OnlyOffice, MS Office Online');?>" rel="tooltip"><div><i class="fa fa-check"></i> / <i class="fa fa-times"></i><br /><small><?php echo $l->t('3 options');?></small></div></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Inter-server sharing-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Workspaces -->
-                                <li class="cd-group"></li> <!--Accessibility-->
+                                <li class="cd-group"><?php echo $l->t('');?></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--WCAG 2.1 support-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Dyslexia-friendly font-->
-								<li class="cd-group"></li> <!--Admin features-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Admin features-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Access control lists-->
-							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small>limited to admins</small></div></li> <!--Content workflow automation-->
+							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small><?php echo $l->t('limited to admins');?></small></div></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--impersonate users-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Data retention policy support-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Long term support (5-10 years)-->
-							<li title="Using paid ownBrander or manually changing CSS" rel="tooltip"><i class="fa fa-check"></i></li> <!--Branding-->
-								<li class="cd-group"></li> <!--Compliance features-->
+							<li title="<?php echo $l->t('Using paid ownBrander or manually changing CSS');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Branding-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Compliance features-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Full audit trail-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Imprint and privacy links-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Built in data-request/account deletion-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Terms-of-service-->
-							<li class="cd-group"></li> <!--Security features-->
+							<li class="cd-group"><?php echo $l->t('');?></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Server side encryption-->
-							<li title="Only offering a web E2EE solution without client support so failing to provide zero-knowledge protection" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
+							<li title="<?php echo $l->t('Only offering a web E2EE solution without client support so failing to provide zero-knowledge protection');?>" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Video Verification-->
-							<li title="There is an unsupported external app developed by community student, occasionally updated" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
+							<li title="<?php echo $l->t('There is an unsupported external app developed by community student, occasionally updated');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--NIST compliant password policy-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Web UI secured with CSP 3.0-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--With same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--App access rights-->
-								<li class="cd-group"></li> <!--Authentication-->
-                            <li title="Can't be enforced, only supporting OTP" rel="tooltip"><i class="fa fa-times"></i></li> <!--2-factor authentication-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Authentication-->
+                            <li title="<?php echo $l->t('Ca not be enforced, only supporting OTP');?>" rel="tooltip"><i class="fa fa-times"></i></li> <!--2-factor authentication-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Suspicious Login Detection-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Auth via env variable-->
 							<li title="" rel="tooltip"><i class="fa fa-check" ></i></li> <!--Kerberos-->
-								<li class="cd-group"></li> <!--Storage-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Storage-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File storage (local/NFS)-->
-							<li title="Only support for outdated V2 authentication" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Object storage (S3/Swift)-->
+							<li title="<?php echo $l->t('Only support for outdated V2 authentication');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Object storage (S3/Swift)-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--CIFS/Windows Shares-->
 							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small>2013/2016</small></div></li> <!--Sharepoint-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible storage-->
 						</ul>
-					</li> <!-- .product -->
+					');?></li> <!-- .product -->
 
 					<li class="product">
 						<div class="top-info">
@@ -490,54 +484,54 @@
 						</div> <!-- .top-info -->
 
 						<ul class="cd-features-list">
-							<li title="open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Proprietary</li> <!--License-->
-							<li title="" rel="tooltip">Varies per plan</li> <!-- Unlimited storage -->
-							<li title="" rel="tooltip">5GB</li> <!--Large file support-->
+							<li title="<?php echo $l->t('open source = any OSI approved license. Anything else is proprietary.');?>" rel="tooltip"><?php echo $l->t('Proprietary');?></li> <!--License-->
+							<li title="" rel="tooltip"><?php echo $l->t('Varies per plan');?></li> <!-- Unlimited storage -->
+							<li title="" rel="tooltip"><?php echo $l->t('5GB');?></li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Self hosted/on premises-->
-							<li title="Some limitations exist but nothing is clearly documented" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
-								<li class="cd-group"></li> <!--Client-->
+							<li title="<?php echo $l->t('Some limitations exist but nothing is clearly documented');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
-							<li title="Only paid. Files can be done with external app" rel="tooltip"><i class="fa fa-usd"></i> / <i class="fa fa-usd"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
+							<li title="<?php echo $l->t('Only paid. Files can be done with external app');?>" rel="tooltip"><i class="fa fa-usd"></i> / <i class="fa fa-usd"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--LAN Synchronization-->
-							<li title="Limited Microsoft office integration" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
+							<li title="<?php echo $l->t('Limited Microsoft office integration');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
 							<li title="" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Outlook integration-->
-								<li class="cd-group"></li> <!--Server features-->
-							<li title="full-text search paid, cross-app search not available" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Full text search-->
-							<li title="25-50 revisions depending on plan" rel="tooltip">limited</li> <!--File Versioning-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Server features-->
+							<li title="<?php echo $l->t('full-text search paid, cross-app search not available');?>" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Full text search-->
+							<li title="<?php echo $l->t('25-50 revisions depending on plan');?>" rel="tooltip"><?php echo $l->t('limited');?></li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Share Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Dashboard-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Audio/Video/Text chat-->
-							<li title="not natively, third party app" rel="tooltip"><i class="fa fa-clock-o"></i></li> <!--Calendar/Contact/Mail integration-->
+							<li title="<?php echo $l->t('not natively, third party app');?>" rel="tooltip"><i class="fa fa-clock-o"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="Through Microsoft Office" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
+							<li title="<?php echo $l->t('Through Microsoft Office');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Workspaces -->
-                                <li class="cd-group"></li> <!--Accessibility-->
+                                <li class="cd-group"><?php echo $l->t('');?></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Keyboard/screen reader support-->
-                            <li title="AAA with Box.com accessiblity site" rel="tooltip" class="green">AA/AAA</li> <!--WCAG 2.1 support-->
+                            <li title="<?php echo $l->t('AAA with Box.com accessiblity site');?>" rel="tooltip" class="green">AA/AAA</li> <!--WCAG 2.1 support-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Dyslexia-friendly font-->
-								<li class="cd-group"></li> <!--Admin features-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Admin features-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Access control lists-->
-							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small>limited to admins</small></div></li> <!--Content workflow automation-->
+							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small><?php echo $l->t('limited to admins');?></small></div></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--impersonate users-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Data retention policy support-->
-							<li title="Hosted only, customer has no control over when/what changes" rel="tooltip">N.A.</li> <!--Long term support (5-10 years)-->
-							<li title="Varies per plan but mainly yes" rel="tooltip"><i class="fa fa-check"></i></li> <!--Branding-->
-								<li class="cd-group"></li> <!--Compliance features-->
-							<li title="" rel="tooltip">limited</li> <!--Full audit trail-->
-                            <li title="Only to their imprint and privacy policy, not yours" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Imprint and privacy links-->
-                            <li title="You can request (deletion of) data" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
-                            <li title="You and your customers you share with have to agree to their terms" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Terms-of-service-->
-							<li class="cd-group"></li> <!--Security features-->
+							<li title="<?php echo $l->t('Hosted only, customer has no control over when/what changes');?>" rel="tooltip"><?php echo $l->t('N.A.');?></li> <!--Long term support (5-10 years)-->
+							<li title="<?php echo $l->t('Varies per plan but mainly yes');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Branding-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Compliance features-->
+							<li title="" rel="tooltip"><?php echo $l->t('limited');?></li> <!--Full audit trail-->
+                            <li title="<?php echo $l->t('Only to their imprint and privacy policy, not yours');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Imprint and privacy links-->
+                            <li title="<?php echo $l->t('You can request (deletion of) data');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
+                            <li title="<?php echo $l->t('You and your customers you share with have to agree to their terms');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Terms-of-service-->
+							<li class="cd-group"><?php echo $l->t('');?></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Server side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Video Verification-->
@@ -545,23 +539,23 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--NIST compliant password policy-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Web UI secured with CSP 3.0-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--With same-site cookies-->
-							<li title="Can be done in limited way with third party applications" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Access Control-->
+							<li title="<?php echo $l->t('Can be done in limited way with third party applications');?>" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--App access rights-->
-								<li class="cd-group"></li> <!--Authentication-->
-                            <li title="Supports multiple factors" rel="tooltip">SMS</li> <!--2-factor authentication-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Authentication-->
+                            <li title="<?php echo $l->t('Supports multiple factors');?>" rel="tooltip"><?php echo $l->t('SMS');?></li> <!--2-factor authentication-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Suspicious Login Detection-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Auth via env variable-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Kerberos-->
-								<li class="cd-group"></li> <!--Storage-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Storage-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File storage (local/NFS)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Object storage (S3/Swift)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--CIFS/Windows Shares-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Sharepoint-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Extensible storage-->
 							</ul>
-					</li> <!-- .product -->
+					');?></li> <!-- .product -->
 
 					<li class="product">
 						<div class="top-info">
@@ -571,23 +565,23 @@
 						</div> <!-- .top-info -->
 
 						<ul class="cd-features-list">
-							<li title="open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Proprietary</li> <!--License-->
+							<li title="<?php echo $l->t('open source = any OSI approved license. Anything else is proprietary.');?>" rel="tooltip"><?php echo $l->t('Proprietary');?></li> <!--License-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Unlimited storage -->
-							<li title="" rel="tooltip">10GB</li> <!--Large file support-->
+							<li title="" rel="tooltip"><?php echo $l->t('10GB');?></li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Self hosted/on premises-->
-							<li title="2K users in a share, more limits exist but not clearly documented" rel="tooltip"><i class="fa fa-times"></i></li> <!--Scalability limits-->
-								<li class="cd-group"></li> <!--Client-->
+							<li title="<?php echo $l->t('2K users in a share, more limits exist but not clearly documented');?>" rel="tooltip"><i class="fa fa-times"></i></li> <!--Scalability limits-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
-							<li title="Extra paid feature. Files can be done with third party app" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
+							<li title="<?php echo $l->t('Extra paid feature. Files can be done with third party app');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--LAN Synchronization-->
-							<li title="No third-party apps that can be integrated" rel="tooltip"><i class="fa fa-times"></i></li> <!--Extensible with apps-->
+							<li title="<?php echo $l->t('No third-party apps that can be integrated');?>" rel="tooltip"><i class="fa fa-times"></i></li> <!--Extensible with apps-->
 
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Outlook integration-->
-								<li class="cd-group"></li> <!--Server features-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Server features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Full text search-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Versioning-->
-							<li title="not available in web UI or WebDAV" rel="tooltip"><i class="fa fa-check"></i>*</li> <!--File Locking-->
+							<li title="<?php echo $l->t('not available in web UI or WebDAV');?>" rel="tooltip"><?php echo $l->t('<i class="fa fa-check"></i>*');?></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Share Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Dashboard-->
@@ -595,31 +589,31 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-times"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
+							<li title="<?php echo $l->t('Microsoft Office 365');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Workspaces -->
-                                <li class="cd-group"></li> <!--Accessibility-->
+                                <li class="cd-group"><?php echo $l->t('');?></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--WCAG 2.1 support-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Dyslexia-friendly font-->
-								<li class="cd-group"></li> <!--Admin features-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Admin features-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Access control lists-->
-							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small>limited to admins</small></div></li> <!--Content workflow automation-->
+							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small><?php echo $l->t('limited to admins');?></small></div></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--impersonate users-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Data retention policy support-->
-							<li title="Hosted only, customer has no control over when/what changes" rel="tooltip">N.A.</li> <!--Long term support (5-10 years)-->
+							<li title="<?php echo $l->t('Hosted only, customer has no control over when/what changes');?>" rel="tooltip"><?php echo $l->t('N.A.');?></li> <!--Long term support (5-10 years)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Branding-->
-								<li class="cd-group"></li> <!--Compliance features-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Compliance features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Full audit trail-->
-                            <li title="Only to their imprint and privacy policy, not yours" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Imprint and privacy links-->
-                            <li title="You can request (deletion of) data" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
-                            <li title="You and your customers you share with have to agree to their terms" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Terms-of-service-->
-								<li class="cd-group"></li> <!--Security features-->
+                            <li title="<?php echo $l->t('Only to their imprint and privacy policy, not yours');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Imprint and privacy links-->
+                            <li title="<?php echo $l->t('You can request (deletion of) data');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
+                            <li title="<?php echo $l->t('You and your customers you share with have to agree to their terms');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Terms-of-service-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Server side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Video Verification-->
@@ -629,21 +623,21 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--With same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--App access rights-->
-								<li class="cd-group"></li> <!--Authentication-->
-                            <li title="" rel="tooltip">SMS</li> <!--2-factor authentication-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Authentication-->
+                            <li title="" rel="tooltip"><?php echo $l->t('SMS');?></li> <!--2-factor authentication-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Suspicious Login Detection-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Auth via env variable-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Kerberos-->
-								<li class="cd-group"></li> <!--Storage-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Storage-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File storage (local/NFS)-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Object storage (S3/Swift)-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--CIFS/Windows Shares-->
 							<li title="" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Sharepoint-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible storage-->
 							</ul>
-					</li> <!-- .product -->
+					');?></li> <!-- .product -->
 					<li class="product">
 						<div class="top-info">
 							<div class="check"></div>
@@ -652,23 +646,23 @@
 						</div> <!-- .top-info -->
 
 						<ul class="cd-features-list">
-							<li title="open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Proprietary</li> <!--License-->
-							<li title="" rel="tooltip">Varies per plan</li> <!-- Unlimited storage -->
-							<li title="" rel="tooltip">20GB</li> <!--Large file support-->
+							<li title="<?php echo $l->t('open source = any OSI approved license. Anything else is proprietary.');?>" rel="tooltip"><?php echo $l->t('Proprietary');?></li> <!--License-->
+							<li title="" rel="tooltip"><?php echo $l->t('Varies per plan');?></li> <!-- Unlimited storage -->
+							<li title="" rel="tooltip"><?php echo $l->t('20GB');?></li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Self hosted/on premises-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
-								<li class="cd-group"></li> <!--Client-->
-							<li title="free version only supports up to 3 client devices total" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
-							<li title="Files can be done with third party app" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
-							<li title="free version only supports up to 3 client devices total" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i></li> <!--Desktop clients-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
+							<li title="<?php echo $l->t('free version only supports up to 3 client devices total');?>" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
+							<li title="<?php echo $l->t('Files can be done with third party app');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
+							<li title="<?php echo $l->t('free version only supports up to 3 client devices total');?>" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--LAN Synchronization-->
-							<li title="Limited Microsoft office integration" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
+							<li title="<?php echo $l->t('Limited Microsoft office integration');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
 
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Outlook integration-->
-								<li class="cd-group"></li> <!--Server features-->
-							<li title="full-text search only in paid versions, with 365 integration no cross-app search" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Full text search-->
-							<li title="Max 1 month, up to 1 year with Business subscription" rel="tooltip">limited</li> <!--File Versioning-->
-							<li title="only for business edition" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Server features-->
+							<li title="<?php echo $l->t('full-text search only in paid versions, with 365 integration no cross-app search');?>" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Full text search-->
+							<li title="<?php echo $l->t('Max 1 month, up to 1 year with Business subscription');?>" rel="tooltip"><?php echo $l->t('limited');?></li> <!--File Versioning-->
+							<li title="<?php echo $l->t('only for business edition');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Share Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Dashboard-->
@@ -676,31 +670,31 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i title="through Google Apps" rel="tooltip" class="fa fa-google"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
+							<li title="<?php echo $l->t('Microsoft Office 365');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Workspaces -->
-                                <li class="cd-group"></li> <!--Accessibility-->
+                                <li class="cd-group"><?php echo $l->t('');?></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--WCAG 2.1 support-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Dyslexia-friendly font-->
-								<li class="cd-group"></li> <!--Admin features-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Admin features-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Access control lists-->
-							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small>limited to admins</small></div></li> <!--Content workflow automation-->
+							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small><?php echo $l->t('limited to admins');?></small></div></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--impersonate users-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Data retention policy support-->
-							<li title="Hosted only, customer has no control over when/what changes" rel="tooltip">N.A.</li> <!--Long term support (5-10 years)-->
-							<li title="" rel="tooltip">very limited</li> <!--Branding-->
-                                <li class="cd-group"></li> <!--Compliance features-->
-							<li title="" rel="tooltip">limited</li> <!--Full audit trail-->
-                            <li title="Only to their imprint and privacy policy, not yours" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Imprint and privacy links-->
-                            <li title="You can request (deletion of) data" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
-                            <li title="You and your customers you share with have to agree to their terms" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Terms-of-service-->
-								<li class="cd-group"></li> <!--Security features-->
+							<li title="<?php echo $l->t('Hosted only, customer has no control over when/what changes');?>" rel="tooltip"><?php echo $l->t('N.A.');?></li> <!--Long term support (5-10 years)-->
+							<li title="" rel="tooltip"><?php echo $l->t('very limited');?></li> <!--Branding-->
+                                <li class="cd-group"><?php echo $l->t('');?></li> <!--Compliance features-->
+							<li title="" rel="tooltip"><?php echo $l->t('limited');?></li> <!--Full audit trail-->
+                            <li title="<?php echo $l->t('Only to their imprint and privacy policy, not yours');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Imprint and privacy links-->
+                            <li title="<?php echo $l->t('You can request (deletion of) data');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
+                            <li title="<?php echo $l->t('You and your customers you share with have to agree to their terms');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Terms-of-service-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Server side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Video Verification-->
@@ -710,21 +704,21 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--With same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--App access rights-->
-								<li class="cd-group"></li> <!--Authentication-->
-                            <li title="" rel="tooltip">SMS/U2F/OTP</li> <!--2-factor authentication-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Authentication-->
+                            <li title="" rel="tooltip"><?php echo $l->t('SMS/U2F/OTP');?></li> <!--2-factor authentication-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Suspicious Login Detection-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Auth via env variable-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Kerberos-->
-								<li class="cd-group"></li> <!--Storage-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Storage-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File storage (local/NFS)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Object storage (S3/Swift)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--CIFS/Windows Shares-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Sharepoint-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Extensible storage-->
 							</ul>
-					</li> <!-- .product -->
+					');?></li> <!-- .product -->
 					<li class="product">
 						<div class="top-info">
 							<div class="check"></div>
@@ -733,55 +727,55 @@
 						</div> <!-- .top-info -->
 
 						<ul class="cd-features-list">
-							<li title="open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Proprietary</li> <!--License-->
-							<li title="" rel="tooltip">max 10 TB</li> <!-- Unlimited storage -->
-							<li title="" rel="tooltip">25GB</li> <!--Large file support-->
+							<li title="<?php echo $l->t('open source = any OSI approved license. Anything else is proprietary.');?>" rel="tooltip"><?php echo $l->t('Proprietary');?></li> <!--License-->
+							<li title="" rel="tooltip"><?php echo $l->t('max 10 TB');?></li> <!-- Unlimited storage -->
+							<li title="" rel="tooltip"><?php echo $l->t('25GB');?></li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Self hosted/on premises-->
-							<li title="various file limitations exist, unclear user limits" rel="tooltip">unclear</li> <!--Scalability limits-->
-								<li class="cd-group"></li> <!--Client-->
+							<li title="<?php echo $l->t('various file limitations exist, unclear user limits');?>" rel="tooltip"><?php echo $l->t('unclear');?></li> <!--Scalability limits-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--LAN Synchronization-->
-							<li title="Pretty wide range of apps" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
+							<li title="<?php echo $l->t('Pretty wide range of apps');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
 
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Outlook integration-->
-								<li class="cd-group"></li> <!--Server features-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Server features-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Full text search-->
-							<li title="max 3 revisions" rel="tooltip">limited</li> <!--File Versioning-->
+							<li title="<?php echo $l->t('max 3 revisions');?>" rel="tooltip"><?php echo $l->t('limited');?></li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Share Metadata-->
-							<li title="Admins have a dashboard, users not" rel="tooltip"><i class="fa fa-times"></i></li> <!--Dashboard-->
+							<li title="<?php echo $l->t('Admins have a dashboard, users not');?>" rel="tooltip"><i class="fa fa-times"></i></li> <!--Dashboard-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
+							<li title="<?php echo $l->t('Microsoft Office 365');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Workspaces -->
-							    <li class="cd-group"></li> <!--Accessibility-->
-                            <li title="could not find information" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Keyboard/screen reader support-->
+							    <li class="cd-group"><?php echo $l->t('');?></li> <!--Accessibility-->
+                            <li title="<?php echo $l->t('could not find information');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--WCAG 2.1 support-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Dyslexia-friendly font-->
-								<li class="cd-group"></li> <!--Admin features-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Admin features-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Access control lists-->
-							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small>limited to admins</small></div></li> <!--Content workflow automation-->
+							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small><?php echo $l->t('limited to admins');?></small></div></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--impersonate users-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Data retention policy support-->
-							<li title="Hosted only, customer has no control over when/what changes" rel="tooltip">N.A.</li> <!--Long term support (5-10 years)-->
+							<li title="<?php echo $l->t('Hosted only, customer has no control over when/what changes');?>" rel="tooltip"><?php echo $l->t('N.A.');?></li> <!--Long term support (5-10 years)-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Branding-->
-                                <li class="cd-group"></li> <!--Compliance features-->
-							<li title="" rel="tooltip">limited</li> <!--Full audit trail-->
-                            <li title="If self-hosted" rel="tooltip"><i class="fa fa-check"></i></li> <!--Imprint and privacy links-->
-                            <li title="Yes" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
-                            <li title="If self-hosted" rel="tooltip"><i class="fa fa-check"></i></li> <!--Terms-of-service-->
-								<li class="cd-group"></li> <!--Security features-->
+                                <li class="cd-group"><?php echo $l->t('');?></li> <!--Compliance features-->
+							<li title="" rel="tooltip"><?php echo $l->t('limited');?></li> <!--Full audit trail-->
+                            <li title="<?php echo $l->t('If self-hosted');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Imprint and privacy links-->
+                            <li title="<?php echo $l->t('Yes');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
+                            <li title="<?php echo $l->t('If self-hosted');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Terms-of-service-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Server side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Video Verification-->
@@ -791,21 +785,21 @@
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--With same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--App access rights-->
-								<li class="cd-group"></li> <!--Authentication-->
-                            <li title="OTP only via Duo Push" rel="tooltip">OTP/SMS</li> <!--2-factor authentication-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Authentication-->
+                            <li title="<?php echo $l->t('OTP only via Duo Push');?>" rel="tooltip"><?php echo $l->t('OTP/SMS');?></li> <!--2-factor authentication-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Suspicious Login Detection-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Auth via env variable-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Kerberos-->
-								<li class="cd-group"></li> <!--Storage-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Storage-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File storage (local/NFS)-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Object storage (S3/Swift)-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--CIFS/Windows Shares-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Sharepoint-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible storage-->
 							</ul>
-					</li> <!-- .product -->
+					');?></li> <!-- .product -->
 
 					<li class="product">
 						<div class="top-info">
@@ -815,55 +809,55 @@
 						</div> <!-- .top-info -->
 
 						<ul class="cd-features-list">
-							<li title="open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Proprietary</li> <!--License-->
+							<li title="<?php echo $l->t('open source = any OSI approved license. Anything else is proprietary.');?>" rel="tooltip"><?php echo $l->t('Proprietary');?></li> <!--License-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Unlimited storage -->
-							<li title="" rel="tooltip">2GB</li> <!--Large file support-->
+							<li title="" rel="tooltip"><?php echo $l->t('2GB');?></li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Self hosted/on premises-->
-							<li title="real limites are unclear" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
-								<li class="cd-group"></li> <!--Client-->
+							<li title="<?php echo $l->t('real limites are unclear');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--LAN Synchronization-->
-							<li title="No third-party apps that can be integrated" rel="tooltip"><i class="fa fa-times"></i></li> <!--Extensible with apps-->
+							<li title="<?php echo $l->t('No third-party apps that can be integrated');?>" rel="tooltip"><i class="fa fa-times"></i></li> <!--Extensible with apps-->
 
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Outlook integration-->
-								<li class="cd-group"></li> <!--Server features-->
-							<li title="" rel="tooltip">limited</li> <!--Full text search-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Server features-->
+							<li title="" rel="tooltip"><?php echo $l->t('limited');?></li> <!--Full text search-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Share Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Dashboard-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
-							<li title="Microsoft Lync plug-in" rel="tooltip"><i class="fa fa-clock-o"></i></li> <!--Audio/Video/Text chat-->
+							<li title="<?php echo $l->t('Microsoft Lync plug-in');?>" rel="tooltip"><i class="fa fa-clock-o"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
+							<li title="<?php echo $l->t('Microsoft Office 365');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Workspaces -->
-							    <li class="cd-group"></li> <!--Accessibility-->
+							    <li class="cd-group"><?php echo $l->t('');?></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--WCAG 2.1 support-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Dyslexia-friendly font-->
-								<li class="cd-group"></li> <!--Admin features-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Admin features-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Access control lists-->
-							<li title="" rel="tooltip"><div><i class="fa fa-times"></i><br /><small>limited to admins</small></div></li> <!--Content workflow automation-->
+							<li title="" rel="tooltip"><div><i class="fa fa-times"></i><br /><small><?php echo $l->t('limited to admins');?></small></div></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--impersonate users-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Data retention policy support-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Long term support (5-10 years)-->
-							<li title="" rel="tooltip">limited</li> <!--Branding-->
-                                <li class="cd-group"></li> <!--Compliance features-->
+							<li title="" rel="tooltip"><?php echo $l->t('limited');?></li> <!--Branding-->
+                                <li class="cd-group"><?php echo $l->t('');?></li> <!--Compliance features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Full audit trail-->
-                            <li title="When picking on-premises option" rel="tooltip"><i class="fa fa-check"></i></li> <!--Imprint and privacy links-->
-                            <li title="When picking on-premises option" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
-                            <li title="When picking on-premises option" rel="tooltip"><i class="fa fa-check"></i></li> <!--Terms-of-service-->
-								<li class="cd-group"></li> <!--Security features-->
+                            <li title="<?php echo $l->t('When picking on-premises option');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Imprint and privacy links-->
+                            <li title="<?php echo $l->t('When picking on-premises option');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
+                            <li title="<?php echo $l->t('When picking on-premises option');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Terms-of-service-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Server side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Video Verification-->
@@ -873,14 +867,14 @@
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--With same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--App access rights-->
-								<li class="cd-group"></li> <!--Authentication-->
-							<li title="" rel="tooltip">SMS</li> <!--2-factor authentication-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Authentication-->
+							<li title="" rel="tooltip"><?php echo $l->t('SMS');?></li> <!--2-factor authentication-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Suspicious Login Detection-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Auth via env variable-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Kerberos-->
-								<li class="cd-group"></li> <!--Storage-->
+								<li class="cd-group"><?php echo $l->t('');?></li> <!--Storage-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File storage (local/NFS)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Object storage (S3/Swift)-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--CIFS/Windows Shares-->
@@ -897,7 +891,7 @@
 				<li><a href="#0" class="next">Next</a></li>
 			</ul>
 		</div> <!-- .cd-products-table -->
-	</section> <!-- .cd-products-comparison-table -->
+	</div> <!-- .cd-products-comparison-table -->
 </div> <!-- container-fluid -->
 </section>
 <section class="disclaimer">
