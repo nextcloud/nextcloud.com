@@ -17,7 +17,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3">
-		<p class="section--paragraph text-center">Nextcloud works with a variety of partners in our ecosystem, building on, providing services around and complementing our product.</p>
+		<p class="section--paragraph text-center"><?php echo $l->t('Nextcloud works with a variety of partners in our ecosystem, building on, providing services around and complementing our product.');?></p>
 			</div>
 		</div>
 	</div>
@@ -27,8 +27,8 @@
 	<div class="wrap container partnergroup">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<h1 class="text-center">Solution providers</h1>
-				<p class="section--paragraph text-center">If you want to ensure your Nextcloud contributes to your business success, we recommend working locally with one of our partners which have the full backing of Nextcloud GmbH. These partners can help you do a proof of concept and purchase, deploy, optimize and maintain your Nextcloud. <br /> If you want to become a partner, <a href="<?php echo home_url('partnerprogram') ?>" class="hyperlink">see here.</a></p>
+				<h1 class="text-center"><?php echo $l->t('Solution providers');?></h1>
+				<p class="section--paragraph text-center"><?php echo $l->t('If you want to ensure your Nextcloud contributes to your business success, we recommend working locally with one of our partners which have the full backing of Nextcloud GmbH. These partners can help you do a proof of concept and purchase, deploy, optimize and maintain your Nextcloud.');?> <br /> <?php echo $l->t('If you want to become a partner,');?> <a href="<?php echo home_url('partnerprogram') ?>" class="hyperlink"><?php echo $l->t('see here.');?></a></p>
 			</div>
 		</div>
 		<div class="row">
@@ -380,10 +380,10 @@
 	<div class="container">
        <div class="row">
             <div class="col-md-6 col-md-offset-3">
-                <p class="section--paragraph__title text-center">Join our partner program!!</p>
-                <p class="section--paragraph text-center">You know your customer. We know our product.<br /> Let's work together for the best results!</p>
+                <p class="section--paragraph__title text-center"><?php echo $l->t('Join our partner program!!');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('You know your customer. We know our product.');?><br /> <?php echo $l->t('Let\'s work together for the best results!');?></p>
             <div class="text-center morebuttondiv">
-                <a href="<?php echo home_url('partnerprogram') ?>" class="button button--large button--arrow">Learn about the partner program <i class="icon-arrow-circle-o-right icon"></i></a>
+                <a href="<?php echo home_url('partnerprogram') ?>" class="button button--large button--arrow"><?php echo $l->t('Learn about the partner program');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
         </div>
 	</div>
@@ -393,8 +393,8 @@
 	<div class="wrap container partnergroup">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<h1 class="text-center">Technology Partners</h1>
-				<p class="section--paragraph text-center">Our technology partners work with us to develop to improve Nextcloud and offer technology solutions supporting or inter-operating with our product.</p>
+				<h1 class="text-center"><?php echo $l->t('Technology Partners');?></h1>
+				<p class="section--paragraph text-center"><?php echo $l->t('Our technology partners work with us to develop to improve Nextcloud and offer technology solutions supporting or inter-operating with our product.');?></p>
 			</div>
 		</div>
 		<div class="row">
