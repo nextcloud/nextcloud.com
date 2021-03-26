@@ -1,9 +1,9 @@
 <head>
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/pressrelease.css" rel="stylesheet">
-<meta itemprop="image" content="https://nextcloud.com/media/NUC-Ubuntu-NC-CO-feature-img_s2.png">
-<meta name="twitter:image" content="https://nextcloud.com/media/NUC-Ubuntu-NC-CO-feature-img_s2.png">
-<meta name="twitter:image:src" content="https://nextcloud.com/media/NUC-Ubuntu-NC-CO-feature-img_s2.png">
-<meta property="og:image" content="https://nextcloud.com/media/NUC-Ubuntu-NC-CO-feature-img_s2.png">
+<meta itemprop="image" content="https://nextcloud.com/media/RaspberryPi-feature-img.png">
+<meta name="twitter:image" content="https://nextcloud.com/media/RaspberryPi-feature-img.png">
+<meta name="twitter:image:src" content="https://nextcloud.com/media/RaspberryPi-feature-img.png">
+<meta property="og:image" content="https://nextcloud.com/media/RaspberryPi-feature-img.png">
 </head>
 <div class="background generic-background">
 	<div class="container">
@@ -35,7 +35,7 @@
     <li>A network connection with Internet access</li>
     <li>An Ubuntu 20.04 LTS desktop image</li>
 </ul>
-<img class="img-responsive" src="https://nextcloud.com/media/NUC-Ubuntu-NC-CO-feature-img_s2.png" alt="Logos of Nextcloud, Collabora and Canonical" />
+<img class="img-responsive" src="https://nextcloud.com/media/RaspberryPi-feature-img.png" alt="Logos of Nextcloud, Collabora and Canonical" />
 <p>You can find a full tutorial on the Ubuntu website where we walk you through the process of installing the Nextcloud Ubuntu Appliance image on a Raspberry Pi, how to quickly set up step by step and stay fully productive by having video calls in Talk, sharing documents with Files, editing it with others using document editing office, reading your emails or planning meetings and many more!</p>
 <h2>About Canonical</h2>
 Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as well as the emerging categories of smart gateways, self-driving cars and advanced robots. Canonical provides enterprise security, support and services to commercial users of Ubuntu. Established in 2004, Canonical is a privately held company.</p>
@@ -49,7 +49,7 @@ Canonical is the publisher of Ubuntu, the OS for most public cloud workloads as 
 <ul>
 <li><a href="https://ubuntu.com/tutorials/how-to-use-the-nextcloud-ubuntu-appliance-with-collabora-online-on-intel-nuc#1-overview">Tutorial on Ubuntu website</a></li>
 <li><a href="https://ubuntu.com/download/desktop">Ubuntu download link</a></li>
-<li><a href="https://ubuntu.com/canonical-collabora-nextcloud-deliver-work-from-home-solution-to-raspberry-pi-and-enterprise-arm">Canonical announcement blog</a></li>
+<li><a href="https://ubuntu.com/blog/canonical-collabora-nextcloud-deliver-work-from-home-solution-to-raspberry-pi-and-enterprise-arm">Canonical announcement blog</a></li>
 <li><a href="https://www.collaboraoffice.com/integration/canonical-collabora-nextcloud-deliver-solution-to-raspberry-pi-and-enterprise-arm-users/">Collabora announcement blog</a></li>
 <li><a href="https://nextcloud.com/blog/the-nextcloud-hub-ubuntu-appliance-now-available-for-raspberry-pi-4-and-more/">Nextcloud announcement blog</a></li>
 </ul>
@@ -61,9 +61,10 @@ Phone: +49 (0) 711 25 24 28 90<br />
 <a href="mailto:pr@nextcloud.com" class="email">pr@nextcloud.com</a></p>
 <h2>Graphics</h2>
 <ul>
-<li><a href="https://nextcloud.com/media/NUC-Ubuntu-NC-CO-feature-img_s2.png">Image 1</a></li>
+<li><a href="https://nextcloud.com/media/RaspberryPi-feature-img.png">Image 1</a></li>
 <li><a href="https://nextcloud.com/media/Ubuntu-appliance.png">Image 2</a></li>
 <li><a href="https://nextcloud.com/media/collabora-canonical-nextcloud.png">Image 3</a></li>
+<li><a href="https://nextcloud.com/media/RaspberryPi-SM_sml.png">Image 4</a></li>
 </ul>
 </div>
 </div>
