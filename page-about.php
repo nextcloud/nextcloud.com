@@ -44,8 +44,10 @@
         <p class="section--paragraph"><?php echo $l->t('As a vendor of on-premises solutions, Nextcloud puts the customer in control over their data in the most literal and direct sense. Your data is in your data center, on a server managed by you, rather than floating somewhere in the cloud.');?></p>
         <p class="section--paragraph"><?php echo $l->t('Our products integrate powerful capabilities to control and monitor data exchange and communication, including our unique File Access Control and workflow features, extensive audit logs, fine-grained sharing controls and more.');?></p>
         <p class="section--paragraph"><?php echo $l->t('Unlike competitors, we offer hosting strictly through partners and have absolutely no incentive to lock our customers into a SAAS solution.');?></p>
-         <h3 class="section--paragraph__title"><?php echo $l->t('Security first');?></h3>
-        <p class="section--paragraph"><?php echo $l->t('Security is Nextcloud customers\' greatest concerns and our prime advantage over competitors. Nextcloud features a host of unique, innovative security technologies from brute force protection to advanced server side and integrated end-to-end, client side encryption with enterprise-grade key handling and a wide range of security hardenings. Our security has been reviewed by trusted third parties and is backed by a USD 10000 Security Bug Bounty Program, providing the confidence that data meant to stay private will stay private.');?></p>
+         <h3 class="section--paragraph__title"><?php echo $l->t('Security and compliance first');?></h3>
+        <p class="section--paragraph"><?php echo $l->t('Security and compliance are Nextcloud customers\' greatest concerns and our prime advantage over competitors.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('By hosting our enterprise product on-premises or in a local data center, compliance questions are resolved in the most transparent way possible.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('Nextcloud features a host of unique, innovative security technologies from brute force protection to advanced server side and integrated end-to-end, client side encryption with enterprise-grade key handling and a wide range of security hardenings. Our security has been reviewed by trusted third parties and is backed by a USD 10.000 Security Bug Bounty Program, providing the confidence that data meant to stay private will stay private.');?></p>
     </div>
     <div class="row floating--quote--container">
         <blockquote class="quote--paragraph">European governments rely on German start-up Nextcloud.</blockquote>
@@ -58,8 +60,8 @@
 		<p class="section--paragraph"><?php echo $l->t('At Nextcloud, we believe that an open, transparent development process and a clear focus on the needs of users and customers results in a better product.');?></p>
 
 		<p class="section--paragraph"><?php echo $l->t('By working in the open within and with the wider developer- and user community, development is sped up, quality improved and alignment with needs of users improved.');?></p>
+		<p class="section--paragraph"><?php echo $l->t('Nextcloud Enterprise gives professional organizations software optimized and tested for mission critical environments.');?> <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('See our enterprise page</a> for more information about our Nextcloud Enterprise.');?></p>
 		<p class="section--paragraph"><?php echo $l->t('Our unique approach to support gives customers what <strong>no other vendor can offer</strong>: direct access to core Nextcloud engineering expertise without a layer of support people between the customer and the knowledge they need.');?>  <a class="hyperlink" href="https://opensource.com/article/18/8/mixing-roles-engineering" target="_blank"><?php echo $l->t('Learn more on opensource.com.');?></a></p>
-		<p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('See our enterprise page</a> for more information about our Enterprise Support Subscriptions.');?></p>
     </div>
 </div>
 </section>
