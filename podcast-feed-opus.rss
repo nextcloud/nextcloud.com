@@ -38,13 +38,13 @@
     <language>en-us</language>
     <atom:link href="https://nextcloud.com/podcast-feed.xml" rel="self" type="application/rss+xml" />
     <link>https://nextcloud.com/podcast/</link>
-      
+
        <item>
-      <title>Interview with Marco Nöchel, the CEO of HKN</title>
-      <itunes:subtitle>In this 9th-episode, our host Ingo talked with Marco Nöchel, the CEO of HKN GmbH</itunes:subtitle>
-      <itunes:summary>In this 9th-episode, our host Ingo talked with Marco Nöchel, the CEO of HKN Gmbh, which is the biggest multi-region German Openstack Cloud, and Nextcloud's silver partner.</itunes:summary>
+      <title>Interview with Marco Nöchel and Thorsten Krüger from HKN</title>
+      <itunes:subtitle>In this 9th-episode, our host Ingo talked with Marco Nöchel and Thorsten Krüger from HKN</itunes:subtitle>
+      <itunes:summary>In this 9th-episode, our host Ingo talked with Marco Nöchel, the CEO, and engineer Thorsten Krüger from HKN GmbH, which is the biggest multi-region German Openstack Cloud, and Nextcloud silver partner.</itunes:summary>
       <itunes:duration>00:40:30</itunes:duration>
-      <description>In this 9th-episode, our host Ingo talked with Marco Nöchel, the CEO of HKN Gmbh, which is the biggest multi-region German Openstack Cloud, and Nextcloud's silver partner.</description>
+      <description>In this 9th-episode, our host Ingo talked with Marco Nöchel, the CEO, and engineer Thorsten Krüger from HKN GmbH, which is the biggest multi-region German Openstack Cloud, and Nextcloud silver partner.</description>
       <pubDate>Thu, 1 Apr 2021 12:00:00 GMT</pubDate>
         <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_009.opus"
                  type="audio/opus" length="25779998"/>
@@ -53,11 +53,11 @@
       <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_009.opus</guid>
       <link>https://nextcloud.com/blog/podcast-no-9-interview-with-marco-nochel-the-ceo-of-hkn/</link>
     </item>
-      
+
           <item>
       <title>Podcast No. 8 - Interview with Arthur Schiwon about Nextcloud Flow</title>
       <itunes:subtitle> In this eight-episode, our host Ingo talked with Arthur, the Senior Software Engineer at Nextcloud about Nextcloud Flow.</itunes:subtitle>
-      <itunes:summary>In this eight-episode, our host Ingo talked with Arthur, Senior Software Engineer at Nextcloud. about Nextcloud Flow. Nextcloud Flow is the workflow engine of Nextcloud. 
+      <itunes:summary>In this eight-episode, our host Ingo talked with Arthur, Senior Software Engineer at Nextcloud. about Nextcloud Flow. Nextcloud Flow is the workflow engine of Nextcloud.
       </itunes:summary>
       <itunes:duration>00:25:39</itunes:duration>
       <description>In this eight-episode, our host Ingo talked with Arthur, Senior Software Engineer at Nextcloud, about Nextcloud Flow. Nextcloud Flow is the workflow engine of Nextcloud. </description>
