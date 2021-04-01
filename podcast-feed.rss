@@ -38,6 +38,21 @@
     <language>en-us</language>
     <atom:link href="https://nextcloud.com/podcast-feed.rss" rel="self" type="application/rss+xml" />
     <link>https://nextcloud.com/podcast/</link>
+ 
+       <item>
+      <title>Interview with Marco Nöchel, the CEO of HKN</title>
+      <itunes:subtitle>In this 9th-episode, our host Ingo talked with Marco Nöchel, the CEO of HKN GmbH</itunes:subtitle>
+      <itunes:summary>In this 9th-episode, our host Ingo talked with Marco Nöchel, the CEO of HKN Gmbh, which is the biggest multi-region German Openstack Cloud, and Nextcloud's silver partner.</itunes:summary>
+      <itunes:duration>00:40:30</itunes:duration>
+      <description>In this 9th-episode, our host Ingo talked with Marco Nöchel, the CEO of HKN Gmbh, which is the biggest multi-region German Openstack Cloud, and Nextcloud's silver partner.</description>
+      <pubDate>Thu, 1 Apr 2021 12:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_009.mp3"
+                 type="audio/mpeg" length="34154241"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_009.mp3</guid>
+      <link>https://nextcloud.com/blog/podcast-no-9-interview-with-marco-nochel-the-ceo-of-hkn/</link>
+    </item>
       
           <item>
       <title>Podcast No. 8 - Interview with Arthur Schiwon about Nextcloud Flow</title>
