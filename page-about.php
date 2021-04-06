@@ -138,6 +138,7 @@
             </ul>
         </p>
     </div>
+    <a name="history"></a>
     <div class="row floating--quote--container">
         <blockquote class="quote--paragraph">Nextcloud hit the ground running</blockquote>
         <div class="quote--brand">
@@ -145,7 +146,6 @@
         </div>
     </div>
     <div class="row">
-    <a name="history">
         <h3><?php echo $l->t('History');?></h3>
 		<p class="section--paragraph"><?php echo $l->t('Nextcloud was started in June 2016 by <a class="hyperlink" href="https://karlitschek.de">Frank Karlitschek</a> and a dozen experienced open source entrepreneurs and engineers to empower users to take back control over their data and communication. We envisioned our company to develop the next generation open source Enterprise File Sync and Share and have been relentlessly pursuing that vision, raising the bar for self-hosted solutions.');?></p>
 
