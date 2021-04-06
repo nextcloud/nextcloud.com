@@ -145,8 +145,9 @@
         </div>
     </div>
     <div class="row">
+    <a name="history">
         <h3><?php echo $l->t('History');?></h3>
-		<p class="section--paragraph"><?php echo $l->t('Nextcloud was started by <a class="hyperlink" href="https://karlitschek.de">Frank Karlitschek</a> and a dozen experienced open source entrepreneurs and engineers to empower users to take back control over their data and communication. We envisioned our company to develop the next generation open source Enterprise File Sync and Share and have been relentlessly pursuing that vision, raising the bar for self-hosted solutions.');?></p>
+		<p class="section--paragraph"><?php echo $l->t('Nextcloud was started in June 2016 by <a class="hyperlink" href="https://karlitschek.de">Frank Karlitschek</a> and a dozen experienced open source entrepreneurs and engineers to empower users to take back control over their data and communication. We envisioned our company to develop the next generation open source Enterprise File Sync and Share and have been relentlessly pursuing that vision, raising the bar for self-hosted solutions.');?></p>
 
 		<p class="section--paragraph"><?php echo $l->t('Fully employee-funded and pursuing an organic-growth strategy, Nextcloud already turned profitable by the end of 2016 and had nearly tripled to 35 employees by the end of 2017. See our full ');?><a class="hyperlink" href="<?php echo home_url('team') ?>"><?php echo $l->t('team here.');?></a> </p>
         <p class="section--paragraph"><?php echo $l->t('By January 2018, <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-grew-customer-base-7x-added-over-6.6-million-lines-of-code-and-doubled-its-team-in-2017/">after record growth in 2017</a>, Nextcloud had become the most sought-after Enterprise File Sync and Share solution <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-grew-customer-base-7x-added-over-6.6-million-lines-of-code-and-doubled-its-team-in-2017/">according to Google Trends</a> and was widely recognized as leading the on-premises Enterprise File Sync and Share industry. Since then, Nextcloud has continued to organically double its revenue year after year.');?></p>
