@@ -483,6 +483,15 @@ section {
 	}
 }
 
+aside.quote {
+                                background: white !important;
+                                blockquote {
+                                    p {
+                                        margin-top: 0;
+                                    }
+                                }
+                            }
+
 .section--footer {
 	.container {
 		.row {
