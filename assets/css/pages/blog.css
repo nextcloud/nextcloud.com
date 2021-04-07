@@ -413,9 +413,6 @@ section {
               max-width: 100%;
               margin: 0; } }
 
-.section--footer.container.row.col-md-10.quote {
-  background: white !important; }
-
 .section--footer .container .row .col-md-10 {
   z-index: 15;
   /* 				box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19); */
@@ -423,11 +420,8 @@ section {
   padding-bottom: 100px;
   background: white; }
   .section--footer .container .row .col-md-10 .quote {
-<<<<<<< HEAD
-=======
     padding-top: 5px;
     padding-bottom: 5px;
->>>>>>> 4997faf6 (one more fix)
     background: white !important;
     color: #555 !important; }
     .section--footer .container .row .col-md-10 .quote blockquote p {
