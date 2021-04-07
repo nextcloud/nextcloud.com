@@ -482,7 +482,7 @@ section {
 		}
 	}
 }
-
+.section--footer.container.row.col-md-10.quote {background: white !important;}
 
 .section--footer {
 	.container {
@@ -498,6 +498,7 @@ section {
                     blockquote {
                         p {
                             margin-top: 0 !important;
+                            color: #555 !important;
                         }
                     }
                 }
