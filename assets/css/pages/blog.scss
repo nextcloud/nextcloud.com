@@ -493,8 +493,9 @@ section {
 				padding-bottom: 100px;
 				background: white;
                 .comments-area {
-
-
+                    quote {
+                        background: white !important;
+                    }
                 }
 			}
 		}
