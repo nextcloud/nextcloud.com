@@ -492,15 +492,24 @@ section {
 				padding-top: 20px;
 				padding-bottom: 100px;
 				background: white;
-                .quote {
-                    padding-top: 5px;
-                    padding-bottom: 5px;
-                    background: white !important;
-                     color: #555 !important;
-                    blockquote {
-                        p {
-                            margin-top: 0 !important;
+                ol {
+                    list-style-type: none;
+                    .comment-body {
+                        padding: 40px 0;
+                        .comment-meta {
+                            border-top: 1px solid grey;
+                        }
+                        .quote {
+                            padding-top: 5px;
+                            padding-bottom: 0px;
+                            background: white !important;
                             color: #555 !important;
+                            blockquote {
+                                p {
+                                    margin-top: 0 !important;
+                                    color: #555 !important;
+                                }
+                            }
                         }
                     }
                 }

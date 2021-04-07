@@ -419,13 +419,19 @@ section {
   padding-top: 20px;
   padding-bottom: 100px;
   background: white; }
-  .section--footer .container .row .col-md-10 .quote {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background: white !important;
-    color: #555 !important; }
-    .section--footer .container .row .col-md-10 .quote blockquote p {
-      margin-top: 0 !important;
-      color: #555 !important; }
+  .section--footer .container .row .col-md-10 ol {
+    list-style-type: none; }
+    .section--footer .container .row .col-md-10 ol .comment-body {
+      padding: 40px 0; }
+      .section--footer .container .row .col-md-10 ol .comment-body .comment-meta {
+        border-top: 1px solid grey; }
+      .section--footer .container .row .col-md-10 ol .comment-body .quote {
+        padding-top: 5px;
+        padding-bottom: 0px;
+        background: white !important;
+        color: #555 !important; }
+        .section--footer .container .row .col-md-10 ol .comment-body .quote blockquote p {
+          margin-top: 0 !important;
+          color: #555 !important; }
 
 /*# sourceMappingURL=blog.css.map */
