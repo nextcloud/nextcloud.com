@@ -5,6 +5,12 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Desktop Client: Missing URL validation allowed RCE for the server on the Desktop client (NC-SA-2021-008)</title>
+  <description>Missing validation of URLs in Nextcloud Desktop Client 3.1.2 and earlier allowed a malicious server to execute code on the client. User interaction was required.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-008&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-008</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2021-008</guid>
+  <pubDate>Wed, 24 Feb 2021 12:00:00 +0100</pubDate>
+ </item><item>
   <title>Deck App: New users can read all Nextcloud Deck data from previous user with same username (NC-SA-2021-007)</title>
   <description>A logic error in Nextcloud Deck 1.0.1 allowed new users with a duplicate user identifier to use deck data of a previous deleted user.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-007&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-007</link>
