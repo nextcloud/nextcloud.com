@@ -367,7 +367,8 @@
     </div>
 	<div class="row">
 		<div class="col-md-6 image--floated">
-			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a>
+			<iframe width="100%" height="315" src="https://www.youtube.com/embed/GTgD950K4IQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<!-- 			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a> -->
 		</div>
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Webinars and presentations');?></p>
@@ -420,6 +421,7 @@
             <p class="section--paragraph__tittle"><?php echo $l->t('A platform you can trust');?></p>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud Talk benefits from the many security, encryption and authentication capabilities of Nextcloud.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Multi-layered encryption, brute force protection, artificial-intelligence based suspicious login detection, password-less login and the backing of our USD 10.000 security bug bounty program provide customers the confidence that their communication and collaboration remains confidential.');?></p>
+            <p><a href="<?php echo home_url('secure') ?>" class="button button--blue button-button--large button--arrow"><?php echo $l->t('Security in Nextcloud');?></a></p>
 		</div>
 	</div>
 </div>
@@ -560,7 +562,7 @@
         </div>
         <div class="col-sm-6">
             <div class="text-center morebuttondiv">
-                <a href="<?php echo home_url('buy') ?>" class="button button-button--large button--arrow"><?php echo $l->t('Contact Sales for a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                <a href="<?php echo home_url('buy') ?>" class="button button-button--large button--arrow"><?php echo $l->t('Contact Sales for a quote');?></a>
             </div>
         </div>
     </div>
