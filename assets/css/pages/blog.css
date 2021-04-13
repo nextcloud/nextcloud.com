@@ -320,7 +320,8 @@ section {
           .section--content .container .row .content .size-medium .article.video-wall {
             min-width: 0px !important;
             max-width: 100% !important;
-            max-height: 450px !important; }
+            max-height: 450px !important;
+            padding: 0; }
             .section--content .container .row .content .size-medium .article.video-wall .video-link {
               width: 100% !important; } }
         .section--content .container .row .content .size-medium .article.video-wall img {
