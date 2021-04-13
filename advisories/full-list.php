@@ -2,6 +2,11 @@
 
 <h2>2021</h2>
 
+<h3>Desktop Client 3.1.3</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2021-008">Missing URL validation allowed RCE for the server on the Desktop client (NC-SA-2021-008)</a> 2021-02-24</li>
+</ul>
+
 <h3>Nextcloud Server 20.0.6</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2021-005">Reflected XSS when renaming malicious file (NC-SA-2021-005)</a> 2021-01-25</li>
@@ -513,16 +518,6 @@
 	<li><a href="/security/advisory/?id=NC-SA-2018-010">Improper validation of permissions (NC-SA-2018-010)</a> 2018-10-25</li>
 </ul>
 
-<h3>Nextcloud Server 13.0.3</h3>
-<ul>
-	<li><a href="/security/advisory/?id=NC-SA-2018-013">Session fixation on public share page (NC-SA-2018-013)</a> 2018-10-25</li>
-</ul>
-
-<h3>Nextcloud Server 12.0.8</h3>
-<ul>
-	<li><a href="/security/advisory/?id=NC-SA-2018-013">Session fixation on public share page (NC-SA-2018-013)</a> 2018-10-25</li>
-</ul>
-
 <h3>Nextcloud Server 13.0.6</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2018-010">Improper validation of permissions (NC-SA-2018-010)</a> 2018-10-25</li>
@@ -531,6 +526,16 @@
 <h3>Nextcloud Server 12.0.11</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2018-010">Improper validation of permissions (NC-SA-2018-010)</a> 2018-10-25</li>
+</ul>
+
+<h3>Nextcloud Server 13.0.3</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2018-013">Session fixation on public share page (NC-SA-2018-013)</a> 2018-10-25</li>
+</ul>
+
+<h3>Nextcloud Server 12.0.8</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2018-013">Session fixation on public share page (NC-SA-2018-013)</a> 2018-10-25</li>
 </ul>
 
 <h3>Nextcloud Server 13.0.5</h3>
