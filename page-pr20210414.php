@@ -36,7 +36,6 @@
 <li>About Solid: <a href="https://solidproject.org/">https://solidproject.org/</a></li>
 <li>NLnet Solid project: <a href="https://nlnet.nl/project/Solid-NextCloud/index.html">https://nlnet.nl/project/Solid-NextCloud/index.html</a></li>
 <li>PDS Interop: <a href="https://pdsinterop.org/solid-nextcloud/">https://pdsinterop.org/solid-nextcloud/</a></li>
-<li><a href="https://nextcloud.com/blog/the-nextcloud-hub-ubuntu-appliance-now-available-for-raspberry-pi-4-and-more/">Nextcloud announcement blog</a></li>
 </ul>
 
 <h2>Nextcloud press contact</h2>
