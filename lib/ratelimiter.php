@@ -30,14 +30,14 @@ function canPerformLimitedAction($ratelimitName, $maxRequestsPerHour) : bool {
     $redis = new Predis\Client(REDIS);
 
     $rateId    = "requests_count_ratelimiter_{$ratelimitName}_{$userIp}";
-	$rateLimit = (int) $redis->get($rateId);
+    $rateLimit = (int) $redis->get($rateId);
 
     $redis->set($rateId, $rateLimit + 1);
-	$redis->expire($rateId, 3600);
-
-	if ($rateLimit + 1 > $maxRequestsPerHour) {
+    $redis->expire($rateId, 3600);
+    
+    if ($rateLimit + 1 > $maxRequestsPerHour) {
         return false;
-	} else {
+    } else {
         return true;
     }
 }
