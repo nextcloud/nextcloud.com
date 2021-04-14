@@ -34,6 +34,7 @@ height: 100px;
     <a href="<?php echo home_url('press/pr20210222-1') ?>" class="button button--large button--white button--arrow">Press release</a>
     <h2>Press releases 2021</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20210414') ?>">April 14, 2021: EU funds creation of first major European Solid provider for Enterprises</a></li>
         <li><a href="<?php echo home_url('press/pr20210325') ?>">March 25, 2021: Canonical, Collabora, Nextcloud deliver work-from-home solution to Raspberry Pi and enterprise ARM users</a></li>
         <li><a href="<?php echo home_url('press/pr20210222-1') ?>">February 22, 2021: Nextcloud Hub 21 out with up to 10x better performance, whiteboard and more collaboration features</a></li>
         <li><a href="<?php echo home_url('press/pr20210222-2') ?>">February 22, 2021: Nextcloud near to double bookings in 2020, invests in expanding for 2021</a></li>
