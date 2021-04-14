@@ -19,6 +19,12 @@
 </div>
 
 <?php
+require_once realpath(dirname(__FILE__)) . '/lib/ratelimiter.php';
+
+if(!canPerformLimitedAction("appmarketing-submit-action", 10)) {
+  die("Too many requests. Please try again later.");
+}
+
 if(isset($_POST['email'])) {
    function died($error) {
    	// error code goes here
@@ -59,8 +65,6 @@ if(isset($_POST['email'])) {
     $contribute = $_POST['contribute']; // required
     $links = $_POST['links']; // required
     $others = $_POST['others']; // required
-    $checksum = $_POST['checksum']; // required
-    $captcha = $_POST['captcha'];
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
   if(!preg_match($email_exp,$email_from)) {
@@ -70,15 +74,7 @@ if(isset($_POST['email'])) {
   if(!preg_match($string_exp,$yourname)) {
     $error_message .= 'The name you entered does not appear to be valid.<br />';
   }
-  if (strlen($checksum) !== 75 || !strpos($checksum, ':')) {
-        $error_message .= 'The checksum is not valid.<br />';
-    } else {
-        list($salt, $expectedHash) = explode(':', $checksum, 2);
-        $hash = hash('sha256', $salt . $captcha);
-        if ($hash !== $expectedHash) {
-            $error_message .= 'The captcha result you entered does not appear to be correct.<br />';
-        }
-    }
+
     $string_exp = "/^((\+|00)\d{1,3})?(\d+|\s+)+\d$/";
 
   if(strlen($error_message) > 0) {

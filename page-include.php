@@ -119,26 +119,6 @@
 
 <div class="separator"></div>
 
-<?php
-//
-// $int1 = random_int(0, 15);
-// $int2 = random_int(0, 50);
-// $salt = bin2hex(random_bytes(5));
-// $hash = hash('sha256', $salt . ($int1 + $int2));
-// $checksum = $salt . ':' . $hash;
-//
-// $image = imagecreate(100, 20);
-// $background_color = imagecolorallocate($image, 255, 255, 255);
-// $text_color = imagecolorallocate($image, 0, 0, 0);
-// imagestring($image, 5, 3, 2, $int1 . ' + ' . $int2, $text_color);
-//
-// ob_start();
-// imagepng($image);
-// $imagestring = ob_get_contents();
-// ob_end_clean();
-// imagedestroy($image);
-?>
-
 <section class="section--advantages">
 <div class="container-fluid quote">
 	<div class="container">

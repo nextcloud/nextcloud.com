@@ -2,7 +2,6 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/workflow.css?v=1" rel="stylesheet">
-<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/flow-as-user.png">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/flow-as-user.png">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/flow-as-user.png">
@@ -121,11 +120,6 @@
                 <h2><?php echo $l->t('Get our datasheet');?></h2>
                 <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our free datasheet: <br /> File Access Control and Retention');?><br>
-                    <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-                    </div>
-                    </td>
                     <input type="hidden" name="segmentId" value="6">
                     <input type="hidden" name="firstname" value="">
                     <input type="hidden" name="requesttime" value="<?php echo time(); ?>">

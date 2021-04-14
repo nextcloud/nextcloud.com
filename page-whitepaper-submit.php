@@ -18,6 +18,12 @@
 </section>
 
 <?php
+require_once realpath(dirname(__FILE__)) . '/lib/ratelimiter.php';
+
+if(!canPerformLimitedAction("whitepaper-submit-action", 50)) {
+  die("Too many requests. Please try again later.");
+}
+
 require_once __DIR__ . '/vendor/autoload.php';
 require_once __DIR__ . '/config.php';
 require_once __DIR__ . '/lib/newsletter-api.php';

@@ -313,26 +313,6 @@ GreenNet, UK
 <h1>Signing the letter <small>(after publication)</small></h1>
 <p>If you want to sign the public letter with your company, please fill in the form below.<br>Note that your company name will be added to a separate list below the existing signatories.</p>
 
-<?php
-
-$int1 = random_int(0, 15);
-$int2 = random_int(0, 50);
-$salt = bin2hex(random_bytes(5));
-$hash = hash('sha256', $salt . ($int1 + $int2));
-$checksum = $salt . ':' . $hash;
-
-$image = imagecreate(100, 20);
-$background_color = imagecolorallocate($image, 255, 255, 255);
-$text_color = imagecolorallocate($image, 0, 0, 0);
-imagestring($image, 5, 3, 2, $int1 . ' + ' . $int2, $text_color);
-
-ob_start();
-imagepng($image);
-$imagestring = ob_get_contents();
-ob_end_clean();
-imagedestroy($image);
-?>
-
 <form name="sign" method="post" action="../publiclettersubmit/">
     <p><label for="companymail">Your business mail address<br>
     <input  type="text" name="companymail" maxlength="60" size="60"></label></p>
@@ -343,11 +323,6 @@ imagedestroy($image);
     <p><label for="country">Country<br>
     <input  type="text" name="country" maxlength="80" size="60"></label></p>
     <td colspan="2" style="text-align:center">
-    <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-    <p><label for="captcha">Please calculate the following sum: <span></span><br>
-    <img src="data:image/png;base64,<?php echo base64_encode($imagestring); ?>"><br>
-    <input  type="text" name="captcha" maxlength="20" size="20" placeholder="13"></label></p>
-    <input  type="hidden" name="checksum" value="<?php echo $checksum;?>">
     <p>Please note that we only feature companies and business alliances on this list. We will not sign up private persons.<br>For that reason, we ask you to sign with your company email address.</p>
     <p>By clicking "submit" you confirm you used your business email address and you are authorized to sign this letter.<br>You will receive a confirmation email. Only after replying to that email will we add your email to the list. This is not a real-time process, we check manually.</p>
     <input type="submit" value=" Submit " class="button button--blue">

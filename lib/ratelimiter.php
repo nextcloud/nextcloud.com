@@ -27,10 +27,11 @@ function canPerformLimitedAction($ratelimitName, $maxRequestsPerHour) : bool {
     require_once realpath(dirname(__FILE__)) . '/../config.php';
     $userIp = $_SERVER['REMOTE_ADDR'];
 
+    $redis = new Predis\Client(REDIS);
+
     $rateId    = "requests_count_ratelimiter_{$ratelimitName}_{$userIp}";
 	$rateLimit = (int) $redis->get($rateId);
 
-    $redis = new Predis\Client(REDIS);
     $redis->set($rateId, $rateLimit + 1);
 	$redis->expire($rateId, 3600);
 
