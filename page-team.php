@@ -169,7 +169,7 @@
 					<h3 class="teamtitle">Sales Manager France</h3>
 					<h4 class="teamexpertise">Consulting and Sales</h4>
 					<h4 class="teamlocation">lives in Basel, Switzerland</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/olivierparoz"><i class="fa-rss fa"></i></a> <a href="https://github.com/oparoz"><i class="fa-github fa"></i></a> <a href="https://twitter.com/oparoz"><i class="fa-twitter fa"></i></a></p>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/olivierparoz"><i class="fa-linkedin fa"></i></a> <a href="https://github.com/oparoz"><i class="fa-github fa"></i></a> <a href="https://twitter.com/oparoz"><i class="fa-twitter fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Olivier studied Economics and Information and Communications Systems Management at the University of Geneva. He did work on the Nextcloud code base and has close to 20 years experience in Consulting, Business Development and large scale deployments. He has helped customers in a broad range of industies both in the private and public sector, with a focus on open source, usability, security and privacy.</p>
 			</div>
@@ -182,9 +182,22 @@
 					<h3 class="teamtitle">Senior account manager</h3>
 					<h4 class="teamexpertise">Sales and Account Management</h4>
 					<h4 class="teamlocation">lives in Nuremberg, Germany</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/simon-ebentheuer/"><i class="fa-rss fa"></i></a> </p>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/simon-ebentheuer/"><i class="fa-linkedin fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Simon has gained sales experience in the past for ABB, Siemens and most recently for SUSE. Here he was responsible especially for manufacturing customers. Infected with the open source idea he is now happy to provide customers with more productivity thanks to the collaboration platform of Nextcloud. Simon studied teaching and technical journalism and lives in Nuremberg.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">	Viktoria Linder</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Senior account manager</h3>
+					<h4 class="teamexpertise">Sales and Account Management</h4>
+					<h4 class="teamlocation">lives in Karlsruhe, Germany</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/viktoria-linder-679792120/"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Viktoria_Linder/cv"><i class="fa-xing fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Simon studied business administration and learned Spanish living in Mexico for a while. She has over 7 years of sales experience and has a strong focus on finding the prefect fit for the needs of the customer.</p>
 			</div>
 		</div>
     </div>
@@ -608,6 +621,19 @@
 					<p class="teamsocial"> <a href="https://github.com/mahibi"><i class="fa-github fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Marcel has a master's degree in Geoinformation and Visualization at University of Potsdam and has been developing mapping web applications, working on routing and navigation related topics.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">	Matthieu Gallien</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Desktop client</h4>
+					<h4 class="teamlocation">lives in Chambéry, France</h4>
+					<p class="teamsocial"> <a href="https://github.com/mgallien"><i class="fa-github fa"></i></a> <a href="https://www.linkedin.com/in/matthieugallien/"><i class="fa-linkedin fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Matthieu is a passionate software engineer with over a decade of experience in the software industry, especially in the embedded software area. He is part of the team responsible for the desktop client and developing the open source Elisa music player in his free time in the KDE community.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
