@@ -522,6 +522,19 @@
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Enoch Terry Mize George Muller</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Server</h4>
+					<h4 class="teamlocation">lives in Magdeburg, Germany</h4>
+					<p class="teamsocial"> <a href="https://github.com/enochterrymize"><i class="fa-github fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Enoch Terry Mize has worked as IT Consultant and application developer in the software industry. but also freelanced in a variety of front-end and back-end work with JS. He is experienced in Frontend Technologies and effective use of Cloud Technologies and applying his learning and expertise and his passion for free software.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
 				<h2 class="teamname">	Felix Weilbach</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
