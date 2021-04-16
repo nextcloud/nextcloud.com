@@ -17,7 +17,7 @@
 		<div class="col-md-6 topheader">
 			<h1>Nextcloud Hub</h1>
 			<h2>Need a private cloud in Russia?<br />Factor Group and Nextcloud have you covered!<br/>
-			<a class="button button--blue" href="TBD">Contact Factor Group</a></h2>
+			<a class="button button--blue" href="https://www.fgts.ru/collection/nextcloud">Contact Factor Group</a></h2>
 <!-- 			<p><a class="button button--blue" href="<?php echo home_url('install') ?>">Get started now</a></p> -->
 		</div>
 <!--		<div class="topsidebar">
@@ -173,7 +173,7 @@
     <div class="row">
         <div class="col-md-6  col-md-offset-3">
             <p class="section--paragraph">Don't risk your data to the services of an unqualified service provider. Get the certainty that comes from the real vendor expertise!</p>
-            <a href="TBD" class="button button--blue button--arrow button--large">Contact Factor Group now</a>
+            <a href="https://www.fgts.ru/collection/nextcloud" class="button button--blue button--arrow button--large">Contact Factor Group now</a>
         </div>
     </div>
 </div>
@@ -549,7 +549,7 @@
                 <p class="text-center">Efficient and secure team productivity with the content collaboration platform from the market leader.</p>
                 <p class="text-center">Contact us to learn how we can help you.</p>
 				<div class="text-center morebuttondiv">
-					<a href="TBD" class="overlay-trigger button button--large button--arrow">Contact Factor Group</a>
+					<a href="https://www.fgts.ru/collection/nextcloud" class="overlay-trigger button button--large button--arrow">Contact Factor Group</a>
 				</div>
             </div>
         </div>
