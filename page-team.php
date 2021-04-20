@@ -623,6 +623,19 @@
 				<p class="teamdescription">Kevin Ottens has a Ph.D. in artificial intelligence which led him to focus on Ontology engineering and multi-agent systems. As a student, he fell in love with the KDE community and never stopped contributing code. Lately, he has been also helping with the community stewardship, for instance participating in the creation of the KDE Manifesto. Nowadays he spends time rethinking his job via a strong interest in software craftsmanship and graphics facilitation.</p>
 			</div>
 		</div>
+        <div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">	Louis Chemineau</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Server and front-end</h4>
+					<h4 class="teamlocation">lives in Lauris, France</h4>
+					<p class="teamsocial"><a href="https://blog.flap.cloud"><i class="fa-rss fa"></i></a> <a href="https://github.com/artonge"><i class="fa-github fa"></i></a> <a href="https://gitlab.com/artonge"><i class="fa-gitlab fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Louis is a software engineer with a passion for new technologies and how they shape our society. He focuses his work on empowering citizens with and towards new technologies. One of the ways he does that is with <a href="https://gitlab.com/flap-box/flap">flap</a> which helps people self-host services like Nextcloud. Also, he is into climbing!</p>
+			</div>
+		</div>
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
