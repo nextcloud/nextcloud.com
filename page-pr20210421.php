@@ -40,6 +40,7 @@
 <li>About Nextcloud: <a href="https://nextcloud.com/about">nextcloud.com/about</a></li>
 <li>About Kailona: <a href="https://kailona.org">kailona.org</a></li>
 <li>Kailona blog about alpha release: <a href="https://nextcloud.com/blog/health-care-data-app-for-nextcloud-kailona-hits-alpha-and-is-looking-for-testers/">nextcloud.com/blog</a></li>
+<li>Prototype Fund: <a href="https://prototypefund.de/en/">prototypefund.de/en</a></li>
 </ul>
 <h2>Screenshots</h2>
 <ul>
