@@ -35,6 +35,7 @@ height: 100px;
     <h2>Press releases 2021</h2>
     <ul>
         <li><a href="<?php echo home_url('press/pr20210421') ?>">April 21, 2021: German government funds first open source personal health data store</a></li>
+        <li><a href="<?php echo home_url('press/pr20210416') ?>">April 16, 2021: Managed Nextcloud: IONOS launches Professional Cloud Storage</a></li>
         <li><a href="<?php echo home_url('press/pr20210414') ?>">April 14, 2021: EU funds creation of first major European Solid provider for Enterprises</a></li>
         <li><a href="<?php echo home_url('press/pr20210325') ?>">March 25, 2021: Canonical, Collabora, Nextcloud deliver work-from-home solution to Raspberry Pi and enterprise ARM users</a></li>
         <li><a href="<?php echo home_url('press/pr20210222-1') ?>">February 22, 2021: Nextcloud Hub 21 out with up to 10x better performance, whiteboard and more collaboration features</a></li>
