@@ -44,5 +44,39 @@
     }
     p {
             margin-bottom: 16px;
+    }
+    input, select,textarea {
+        border-style: solid;
+        border-color: lightgray;
+        border-width: thin;
+		color: #757575;
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+   input, select, {
+        border-radius: 30px;
+        height: 30px;
+        max-width: 400px;
+    }
+    input,textarea {
+        padding: 10px;
+    }
+    textarea {
+        border-radius: 15px;
+    }
+    #gdprcheck {
+        height: 10px;
+    }
+    .col-lg-4 {
+        label {
+            float: right;
         }
+    }
+    @media (max-width: $navbar-breaksize) {
+        col-lg-4 {
+            label {
+                float: none;
+            }
+        }
+    }
 }
