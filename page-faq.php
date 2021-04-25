@@ -1,19 +1,17 @@
 <head>
-	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/pricing.css?v=5" rel="stylesheet">
-	<script>
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/faq.css?v=1" rel="stylesheet">
+<script>
 	require(["require.config"], function() {
-		require(["pages/pricing", "modules/submenu", "bootstrap"])
+		require(["modules/submenu", "bootstrap", "jquery"])
 	});
-	</script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/old/jquery-321.min.js"></script>
+</script>
+<!-- <script src="<?php echo get_template_directory_uri(); ?>/assets/js/modules/jquery-321.min.js"></script> -->
 </head>
-
-<section class="pricing-hero-section second-menu background pricing-background">
-    <div class="background container">
+<section class="background generic-background second-menu">
+    <div class="container">
         <div class="row">
             <div class="col-md-6 topheader">
                 <h1><?php echo $l->t('Nextcloud Enterprise FAQ');?></h1>
-                <h2><?php echo $l->t('Nextcloud Enterprise explained');?></h2>
             </div>
         </div>
     </div>

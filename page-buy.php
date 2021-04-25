@@ -1,18 +1,16 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/buy.css?v=4" rel="stylesheet">
-<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/form.css?v=1" rel="stylesheet">
 <script>
 	require(["require.config"], function() {
 		require(["modules/submenu"])
 	});
 </script>
 </head>
-<section class="buy-hero-section background buy-background second-menu">
-    <div class="container background">
+<section class="background generic-background second-menu">
+    <div class="container">
         <div class="row">
             <div class="col-md-6 topheader">
                 <h1><?php echo $l->t('Contact us for a quote');?></h1>
-                <h2><?php echo $l->t('Our sales team will help you determine the best solution for your business needs');?></h2>
             </div>
         </div>
     </div>
@@ -63,23 +61,12 @@ ob_end_clean();
 imagedestroy($image);
 ?>
 
-<section class="section--welcome">
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <h2><?php echo $l->t('Nextcloud helps you be successful.');?></h2>
-            <p><?php echo $l->t('You control your Nextcloud server, keeping your data secure. We make sure it works reliably, at all times.');?></p>
-            <p><?php echo $l->t('All Nextcloud customers get access to our Nextcloud Enterprise build which is pre-configured, optimized and hardened for the special needs of large scale, production-critical enterprise deployments.');?></p>
-        </div>
-	</div>
-</div>
-</section>
 <section class="section--contact-form">
 <div class="container">
     <div class="row">
         <div class="col-md-12">
 		<h3><?php echo $l->t('Contact us for more information and a quote fitting your use case.');?></h3>
-		<p><?php echo $l->t('Your answers to the following questions will help us better understand your project and give a realistic quote.');?><br /> <?php echo $l->t('Mandatory questions are marked with a * but please note that the more information we have, the less emails we have to exchange before we can give you a quote! Our prices heavily depend on support level, number of users and additonal services like Talk, online office and more.');?></p>
+		<p><?php echo $l->t('Your answers to the following questions will help us better understand your project and give a realistic quote.');?><br /> <?php echo $l->t('Mandatory questions are marked with a *');?></p>
         </div>
 	</div>
 	<form name="sales" method="post" action="../salessubmit/">

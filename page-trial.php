@@ -1,18 +1,16 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/buy.css?v=3" rel="stylesheet">
-<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/form.css?v=1" rel="stylesheet">
 <script>
 	require(["require.config"], function() {
 		require(["modules/submenu"])
 	});
 </script>
 </head>
-<section class="buy-hero-section background buy-background second-menu">
-    <div class="container background">
+<section class="background generic-background second-menu">
+    <div class="container">
         <div class="row">
             <div class="col-md-6 topheader">
-                <h1><?php echo $l->t('Contact us for a quote');?></h1>
-                <h2><?php echo $l->t('Our sales team will help you determine the best solution for your business needs');?></h2>
+                <h1><?php echo $l->t('Request an enterprise trial');?></h1>
             </div>
         </div>
     </div>
@@ -62,25 +60,22 @@ $imagestring = ob_get_contents();
 ob_end_clean();
 imagedestroy($image);
 ?>
-<section class="section--welcome">
+<!--<section class="section--welcome">
 <div class="container">
     <div class="row">
         <div class="col-md-12">
             <h2><?php echo $l->t('See how Nextcloud works for you');?></h2>
             <p><?php echo $l->t('To determine if Nextcloud is fit for your use case, we offer trials of Nextcloud Enterprise on a hosted instance as well as trial licenses for testing on your own infrastructure. Our team is ready to support you with a Proof of Concept for free¹.');?></p>
             <p><?php echo $l->t('Our Nextcloud Enterprise build is pre-configured, optimized and hardened for the special needs of large scale, production-critical enterprise deployments. Backed by our subscription and support, it provides you with the best possible Nextcloud experience.');?></p>
-            <blockquote><?php echo $l->t('Our experiences show the chance of success for a proof of concept grows ten fold with our support, so contact us today!');?></blockquote>
-            <p><?php echo $l->t('-- Andreas Rode, Nextcloud CGO');?></p>
         </div>
 	</div>
 </div>
-</section>
+</section>-->
 <section class="section--contact-form">
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
-            <h3><?php echo $l->t('Contact us for an enterprise trial');?></h3>
-            <p><?php echo $l->t('Please answer the questions below so we can best help you with a realistic setup.');?><br /> <?php echo $l->t('Mandatory questions are marked with a *');?></p>
+        <div class="col-md-8">
+            <p><?php echo $l->t('Please answer the questions below so we can best help you with a realistic setup.');?> <?php echo $l->t('Mandatory questions are marked with a *');?></p>
         </div>
 	</div>
     <form name="trial" method="post" action="../trialsubmit/">
