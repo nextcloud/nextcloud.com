@@ -148,23 +148,23 @@ require get_template_directory() . '/strings.php';
             </ul>
             <ul class="right-buttons">
                 <li class="nav__section">
-                <a class="nav__label get-nc-button button button--white"><?php echo $l->t('Get Nextcloud'); ?></a>
+                <a class="nav__label get-nc-button button"><?php echo $l->t('Get Nextcloud'); ?></a>
                 <a class="nav__label get-nc-nobutton"><?php echo $l->t('Get Nextcloud'); ?></a>
                     <ul class="nav__links ">
                         <li class="nav__item">
-                            <a href="<?php echo home_url('install/#instructions-server'); ?>">
+                            <a href="<?php echo home_url('enterprise'); ?>">
                                 <div class="nav__logo">
-                                    <?php echo file_get_contents(__DIR__."/../assets/img/icons/server.svg");?>
+                                    <?php echo file_get_contents(__DIR__."/../assets/img/icons/enterprise.svg");?>
                                 </div>
                                 <div class="nav__text">
-                                    <?php echo $l->t('<strong>Server packages</strong><br><small>For self-hosting on your server</small>'); ?>
+                                    <?php echo $l->t('<strong>Enterprise solution</strong><br><small>For mission-critical use</small>'); ?>
                                 </div>
                             </a>
                         </li>
                         <li class="nav__item">
                             <a href="<?php echo home_url('install/#install-clients'); ?>">
                                 <div class="nav__logo">
-                                    <?php echo file_get_contents(__DIR__."/../assets/img/icons/desktop.svg");?>
+                                    <?php echo file_get_contents(__DIR__."/../assets/img/icons/phone.svg");?>
                                 </div>
                                 <div class="nav__text">
                                     <?php echo $l->t('<strong>Desktop & mobile apps</strong><br><small>Windows, macOS, Linux, Android, iOS, …</small>'); ?>
@@ -182,6 +182,26 @@ require get_template_directory() . '/strings.php';
                             </a>
                         </li>
                         <li class="nav__item">
+                            <a href="https://try.nextcloud.com/">
+                                <div class="nav__logo">
+                                    <?php echo file_get_contents(__DIR__."/../assets/img/icons/desktop.svg");?>
+                                </div>
+                                <div class="nav__text">
+                                    <?php echo $l->t('<strong>Try Nextcloud</strong><br><small>Try Nextcloud on our live demo</small>'); ?>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="<?php echo home_url('install/#instructions-server'); ?>">
+                                <div class="nav__logo">
+                                    <?php echo file_get_contents(__DIR__."/../assets/img/icons/server.svg");?>
+                                </div>
+                                <div class="nav__text">
+                                    <?php echo $l->t('<strong>Server packages</strong><br><small>For self-hosting on your server</small>'); ?>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item">
                             <a href="<?php echo home_url('devices'); ?>">
                                 <div class="nav__logo">
                                     <?php echo file_get_contents(__DIR__."/../assets/img/icons/devices.svg");?>
@@ -191,26 +211,11 @@ require get_template_directory() . '/strings.php';
                                 </div>
                             </a>
                         </li>
-                        <li class="nav__item">
-                            <a href="<?php echo home_url('enterprise'); ?>">
-                                <div class="nav__logo">
-                                    <?php echo file_get_contents(__DIR__."/../assets/img/icons/enterprise.svg");?>
-                                </div>
-                                <div class="nav__text">
-                                    <?php echo $l->t('<strong>Enterprise solution</strong><br><small>For mission-critical use</small>'); ?>
-                                </div>
-                            </a>
-                        </li>
                     </ul>
                 </li>
                 <li class="ghost-btn">
-                    <a href="https://try.nextcloud.com/" class="nav__label">
-                        <?php echo $l->t('Demo'); ?>
-                    </a>
-                </li>
-                <li class="ghost-btn">
-                    <a href="<?php echo home_url('gdpr'); ?>" class="nav__label">
-                        <?php echo $l->t('GDPR'); ?>
+                    <a href="<?php echo home_url('trial'); ?>" class="nav__label">
+                        <?php echo $l->t('Enterprise trial'); ?>
                     </a>
                 </li>
                 <li class="ghost-btn no-underline">
