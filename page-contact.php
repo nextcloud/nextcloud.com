@@ -17,15 +17,15 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <p><?php echo $l->t('If you have technical questions or need support,');?> <a href="<?php echo home_url('support') ?>"><?php echo $l->t('check out the options on our support page.</a>');?>
-            <p><?php echo $l->t('As a home user, best use our forums for questions.');?> <a href="https://help.nextcloud.com" target="_blank"><?php echo $l->t('Find our forums here.');?></a></p>
-            <p><?php echo $l->t('If you have questions about what Nextcloud can do for you,');?> <a href="<?php echo home_url('search') ?>" target="_blank"><?php echo $l->t('search our website.');?></a></p>
+            <p><?php echo $l->t('If you have technical questions or need support,');?> <a class="hyperlink" href="<?php echo home_url('support') ?>"><?php echo $l->t('check out the options on our support page.</a>');?>
+            <p><?php echo $l->t('As a home user, best use our forums for questions.');?> <a class="hyperlink" href="https://help.nextcloud.com" target="_blank"><?php echo $l->t('Find our forums here.');?></a></p>
+            <p><?php echo $l->t('If you have questions about what Nextcloud can do for you,');?> <a class="hyperlink" href="<?php echo home_url('search') ?>" target="_blank"><?php echo $l->t('search our website.');?></a></p>
             </div>
         <div class="col-md-8 col-md-offset-2">
             <h1><?php echo $l->t('Contact us');?></h1>
-            <p><?php echo $l->t('If you have any questions or comments on the website or have a business question, complete the form below and we\'ll get back to you!<br/><strong>If you need technical help, please do not use this form.</strong> If you are a customer, <a href="https://portal.nextcloud.com">use our support portal</a> and if not');?> <a href="<?php echo home_url('support') ?>"><?php echo $l->t('see here for support options.');?></a></p>
+            <p><?php echo $l->t('If you have any questions or comments on the website or have a business question, complete the form below and we\'ll get back to you!<br/><strong>If you need technical help, please do not use this form.</strong> If you are a customer, <a href="https://portal.nextcloud.com">use our support portal</a> and if not');?> <a class="hyperlink" href="<?php echo home_url('support') ?>"><?php echo $l->t('see here for support options.');?></a></p>
             <p><?php echo $l->t('Support requests using this form <strong>will be ignored!</strong>');?></p>
-            <p><?php echo $l->t('If you want to test out Nextcloud Enterprise or get a quote for use in your organization, use the quote form for a quicker response.');?>  <a href="<?php echo home_url('buy') ?>"><?php echo $l->t('Find the quote form here,');?></a> <a href="<?php echo home_url('trial') ?>"><?php echo $l->t('or ask directly for a trial of Nextcloud Enterprise here.');?></a> <?php echo $l->t('If you want to become a partner,');?> <a href="<?php echo home_url('partnerprogram') ?>" class="hyperlink"><?php echo $l->t('see here.');?></a></p>
+            <p><?php echo $l->t('If you want to test out Nextcloud Enterprise or get a quote for use in your organization, use the quote form for a quicker response.');?>  <a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('Find the quote form here,');?></a> <a class="hyperlink" href="<?php echo home_url('trial') ?>"><?php echo $l->t('or ask directly for a trial of Nextcloud Enterprise here.');?></a> <?php echo $l->t('If you want to become a partner,');?> <a class="hyperlink" href="<?php echo home_url('partnerprogram') ?>"><?php echo $l->t('see here.');?></a></p>
             <p><?php echo $l->t('If you have a question related to an user account signed through <strong>Simple Signup</strong>, please contact the provider where you signed up. Nextcloud has NO information from you, not even what provider you are with, so there is nothing we can do to help you.');?></p>
         </div>
     </div>
@@ -80,7 +80,7 @@
                 </div>
             </div>
             </form>
-            <p><?php echo $l->t('We respect your privacy! If you fill in this form, we will reach out to send you a reply. We never sell your data - any mails you get will be from us.');?> <a href="<?php echo home_url('privacy') ?>" class="hyperlink"><?php echo $l->t('See our privacy policy here.');?></a></p>
+            <p><?php echo $l->t('We respect your privacy! If you fill in this form, we will reach out to send you a reply. We never sell your data - any mails you get will be from us.');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>" class="hyperlink"><?php echo $l->t('See our privacy policy here.');?></a></p>
         </div>
     </div>
     <div class="row">
@@ -113,11 +113,11 @@
     // 		echo('<tr><td style="padding:5px;">');
     // 		if(empty($data['picture_50'])) { $data['picture_50'] = 'blogger_50.png'; }
     //
-    // 		echo('<span class="contribook_microbloguserpicture"><a href="<?php echo home_url('user/?user='.$user.'"><img src="'.CONTRIBOOK_PHOTO_URL.$data['picture_50'].'" border="0" /></a></span>');
+    // 		echo('<span class="contribook_microbloguserpicture"><a class="hyperlink" href="<?php echo home_url('user/?user='.$user.'"><img src="'.CONTRIBOOK_PHOTO_URL.$data['picture_50'].'" border="0" /></a></span>');
     //
     // 		echo('');?></td><td style="padding:5px;">');
     //
-    // 		echo('<a href="<?php echo home_url('user/?user='.$user.'">'.$data['name'].'</a><br />');
+    // 		echo('<a class="hyperlink" href="<?php echo home_url('user/?user='.$user.'">'.$data['name'].'</a><br />');
     // 		echo($data['role']);
     //
     // 		echo('');?></td></tr>');
