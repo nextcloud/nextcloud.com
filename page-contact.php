@@ -86,12 +86,19 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
         <h2><?php echo $l->t('Visit us!');?></h2>
+        <h3>Office Stuttgart</h3>
         <p><address>Nextcloud GmbH<br/>
         Hirschstrasse 26, 4th Floor<br/>
-        70173 Stuttgart Germany<br/></address>
+        70173 Stuttgart Germany</address></p>
+        <h3>Office Berlin</h3>
+        <p><address>Nextcloud GmbH<br/>
+        Gerichtstraße 23<br/>
+        13347 Berlin</address></p>
+        <h3>Company registration</h3>
         HRB 227086 (AG München)<br/>
         T +49 711 25 24 28 90<br/>
         </p>
+
     </div>
     <!--<h2><?php echo $l->t('Active contributors on the <a href="../news">Nextcloud blog roll</a>:');?></h2>-->
     <!-- <?php
