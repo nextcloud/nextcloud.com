@@ -190,14 +190,14 @@
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-				<h2 class="teamname">	Viktoria Linder</h2>
+				<h2 class="teamname">Viktoria Linder</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Senior account manager</h3>
 					<h4 class="teamexpertise">Sales and Account Management</h4>
 					<h4 class="teamlocation">lives in Karlsruhe, Germany</h4>
 					<p class="teamsocial"><a href="https://www.linkedin.com/in/viktoria-linder-679792120/"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Viktoria_Linder/cv"><i class="fa-xing fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Simon studied business administration and learned Spanish living in Mexico for a while. She has over 7 years of sales experience and has a strong focus on finding the prefect fit for the needs of the customer.</p>
+				<p class="teamdescription">Viktoria studied business administration and learned Spanish living in Mexico for a while. She has over 7 years of sales experience and has a strong focus on finding the prefect fit for the needs of the customer.</p>
 			</div>
 		</div>
     </div>
