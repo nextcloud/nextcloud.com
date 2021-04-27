@@ -111,9 +111,9 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <h5><?php echo $l->t('Virtual Machine image');?></h5>
-                                    <p><?php echo $l->t('The Nextcloud VM is designed to be an easy way for less technical, private users to get Nextcloud up and running or to test it out. It builds on Ubuntu Linux and makes configuration easy.');?></p>
+                                    <p><?php echo $l->t('The Nextcloud VM is designed to be an easy way for less technical home users to get Nextcloud up and running or to test it out. It builds on Ubuntu Linux and makes configuration easy.');?></p>
                                     <p><a class="button button--blue" href="https://download.nextcloud.com/vm/Official-Nextcloud-VM.zip" target="_blank"><?php echo $l->t('Download the VM');?></a></p>
-                                    <p><a class="hyperlink" href="https://github.com/nextcloud/vm" target="_blank"><?php echo $l->t('Find source here');?></a>.</p>
+                                    <p><a class="hyperlink" href="https://github.com/nextcloud/vm/tree/official" target="_blank"><?php echo $l->t('Find source here');?></a>.</p>
                                     <p><?php echo $l->t('If you are looking for a more extensive virtual machine with many scripts to easily set up advanced functionality, ');?><a class="hyperlink" href="https://www.hanssonit.se/nextcloud-vm/" target="_blank"><?php echo $l->t('get the full-version VM from Hansson IT.');?></a> <?php echo $l->t('Note that Nextcloud GmbH does not support this Virtual Machine image, we recommend the UCS appliance for business use.');?></p>
                                     <p><?php echo $l->t('For small businesses, Nextcloud GmbH maintains a free appliance built on the Univention Corporate Server (UCS) with easy graphical setup and web-based administration. It includes user management via LDAP as well as optional online office integration. ');?><a class="hyperlink" href="https://www.univention.com/products/univention-app-center/app-catalog/nextcloud/" target="_blank"><?php echo $l->t('Get the SME/Enterprise appliance.');?></a></p>
                                 </div>
