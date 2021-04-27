@@ -197,7 +197,7 @@
 					<h4 class="teamlocation">lives in Karlsruhe, Germany</h4>
 					<p class="teamsocial"><a href="https://www.linkedin.com/in/viktoria-linder-679792120/"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Viktoria_Linder/cv"><i class="fa-xing fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Viktoria studied business administration and learned Spanish living in Mexico for a while. She has over 7 years of sales experience and has a strong focus on finding the prefect fit for the needs of the customer.</p>
+				<p class="teamdescription">Viktoria studied business administration and learned Spanish living in Mexico for a while. She has over 7 years of sales experience and has a strong focus on finding the perfect fit for the needs of the customer.</p>
 			</div>
 		</div>
     </div>
