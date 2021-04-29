@@ -154,6 +154,34 @@ require(["require.config"], function() {
                 </div>
             </div>
         <div>
+        <div class="col-lg-4">
+            <div class="block-container">
+                <div class="text-center">
+                    <a href="https://www.swissvault.io/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/spaceodysee.png" class="text-center featureimg" /></a>
+                </div>
+                <div class="col-md-12">
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Swiss Vault : Space Odysee');?></h3>
+                    <p class="section--paragraph"><em><?php echo $l->t('The Space Odysee is a high-performance private cloud solution. It can be used:');?></em></p>
+                    <ul class="section--paragraph" style="list-style-type: disc">
+                        <li><?php echo $l->t('As a media or company server, pre-installed with NEXTCLOUD ');?></li>
+                        <li><?php echo $l->t('As a desktop workstation running Linux')?></li>
+                        <li><?php echo $l->t('As a Network Area Storage (typical storage appliance)')?></li>
+                    </ul>
+                    <p class="section--paragraph"><em><?php echo $l->t('Space Odysee’s is quieter, lighter, smaller, and has more RAM, more cores and lower energy usage than any other comparable device.');?></em></p>
+                    <ul class="section--paragraph" style="list-style-type: disc">
+                        <li><?php echo $l->t('Size of a tissue box ');?></li>
+                        <li><?php echo $l->t('32Gb of RAM, onboard graphic processor, 4 core, 4 thread CPU ')?></li>
+                        <li><?php echo $l->t('1W of power usage per Tb ')?></li>
+                        <li><?php echo $l->t('25Tb raw or 20Tb with Raid5 or 15Tb with Raid 6 ')?></li>
+                        <li><?php echo $l->t('Very low noise: under 24 dB SPL (quieter than most PCs) ')?></li>
+                    </ul>
+                    <div class="devices-tags">
+                        <span>Commercial</span>
+                    </div>
+                    <a href="https://swissvault.global/contact/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about Space Odysee');?></a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
         <div class="row">
