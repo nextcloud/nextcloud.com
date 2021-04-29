@@ -40,6 +40,21 @@
     <link>https://nextcloud.com/podcast/</link>
 
        <item>
+
+      <title>Interview with Michael Meeks, the General Manager of Collabora Productivity</title>
+      <itunes:subtitle>In this 10th episode, our host Ingo talked with Michael Meeks, the General Manager of Collabora Productivity.</itunes:subtitle>
+      <itunes:summary>In this 10th episode, our host Ingo talked with Michael Meeks, Open Source developer and General Manager of Collabora Productivity, leading Collabora Online and Office products, supporting customers, and consulting on development alongside his team.</itunes:summary>
+      <itunes:duration>01:09:50</itunes:duration>
+      <description>In this 10th episode, our host Ingo talked with Michael Meeks, the enthusiastic Open Source developer and General Manager of Collabora Productivity, leading Collabora Online and Office products, supporting customers, and consulting on development alongside his team.</description>
+      <pubDate>Fri, 30 Apr 2021 12:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_010.m4a"
+                 type="audio/x-m4a" length="42871146"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_010.m4a</guid>
+      <link>https://nextcloud.com/blog/interview-with-michael-meeks-the-general-manager-of-collabora-productivity/</link>
+</item>
+       <item>
       <title>Interview with Marco Nöchel and Thorsten Krüger from HKN</title>
       <itunes:subtitle>In this 9th-episode, our host Ingo talked with Marco Nöchel and Thorsten Krüger from HKN</itunes:subtitle>
       <itunes:summary>In this 9th-episode, our host Ingo talked with Marco Nöchel, the CEO, and engineer Thorsten Krüger from HKN GmbH, which is the biggest multi-region German Openstack Cloud, and Nextcloud silver partner.</itunes:summary>
