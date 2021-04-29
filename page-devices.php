@@ -153,7 +153,7 @@ require(["require.config"], function() {
                     <a href="https://nextcloud.com/blog/turris-mox-adds-nextcloud-to-put-users-back-in-control-over-their-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about Turris Mox');?></a>
                 </div>
             </div>
-        <div>
+        </div>
         <div class="col-lg-4">
             <div class="block-container">
                 <div class="text-center">
