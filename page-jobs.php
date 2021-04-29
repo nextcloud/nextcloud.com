@@ -309,10 +309,10 @@
             <a href="#androiddev" data-toggle="collapse"><h3 class="jobs">Android App developer<span class="icon-arrow"></span></h3></a>
             <div id="androiddev" class="collapse">
                 <p>We're looking for developers with experience in Android app development to join our client team!</p>
-                <p>You would work with the engineering team to bring new features and improvements to the Android app like new authentication mechanisms, audio/video chat integration and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
+                <p>You would work with the engineering team to bring new features and improvements to the Android app around file handling, streaming, communication integration and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
                 <p>Responsibilities:</p>
                 <ul>
-                    <li>Android development (JAVA)</li>
+                    <li>Android development (JAVA, Kotlin)</li>
                     <li>Software design</li>
                     <li>UX/UI design</li>
                     <li>Quality assurance</li>
@@ -337,7 +337,7 @@
             <a href="#iosdev" data-toggle="collapse"><h3 class="jobs">iOS App developer<span class="icon-arrow"></span></h3></a>
             <div id="iosdev" class="collapse">
                 <p>We're looking for developers with experience in iOS app development to join our client team!</p>
-                <p>You would work with the engineering team to bring new features and improvements to the iOS app like new authentication mechanisms, audio/video chat integration and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
+                <p>You would work with the engineering team to bring new features and improvements to the iOS app around file handling, streaming, communication integration and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
                 <p>Responsibilities:</p>
                 <ul>
                     <li>iOS development (Objective-C/Swift)</li>
