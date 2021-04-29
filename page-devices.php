@@ -184,44 +184,45 @@ require(["require.config"], function() {
         </div>
     </div>
 </div>
-        <div class="row">
-            <h4>Sold out, or not available any more</h4>
-            <div class="col-lg-4">
-                <div class="block-container">
-                    <div class="text-center">
-                        <a href="https://spreedbox.me/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/spreedbox.png" class="text-center featureimg" /></a>
+<div class="container">
+    <div class="row">
+        <h2>Sold out/or not available any more</h2>
+        <div class="col-lg-6">
+            <div class="block-container">
+                <div class="text-center">
+                    <a href="https://spreedbox.me/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/spreedbox.png" class="text-center featureimg" /></a>
+                </div>
+                <div class="col-md-12">
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Spreedbox');?></h3>
+                    <p class="section--paragraph"><?php echo $l->t('Behind the award-winning designed device by struktur AG operates a secure video chat and file exchange solution for small enterprise usage.');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('It offers Strong end-to-end encrypted audio and video chat, a Nextcloud based file sync and share solution and advanced security features with a silicon hardware key generator.');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('The Spreedbox offers an optional SIP gateway, enabling web conferencing participants to dial in through a traditional telephone connection.');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('Pricing is in the Eur 1500/USD 1500 range.');?></p>
+                    <div class="devices-tags">
+                        <span>Commercial</span>
                     </div>
-                    <div class="col-md-12">
-                        <h3 class="section--paragraph__title"><?php echo $l->t('Spreedbox');?></h3>
-                        <p class="section--paragraph"><?php echo $l->t('Behind the award-winning designed device by struktur AG operates a secure video chat and file exchange solution for small enterprise usage.');?></p>
-                        <p class="section--paragraph"><?php echo $l->t('It offers Strong end-to-end encrypted audio and video chat, a Nextcloud based file sync and share solution and advanced security features with a silicon hardware key generator.');?></p>
-                        <p class="section--paragraph"><?php echo $l->t('The Spreedbox offers an optional SIP gateway, enabling web conferencing participants to dial in through a traditional telephone connection.');?></p>
-                        <p class="section--paragraph"><?php echo $l->t('Pricing is in the Eur 1500/USD 1500 range.');?></p>
-                        <div class="devices-tags">
-                            <span>Commercial</span>
-                        </div>
-                        <a href="https://spreedbox.me/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about spreedbox');?></a>
-                    </div>
+                    <a href="https://spreedbox.me/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about spreedbox');?></a>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="block-container">
-                    <div class="text-center">
-                        <a href="<?php echo home_url('box') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/box-perspective.png" class="text-center featureimg" /></a>
-                    </div>
-                        <div class="col-md-12">
-                            <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Box');?></h3>
-                            <p class="section--paragraph"><?php echo $l->t('The Nextcloud Box comes preinstalled with Nextcloud, running on Ubuntu Core (based on the new super-secure, remotely upgradeable Linux app packages known as snaps) as the OS.');?></p>
-                            <p class="section--paragraph"><?php echo $l->t('The box consists of a 1 TB USB3 hard drive from WDLabs, a Nextcloud case with room for the drive and a compute board, a microUSB charger, cables and adapters, a screw driver and screws');?></p>
-                            <p class="section--paragraph"><strong><?php echo $l->t('Sadly, the box is sold out and no longer produced by WD Labs!');?></strong></p>
-                            <a href="<?php echo home_url('box') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('More about the Nc Box');?></a>
-                        </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="block-container">
+                <div class="text-center">
+                    <a href="<?php echo home_url('box') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/box-perspective.png" class="text-center featureimg" /></a>
+                </div>
+                    <div class="col-md-12">
+                        <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Box');?></h3>
+                        <p class="section--paragraph"><?php echo $l->t('The Nextcloud Box comes preinstalled with Nextcloud, running on Ubuntu Core (based on the new super-secure, remotely upgradeable Linux app packages known as snaps) as the OS.');?></p>
+                        <p class="section--paragraph"><?php echo $l->t('The box consists of a 1 TB USB3 hard drive from WDLabs, a Nextcloud case with room for the drive and a compute board, a microUSB charger, cables and adapters, a screw driver and screws');?></p>
+                        <p class="section--paragraph"><strong><?php echo $l->t('Sadly, the box is sold out and no longer produced by WD Labs!');?></strong></p>
+                        <a href="<?php echo home_url('box') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('More about the Nc Box');?></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 </section>
 <div class="calltoaction">
     <h1 class="section--heading-2 section--text--center"><?php echo $l->t('Interested in building Nextcloud Devices?');?></h1>
