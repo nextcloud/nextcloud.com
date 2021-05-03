@@ -181,13 +181,14 @@
                 <ul>
                     <li><?php echo $l->t('Mobile calls & chat with push notifications');?></li>
                     <li><?php echo $l->t('Commands to enable integration with other tools');?></li>
-                    <li><?php echo $l->t('Webinars & public web meetings*');?></li>
-                    <li><?php echo $l->t('SIP bridge: dial in by phone*');?></li>
+                    <li><?php echo $l->t('Webinars & public web meetings¹');?></li>
+                    <li><?php echo $l->t('SIP bridge: dial in by phone²');?></li>
                 </ul>
             </div>
         </div>
         <div class="row">
-            <p class="section--paragraph text-center"><?php echo $l->t('* with optional Nextcloud Talk High Performance Backend');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('¹ with Nextcloud Talk High Performance Backend');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('² with Nextcloud Talk High Performance Backend');?></p>
             <p class="section--paragraph text-center"><?php echo $l->t('Starting at EUR 65 per user per year at 100 users');?></p>
             <p class="section--paragraph text-center"><a class="button button--medium" href="#hpb"><?php echo $l->t('Learn more');?></a></p>
         </div>
@@ -303,7 +304,7 @@
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk is a fully self hosted, on-premises audio/video and chat communication service. It features web and mobile apps and is designed to offer the highest degree of security while being easy to use.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk lowers the barrier for communication and lets your team connect any time, any where, on any device, with each other, customers or partners.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Message status indicators show when a message is sent and received - for more privacy, users can disable this on their side.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('The optional Nextcloud Talk High Performance Backend enables enterprise class scalability, reliability and features.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The Nextcloud Talk High Performance Backend enables enterprise class scalability, reliability and features.');?></p>
 		</div>
 	</div>
 	<div class="row">
@@ -500,7 +501,7 @@
 	<div class="row introduction">
         <div class="col-lg-6 col-lg-offset-3">
             <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Enterprise Ready');?></h1>
-            <p class="section--paragraph section--text--center"><?php echo $l->t('The optional Nextcloud Talk High Performance Backend for large organizations by Struktur AG offers the capacity, reliability and features enterprises need to conduct their business privately, securely and efficiently.');?></p>
+            <p class="section--paragraph section--text--center"><?php echo $l->t('The Nextcloud Talk High Performance Backend for large organizations by Struktur AG offers the capacity, reliability and features enterprises need to conduct their business privately, securely and efficiently.');?></p>
 		</div>
 	</div>
     <div class="row">
