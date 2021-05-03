@@ -29,9 +29,9 @@
 <p>Nextcloud has grown strongly since its founding in 2016 and has steadily expanded its market position, previously in direct sales. In order to meet the high demand in the DACH market even better and to be able to comprehensively support partners in the future, Nextcloud is now relying on competent support from the Würzburg-based security solutions distributor.</p>
 <p>Frank Karlitschek, CEO at Nextcloud GmbH, expects a lot from the cooperation:</p>
 <blockquote>With 8Soft, we now have an experienced distributor at our side who will support us in many ways: from onboarding new partners to expanding existing ones, in product training and tenders, or overall in the sale of our collaboration solutions.</blockquote>
-<p>8Soft and Nextcloud have a lot in common. Both partners are young-dynamic, owner-managed and focus on community collaboration. Healthy growth through community work and close, personal collaboration with partners is very important to both. The personal communication and, above all, their in-depth expertise provide trust for customers and partners.</p>
+<p>8Soft and Nextcloud have a lot in common. Both partners are young, dynamic, owner-managed and focused on community collaboration. Healthy growth through community work and close, personal collaboration with partners is very important to both. The personal communication and, above all, their in-depth expertise provide trust for customers and partners.</p>
 <p>8Soft's deep experience in cybersecurity solutions, especially Kaspersky, can be beneficial for the further development of Nextcloud. In fact, the announcement of Nextcloud's partnership with Kaspersky in 2020 had led to increased inquiries from the security sector. Nextcloud had therefore been looking for a suitable distribution with a security background for some time.</p>
-<blockquote>We have found this with 8Soft GmbH as a value added distributor. We are looking forward to a successful cooperation and growth through the new distribution model</blockquote>
+<blockquote>We have found this with 8Soft GmbH as a value added distributor. We are looking forward to a successful cooperation.</blockquote>
 <p>says Andreas Rode, CCO at Nextcloud GmbH.</p>
 
 <h2>About 8Soft GmbH</h2>
