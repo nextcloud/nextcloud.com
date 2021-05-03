@@ -12,7 +12,8 @@ $VERSIONS_CLIENT_DESKTOP_STABLE_SHORT = '3.2'; // For use in documentation link
 /* DOCUMENTATION */
 $DOCUMENTATION_BASE = 'https://docs.nextcloud.com';
 $DOCUMENTATION_DEVELOPER = $DOCUMENTATION_BASE.'/server/latest/developer_manual/';
-$DOCUMENTATION_ADMIN = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR_STABLE.'/admin_manual/';
+// we use latest instead of .$VERSIONS_SERVER_MAJOR_STABLE - also to make sure that's what people link each other to ;-) we have too many outdated links on the web...
+$DOCUMENTATION_ADMIN = $DOCUMENTATION_BASE.'/server/latest/admin_manual/';
 $DOCUMENTATION_USER = $DOCUMENTATION_BASE.'/server/latest/user_manual/en/';
 $DOCUMENTATION_BUGTRACKER = $DOCUMENTATION_BASE.'/server/latest/developer_manual/prologue/bugtracker/';
 $DOCUMENTATION_CLIENT_DESKTOP = $DOCUMENTATION_BASE.'/desktop/'.$VERSIONS_CLIENT_DESKTOP_STABLE_SHORT;
