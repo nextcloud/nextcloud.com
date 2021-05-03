@@ -167,16 +167,15 @@ require(["require.config"], function() {
                         <li><?php echo $l->t('As a desktop workstation running Linux')?></li>
                         <li><?php echo $l->t('As a Network Area Storage (typical storage appliance)')?></li>
                     </ul>
-                    <p class="section--paragraph"><em><?php echo $l->t('Space Odysee’s is quieter, lighter, smaller, and has more RAM, more cores and lower energy usage than any other comparable device.');?></em></p>
+                    <p class="section--paragraph"><em><?php echo $l->t('Space Odysee is quieter, lighter, smaller, and has more RAM, with low energy consumption and significant compute and storage compared to other systems in a small form factor.');?></em></p>
                     <ul class="section--paragraph" style="list-style-type: disc">
                         <li><?php echo $l->t('Size of a tissue box ');?></li>
-                        <li><?php echo $l->t('32Gb of RAM, onboard graphic processor, 4 core, 4 thread CPU ')?></li>
-                        <li><?php echo $l->t('1W of power usage per Tb ')?></li>
-                        <li><?php echo $l->t('25Tb raw or 20Tb with Raid5 or 15Tb with Raid 6 ')?></li>
-                        <li><?php echo $l->t('Very low noise: under 24 dB SPL (quieter than most PCs) ')?></li>
+                        <li><?php echo $l->t('32Gb of RAM, onboard graphic processor, 4 core, 4 thread CPU')?></li>
+                        <li><?php echo $l->t('Under 1 Watt of energy usage per TB')?></li>
+                        <li><?php echo $l->t('25TB raw storage (20TB - RAID5; 15TB - RAID6 configuration)')?></li>
+                        <li><?php echo $l->t('Very low noise: under 24 dB SPL (quieter than most PCs)')?></li>
                     </ul>
                     <div class="devices-tags">
-                        <span>Commercial</span>
                     </div>
                     <a href="https://swissvault.global/contact/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about Space Odysee');?></a>
                 </div>
