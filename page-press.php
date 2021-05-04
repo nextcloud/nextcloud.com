@@ -34,6 +34,7 @@ height: 100px;
     <a href="<?php echo home_url('press/pr20210222-1') ?>" class="button button--large button--white button--arrow">Press release</a>
     <h2>Press releases 2021</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20210504') ?>">May 4, 2021: OpenProject and Nextcloud announce collaboration and integration features</a></li>
         <li><a href="<?php echo home_url('press/pr20210503') ?>">May 3, 2021: Nextcloud and 8Soft launch sales partnership</a></li>
         <li><a href="<?php echo home_url('press/pr20210421') ?>">April 21, 2021: German government funds first open source personal health data store</a></li>
         <li><a href="<?php echo home_url('press/pr20210416') ?>">April 16, 2021: Managed Nextcloud: IONOS launches Professional Cloud Storage</a></li>
