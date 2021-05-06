@@ -33,6 +33,17 @@ function translationUrlFilter($url) {
             array_splice($url, $count, 0, $languageEntry);
             return implode('/', $url);
         }
+        if($language[1] === 'ru') {
+            $url = explode('/', $url);
+            if($path !== null) {
+                $count = 4;
+            } else {
+                $count = 3;
+            }
+            $languageEntry = ['ru'];
+            array_splice($url, $count, 0, $languageEntry);
+            return implode('/', $url);
+        }
         if($language[1] === 'pt_BR') {
             $url = explode('/', $url);
             if($path !== null) {
