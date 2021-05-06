@@ -56,13 +56,13 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-7">
-            <p><?php echo $l->t('Please answer the questions below so we can best help you with a realistic setup.');?> <?php echo $l->t('Mandatory questions are marked with a *');?></p>
+            <p><?php echo $l->t('Please answer the questions below so we can best help you with a realistic setup.');?></p>
         </div>
 	</div>
     <form name="trial" method="post" action="../trialsubmit/">
         <div class="row">
             <div class="col-lg-4">
-                <label for="yourname"><?php echo $l->t('Your name');?>*</label>
+                <label for="yourname"><?php echo $l->t('Your name');?></label>
             </div>
             <div class="col-lg-7">
                 <input  type="text" name="yourname" maxlength="60" size="60" placeholder="<?php echo $l->t('Your name');?>">
@@ -70,25 +70,10 @@
         </div>
         <div class="row">
              <div class="col-lg-4">
-                <label for="email">Business email*</label>
+                <label for="email">Business email</label>
             </div>
             <div class="col-lg-7">
                 <input   type="text" name="email" maxlength="80" size="60" placeholder="<?php echo $l->t('Business email');?>">
-            </div>
-        </div>
-        <div class="row">
-             <div class="col-lg-4">
-                <label for="orgsize"><?php echo $l->t('Size of organization');?>*</label>
-            </div>
-            <div class="col-lg-7">
-                <select id="orgsize" name="orgsize">
-                    <option value="under-20">under 20 employees</option>
-                    <option value="20to49">20-49 employees</option>
-                    <option value="50to199">50-199 employees</option>
-                    <option value="200-999">200-999 employees</option>
-                    <option value="999-99999">1000-9.999 employees</option>
-                    <option value="over100000">over 10.000 employees</option>
-                </select>
             </div>
         </div>
         <div class="row">
@@ -97,6 +82,32 @@
             </div>
             <div class="col-lg-7">
                 <input   type="text" name="phone" maxlength="40" size="60" placeholder="<?php echo $l->t('Please include country code (00 or +XX)');?>">
+            </div>
+        </div>
+        <div class="row">
+             <div class="col-lg-4">
+                <label for="users"><?php echo $l->t('To what size do you expect your deployment to grow some day?');?></label>
+            </div>
+            <div class="col-lg-7">
+                <select id="users" name="users">
+                    <option value="under-20">under 50 users</option>
+                    <option value="50to199">50-99 users</option>
+                    <option value="200-999">100-499 users</option>
+                    <option value="999-99999">500-4.999 users</option>
+                    <option value="999-99999">5000-50.000 users</option>
+                    <option value="over100000">over 50.000 users</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+             <div class="col-lg-4">
+                <label for="hosted-or-onprem"><?php echo $l->t('Would you like a hosted trial or a license for an on-premises Nextcloud Enterprise setup?');?><br /></label>
+            </div>
+            <div class="col-lg-7">
+                <select name="hosted-or-onprem">
+                    <option value="hosted"><?php echo $l->t('Hosted');?></option>
+                    <option value="onpremises"><?php echo $l->t('On-premises');?></option>
+                </select><br />
             </div>
         </div>
         <div class="row">
@@ -115,17 +126,6 @@
             </div>
         </div>
         <div class="row">
-             <div class="col-lg-4">
-                <label for="hosted-or-onprem"><?php echo $l->t('Would you like a hosted trial or a license for an on-premises Nextcloud Enterprise setup?');?><br /></label>
-            </div>
-            <div class="col-lg-7">
-                <select name="hosted-or-onprem">
-                    <option value="hosted"><?php echo $l->t('Hosted');?></option>
-                    <option value="onpremises"><?php echo $l->t('On-premises');?></option>
-                </select><br />
-            </div>
-        </div>
-        <div class="row">
             <div class="col-lg-4">
                 <p><label for="comments"><?php echo $l->t('Any more details, questions or information?');?></label>
             </div>
@@ -135,20 +135,15 @@
         </div>
         <div class="row">
              <div class="col-lg-12">
-                    <label for="partner"><?php echo $l->t('Can we share your contact data with a certified local partners to reach out to you with an offer?');?>
-                    <a href="<?php echo home_url('partners') ?>" class="hyperlink"><?php echo $l->t('See a list of our partners here.');?></a></small></label><br />
-                    <select name="partner">
-                        <option value="yes"><?php echo $l->t('Yes');?></option>
-                        <option value="no"><?php echo $l->t('No');?></option>
-                    </select><br />
-                <input type="checkbox" id="gdprcheck" name="gdprcheck" value="gdprchecked"><label for="gdprcheck"> <?php echo $l->t('I agree with the Nextcloud privacy policy and understand my data will be processed so Nextcloud can reach out to me.');?>*</label><br /></p>
+                <input type="checkbox" id="gdprcheck" name="gdprcheck" value="gdprchecked"><label for="gdprcheck"> <?php echo $l->t('I agree with the Nextcloud privacy policy and understand my data will be processed so Nextcloud or its partners can reach out to me.');?></label><br />
+                <small><?php echo $l->t('In some regions we exclusively work through partners. By filling in the form, you agree we can share your data with them so they can reach out to you with the information for the trial.');?></small></p>
                 <input type="submit" value=" Submit inquiry " class="button button--blue">
             </div>
         </div>
     </form>
     <div class="row">
         <div class="col-md-12">
-            <p><?php echo $l->t('We respect your privacy! If you fill in this form, we will reach out to send you an offer and might also contact you with relevant information like a local event or workshop we are organizing. We never sell your data - any mails you get will be from us, or, if you agreed to be brought in contact with them, one of our Nextcloud service partners.');?> <a href="<?php echo home_url('privacy') ?>" class="hyperlink"><?php echo $l->t('See our privacy policy here.');?></a></p>
+            <p><?php echo $l->t('We respect your privacy! If you fill in this form, we will reach out to send you the trial information and might also contact you with relevant information like a local event or workshop we are organizing. We never sell your data - any mails you get will be from us or one of our Nextcloud service partners.');?> <a href="<?php echo home_url('privacy') ?>" class="hyperlink"><?php echo $l->t('See our privacy policy here.');?></a></p>
         </div>
     </div>
 </div>

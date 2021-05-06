@@ -77,7 +77,7 @@
                 </select></label></p>
 				<p><label for="comments">As partner, what value would you bring to Nextcloud and its customers?<br />
 				<textarea name="comments" maxlength="2000" cols="80" rows="8" placeholder="What makes your offering special?"></textarea></label></p>
-				<p><input type="checkbox" id="gdprcheck" name="gdprcheck" value="gdprchecked"><label for="gdprcheck"> I agree with the Nextcloud privacy policy and understand my data will be processed so Nextcloud can reach out to me.<br /></p>
+				<p><input type="checkbox" id="gdprcheck" name="gdprcheck" value="gdprchecked"><label for="gdprcheck"> I agree with the Nextcloud privacy policy and understand my data will be processed so Nextcloud can reach out to me.<br />Should we have a distribution in your region, you agree with this request that we forward your contact details to our distribution.<br /></p>
 				<input type="submit" value=" Submit inquiry " class="button button--blue">
             </div>
         </div>
