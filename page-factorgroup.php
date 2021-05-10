@@ -307,7 +307,7 @@
                 <h3 class="section--paragraph__title"><?php echo $l->t('Turning an idea into a new office layout');?></h3>
                 <p class="section--paragraph"><strong><?php echo $l->t('Goal:</strong> Find support for an idea in the office and get it approved');?></p>
                 <p class="section--paragraph"><strong><?php echo $l->t('Tools:</strong> Files, Talk, Groupware, Circles, Flow, Social, Forms, Anti-virus, Ransomware Protection');?></p>
-                <a href="#workflow2" data-toggle="collapse" class="button button--blue button--arrow--down">Read the full scenario<span class="icon-arrow-down"></a>
+                <a href="#workflow2" data-toggle="collapse" class="button button--blue button--arrow--down"><?php echo $l->t('Read the full scenario');?><span class="icon-arrow-down"></a>
 				<div id="workflow2" class="collapse ">
                     <p class="section--paragraph"><strong><?php echo $l->t('Personas involved:');?></strong></p>
                     <ul>
@@ -517,7 +517,7 @@
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Virtual Data Room');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('In settings where a firewall is needed between departments or organizations without impeding smooth and efficient collaboration, a separate Virtual Data Room can be set up. Nextcloud offers a wide range of unique features for VDR use and its on-premises nature offers unparalleled confidentiality and control.');?></p>
-                <a href="<?php echo home_url('virtual-data-room') ?>" class="button button--blue button--arrow button--large">Virtual Data Rooms</a>
+                <a href="<?php echo home_url('virtual-data-room') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Virtual Data Room');?></a>
             </div>
         </div>
     </div>
