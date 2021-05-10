@@ -372,6 +372,13 @@
                 <p class="partnertext">VMsources Group, Inc. is a customer-facing MSP focusing on Cloud Computing, DRaaS, and Managed IT for organizations and environments of all sizes. Since 2010, it has been <a href="https://www.vmsources.com/about-vmsources/vmsources-mission-statement">VMsources mission</a> "to act as the client's advocate at every stage of the process; from design, through installation and configuration, to post-install support. At VMsources, we place the customers’ needs first at all phases of an IT Infrastructure or Cloud Computing project, from concept to completion."</p>
                 <a class="button button--white" href="https://vmsources.com/managed-it/nextcloud">Learn more</a>
             </div>
+            <div class="col-md-4">
+                <a href="https://yansatech.dk" target="_blank" title="yansatech">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/yansatech.png" title="YansaTech logo" />
+                </a>
+                <p class="partnertext">Denmark-based YansaTech specializes in solutions for planning and collaborating effectively and securely. It helps private and public organizations implement real-time meeting/document collaboration solutions and keep control of their data. The company experts provide a wide range of services, including consulting, project management and implementation, bringing data privacy and sovereignty into everything they do. Contact YansaTech for help with identifying secure and innovative alternatives to big tech cloud providers.</p>
+                <a class="button button--white" href="https://yansatech.dk">Learn more</a>
+            </div>
         </div>
     </div>
 </section>
