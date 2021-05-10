@@ -1,18 +1,16 @@
 <head>
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/generic.css?v=1" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/form.css?v=1" rel="stylesheet">
 
-<div class="background generic-background">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 topheader">
-                <h1>Have a question?</h1>
+</head>
+<section class="background generic-background">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 topheader">
+                <h1><?php echo $l->t('Contact Nextcloud');?></h1>
             </div>
         </div>
     </div>
-</div>
-
+</section>
 <section class="section--welcome">
 <div class="container">
     <div class="row">
