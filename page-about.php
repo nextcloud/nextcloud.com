@@ -163,6 +163,12 @@
 		<p class="section--paragraph"><?php echo $l->t('We keep track of some of the mentions of Nextcloud in the press.');?> Find our Press center <a href="<?php echo home_url('press') ?>" class="hyperlink">here.</a></p>
         <div class="row newsrow">
             <div class="col-md-4">
+				<a class="hyperlink" href="https://www.tijd.be/dossiers/de-tijd-vooruit/datakluizenproject-van-tim-berners-lee-wint-veld-in-europa-maar-opent-ook-debat/10303256.html" target="_blank" title="De Tijd on Nextcloud and Solid">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/detijd.png" title="De Tijd on Nextcloud and Solid"/>
+				<span class="text">"Er zijn ongeveer 400.000 Nextcloud-servers online waarvan sommige miljoenen gebruikers hebben"</span>
+				</a>
+			</div>
+            <div class="col-md-4">
 				<a class="hyperlink" href="https://www.techrepublic.com/article/nextcloud-21-improvements-in-speed-and-added-features-make-its-cloud-offering-more-business-friendly/" target="_blank" title="Techrepublic on Nextcloud Hub">
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/techrepublic.png" title="Techrepublic on Nextcloud Hub"/>
 				<span class="text">"the best on-premise cloud solution available"</span>
