@@ -488,7 +488,7 @@
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Desktop client</h4>
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
-					<p class="teamsocial"><a href="https://camila.codes"><i class="fa-rss fa"></i></a> <a href="https://github.com/camilasan"><i class="fa-github fa"></i></a> <a href="https://www.linkedin.com/in/camilasan"><i class="fa-linkedin fa"></i></a> </p>
+					<p class="teamsocial"><a href="https://camila.codes"><i class="fa-rss fa"></i></a> <a href="https://github.com/camilasan"><i class="fa-github fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Camila is from Brazil and has worked as front-end developer, with C#, Java and even Delphi. She got into open source doing C++/Qt development in the KDE community. After moving to Germany she worked with PHP, Ruby on Rails, AngularJS, Go and Drupal 7. She's now a desktop client developer at Nextcloud but just might do other things than C++ sometimes.</p>
 			</div>
@@ -670,7 +670,7 @@
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Frontend and design</h4>
 					<h4 class="teamlocation">lives in Barcelona, spain</h4>
-					<p class="teamsocial"> <a href="https://github.com/ma12-co"><i class="fa-github fa"></i></a> <a href="https://twitter.com/ma12_co"><i class="fa-twitter fa"></i></a> </p>
+					<p class="teamsocial"> <a href="https://github.com/ma12-co"><i class="fa-github fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Marco is a front end developer that cares deeply about design and user experience. He is part of the talk and design teams.</p>
 			</div>
