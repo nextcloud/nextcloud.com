@@ -79,7 +79,7 @@
     border-radius: 15px; }
   .section--contact-form #gdprcheck {
     height: 10px; }
-  .section--contact-form .col-lg-4 label {
+  .section--contact-form .col-lg-4 label, .section--contact-form .col-lg-3 label {
     float: right; }
   @media (max-width: 1200px) {
     .section--contact-form col-lg-4 label {
