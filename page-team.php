@@ -508,6 +508,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Christopher Ng</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Front-end and back-end</h4>
+					<h4 class="teamlocation">lives in Vancouver, Canada</h4>
+					<p class="teamsocial"><a href="https://camila.codes"><i class="fa-rss fa"></i></a> <a href="https://github.com/Pytal"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Christopher is a software engineer who works across front-end and back-end technologies and enjoys dabbling in DevOps from time to time. He is a Canadian, an advocate of the open source software movement, and has a passion for lifelong learning.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/daniel.jpg" />
 				<h2 class="teamname">Daniel Calviño Sánchez</h2>
 				<div class="teammeta">
