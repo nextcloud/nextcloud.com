@@ -514,7 +514,7 @@
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Front-end and back-end</h4>
 					<h4 class="teamlocation">lives in Vancouver, Canada</h4>
-					<p class="teamsocial"><a href="https://camila.codes"><i class="fa-rss fa"></i></a> <a href="https://github.com/Pytal"><i class="fa-github fa"></i></a></p>
+					<p class="teamsocial"><a href="https://github.com/Pytal"><i class="fa-github fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Christopher is a software engineer who works across front-end and back-end technologies and enjoys dabbling in DevOps from time to time. He is a Canadian, an advocate of the open source software movement, and has a passion for lifelong learning.</p>
 			</div>
