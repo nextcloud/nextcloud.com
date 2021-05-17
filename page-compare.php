@@ -115,7 +115,7 @@
 					<li title="<?php echo $l->t('Life cycle matching your operating system');?>" rel="tooltip"><?php echo $l->t('Long term support (5-10 years)');?></li> <!--Long term support (5-10 years)-->
 					<li title="" rel="tooltip"><?php echo $l->t('Branding');?></li> <!--Branding-->
 						<li class="cd-group"><?php echo $l->t('Compliance features');?></li> <!--Compliance features-->
-					<li title="<?php echo $l->t('Mandatory if you have a legal requirement to find out who did what and when.');?>" rel="tooltip"><?php echo $l->t('Full audit trail');?></li> <!--Full audit trail-->
+					<li title="<?php echo $l->t('Mandatory if you have a legal requirement to find out who did what and when.');?>" rel="tooltip"><?php echo $l->t('Audit trail');?></li> <!--Audit trail-->
 					<li title="" rel="tooltip"><?php echo $l->t('Imprint and privacy links');?></li> <!--Imprint and privacy links-->
 					<li title="" rel="tooltip"><?php echo $l->t('Built in data-request/account deletion');?></li> <!--Built in data-request/account deletion-->
 					<li title="" rel="tooltip"><?php echo $l->t('Terms-of-service');?></li> <!--Terms-of-service-->
@@ -199,7 +199,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Long term support (5-10 years)-->
 							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small><?php echo $l->t('Easy self-service in UI or full custom CSS');?></small></div></li> <!--Branding-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Compliance features-->
-                            <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Full audit trail-->
+                            <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Audit trail-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Imprint and privacy links-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Terms-of-service-->
@@ -281,7 +281,7 @@
 							<li title="<?php echo $l->t('Hosted only, customer has no control over when/what changes');?>" rel="tooltip"><?php echo $l->t('N.A.');?></li> <!--Long term support (5-10 years)-->
 							<li title="" rel="tooltip"><?php echo $l->t('very limited');?></li> <!--Branding-->
                                 <li class="cd-group"><?php echo $l->t('');?></li> <!--Compliance features-->
-							<li title="" rel="tooltip"><?php echo $l->t('limited');?></li> <!--Full audit trail-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Audit trail-->
                             <li title="<?php echo $l->t('Only to their imprint and privacy policy, not yours');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Imprint and privacy links-->
                             <li title="<?php echo $l->t('You can request (deletion of) data');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
                             <li title="<?php echo $l->t('You and your customers you share with have to agree to their terms');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Terms-of-service-->
@@ -364,7 +364,7 @@
 							<li title="<?php echo $l->t('Hosted only, customer has no control over when/what changes');?>" rel="tooltip"><?php echo $l->t('N.A.');?></li> <!--Long term support (5-10 years)-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Branding-->
                                 <li class="cd-group"><?php echo $l->t('');?></li> <!--Compliance features-->
-							<li title="" rel="tooltip"><?php echo $l->t('limited');?></li> <!--Full audit trail-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Audit trail-->
                             <li title="<?php echo $l->t('Only to their imprint and privacy policy, not yours');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Imprint and privacy links-->
                             <li title="<?php echo $l->t('You can request (deletion of) data');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
                             <li title="<?php echo $l->t('You and your customers you share with have to agree to their terms');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Terms-of-service-->
@@ -446,7 +446,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Long term support (5-10 years)-->
 							<li title="<?php echo $l->t('Using paid ownBrander or manually changing CSS');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Branding-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Compliance features-->
-                            <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Full audit trail-->
+                            <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Audit trail-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Imprint and privacy links-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Built in data-request/account deletion-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Terms-of-service-->
@@ -527,7 +527,7 @@
 							<li title="<?php echo $l->t('Hosted only, customer has no control over when/what changes');?>" rel="tooltip"><?php echo $l->t('N.A.');?></li> <!--Long term support (5-10 years)-->
 							<li title="<?php echo $l->t('Varies per plan but mainly yes');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Branding-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Compliance features-->
-							<li title="" rel="tooltip"><?php echo $l->t('limited');?></li> <!--Full audit trail-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Audit trail-->
                             <li title="<?php echo $l->t('Only to their imprint and privacy policy, not yours');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Imprint and privacy links-->
                             <li title="<?php echo $l->t('You can request (deletion of) data');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
                             <li title="<?php echo $l->t('You and your customers you share with have to agree to their terms');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Terms-of-service-->
@@ -609,7 +609,7 @@
 							<li title="<?php echo $l->t('Hosted only, customer has no control over when/what changes');?>" rel="tooltip"><?php echo $l->t('N.A.');?></li> <!--Long term support (5-10 years)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Branding-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Compliance features-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Full audit trail-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Audit trail-->
                             <li title="<?php echo $l->t('Only to their imprint and privacy policy, not yours');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Imprint and privacy links-->
                             <li title="<?php echo $l->t('You can request (deletion of) data');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
                             <li title="<?php echo $l->t('You and your customers you share with have to agree to their terms');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Terms-of-service-->
@@ -690,7 +690,7 @@
 							<li title="<?php echo $l->t('Hosted only, customer has no control over when/what changes');?>" rel="tooltip"><?php echo $l->t('N.A.');?></li> <!--Long term support (5-10 years)-->
 							<li title="" rel="tooltip"><?php echo $l->t('very limited');?></li> <!--Branding-->
                                 <li class="cd-group"><?php echo $l->t('');?></li> <!--Compliance features-->
-							<li title="" rel="tooltip"><?php echo $l->t('limited');?></li> <!--Full audit trail-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Audit trail-->
                             <li title="<?php echo $l->t('Only to their imprint and privacy policy, not yours');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Imprint and privacy links-->
                             <li title="<?php echo $l->t('You can request (deletion of) data');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
                             <li title="<?php echo $l->t('You and your customers you share with have to agree to their terms');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Terms-of-service-->
@@ -771,7 +771,7 @@
 							<li title="<?php echo $l->t('Hosted only, customer has no control over when/what changes');?>" rel="tooltip"><?php echo $l->t('N.A.');?></li> <!--Long term support (5-10 years)-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Branding-->
                                 <li class="cd-group"><?php echo $l->t('');?></li> <!--Compliance features-->
-							<li title="" rel="tooltip"><?php echo $l->t('limited');?></li> <!--Full audit trail-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Audit trail-->
                             <li title="<?php echo $l->t('If self-hosted');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Imprint and privacy links-->
                             <li title="<?php echo $l->t('Yes');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
                             <li title="<?php echo $l->t('If self-hosted');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Terms-of-service-->
@@ -853,7 +853,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Long term support (5-10 years)-->
 							<li title="" rel="tooltip"><?php echo $l->t('limited');?></li> <!--Branding-->
                                 <li class="cd-group"><?php echo $l->t('');?></li> <!--Compliance features-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Full audit trail-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Audit trail-->
                             <li title="<?php echo $l->t('When picking on-premises option');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Imprint and privacy links-->
                             <li title="<?php echo $l->t('When picking on-premises option');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Built in data-request/account deletion-->
                             <li title="<?php echo $l->t('When picking on-premises option');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Terms-of-service-->
