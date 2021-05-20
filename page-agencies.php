@@ -202,7 +202,7 @@ require(["require.config"], function() {
                 <a href="<?php echo home_url('outlook') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Email integration');?></a>
             </div>
         </div>
-        <div class="row feature-row">
+ <!--       <div class="row feature-row">
             <div class="col-md-6 image--feature image--floated new-img">
                 <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ransomware-recovery.png" alt="in action"/></a>
             </div>
@@ -212,7 +212,7 @@ require(["require.config"], function() {
                 <a href="https://nextcloud.com/blog/amidst-rising-ransomware-costs-another-us-city-pays-hundreds-of-thousands-to-recover-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Ransomware risks and protection');?></a>
             </div>
         </div>
-    </div>
+    </div>-->
 </section>
 
 <section class="section--getstarted">

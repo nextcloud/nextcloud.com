@@ -312,7 +312,7 @@
     </div>
 </div>
 </section>
-<section>
+<!--<section>
 <div class="container">
     <div class="row feature-row">
         <div class="col-md-6 image--feature image--floated new-img">
@@ -325,7 +325,7 @@
         </div>
     </div>
 </div>
-</section>
+</section>-->
 <section>
 <div class="container">
     <div class="row">
