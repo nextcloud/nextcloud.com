@@ -35,7 +35,7 @@
 <p>Note here that with 'supported' in this context we mean that software updates will be available to the public, not that there is any actual support beyond community members answering questions in our home user forums. If you need to run Nextcloud in an enterprise setting, we recommend <a class="hyperlink" href="https://nextcloud.com/enterprise">Nextcloud Enterprise.</a></p>
 <a name="latest21"></a>
 
-<h3 id="21-0-2">Version 21.0.2 <small>May 6 2021</small></h3>
+<h3 id="21-0-2">Version 21.0.2 <small>May 20 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.2.tar.bz2">nextcloud-21.0.2.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.2.zip">nextcloud-21.0.2.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.2.tar.bz2.md5">nextcloud-21.0.2.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.2.zip.md5">nextcloud-21.0.2.zip.md5</a></br>
@@ -221,7 +221,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 
 <a name="latest20"></a>
 
-<h3 id="20-0-10">Version 20.0.10 <small>May 6 2021</small></h3>
+<h3 id="20-0-10">Version 20.0.10 <small>May 20 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.10.tar.bz2">nextcloud-20.0.10.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.10.zip">nextcloud-20.0.10.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.10.tar.bz2.md5">nextcloud-20.0.10.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.10.zip.md5">nextcloud-20.0.10.zip.md5</a></br>
@@ -811,7 +811,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 
 <a name="latest19"></a>
 
-<h3 id="19-0-11">Version 19.0.11 <small>May 6 2021</small></h3>
+<h3 id="19-0-11">Version 19.0.11 <small>May 20 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.11.tar.bz2">nextcloud-19.0.11.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.11.zip">nextcloud-19.0.11.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.11.tar.bz2.md5">nextcloud-19.0.11.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.11.zip.md5">nextcloud-19.0.11.zip.md5</a></br>
