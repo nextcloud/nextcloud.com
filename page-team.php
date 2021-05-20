@@ -257,19 +257,6 @@
 				<p class="teamdescription">Matthias worked for nine years as a 3rd level IT Engineer and IT Administrator. Acting as a broker between the customer, the Sales and Engineering department, his main focus is to give our clients the best possible advice. Matthias is passionate about innovative technology, enabling clients to collaborate securely while retaining ease-of-use.</p>
 			</div>
 		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/sascha.jpg" />
-				<h2 class="teamname">Sascha Wiswedel</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Senior Sales Engineer</h3>
-					<h4 class="teamexpertise">Customer consulting</h4>
-					<h4 class="teamlocation">lives in Berlin, Germany</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/wiswedel"><i class="fa-linkedin fa"></i></a></p>
-				</div>
-				<p class="teamdescription">Sascha has worked as account manager, sales engineer and application developer in the software industry and in the public sector. He is specialized in transformation and migration of data and processes. Sascha likes finding pragmatic solutions for grown environments and infrastructures.</p>
-			</div>
-		</div>
     </div>
     <div class="row">
         <h2><?php echo $l->t('Marketing');?></h2>
