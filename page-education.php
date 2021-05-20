@@ -466,7 +466,7 @@ require(["require.config"], function() {
             <a href="<?php echo home_url('monitoring') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring');?></a>
         </div>
     </div>
-    <div class="row feature-row">
+<!--    <div class="row feature-row">
         <div class="col-md-6  image--feature image--floated new-img">
             <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ransomware-recovery.png" alt="in action"/></a>
         </div>
@@ -475,7 +475,7 @@ require(["require.config"], function() {
             <p class="section--paragraph"><?php echo $l->t('Ransomware attacks are becoming more targetted as lots of money can be extracted from large organizations. While insurance can cover direct costs, the disruption to productivity is immense regardless. Nextcloud goes far beyond competing solutions, offering automated, one-click ransomware recovery tools so students can recover from individual or institute-wide attacks.');?></p>
             <a href="https://nextcloud.com/blog/amidst-rising-ransomware-costs-another-us-city-pays-hundreds-of-thousands-to-recover-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Ransomware risks and protection');?></a>
         </div>
-    </div>
+    </div>-->
     <div class="row claim--container">
         <p class="claim--paragraph">
             <blockquote>Nextcloud understands the necessity to provide core principle baseline security requirements, as such Nextcloud 11 is built on these security principles to ultimately deliver a secure solution to their customers</blockquote>
