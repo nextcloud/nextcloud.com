@@ -811,6 +811,19 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 
 <a name="latest19"></a>
 
+<h3 id="19-0-12">Version 19.0.12 <small>May 21 2021</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.12.tar.bz2">nextcloud-19.0.12.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.12.zip">nextcloud-19.0.12.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.12.tar.bz2.md5">nextcloud-19.0.12.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.12.zip.md5">nextcloud-19.0.12.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.12.tar.bz2.sha256">nextcloud-19.0.12.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.12.zip.sha256">nextcloud-19.0.12.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.12.tar.bz2.sha512">nextcloud-19.0.12.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.12.zip.sha512">nextcloud-19.0.12.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.12.tar.bz2.asc">nextcloud-19.0.12.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.12.zip.asc">nextcloud-19.0.12.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+	<li><a href="https://github.com/nextcloud/server/pull/27041">Use proper query method. No get yet on stable19 (server#27041)</a></li>
+</ul>
+
 <h3 id="19-0-11">Version 19.0.11 <small>May 20 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.11.tar.bz2">nextcloud-19.0.11.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.11.zip">nextcloud-19.0.11.zip</a></br>
 Check the file integrity with:</br>
