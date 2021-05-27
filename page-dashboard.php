@@ -37,8 +37,9 @@
 	<div class="container">
         <div class="row ">
             <div class="col-md-6 image--feature">
-                    <stream src="680d3481202ecd2fcb5ab2b9e5f11855" controls loop poster="<?php bloginfo('template_directory'); ?>/assets/img/features/custom_status.png"></stream>
-                    <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=680d3481202ecd2fcb5ab2b9e5f11855"></script>
+                    <!--<stream src="680d3481202ecd2fcb5ab2b9e5f11855" controls loop poster="<?php bloginfo('template_directory'); ?>/assets/img/features/custom_status.png"></stream>
+                    <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=680d3481202ecd2fcb5ab2b9e5f11855"></script>-->
+                    <div style="padding:100% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555700010?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Setting your status in Nextcloud"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
             </div>
             <div class="col-md-6 featureblock">
                 <h3 class="section--paragraph__tittle"><?php echo $l->t('Set your status');?></h3>
