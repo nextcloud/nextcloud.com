@@ -42,6 +42,7 @@
                     <div style="padding:100% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555700010?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Setting your status in Nextcloud"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
             </div>
             <div class="col-md-6 featureblock">
+                <h3 class="section--paragraph__tittle"><?php echo $l->t('🥘 Having Lunch - 🏠 Working from home - 📞 Calls all day');?></h3>
                 <h3 class="section--paragraph__tittle"><?php echo $l->t('Set your status');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('On top of the dashboard, users can set their status, to show to colleagues what they are up to - traveling, working from home, concentrating, and so on. This status is then visible in Talk and other apps.');?></p>
             </div>
