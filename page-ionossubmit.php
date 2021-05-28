@@ -17,6 +17,7 @@
 		</div>
 	</div>
 </section>
+<section>
 <div class="container">
 <?php
 require_once realpath(dirname(__FILE__)) . '/lib/ratelimiter.php';
@@ -225,7 +226,7 @@ if(isset($_POST['email'])) {
 		// Send the email
 // 		$recipients = ['orders'];
 // 		$recipients = ['sales', 'jos', 'frank'];
-		$recipients = ['jos','viakom-sales','frank'];
+		$recipients = ['viakom-sales'];
 // 		$recipients = ['jos','jos.poortvliet',]; // for testing
 // 		$recipients = ['frank']; // for testing
 		$successfullySend = true;
@@ -280,3 +281,4 @@ if(isset($_POST['email'])) {
 }
 ?>
 </div>
+</section>
