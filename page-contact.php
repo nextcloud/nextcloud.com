@@ -20,7 +20,7 @@
             <p><?php echo $l->t('We usually reply within two weeks. For a faster reply, use one of the specific forms below.');?></p>
             <ul>
                 <li><strong><?php echo $l->t('Technical questions or support');?>.</strong> <a class="hyperlink" href="<?php echo home_url('support') ?>"><?php echo $l->t('Check out the options on our support page.');?></a> <br /><?php echo $l->t('Support requests through the contact form will not get any response.');?>
-                <li><strong><?php echo $l->t('Test out Nextcloud Enterprise or get a quote');?>.</strong> <a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('Find the quote form here');?></a> and ask directly for a <a class="hyperlink" href="<?php echo home_url('trial') ?>"><?php echo $l->t('trial of Nextcloud Enterprise here.');?></a></li>
+                <li><strong><?php echo $l->t('Test out Nextcloud Enterprise or get a quote');?>.</strong> <a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('Request a quote here');?></a> <?php echo $l->t('or') ?> <a class="hyperlink" href="<?php echo home_url('trial') ?>"><?php echo $l->t('request a trial of Nextcloud Enterprise here.');?></a></li>
                 <li><strong><?php echo $l->t('Become a Nextcloud partner');?>.</strong> <a class="hyperlink" href="<?php echo home_url('partnerprogram') ?>"><?php echo $l->t('See the form here.');?></a></li>
                 <li><strong><?php echo $l->t('Issues with your Nextcloud account');?>.</strong> <?php echo $l->t('Please contact the provider where you signed up. Nextcloud does no hosting and does not know where you host your data, so we can not help you.');?></li>
             </ul>

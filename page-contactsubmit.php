@@ -42,13 +42,12 @@ if(isset($_POST['email'])) {
             <?php
         }
     // validation expected data exists
+    $error_message = "";
     if(!isset($_POST['yourname']) ||
         !isset($_POST['email']) ||
-        !isset($_POST['organization']) ||
-        !isset($_POST['role']) ||
         !isset($_POST['phone']) ||
         !isset($_POST['comments'])) {
-        died('We are sorry, but there appears to be a problem with the form you submitted - did you fill in all fields?'); }
+         $error_message .= 'Phone, mail, name and comments field have to have valid data! <br />'; }
     $yourname = $_POST['yourname']; // required
     $organization= $_POST['organization']; // required
     $role = $_POST['role']; // required
@@ -56,7 +55,6 @@ if(isset($_POST['email'])) {
     $email_from = $_POST['email']; // required
     $comments = $_POST['comments']; // required
     $gdprcheck = $_POST['gdprcheck'];
-    $error_message = "";
 
     $email_exp = '/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
   if(!preg_match($email_exp,$email_from)) {
@@ -88,7 +86,7 @@ if(isset($_POST['email'])) {
         }
     // Prepare email text
     $email_message = "Form details below.\n\n";
-    $email_to = "sales@nextcloud.com";
+    $email_to = "jos@nextcloud.com";
     $email_subject = "Website Contact Form: ".clean_string($organization);
     $email_message .= "Name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
