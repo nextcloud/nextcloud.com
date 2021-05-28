@@ -3,7 +3,7 @@ name: syntax-php7.0
 
 steps:
   - name: syntax-php7.0
-    image: nextcloudci/php7.0:php7.0-7
+    image: ghcr.io/nextcloud/continuous-integration-php7.0:php7.0-19
     commands:
       - composer install
       - ./vendor/bin/parallel-lint --exclude vendor/ .
@@ -22,7 +22,7 @@ name: syntax-php7.1
 
 steps:
   - name: syntax-php7.1
-    image: nextcloudci/php7.1:php7.1-11
+    image: ghcr.io/nextcloud/continuous-integration-php7.1:php7.1-16
     commands:
       - composer install
       - ./vendor/bin/parallel-lint --exclude vendor/ .
