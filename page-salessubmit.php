@@ -69,28 +69,24 @@ if(isset($_POST['email'])) {
             </section>
             <?php
         }
+    $error_message = "";
     // validation expected data exists
     if(!isset($_POST['yourname']) ||
         !isset($_POST['email']) ||
         !isset($_POST['organization']) ||
         !isset($_POST['phone']) ||
         !isset($_POST['users']) ||
-        !isset($_POST['role']) ||
         !isset($_POST['comments'])) {
-        died('We are sorry, but there appears to be a problem with the form you submitted - did you fill in all mandatory fields?'); }
+        $error_message .= 'Did you fill in all the fields?'; }
     $yourname = $_POST['yourname']; // required
     $organization= $_POST['organization']; // required
     $phone = $_POST['phone']; // required
     $email_from = $_POST['email']; // required
     $users = $_POST['users']; // required
     $comments = $_POST['comments']; // required
-    $SLA = $_POST['SLA'];
-    $needsetuphelp = $_POST['need-setup-help'];
     $collabora = $_POST['collabora'];
     $webconferencing = $_POST['webconferencing'];
-    $outlook = $_POST['outlook'];
     $gdprcheck = $_POST['gdprcheck'];
-    $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
   if(!preg_match($email_exp,$email_from)) {
     $error_message .= 'The email address you entered does not appear to be valid.<br />';
@@ -118,9 +114,9 @@ if(isset($_POST['email'])) {
             return htmlspecialchars($string);
         }
 // the app review mailing list address
-//     $email_to = "sales@nextcloud.com";
     $email_message = "Quote request form details below.\n\n";
     $email_to = "sales@nextcloud.com";
+//     $email_to = "jos@nextcloud.com";
 	$email_subject = "Nextcloud Enterprise Subscription: ".clean_string($organization);
     $email_message .= "Name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";

@@ -86,7 +86,7 @@ if(isset($_POST['email'])) {
         }
     // Prepare email text
     $email_message = "Form details below.\n\n";
-    $email_to = "jos@nextcloud.com";
+    $email_to = "sales@nextcloud.com";
     $email_subject = "Website Contact Form: ".clean_string($organization);
     $email_message .= "Name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
@@ -126,7 +126,7 @@ if(isset($_POST['email'])) {
         <div class="container text-center">
             <h3>Thank you for contacting us</h3>
             <p>We received your message and will contact you on <?php echo($email_from); ?>,</p>
-            <p>check your inbox for a reply in the next 2-3 working days.</p>
+            <p>check your inbox for a reply in the next week. If you need a faster reply, please go back to the previous page and use one of the other forms to contact us for a trial or support options.</p>
         </div>
     </section>
 	<?php

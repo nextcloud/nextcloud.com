@@ -111,8 +111,8 @@ if(isset($_POST['email'])) {
         }
 // the app review mailing list address
     $email_message = "Trial request form details below.\n\n";
-//    $email_to = "sales@nextcloud.com";
-    $email_to = "jos@nextcloud.com";
+   $email_to = "sales@nextcloud.com";
+//     $email_to = "jos@nextcloud.com";
 	$email_subject = "Nextcloud Enterprise Trial: ".clean_string($organization);
     $email_message .= "Name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
