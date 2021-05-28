@@ -37,7 +37,7 @@
                         <p><label for="yourname"><?php echo $l->t('Your name');?></label></p>
                     </div>
                     <div class="col-lg-7">
-                        <input  type="text" name="yourname" maxlength="60" size="60">
+                        <input  type="text" name="yourname" maxlength="60" size="60" placeholder="<?php echo $l->t('Your name');?>">
                     </div>
                 </div>
                 <div class="row">
@@ -45,7 +45,7 @@
                         <p><label for="email">Email</label></p>
                     </div>
                     <div class="col-lg-7">
-                        <input  type="text" name="email" maxlength="80" size="60">
+                        <input  type="text" name="email" maxlength="80" size="60" placeholder="<?php echo $l->t('Your email');?>">
                     </div>
                 </div>
                 <div class="row">

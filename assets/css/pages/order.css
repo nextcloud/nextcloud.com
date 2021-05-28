@@ -82,16 +82,42 @@
 #orderform #form-error {
   color: #d20406; }
 
-#orderform input[type="submit"] {
-  padding: 8px 20px; }
-
-label {
-  margin-bottom: 0px; }
-
 .question {
   margin-bottom: 0px; }
 
 .details {
   margin-top: 0px; }
+
+.section--contact-form {
+  padding-top: 70px; }
+  @media (min-width: 1200px) {
+    .section--contact-form {
+      padding-top: 170px; } }
+  .section--contact-form p {
+    margin-bottom: 16px; }
+  .section--contact-form input, .section--contact-form select, .section--contact-form textarea {
+    border-style: solid;
+    border-color: lightgray;
+    border-width: thin;
+    color: #757575;
+    margin-bottom: 10px;
+    padding-left: 10px; }
+  .section--contact-form input, .section--contact-form select {
+    border-radius: 30px;
+    height: 30px;
+    max-width: 400px; }
+  .section--contact-form input[type='checkbox'] {
+    height: 10px; }
+  .section--contact-form input, .section--contact-form textarea {
+    padding: 10px; }
+  .section--contact-form textarea {
+    border-radius: 15px; }
+  .section--contact-form #gdprcheck {
+    height: 10px; }
+  .section--contact-form .col-lg-4 label, .section--contact-form .col-lg-3 label {
+    float: right; }
+  @media (max-width: 1200px) {
+    .section--contact-form .col-lg-4 label, .section--contact-form .col-lg-3 label {
+      float: none; } }
 
 /*# sourceMappingURL=order.css.map */

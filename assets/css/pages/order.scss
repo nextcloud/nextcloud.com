@@ -54,13 +54,7 @@
   color: rgb(210, 4, 6);
 }
 
-#orderform input[type="submit"] {
-  padding: 8px 20px;
-}
 
-label {
-    margin-bottom: 0px;
-}
 
 .question {
     margin-bottom: 0px;
@@ -68,4 +62,51 @@ label {
 
 .details {
     margin-top: 0px;
+}
+
+.section--contact-form {
+    padding-top: 70px;
+    @media (min-width: $navbar-breaksize) {
+        padding-top: 170px;
+    }
+    p {
+            margin-bottom: 16px;
+    }
+    input, select,textarea {
+        border-style: solid;
+        border-color: lightgray;
+        border-width: thin;
+		color: #757575;
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+   input, select, {
+        border-radius: 30px;
+        height: 30px;
+        max-width: 400px;
+    }
+    input[type='checkbox'] {
+        height: 10px;
+    }
+    input,textarea {
+        padding: 10px;
+    }
+    textarea {
+        border-radius: 15px;
+    }
+    #gdprcheck {
+        height: 10px;
+    }
+    .col-lg-4,.col-lg-3 {
+        label {
+            float: right;
+        }
+    }
+    @media (max-width: $navbar-breaksize) {
+        .col-lg-4,.col-lg-3 {
+            label {
+                float: none;
+            }
+        }
+    }
 }
