@@ -17,6 +17,12 @@
 	</div>
 </section>
 <?php
+require_once realpath(dirname(__FILE__)) . '/lib/ratelimiter.php';
+
+if(!canPerformLimitedAction("provider-submit-action", 10)) {
+  die("Too many requests. Please try again later.");
+}
+
 if(isset($_POST['email'])) {
    function died($error) {
     	// error code goes here
@@ -44,8 +50,6 @@ if(isset($_POST['email'])) {
         !isset($_POST['targetcountries']) ||
         !isset($_POST['hosting']) ||
         !isset($_POST['free']) ||
-        !isset($_POST['checksum']) ||
-        !isset($_POST['captcha']) ||
         !isset($_POST['description']) ||
         !isset($_POST['image']))
         {
@@ -60,21 +64,7 @@ if(isset($_POST['email'])) {
     $description = $_POST['description']; // required
     $image = $_POST['image']; // required
     $hostingurl= $_POST['hostingurl']; // required
-    $checksum = $_POST['checksum']; // required
-    $captcha = $_POST['captcha'];
     $error_message = "";
-
-
-        if (strlen($checksum) !== 75 || !strpos($checksum, ':')) {
-        $error_message .= 'The checksum is not valid.<br />';
-    } else {
-        list($salt, $expectedHash) = explode(':', $checksum, 2);
-        $hash = hash('sha256', $salt . $captcha);
-
-        if ($hash !== $expectedHash) {
-            $error_message .= 'The captcha result you entered does not appear to be correct.<br />';
-        }
-    }
 
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
   if(!preg_match($email_exp,$email_from)) {
@@ -107,22 +97,7 @@ if(isset($_POST['email'])) {
   if(!filter_var($image, FILTER_VALIDATE_URL)) {
     $error_message .= 'The link to an image you entered does not appear to be valid.<br />';
   }
-//   if(RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
-//     $url = 'https://www.google.com/recaptcha/api/siteverify';
-//     $ch = curl_init();
-//     curl_setopt($ch, CURLOPT_URL, $url);
-//     curl_setopt($ch, CURLOPT_POST, 1);
-//     curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_SECRET, 'response' => $_POST['g-recaptcha-response'])));
-//     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-//     $server_output = curl_exec($ch);
-//     $server_output = json_decode($server_output, true);
-//     curl_close($ch);
-//     if (!isset($server_output['success']) || $server_output['success'] !== true) {
-//       $error_message .= 'The captcha result was invalid.<br />';
-//     }
-//   } else {
-//     $error_message .= 'Captcha code is missing.<br />';
-//   }
+
   if(strlen($error_message) > 0) {
     died($error_message);
   } else {

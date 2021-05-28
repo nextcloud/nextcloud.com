@@ -11,7 +11,6 @@ require(["require.config"], function() {
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/moodle-nw.png">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/moodle-nw.png">
 <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/moodle-nw.png">
-<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 </head>
 <div class="education-background second-menu">
     <div class="container-fluid background">
@@ -202,11 +201,6 @@ require(["require.config"], function() {
                 <h2 class=""><?php echo $l->t('How the TU Berlin delivers file sync and share to 22.000 users');?></h2>
                 <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our free case study: <br /> TU Berlin and 9 other institutions migrate from ownCloud to Nextcloud');?><br>
-                    <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-                    </div>
-                    </td>
                     <input type="hidden" name="segmentId" value="5">
                     <input type="hidden" name="firstname" value="">
                     <input type="hidden" name="requesttime" value="<?php echo time(); ?>">

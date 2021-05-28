@@ -21,26 +21,6 @@
 	</div>
 </section>
 
-<?php
-
-$int1 = random_int(0, 15);
-$int2 = random_int(0, 50);
-$salt = bin2hex(random_bytes(5));
-$hash = hash('sha256', $salt . ($int1 + $int2));
-$checksum = $salt . ':' . $hash;
-
-$image = imagecreate(100, 20);
-$background_color = imagecolorallocate($image, 255, 255, 255);
-$text_color = imagecolorallocate($image, 0, 0, 0);
-imagestring($image, 5, 3, 2, $int1 . ' + ' . $int2, $text_color);
-
-ob_start();
-imagepng($image);
-$imagestring = ob_get_contents();
-ob_end_clean();
-imagedestroy($image);
-?>
-
 <section class="section--contact-form">
 <div class="container">
     <div class="row">
@@ -98,12 +78,6 @@ imagedestroy($image);
 				<p><label for="comments">As partner, what value would you bring to Nextcloud and its customers?<br />
 				<textarea name="comments" maxlength="2000" cols="80" rows="8" placeholder="What makes your offering special?"></textarea></label></p>
 				<p><input type="checkbox" id="gdprcheck" name="gdprcheck" value="gdprchecked"><label for="gdprcheck"> I agree with the Nextcloud privacy policy and understand my data will be processed so Nextcloud can reach out to me.<br /></p>
-				<td colspan="2" style="text-align:center">
-				<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-				<p><label for="captcha">Please calculate the following sum <span></span><br>
-				<img src="data:image/png;base64,<?php echo base64_encode($imagestring); ?>"><br>
-				<input  type="text" name="captcha" maxlength="20" size="20" placeholder="13"></label></p>
-				<input  type="hidden" name="checksum" value="<?php echo $checksum;?>">
 				<input type="submit" value=" Submit inquiry " class="button button--blue">
             </div>
         </div>

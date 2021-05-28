@@ -20,23 +20,7 @@ $readerCountry = new Reader(realpath(dirname(__FILE__)) . '/../assets/GeoLite2/G
 
 // Get proper ip in case of reverse proxy
 function whatismyip() {
-	if (isset($_SERVER['HTTP_CLIENT_IP'])) {
-		$ipaddress = $_SERVER['HTTP_CLIENT_IP'];
-	} else if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-		$ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR'];
-	} else if (isset($_SERVER['HTTP_X_FORWARDED'])) {
-		$ipaddress = $_SERVER['HTTP_X_FORWARDED'];
-	} else if (isset($_SERVER['HTTP_FORWARDED_FOR'])) {
-		$ipaddress = $_SERVER['HTTP_FORWARDED_FOR'];
-	} else if (isset($_SERVER['HTTP_FORWARDED'])) {
-		$ipaddress = $_SERVER['HTTP_FORWARDED'];
-	} else if (isset($_SERVER['REMOTE_ADDR'])) {
-		$ipaddress = $_SERVER['REMOTE_ADDR'];
-	} else {
-		$ipaddress = null;
-	}
-
-	return $ipaddress;
+	return $_SERVER['REMOTE_ADDR'];
 }
 
 function get_device() {

@@ -72,11 +72,6 @@
                 <h2 class=""><?php echo $l->t('NCC Group security review');?></h2>
                 <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download the full NCC Group security review report');?><br>
-                     <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div id="RecaptchaField1"></div>
-                    </div>
-                    </td>
                     <input type="hidden" name="segmentId" value="10">
                     <input type="hidden" name="firstname" value="">
                     <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
@@ -254,11 +249,6 @@
                 <h2 class=""><?php echo $l->t('Nextcloud code audit by Swiss Kyos');?></h2>
                 <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('The second largest city in Switzerland, Geneva, contracted Swiss IT Security firm Kyos to audit the Nextcloud code base they use.');?><br>
-                     <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div id="RecaptchaField1"></div>
-                    </div>
-                    </td>
                     <input type="hidden" name="segmentId" value="3">
                     <input type="hidden" name="firstname" value="">
                     <input type="hidden" name="requesttime" value="<?php echo time(); ?>">

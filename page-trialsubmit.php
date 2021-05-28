@@ -18,6 +18,12 @@
 </section>
 
 <?php
+require_once realpath(dirname(__FILE__)) . '/lib/ratelimiter.php';
+
+if(!canPerformLimitedAction("trial-submit-action", 10)) {
+  die("Too many requests. Please try again later.");
+}
+
 if(isset($_POST['email'])) {
    function died($error) {
    	// error code goes here
@@ -41,9 +47,7 @@ if(isset($_POST['email'])) {
     if(!isset($_POST['yourname']) ||
         !isset($_POST['email']) ||
         !isset($_POST['organization']) ||
-        !isset($_POST['users']) ||
-        !isset($_POST['checksum']) ||
-        !isset($_POST['captcha'])) {
+        !isset($_POST['users'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted - did you fill in all mandatory fields?'); }
     $yourname = $_POST['yourname']; // required
     $organization= $_POST['organization']; // required
@@ -62,9 +66,7 @@ if(isset($_POST['email'])) {
     $webconferencing = $_POST['webconferencing'];
     $outlook = $_POST['outlook'];
     $partner = $_POST['partner'];
-    $checksum = $_POST['checksum']; // required
     $gdprcheck = $_POST['gdprcheck'];
-    $captcha = $_POST['captcha'];
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
   if(!preg_match($email_exp,$email_from)) {
@@ -78,41 +80,11 @@ if(isset($_POST['email'])) {
   if(!($gdprcheck=="gdprchecked")) {
     $error_message .= 'You did not agree with our privacy policy so we would not be allowed to read and reply to your inquiry.<br />';
   }
-  if (strlen($checksum) !== 75 || !strpos($checksum, ':')) {
-        $error_message .= 'The checksum is not valid.<br />';
-    } else {
-        list($salt, $expectedHash) = explode(':', $checksum, 2);
-        $hash = hash('sha256', $salt . $captcha);
 
-        if ($hash !== $expectedHash) {
-            $error_message .= 'The captcha result you entered does not appear to be correct.<br />';
-        }
-    }
     $string_exp = "/^((\+|00)\d{1,3})?(\d+|\s+)+\d$/";
 //   if(!preg_match($string_exp,$phone)) {
 //     $error_message .= 'The phone number you entered does not appear to be valid, did you add a country code like +49?<br />';
 //     }
-//   if(RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
-//     $url = 'https://www.google.com/recaptcha/api/siteverify';
-//     $ch = curl_init();
-//
-//     curl_setopt($ch, CURLOPT_URL, $url);
-//     curl_setopt($ch, CURLOPT_POST, 1);
-//     curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_SECRET, 'response' => $_POST['g-recaptcha-response'])));
-//     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-//
-//     $server_output = curl_exec($ch);
-//
-//     $server_output = json_decode($server_output, true);
-//
-//     curl_close($ch);
-//
-//     if (!isset($server_output['success']) || $server_output['success'] !== true) {
-//       $error_message .= 'The captcha result was invalid.<br />';
-//     }
-//   } else {
-//     $error_message .= 'Captcha code is missing.<br />';
-//   }
 
   if(strlen($error_message) > 0) {
     died($error_message);

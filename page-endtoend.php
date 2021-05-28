@@ -5,7 +5,6 @@
         require(["pages/endtoend"])
     });
     </script>-->
-<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/endtoend-server-nw.png">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/endtoend-server-nw.png">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/endtoend-server-nw.png">

@@ -1,6 +1,5 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/order.css?v=5" rel="stylesheet">
-<!-- 	<script src='https://www.google.com/recaptcha/api.js'></script> -->
 <!-- 	I need this for the last script on the page to work, require.js seems to not make jquery available in the page js :( -->
 	<script src='<?php echo get_template_directory_uri(); ?>/assets/js/old/vendor/jquery-1.10.2.min.js'></script>
 
@@ -45,26 +44,6 @@
         </div>
     </div>
 </section>
-
-<?php
-
-$int1 = random_int(0, 15);
-$int2 = random_int(0, 50);
-$salt = bin2hex(random_bytes(5));
-$hash = hash('sha256', $salt . ($int1 + $int2));
-$checksum = $salt . ':' . $hash;
-
-$image = imagecreate(100, 20);
-$background_color = imagecolorallocate($image, 255, 255, 255);
-$text_color = imagecolorallocate($image, 0, 0, 0);
-imagestring($image, 5, 3, 2, $int1 . ' + ' . $int2, $text_color);
-
-ob_start();
-imagepng($image);
-$imagestring = ob_get_contents();
-ob_end_clean();
-imagedestroy($image);
-?>
 
 <section class="section--welcome">
 <div class="container">
@@ -151,12 +130,6 @@ imagedestroy($image);
 			<textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Questions, comments? Interested in Nextcloud Talk, Branding? Let us know and we can provide you an offer or answers to your questions."></textarea></label>');?></p>
 			<p><input type="checkbox" name="terms" value="terms" onChange="doCalculation()"> <?php echo $l->t('I have read and agree to the');?> <a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/files/termsfornextcloudorder.pdf"><?php echo $l->t('terms and conditions');?> <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
 			<p>Note: all prices excl. VAT</p>
-			<p><label for="captcha"><?php echo $l->t('Please calculate the following sum');?> <span></span><br>
-			<img src="data:image/png;base64,<?php echo base64_encode($imagestring); ?>"><br>
-			<input  type="text" name="captcha" maxlength="20" size="20" placeholder="13"></label></p>
-			<input  type="hidden" name="checksum" value="<?php echo $checksum;?>">
-			<td colspan="2" style="text-align:center">
-			<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
 			<input type="submit" name="submit" value=" Order Now " disabled="disabled" class="button button--blue"><br />
 			<span id="form-error"><?php echo $l->t('Some required fields are not filled.'); ?></span>
 		</form>
