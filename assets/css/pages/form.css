@@ -82,7 +82,7 @@
   .section--contact-form .col-lg-4 label, .section--contact-form .col-lg-3 label {
     float: right; }
   @media (max-width: 1200px) {
-    .section--contact-form col-lg-4 label {
+    .section--contact-form .col-lg-4 label, .section--contact-form .col-lg-3 label {
       float: none; } }
 
 /*# sourceMappingURL=form.css.map */
