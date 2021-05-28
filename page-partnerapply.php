@@ -25,7 +25,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-		<p>Thanks for your interest in becoming a Nextcloud partner. Please fill out the following form - our partnership team will contact you shortly.</p>
+		<p>Thanks for your interest in becoming a Nextcloud partner. Please fill out the following form - our partnership team will contact you shortly. Keep in mind that our partner program requires a minimum yearly commitment of 6k€. If you look for a smaller Nextcloud setup or for a single deal, first contact our distributors <a class="hyperlink" href="https://www.8soft.de/portfolio/nextcloud/nextcloud-enterprise">8Soft GmbH</a> for the DACH region and <a class="hyperlink" href="https://nextcloud.com/ru/factorgroup/">Factor Group</a> for the Russian speaking market.</p>
         </div>
 	</div>
 	<form name="sales" method="post" action="../partnerapplysubmit/">
