@@ -47,7 +47,8 @@
 <div class="container">
 	<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555692548?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Accessibility themes.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+			<stream src="eb1384b4fa48d8f47abdec5051bc922d" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/hub-video.png"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=eb1384b4fa48d8f47abdec5051bc922d"></script>
 		</div>
     </div>
 	<div class="row">
@@ -210,7 +211,9 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-4">
-                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555693158?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Accessibility themes.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <stream src="fa1b52828b602f72cf1bcfab61f74fb4" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/files-video.png"></stream>
+                <script data-cfasync="false" defer type="text/javascript"
+                src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=fa1b52828b602f72cf1bcfab61f74fb4"></script>
                 <div class="row description">
                     <div class="title">
                         <div class="logo">
@@ -226,7 +229,8 @@
             </div>
 
             <div class="col-md-4">
-                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555693791?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Accessibility themes.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <stream src="58bf7b0f3ae662ee1d6b368099c8c94f" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-video.png"></stream>
+                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=58bf7b0f3ae662ee1d6b368099c8c94f"></script>
                 <div class="row description">
                     <div class="title">
                         <div class="logo">
@@ -241,7 +245,8 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555693729?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Accessibility themes.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <stream src="3e135d59fff771d1909c4b8d588d5800" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/groupware-video.png"></stream>
+                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=3e135d59fff771d1909c4b8d588d5800"></script>
                 <div class="row description">
                     <div class="title">
                         <div class="logo">
@@ -285,7 +290,8 @@
     </div>
     <div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555685141?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Accessibility themes.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            <stream src="4b66104c586170a4dc5b6ebbed80b193" controls preload poster="<?php bloginfo('template_directory'); ?>/assets/img/features/homeoffice-video.png">
+            </stream> <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=4b66104c586170a4dc5b6ebbed80b193"></script>
         </div>
     </div>
 </div>
