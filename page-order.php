@@ -9,12 +9,11 @@
 	});
 	</script>
 </head>
-<section class="buy-hero-section background buy-background second-menu">
-    <div class="container background">
+<section class="background generic-background second-menu">
+    <div class="container">
         <div class="row">
             <div class="col-md-6 topheader">
                 <h1><?php echo $l->t('Order Nextcloud');?></h1>
-                <h2><?php echo $l->t('Order your Nextcloud subscription online');?></h2>
             </div>
         </div>
     </div>
@@ -100,18 +99,20 @@
             </div>
 			<div class="row">
                 <div class="col-lg-3">
-                    <p><label for="phone"><?php echo $l->t('Phone number');?> <span>(<?php echo $l->t('Please include your country code');?>)</span></label></p>
+                    <p><label for="phone"><?php echo $l->t('Phone number');?></label></p>
                 </div>
                 <div class="col-lg-7">
-                    <input  type="text" name="phone" maxlength="40" size="60" placeholder="(+49 1234) 567 890" onChange="doCalculation()">
+                    <input  type="text" name="phone" maxlength="40" size="60" placeholder="(+49 1234) 567 890" onChange="doCalculation()"><br />
+                    <span>(<?php echo $l->t('Please include your country code');?>)</span>
+                    <br />
                 </div>
             </div>
 			<div class="row">
                 <div class="col-lg-3">
-                    <p><label for="address"><?php echo $l->t('Address');?></label></p>
+                    <br /><p><label for="address"><?php echo $l->t('Address');?></label></p>
                     </div>
                 <div class="col-lg-7">
-                    <textarea  name="address" maxlength="1000" cols="62" rows="5" placeholder="Langer Weg 6, 61169 Friedberg, GERMANY" onChange="doCalculation()"></textarea>
+                   <br /> <textarea  name="address" maxlength="1000" cols="62" rows="5" placeholder="Langer Weg 6, 61169 Friedberg, GERMANY" onChange="doCalculation()"></textarea>
                 </div>
             </div>
 			<div class="row">

@@ -29,25 +29,21 @@
   background-color: transparent;
   position: absolute; }
 
-/* gradient behind transparent nav */
-.nav:not(.scrolled) {
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
-  /* IE6-9 */ }
-
-.buy-background {
-  background-image: url("../../img/headers/enterprise.jpg");
+.generic-background {
+  background: url("../../img/headers/background-transparent.png") no-repeat;
+  background-color: #0082c9;
   background-position: center;
   background-size: cover;
-  margin-bottom: 50px;
+  height: 40vh;
+  min-height: 200px;
+  max-height: 300px;
   padding-bottom: 0px; }
-  .buy-background .menu {
-    margin-top: -100px; }
+  .generic-background .menu {
+    margin-top: 0px; }
+  .generic-background .topheader {
+    margin-top: 40px; }
+    .generic-background .topheader h1 {
+      margin-bottom: 80px; }
 
 .section--links {
   padding-top: 0;
@@ -63,7 +59,7 @@
   line-height: 1; }
 
 .section--welcome {
-  padding-top: 150px; }
+  padding-top: 100px; }
 
 .section--order-form {
   padding-top: 0px; }
@@ -89,10 +85,10 @@
   margin-top: 0px; }
 
 .section--contact-form {
-  padding-top: 70px; }
+  padding-top: 30px; }
   @media (min-width: 1200px) {
     .section--contact-form {
-      padding-top: 170px; } }
+      padding-top: 30px; } }
   .section--contact-form p {
     margin-bottom: 16px; }
   .section--contact-form input, .section--contact-form select, .section--contact-form textarea {

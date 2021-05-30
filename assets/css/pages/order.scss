@@ -1,16 +1,24 @@
 @import '../variables';
 @import '../modules/transparent-navbar';
-@import '../modules/transparent-gradient';
 
-.buy-background {
-  background-image: url("../../img/headers/enterprise.jpg");
+.generic-background {
+    background: url('../../img/headers/background-transparent.png') no-repeat;
+    background-color: #0082c9;
     background-position: center;
     background-size: cover;
-    margin-bottom: 50px;
+    height: 40vh;
+    min-height: 200px;
+    max-height: 300px;
     padding-bottom: 0px;
-  .menu {
-      margin-top: -100px;
-  }
+    .menu {
+        margin-top: 0px;
+    }
+    .topheader {
+        margin-top: 40px;
+        h1 {
+            margin-bottom: 80px;
+        }
+    }
 }
 
 .section--links {
@@ -30,7 +38,7 @@
 }
 
 .section--welcome {
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .section--order-form {
@@ -65,9 +73,9 @@
 }
 
 .section--contact-form {
-    padding-top: 70px;
+    padding-top: 30px;
     @media (min-width: $navbar-breaksize) {
-        padding-top: 170px;
+        padding-top: 30px;
     }
     p {
             margin-bottom: 16px;
