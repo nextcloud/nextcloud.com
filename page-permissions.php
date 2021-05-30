@@ -72,6 +72,7 @@ require(["require.config"], function() {
                     <li><?php echo $l->t('Choose to automatically accept all incoming shares, or choose to accept them on a case by case basis');?></li>
                     <li><?php echo $l->t('Track activities and get notified on changes to files or downloads');?></li>
                 </ul>
+                <p class="section--paragraph"><?php echo $l->t('With Circles, users can create their own groups, let other users join them and collaboratively manage them without any need for administrator action');?></p>
             </div>
         </div>
         <div class="row feature--block">
@@ -101,8 +102,7 @@ require(["require.config"], function() {
     <div class="container">
         <div class="row">
             <div class="col-md-6 image--floated">
-                <stream src="b2bff2b8e183f558fcfcb64f41851d9d" controls  poster="<?php bloginfo('template_directory'); ?>/assets/img/features/lock_file.png"></stream>
-                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=b2bff2b8e183f558fcfcb64f41851d9d"></script>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555691008?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="File locking video"></iframe></div>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><strong><?php echo $l->t('Feature Highlight:');?></strong> <?php echo $l->t('Locking files');?></h3>
@@ -129,6 +129,7 @@ require(["require.config"], function() {
                     <li><?php echo $l->t('Each property of each file can be configured for any number of users or groups');?></li>
                     <li><?php echo $l->t('Control can be delegated to group administrators');?></li>
                 </ul>
+                <a class="button button--blue button--arrow" href="https://nextcloud.com/blog/access-control-lists-in-a-modern-file-sync-and-share/"><?php echo $l->t('Details in our blog');?></a>
             </div>
         </div>
     </div>

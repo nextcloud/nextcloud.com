@@ -76,7 +76,7 @@
 		<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
             <p class="section--paragraph">This year our theme and inspiration is <strong>working from home</strong> - at your <strong>home office</strong>! Below a nice video explaining why #Nextcloud is awesome for #homeoffice.</p>
-            <stream src="4b66104c586170a4dc5b6ebbed80b193" controls preload poster="https://nextcloud.com/media/Home-Office-video-thumb.jpg"></stream> <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=4b66104c586170a4dc5b6ebbed80b193"></script>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555685141?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud in your home office video"></iframe></div>
         </div>
     </div>
         <div class="row text-center">

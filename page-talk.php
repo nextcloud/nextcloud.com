@@ -1,7 +1,5 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/talk.css?v=6" rel="stylesheet">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 	require(["require.config"], function() {
 		require(["modules/submenu"])
@@ -36,8 +34,7 @@
 	<div class="container">
     <div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-			<stream src="58bf7b0f3ae662ee1d6b368099c8c94f" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-video.png"></stream>
-            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=58bf7b0f3ae662ee1d6b368099c8c94f"></script>
+			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555693791?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Talk video"></iframe></div>
 		</div>
     </div>
 		<div class="row">
@@ -297,7 +294,7 @@
 	<div class="row">
 		<div class="col-md-6 image--floated">
 			<div data-type="youtube" data-video-id="Nr7cGN6ZJM0"></div>
-            <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/Nr7cGN6ZJM0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555703705?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Text and Talk video"></iframe></div>
 		</div>
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Designed for privacy');?></p>
@@ -321,8 +318,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6  image--floated  image--feature">
-			<stream src="8c70d0777e1c971aad0640cad4593875" controls loop poster="<?php bloginfo('template_directory'); ?>/assets/img/features/Talk_upload_files.png"></stream>
-            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=8c70d0777e1c971aad0640cad4593875"></script>
+			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555702359?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Collaboration with Talk video"></iframe></div>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Collaboration within Nextcloud');?></p>
@@ -334,8 +330,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 image--feature">
-			<stream src="d4b98b1675418d383ddc349572f2fc44" controls loop poster="<?php bloginfo('template_directory'); ?>/assets/img/features/whiteboard.png"></stream>
-            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=d4b98b1675418d383ddc349572f2fc44"></script>
+			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555768438?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Whiteboarding in Talk video"></iframe></div>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Whiteboard');?></p>
@@ -368,7 +363,7 @@
     </div>
 	<div class="row">
 		<div class="col-md-6 image--floated">
-			<iframe width="100%" height="315" src="https://www.youtube.com/embed/GTgD950K4IQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556061980?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Raise hand in Talk video"></iframe></div>
 <!-- 			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a> -->
 		</div>
 		<div class="col-md-6">
@@ -406,7 +401,7 @@
     <div class="row">
         <div class="col-md-6">
         <div data-type="youtube" data-video-id="Pffusr1bac4"></div>
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/Pffusr1bac4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556062380?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Introduction video of Video Verification"></iframe></div>
         </div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Video Verification');?></p>

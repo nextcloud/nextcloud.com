@@ -40,7 +40,7 @@
             <p><?php echo $l->t('Note that, of course, we do not release unstable software. We spend a third of our development cycle on testing and only release Nextcloud if we and our paid and volunteer testers are unable to find any more issues. Unfortunately, Nextcloud is big and complicated software and with hundreds of apps users can install, Nextcloud can be used in thousands of different ways, on different platforms and with different configurations. We encourage users to join our testing efforts, trying out beta releases and release candidates so we can fix issues before release. Only testing YOUR use case can guarantee it will be perfect for you!');?></p>
         </div>
             <div class="col-md-6">
-                <iframe width="100%" height="300" src="https://www.youtube.com/embed/3hsQNPlQOSE" frameborder="0" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556889257?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Introducing Nextcloud Release Channels"></iframe></div>
             </div>
         </div>
     </div>

@@ -20,8 +20,7 @@
 <div class="container">
 	<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-			<stream src="b5442e477fa8b39c31119a1f2321ddcf" controls loop preload mute autoplay  poster="<?php bloginfo('template_directory'); ?>/assets/img/features/nextcloud20.png"></stream>
-            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=b5442e477fa8b39c31119a1f2321ddcf"></script>
+			<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555765504?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Dashboard Introduction"></iframe></div>
 		</div>
     </div>
 	<div class="row">
@@ -37,9 +36,7 @@
 	<div class="container">
         <div class="row ">
             <div class="col-md-6 image--feature">
-                    <!--<stream src="680d3481202ecd2fcb5ab2b9e5f11855" controls loop poster="<?php bloginfo('template_directory'); ?>/assets/img/features/custom_status.png"></stream>
-                    <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=680d3481202ecd2fcb5ab2b9e5f11855"></script>-->
-                    <div style="padding:100% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555700010?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Setting your status in Nextcloud"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                    <div style="padding:100% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555700010?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Setting your status in Nextcloud"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
             </div>
             <div class="col-md-6 featureblock">
                 <h3 class="section--paragraph__tittle"><?php echo $l->t('Set your status');?></h3>
@@ -50,8 +47,7 @@
         </div>
         <div class="row ">
             <div class="col-md-6 image--floated image--feature">
-                    <stream src="f513d7323f5ea8ffe282c3b05c7c48f3" controls loop poster="<?php bloginfo('template_directory'); ?>/assets/img/features/dashboard_add_widgets.png"></stream>
-                    <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=f513d7323f5ea8ffe282c3b05c7c48f3"></script>
+                    <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555709767?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Dashboard open files video"></iframe></div>
             </div>
             <div class="col-md-6 featureblock">
                 <h3 class="section--paragraph__tittle"><?php echo $l->t('Configure the dashboard');?></h3>
@@ -60,8 +56,7 @@
         </div>
         <div class="row ">
             <div class="col-md-6 image--feature">
-                    <stream src="b16faf259064007a20f5fd92a85d9bd3" controls loop poster="<?php bloginfo('template_directory'); ?>/assets/img/features/dashboard_twitter_config.png"></stream>
-                    <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=b16faf259064007a20f5fd92a85d9bd3"></script>
+                    <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555707675?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Dashboard configure twitter video"></iframe></div>
             </div>
             <div class="col-md-6 featureblock">
                 <h3 class="section--paragraph__tittle"><?php echo $l->t('Keep an eye on everything');?></h3>
@@ -73,18 +68,15 @@
         </div>
         <div class="row ">
             <div class="col-md-4 image--feature">
-                    <stream src="ac1770a89a63d9cc69b541c50429ebeb" controls loop poster="<?php bloginfo('template_directory'); ?>/assets/img/features/dashboard_move_widgets.png"></stream>
-                    <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=ac1770a89a63d9cc69b541c50429ebeb"></script><br />
+                    <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555719029?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Dashboard move widgets video"></iframe></div><br />
                     <?php echo $l->t('Move the widgets where you want them');?>
             </div>
             <div class="col-md-4 image--feature">
-                    <stream src="b0f6132cdb87eeb39bbb39957ca2d480" controls loop poster="<?php bloginfo('template_directory'); ?>/assets/img/features/dashboard_open_files.png"></stream>
-                    <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=b0f6132cdb87eeb39bbb39957ca2d480"></script><br />
+                    <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556065915?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Dashboard open files video"></iframe></div><br />
                     <?php echo $l->t('View and edit files directly from the dashboard');?>
             </div>
             <div class="col-md-4 image--feature">
-                    <stream src="42b3c48abb8a608f4c5a6204b5fb9fb1" controls loop  poster="<?php bloginfo('template_directory'); ?>/assets/img/features/dashboard_background.png"></stream>
-                    <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=42b3c48abb8a608f4c5a6204b5fb9fb1"></script><br />
+                    <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555710837?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Dashboard change background video"></iframe></div><br />
                     <?php echo $l->t('Make it yours');?>
             </div>
         </div>

@@ -271,8 +271,7 @@ require(["require.config"], function() {
         </div>
         <div class="row">
             <div class="col-md-6 ">
-                <div data-type="youtube" data-video-id="Nr7cGN6ZJM0"></div>
-                <iframe width="100%" height="250" src="https://www.youtube-nocookie.com/embed/Nr7cGN6ZJM0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555703705?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Text and Talk video"></iframe></div>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Productivity');?></h3>
@@ -281,8 +280,7 @@ require(["require.config"], function() {
         </div>
         <div class="row">
             <div class="col-md-6 image--floated">
-                <div data-type="youtube" data-video-id="oyWXMjb-6ik"></div>
-                <iframe width="100%" height="250" src="https://www.youtube-nocookie.com/embed/oyWXMjb-6ik" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556897803?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Remote wipe: keep your data yours even when you lose devices!.mp4"></iframe></div>
             </div>
             <div class="col-md-6">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Remote Wipe');?></h3>
@@ -355,7 +353,7 @@ require(["require.config"], function() {
 		<div class="col-md-10 col-md-offset-1">
 			<div class="">
                 <div data-type="youtube" data-video-id="I5wcLS9xxMw"></div>
-                <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/I5wcLS9xxMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556895226?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Global Scale"></iframe></div>
 			</div>
 		</div>
     </div>

@@ -63,8 +63,7 @@
 <div class="container">
 	<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-			<stream src="5179c6614b314152c4bb93ff9830f7cb" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/2IxvNyCAEio.jpg"></stream>
-            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=5179c6614b314152c4bb93ff9830f7cb"></script>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555769437?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="21 introduction video"></iframe></div>
 		</div>
     </div>
 	<div class="row">

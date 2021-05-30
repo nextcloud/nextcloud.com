@@ -85,7 +85,7 @@
     <div class="row">
         <div class="col-md-6">
             <div data-type="youtube" data-video-id="oyWXMjb-6ik"></div>
-            <iframe width="100%" height="300" src="https://www.youtube-nocookie.com/embed/oyWXMjb-6ik" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556897803?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Remote wipe_ keep your data yours even when you lose devices!.mp4"></iframe></div>
         </div>
         <div class="col-md-6">
             <h3 class="section--paragraph__title"><?php echo $l->t('Remote Wipe');?></h3>
@@ -104,14 +104,13 @@
         </div>
         <div class="col-md-4">
             <div data-type="youtube" data-video-id="QmR86-LsGus"></div>
-            <iframe width="100%" height="200" src="https://www.youtube-nocookie.com/embed/QmR86-LsGus" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe><br />
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555771570?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Clients: remote wipe in action"></iframe></div><br />
             <?php echo $l->t('Demo of remote wipe in the desktop client');?>
         </div>
     </div>
     <div class="row">
         <div class="col-md-6">
-            <div data-type="youtube" data-video-id="8bS4-JELEdk"></div>
-            <iframe width="100%" height="300" src="https://www.youtube-nocookie.com/embed/8bS4-JELEdk" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556063222?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Theming: iOS"></iframe></div>
         </div>
         <div class="col-md-6">
             <h3 class="section--paragraph__title"><?php echo $l->t('Branding and deployment');?></h3>
@@ -122,8 +121,7 @@
     </div>
     <div class="row">
         <div class="col-md-6 image--floated">
-            <div data-type="youtube" data-video-id="8bS4-JELEdk"></div>
-            <iframe width="100%" height="300" src="https://www.youtube-nocookie.com/embed/vKJCThXEPXk" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556899501?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="How to add a Nextcloud client account with a QR code.mp4"></iframe></div>
         </div>
         <div class="col-md-6">
             <h3 class="section--paragraph__title"><?php echo $l->t('Add accounts easily with a QR code');?></h3>
@@ -286,8 +284,7 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-6 image--floated">
-                <div data-type="youtube" data-video-id="5yFKZze6TqM"></div>
-                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/5yFKZze6TqM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div style="padding:76.92% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556065915?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="iPad support in the Nextcloud iOS app"></iframe></div>
             </div>
             <div class="col-md-6 feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('top-rated iOS app');?></p>
@@ -370,8 +367,7 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-6 image--floated">
-                <div data-type="youtube" data-video-id="https://youtu.be/4oY7R14Ydno"></div>
-                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/4oY7R14Ydno" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556902275?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Files Android app"></iframe></div>
             </div>
             <div class="col-md-6 feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Well integrated Android app');?></p>

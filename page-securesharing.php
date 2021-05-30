@@ -213,7 +213,7 @@
         <div class="row feature-row">
         <div class="col-md-6">
             <div data-type="youtube" data-video-id="Nr7cGN6ZJM0"></div>
-            <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/Nr7cGN6ZJM0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555703705?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Text and Talk video"></iframe></div>
         </div>
         <div class="col-md-6 feature--block">
             <p>Rather than tacked on after-the-fact through an external or third-party app that simply opens a new browser tab, Nextcloud has collaboration truly integrated. Watch the short video to see how a text editing session with chat and a video call on the side works.</p>
@@ -274,7 +274,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6">
-            <iframe width="100%" height="250" src="https://www.youtube-nocookie.com/embed/I5wcLS9xxMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556895226?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Global Scale"></iframe></div>
         </div>
         <div class="col-md-6">
             <h3>At global scale and ensuring data locality</h3>
