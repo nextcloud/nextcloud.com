@@ -84,7 +84,7 @@
         </div>
         <div class="row">
              <div class="col-lg-4">
-                <p><label for="users"><?php echo $l->t('Number of users over next 12 months (estimation)');?></label>
+                <p><label for="users"><?php echo $l->t('Estimated # of users over next 12 months');?></label>
             </div>
             <div class="col-lg-7">
                 <textarea  type="text" name="users" maxlength="80" cols="40" rows="2" placeholder="<?php echo $l->t('Under 100 users we might recommend one of our qualified partners.');?>"></textarea>
