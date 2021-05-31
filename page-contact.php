@@ -29,7 +29,7 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-md-10 col-md-offset-2">
+        <div class="col-md-10">
             <h2><?php echo $l->t('Contact form');?></h2>
             <form name="contact" method="post" action="contactsubmit/">
                 <div class="row">
