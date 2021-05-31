@@ -153,7 +153,7 @@
             <div class="col-md-12">
 				<p><label for="comments"><?php echo $l->t('Your message');?>*<br />
 				<textarea name="comments" maxlength="2000" cols="80" rows="8" placeholder="<?php echo $l->t('Let us know about any other specific wishes you might have!');?>"></textarea></label></p>
-				<p><input type="checkbox" id="gdprcheck" name="gdprcheck" value="gdprchecked"><label for="gdprcheck"> <?php echo $l->t('I agree with the Nextcloud privacy policy and understand my data will be processed so Nextcloud or its partners can reach out to me.');?>*<br /></p>
+				<p><input type="checkbox" id="gdprcheck" name="gdprcheck" value="gdprchecked"><label for="gdprcheck"> <?php echo $l->t('I agree with the Nextcloud privacy policy and understand my data will be processed so Nextcloud or its partners can reach out to me.');?><br /></p>
 				<input type="submit" value=" Submit inquiry " class="button button--blue">
             </div>
         </div>

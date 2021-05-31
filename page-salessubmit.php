@@ -85,14 +85,13 @@ if(isset($_POST['email'])) {
     $users = $_POST['users']; // required
     $comments = $_POST['comments']; // required
     $collabora = $_POST['collabora'];
+    $outlook = $_POST['outlook'];
+    $needsetuphelp = $_POST['need-setup-help'];
     $webconferencing = $_POST['webconferencing'];
     $gdprcheck = $_POST['gdprcheck'];
+    $SLA = $_POST['SLA'];
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
     $foundnextcloud = $_POST['foundnextcloud'];
-
-
-
-
 
   if(!preg_match($email_exp,$email_from)) {
     $error_message .= 'The email address you entered does not appear to be valid.<br />';
