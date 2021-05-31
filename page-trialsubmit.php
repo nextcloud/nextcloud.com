@@ -119,6 +119,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Phone number: ".clean_string($phone)."\n";
+    $email_message .= "Organizationr: ".clean_string($organization)."\n";
     $email_message .= "How big do you expect your installation to grow to one day? ".clean_string($users)."\n";
     $email_message .= "Do you need a hosted or on-premises trial? ".clean_string($hostedoronprem)."\n";
     $email_message .= "How did you find out about Nextcloud? ".clean_string($foundnextcloud)."\n";
