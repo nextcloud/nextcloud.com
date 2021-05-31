@@ -111,9 +111,11 @@
   .section--contact-form #gdprcheck {
     height: 10px; }
   .section--contact-form .col-lg-4 label, .section--contact-form .col-lg-3 label {
-    float: right; }
+    float: right;
+    text-align: right; }
   @media (max-width: 1200px) {
     .section--contact-form .col-lg-4 label, .section--contact-form .col-lg-3 label {
-      float: none; } }
+      float: none;
+      text-align: left; } }
 
 /*# sourceMappingURL=order.css.map */
