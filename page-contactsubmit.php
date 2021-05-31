@@ -45,7 +45,7 @@
 <?php
 require_once realpath(dirname(__FILE__)) . '/lib/ratelimiter.php';
 
-if(!canPerformLimitedAction("contact-submit-action", 10)) {
+if(!canPerformLimitedAction("contact-submit-action", 2)) {
   die("Too many requests. Please try again later.");
 }
 

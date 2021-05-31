@@ -37,6 +37,15 @@ function canPerformLimitedAction($ratelimitName, $maxRequestsPerHour) : bool {
     $rateId    = "requests_count_ratelimiter_{$ratelimitName}_{$userIp}";
     $rateLimit = (int) $redis->get($rateId);
 
+    $globalRateId    = "requests_count_ratelimiter_{$userIp}";
+    $globalRateLimit = (int) $redis->get($globalRateId);
+    $redis->set($globalRateId, $globalRateLimit + 1);
+    $redis->expire($globalRateId, 3600);
+    $globalRateLimitMaximumPerHour = 20;
+    if ($globalRateLimit + 1 > $globalRateLimitMaximumPerHour) {
+        return false;
+    }
+
     $redis->set($rateId, $rateLimit + 1);
     $redis->expire($rateId, 3600);
 

@@ -22,7 +22,7 @@
 <?php
 require_once realpath(dirname(__FILE__)) . '/lib/ratelimiter.php';
 
-if(!canPerformLimitedAction("partnerapply-submit-action", 10)) {
+if(!canPerformLimitedAction("partnerapply-submit-action", 2)) {
   die("Too many requests. Please try again later.");
 }
 
