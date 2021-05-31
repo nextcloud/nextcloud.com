@@ -211,6 +211,22 @@
                     <p class="hidden"><input type="checkbox" name="dollars" value="dollars" onChange="doCalculation()"> <?php echo $l->t(' in dollars');?></p>
                 </div>
 			</div>
+			<div class="row">
+                <div class="col-lg-4">
+                    <label for="foundnextcloud"><?php echo $l->t('How did you learn about Nextcloud?');?></label>
+                </div>
+                <div class="col-lg-7">
+                    <select id="foundnextcloud" name="foundnextcloud">
+                        <option value="empty"><?php echo $l->t('Rather not say');?></option>
+                        <option value="search"><?php echo $l->t('Search engine');?></option>
+                        <option value="news"><?php echo $l->t('In the news');?></option>
+                        <option value="recommendation"><?php echo $l->t('It was recommended to me');?></option>
+                        <option value="usemyself"><?php echo $l->t('I use it privately');?></option>
+                        <option value="advert"><?php echo $l->t('I saw it in an advertisement');?></option>
+                        <option value="other"><?php echo $l->t('other');?></option>
+                    </select>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-3">
                     <p><label for="comments"><?php echo $l->t('Notes');?></label></p>

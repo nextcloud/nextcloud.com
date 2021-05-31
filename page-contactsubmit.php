@@ -4,17 +4,43 @@
 		require(["pages/enterprise"])
 	});
 </script>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/enterprise.css?v=1" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/form.css?v=2" rel="stylesheet">
 </head>
-<section class="enterprise-hero-section second-menu">
-	<div class="container-fluid background">
-		<div class="container">
-			<div class="col-md-6 topheader">
-                <h1><?php echo $l->t('Nextcloud Enterprise');?></h1>
-                <h2><?php echo $l->t('The enterprise-ready Content Collaboration Platform');?></h2>
-			</div>
+<section class="background generic-background second-menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 topheader">
+                <h1><?php echo $l->t('Contact us');?></h1>
+            </div>
+        </div>
+    </div>
+	<div class="container-fluid menu" id="menuAnchor">
+		<div class="container buttons">
+            <a class="button button--blue" href="<?php echo home_url('faq') ?>"><?php echo $l->t('FAQ');?></a>
+			<a class="button button--blue" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('Order online');?></a>
+			<a class="button button--blue" href="<?php echo home_url('buy') ?>"><?php echo $l->t('get a quote');?></a>
+			<a class="button button--blue" href="<?php echo home_url('trial') ?>"><?php echo $l->t('Trial');?></a>
+			<a class="button button--blue" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('pricing plans');?></a>
+			<a class="button button--blue" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('enterprise offering');?></a>
 		</div>
 	</div>
+</section>
+
+<section class="section--links">
+	<div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                <a class="button button--white button--small" href="<?php echo home_url('faq') ?>"><?php echo $l->t('FAQ');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('Order online');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('trial') ?>"><?php echo $l->t('Trial');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('buy') ?>"><?php echo $l->t('get a quote');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('pricing plans');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('enterprise offering');?></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <?php
 require_once realpath(dirname(__FILE__)) . '/lib/ratelimiter.php';
@@ -55,6 +81,8 @@ if(isset($_POST['email'])) {
     $email_from = $_POST['email']; // required
     $comments = $_POST['comments']; // required
     $gdprcheck = $_POST['gdprcheck'];
+    $foundnextcloud = $_POST['foundnextcloud'];
+
 
     $email_exp = '/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
   if(!preg_match($email_exp,$email_from)) {
@@ -93,6 +121,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Organization: ".clean_string($organization)."\n";
     $email_message .= "Role: ".clean_string($role)."\n";
     $email_message .= "Phone: ".clean_string($phone)."\n";
+    $email_message .= "How did you find out about Nextcloud? ".clean_string($foundnextcloud)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
     // create email headers
     $headers = 'From: no-reply@nextcloud.com'."\r\n".

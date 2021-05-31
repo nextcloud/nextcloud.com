@@ -70,7 +70,7 @@
         </div>
         <div class="row">
              <div class="col-lg-4">
-                <label for="email">Business email</label>
+                <label for="email"><?php echo $l->t('Business email');?></label>
             </div>
             <div class="col-lg-7">
                 <input   type="text" name="email" maxlength="80" size="60" placeholder="<?php echo $l->t('Business email');?>">
@@ -82,6 +82,14 @@
             </div>
             <div class="col-lg-7">
                 <input   type="text" name="phone" maxlength="40" size="60" placeholder="<?php echo $l->t('Please include country code (00 or +XX)');?>">
+            </div>
+        </div>
+        <div class="row">
+             <div class="col-lg-4">
+                <label for="organization"><?php echo $l->t('Organization');?></label>
+            </div>
+            <div class="col-lg-7">
+                <input   type="text" name="organization" maxlength="80" size="60" placeholder="<?php echo $l->t('Organization');?>">
             </div>
         </div>
         <div class="row">
@@ -116,12 +124,13 @@
             </div>
             <div class="col-lg-7">
                 <select id="foundnextcloud" name="foundnextcloud">
-                    <option value="search">Search engine</option>
-                    <option value="news">In the news</option>
-                    <option value="recommendation">It was recommended to me</option>
-                    <option value="usemyself">I use it privately</option>
-                    <option value="advert">I saw it in an advertisement</option>
-                    <option value="other">other</option>
+                    <option value="empty"><?php echo $l->t('Rather not say');?></option>
+                    <option value="search"><?php echo $l->t('Search engine');?></option>
+                    <option value="news"><?php echo $l->t('In the news');?></option>
+                    <option value="recommendation"><?php echo $l->t('It was recommended to me');?></option>
+                    <option value="usemyself"><?php echo $l->t('I use it privately');?></option>
+                    <option value="advert"><?php echo $l->t('I saw it in an advertisement');?></option>
+                    <option value="other"><?php echo $l->t('other');?></option>
                 </select>
             </div>
         </div>

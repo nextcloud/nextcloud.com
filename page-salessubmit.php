@@ -88,6 +88,12 @@ if(isset($_POST['email'])) {
     $webconferencing = $_POST['webconferencing'];
     $gdprcheck = $_POST['gdprcheck'];
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
+    $foundnextcloud = $_POST['foundnextcloud'];
+
+
+
+
+
   if(!preg_match($email_exp,$email_from)) {
     $error_message .= 'The email address you entered does not appear to be valid.<br />';
   }
@@ -128,6 +134,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Would you be interested in editing office documents online? ".clean_string($collabora)."\n";
     $email_message .= "Would you be interested in secure webconferencing and audio and video calls? ".clean_string($webconferencing)."\n";
     $email_message .= "Would you be interested in our Secure Sharing add-in for Outlook? ".clean_string($outlook)."\n";
+    $email_message .= "How did you find out about Nextcloud? ".clean_string($foundnextcloud)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
 
 // create email headers

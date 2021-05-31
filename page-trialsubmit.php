@@ -75,6 +75,7 @@ if(isset($_POST['email'])) {
         !isset($_POST['users'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted - did you fill in all mandatory fields?'); }
     $yourname = $_POST['yourname']; // required
+    $organization= $_POST['organization']; // required
     $orgsize= $_POST['orgsize']; // required
     $phone = $_POST['phone']; // required
     $email_from = $_POST['email']; // required
@@ -82,6 +83,7 @@ if(isset($_POST['email'])) {
     $comments = $_POST['comments'];
     $hostedoronprem = $_POST['hosted-or-onprem'];
     $gdprcheck = $_POST['gdprcheck'];
+    $foundnextcloud = $_POST['foundnextcloud'];
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
   if(!preg_match($email_exp,$email_from)) {
@@ -119,6 +121,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Phone number: ".clean_string($phone)."\n";
     $email_message .= "How big do you expect your installation to grow to one day? ".clean_string($users)."\n";
     $email_message .= "Do you need a hosted or on-premises trial? ".clean_string($hostedoronprem)."\n";
+    $email_message .= "How did you find out about Nextcloud? ".clean_string($foundnextcloud)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
 
 // create email headers

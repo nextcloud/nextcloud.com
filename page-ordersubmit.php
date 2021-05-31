@@ -82,6 +82,7 @@ if(isset($_POST['email'])) {
     //$branding = $_POST['branding'];
     $dollars = $_POST['dollars'];
     $terms = $_POST['terms'] === 'terms' ? 'yes' : 'no';
+    $foundnextcloud = $_POST['foundnextcloud'];
     $error_message = "";
 
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
@@ -271,6 +272,7 @@ if(isset($_POST['email'])) {
 		$email_message .= "Number of Collabora users (17€ for first 99, then 16€/user): " . clean_string($collaboraCheck) . "\n";
 		$email_message .= "Would like ONLYOFFICE option (935€ for first 250): " . clean_string($onlyofficeCheck) . "\n";
 		$email_message .= "Would like remote installation help (990 €): " . clean_string($remoteinstall) . "\n\n";
+        $email_message .= "How did you find out about Nextcloud? ".clean_string($foundnextcloud)."\n";
 		// 	$email_message .= "Would like Branding option: ".clean_string($branding)."\n";
 		// 	$email_message .= "Would like Spreed option: ".clean_string($spreed)."\n";
 		$email_message .= "Price: " . clean_string($givenprice) . "\n";
