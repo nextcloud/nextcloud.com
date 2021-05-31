@@ -49,7 +49,7 @@
             <p><?php echo $l->t('Your answers to the following questions will help us better understand your project and give a realistic quote.');?></p>
         </div>
 	</div>
-	<form name="sales" method="post" action="../salessubmit/">
+	<form name="sales" method="post" action="../quotesubmit/">
         <div class="row">
             <div class="col-lg-4">
 				<p><label for="yourname"><?php echo $l->t('Your name');?></label>
