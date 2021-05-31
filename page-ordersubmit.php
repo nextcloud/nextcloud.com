@@ -21,7 +21,7 @@
 <?php
 require_once realpath(dirname(__FILE__)) . '/lib/ratelimiter.php';
 
-if(!canPerformLimitedAction("order-submit-action", 10)) {
+if(!canPerformLimitedAction("order-submit-action", 2)) {
   die("Too many requests. Please try again later.");
 }
 
