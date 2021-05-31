@@ -76,7 +76,6 @@ if(isset($_POST['email'])) {
          $error_message .= 'Phone, mail, name and comments field have to have valid data! <br />'; }
     $yourname = $_POST['yourname']; // required
     $organization= $_POST['organization']; // required
-    $role = $_POST['role']; // required
     $phone= $_POST['phone']; // required
     $email_from = $_POST['email']; // required
     $comments = $_POST['comments']; // required
@@ -119,7 +118,6 @@ if(isset($_POST['email'])) {
     $email_message .= "Name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Organization: ".clean_string($organization)."\n";
-    $email_message .= "Role: ".clean_string($role)."\n";
     $email_message .= "Phone: ".clean_string($phone)."\n";
     $email_message .= "How did you find out about Nextcloud? ".clean_string($foundnextcloud)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
