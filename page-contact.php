@@ -33,7 +33,7 @@
             <h2><?php echo $l->t('Contact form');?></h2>
             <form name="contact" method="post" action="contactsubmit/">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <p><label for="yourname"><?php echo $l->t('Your name');?></label></p>
                     </div>
                     <div class="col-lg-7">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <p><label for="email">Email</label></p>
                     </div>
                     <div class="col-lg-7">
@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <br /> <span> </span>
                     </div>
                     <div class="col-lg-7">
@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <p><label for="organization"><?php echo $l->t('Organization');?></label></p>
                     </div>
                     <div class="col-lg-7">
@@ -65,7 +65,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <p><label for="phone"><?php echo $l->t('Phone number');?></label></p>
                     </div>
                     <div class="col-lg-7">
@@ -89,7 +89,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <p><label for="comments"><?php echo $l->t('Your message');?></label></p>
                     </div>
                     <div class="col-lg-7">
@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <br /> <span> </span>
                     </div>
                     <div class="col-lg-7">
@@ -106,7 +106,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <br /> <span> </span>
                     </div>
                     <div class="col-lg-7">
