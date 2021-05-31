@@ -98,12 +98,12 @@
             </div>
             <div class="col-lg-7">
                 <select id="users" name="users">
-                    <option value="under-20">under 50 users</option>
-                    <option value="50to199">50-99 users</option>
-                    <option value="200-999">100-499 users</option>
-                    <option value="999-99999">500-4.999 users</option>
-                    <option value="999-99999">5000-50.000 users</option>
-                    <option value="over100000">over 50.000 users</option>
+                    <option value="under-50">under 50 users</option>
+                    <option value="50to99">50-99 users</option>
+                    <option value="100to499">100-499 users</option>
+                    <option value="500to4999">500-4.999 users</option>
+                    <option value="5000to50000">5000-50.000 users</option>
+                    <option value="over50000">over 50.000 users</option>
                 </select>
             </div>
         </div>
