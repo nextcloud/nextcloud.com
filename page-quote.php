@@ -127,21 +127,24 @@
                     <option value="yes"><?php echo $l->t('Yes');?></option>
                     <option value="no"><?php echo $l->t('No');?></option>
                 </select></p>
-                <p><label for="collabora"><a class="hyperlink" href="<?php echo home_url('collabora') ?>"><?php echo $l->t('Would you need online document collaboration?');?></a></small></label><br />
+                <p><label for="collabora"><?php echo $l->t('Would you need online document collaboration?');?></label><br /><small><?php echo $l->t('Options:');?> <a class="hyperlink" href="<?php echo home_url('collabora') ?>">Collabora Online</a>, <a class="hyperlink" href="<?php echo home_url('onlyoffice') ?>">OnlyOffice</a>, <a class="hyperlink" href="https://nextcloud.com/blog/live-demo-of-hancom-works-now-available/">Hancom Office</a>, <a class="hyperlink" href="https://nextcloud.com/blog/ms-office-online-server-as-document-editor-in-nextcloud/">Microsoft Office Online Server</a>.</small><br />
                 <select name="collabora">
                     <option value="unsure"><?php echo $l->t('Not sure');?></option>
-                    <option value="yes"><?php echo $l->t('Yes');?></option>
+                    <option value="Collabora"><?php echo $l->t('Collabora Online');?></option>
+                    <option value="OnlyOffice"><?php echo $l->t('OnlyOffice');?></option>
+                    <option value="Hancom"><?php echo $l->t('Hancom Office');?></option>
+                    <option value="Microsoft"><?php echo $l->t('Microsoft Office Online Server');?></option>
                     <option value="no"><?php echo $l->t('No');?></option>
                 </select></p>
             </div>
             <div class="col-md-6">
-                <p><label for="webconferencing"><a class="hyperlink" href="<?php echo home_url('talk') ?>"><?php echo $l->t('Would you need integrated, secure audio/video chat and web conferencing?');?></a></small></label><br />
+                <p><label for="webconferencing"><?php echo $l->t('Would you need integrated, secure audio/video chat and web conferencing?');?></a><br /><small><a class="hyperlink" href="<?php echo home_url('talk') ?>"><?php echo $l->t('Learn more about Nextcloud Talk');?></a></small></label><br />
                 <select name="webconferencing">
                     <option value="unsure"><?php echo $l->t('Not sure');?></option>
                     <option value="yes"><?php echo $l->t('Yes');?></option>
                     <option value="no"><?php echo $l->t('No');?></option>
                 </select></p>
-                <p><label for="outlook"><a class="hyperlink" href="<?php echo home_url('outlook') ?>"><?php echo $l->t('Would you need our Outlook integration?');?></a> </label><br />
+                <p><label for="outlook"><?php echo $l->t('Would you need our Outlook integration?');?></a></label><small><a class="hyperlink" href="<?php echo home_url('outlook') ?>"><br /><?php echo $l->t('Learn more');?></a></small><br />
                 <select name="outlook">
                     <option value="unsure"><?php echo $l->t('Not sure');?></option>
                     <option value="yes"><?php echo $l->t('Yes');?></option>
