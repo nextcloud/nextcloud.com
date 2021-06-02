@@ -21,7 +21,7 @@
 </div>
 <h2><?php echo $l->t('Security information');?></h2>
 <p><?php echo $l->t('This page hosts our security policies and information with regards to reporting security flaws. Learn more about how Nextcloud aims to offer the');?> <a class="hyperlink" href="<?php echo home_url('secure') ?>"><?php echo $l->t('best security in the open source file sync and share industry here.');?></a></p>
-<p><a class="hyperlink" href="https://nextcloud.com/security/old-advisories"><?php echo $l->t('See advisories from before Jue 1 2020 here');?></a></p>
+<p><a class="hyperlink" href="https://www.cvedetails.com/vendor/15913/Nextcloud.html"><?php echo $l->t('See a full list of historic advisories in the CVE database.');?></a></p>
 <p><?php echo $l->t('For server owners, our documentation has a section with');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/harden_server.html" target="_blank"><?php echo $l->t('best practices and tips on securing a Nextcloud server.');?></a></p>
 
 <div class="row">
