@@ -114,7 +114,7 @@
                         require_once realpath(dirname(__FILE__)) . '/lib/captcha.php';
                     ?>
                     <label for="captcha"><?php echo $l->t('Please enter the following captcha');?>* <span></span><br>
-                        <imgq src="data:image/png;base64,<?php echo base64_encode(GetCaptcha()); ?>"><br>
+                        <img src="data:image/png;base64,<?php echo base64_encode(GetCaptcha()); ?>" /><br>
                         <input  type="text" name="captcha" maxlength="20" size="20" placeholder="13"></label>
                 </p>
                 <div class="row">
