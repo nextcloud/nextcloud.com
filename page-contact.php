@@ -109,6 +109,14 @@
                         <p><input type="checkbox" id="gdprcheck" name="gdprcheck" value="gdprchecked"><label for="gdprcheck"> <?php echo $l->t('I agree with the Nextcloud privacy policy and understand my data will be processed so Nextcloud can reach out to me.');?> <br /><a class="hyperlink" href="<?php echo home_url('privacy') ?>" class="hyperlink"><?php echo $l->t('See our privacy policy here.');?></a></p>
                     </div>
                 </div>
+                <p>
+                    <?php
+                        require_once realpath(dirname(__FILE__)) . '/lib/captcha.php';
+                    ?>
+                    <label for="captcha"><?php echo $l->t('Please enter the following captcha');?>* <span></span><br>
+                        <imgq src="data:image/png;base64,<?php echo base64_encode(GetCaptcha()); ?>"><br>
+                        <input  type="text" name="captcha" maxlength="20" size="20" placeholder="13"></label>
+                </p>
                 <div class="row">
                     <div class="col-lg-4">
                         <br /> <span> </span>
