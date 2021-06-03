@@ -98,12 +98,12 @@
             </div>
             <div class="col-lg-7">
                 <select id="users" name="users">
-                    <option value="under-50">under 50 users</option>
-                    <option value="50to99">50-99 users</option>
-                    <option value="100to499">100-499 users</option>
-                    <option value="500to4999">500-4.999 users</option>
-                    <option value="5000to50000">5000-50.000 users</option>
-                    <option value="over50000">over 50.000 users</option>
+                    <option value="under-50"><?php echo $l->t('under 50 users');?></option>
+                    <option value="50to99"><?php echo $l->t('50-99 users');?></option>
+                    <option value="100to499"><?php echo $l->t('100-499 users');?></option>
+                    <option value="500to4999"><?php echo $l->t('500-4.999 users');?></option>
+                    <option value="5000to50000"><?php echo $l->t('5000-50.000 users');?></option>
+                    <option value="over50000"><?php echo $l->t('over 50.000 users');?></option>
                 </select>
             </div>
         </div>
@@ -146,7 +146,7 @@
              <div class="col-lg-12">
                 <input type="checkbox" id="gdprcheck" name="gdprcheck" value="gdprchecked"><label for="gdprcheck"> <?php echo $l->t('I agree with the Nextcloud privacy policy and understand my data will be processed so Nextcloud or its partners can reach out to me.');?></label><br />
                 <small><?php echo $l->t('In some regions we exclusively work through partners. By filling in the form, you agree we can share your data with them so they can reach out to you with the information for the trial.');?></small></p>
-                <input type="submit" value=" Submit inquiry " class="button button--blue">
+                <input type="submit" value=" <?php echo $l->t('Submit inquiry');?> " class="button button--blue">
             </div>
         </div>
     </form>
