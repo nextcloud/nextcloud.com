@@ -44,6 +44,7 @@
 </section>
 <?php
 require_once realpath(dirname(__FILE__)) . '/lib/ratelimiter.php';
+require_once realpath(dirname(__FILE__)) . '/lib/captcha.php';
 
 if(!canPerformLimitedAction("contact-submit-action", 2)) {
   die("Too many requests. Please try again later.");
@@ -72,7 +73,8 @@ if(isset($_POST['email'])) {
     if(!isset($_POST['yourname']) ||
         !isset($_POST['email']) ||
         !isset($_POST['phone']) ||
-        !isset($_POST['comments'])) {
+        !isset($_POST['comments']) ||
+        !isset($_POST['captcha'])) {
          $error_message .= 'Phone, mail, name and comments field have to have valid data! <br />'; }
     $yourname = $_POST['yourname']; // required
     $organization= $_POST['organization']; // required
@@ -82,6 +84,9 @@ if(isset($_POST['email'])) {
     $gdprcheck = $_POST['gdprcheck'];
     $foundnextcloud = $_POST['foundnextcloud'];
 
+    if(!IsValidCaptcha($_POST['captcha'])) {
+        $error_message .= 'The captcha result you entered does not appear to be correct.<br />';
+    }
 
     $email_exp = '/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
   if(!preg_match($email_exp,$email_from)) {
