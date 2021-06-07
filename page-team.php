@@ -161,19 +161,6 @@
 				<p class="teamdescription">Markus has over 19 years experience as Account and Partner manager at HP and Hewlett Packard Enterprise and Aruba.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-				<h2 class="teamname">Nils Kühne-Hellmessen</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Account manager</h3>
-					<h4 class="teamexpertise">Sales and account management</h4>
-					<h4 class="teamlocation">lives in Wassertrüdingen, Germany</h4>
-					<p class="teamsocial"> <a href="https://www.xing.com/profile/Nils_KuehneHellmessen/"><i class="fa-xing fa"></i></a> <a href="https://mastodon.social/@ringel72"><i class="fa-mastodon fa"></i></a> <a href="diaspora://ringel72@diaspora.psyco.fr"><i class="fa-diaspora fa"></i></a></p>
-				</div>
-				<p class="teamdescription">After an apprenticeship in publishing and a communication management study, Nils worked over 20 years in different industries. Stations in the management of marketing, sales, and account management followed each other and all with a strong customer focus.</p>
-			</div>
-        </div>
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/olivier.jpg" />
