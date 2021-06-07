@@ -235,6 +235,10 @@
                     <textarea  name="comments" maxlength="2000" cols="60" rows="8" placeholder="<?php echo $l->t('Questions, comments? Interested in Nextcloud Talk, Branding? Let us know and we can provide you an offer or answers to your questions.');?>"></textarea>
                     <p><input type="checkbox" name="terms" value="terms" onChange="doCalculation()"> <?php echo $l->t('I have read and agree to the');?> <a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/files/termsfornextcloudorder.pdf"><?php echo $l->t('terms and conditions');?> <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
                     <p>Note: all prices excl. VAT</p>
+                    <?php require_once realpath(dirname(__FILE__)) . '/lib/captcha.php'; ?>
+                    <p><label for="captcha"><?php echo $l->t('Please enter the following captcha');?></label> <span></span><br>
+                    <img src="data:image/png;base64,<?php echo base64_encode(GetCaptcha()); ?>" /></p>
+                    <p><input  type="text" name="captcha" maxlength="20" size="20" placeholder="eXaMpLe15"></p>
                     <input type="submit" name="submit" value=" Order Now " disabled="disabled" class="button button--blue"><br />
                     <span id="form-error"><?php echo $l->t('Some required fields are not filled.'); ?></span>
                 </div>
