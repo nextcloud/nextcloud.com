@@ -158,13 +158,6 @@
 				<textarea name="comments" maxlength="2000" cols="80" rows="8" placeholder="<?php echo $l->t('Let us know about any other specific wishes you might have!');?>"></textarea></label></p>
 				<p><input type="checkbox" id="gdprcheck" name="gdprcheck" value="gdprchecked"><label for="gdprcheck"> <?php echo $l->t('I agree with the Nextcloud privacy policy and understand my data will be processed so Nextcloud or its partners can reach out to me.');?><br /></p>
 				<input type="submit" value=" Submit inquiry " class="button button--blue">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4">
-                <br /> <span> </span>
-            </div>
-            <div class="col-lg-7">
                 <?php require_once realpath(dirname(__FILE__)) . '/lib/captcha.php'; ?>
                 <p><label for="captcha"><?php echo $l->t('Please enter the following captcha');?></label> <span></span><br>
                 <img src="data:image/png;base64,<?php echo base64_encode(GetCaptcha()); ?>" /></p>
