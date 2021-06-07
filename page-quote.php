@@ -160,6 +160,17 @@
 				<input type="submit" value=" Submit inquiry " class="button button--blue">
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <br /> <span> </span>
+            </div>
+            <div class="col-lg-7">
+                <?php require_once realpath(dirname(__FILE__)) . '/lib/captcha.php'; ?>
+                <p><label for="captcha"><?php echo $l->t('Please enter the following captcha');?></label> <span></span><br>
+                <img src="data:image/png;base64,<?php echo base64_encode(GetCaptcha()); ?>" /></p>
+                <p><input  type="text" name="captcha" maxlength="20" size="20" placeholder="eXaMpLe15"></p>
+            </div>
+        </div>
     </form>
     <div class="row">
         <div class="col-md-12">
