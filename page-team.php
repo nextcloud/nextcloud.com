@@ -233,6 +233,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">João Cortez</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Sales Engineer</h3>
+					<h4 class="teamexpertise">Sales and Customer Relationships</h4>
+					<h4 class="teamlocation">Lives in Taubaté - Brazil</h4>
+					<p class="teamsocial"><a href="jbcortezf.wordpress.com"><i class="fa-rss fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">João has been working since 1997 with infrastructure. His main expertise is in Unix (IBM AIX/Solaris/HP-UX) and Linux. He's happy in physical, virtual and cloud environments and has experience with global companies and in the banking sector.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/matthias.jpg" />
 				<h2 class="teamname">Matthias Wobben</h2>
 				<div class="teammeta">
