@@ -766,6 +766,19 @@
 				<p class="teamdescription">Robin studied computer science and is highly experienced in scaling file storage and handling systems. He has been working on Nextcloud code since its earliest incarnation in 2010 and has, at one point or another, touched code in every corner.</p>
 			</div>
 		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Richard Steinmetz</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Groupware</h4>
+					<h4 class="teamlocation">Lives in Dresden, Germany</h4>
+					<p class="teamsocial"><a href="https://github.com/st3iny"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Richard studies computer science and has been contributing since late 2020 to Nextcloud. He's passionate about open source and technology in general.</p>
+			</div>
+		</div>
         <div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
