@@ -22,7 +22,7 @@
 require_once realpath(dirname(__FILE__)) . '/lib/ratelimiter.php';
 require_once realpath(dirname(__FILE__)) . '/lib/captcha.php';
 
-if(!canPerformLimitedAction("order-submit-action", 2)) {
+if(!canPerformLimitedAction("order-submit-action", 5)) {
   die("Too many requests. Please try again later.");
 }
 
