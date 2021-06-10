@@ -24,8 +24,7 @@
     <div class="container">
         <div class="col-md-10 col-md-offset-1 claim__container">
             <p class="claim__paragraph">
-                <?php echo $l->t('Nextcloud understands the necessity to provide core principle baseline security requirements, as such Nextcloud 11
-                is built on these security principles to ultimately deliver a secure solution to their customers');?>
+                <?php echo $l->t('Nextcloud understands the necessity to provide core principle baseline security requirements, as such Nextcloud 11 is built on these security principles to ultimately deliver a secure solution to their customers');?>
             </p>
             <div class="claim__brand">
                 <div class="claim__brand__logo"></div>
@@ -44,7 +43,7 @@
                 <?php echo $l->t('Nextcloud features an enterprise-grade, seamlessly integrated solution for end-to-end encryption. It enables users to pick one or more folders on their desktop or mobile client for end-to-end encryption. Folders can be shared with other users and synced between devices but are not readable by the server.');?>
             </p>
             <p class="section--paragraph">
-                <?php echo $l->t('Note: your end-to-end encryption solution is under constant development. Some features part of the design have not yet been implemented in the client or server code. In particular, as of January 2021, offline recovery, sharing and HSM features are on the roadmap.');?>
+                <?php echo $l->t('Note: our end-to-end encryption solution is under constant development. Some features part of the design have not yet been implemented in the client or server code. In particular, as of January 2021, offline recovery, sharing and HSM features are on the roadmap.');?>
             </p>
         </div>
     </div>
