@@ -80,11 +80,11 @@
         <ul>
         <li><i class="fa-check fa"></i> <?php echo $l->t('Any number of folders can be end to end encrypted.');?></li>
         <li><i class="fa-check fa"></i> <?php echo $l->t('Easily add a new device with a strong passcode consisting of 12 dictionary words.');?></li>
-        <li><i class="fa-check fa"></i> <?php echo $l->t('Secure sharing with other users without the need to enter passwords.');?></li>
-        <li><i class="fa-check fa"></i> <?php echo $l->t('Efficient sharing and revoking shares without the need to re-encrypt large files.');?></li>
+        <li><i class="fa-check fa"></i> <?php echo $l->t('Secure sharing with other users without the need to enter passwords.');?> (roadmap 2021)</li>
+        <li><i class="fa-check fa"></i> <?php echo $l->t('Efficient sharing and revoking shares without the need to re-encrypt large files.');?> (roadmap 2021)</li>
 
-        <li><i class="fa-check fa"></i> <?php echo $l->t('Supports a Hardware Security Module for enterprise environments which enables securely issuing new keys to users.');?></li>
-        <li><i class="fa-check fa"></i> <?php echo $l->t('Supports an offline administrator recovery key to be kept in a physically separated location. Users get warned when this key is enabled.');?></li>
+        <li><i class="fa-check fa"></i> <?php echo $l->t('Supports a Hardware Security Module for enterprise environments which enables securely issuing new keys to users.');?> (roadmap 2022)</li>
+        <li><i class="fa-check fa"></i> <?php echo $l->t('Supports an offline administrator recovery key to be kept in a physically separated location. Users get warned when this key is enabled.');?> (roadmap 2021)</li>
         <li><i class="fa-check fa"></i> <?php echo $l->t('Supports a complete audit log without compromising end to end security.');?></li>
         <li><i class="fa-check fa"></i> <?php echo $l->t('Can be combined with our File Access Control to block specific file types or files by specific user groups from uploading unless they are end-to-end encrypted.');?></li>
         </ul>
