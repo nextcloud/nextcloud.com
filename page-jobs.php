@@ -170,23 +170,23 @@
 				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
-            <!--<a href="#marketing" data-toggle="collapse"><h3 class="jobs">Marketing and event manager<span class="icon-arrow"></span></h3></a>
+            <a href="#marketing" data-toggle="collapse"><h3 class="jobs">Marketing and event manager<span class="icon-arrow"></span></h3></a>
 			<div id="marketing" class="collapse">
-				<p>Our marketing team is looking for a new member: you would support and strengthen our marketing, helping us design website pages, flyers and other promotional materials as well as organize our attendance to events or our yearly conference. We are a small team so we also share work writing blogs, answering questions on social media, preparing announcements and more. We're looking for somebody with some adobe tools experience, who is organized and willing to learn and try new things!</p>
+				<p>Our marketing team is looking for a new member: you would help grow and multiply our marketing efforts. You'd be responsible for building up Nextcloud marketing, and your efforts would include implementing marketing campaigns, reaching out to and working with press, translating and putting together promotional materials and organizing or attending events. We're looking for somebody with marketing experience, able to work remote in a small, self-guided team and willing to learn and try new things!</p>
 				<h3 class="section--paragraph__title">Responsibilities:</h3>
 				<ul>
-					<li>Manage and improve our marketing materials (both German and English)</li>
-					<li>Design posters, flyers and backdrops for events</li>
+					<li>Creating, implementing and measuring marketing campaigns</li>
 					<li>Organize events and our presence at conferences</li>
-					<li>Help us manage PR and communication</li>
+					<li>Build up content and social media presence</li>
+					<li>Do PR and communication outreach</li>
+					<li>Work with both community and business</li>
 				</ul>
 
-				<h3 class="section--paragraph__title">Required skills:</h3>
+				<h3 class="section--paragraph__title">Skills:</h3>
 				<ul>
-					<li>Writing and speaking German language</li>
-					<li>Interest in messaging, public relations</li>
-					<li>Able and interested in managing events</li>
-					<li>Print and/or web design skills</li>
+					<li>Interest in messaging, public relations, able to build relations with local press</li>
+					<li>Able to represent Nextcloud at events (self organized or attending)</li>
+					<li>Writing and visual communication skills</li>
 					<li>Being able to work independently, track progress and ask for help when needed</li>
 				</ul>
 
@@ -200,38 +200,42 @@
 					<li>We have flexible office hours and most of our team works from home.</li>
 					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
 				</ul>
-				<p>We are looking for somebody who wants to make a difference. We strive to provide the freedom and space so you can! German speaking, some design experience and being a generally organized person are important for this job, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-			</div>-->
+				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of building up a local presence. It is a wide-ranging job and we strive to provide the freedom and space to find the right approach! We look for somebody with some marketing or sales/business development experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+			</div>
 
+			<a href="#webdesigner" data-toggle="collapse"><h3 class="jobs">Web Designer<span class="icon-arrow"></span></h3></a>
+			<div id="webdesigner" class="collapse">
+				<p>Our marketing team is looking for a new member: you would design and maintain our website. You'd be responsible for our online presence, both technical and design-wise, and work closely with the other marketeers on messaging and content.
+				We're looking for somebody with great design skills and some website maintenance experience, able to work remote in a small, self-guided team and willing to learn and try new things!</p>
+				<h3 class="section--paragraph__title">Responsibilities:</h3>
+				<ul>
+					<li>Full maintenance of Nextcloud web site</li>
+					<li>Turning marketing messages into beautiful visuals</li>
+					<li>Coordinate with other designers at Nextcloud, collaborate on and maintain a design language</li>
+				</ul>
 
-            <a href="#jsdev" data-toggle="collapse"><h3 class="jobs">Javascript Developer<span class="icon-arrow"></span></h3></a>
-            <div id="jsdev" class="collapse">
-                <p>We're looking for developers with experience in Javascript/front-end development to join our server team!</p>
-                <p>You would work with the engineering team to bring new features and improvements to the server user interface like our File management app or one of the many other applications like Calendar and Contacts, Announcements and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-                <h3 class="section--paragraph__title">Responsibilities:</h3>
-                <ul>
-                    <li>Front end development (JS, PHP)</li>
-                    <li>Cross platform testing</li>
-                    <li>Quality assurance</li>
-                </ul>
-                <h3 class="section--paragraph__title">Required skills:</h3>
-                <ul>
-                    <li>Deep technical experience with Javascript and perhaps a bit of PHP</li>
-                    <li>WebRTC experience a plus</li>
-                    <li>Teamworking capabilities</li>
-                    <li>Independence and self-reliance.</li>
-                    <li>Knowledge around open source technology</li>
-                </ul>
-                <h3 class="section--paragraph__title">What we offer:</h3>
-                <ul>
-                    <li>A distributed, open team with a passion for working on and within the open source community</li>
-                    <li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
-                    <li>A competitive salary</li>
-                    <li>Flexibility for a healthy work-life balance</li>
-                    <li>Time for personal growth and education</li>
-                </ul>
-                <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-            </div>
+				<h3 class="section--paragraph__title">Skills:</h3>
+				<ul>
+					<li>Visual communication skills</li>
+					<li>Screen and web design</li>
+					<li>Illustrations</li>
+					<li>Html/css skills to turn design into page</li>
+					<li>Video and animation are a plus</li>
+					<li>Being able to work independently, track progress and ask for help when needed</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">What we offer:</h3>
+				<ul>
+					<li>A distributed, open team with a passion for working on and within the open source community</li>
+					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
+					<li>A competitive salary</li>
+					<li>Flexibility for a healthy work-life balance</li>
+					<li>Time for personal growth and education</li>
+					<li>We have flexible office hours and most of our team works from home.</li>
+					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
+				</ul>
+				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of enhancing our online presence. We strive to provide the freedom and space to find the right approach! We look for somebody with design and basic website development experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+			</div>
 
 			<a href="#saleseng" data-toggle="collapse"><h3 class="jobs">Sales Engineer/ Consultant<span class="icon-arrow"></span></h3></a>
 			<div id="saleseng" class="collapse">
@@ -278,6 +282,34 @@
 				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
+            <a href="#jsdev" data-toggle="collapse"><h3 class="jobs">Javascript Developer<span class="icon-arrow"></span></h3></a>
+            <div id="jsdev" class="collapse">
+                <p>We're looking for developers with experience in Javascript/front-end development to join our server team!</p>
+                <p>You would work with the engineering team to bring new features and improvements to the server user interface like our File management app or one of the many other applications like Calendar and Contacts, Announcements and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
+                <h3 class="section--paragraph__title">Responsibilities:</h3>
+                <ul>
+                    <li>Front end development (JS, PHP)</li>
+                    <li>Cross platform testing</li>
+                    <li>Quality assurance</li>
+                </ul>
+                <h3 class="section--paragraph__title">Required skills:</h3>
+                <ul>
+                    <li>Deep technical experience with Javascript and perhaps a bit of PHP</li>
+                    <li>WebRTC experience a plus</li>
+                    <li>Teamworking capabilities</li>
+                    <li>Independence and self-reliance.</li>
+                    <li>Knowledge around open source technology</li>
+                </ul>
+                <h3 class="section--paragraph__title">What we offer:</h3>
+                <ul>
+                    <li>A distributed, open team with a passion for working on and within the open source community</li>
+                    <li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
+                    <li>A competitive salary</li>
+                    <li>Flexibility for a healthy work-life balance</li>
+                    <li>Time for personal growth and education</li>
+                </ul>
+                <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+            </div>
             <a href="#phpdev" data-toggle="collapse"><h3 class="jobs">PHP back-end developer<span class="icon-arrow"></span></h3></a>
             <div id="phpdev" class="collapse">
                 <p>We're looking for developers with experience in PHP back-end development to join our server team!</p>
