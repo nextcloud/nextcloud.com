@@ -198,7 +198,13 @@
                 With security in hardware, software and the all so humble humans, our services are often more thoughtful than our customer expects.</p>
 				<a class="button button--white" href="http://kafit.se/">Learn more</a>
 			</div>
-
+            <div class="col-md-4">
+				<a href="https://link22.se/" target="_blank" title="Link22">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/link22.png" title="link22 logo" />
+				</a>
+				<p  class="partnertext">Storage, communication, physical meetings, virtual desktops, video meetings, off the grid-solutions, import, export, cross domain-solutions, access control, network security... Whatever it is, we do not compromise with security. We help public and private actors with highly secure IT-solutions. Our deliveries range from standalone products to full scale systems. Some are military, some are government, some are large private corporations, they all prioritize security. We meet military level requirements, strict laws and custom wishes from niche customers.</p>
+				<a class="button button--white" href="https://link22.se/">Learn more</a>
+			</div>
             <div class="col-md-4">
 				<a href="https://www.librebit.com/en/nextcloud/" target="_blank" title="Librebit">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/librebit.png" title="librebit logo" />
