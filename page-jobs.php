@@ -11,8 +11,8 @@
     <div class="background jobs-background">
         <div class="container">
                 <div class="col-md-6 topheader">
-                    <h1>We are hiring</h1>
-                    <h2>Nextcloud is looking for people who want to join our team</h2>
+                    <h1><?php echo $l->t('We are hiring');?></h1>
+                    <h2><?php echo $l->t('Nextcloud is looking for people who want to join our team');?></h2>
                 </div>
             </div>
         </div>
@@ -20,12 +20,13 @@
 </section>
 <section class="section-company-description">
 	<div class="container">
-		<h2 class="text-center">Company description</h2>
+		<h2 class="text-center"><?php echo $l->t('Company description');?></h2>
 
-		<p class="">We are a modern, distributed, open source company. It is our mission to provide our users and customers with the means for data storage, access and communication under their control; protecting their privacy and security.</p>
+		<p class=""><?php echo $l->t('We are a modern, distributed, open source company. It is our mission to provide our users and customers with the means for data storage, access and communication under their control; protecting their privacy and security');?>.</p>
 
-		<p>We pursue a fully-open strategy, keeping internal communication to a minimum while aiming to work, discuss and develop in public. We are a thriving, quickly growing company with a solid customer base. An open source background or experience contributing to Nextcloud is a big plus for job applicants! Especially for developers we pursue a strong "hire from the community" strategy.</p>
-		<p>Nextcloud actively strives for diversity and we'd like to especially encourage applications by people from underrepresented groups in tech.</p>
+		<p><?php echo $l->t('We pursue a fully-open strategy, keeping internal communication to a minimum while aiming to work, discuss and develop in public. We are a thriving, quickly growing company with a solid customer base. An open source background or experience contributing to Nextcloud is a big plus for job applicants! Especially for developers we pursue a strong "hire from the community" strategy.');?></p>
+		<p><?php echo $l->t('Nextcloud actively strives for diversity and we would like to especially encourage applications by people from underrepresented groups in tech.');?></p>
+		<p><?php echo $l->t('As a very international, distributed company with employees in 2 dozen countries and on most continents, our company language is English, most of us work from home or a local co-working space and working hours are very flexible. We try to bring everyone in the company together for a week 5-6 times a year, usually in Berlin and various teams also organize their own, separate meetings throughout the year as working together is fun and productive!');?></p>
 	</div>
 </section>
 
@@ -34,7 +35,7 @@
 		<h2 class="text-center">Job openings</h2>
 		<div class="wrapper-text">
 
-            <a href="#desktopdev" data-toggle="collapse"><h3 class="jobs">C++ Developer<span class="icon-arrow"></span></h3></a>
+<!--            <a href="#desktopdev" data-toggle="collapse"><h3 class="jobs">C++ Developer<span class="icon-arrow"></span></h3></a>
             <div id="desktopdev" class="collapse">
                 <p>We're looking for a C++ developer to join our desktop client team!</p>
                 <p>You would work with our small and agile team to bring new features and improvements to the desktop client application. You ideally have some open source experience, know your way a bit around git and Github and live in the CET timezone.</p>
@@ -61,7 +62,7 @@
                     <li>A competitive salary.</li>
                 </ul>
                 <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this position.</p>
-            </div>
+            </div>-->
 
 			<a href="#accountmgr" data-toggle="collapse"><h3 class="jobs">Account Manager<span class="icon-arrow"></span></h3></a>
 			<div id="accountmgr" class="collapse">
@@ -305,13 +306,13 @@
                 </ul>
                 <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
             </div>
-            <!--<a href="#androiddev" data-toggle="collapse"><h3 class="jobs">Android App developer<span class="icon-arrow"></span></h3></a>
+            <a href="#androiddev" data-toggle="collapse"><h3 class="jobs">Android App developer<span class="icon-arrow"></span></h3></a>
             <div id="androiddev" class="collapse">
                 <p>We're looking for developers with experience in Android app development to join our client team!</p>
-                <p>You would work with the engineering team to bring new features and improvements to the Android app like new authentication mechanisms, audio/video chat integration and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
+                <p>You would work with the engineering team to bring new features and improvements to the Android app around file handling, streaming, communication integration and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
                 <p>Responsibilities:</p>
                 <ul>
-                    <li>Android development (JAVA)</li>
+                    <li>Android development (JAVA, Kotlin)</li>
                     <li>Software design</li>
                     <li>UX/UI design</li>
                     <li>Quality assurance</li>
@@ -332,11 +333,11 @@
                     <li>Time for personal growth and education</li>
                 </ul>
                 <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-            </div>-->
-            <!--<a href="#iosdev" data-toggle="collapse"><h3 class="jobs">iOS App developer<span class="icon-arrow"></span></h3></a>
+            </div>
+            <a href="#iosdev" data-toggle="collapse"><h3 class="jobs">iOS App developer<span class="icon-arrow"></span></h3></a>
             <div id="iosdev" class="collapse">
                 <p>We're looking for developers with experience in iOS app development to join our client team!</p>
-                <p>You would work with the engineering team to bring new features and improvements to the iOS app like new authentication mechanisms, audio/video chat integration and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
+                <p>You would work with the engineering team to bring new features and improvements to the iOS app around file handling, streaming, communication integration and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
                 <p>Responsibilities:</p>
                 <ul>
                     <li>iOS development (Objective-C/Swift)</li>
@@ -360,7 +361,7 @@
                     <li>Time for personal growth and education</li>
                 </ul>
                 <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-            </div>-->
+            </div>
                 <!--<a href="#techwrite" data-toggle="collapse"><h3 class="jobs">Technical documentation writer<span class="icon-arrow"></span></h3></a>
             <div id="techwrite" class="collapse">
                 <p>We're looking for a technical writer to join our server team!</p>

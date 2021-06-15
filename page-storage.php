@@ -1,12 +1,5 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/storage.css?v=1" rel="stylesheet">
-<!--<script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
-<script type="text/javascript">
-    var CaptchaCallback = function() {
-        grecaptcha.render('RecaptchaField1', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
-        grecaptcha.render('RecaptchaField2', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
-    };
-</script>-->
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/externalstorage.png">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/externalstorage.png">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/externalstorage.png">
@@ -42,20 +35,17 @@
         <div class="row">
             <div class="col-lg-8">
                 <h2><?php echo $l->t('Windows Network Drive');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our free Windows Network Drive datasheet');?><br>
-                     <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div id="RecaptchaField1"></div>
-                    </div>
-                    </td>
                     <input type="hidden" name="segmentId" value="8">
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <div class="newsletter">
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small><br/>
                         <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
                     </div>
                     <input class="button button--large" type="submit" value=" Get the datasheet "></p>
@@ -103,20 +93,17 @@
         <div class="row">
             <div class="col-lg-8">
                 <h2><?php echo $l->t('SharePoint Integration');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our free datasheet on SharePoint as External Storage');?><br>
-                     <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div id="RecaptchaField2"></div>
-                    </div>
-                    </td>
                     <input type="hidden" name="segmentId" value="9">
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <div class="newsletter">
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small><br/>
                         <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
                     </div>
                     <input class="button button--large" type="submit" value=" Get the datasheet "></p>

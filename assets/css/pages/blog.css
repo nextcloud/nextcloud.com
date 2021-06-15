@@ -36,6 +36,9 @@ body {
   height: 100%;
   background-color: white; }
 
+.overlay {
+  z-index: 10; }
+
 .background.blog-background {
   background: url("../../img/headers/hub_background-thin.png") no-repeat;
   background-color: #0082c9;
@@ -180,7 +183,9 @@ section {
           font-size: 36px; }
         .section--content .container .row .content h3 {
           margin-top: 50px;
-          font-size: 22px; } }
+          font-size: 22px; }
+        .section--content .container .row .content h4 {
+          margin-top: 40px; } }
       .section--content .container .row .content h1 {
         margin-top: 80px;
         font-size: 35px;
@@ -195,6 +200,8 @@ section {
       .section--content .container .row .content h3 {
         margin-top: 40px;
         font-size: 22px; }
+      .section--content .container .row .content h4 {
+        margin-top: 30px; }
       .section--content .container .row .content blockquote {
         margin-top: 30px;
         margin-bottom: 20px;
@@ -313,7 +320,8 @@ section {
           .section--content .container .row .content .size-medium .article.video-wall {
             min-width: 0px !important;
             max-width: 100% !important;
-            max-height: 450px !important; }
+            max-height: 450px !important;
+            padding: 0; }
             .section--content .container .row .content .size-medium .article.video-wall .video-link {
               width: 100% !important; } }
         .section--content .container .row .content .size-medium .article.video-wall img {
@@ -322,6 +330,7 @@ section {
           .section--content .container .row .content .size-medium {
             width: 90vw;
             height: auto;
+            max-height: none;
             box-shadow: 0 0 2px 1px #EEE;
             padding: 5px 5px 5px 5px;
             float: none !important;
@@ -411,5 +420,19 @@ section {
   padding-top: 20px;
   padding-bottom: 100px;
   background: white; }
+  .section--footer .container .row .col-md-10 ol {
+    list-style-type: none; }
+    .section--footer .container .row .col-md-10 ol .comment-body {
+      padding: 40px 0; }
+      .section--footer .container .row .col-md-10 ol .comment-body .comment-meta {
+        border-top: 1px solid grey; }
+      .section--footer .container .row .col-md-10 ol .comment-body .quote {
+        padding-top: 5px;
+        padding-bottom: 0px;
+        background: white !important;
+        color: #555 !important; }
+        .section--footer .container .row .col-md-10 ol .comment-body .quote blockquote p {
+          margin-top: 0 !important;
+          color: #555 !important; }
 
 /*# sourceMappingURL=blog.css.map */

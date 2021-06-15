@@ -11,7 +11,6 @@ require(["require.config"], function() {
 	require(["modules/youtubePlayer"])
 });
 </script>
-<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 </head>
 <div class="background globalscale-background">
 	<div class="container">
@@ -28,8 +27,7 @@ require(["require.config"], function() {
 <div class="container">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1 video">
-			<div data-type="youtube" data-video-id="I5wcLS9xxMw"></div>
-			<iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/I5wcLS9xxMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556895226?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Global Scale"></iframe></div>
 		</div>
 		<div class="col-md-8 col-md-offset-2">
 			<p class="section--paragraph text-center"><?php echo $l->t('<span class="avoidwrap">Nextcloud Global Scale delivers a true globally scalable solution</span> <span class="avoidwrap">for deployments with hundreds of millions of users<span>, <span class="avoidwrap">giving unprecedented control over the locality of data</span> <span class="avoidwrap">and delivering dramatic cost reduction</span>');?></p>
@@ -48,16 +46,23 @@ require(["require.config"], function() {
         <p>
 <!-- 		<a href="<?php echo get_template_directory_uri(); ?>/assets/files/global-scale-whitepaper.pdf" class="button button--blue button--large button--arrow"><?php echo $l->t('Download our whitepaper');?> <i class="icon-arrow-circle-o-right icon"></i></a> -->
             <div class="row "><img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/gs-thumbnail-banner.png"/></div>
-            <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+            <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                 <p><label for="email"><?php echo $l->t('Download our whitepaper!');?><br>
-                <input class="mail text-center" type="text" name="email" maxlength="80" placeholder="Enter your email"></label></p>
                 <td colspan="2">
                 <div class="row text-center">
-                    <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
                 </div>
                 </td>
                 <input type="hidden" name="segmentId" value="4">
-                <p><input class="button button--blue button--large" type="submit" value=" Get the whitepaper "></p>
+                <input type="hidden" name="firstname" value="">
+                <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
+                <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                <div class="newsletter">
+                    <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                    <input type="hidden" name="moreinfo" value="0" />
+                    <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?>. <?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
+                </div>
+                <input class="button button--blue button--small" type="submit" value="Download whitepaper"></p>
             </form>
         </p>
 	</div>

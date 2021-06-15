@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/groupware.css?v=2" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/groupware.css?v=3" rel="stylesheet">
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/groupware-video.png">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/groupware-video.png">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/groupware-video.png">
@@ -21,8 +21,7 @@
 <div class="container">
 	<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-			<stream src="3e135d59fff771d1909c4b8d588d5800" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/groupware-video.png"></stream>
-            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=3e135d59fff771d1909c4b8d588d5800"></script>
+			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555693729?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Accessibility themes.mp4"></iframe></div>
 		</div>
     </div>
 	<div class="row">
@@ -74,7 +73,7 @@
     </div>
 	<div class="row">
 		<div class="col-md-6 image--feature new-img">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail.png"><img alt="screenshot of mail in action" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail.png" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_threaded_view.png"><img alt="<?php echo $l->t('screenshot of mail reading emails');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_threaded_view.png" /></a>
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Mail');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Send and receive emails in a breeze');?></p>
@@ -88,9 +87,19 @@
 			');?></p>
         </div>
 	</div>
+    <div class="row">
+		<div class="col-md-6 image--feature">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_mailbox_management.png"><img alt="<?php echo $l->t('screenshot of mailbox management in action');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_mailbox_management.png" /></a><br />
+			<?php echo $l->t('Mailbox management');?>
+        </div>
+		<div class="col-md-6 image--feature">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_itinerary.png"><img alt="<?php echo $l->t('screenshot of mail itinerary reading in action');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_itinerary.png" /></a><br />
+            <?php echo $l->t('Adding an itinerary to the Calendar');?>
+        </div>
+	</div>
 	<div class="row">
-		<div class="col-md-6 image--floated image--feature new-img">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png"><img class="img-responsive featureimg" alt="pic of calendar in action" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" /></a>
+		<div class="col-md-6 image--floated image--feature">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png"><img class="overlay-trigger img-responsive featureimg" alt="<?php echo $l->t('pic of calendar in action');?>" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" /></a>
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Calendar');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Schedule work and meetings online');?></p>
@@ -102,9 +111,19 @@
 			');?></p>
         </div>
 	</div>
+    <div class="row">
+		<div class="col-md-6 image--feature">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_list_view.png"><img alt="<?php echo $l->t('Calendar list view');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_list_view.png" /></a><br />
+			<?php echo $l->t('Calendar list view');?>
+        </div>
+		<div class="col-md-6 image--feature">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_day_view.png"><img alt="<?php echo $l->t('Calendar day view');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_day_view.png" /></a><br />
+            <?php echo $l->t('Calendar day view');?>
+        </div>
+	</div>
 	<div class="row">
 		<div class="col-md-6">
-			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/contacts-nw.png" />
+			<img class="overlay-trigger img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/contacts-nw.png" />
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Contacts');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Keep your relations organized');?></p>
@@ -118,7 +137,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 image--feature new-img image--floated">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-projects.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-projects.png" alt="a project in deck" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-projects.png"><img class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-projects.png" alt="a project in deck" /></a>
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Deck');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Manage your work with others');?></p>
@@ -129,7 +148,18 @@
 			</ul>
 			');?></p>
         </div>
-	</div>	<div class="row">
+	</div>
+    <div class="row">
+		<div class="col-md-6 image--feature">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/deck_modal_card_view.png"><img alt="<?php echo $l->t('Viewing a card in Deck');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck_modal_card_view.png" /></a><br />
+			<?php echo $l->t('Viewing a card in Deck');?>
+        </div>
+		<div class="col-md-6 image--feature">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/deck_in_calendar.png"><img alt="<?php echo $l->t('Deck integration in Calendar');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck_in_calendar.png" /></a><br />
+            <?php echo $l->t('Deck integration in Calendar');?>
+        </div>
+	</div>
+	<div class="row">
         <div class="col-sm-8 col-sm-offset-2">
             <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud fluently integrates into your existing infrastructure while also providing its own. Note that Nextcloud Mail is a client for IMAP-infrastructure; Nextcloud does not include a mail server.');?></p>
         </div>
@@ -193,7 +223,7 @@
 		<div class="featurerow">
 			<div class="row ">
 				<div class="col-md-6 image--floated image--feature">
-						<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-settings.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-settings.png" alt="in action" /></a>
+						<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-settings.png"><img class="overlay-trigger img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-settings.png" alt="in action" /></a>
 				</div>
 
 				<div class="col-md-6 featureblock">
@@ -207,7 +237,7 @@
 		<div class="featurerow">
 			<div class="row ">
 				<div class="col-md-6 image--feature">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-about.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-about.png" alt="in action" /></a>
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-about.png"><img class="overlay-trigger img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-about.png" alt="in action" /></a>
 				</div>
 				<div class="col-md-6 featureblock">
 					<h3 class="section--paragraph__title"><?php echo $l->t('Features');?></h3>
@@ -238,7 +268,7 @@
 <!-- 			<h1 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
 			<div class="row">
 				<div class="col-md-6 image--feature image--floated">
-					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb-2.png" alt="in action" />
+					<img class="overlay-trigger img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb-2.png" alt="in action" />
 				</div>
 				<div class="col-md-6 featureblock">
 					<h3 class="section--paragraph__title"><?php echo $l->t('Mozilla Thunderbird');?></h3>
@@ -246,7 +276,7 @@
 					<p class="section--paragraph"><a class="hyperlink" href="<?php echo $DOCUMENTATION_USER; ?>pim/sync_thunderbird.html"><?php echo $l->t('Learn more in our documentation.');?></a></p>
 				</div>
 			</div>
-		</div>
+<!-- 		</div> -->
 	</div>
 </section>
 
@@ -265,6 +295,7 @@
     </div>
 </div>
 </section>
+<?php require get_template_directory().'/overlay.php'; ?>
 
 <?php
 include get_template_directory() . '/verticals.php';

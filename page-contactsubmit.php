@@ -4,19 +4,52 @@
 		require(["pages/enterprise"])
 	});
 </script>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/enterprise.css?v=1" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/form.css?v=2" rel="stylesheet">
 </head>
-<section class="enterprise-hero-section second-menu">
-	<div class="container-fluid background">
-		<div class="container">
-			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Get support from the source');?></h1>
-				<h2><?php echo $l->t('The best expertise whenever you need it!');?></h2>
-			</div>
+<section class="background generic-background second-menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 topheader">
+                <h1><?php echo $l->t('Contact us');?></h1>
+            </div>
+        </div>
+    </div>
+	<div class="container-fluid menu" id="menuAnchor">
+		<div class="container buttons">
+            <a class="button button--blue" href="<?php echo home_url('faq') ?>"><?php echo $l->t('FAQ');?></a>
+			<a class="button button--blue" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('Order online');?></a>
+			<a class="button button--blue" href="<?php echo home_url('buy') ?>"><?php echo $l->t('get a quote');?></a>
+			<a class="button button--blue" href="<?php echo home_url('trial') ?>"><?php echo $l->t('Trial');?></a>
+			<a class="button button--blue" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('pricing plans');?></a>
+			<a class="button button--blue" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('enterprise offering');?></a>
 		</div>
 	</div>
 </section>
+
+<section class="section--links">
+	<div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                <a class="button button--white button--small" href="<?php echo home_url('faq') ?>"><?php echo $l->t('FAQ');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('Order online');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('trial') ?>"><?php echo $l->t('Trial');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('buy') ?>"><?php echo $l->t('get a quote');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('pricing plans');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('enterprise offering');?></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <?php
+require_once realpath(dirname(__FILE__)) . '/lib/ratelimiter.php';
+require_once realpath(dirname(__FILE__)) . '/lib/captcha.php';
+
+if(!canPerformLimitedAction("contact-submit-action", 5)) {
+  die("Too many requests. Please try again later.");
+}
+
 if(isset($_POST['email'])) {
    function died($error) {
    	// error code goes here
@@ -36,36 +69,24 @@ if(isset($_POST['email'])) {
             <?php
         }
     // validation expected data exists
+    $error_message = "";
     if(!isset($_POST['yourname']) ||
         !isset($_POST['email']) ||
-        !isset($_POST['organization']) ||
-        !isset($_POST['role']) ||
         !isset($_POST['phone']) ||
         !isset($_POST['comments']) ||
-        !isset($_POST['checksum']) ||
         !isset($_POST['captcha'])) {
-        died('We are sorry, but there appears to be a problem with the form you submitted - did you fill in all fields?'); }
+         $error_message .= 'Phone, mail, name and comments field have to have valid data! <br />'; }
     $yourname = $_POST['yourname']; // required
     $organization= $_POST['organization']; // required
-    $role = $_POST['role']; // required
     $phone= $_POST['phone']; // required
     $email_from = $_POST['email']; // required
     $comments = $_POST['comments']; // required
-    $checksum = $_POST['checksum']; // required
     $gdprcheck = $_POST['gdprcheck'];
-    $captcha = $_POST['captcha'];
-    $error_message = "";
-    if (strlen($checksum) !== 75 || !strpos($checksum, ':')) {
-        $error_message .= 'The checksum is not valid.<br />';
-    } else {
-        list($salt, $expectedHash) = explode(':', $checksum, 2);
-        $hash = hash('sha256', $salt . $captcha);
+    $foundnextcloud = $_POST['foundnextcloud'];
 
-        if ($hash !== $expectedHash) {
-            $error_message .= 'The captcha result you entered does not appear to be correct.<br />';
-        }
+    if(!IsValidCaptcha($_POST['captcha'])) {
+        $error_message .= 'The captcha result you entered does not appear to be correct.<br />';
     }
-
 
     $email_exp = '/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
   if(!preg_match($email_exp,$email_from)) {
@@ -86,22 +107,7 @@ if(isset($_POST['email'])) {
     if(!($gdprcheck=="gdprchecked")) {
     $error_message .= 'You did not agree with our privacy policy so we would not be allowed to read and reply to your inquiry.<br />';
   }
-//   if(RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
-//     $url = 'https://www.google.com/recaptcha/api/siteverify';
-//     $ch = curl_init();
-//     curl_setopt($ch, CURLOPT_URL, $url);
-//     curl_setopt($ch, CURLOPT_POST, 1);
-//     curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_SECRET, 'response' => $_POST['g-recaptcha-response'])));
-//     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-//     $server_output = curl_exec($ch);
-//     $server_output = json_decode($server_output, true);
-//     curl_close($ch);
-//     if (!isset($server_output['success']) || $server_output['success'] !== true) {
-//       $error_message .= 'The captcha result was invalid.<br />';
-//     }
-//   } else {
-//     $error_message .= 'Captcha code is missing.<br />';
-//   }
+
   if(strlen($error_message) > 0) {
     died($error_message);
   } else {
@@ -110,22 +116,21 @@ if(isset($_POST['email'])) {
             $string = str_replace($bad,"",$string);
             return htmlspecialchars($string);
         }
-// the app review mailing list address
+    // Prepare email text
     $email_message = "Form details below.\n\n";
     $email_to = "sales@nextcloud.com";
-    $email_subject = "Nextcloud Contact Form: ".clean_string($organization);
+    $email_subject = "Website Contact Form: ".clean_string($organization);
     $email_message .= "Name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Organization: ".clean_string($organization)."\n";
-    $email_message .= "Role: ".clean_string($role)."\n";
     $email_message .= "Phone: ".clean_string($phone)."\n";
+    $email_message .= "How did you find out about Nextcloud? ".clean_string($foundnextcloud)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
-// create email headers
+    // create email headers
     $headers = 'From: no-reply@nextcloud.com'."\r\n".
     'Reply-To: '.$email_from."\r\n" .
-    'Content-Type: text/plain; charset=UTF-8'."\r\n" .
-    'Cc: '.$email_from;
-// store in log
+    'Content-Type: text/plain; charset=UTF-8';
+    // store in log
     $data = [
             'to' => $email_to,
             'subject' => $email_subject,
@@ -133,10 +138,19 @@ if(isset($_POST['email'])) {
             'headers' => $headers,
     ];
     file_put_contents('/var/log/sales-leads.txt', json_encode($data) . PHP_EOL, FILE_APPEND | LOCK_EX);
-// Send the email to the list
+    // Send the email to the list
     @mail($email_to, $email_subject, $email_message, $headers);
-// Second email to subscribe to the mailing list
-//     @mail("frank@nextcloud.org", "website form", "website form", $headers);
+
+    // Send email to given address without the input
+    $email_subject = 'Nextcloud Contact Form confirmation';
+    $email_message = "Thanks for reaching out to Nextcloud.\nYou will hear back shortly from our Sales Team.\n\n";
+
+    $headers = 'From: no-reply@nextcloud.com'."\r\n".
+    'Reply-To: '.$email_to."\r\n" .
+    'Content-Type: text/plain; charset=UTF-8';
+    // Send the email to user
+    @mail($email_from, 'Nextcloud Contact Form', $email_message, $headers);
+
  ?>
 
   <!-- success html here -->
@@ -144,7 +158,7 @@ if(isset($_POST['email'])) {
         <div class="container text-center">
             <h3>Thank you for contacting us</h3>
             <p>We received your message and will contact you on <?php echo($email_from); ?>,</p>
-            <p>check your inbox for a reply in the next 2-3 working days.</p>
+            <p>check your inbox for a reply in the next week. If you need a faster reply, please go back to the previous page and use one of the other forms to contact us for a trial or support options.</p>
         </div>
     </section>
 	<?php

@@ -5,7 +5,6 @@
         require(["pages/endtoend"])
     });
     </script>-->
-<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/endtoend-server-nw.png">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/endtoend-server-nw.png">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/endtoend-server-nw.png">
@@ -25,8 +24,7 @@
     <div class="container">
         <div class="col-md-10 col-md-offset-1 claim__container">
             <p class="claim__paragraph">
-                <?php echo $l->t('Nextcloud understands the necessity to provide core principle baseline security requirements, as such Nextcloud 11
-                is built on these security principles to ultimately deliver a secure solution to their customers');?>
+                <?php echo $l->t('Nextcloud understands the necessity to provide core principle baseline security requirements, as such Nextcloud 11 is built on these security principles to ultimately deliver a secure solution to their customers');?>
             </p>
             <div class="claim__brand">
                 <div class="claim__brand__logo"></div>
@@ -43,6 +41,9 @@
         <div class="col-md-10 col-md-offset-1">
             <p class="section--paragraph">
                 <?php echo $l->t('Nextcloud features an enterprise-grade, seamlessly integrated solution for end-to-end encryption. It enables users to pick one or more folders on their desktop or mobile client for end-to-end encryption. Folders can be shared with other users and synced between devices but are not readable by the server.');?>
+            </p>
+            <p class="section--paragraph">
+                <?php echo $l->t('Note: our end-to-end encryption solution is under constant development. Some features part of the design have not yet been implemented in the client or server code. In particular, as of January 2021, offline recovery, sharing and HSM features are on the roadmap.');?>
             </p>
         </div>
     </div>
@@ -79,11 +80,11 @@
         <ul>
         <li><i class="fa-check fa"></i> <?php echo $l->t('Any number of folders can be end to end encrypted.');?></li>
         <li><i class="fa-check fa"></i> <?php echo $l->t('Easily add a new device with a strong passcode consisting of 12 dictionary words.');?></li>
-        <li><i class="fa-check fa"></i> <?php echo $l->t('Secure sharing with other users without the need to enter passwords.');?></li>
-        <li><i class="fa-check fa"></i> <?php echo $l->t('Efficient sharing and revoking shares without the need to re-encrypt large files.');?></li>
+        <li><i class="fa-check fa"></i> <?php echo $l->t('Secure sharing with other users without the need to enter passwords.');?> (roadmap 2021)</li>
+        <li><i class="fa-check fa"></i> <?php echo $l->t('Efficient sharing and revoking shares without the need to re-encrypt large files.');?> (roadmap 2021)</li>
 
-        <li><i class="fa-check fa"></i> <?php echo $l->t('Supports a Hardware Security Module for enterprise environments which enables securely issuing new keys to users.');?></li>
-        <li><i class="fa-check fa"></i> <?php echo $l->t('Supports an offline administrator recovery key to be kept in a physically separated location. Users get warned when this key is enabled.');?></li>
+        <li><i class="fa-check fa"></i> <?php echo $l->t('Supports a Hardware Security Module for enterprise environments which enables securely issuing new keys to users.');?> (roadmap 2022)</li>
+        <li><i class="fa-check fa"></i> <?php echo $l->t('Supports an offline administrator recovery key to be kept in a physically separated location. Users get warned when this key is enabled.');?> (roadmap 2021)</li>
         <li><i class="fa-check fa"></i> <?php echo $l->t('Supports a complete audit log without compromising end to end security.');?></li>
         <li><i class="fa-check fa"></i> <?php echo $l->t('Can be combined with our File Access Control to block specific file types or files by specific user groups from uploading unless they are end-to-end encrypted.');?></li>
         </ul>
@@ -127,21 +128,17 @@
         <div class="row">
 			<div class="col-lg-8">
                 <h2><?php echo $l->t('Get our whitepaper');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
-                    <p><label for="email"><?php echo $l->t('Download our End-to-end Encryption white paper!');?><br>
-                    <td colspan="2">
-                    <div class="">
-                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-                    </div>
-                    </td>
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
+                    <p><label for="email"><?php echo $l->t('Download our End-to-end Encryption white paper!');?></p>
                     <input type="hidden" name="segmentId" value="12">
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <div class="newsletter">
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
-                        <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?>. <?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
                     </div>
                     <input class="button button--large" type="submit" value=" Get the white paper "></p>
                 </form>

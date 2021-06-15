@@ -59,7 +59,10 @@ section {
         padding: 0 20px 0 10px;
         font-size: 120%; }
 
-.section--differentiators .floating--quote--container {
+.section--quote-list .quote--container {
+  height: 250px; }
+
+.section--differentiators .floating--quote--container, .section--mission .floating--quote--container, .section--quote-list .floating--quote--container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -67,18 +70,17 @@ section {
   padding: 40px 40px 30px 40px;
   background: #FFFFFF;
   border: 1px solid #FCFCFC;
-  box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
   margin: 30px 20px; }
   @media (min-width: 991px) {
-    .section--differentiators .floating--quote--container {
+    .section--differentiators .floating--quote--container, .section--mission .floating--quote--container, .section--quote-list .floating--quote--container {
       float: right;
       width: 40%;
       min-width: 300px; } }
-  .section--differentiators .floating--quote--container blockquote {
+  .section--differentiators .floating--quote--container blockquote, .section--mission .floating--quote--container blockquote, .section--quote-list .floating--quote--container blockquote {
     font-style: italic;
     font-size: 1.6em;
     margin: 0; }
-.section--differentiators .quote--container {
+.section--differentiators .quote--container, .section--mission .quote--container, .section--quote-list .quote--container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -86,37 +88,36 @@ section {
   padding: 20px 20px 15px 20px;
   background: #FFFFFF;
   border: 1px solid #FCFCFC;
-  box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
   margin: 20px 5%; }
   @media (min-width: 991px) {
-    .section--differentiators .quote--container {
+    .section--differentiators .quote--container, .section--mission .quote--container, .section--quote-list .quote--container {
       width: 90%; } }
-.section--differentiators .floating--quote--container .quote--brand, .section--differentiators .quote--container .quote--brand {
+.section--differentiators .floating--quote--container .quote--brand, .section--differentiators .quote--container .quote--brand, .section--mission .floating--quote--container .quote--brand, .section--mission .quote--container .quote--brand, .section--quote-list .floating--quote--container .quote--brand, .section--quote-list .quote--container .quote--brand {
   padding-top: 5px;
   display: flex;
   justify-content: center;
   align-items: center; }
-  .section--differentiators .floating--quote--container .quote--brand .quote--spiegel--logo, .section--differentiators .quote--container .quote--brand .quote--spiegel--logo {
+  .section--differentiators .floating--quote--container .quote--brand .quote--spiegel--logo, .section--differentiators .quote--container .quote--brand .quote--spiegel--logo, .section--mission .floating--quote--container .quote--brand .quote--spiegel--logo, .section--mission .quote--container .quote--brand .quote--spiegel--logo, .section--quote-list .floating--quote--container .quote--brand .quote--spiegel--logo, .section--quote-list .quote--container .quote--brand .quote--spiegel--logo {
     background: url("../../img/history/der-spiegel-logo.png") no-repeat center/contain;
     width: 200px;
     height: 70px; }
-  .section--differentiators .floating--quote--container .quote--brand .quote--handelsblatt--logo, .section--differentiators .quote--container .quote--brand .quote--handelsblatt--logo {
+  .section--differentiators .floating--quote--container .quote--brand .quote--handelsblatt--logo, .section--differentiators .quote--container .quote--brand .quote--handelsblatt--logo, .section--mission .floating--quote--container .quote--brand .quote--handelsblatt--logo, .section--mission .quote--container .quote--brand .quote--handelsblatt--logo, .section--quote-list .floating--quote--container .quote--brand .quote--handelsblatt--logo, .section--quote-list .quote--container .quote--brand .quote--handelsblatt--logo {
     background: url("../../img/history/handelsblatt.webp") no-repeat center/contain;
     width: 240px;
     height: 70px; }
-  .section--differentiators .floating--quote--container .quote--brand .quote--register--logo, .section--differentiators .quote--container .quote--brand .quote--register--logo {
+  .section--differentiators .floating--quote--container .quote--brand .quote--register--logo, .section--differentiators .quote--container .quote--brand .quote--register--logo, .section--mission .floating--quote--container .quote--brand .quote--register--logo, .section--mission .quote--container .quote--brand .quote--register--logo, .section--quote-list .floating--quote--container .quote--brand .quote--register--logo, .section--quote-list .quote--container .quote--brand .quote--register--logo {
     background: url("../../img/history/the_register.png") no-repeat center/contain;
     width: 240px;
     height: 70px; }
-  .section--differentiators .floating--quote--container .quote--brand .quote--nextinpact--logo, .section--differentiators .quote--container .quote--brand .quote--nextinpact--logo {
+  .section--differentiators .floating--quote--container .quote--brand .quote--nextinpact--logo, .section--differentiators .quote--container .quote--brand .quote--nextinpact--logo, .section--mission .floating--quote--container .quote--brand .quote--nextinpact--logo, .section--mission .quote--container .quote--brand .quote--nextinpact--logo, .section--quote-list .floating--quote--container .quote--brand .quote--nextinpact--logo, .section--quote-list .quote--container .quote--brand .quote--nextinpact--logo {
     background: url("../../img/history/nextinpact.png") no-repeat center/contain;
     width: 240px;
     height: 70px; }
-  .section--differentiators .floating--quote--container .quote--brand .quote--androidpolice--logo, .section--differentiators .quote--container .quote--brand .quote--androidpolice--logo {
+  .section--differentiators .floating--quote--container .quote--brand .quote--androidpolice--logo, .section--differentiators .quote--container .quote--brand .quote--androidpolice--logo, .section--mission .floating--quote--container .quote--brand .quote--androidpolice--logo, .section--mission .quote--container .quote--brand .quote--androidpolice--logo, .section--quote-list .floating--quote--container .quote--brand .quote--androidpolice--logo, .section--quote-list .quote--container .quote--brand .quote--androidpolice--logo {
     background: url("../../img/history/androidpolice.png") no-repeat center/contain;
     width: 200px;
     height: 90px; }
-  .section--differentiators .floating--quote--container .quote--brand .quote--wired--logo, .section--differentiators .quote--container .quote--brand .quote--wired--logo {
+  .section--differentiators .floating--quote--container .quote--brand .quote--wired--logo, .section--differentiators .quote--container .quote--brand .quote--wired--logo, .section--mission .floating--quote--container .quote--brand .quote--wired--logo, .section--mission .quote--container .quote--brand .quote--wired--logo, .section--quote-list .floating--quote--container .quote--brand .quote--wired--logo, .section--quote-list .quote--container .quote--brand .quote--wired--logo {
     background: url("../../img/history/wired.png") no-repeat center/contain;
     width: 200px;
     height: 90px; }

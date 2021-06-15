@@ -1,0 +1,34 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+.partnerprogram-background {
+  background: url("../../img/headers/partners_new.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+footer.page-footer {
+	margin-top: 0;
+}
+
+.section--benefits {
+    	li {
+		list-style-image: url("../../img/common/check.svg");
+		list-style-position: inside;
+	}
+}
+
+.section--logos {
+    padding-top: 0;
+    padding-bottom: 0;
+    @media (max-width: $break-small) {
+        .col-sm-3 {
+            float: left;
+        }
+    }
+    .partner-badge {
+        width: 100%;
+        max-width: 150px;
+        padding-top: 30px;
+    }
+}

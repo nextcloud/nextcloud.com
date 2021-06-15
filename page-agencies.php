@@ -7,13 +7,7 @@ require(["require.config"], function() {
 	require(["modules/youtubePlayer"])
 });
 </script>
-<!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script> -->
-<!--<script type="text/javascript">
-    var CaptchaCallback = function() {
-        grecaptcha.render('RecaptchaField1', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
-        grecaptcha.render('RecaptchaField2', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
-    };
-</script>-->
+
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/agencies.jpg">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/agencies.jpg">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/agencies.jpg">
@@ -91,7 +85,31 @@ require(["require.config"], function() {
 
 
 
-
+<section class="section--whitepaper quote">
+	<div class="container ">
+        <div class="row">
+			<div class="col-lg-8">
+                <h2 class=""><?php echo $l->t('How the German Radio and Television transfers terrabytes of data in and out of Nextcloud');?></h2>
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
+                    <p><label for="email"><?php echo $l->t('Download our free case study: <br /> IVZ, Germany’s public radio and television deploys Nextcloud with ONLYOFFICE for efficient file exchange and online content collaboration');?><br>
+                    <input type="hidden" name="segmentId" value="93">
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small><br/>
+                        <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
+                    </div>
+                    <input class="button button--large" type="submit" value=" Get the case study "></p>
+                </form>
+            </div>
+        </div>
+        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/ivz-thumbnail-banner.png"/>
+	</div>
+</section>
 
 
 
@@ -107,7 +125,7 @@ require(["require.config"], function() {
         <div class="row">
             <div class="col-md-6">
                 <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
-                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556890169?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud File Drop"></iframe></div>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Internal and external sharing');?></h3>
@@ -143,7 +161,7 @@ require(["require.config"], function() {
         <div class="row">
             <div class="col-md-6">
                 <div data-type="youtube" data-video-id="Nr7cGN6ZJM0"></div>
-                <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/Nr7cGN6ZJM0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555703705?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Text and Talk video"></iframe></div>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Communication the way you need it');?></h3>
@@ -164,8 +182,7 @@ require(["require.config"], function() {
         </div>
         <div class="row">
             <div class="col-md-6">
-                <div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
-                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/jwhfeJlYBbM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556108262?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Outlook Add-in"></iframe></div>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Secure sharing by mail');?></h3>
@@ -173,7 +190,7 @@ require(["require.config"], function() {
                 <a href="<?php echo home_url('outlook') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Email integration');?></a>
             </div>
         </div>
-        <div class="row feature-row">
+ <!--       <div class="row feature-row">
             <div class="col-md-6 image--feature image--floated new-img">
                 <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ransomware-recovery.png" alt="in action"/></a>
             </div>
@@ -183,7 +200,7 @@ require(["require.config"], function() {
                 <a href="https://nextcloud.com/blog/amidst-rising-ransomware-costs-another-us-city-pays-hundreds-of-thousands-to-recover-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Ransomware risks and protection');?></a>
             </div>
         </div>
-    </div>
+    </div>-->
 </section>
 
 <section class="section--getstarted">
@@ -226,7 +243,7 @@ require(["require.config"], function() {
        <div class="row">
             <div class="col-md-6 image--floated">
                 <div data-type="youtube" data-video-id="I5wcLS9xxMw"></div>
-                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/I5wcLS9xxMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556895226?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Global Scale"></iframe></div>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('At any scale');?></h3>

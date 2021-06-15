@@ -5553,7 +5553,7 @@ footer.page-footer {
 
 .second-menu {
   /*         margin-bottom: 150px !important; */ }
-  @media (max-width: 991px) {
+  @media (max-width: 1200px) {
     .second-menu .scrollmagic-pin-spacer {
       display: none !important; } }
   .second-menu .menu {
@@ -5567,22 +5567,22 @@ footer.page-footer {
     transition: transform 500ms ease;
     transform: translate3d(0px, 0px, 0px);
     opacity: 0;
-    margin-top: 0px !important; }
+    margin-top: 0px !important;
+    height: 100px; }
     .second-menu .menu.hidedPrincipalNavigation {
       transform: translate3d(0px, -100px, 0px); }
     .second-menu .menu .buttons {
       text-transform: uppercase;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 600;
-      padding: 40px 0 30px 0;
-      border-bottom: solid 1px #e4e4e4; }
-      @media (max-width: 991px) {
+      padding: 30px 0 20px 0; }
+      @media (max-width: 1200px) {
         .second-menu .menu .buttons {
           padding: 30px 0 25px 0; } }
-      @media (max-width: 991px) {
+      @media (max-width: 1200px) {
         .second-menu .menu .buttons a:not(.btn) {
           display: none; } }
-      @media (max-width: 991px) {
+      @media (max-width: 1200px) {
         .second-menu .menu .buttons a:not(.button) {
           display: none; } }
       .second-menu .menu .buttons a {
@@ -5599,13 +5599,17 @@ footer.page-footer {
         .second-menu .menu .buttons a:hover {
           text-decoration: none;
           color: #0082c9; }
+      .second-menu .menu .buttons .button {
+        min-height: 40px !important;
+        height: 40px !important;
+        min-width: 100px !important; }
       .second-menu .menu .buttons .btn-primary {
         float: right;
-        font-size: 14px;
-        padding: 8px 20px;
-        margin-left: 20px;
-        margin-top: -5px;
-        color: white; }
+        font-size: 13px;
+        padding: 0 15px 0 15px;
+        margin: -9px 0px 0px 10px;
+        color: white;
+        line-height: 45px; }
         @media (max-width: 768px) {
           .second-menu .menu .buttons .btn-primary {
             margin-top: 10px; } }
@@ -5618,12 +5622,9 @@ footer.page-footer {
         float: right;
         font-size: 14px;
         padding: 0 20px 0 20px;
-        margin: -9px 0px 0px 20px;
-        /* 				margin-left: 20px; */
-        /* 				margin-top: -5px; */
+        margin: -5px 0px 0px 10px;
         color: white;
-        height: 40px;
-        line-height: 50px; }
+        line-height: 40px; }
         @media (max-width: 768px) {
           .second-menu .menu .buttons .button--blue {
             margin-top: 10px; } }
@@ -5643,7 +5644,7 @@ footer.page-footer {
   border-radius: 0 !important;
   height: 70vh;
   min-height: 400px;
-  max-height: 600px;
+  max-height: 800px;
   position: relative; }
   .background h1 {
     padding-top: 0;
@@ -5660,11 +5661,11 @@ footer.page-footer {
   .background .topheader {
     /*     position: absolute; */
     /*     top: 30%; */
-    margin-top: 200px;
+    margin-top: 150px;
     padding: 0;
     max-width: 600px; }
   .background .topsidebar {
-    margin-top: 200px;
+    margin-top: 150px;
     opacity: 1; }
     .background .topsidebar .sidebarlist {
       padding: 30px 20px 30px 20px;
@@ -7464,6 +7465,9 @@ footer.page-footer {
 .app-notes {
   background-image: url("../img/apps/notes.svg"); }
 
+.app-onlyoffice {
+  background-image: url("../img/apps/onlyoffice.svg"); }
+
 .app-passman {
   background-image: url("../img/apps/passman.svg"); }
 
@@ -7481,6 +7485,90 @@ footer.page-footer {
 
 .app-twofactor_u2f {
   background-image: url("../img/apps/twofactor_u2f.svg"); }
+
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex; }
+
+.overlay-wrapper {
+  position: relative;
+  width: 90vw !important;
+  height: 90vh !important;
+  background-color: white;
+  margin: auto;
+  border-radius: 44px;
+  padding: 22px; }
+
+.overlay-content {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: 2;
+  scrollbar-width: thin;
+  width: 100%;
+  height: 100%; }
+
+.overlay-close {
+  position: fixed;
+  top: 1vh;
+  right: 1vw;
+  z-index: 3;
+  margin: 0;
+  width: 48px;
+  height: 48px;
+  background-color: transparent;
+  border: none;
+  padding: 0; }
+  .overlay-close:focus {
+    border: 2px solid white;
+    border-radius: 4px; }
+
+.icon-close {
+  display: block;
+  background: url(../img/close-24px.svg);
+  background-size: 48px;
+  width: 48px;
+  height: 48px; }
+
+.overlay-image {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  padding: 2vh 2vw; }
+
+img.overlay-trigger {
+  cursor: pointer; }
 
 /*!
  *  Fork Awesome 1.1.0, originaly by Dave Gandy - http://forkawesome.github.io/Fork-Awesome/

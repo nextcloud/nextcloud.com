@@ -1,3 +1,7 @@
+<head>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+</head>
 <div class="pr">
 <p><small>Press Breakfast Invitation from Fairphone, Little Sun, iFixit, Ecosia and Nextcloud</small></p>
 

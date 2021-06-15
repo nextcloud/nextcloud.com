@@ -20,7 +20,8 @@
 <div class="sub-nav"><a class="hyperlink" href="<?php echo home_url('security/advisories') ?>"><?php echo $l->t('Security Advisories');?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a class="hyperlink" href="<?php echo home_url('security/threat-model') ?>"><?php echo $l->t('Threat Model');?></a>
 </div>
 <h2><?php echo $l->t('Security information');?></h2>
-<p><?php echo $l->t('This page hosts our security policies and information with regards to reporting security flaws. Learn more about how Nextcloud offers the');?> <a class="hyperlink" href="<?php echo home_url('secure') ?>"><?php echo $l->t('best security in the open source file sync and share industry here</a>. You can');?> <a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/advisories/advisories.rss"><?php echo $l->t('follow our advisories via RSS</a>.');?></p>
+<p><?php echo $l->t('This page hosts our security policies and information with regards to reporting security flaws. Learn more about how Nextcloud aims to offer the');?> <a class="hyperlink" href="<?php echo home_url('secure') ?>"><?php echo $l->t('best security in the open source file sync and share industry here.');?></a></p>
+<p><a class="hyperlink" href="https://www.cvedetails.com/vendor/15913/Nextcloud.html"><?php echo $l->t('See a full list of historic advisories in the CVE database.');?></a></p>
 <p><?php echo $l->t('For server owners, our documentation has a section with');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/harden_server.html" target="_blank"><?php echo $l->t('best practices and tips on securing a Nextcloud server.');?></a></p>
 
 <div class="row">
@@ -32,15 +33,15 @@
 			<li><?php echo $l->t('Reproduction steps');?></li>
 		</ul>
 
-		<p><?php echo $l->t('A member of the security team will confirm the vulnerability, determine its impact, and develop a fix. The fix will be applied to the master branch, tested, and packaged in the next security release. The vulnerability will be publicly announced after the release. Finally, your name will be added to the <a href="https://hackerone.com/nextcloud/thanks">hall of fame</a> as a thank you from the entire Nextcloud community. Note our');?> <a class="hyperlink" href="<?php echo home_url('security/threat-model') ?>"><?php echo $l->t('threat model</a> to know what is expected behavior.');?></p>
+		<p><?php echo $l->t('A member of the security team will confirm the vulnerability, determine its impact, and develop a fix. The fix will be applied to the master branch, tested, and packaged in the next security release. The vulnerability will be publicly announced after the release. Finally, your name will be added to the <a href="https://hackerone.com/nextcloud/thanks">hall of fame</a> as a thank you from the entire Nextcloud community.');?> <a class="hyperlink" href="<?php echo home_url('security/threat-model') ?>"><?php echo $l->t('Read our threat model');?></a> <?php echo $l->t('to know what is expected behavior.');?></p>
 
 		<h3><?php echo $l->t('PGP Key for Submissions');?></h3>
-		<p><?php echo $l->t('In order to facilitate secure submission of security issues, we provide the <a class="hyperlink" href="https://pgp.mit.edu/pks/lookup?op=get&search=0xD75899B9A724937A">following PGP key</a> for confidential submission:');?></p>
+		<p><?php echo $l->t('In order to facilitate secure submission of security issues, we provide the following');?> <a class="hyperlink" href="https://pgp.mit.edu/pks/lookup?op=get&search=0xD75899B9A724937A"><?php echo $l->t('PGP key');?></a> <?php echo $l->t('for confidential submission:');?></p>
 		<ul>
-			<li><?php echo $l->t('Key ID: <code>A724937A</code>
-			');?></li>
-			<li><?php echo $l->t('Fingerprint: <code>2880 6A87 8AE4 23A2 8372  792E D758 99B9 A724 937A</code>
-			');?></li>
+			<li>Key ID: <code>A724937A</code>
+			</li>
+			<li>Fingerprint: <code>2880 6A87 8AE4 23A2 8372  792E D758 99B9 A724 937A</code>
+			</li>
 		</ul>
 
 		<p><?php echo $l->t('We do however recommend to not encrypt the information submitted via HackerOne as only a small subset of the team has access to this key.');?></p>
@@ -58,9 +59,9 @@
 		<h3><?php echo $l->t('Supported Product Versions');?></h3>
 		<p><strong><?php echo $l->t('Nextcloud Server:');?></strong></p>
 		<ul>
+			<li><?php echo $l->t('21.0.x (latest release)');?></li>
+			<li><?php echo $l->t('20.0.x (latest release)');?></li>
 			<li><?php echo $l->t('19.0.x (latest release)');?></li>
-			<li><?php echo $l->t('18.0.x (latest release)');?></li>
-			<li><?php echo $l->t('17.0.x (latest release)');?></li>
 		</ul>
 
 		<p><?php echo $l->t('You will find our Maintenance and Release Schedule <a class="hyperlink" href="https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule">on GitHub</a>. Please have a close look into the End of Life-section.');?></p>

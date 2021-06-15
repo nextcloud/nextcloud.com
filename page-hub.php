@@ -39,8 +39,7 @@
 <div class="container">
 	<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-			<stream src="eb1384b4fa48d8f47abdec5051bc922d" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/hub-video.png"></stream>
-            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=eb1384b4fa48d8f47abdec5051bc922d"></script>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555692548?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Accessibility themes.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 		</div>
     </div>
 	<div class="row">
@@ -137,26 +136,26 @@
     <div class="row">
         <div class="col-md-1 featureblock">
         <div class="icon">
-            <?php echo file_get_contents(get_template_directory()."/assets/img/logo/Nextcloud-Flow.svg"); ?>
+            <?php echo file_get_contents(__DIR__."/assets/img/logo/Nextcloud-Flow.svg"); ?>
         </div>
         </div>
         <div class="col-md-3 featureblock">
         <p class=""><?php echo $l->t('Nextcloud Flow enables users to automate repetitive tasks and optimize business processes.');?></p>
-        <a href="<?php echo home_url('workflow') ?>" class="button button--white button--arrow"><?php echo $l->t('Learn more about Flow');?></a>
+        <a href="<?php echo home_url('workflow') ?>" class="overlay-trigger button button--white button--arrow"><?php echo $l->t('Learn more about Flow');?></a>
         </div>
         <div class="col-md-1 featureblock">
-        <i class="fa-hdd fa"></i>
+        <i class="fa-hdd-o fa"></i>
         </div>
         <div class="col-md-3 featureblock">
         <p class=""><?php echo $l->t('Access existing storage silos like FTP, Windows Network Drives, SharePoint, Object Storage and Samba shares seamlessly through Nextcloud. ');?></p>
-        <a href="<?php echo home_url('storage') ?>" class="button button--white button--arrow"><?php echo $l->t('Learn more about external storage');?></a>
+        <a href="<?php echo home_url('storage') ?>" class="overlay-trigger button button--white button--arrow"><?php echo $l->t('Learn more about external storage');?></a>
         </div>
         <div class="col-md-1 featureblock">
         <i class="fa-file-text fa"></i>
         </div>
         <div class="col-md-3 featureblock">
         <p class=""><?php echo $l->t('Seamlessly edit office documents together with others, take notes while in a video call.');?></p>
-        <a href="<?php echo home_url('collabora') ?>" class="button button--white button--arrow"><?php echo $l->t('Learn more about Collabora Online');?></a>
+        <a href="<?php echo home_url('collaboraonline') ?>" class="overlay-trigger button button--white button--arrow"><?php echo $l->t('Learn more about Collabora Online');?></a>
         </div>
     </div>
     <div class="row">
@@ -165,21 +164,21 @@
         </div>
         <div class="col-md-3 featureblock">
         <p class=""><?php echo $l->t('Manage users locally or authenticate through LDAP / Active Directory, Kerberos and Shibboleth / SAML 2.0 and more');?></p>
-        <a href="<?php echo home_url('usermanagement') ?>" class="button button--white button--arrow"><?php echo $l->t('Learn more about user management');?></a>
+        <a href="<?php echo home_url('usermanagement') ?>" class="overlay-trigger button button--white button--arrow"><?php echo $l->t('Learn more about user management');?></a>
         </div>
         <div class="col-md-1 featureblock">
         <i class="fa-key fa"></i>
         </div>
         <div class="col-md-3 featureblock">
         <p class=""><?php echo $l->t('Secure data with powerful file access control, multi-layer encryption, machine-learning based authentication protection and advanced ransomware recovery capabilities');?></p>
-        <a href="<?php echo home_url('secure') ?>" class="button button--white button--arrow"><?php echo $l->t('Learn more about security');?></a>
+        <a href="<?php echo home_url('secure') ?>" class="overlay-trigger button button--white button--arrow"><?php echo $l->t('Learn more about security');?></a>
         </div>
         <div class="col-md-1 featureblock">
         <i class="fa-certificate fa"></i>
         </div>
         <div class="col-md-3 featureblock">
         <p class=""><?php echo $l->t('Extend Nextcloud further with a wide variety of apps on our app store or build your own');?></p>
-        <a href="<?php echo home_url('developer') ?>" class="button button--white button--arrow"><?php echo $l->t('Learn more about app development');?></a>
+        <a href="<?php echo home_url('developer') ?>" class="overlay-trigger button button--white button--arrow"><?php echo $l->t('Learn more about app development');?></a>
         </div>
     </div>
 </div>
@@ -228,7 +227,7 @@
         </div>
         <div class="row">
             <div class="text-center">
-                <a href="<?php echo home_url('whitepapers') ?>" class="button button--blue button--arrow"><?php echo $l->t('Case studies and more');?></a>
+                <a href="<?php echo home_url('whitepapers') ?>" class="overlay-trigger button button--blue button--arrow"><?php echo $l->t('Case studies and more');?></a>
             </div>
         </div>
 <!--        <div class="row">
@@ -401,13 +400,29 @@
 
 <?php require get_template_directory().'/onpremises.php';?>
 
+
+<section class="section--dashboard">
+<div class="container">
+	<div class="row">
+        <div class="col-md-6 image--feature">
+			<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555765504?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Dashboard Introduction"></iframe></div>
+		</div>
+		<div class="col-md-6 feature--block">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Start your day informed');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('The Nextcloud Dashboard is your starting point of the day, giving you an overview of your upcoming appointments, urgent emails, chat messages, incoming tickets, latest tweets and much more! Users can set their status so others know what they are up to..');?></p>
+                <a href="<?php echo home_url('dashboard') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Dashboard features');?></a>
+		</div>
+	</div>
+</div>
+</section>
+
 <section class="section--ONLYOFFICE">
 	<div class="container">
         <div class="row">
-
-            <div class="col-md-6 image--floated image--feature">
-                <a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"/></a>
+            <div class="col-md-6 image--floated image--feature new-img">
+                <a class="overlay-trigger" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"/></a>
             </div>
+           <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Collaborate on documents with Collabora');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Collabora Online integration in Nextcloud empowers your users to collaborate on office documents with team members in real time.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Compatibility with Microsoft Office formats means perfect documents, every time.');?></p>
@@ -417,10 +432,27 @@
                 <li><?php echo $l->t('The same document rendering in every browser');?></li>
                 <li><?php echo $l->t('Desktop level editing capabilities');?></li>
                     </ul>
-                <a href="<?php echo home_url('collabora') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Collabora Online');?></a>
+                <a href="<?php echo home_url('collabora') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Collabora Online');?></a>
             </div>
         </div>
 	</div>
+</section>
+
+<section class="section--search">
+<div class="container">
+	<div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555766609?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Universal search video"></iframe></div>
+		</div>
+    </div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+                <h3 class="section--paragraph__tittle"><?php echo $l->t('Find everything in one place');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('On the top-right of your Nextcloud window, a search glass shows search results from all over Nextcloud. Additional search providers can be installed and over a dozen different search providers are available to show you Github issues, Moodle courses, Jira tickets and more');?></p>
+                <p><a href="<?php echo home_url('unified-search') ?>" class="overlay-trigger button button--blue button--arrow"><?php echo $l->t('Unified Search');?></a></p>
+		</div>
+	</div>
+</div>
 </section>
 
 
@@ -428,38 +460,37 @@
 	<a name="security" id="security"></a>
 	<div class="container">
         <div class="row">
-            <div class="col-md-6 image--feature new-img">
-                <img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP_2FA_auth.png" alt="in action" >
+            <div class="col-md-6 image--floated image--feature new-img">
+                <a class="overlay-trigger" href="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP_2FA_auth.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP_2FA_auth.png" alt="in action" ></a>
             </div>
 
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Security first');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('We are deeply committed to protecting the safety of our customers\' data. We are confident that Nextcloud Files offers the best security in the self-hosted file sync and share industry, because:');?></p>
                 <p class="section--paragraph"><?php echo $l->t('<i class="fa-key fa"></i> we follow industry best practices around security (aligned to <a class="hyperlink" href="https://en.wikipedia.org/wiki/ISO/IEC_27001:2013">ISO27001</a>)');?></p>
-                <p class="section--paragraph"><?php echo $l->t('<i class="fa-key fa"></i> we offer some of the <a class="hyperlink" href="https://nextcloud.com/introducing-the-nextcloud-bug-bounty-program/" target="_blank">highest open source security bug bounties</a>');?></p>
+                <p class="section--paragraph"><?php echo $l->t('<i class="fa-key fa"></i> we offer some of the <a class="hyperlink" href="https://nextcloud.com/blog/introducing-the-nextcloud-bug-bounty-program/" target="_blank">highest open source security bug bounties</a>');?></p>
                 <p class="section--paragraph"><?php echo $l->t('');?></p>
                 <p class="section--paragraph"><?php echo $l->t('<i class="fa-key fa"></i> we integrate unique in-transit, server-side and client-side end-to-end encryption technologies.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('');?></p>
-                <a href="<?php echo home_url('secure') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Security in Nextcloud');?></a>
+                <a href="<?php echo home_url('secure') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Security in Nextcloud');?></a>
             </div>
 		</div>
 	</div>
 </section>
 
-
 <section class="section--monitoring">
     <a name="monitoring" id="monitoring"></a>
     <div class="container">
         <div class="row">
-            <div class="col-md-6 image--feature new-img image--floated">
-                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring.png" alt="Screenshot of file monitoring"/></a>
+            <div class="col-md-6 image--feature new-img">
+                <a class="overlay-trigger" href="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring.png" alt="Screenshot of file monitoring"/></a>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Compliance-ready monitoring');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud enables admins to monitor the health and performance of a Nextcloud system with a graphical UI and an API endpoint for monitoring apps. Fully audit-ready logs of user activity are generated.');?></p>
                 <h3 class="section--paragraph__title"><?php echo $l->t('Tracking changes to user files');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud Files lets users track file modifications, downloads of shares and changes to comments or tags, providing an overview in the browser, clients or via email notifications and an RSS feed.');?></p>
-                <a href="<?php echo home_url('monitoring') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring and compliance');?></a>
+                <a href="<?php echo home_url('monitoring') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Monitoring and compliance');?></a>
             </div>
         </div>
     </div>
@@ -469,7 +500,7 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-6 image--floated">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/S_842AQx3MQ" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556100447?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Accessibility themes.mp4"></iframe></div>
             </div>
                 <h3 class="section--paragraph__title"><?php echo $l->t('Accessibility');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('To ensure Nextcloud is accessible to users with visual impairments, Nextcloud has extensive keyboard accessibility and screen reader support.');?></p>
@@ -485,12 +516,12 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-6 image--feature">
-                <a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png"/></a>
+                <a class="overlay-trigger" href="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png"/></a>
             </div>
                 <h3 class="section--paragraph__title"><?php echo $l->t('External storage, securely encrypted');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('The external storage feature of Nextcloud gives users access to their data wherever it is. Nextcloud Files can access data stored with a wide variety of popular cloud service providers such as Amazon, Google and Dropbox, but can also access file storage solutions using standard protocols such as NFS, (S)FTP, WebDAV and more.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Encryption App can encrypt data at rest for both local and remote storage, protecting data stored on networks outside of user infrastructure. Keys can be handled by an external key management server or stored locally, on the server.');?></p>
-                <a href="<?php echo home_url('storage') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('External storage');?></a>
+                <a href="<?php echo home_url('storage') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('External storage');?></a>
             </div>
         </div>
 	</div>
@@ -500,11 +531,11 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-6 image--feature new-img image--floated">
-                <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/usermanagement.png" alt="in action" ></a>
+                <a class="overlay-trigger" href="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/usermanagement.png" alt="in action" ></a>
             </div>
                 <h3 class="section--paragraph__title"><?php echo $l->t('Integrated account management');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud features built-in account management with optional two-factor authentication as well as Single-sign-on support and integration with external user directories like LDAP or IMAP, SMB, FTP and more.');?></p>
-                <a href="<?php echo home_url('usermanagement') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('User management');?></a>
+                <a href="<?php echo home_url('usermanagement') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('User management');?></a>
             </div>
         </div>
 	</div>
@@ -551,7 +582,7 @@
                 <p class="text-center"><?php echo $l->t('Ensure efficient and secure team productivity the content collaboration platform from the market leader.');?></p>
                 <p class="text-center"><?php echo $l->t('Contact us to learn how we can help you.');?></p>
 				<div class="text-center morebuttondiv">
-					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact us');?></a>
+					<a href="<?php echo home_url('buy') ?>" class="overlay-trigger button button--large button--arrow"><?php echo $l->t('Contact us');?></a>
 				</div>
             </div>
         </div>
@@ -689,7 +720,7 @@
     </div>
 </div>
 </section>
-
+<?php require get_template_directory().'/overlay.php'; ?>
 
 
 

@@ -5,11 +5,25 @@
 
 .buy-background {
   background-image: url("../../img/headers/enterprise.jpg");
-  background-position: center 0 right 0;
-  min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
   .menu {
       margin-top: -100px;
   }
+}
+
+.section--links {
+    padding-top: 0;
+    padding-bottom: 0;
+    .button {
+        margin: 7px 7px;
+        min-width: 100px;
+    }
+    @media (min-width: $navbar-breaksize) {
+        display: none;
+    }
 }
 
 .section--welcome {

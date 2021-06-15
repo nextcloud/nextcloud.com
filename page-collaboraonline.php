@@ -44,21 +44,18 @@
         <div class="row">
 			<div class="col-lg-8">
                 <h2><?php echo $l->t('North-West University<br/> Case Study');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Get the free case study:');?><br>
                     <?php echo $l->t('The North-West University of South Africa improves user storage mobility,<br /> collaboration and productivity with Nextcloud and Collabora Online.');?><br>
-                    <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-                    </div>
-                    </td>
                     <input type="hidden" name="segmentId" value="48">
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <div class="newsletter">
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small><br/>
                         <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
                     </div>
                     <input class="button button--large" type="submit" value=" Get the case study "></p>
@@ -141,7 +138,7 @@
 	<div class="container">
         <h1 class="section--heading-1 text-center"><?php echo $l->t('Limitations');?></h1>
         <div class="row">
-        <p class="section--paragraph"><?php echo $l->t('Collabora Development Edition is offered for free, but is limited to 10 open documents, so it is suitable for small teams only or for demo purposes.');?> </p>
+        <p class="section--paragraph"><?php echo $l->t('Collabora Development Edition is offered for free, but continuously developed and not guaranteed to be stable.');?> </p>
         </div>
     </div>
 </section>
@@ -226,7 +223,7 @@
 			</ol>
 			<p class="section--paragraph"><?php echo $l->t('<strong>Note:</strong> This guide does <em>NOT</em> cover self-signed certificates. If you use a self-signed certificate then you\'re mostly on your own ;-)');?></p>
 			<h3 class="section--paragraph__title"><?php echo $l->t('1. Install the Collabora Online server');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('The following steps will download the Collabora Online docker, make sure to replace "cloud.nextcloud.com" with the host that your own Nextcloud runs on. Also make sure to escape all dots with double backslashes (<code>\\</code>), since this string will be evaluated as a regular expression (and your bash \'eats\' the first backslash.) If you want to use the docker container with more than one Nextcloud, you\'ll need to use');?> <code>'domain=cloud\\.nextcloud\\.com\|second\\.nexcloud\\.com'</code> <?php echo $l->t('instead. (All hosts are separated by <code>\|</code>.)');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The following steps will download the Collabora Online docker, make sure to replace "cloud.nextcloud.com" with the host that your own Nextcloud runs on. Also make sure to escape all dots with double backslashes (<code>\\</code>), since this string will be evaluated as a regular expression (and your bash \'eats\' the first backslash.) If you want to use the docker container with more than one Nextcloud, you\'ll need to use');?> <code>'domain=cloud\\.nextcloud\\.com\|second\\.nextcloud\\.com'</code> <?php echo $l->t('instead. (All hosts are separated by <code>\|</code>.)');?></p>
 			<p><pre><code class="docker">
                 docker pull collabora/code
                 docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --restart always --cap-add MKNOD collabora/code
@@ -348,7 +345,7 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --re
 				<li class="section--paragraph"><?php echo $l->t('<strong>Issue:</strong> <code>We are sorry, this is an unexpected connection error. Please try again.</code> error.<br />
 				The Collabora Online app doesn\'t work at the moment, if you enable it only for certain groups. Remove the group filter in the App section.');?></li>
 				<li class="section--paragraph"><?php echo $l->t('<strong>Issue:</strong> Collabora Online doesn\'t handle my 100 users.<br/>
-				This docker image is designed for home usage with a limited numbers of users and 10 open documents. If you need a more scalable solution, consider');?> <a href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('a support subscription</a> for a reliable, business-ready online office experience.');?></li>
+				This docker image is designed for home usage. If you need a more scalable solution, consider');?> <a href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('a support subscription</a> for a reliable, business-ready online office experience.');?></li>
 				<li class="section--paragraph"><?php echo $l->t('<strong>Issue:</strong> Collabora Online doesn\'t work with Encryption.<br/>
 				Yes, this is currently unsupported.');?></li>
 			</ul>

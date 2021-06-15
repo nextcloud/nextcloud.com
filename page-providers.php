@@ -27,7 +27,7 @@
 <div class="row">
     <div class="col-md-10 col-md-offset-1">
 <!--         <h2>Home or Enterprise</h2> -->
-        <p class=""><?php echo $l->t('Private or small business users are usually best served by our Simple Signup providers, either with an account on a shared instance or a small, private Nextcloud setup. Larger teams and organizations find excellend services at one of our certified partners.');?></p>
+        <p class=""><?php echo $l->t('Private or small business users are usually best served by our Simple Signup providers, either with an account on a shared instance or a small, private Nextcloud setup. Larger teams and organizations find excellent services at one of our certified partners.');?></p>
 
     </div>
 </div>

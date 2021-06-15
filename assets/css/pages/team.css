@@ -95,7 +95,7 @@ footer.page-footer {
   .section--team .teamdescription {
     margin: 20px; }
   .section--team .teamp {
-    min-height: 800px; }
+    height: 800px; }
   @media (max-width: 2000px) {
     .section--team .teamp {
       min-height: 780px; } }

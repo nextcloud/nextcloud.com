@@ -77,7 +77,7 @@
 		<h3 class="section--intro text-center"><?php echo $l->t('Mentoring');?></h3>
 		<h1 class="section--heading-1 text-center"><?php echo $l->t('Help to get started');?></h1>
 		<div class="ilustration ilustration__expertise">
-			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/ilustration_matterexperts-new.svg"); ?>
+			<?php echo file_get_contents(__DIR__."/assets/img/enterprise/ilustration_matterexperts-new.svg"); ?>
 		</div>
 		<h3 class="section--intro text-center"><?php echo $l->t('There are many areas in Nextcloud you can get involved in. From technical tasks like building an app, design, coding on the front or back-end to translation and helping out on the forums.');?></h3>
 		<h3 class="section--intro text-center"><?php echo $l->t('We want to enable everyone to get involved and we recognize that the privileged nature of the tech community is an extra barrier for underrepresented groups. We hope to help lower that barrier by connecting you directly to somebody who wants to help you.');?></h3>
@@ -93,7 +93,7 @@
 		<h3 class="section--intro text-center"><?php echo $l->t('Travel Support');?></h3>
 		<h1 class="section--heading-1 text-center"><?php echo $l->t('Participate in events');?></h1>
 		<div class="ilustration ilustration__expertise">
-			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/people-cloud.svg"); ?>
+			<?php echo file_get_contents(__DIR__."/assets/img/enterprise/people-cloud.svg"); ?>
 		</div>
 		<h3 class="section--intro text-center"><?php echo $l->t('The Nextcloud community meets regularly at big hackweeks or smaller ad-hoc ones all over Europe. We also host our yearly Nextcloud Conference and attend many events like FOSDEM and SCALE.');?></h3>
 		<h3 class="section--intro text-center"><?php echo $l->t('We want to support participants from underrepresented groups in Open Source to join these events by sponsoring part or the whole of their transportation and accomodation costs.');?></h3>
@@ -109,7 +109,7 @@
 		<h3 class="section--intro text-center"><?php echo $l->t('Internship');?></h3>
 		<h1 class="section--heading-1 text-center"><?php echo $l->t('Join Nextcloud GmbH');?></h1>
 		<div class="ilustration ilustration__expertise">
-			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/security-new.svg"); ?>
+			<?php echo file_get_contents(__DIR__."/assets/img/enterprise/security-new.svg"); ?>
 		</div>
 		<h3 class="section--intro text-center"><?php echo $l->t('Nextcloud is always on the look-out for new talents and we\'d like to give beginning developers, marketeers and sales people a chance to learn practical skills with us!');?></h3>
 		<h3 class="section--intro text-center"><?php echo $l->t('We encourage people from underrepresented groups to apply for these positions and to send their resume.');?></h3>
@@ -118,26 +118,6 @@
 </section>
 
 <div class="separator"></div>
-
-<?php
-//
-// $int1 = random_int(0, 15);
-// $int2 = random_int(0, 50);
-// $salt = bin2hex(random_bytes(5));
-// $hash = hash('sha256', $salt . ($int1 + $int2));
-// $checksum = $salt . ':' . $hash;
-//
-// $image = imagecreate(100, 20);
-// $background_color = imagecolorallocate($image, 255, 255, 255);
-// $text_color = imagecolorallocate($image, 0, 0, 0);
-// imagestring($image, 5, 3, 2, $int1 . ' + ' . $int2, $text_color);
-//
-// ob_start();
-// imagepng($image);
-// $imagestring = ob_get_contents();
-// ob_end_clean();
-// imagedestroy($image);
-?>
 
 <section class="section--advantages">
 <div class="container-fluid quote">

@@ -104,7 +104,7 @@ require(["require.config"], function() {
 <div class="container-widest">
     <h1 class="section--heading-1 text-center"><?php echo $l->t('Some of our customers');?></h1>
     <div class="row">
-		<div class="col-sm-4 col-lg-2 col-lg-offset-1 customer">
+		<div class="col-sm-4 col-lg-2 customer">
             <div class="customer-logo">
                 <a href="https://nextcloud.com/blog/german-federal-administration-relies-on-nextcloud-as-a-secure-file-exchange-solution/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/itzbund.png" /></a>
             </div>
@@ -127,6 +127,11 @@ require(["require.config"], function() {
         <div class="col-sm-4 col-lg-2 customer">
             <div class="customer-logo">
                 <a href="https://www.mfa.gov.af/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/mfa.png" /></a>
+            </div>
+        </div>
+        <div class="col-sm-4 col-lg-2 customer">
+            <div class="customer-logo">
+                <a href="https://www.paris.fr/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/paris.png" /></a>
             </div>
         </div>
     </div>
@@ -152,20 +157,17 @@ require(["require.config"], function() {
         <div class="row">
 			<div class="col-lg-8">
                 <h2 class=""><?php echo $l->t('Efficient file exchange and collaboration in the Newsroom.');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our free case study: <br /> Germany’s public radio and television deploys Nextcloud');?><br>
-                    <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-                    </div>
-                    </td>
                     <input type="hidden" name="segmentId" value="93">
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <div class="newsletter">
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small><br/>
                         <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
                     </div>
                     <input class="button button--large" type="submit" value=" Get the case study "></p>
@@ -194,6 +196,25 @@ require(["require.config"], function() {
     </div>
 </section>
 
+<section class="section--customerdetail">
+	<div class="container">
+         <div class="row feature-row">
+            <div class="col-md-6">
+                <blockquote><?php echo $l->t('The need for Sweden as a country to have control over its information and the consequences of not having access to the information should be considered from the perspective of national security and sovereignty. In an international crisis or conflict, the willingness and ability of other countries to access, manipulate or deny access to information handled by a service provider should be considered.');?></blockquote>
+                <p class="alignright" style="margin-top: -40px"><?php echo $l->t('-- Swedish National Procurement Services');?></p>
+                <p class="section--paragraph"><?php echo $l->t('In a report from mid 2019, the Dutch government came to a similar conclusion with regards to data protection, recommending its own government departments against using');?> <a href="https://www.rijksoverheid.nl/documenten/rapporten/2019/06/11/data-protection-impact-assessment-windows-10-enterprise" class="hyperlink">Microsoft Office 365.</a></p>
+            </div>
+            <div class="col-md-6 feature--block">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Sweden deploying Nextcloud');?></h3>
+                <blockquote>The uncertainty about how the public sector may use cloud services creates problems</blockquote>
+                <p>Said Försäkringskassans cto, Mikael Norberg</p>
+                <p class="section--paragraph"><?php echo $l->t('Försäkringskassan is working on developing user functionality for such things as file storing internal messaging services, end-to-end encrypted and self hosted.');?></p>
+                <a href="https://computersweden.idg.se/2.2683/1.719614/statens-moln-forsakringskassan" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more (Swedish)');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <a name="convenient"></a>
 <section class="section--convenient">
 	<div class="container">
@@ -211,7 +232,7 @@ require(["require.config"], function() {
         <div class="row">
             <div class="col-md-6">
                 <div data-type="youtube" data-video-id="Nr7cGN6ZJM0"></div>
-                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/Nr7cGN6ZJM0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555703705?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Text and Talk video"></iframe></div>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Easy access');?></h3>
@@ -241,20 +262,18 @@ require(["require.config"], function() {
     </div>
 </section>
 
+
 <section class="section--customerdetail">
 	<div class="container">
          <div class="row feature-row">
             <div class="col-md-6">
-                <blockquote><?php echo $l->t('The need for Sweden as a country to have control over its information and the consequences of not having access to the information should be considered from the perspective of national security and sovereignty. In an international crisis or conflict, the willingness and ability of other countries to access, manipulate or deny access to information handled by a service provider should be considered.');?></blockquote>
-                <p class="alignright" style="margin-top: -40px"><?php echo $l->t('-- Swedish National Procurement Services');?></p>
-                <p class="section--paragraph"><?php echo $l->t('In a report from mid 2019, the Dutch government came to a similar conclusion with regards to data protection, recommending its own government departments against using');?> <a href="https://www.rijksoverheid.nl/documenten/rapporten/2019/06/11/data-protection-impact-assessment-windows-10-enterprise" class="hyperlink">Microsoft Office 365.</a></p>
+            <div data-type="youtube" data-video-id="_JYU8b3gXFw"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/_JYU8b3gXFw" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 feature--block">
-                <h3 class="section--paragraph__title"><?php echo $l->t('Sweden deploying Nextcloud');?></h3>
-                <blockquote>The uncertainty about how the public sector may use cloud services creates problems</blockquote>
-                <p>Said Försäkringskassans cto, Mikael Norberg</p>
-                <p class="section--paragraph"><?php echo $l->t('Försäkringskassan is working on developing user functionality for such things as file storing internal messaging services, end-to-end encrypted and self hosted.');?></p>
-                <a href="https://computersweden.idg.se/2.2683/1.719614/statens-moln-forsakringskassan" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more (Swedish)');?></a>
+                <h3 class="section--paragraph__title"><?php echo $l->t('How Nextcloud saved our work from Covid-19');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('A report from the Italian city government Comune di Macerata about how Nextcloud saved their work during the COVID-19 crisis, covering what feature and setup was used.');?></p>
+                <a class="button button--blue button--arrow" href="https://www.youtube.com/watch?v=_JYU8b3gXFw">View on YouTube</a>
             </div>
         </div>
     </div>
@@ -313,7 +332,7 @@ require(["require.config"], function() {
             <a href="<?php echo home_url('encryption') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Encryption in Nextcloud');?></a>
         </div>
     </div>
-    <div class="row feature-row">
+<!--    <div class="row feature-row">
         <div class="col-md-6 image--feature image--floated new-img">
             <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ransomware-recovery.png" alt="in action"/></a>
         </div>
@@ -322,7 +341,7 @@ require(["require.config"], function() {
             <p class="section--paragraph"><?php echo $l->t('Ransomware attacks are becoming more targetted as lots of money can be extracted from businesses and government organizations. While insurance can cover direct costs, the disruption to business is immense regardless. Nextcloud goes far beyond competing solutions, offering automated, one-click ransomware recovery tools.');?></p>
             <a href="https://nextcloud.com/blog/amidst-rising-ransomware-costs-another-us-city-pays-hundreds-of-thousands-to-recover-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Ransomware risks and protection');?></a>
         </div>
-    </div>
+    </div>-->
     <div class="row ncc--container">
             <blockquote class="ncc--paragraph">Nextcloud understands the necessity to provide core principle baseline security requirements, as such Nextcloud 11 is built on these security principles to ultimately deliver a secure solution to their customers</blockquote>
         <div class="ncc--brand">
@@ -360,11 +379,11 @@ require(["require.config"], function() {
     </div>
     <div class="row ">
         <div class="col-md-6">
-            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/kerberos.svg");?>
+            <?php echo file_get_contents(__DIR__."/assets/img/icons/kerberos.svg");?>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud integrates in government infrastructure with support for SAML and Shibboleth, LDAP, Kerberos, Oauth, and other often used authentication mechanisms and runs on all enterprise Linux systems offering support options to match their life cycle.');?></p>
         </div>
         <div class="col-md-6">
-            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/storage.svg");?>
+            <?php echo file_get_contents(__DIR__."/assets/img/icons/storage.svg");?>
             <p class="section--paragraph"><?php echo $l->t('Data storage can be one or multiple NFS, Object Storage, Samba or a variety of other powerful storage mechanisms. This way Nextcloud provides seamless access to data on existing storage mechanisms, respecting existing access control policies and transparently handling changes on the underlying storage layer.');?></p>
         </div>
     </div>
@@ -372,15 +391,18 @@ require(["require.config"], function() {
         <div class="col-md-offset-4 col-md-4 wp-center">
             <p>
             <div class="row "><img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/architecture-thumbnail-banner.png"/></div>
-            <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+            <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
+                <input type="hidden" name="segmentId" value="1">
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
                 <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper');?><br>
                 <input class="mail text-center" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
-                <td colspan="2" style="">
-                    <div style="margin-left: auto; width: 304px; height: 78px; margin-right: auto; text-align: center;">
-                        <div id="RecaptchaField2"></div>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?>. <?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
                     </div>
-                </td>
-                <input type="hidden" name="segmentId" value="1">
                 <input class="button button--blue button--large" type="submit" value=" Get the whitepaper ">
             </form>
             </p>

@@ -37,15 +37,18 @@
   margin-bottom: 50px; }
 
 section {
-  margin-top: 150px;
+  margin-top: 70px;
+  margin-bottom: 70px;
   /* 	padding: 50px 0; */ }
   section .section--paragraph__title {
     padding: 0; }
 
-.section--intro p {
-  margin-top: 20px; }
-.section--intro .video .video-js {
-  background-color: transparent !important; }
+.section--intro {
+  margin-top: 0px; }
+  .section--intro p {
+    margin-top: 20px; }
+  .section--intro .video .video-js {
+    background-color: transparent !important; }
 
 .section--overview {
   margin-top: 100px; }

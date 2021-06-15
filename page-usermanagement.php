@@ -79,7 +79,7 @@
     <div class="row">
         <div class="col-md-6 image--floated">
             <div data-type="youtube" data-video-id="8bS4-JELEdk"></div>
-            <iframe width="100%" height="300" src="https://www.youtube-nocookie.com/embed/vKJCThXEPXk" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556899501?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="How to add a Nextcloud client account with a QR code.mp4"></iframe></div>
         </div>
         <div class="col-md-6">
             <h3 class="section--paragraph__title"><?php echo $l->t('Add accounts easily with a QR code');?></h3>
@@ -91,7 +91,7 @@
     <div class="row">
         <div class="col-md-6">
             <div data-type="youtube" data-video-id="oyWXMjb-6ik"></div>
-            <iframe width="100%" height="300" src="https://www.youtube-nocookie.com/embed/oyWXMjb-6ik" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556897803?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Remote wipe_ keep your data yours even when you lose devices!.mp4"></iframe></div>
         </div>
         <div class="col-md-6">
             <h3 class="section--paragraph__title"><?php echo $l->t('Remote Wipe');?></h3>
@@ -109,8 +109,7 @@
             <?php echo $l->t('Remote wipe as admin, per user');?>
         </div>
         <div class="col-md-4">
-            <div data-type="youtube" data-video-id="QmR86-LsGus"></div>
-            <iframe width="100%" height="200" src="https://www.youtube-nocookie.com/embed/QmR86-LsGus" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe><br />
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555771570?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Clients: remote wipe in action"></iframe></div><br />
             <?php echo $l->t('Demo of remote wipe in the desktop client');?>
         </div>
     </div>
@@ -151,20 +150,17 @@
         <div class="row">
 			<div class="col-lg-8">
                 <h2 class=""><?php echo $l->t('Get our LDAP datasheet');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our free datasheet: <br /> LDAP user management');?><br>
-                    <td colspan="2">
-                    <div class="">
-                        <div id="RecaptchaField1"></div>
-                    </div>
-                    </td>
                     <input type="hidden" name="segmentId" value="7">
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <div class="newsletter">
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small><br/>
                         <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
                     </div>
                     <input class="button button--large" type="submit" value=" Get the datasheet "></p>

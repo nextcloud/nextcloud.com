@@ -2,7 +2,6 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/workflow.css?v=1" rel="stylesheet">
-<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/flow-as-user.png">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/flow-as-user.png">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/flow-as-user.png">
@@ -23,7 +22,7 @@
 <div class="container">
 	<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-			<iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/Yid1haOiBcY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555688777?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Flow video"></iframe></div>
 		</div>
     </div>
     <div class="row">
@@ -41,7 +40,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 image--floated image--feature new-img">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-user.png"><img class="img-responsive featureimg" alt="pic of flow in action"  src="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-user.png" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-user.png"><img class="overlay-trigger img-responsive featureimg" alt="pic of flow in action"  src="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-user.png" /></a>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Automate tasks');?></h3>
@@ -51,7 +50,7 @@
 	</div>
     <div class="row">
 		<div class="col-md-6 image--floated image--feature new-img">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-admin.png"><img class="img-responsive featureimg" alt="pic of flow in action" src="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-admin.png" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-admin.png"><img class="overlay-trigger img-responsive featureimg" alt="pic of flow in action" src="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-admin.png" /></a>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Access on your terms');?></h3>
@@ -103,7 +102,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 image--feature">
-			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-tagging-retention-nw.png" class="img-responsive featureimg" />
+			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-tagging-retention-nw.png" class="overlay-trigger img-responsive featureimg" />
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Define automated Workflows and retention');?></h3>
@@ -119,20 +118,17 @@
         <div class="row">
 			<div class="col-lg-8">
                 <h2><?php echo $l->t('Get our datasheet');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our free datasheet: <br /> File Access Control and Retention');?><br>
-                    <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-                    </div>
-                    </td>
                     <input type="hidden" name="segmentId" value="6">
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <div class="newsletter">
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small><br/>
                         <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
                     </div>
                     <input class="button button--large" type="submit" value=" Get the datasheet "></p>
@@ -147,7 +143,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 image--feature image--floated">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/FileAccessControl-at-home.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control-nw.png" class="img-responsive featureimg" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/FileAccessControl-at-home.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control-nw.png" class="overlay-trigger img-responsive featureimg" /></a>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('File access control at home');?></h3>
@@ -170,3 +166,4 @@
 		</div>
 	</div>
 </div>-->
+<?php require get_template_directory().'/overlay.php'; ?>

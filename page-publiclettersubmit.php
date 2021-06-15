@@ -17,6 +17,12 @@
 </section>
 
 <?php
+require_once realpath(dirname(__FILE__)) . '/lib/ratelimiter.php';
+
+if(!canPerformLimitedAction("publicletter-submit-action", 2)) {
+  die("Too many requests. Please try again later.");
+}
+
 if(isset($_POST['companymail'])) {
    function died($error) {
    	// error code goes here
@@ -38,16 +44,12 @@ if(isset($_POST['companymail'])) {
     // validation expected data exists
     if(!isset($_POST['companymail']) ||
         !isset($_POST['company']) ||
-        !isset($_POST['country']) ||
-        !isset($_POST['checksum']) ||
-        !isset($_POST['captcha'])) {
+        !isset($_POST['country'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted - did you fill in all fields?'); }
     $yourname = $_POST['yourname']; // NOT required
     $company= $_POST['company']; // required
     $country = $_POST['country']; // required
     $companymail = $_POST['companymail']; // required
-    $checksum = $_POST['checksum']; // required
-    $captcha = $_POST['captcha'];
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
   if(!preg_match($email_exp,$companymail)) {
@@ -57,16 +59,6 @@ if(isset($_POST['companymail'])) {
   if(!preg_match($string_exp,$yourname)) {
 //     $error_message .= 'The name you entered does not appear to be valid.<br />';
   }
-  if (strlen($checksum) !== 75 || !strpos($checksum, ':')) {
-        $error_message .= 'The checksum is not valid.<br />';
-    } else {
-        list($salt, $expectedHash) = explode(':', $checksum, 2);
-        $hash = hash('sha256', $salt . $captcha);
-
-        if ($hash !== $expectedHash) {
-            $error_message .= 'The captcha result you entered does not appear to be correct.<br />';
-        }
-    }
 
   if(strlen($error_message) > 0) {
     died($error_message);

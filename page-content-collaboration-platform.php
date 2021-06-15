@@ -128,8 +128,7 @@
     <h1 class="section--heading-1 text-center"><?php echo $l->t('What sets Nextcloud apart');?></h1>
     <div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-            <stream src="eb1384b4fa48d8f47abdec5051bc922d" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/hub-video.png"></stream>
-            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=eb1384b4fa48d8f47abdec5051bc922d"></script>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555692548?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Accessibility themes.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
         </div>
     </div>
     <div class="row feature-row">
@@ -155,7 +154,7 @@
      <h2 class="section--heading-2 text-center"><?php echo $l->t('The perfect home office platform');?></h2>
     <div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-            <stream src="4b66104c586170a4dc5b6ebbed80b193" controls preload poster="https://nextcloud.com/media/Home-Office-video-thumb.jpg"></stream> <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=4b66104c586170a4dc5b6ebbed80b193"></script>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555685141?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud in your home office video"></iframe></div>
             <br/> 📺 <small><a href="https://youtu.be/FMgBD3Jr33Y">view video on YouTube</a></small>
         </div>
     </div>
@@ -166,9 +165,7 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-4">
-                <stream src="fa1b52828b602f72cf1bcfab61f74fb4" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/files-video.png"></stream>
-                <script data-cfasync="false" defer type="text/javascript"
-                src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=fa1b52828b602f72cf1bcfab61f74fb4"></script>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555693158?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Files video"></iframe></div>
                 <div class="row description">
                     <div class="title">
                         <div class="logo">
@@ -184,8 +181,7 @@
             </div>
 
             <div class="col-md-4">
-                <stream src="58bf7b0f3ae662ee1d6b368099c8c94f" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-video.png"></stream>
-                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=58bf7b0f3ae662ee1d6b368099c8c94f"></script>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555693791?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Talk video"></iframe></div>
                 <div class="row description">
                     <div class="title">
                         <div class="logo">
@@ -200,8 +196,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <stream src="3e135d59fff771d1909c4b8d588d5800" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/groupware-video.png"></stream>
-                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=3e135d59fff771d1909c4b8d588d5800"></script>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555693729?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Groupware video"></iframe></div>
                 <div class="row description">
                     <div class="title">
                         <div class="logo">
@@ -271,12 +266,12 @@
             <div class="col-md-6">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Remote wipe');?></h3>
                 <div data-type="youtube" data-video-id="oyWXMjb-6ik"></div>
-                <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/oyWXMjb-6ik" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556897803?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Remote wipe_ keep your data yours even when you lose devices!.mp4"></iframe></div>
             </div>
             <div class="col-md-6">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Watermarks and secure inbox');?></h3>
                 <div data-type="youtube" data-video-id="nueL_hzDp-s"></div>
-                <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/nueL_hzDp-s" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556896875?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Secure view_ blocking downloads, watermarking and secure mailboxes in Nextcloud.mp4"></iframe></div>
             </div>
         </div>
 </div>
@@ -327,7 +322,7 @@
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud features extensive');?> <a href="<?php echo home_url('monitoring') ?>" class="hyperlink"><?php echo $l->t('monitoring and auditing capabilities');?></a> <?php echo $l->t('to ensure actions of all users are transparent, both to the users themselves and to auditors.');?></p>
 		</div>
     </div>
-    <div class="row feature-row">
+   <!-- <div class="row feature-row">
         <div class="col-md-6 image--feature new-img">
             <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ransomware-recovery.png" alt="in action"/></a>
         </div>
@@ -336,7 +331,7 @@
             <p class="section--paragraph"><?php echo $l->t('Ransomware attacks are becoming more targetted as lots of money can be extracted from businesses and government organizations. While insurance can cover direct costs, the disruption to business is immense regardless. Nextcloud goes far beyond competing solutions, offering automated, one-click ransomware recovery tools.');?></p>
             <a href="https://nextcloud.com/blog/amidst-rising-ransomware-costs-another-us-city-pays-hundreds-of-thousands-to-recover-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Ransomware risks and protection');?></a>
         </div>
-    </div>
+    </div>-->
 </div>
 </section>
 <section>

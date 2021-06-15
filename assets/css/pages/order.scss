@@ -1,13 +1,36 @@
 @import '../variables';
 @import '../modules/transparent-navbar';
 
-.buy-background {
-  background-image: url("../../img/headers/enterprise.jpg");
-  background-position: center 0 right 0;
-  min-height: 400px;
-  .menu {
-      margin-top: -100px;
-  }
+.generic-background {
+    background: url('../../img/headers/background-transparent.png') no-repeat;
+    background-color: #0082c9;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    min-height: 200px;
+    max-height: 300px;
+    padding-bottom: 0px;
+    .menu {
+        margin-top: 0px;
+    }
+    .topheader {
+        margin-top: 40px;
+        h1 {
+            margin-bottom: 80px;
+        }
+    }
+}
+
+.section--links {
+    padding-top: 0;
+    padding-bottom: 0;
+    .button {
+        margin: 7px 7px;
+        min-width: 100px;
+    }
+    @media (min-width: $navbar-breaksize) {
+        display: none;
+    }
 }
 
 .collaboraNote{
@@ -15,7 +38,7 @@
 }
 
 .section--welcome {
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .section--order-form {
@@ -39,13 +62,7 @@
   color: rgb(210, 4, 6);
 }
 
-#orderform input[type="submit"] {
-  padding: 8px 20px;
-}
 
-label {
-    margin-bottom: 0px;
-}
 
 .question {
     margin-bottom: 0px;
@@ -53,4 +70,53 @@ label {
 
 .details {
     margin-top: 0px;
+}
+
+.section--contact-form {
+    padding-top: 30px;
+    @media (min-width: $navbar-breaksize) {
+        padding-top: 30px;
+    }
+    p {
+            margin-bottom: 16px;
+    }
+    input, select,textarea {
+        border-style: solid;
+        border-color: lightgray;
+        border-width: thin;
+		color: #757575;
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+   input, select, {
+        border-radius: 30px;
+        height: 30px;
+        max-width: 400px;
+    }
+    input[type='checkbox'] {
+        height: 10px;
+    }
+    input,textarea {
+        padding: 10px;
+    }
+    textarea {
+        border-radius: 15px;
+    }
+    #gdprcheck {
+        height: 10px;
+    }
+    .col-lg-4,.col-lg-3 {
+        label {
+            float: right;
+            text-align: right;
+        }
+    }
+    @media (max-width: $navbar-breaksize) {
+        .col-lg-4,.col-lg-3 {
+            label {
+                float: none;
+                text-align: left;
+            }
+        }
+    }
 }

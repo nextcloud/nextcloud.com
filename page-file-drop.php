@@ -28,10 +28,10 @@
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1 video">
 			<div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
-			<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556890169?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud File Drop"></iframe></div>
 		</div>
 		<div class="col-md-6 col-md-offset-3">
-			<p class="section--paragraph text-center"><?php echo $l->t('Nextcloud Files enables hospitals, banks, notaries and government agencies to securely send files to and receive files from customers, patients, clients or partners.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('The File Drop feature in Nextcloud Files enables customers, patients, clients or partners to upload files for you in a secure cloud folder you shared through a hyperlink.');?></p>
 		</div>
 	</div>
 </div>

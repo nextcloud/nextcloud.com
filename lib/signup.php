@@ -3,6 +3,7 @@
 use GeoIp2\Database\Reader;
 
 require_once realpath(dirname(__FILE__)) . '/../vendor/autoload.php';
+require_once realpath(dirname(__FILE__)) . '/newsletter-api.php';
 require_once realpath(dirname(__FILE__)) . '/../config.php';
 
 const USER_AGENT_CLIENT_ANDROID = '/^Mozilla\/5\.0 \(Android\) (ownCloud|Nextcloud)\-android.*$/';
@@ -19,23 +20,7 @@ $readerCountry = new Reader(realpath(dirname(__FILE__)) . '/../assets/GeoLite2/G
 
 // Get proper ip in case of reverse proxy
 function whatismyip() {
-	if (isset($_SERVER['HTTP_CLIENT_IP'])) {
-		$ipaddress = $_SERVER['HTTP_CLIENT_IP'];
-	} else if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-		$ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR'];
-	} else if (isset($_SERVER['HTTP_X_FORWARDED'])) {
-		$ipaddress = $_SERVER['HTTP_X_FORWARDED'];
-	} else if (isset($_SERVER['HTTP_FORWARDED_FOR'])) {
-		$ipaddress = $_SERVER['HTTP_FORWARDED_FOR'];
-	} else if (isset($_SERVER['HTTP_FORWARDED'])) {
-		$ipaddress = $_SERVER['HTTP_FORWARDED'];
-	} else if (isset($_SERVER['REMOTE_ADDR'])) {
-		$ipaddress = $_SERVER['REMOTE_ADDR'];
-	} else {
-		$ipaddress = null;
-	}
-
-	return $ipaddress;
+	return $_SERVER['REMOTE_ADDR'];
 }
 
 function get_device() {
@@ -159,7 +144,7 @@ function request_account($request) {
 			'Content-Type' => 'application/x-www-form-urlencoded;charset=UTF-8'
 		),
 		'body'    => 'email=' . $email,
-		'timeout' => 30
+		'timeout' => 60
 	);
 
 	// request account && consume one rate token
@@ -248,30 +233,10 @@ function get_providers_list() {
 	return $json;
 }
 
-function subscribe($email) {
-
-	$data = array(
-		'headers' => array(
-			'Content-Type' => 'application/x-www-form-urlencoded;charset=UTF-8'
-		),
-		'body'    => 'login=' . NEWSLETTER_API_USER . '&password=' . NEWSLETTER_API_TOKEN,
-		'timeout' => 5
-	);
-
-	// login
-	$post = wp_remote_post(NEWSLETTER_API_URL . '&cmd=login', $data);
-
-	// subscribe
-	$data['body'] .= '&email=' . $email . '&lists=' . NEWSLETTER_ID;
-	$post = wp_remote_post(NEWSLETTER_API_URL . '&cmd=subscribe', $data);
-
-	return $post;
-}
-
 function get_statistics($params) {
 	if ($_GET['key'] && $_GET['key'] === PPP_KEY) {
 		global $redis;
-		
+
 		// select every proper timestamp ()
 		// TODO: change the timestamp for May 18, 2033 @ 5:33:20 am 😂
 		$keys = $redis->keys('1*');

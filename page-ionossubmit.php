@@ -11,14 +11,20 @@
 	<div class="container-fluid background">
 		<div class="container">
 			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Get support from the source');?></h1>
-				<h2><?php echo $l->t('The best expertise whenever you need it!');?></h2>
+                <h1><?php echo $l->t('Nextcloud Enterprise');?></h1>
+                <h2><?php echo $l->t('The enterprise-ready Content Collaboration Platform');?></h2>
 			</div>
 		</div>
 	</div>
 </section>
+<section>
 <div class="container">
 <?php
+require_once realpath(dirname(__FILE__)) . '/lib/ratelimiter.php';
+
+if(!canPerformLimitedAction("ionos-submit-action", 2)) {
+  die("Too many requests. Please try again later.");
+}
 
 class ValidationException extends Exception {};
 
@@ -36,8 +42,7 @@ if(isset($_POST['email'])) {
                         echo $error . "<br />";
                         ?>
                     </p>
-                    <p><?php echo $l->t('Use the back key to go to the previous page and fix the
-                        issue!');?></p>
+                    <p><?php echo $l->t('Use the back key to go to the previous page and fix the issue!');?></p>
                 </div>
             </section>
             <?php
@@ -48,9 +53,7 @@ if(isset($_POST['email'])) {
         !isset($_POST['email']) ||
         !isset($_POST['organization']) ||
         !isset($_POST['phone']) ||
-        !isset($_POST['address']) ||
-        !isset($_POST['checksum']) ||
-        !isset($_POST['captcha'])) {
+        !isset($_POST['address'])) {
 
         died('<li>Not all required fields are set (name, email, organization, phone number and address are required).</li>');
     }
@@ -78,21 +81,7 @@ if(isset($_POST['email'])) {
     //$branding = $_POST['branding'];
     $dollars = $_POST['dollars'];
     $terms = $_POST['terms'] === 'terms' ? 'yes' : 'no';
-    $checksum = $_POST['checksum']; // required
-    $captcha = $_POST['captcha'];
     $error_message = "";
-
-
-    if (strlen($checksum) !== 75 || !strpos($checksum, ':')) {
-        $error_message .= 'The checksum is not valid.<br />';
-    } else {
-        list($salt, $expectedHash) = explode(':', $checksum, 2);
-        $hash = hash('sha256', $salt . $captcha);
-
-        if ($hash !== $expectedHash) {
-            $error_message .= 'The captcha result you entered does not appear to be correct.<br />';
-        }
-    }
 
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
     if(!preg_match($email_exp,$email_from)) {
@@ -109,27 +98,6 @@ if(isset($_POST['email'])) {
     //   if(strlen($comments) < 8) {
     //     $error_message .= 'Your input is pretty short! <br />';
     //   }
-//       if(RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
-//         $url = 'https://www.google.com/recaptcha/api/siteverify';
-//         $ch = curl_init();
-//
-//         curl_setopt($ch, CURLOPT_URL, $url);
-//         curl_setopt($ch, CURLOPT_POST, 1);
-//         curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_SECRET, 'response' => $_POST['g-recaptcha-response'])));
-//         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-//
-//         $server_output = curl_exec($ch);
-//
-//         $server_output = json_decode($server_output, true);
-//
-//         curl_close($ch);
-//
-//         if (!isset($server_output['success']) || $server_output['success'] !== true) {
-//           $error_message .= 'The captcha result was invalid.<br />';
-//         }
-//       } else {
-//         $error_message .= 'Captcha code is missing.<br />';
-//       }
 
     if ($terms !== 'yes') {
         $error_message .= '<li>Terms need to be signed.</li>';
@@ -146,7 +114,7 @@ if(isset($_POST['email'])) {
 
             // OUTLOOK
             if ($outlook === 'yes') {
-                $outlookPrice = $users * 0.5;
+                $outlookPrice = $users * 0.6;
             }
 
             if (!in_array($edugov, ['no', 'edu', 'gov', 'charity'])) {
@@ -236,14 +204,14 @@ if(isset($_POST['email'])) {
 		$email_message .= "Number of users: " . clean_string($users) . "\n";
 // 		$email_message .= "Edition: " . clean_string($edition) . "\n";
 // 		$email_message .= "How many years: " . clean_string($duration) . "\n";
-		$email_message .= "Education/government/charity discount: " . clean_string($edugov) . "\n\n" . "Options:\n";
-		$email_message .= "Would like Outlook option (5€/user): " . clean_string($outlook) . "\n";
+// 		$email_message .= "Education/government/charity discount: " . clean_string($edugov) . "\n\n" . "Options:\n";
+		$email_message .= "Outlook option (€0.6/user/month): " . clean_string($outlook) . "\n";
 // 		$email_message .= "Number of Collabora users (17€ for first 99, then 16€/user): " . clean_string($collaboraCheck) . "\n";
 // 		$email_message .= "Would like ONLYOFFICE option (935€ for first 250): " . clean_string($onlyofficeCheck) . "\n";
 // 		$email_message .= "Would like remote installation help (990 €): " . clean_string($remoteinstall) . "\n\n";
 		// 	$email_message .= "Would like Branding option: ".clean_string($branding)."\n";
 		// 	$email_message .= "Would like Spreed option: ".clean_string($spreed)."\n";
-		$email_message .= "Price: " . clean_string($givenprice) . "\n";
+		$email_message .= "Price per month: " . clean_string($givenprice) . "\n";
 		//$email_message .= "Would like to pay in dollars: ".clean_string($dollars)."\n";
 		$email_message .= "Signed terms: " . clean_string($terms) . "\n\n";
 
@@ -258,7 +226,7 @@ if(isset($_POST['email'])) {
 		// Send the email
 // 		$recipients = ['orders'];
 // 		$recipients = ['sales', 'jos', 'frank'];
-		$recipients = ['jos','viakom-sales','frank'];
+		$recipients = ['viakom-sales'];
 // 		$recipients = ['jos','jos.poortvliet',]; // for testing
 // 		$recipients = ['frank']; // for testing
 		$successfullySend = true;
@@ -313,3 +281,4 @@ if(isset($_POST['email'])) {
 }
 ?>
 </div>
+</section>

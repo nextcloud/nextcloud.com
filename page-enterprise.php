@@ -4,15 +4,7 @@
 		require(["modules/slideshow", "modules/submenu"])
 	});
 </script>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/enterprise.css?v=6" rel="stylesheet">
-<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
-<!--<script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
-<script type="text/javascript">
-    var CaptchaCallback = function() {
-        grecaptcha.render('RecaptchaField1', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
-        grecaptcha.render('RecaptchaField2', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
-    };
-</script>-->
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/enterprise.css?v=7" rel="stylesheet">
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/legal2.jpg">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/legal2.jpg">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/legal2.jpg">
@@ -37,76 +29,91 @@
 	</div>
 </section>
 
-<section class="section--intro">
-	<div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <h1 class="text-center"><?php echo $l->t('Scaleable, secure and tested');?></h1>
-                    <p class="text-center"><?php echo $l->t('Nextcloud Enterprise gives professional organizations software optimized and tested for mission critical environments.');?></p>
-                    <p class="text-center"><?php echo $l->t('Nextcloud Enterprise is backed by a Nextcloud Subscription with the services and expertise needed for quick deployment and reliable service.');?></p>
-            </div>
-		</div>
-	</div>
-</section>
-
-<!-- <div class="separator"></div> -->
-
-<section class="section--benefits">
-<!--    <h1 class="text-center"><?php echo $l->t('Nextcloud Enterprise Delivers');?></h1>
-    <p class="text-center"><?php echo $l->t('Your Nextcloud subscription enables you to successfully deploy and manage your Nextcloud instances, complimenting your IT resources and increasing the efficiency and reliability of your service.');?></p>-->
+<section class="section--links">
 	<div class="container">
         <div class="row">
-            <div class="col-md-6 benefit">
-                <h2 class="text-center"><?php echo $l->t('Security');?></h2>
-<!--                 <h3 class="text-center"><?php echo $l->t('Keep your data safe');?></h3> -->
-                <div class="ilustration">
-                    <?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/security-new.svg"); ?>
-                </div>
-                <div class="content">
-                    <p class="text-center"><?php echo $l->t('Nextcloud Enterprise customers have priority access to security and stability fixes and direct access to the most advanced security expertise in the self-hosted file sync and collaboration market.');?></p>
-<!--                     <p class="text-center"><a class="button button--white button--arrow" href="<?php echo home_url('secure') ?>"><?php echo $l->t('Security details');?></a></p> -->
-                </div>
-            </div>
-            <div class="col-md-6 benefit">
-                <h2 class="text-center"><?php echo $l->t('Compliance');?></h2>
-<!--                 <h3 class="text-center"><?php echo $l->t('Certification and compliance');?></h3> -->
-                <div class="ilustration integrity__ilustration">
-                    <?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/data_safe-new.svg"); ?>
-                </div>
-                <div class="content">
-                    <p class="text-center"><?php echo $l->t('Nextcloud Enterprise is a guaranteed proven, certified code base for legal compliance legislation like the GDPR and HIPAA. You can count on our expertise, documentation and reviews.');?></p>
-<!--                     <p class="text-center"><a class="button button--white button--arrow" href="<?php echo home_url('gdpr') ?>"><?php echo $l->t('Compliance details');?></a></p> -->
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 benefit">
-                <h2 class="text-center"><?php echo $l->t('Scalability');?></h2>
-<!--                 <h3 class="text-center"><?php echo $l->t('Costs and efficiency');?></h3> -->
-                <div class="ilustration illustration-scalability">
-                    <?php echo file_get_contents(get_template_directory_uri()."/assets/img/globalscale/final.svg"); ?>
-                </div>
-                <div class="content">
-                    <p class="text-center"><?php echo $l->t('Nextcloud Enterprise is pre-configured and optimized for the needs of professional organizations rather than home users.');?></p>
-                    <p class="text-center"><?php echo $l->t('Nextcloud Global Scale delivers industry-leading scalability, control over data locality and cost reduction opportunities.');?> <!--<a class="hyperlink" href="<?php echo home_url('globalscale') ?>"><?php echo $l->t('Learn about Global Scale.');?></a></p>-->
-<!--             		<p class="text-center"><a class="button button--white button--arrow" href="<?php echo home_url('globalscale') ?>"><?php echo $l->t('Learn about Global Scale');?></a></p> -->
-                </div>
-            </div>
-            <div class="col-md-6 benefit">
-                <h2 class="text-center"><?php echo $l->t('Reliability');?></h1>
-<!--                 <h3 class="text-center"><?php echo $l->t('The best from the best');?></h2> -->
-                <div class="ilustration lifecycle__ilustration">
-                    <?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/ilustration_matterexperts-new.svg"); ?>
-                </div>
-                <div class="content">
-                    <p class="text-center"><?php echo $l->t('Nextcloud Enterprise undergoes additional testing and quality assurance to provide you the most reliable solution. Align to your platform with a life cycle of up to 15 years.');?></p>
-                    <p class="text-center"><?php echo $l->t('Our unique approach to support gives you direct access to Nextcloud engineering expertise without a layer of call center people between you and what you need.');?></p>
-<!--                     <p class="text-center"><a class="button button--white button--arrow" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('See pricing');?></a></p> -->
+            <div class="col-md-12">
+                <div class="text-center">
+                <a class="button button--white button--small" href="<?php echo home_url('faq') ?>"><?php echo $l->t('FAQ');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('order online');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('get a quote');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('trial') ?>"><?php echo $l->t('Start a trial');?></a>
+                <a class="button button--white button--small" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('pricing plans');?></a>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<section class="section--intro">
+	<div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+<!--                    <h1 class="text-center"><?php echo $l->t('Scaleable, secure and tested');?></h1>-->
+                    <p class="text-center"><?php echo $l->t('Nextcloud Enterprise gives professional organizations software optimized and tested for mission critical environments.');?></p>
+            </div>
+		</div>
+	</div>
+</section>
+
+<section class="section--benefits">
+    <h1 class="text-center"><?php echo $l->t('Nextcloud Enterprise Delivers');?></h1>
+	<div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="ilustration">
+                    <?php echo file_get_contents(__DIR__."/assets/img/enterprise/stability.svg"); ?>
+                </div>
+            </div>
+            <div class="col-md-6 benefit">
+                <h2><?php echo $l->t('Stability');?></h2>
+                <p><?php echo $l->t('The reliable platform for large organizations.');?></p>
+                <p>
+                • <?php echo $l->t('Additional testing and quality assurance');?><br />
+                • <?php echo $l->t('Early critical bug fixes and hot fixes');?><br />
+                • <?php echo $l->t('Upgrade standby: we ensure smooth upgrades with advice and help');?><br />
+                • <?php echo $l->t('Support delivered directly by our engineers');?><br />
+                • <?php echo $l->t('Dedicated support account manager');?><br />
+                • <?php echo $l->t('Enterprise grade SLA up to 24/7');?><br />
+                • <?php echo $l->t('Up to 5-10 years of long term support for stable Nextcloud releases');?></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6   image--floated">
+                <div class="ilustration">
+                    <?php echo file_get_contents(__DIR__."/assets/img/enterprise/security.svg"); ?>
+                </div>
+            </div>
+            <div class="col-md-6 benefit">
+                <h2><?php echo $l->t('Security');?></h2>
+                <p><?php echo $l->t('Advanced security capabilities to customers.');?></p>
+                <p>
+                • <?php echo $l->t('Early security patches');?><br />
+                • <?php echo $l->t('Enterprise-grade security features and hardening');?><br />
+                • <?php echo $l->t('Early notifications about critical security issues');?><br />
+                • <?php echo $l->t('Pro active security consulting to review and harden your instance');?></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="ilustration">
+                    <?php echo file_get_contents(__DIR__."/assets/img/enterprise/ilustration_matterexperts-new.svg"); ?>
+                </div>
+            </div>
+            <div class="col-md-6 benefit">
+                <h2><?php echo $l->t('Expertise');?></h2>
+                <p><?php echo $l->t('Direct access to Nextcloud engineering expertise without call center people in between.');?></p>
+                <p>
+                • <?php echo $l->t('Full proof of concept package where our experts help you integrate Nextcloud in your infrastructure');?><br />
+                • <?php echo $l->t('Migration assistance: We help to migrate from your previous solution');?><br />
+                • <?php echo $l->t('Access to enterprise documentation and the knowledge base');?><br />
+                • <?php echo $l->t('Access to expertise around scaling, security and best practices');?><br />
+                • <?php echo $l->t('Access to optional workshops and training');?></p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="quote section--contact">
 <div class="container">
     <div class="row">
@@ -119,6 +126,59 @@
 </div>
 </section>
 
+<section class="section--benefits">
+	<div class="container">
+        <div class="row">
+            <div class="col-md-6  image--floated">
+                <div class="ilustration">
+                    <?php echo file_get_contents(__DIR__."/assets/img/enterprise/influence.svg"); ?>
+                </div>
+            </div>
+            <div class="col-md-6 benefit">
+                <h2><?php echo $l->t('Influence');?></h2>
+                <p><?php echo $l->t('Customer needs drive us, and your requirements are on the top of our todo.');?></p>
+                <p>
+                • <?php echo $l->t('Access to decision makers at Nextcloud');?><br />
+                • <?php echo $l->t('Influence on road map');?><br />
+                • <?php echo $l->t('Seat at the product advisory board');?></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="ilustration">
+                    <?php echo file_get_contents(__DIR__."/assets/img/enterprise/functionality.svg"); ?>
+                </div>
+            </div>
+            <div class="col-md-6 benefit">
+                <h2><?php echo $l->t('Functionality');?></h2>
+                <p><?php echo $l->t('Additional capabilities ready to provide what your teams need to be productive.');?></p>
+                <p>
+                • <?php echo $l->t('Custom integration');?><br />
+                • <?php echo $l->t('Branding');?><br />
+                • <?php echo $l->t('Outlook integration');?><br />
+                • <?php echo $l->t('Access to add-ons from partner companies like: Collabora Online, ONLYOFFICE, Kaspersky, and many more');?></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6  image--floated">
+                <div class="ilustration">
+                    <?php echo file_get_contents(__DIR__."/assets/img/enterprise/data_safe-new.svg"); ?>
+                </div>
+            </div>
+            <div class="col-md-6 benefit">
+                <h2><?php echo $l->t('Compliance');?></h2>
+                <p><?php echo $l->t('A proven, certified code base for legal compliance legislation.');?></p>
+                <p>
+                • <?php echo $l->t('Guarantee that all code is secure, proven and certified for GDPR and HIPAA compliance');?><br />
+                • <?php echo $l->t('Access to enterprise GDPR documentation and compliance expertise necessary for data requests');?></p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
 <!--<div class="separator"></div>
 
 <a name="security" id="security"></a>
@@ -126,7 +186,7 @@
 	<div class="container">
 		<h2 class="text-center"><?php echo $l->t('Security');?></h2>
         <div class="ilustration">
-            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/security-new.svg"); ?>
+            <?php echo file_get_contents(__DIR__."/assets/img/enterprise/security-new.svg"); ?>
         </div>
         <div class="content">
             <p class="text-center"><?php echo $l->t('Nextcloud develops its software with a rigorous focus on security through the entire life cycle of the product. Our active and passive security measures are backed by the some of the highest security bug bounties in the open source industry.');?></p>
@@ -142,7 +202,7 @@
 	<div class="container">
         <h2 class="text-center"><?php echo $l->t('Compliance');?></h2>
         <div class="ilustration integrity__ilustration">
-            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/data_safe-new.svg"); ?>
+            <?php echo file_get_contents(__DIR__."/assets/img/enterprise/data_safe-new.svg"); ?>
         </div>
         <div class="content">
             <p class="text-center"><?php echo $l->t('Nextcloud Enterprise is a guaranteed proven, certified code base for legal compliance legislation like the GDPR and HIPAA. You can count on our expertise, documentation and reviews.');?></p>
@@ -159,7 +219,7 @@
 	<div class="container">
 		<h2 class="text-center"><?php echo $l->t('Scalability');?></h2>
         <div class="ilustration illustration-scalability">
-            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/globalscale/final.svg"); ?>
+            <?php echo file_get_contents(__DIR__."/assets/img/globalscale/final.svg"); ?>
         </div>
         <div class="content">
             <p class="text-center"><?php echo $l->t('Nextcloud Enterprise is pre-configured and optimized for the needs of professional organizations rather than home users.');?></p>
@@ -177,7 +237,7 @@
 	<div class="container">
 		<h2 class="text-center"><?php echo $l->t('Reliability');?></h1>
         <div class="ilustration lifecycle__ilustration">
-            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/ilustration_matterexperts-new.svg"); ?>
+            <?php echo file_get_contents(__DIR__."/assets/img/enterprise/ilustration_matterexperts-new.svg"); ?>
         </div>
         <div class="content">
             <p class="text-center"><?php echo $l->t('Nextcloud Enterprise undergoes additional testing and quality assurance to provide you the most reliable solution. Align to your platform with a life cycle of up to 15 years.');?></p>
@@ -205,24 +265,21 @@
         </div>
         <div class="row">
             <div class="col-lg-8">
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper!');?><br>
-                    <td colspan="2">
-                    <div class="">
-                        <div id="RecaptchaField1"></div>
-                    </div>
-                    </td>
                     <input type="hidden" name="segmentId" value="1">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="<?php echo $l->t('Enter your email');?>"></label>
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <div class="newsletter">
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
-                        <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?> <?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
                     </div>
-                    <input class="button button--blue button--large" type="submit" value=" <?php echo $l->t('Get the whitepaper');?> "></p>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
+
             </div>
         </div>
         <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/architecture-thumbnail-banner.png"/>
@@ -234,19 +291,14 @@
         <div class="row">
 			<div class="col-lg-8">
                 <h2><?php echo $l->t('<span class="avoidwrap">How the TU Berlin delivers</span> <span class="avoidwrap">file sync and share</span> <span class="avoidwrap">to 22.000 users</span>');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our free case study: <br /> TU Berlin and 9 other institutions migrate to Nextcloud');?><br>
-                    <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div id="RecaptchaField2"></div>
-                    </div>
-                    </td>
                     <input type="hidden" name="segmentId" value="5">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="<?php echo $l->t('Enter your email');?>"></label>
                     <div class="newsletter">
                         <input type="hidden" name="newsletter" value="0" />
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small><br/>
                         <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
                     </div>
                     <input class="button button--large" type="submit" value=" <?php echo $l->t('Get the case study');?> "></p>

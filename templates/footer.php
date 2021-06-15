@@ -11,7 +11,7 @@ $l = new L10N('footer');
 </style>
 <div class="alert alert--no-js" id="no-js">
   <div class="container" style="display: inherit">
-		<?php echo file_get_contents(get_template_directory_uri()."/assets/img/warning.svg"); ?>
+		<?php echo file_get_contents(__DIR__."/../assets/img/warning.svg"); ?>
     <p style="display: inherit"><strong><?php echo $l->t('You have javascript disabled.'); ?></strong> <?php echo $l->t('We tried to make sure the basics of our website work but some functionality will be missing.'); ?></p>
   </div>
 </div>
@@ -66,6 +66,7 @@ $l = new L10N('footer');
                 <li><a href="<?php echo home_url('developer'); ?>"><?php echo $l->t('Developer program'); ?></a></li>
                 <li><a href="<?php echo home_url('security'); ?>"><?php echo $l->t('Security'); ?></a></li>
                 <li><a href="https://github.com/nextcloud"><?php echo $l->t('Code on GitHub'); ?></a></li>
+                <li><a href="<?php echo home_url('compare'); ?>"><?php echo $l->t('Compare'); ?></a></li>
             </ul>
         </div>
         <div class="col-sm-3">

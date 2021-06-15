@@ -63,20 +63,17 @@
         <div class="row">
             <div class="col-lg-8">
                 <h2><?php echo $l->t('Server-side Encryption');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our free whitepaper');?><br>
-                     <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div id="RecaptchaField2"></div>
-                    </div>
-                    </td>
                     <input type="hidden" name="segmentId" value="11">
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <div class="newsletter">
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small><br/>
                         <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
                     </div>
                     <input class="button button--large" type="submit" value=" Get the whitepaper "></p>
@@ -106,7 +103,7 @@
     <div class="features--container row">
         <div class="col-md-4">
             <div class="feature">
-                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/saml.svg"); ?>
+                <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/saml.svg">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Encrypted data transfer');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud employs industry-standard TLS to encrypt data in transfer. Usage of Object Storage like Amazon S3 or other external storage systems can be secured through Server Side Encryption.');?></p>
             </div>
@@ -177,20 +174,17 @@
         <div class="row">
             <div class="col-lg-8">
                 <h2><?php echo $l->t('End-to-end Encryption');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
-                    <p><label for="email"><?php echo $l->t('Download our free whitepaper');?><br>
-                     <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div id="RecaptchaField2"></div>
-                    </div>
-                    </td>
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
+                    <p><label for="email"><?php echo $l->t('Download our free whitepaper');?></p>
                     <input type="hidden" name="segmentId" value="12">
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <div class="newsletter">
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small><br/>
                         <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
                     </div>
                     <input class="button button--large" type="submit" value=" Get the whitepaper "></p>

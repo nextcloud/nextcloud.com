@@ -1,6 +1,5 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/ionos.css?v=4" rel="stylesheet">
-<!-- 	<script src='https://www.google.com/recaptcha/api.js'></script> -->
 <!-- 	I need this for the last script on the page to work, require.js seems to not make jquery available in the page js :( -->
 	<script src='<?php echo get_template_directory_uri(); ?>/assets/js/old/vendor/jquery-1.10.2.min.js'></script>
 
@@ -22,32 +21,11 @@
     </div>
 </section>
 
-<?php
-
-$int1 = random_int(0, 15);
-$int2 = random_int(0, 50);
-$salt = bin2hex(random_bytes(5));
-$hash = hash('sha256', $salt . ($int1 + $int2));
-$checksum = $salt . ':' . $hash;
-
-$image = imagecreate(100, 20);
-$background_color = imagecolorallocate($image, 255, 255, 255);
-$text_color = imagecolorallocate($image, 0, 0, 0);
-imagestring($image, 5, 3, 2, $int1 . ' + ' . $int2, $text_color);
-
-ob_start();
-imagepng($image);
-$imagestring = ob_get_contents();
-ob_end_clean();
-imagedestroy($image);
-?>
-
 <section class="section--intro">
 <div class="container">
 	<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-			<stream src="eb1384b4fa48d8f47abdec5051bc922d" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/hub-video.png"></stream>
-            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=eb1384b4fa48d8f47abdec5051bc922d"></script>
+			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555692548?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Accessibility themes.mp4"></iframe></div>
 		</div>
     </div>
 	<div class="row">
@@ -247,7 +225,7 @@ imagedestroy($image);
                         <option value="charity"><?php echo $l->t('Charitable');?></option>
                     </select></label>-->
                     <p><h3><?php echo $l->t('Optional features:');?></h3></p>
-                    <input disabled type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>" target="_blank"><?php echo $l->t('our Outlook add-in <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 0.5/user/month)');?></span><br/>
+                    <input disabled type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>" target="_blank"><?php echo $l->t('our Outlook add-in <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 0.6/user/month)');?></span><br/>
         <!-- 			<p><h4><?php echo $l->t('Only with a Standard Subscription:');?></h4></p> -->
         <!-- 			<input disabled id="collaboraCheck" type="checkbox" name="collaboraCheck" value="collaboraCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('collaboraonline') ?>" target="_blank">Collabora Online <i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('(€ 17/user for the first 100, € 16/user after that)');?></span><br/> -->
         <!-- 			<input disabled id="onlyofficeCheck" type="checkbox" name="onlyofficeCheck" value="onlyofficeCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('onlyoffice') ?>" target="_blank">ONLYOFFICE <i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('(€ 935 for the first 250 users)');?></span><br/> -->
@@ -279,12 +257,6 @@ imagedestroy($image);
                     <textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="<?php echo $l->t('Questions, comments, special needs? Do you represent a government, educational or charitable business or need more than 200 users? Let us know and we can provide you a custom offer or answers to your questions.');?>"></textarea></label></p>
                     <p><input type="checkbox" name="terms" value="terms" onChange="doCalculation()"> <?php echo $l->t('I have read and agree to the');?> <a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/files/termsfornextcloudorder.pdf"><?php echo $l->t('terms and conditions');?> <i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('and understand and agree we share your details with our partners Viakom and IONOS for processing.');?></p>
                     <p><?php echo $l->t('Note: all prices excl. VAT');?></p>
-                    <p><label for="captcha"><?php echo $l->t('Please calculate the following sum');?> <span></span><br>
-                    <img src="data:image/png;base64,<?php echo base64_encode($imagestring); ?>"><br>
-                    <input  type="text" name="captcha" maxlength="20" size="20" placeholder="13"></label></p>
-                    <input  type="hidden" name="checksum" value="<?php echo $checksum;?>">
-                    <td colspan="2" style="text-align:center">
-                    <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
                     <input type="submit" name="submit" value=" Order Now " disabled="disabled" class="button button--blue"><br />
                     <span id="form-error"><?php echo $l->t('Some required fields are not filled. Scroll up to check what the problem is. Note the form does not support special characters.'); ?></span>
                 </form>
@@ -297,7 +269,7 @@ imagedestroy($image);
             <li class="section--paragraph"><?php echo $l->t('The subscription can be cancelled monthly.');?></li>
             <li class="section--paragraph"><?php echo $l->t('5GB storage per user is included. Additional storage is available with prices starting at Eur 2,00/month for 50GB.');?></li>
             <li class="section--paragraph"><?php echo $l->t('Multiple backup options available, depending on storage needs.');?></li>
-            <li class="section--paragraph"><?php echo $l->t('Education and government pricing available with discounts up to 80%.');?></li>
+            <li class="section--paragraph"><?php echo $l->t('Education and government pricing available with discounts up to 80%. Note this in the form and we will send you an offer.');?></li>
             <li class="section--paragraph"><?php echo $l->t('IONOS hosting is currently only available for customers in Europe.');?></li>
         </div>
     </div>
@@ -424,7 +396,7 @@ imagedestroy($image);
 			// collabora, Outlook and remote install only with Standard
 			if(includeOutlook.checked==true)
 			{
-				outlookPrice = multiYearDiscount(selectedUsersNumber.value * 0.5);
+				outlookPrice = multiYearDiscount(selectedUsersNumber.value * 0.6);
 				// apply edu/gov/charity discount
 				outlookPrice = edugovcharDiscount(outlookPrice);
 				optionsPrice = optionsPrice + outlookPrice;

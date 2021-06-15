@@ -48,7 +48,7 @@ require(["require.config"], function() {
         <div class="row feature--block">
             <div class="col-md-6 image--floated">
                 <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556890169?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud File Drop.mp4"></iframe></div>
             </div>
             <div class="col-md-6">
                 <h2 class="section--paragraph__title"><?php echo $l->t('Work, share, collaborate, enjoy');?></h2>
@@ -61,7 +61,7 @@ require(["require.config"], function() {
         <div class="row feature--block">
             <div class="col-md-6">
                 <div data-type="youtube" data-video-id="Nr7cGN6ZJM0"></div>
-                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/Nr7cGN6ZJM0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555703705?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Text and Talk video"></iframe></div>
             </div>
             <div class="col-md-6">
             <h3 class="section--paragraph__title"><?php echo $l->t('Work with others');?></h3>
@@ -71,7 +71,7 @@ require(["require.config"], function() {
         </div>
         <div class="row feature--block">
             <div class="col-md-6 image--floated">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/NRhVP9rXHVY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556890862?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud integrates collaboration"></iframe></div>
             </div>
             <div class="col-md-6">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Collaboration features');?></h3>
@@ -85,12 +85,13 @@ require(["require.config"], function() {
                     <li><?php echo $l->t('Smoothly transition between commenting on files to chat or video calls');?></li>
                     <li><?php echo $l->t('Transfer ownership of files and folders to other users');?></li>
                     <li><?php echo $l->t('Lock files so others know you are working with them');?></li>
+                    <li><?php echo $l->t('Add a description to public links so you can keep them apart');?></li>
                 </ul>
             </div>
         </div>
         <div class="row feature--block">
             <div class="col-md-6">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/puSDKV4ZdvA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556891346?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sharing in Nextcloud 14  adding a note"></iframe></div>
             </div>
             <div class="col-md-6">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Sharing features');?></h3>
@@ -126,7 +127,7 @@ require(["require.config"], function() {
         <div id="videoverificationScroll"></div>
         <div class="row">
             <div class="col-md-6">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/Pffusr1bac4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556062380?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Introduction video of Video Verification"></iframe></div>
             </div>
             <div class="col-md-6">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Video Verification');?></h3>
@@ -165,12 +166,11 @@ require(["require.config"], function() {
         <div class="col-md-6">
             <h3 class="section--paragraph__title"><?php echo $l->t('Realtime collaboration in a team');?></h3>
             <div data-type="youtube" data-video-id="Nr7cGN6ZJM0"></div>
-            <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/Nr7cGN6ZJM0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555703705?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Text and Talk video"></iframe></div>
         </div>
         <div class="col-md-6">
             <h3 class="section--paragraph__title"><?php echo $l->t('Watermarks and secure inbox');?></h3>
-            <div data-type="youtube" data-video-id="nueL_hzDp-s"></div>
-            <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/nueL_hzDp-s" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556896875?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Secure view_ blocking downloads, watermarking and secure mailboxes in Nextcloud.mp4"></iframe></div>
         </div>
     </div>
 </div>

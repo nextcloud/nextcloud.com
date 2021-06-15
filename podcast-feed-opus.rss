@@ -5,7 +5,7 @@
     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>The Nextcloud Podcast</title>
-    <pubDate>Fri, 05 Jun 2020 12:00:00 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2020 12:00:00 GMT</pubDate>
     <googleplay:author>Nextcloud</googleplay:author>
     <language>en</language>
     <copyright>All rights reserved</copyright>
@@ -38,22 +38,131 @@
     <language>en-us</language>
     <atom:link href="https://nextcloud.com/podcast-feed.xml" rel="self" type="application/rss+xml" />
     <link>https://nextcloud.com/podcast/</link>
+   
+  <item>
 
+      <title>Interview with Michael Meeks, the General Manager of Collabora Productivity</title>
+      <itunes:subtitle>In this 10th episode, our host Ingo talked with Michael Meeks, the General Manager of Collabora Productivity.</itunes:subtitle>
+      <itunes:summary>In this 10th episode, our host Ingo talked with Michael Meeks, Open Source developer and General Manager of Collabora Productivity, leading Collabora Online and Office products, supporting customers, and consulting on development alongside his team.</itunes:summary>
+      <itunes:duration>01:09:50</itunes:duration>
+      <description>In this 10th episode, our host Ingo talked with Michael Meeks, the enthusiastic Open Source developer and General Manager of Collabora Productivity, leading Collabora Online and Office products, supporting customers, and consulting on development alongside his team.</description>
+      <pubDate>Fri, 30 Apr 2021 12:00:00 GMT</pubDate>
+        <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_010.opus"
+                 type="audio/opus" length="39969326"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_010.opus</guid>
+      <link>https://nextcloud.com/blog/interview-with-michael-meeks-the-general-manager-of-collabora-productivity/</link>
+    </item>
+       <item>
+      <title>Interview with Marco Nöchel and Thorsten Krüger from HKN</title>
+      <itunes:subtitle>In this 9th-episode, our host Ingo talked with Marco Nöchel and Thorsten Krüger from HKN</itunes:subtitle>
+      <itunes:summary>In this 9th-episode, our host Ingo talked with Marco Nöchel, the CEO, and engineer Thorsten Krüger from HKN GmbH, which is the biggest multi-region German Openstack Cloud, and Nextcloud silver partner.</itunes:summary>
+      <itunes:duration>00:40:30</itunes:duration>
+      <description>In this 9th-episode, our host Ingo talked with Marco Nöchel, the CEO, and engineer Thorsten Krüger from HKN GmbH, which is the biggest multi-region German Openstack Cloud, and Nextcloud silver partner.</description>
+      <pubDate>Thu, 1 Apr 2021 12:00:00 GMT</pubDate>
+        <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_009.opus"
+                 type="audio/opus" length="25779998"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_009.opus</guid>
+      <link>https://nextcloud.com/blog/podcast-no-9-interview-with-marco-nochel-and-thorsten-kruger-from-hkn/</link>
+    </item>
+
+          <item>
+      <title>Podcast No. 8 - Interview with Arthur Schiwon about Nextcloud Flow</title>
+      <itunes:subtitle> In this eight-episode, our host Ingo talked with Arthur, the Senior Software Engineer at Nextcloud about Nextcloud Flow.</itunes:subtitle>
+      <itunes:summary>In this eight-episode, our host Ingo talked with Arthur, Senior Software Engineer at Nextcloud. about Nextcloud Flow. Nextcloud Flow is the workflow engine of Nextcloud.
+      </itunes:summary>
+      <itunes:duration>00:25:39</itunes:duration>
+      <description>In this eight-episode, our host Ingo talked with Arthur, Senior Software Engineer at Nextcloud, about Nextcloud Flow. Nextcloud Flow is the workflow engine of Nextcloud. </description>
+      <pubDate>Fri, 26 Feb 2021 9:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_008.opus"
+                 type="audio/opus" length="22468334"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_008.opus</guid>
+      <link>https://nextcloud.com/blog/podcast-no-8-interview-with-arthur-schiwon-about-nextcloud-flow/</link>
+    </item>
+
+    <item>
+      <title>Interview with Stefan Niedermann, an amazing community member!</title>
+      <itunes:subtitle>On our seventh podcast, Ingo talks to one of our community members, Stefan Niedermann about how he started contributing to Nextcloud and developing Nextcloud Notes and Nextcloud Deck app.</itunes:subtitle>
+      <itunes:summary>On our seventh podcast, Ingo talks to our community member, Stefan Niedermann about his work and how he started contributing to Nextcloud and developing Nextcloud Notes and Nextcloud Deck app.
+      </itunes:summary>
+      <itunes:duration>00:29:58</itunes:duration>
+      <description>On our seventh podcast, Ingo talks to an amazing community member, Stefan Niedermann about how he started contributing to Nextcloud and developing Nextcloud Notes and Nextcloud Deck app.</description>
+      <pubDate>Tue, 26 Jan 2021 9:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_007.opus"
+                 type="audio/opus" length="23991906"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_007.opus</guid>
+      <link>https://nextcloud.com/blog/the-first-episode-in-2021-interview-with-our-amazing-community-member-stefan/</link>
+    </item>
+
+    <item>
+      <title>Nextcloud’s first-hand work experience: Life and X-mas in Hawaii</title>
+      <itunes:subtitle>On our sixth podcast, Ingo talks to Edeltraut about remote work experience, life and X-mas in Hawaii</itunes:subtitle>
+      <itunes:summary>Edeltraut had the opportunity to work for Nextcloud from different locations and here’s her story from her current location: tuning in directly from Hawaii!</itunes:summary>
+      <itunes:duration>00:44:41</itunes:duration>
+      <description>Edeltraut had the opportunity to work for Nextcloud from different locations and here’s her story from her current location: tuning in directly from Hawaii!</description>
+      <pubDate>Tue, 22 Dec 2020 9:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_006.opus"
+                 type="audio/opus" length="35165810"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_006.opus</guid>
+      <link>https://nextcloud.com/blog/nextclouds-first-hand-work-experience-life-and-x-mas-in-hawaii/</link>
+    </item>
+
+    <item>
+      <title>Interview with Björn about federation, sharing and sales engineering</title>
+      <itunes:subtitle>On our fifth podcast, Ingo talks to Nextcloud sales engineer Björn about his work and Nextcloud sharing features.</itunes:subtitle>
+      <itunes:summary>A brief discussion with the Nextcloud sales engineering team lead about sales and engineering, as well as the Nextcloud features around sharing between Nextcloud servers (federation), global address books and how Nextcloud makes it easier to keep your data private.</itunes:summary>
+      <itunes:duration>00:26:01</itunes:duration>
+      <description>A brief discussion with the Nextcloud sales engineering team lead about sales and engineering, as well as the Nextcloud features around sharing between Nextcloud servers (federation), global address books and how Nextcloud makes it easier to keep your data private.</description>
+      <pubDate>Thu, 26 Nov 2020 9:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_005.opus"
+                 type="audio/opus" length="21985810"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_005.opus</guid>
+      <link>https://nextcloud.com/blog/podcast-5-interview-with-bjorn-about-federation-sharing-and-sales-engineering/</link>
+    </item>
+
+    <item>
+      <title>Interview with Rhys Davies from Canonical</title>
+      <itunes:subtitle>On our fourth podcast, host Ingo interviews Rhys Davies from Canonical about the Nextcloud Ubuntu Appliance.</itunes:subtitle>
+      <itunes:summary>On our fourth podcast, host Ingo interviews Rhys Davies from Canonical about the Nextcloud Ubuntu Appliance. Find out what the Ubuntu appliances are all about, and what the benefits of Nextcloud as an appliance are.
+      </itunes:summary>
+      <itunes:duration>00:28:12</itunes:duration>
+      <description>On our fourth podcast, host Ingo interviews Rhys Davies from Canonical about the Nextcloud Ubuntu Appliance. Find out what the Ubuntu appliances are all about, and what the benefits of Nextcloud as an appliance are.
+      </description>
+      <pubDate>Fri, 25 Sep 2020 9:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_004.opus"
+                 type="audio/opus" length="19732792"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_004.opus</guid>
+      <link>https://nextcloud.com/blog/our-fourth-nextcloud-podcast-interview-with-rhys-davies/</link>
+    </item>
 
     <item>
       <title>Frank Karlitschek on remote working</title>
       <itunes:subtitle>Our third episode is a conversation about remote work with Nextcloud CEO Frank Karlitschek.</itunes:subtitle>
       <itunes:summary>On our third podcast, host Ingo discusses working remote with Nextcloud CEO Frank Karlitschek. Nextcloud is a company centered around remote work, hiring the best and most motivated people wherever they live. With some team members as far from our Stuttgart office as Hawaii and Cape Verde force us to work efficiently across time zones and vast distances. Frank and Ingo cover the what, why and how of working remotely, and discuss how Nextcloud itself is an important tool in how we collaborate.</itunes:summary>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_003.opus"
+                 type="audio/opus" length="24497568"/>
       <itunes:duration>00:31:46</itunes:duration>
       <description>On our third podcast, host Ingo discusses working remote with Nextcloud CEO Frank Karlitschek. Nextcloud is a company centered around remote work, hiring the best and most motivated people wherever they live. With some team members as far from our Stuttgart office as Hawaii and Cape Verde force us to work efficiently across time zones and vast distances. Frank and Ingo cover the what, why and how of working remotely, and discuss how Nextcloud itself is an important tool in how we collaborate.</description>
       <pubDate>Tue, 04 Aug 2020 14:00:00 GMT</pubDate>
-      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_003.opus"
-                 type="audio/opus" length="24497568"/>
       <itunes:author>Nextcloud</itunes:author>
       <itunes:explicit>no</itunes:explicit>
       <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_003.opus</guid>
       <link>https://nextcloud.com/blog/nextcloud-podcast-pt-iii-frank-karlitschek-on-remote-working/</link>
     </item>
+
     <item>
       <title>Part two of our conversation with Nextcloud designer, Jan</title>
       <itunes:subtitle>In this episode we continue our conversation and turn towards the subject of design.</itunes:subtitle>
@@ -75,16 +184,14 @@
       <itunes:summary>In this very first episode we introduce our podcast, discussing with Nextcloud designer and community manager Jan Christoph Borchardt what our podcast will be covering going forward.</itunes:summary>
       <itunes:duration>00:35:59</itunes:duration>
       <description>In this very first episode we introduce our podcast, discussing with Nextcloud designer and community manager Jan Christoph Borchardt what our podcast will be covering going forward.</description>
-      <pubDate>Fri, 05 Jun 2020 12:00:00 GMT</pubDate>
-            <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_001.opus"
+      <pubDate>Mon, 08 Jun 2020 12:00:00 GMT</pubDate>
+        <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_001.opus"
                  type="audio/opus" length="24049966"/>
       <itunes:author>Nextcloud</itunes:author>
       <itunes:explicit>no</itunes:explicit>
-      <guid>Nextcloud_Podcast_001</guid>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_001.opus</guid>
       <link>https://nextcloud.com/blog/introducing-the-nextcloud-podcast/</link>
     </item>
     <!--END REPEAT-->
-
-
     </channel>
 </rss>

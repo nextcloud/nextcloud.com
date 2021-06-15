@@ -215,23 +215,19 @@
         <div class="row">
 			<div class="col-lg-8">
                 <h2><?php echo $l->t('Get our whitepaper');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p class="section--paragraph"><label for="email"><?php echo $l->t('Our GDPR Overview document offers a basic 12 step process to GDPR compliance, as part of our GDPR Compliance Kit. Customers can download the complementing GDPR Admin Manual on our customer portal.');?><br>
-                    <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-                    </div>
-                    </td>
                     <input type="hidden" name="segmentId" value="46">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="<?php echo $l->t('Enter your email'); ?>"></label>
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <div class="newsletter">
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
-                        <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?> <?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
                     </div>
-                    <input class="button button--large" type="submit" value=" Get the whitepaper "></p>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
             </div>
         </div>
@@ -351,7 +347,7 @@
         <div class="row feature-row">
             <div class="col-md-6 image--floated">
                 <div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
-                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/jwhfeJlYBbM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556108262?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Outlook Add-in"></iframe></div>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Integrated in email');?></h3>
@@ -398,11 +394,11 @@
     </div>
     <div class="row ">
         <div class="col-md-6">
-            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/kerberos.svg");?>
+            <?php echo file_get_contents(__DIR__."/assets/img/icons/kerberos.svg");?>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud integrates in hospital infrastructure with support for SAML and Shibboleth, LDAP, Kerberos, Oauth, and other often used authentication mechanisms and runs on all enterprise Linux systems offering support options to match their life cycle.');?></p>
         </div>
         <div class="col-md-6">
-            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/storage.svg");?>
+            <?php echo file_get_contents(__DIR__."/assets/img/icons/storage.svg");?>
             <p class="section--paragraph"><?php echo $l->t('Data storage can be one or multiple NFS, Object Storage, Samba or a variety of other powerful storage mechanisms. This way Nextcloud provides seamless access to data on existing storage mechanisms, respecting existing access control policies and transparently handling changes on the underlying storage layer.');?></p>
         </div>
     </div>
@@ -410,23 +406,19 @@
         <div class="col-md-offset-4 col-md-4 wp-center">
             <p>
             <div class="row "><img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/architecture-thumbnail-banner.png"/></div>
-            <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+            <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper!');?><br>
-                    <td colspan="2">
-                    <div class="">
-                        <div id="RecaptchaField1"></div>
-                    </div>
-                    </td>
                     <input type="hidden" name="segmentId" value="1">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="<?php echo $l->t('Enter your email');?>"></label>
+                                        <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <div class="newsletter">
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
-                        <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?>. <?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
                     </div>
-                    <input class="button button--blue button--large" type="submit" value=" <?php echo $l->t('Get the whitepaper');?> "></p>
+                    <input class="button button--blue button--small" type="submit" value="Download whitepaper"></p>
                 </form>
             </p>
         </div>

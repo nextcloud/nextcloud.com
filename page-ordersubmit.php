@@ -5,20 +5,26 @@
 		require(["pages/enterprise"])
 	});
 </script>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/enterprise.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/enterprise.css?v=2" rel="stylesheet">
 </head>
 <section class="enterprise-hero-section second-menu">
 	<div class="container-fluid background">
 		<div class="container">
 			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Get support from the source');?></h1>
-				<h2><?php echo $l->t('The best expertise whenever you need it!');?></h2>
+                <h1><?php echo $l->t('Nextcloud Enterprise');?></h1>
+                <h2><?php echo $l->t('The enterprise-ready Content Collaboration Platform');?></h2>
 			</div>
 		</div>
 	</div>
 </section>
 <div class="container">
 <?php
+require_once realpath(dirname(__FILE__)) . '/lib/ratelimiter.php';
+require_once realpath(dirname(__FILE__)) . '/lib/captcha.php';
+
+if(!canPerformLimitedAction("order-submit-action", 5)) {
+  die("Too many requests. Please try again later.");
+}
 
 class ValidationException extends Exception {};
 
@@ -48,9 +54,7 @@ if(isset($_POST['email'])) {
         !isset($_POST['email']) ||
         !isset($_POST['organization']) ||
         !isset($_POST['phone']) ||
-        !isset($_POST['address']) ||
-        !isset($_POST['checksum']) ||
-        !isset($_POST['captcha'])) {
+        !isset($_POST['address'])) {
 
         died('<li>Not all required fields are set (name, email, organization, phone number and address are required).</li>');
     }
@@ -72,26 +76,18 @@ if(isset($_POST['email'])) {
     $collaboraCheck = $_POST['collaboraCheck']  === 'collaboraCheck' ? 'yes' : 'no';
     $onlyofficeCheck = $_POST['onlyofficeCheck']  === 'onlyofficeCheck' ? 'yes' : 'no';
     $outlook = $_POST['outlook'] === 'outlook' ? 'yes' : 'no';
-    $remoteinstall = $_POST['remoteinstall'] === 'remoteinstall' ? 'yes' : 'no';
+//     $remoteinstall = $_POST['remoteinstall'] === 'remoteinstall' ? 'yes' : 'no';
+    $remoteinstall = 'no';
     $givenprice = $_POST['givenPrice'];
     //$spreed = $_POST['spreed'];
     //$branding = $_POST['branding'];
     $dollars = $_POST['dollars'];
     $terms = $_POST['terms'] === 'terms' ? 'yes' : 'no';
-    $checksum = $_POST['checksum']; // required
-    $captcha = $_POST['captcha'];
+    $foundnextcloud = $_POST['foundnextcloud'];
     $error_message = "";
 
-
-    if (strlen($checksum) !== 75 || !strpos($checksum, ':')) {
-        $error_message .= 'The checksum is not valid.<br />';
-    } else {
-        list($salt, $expectedHash) = explode(':', $checksum, 2);
-        $hash = hash('sha256', $salt . $captcha);
-
-        if ($hash !== $expectedHash) {
-            $error_message .= 'The captcha result you entered does not appear to be correct.<br />';
-        }
+    if(!IsValidCaptcha($_POST['captcha'])) {
+        $error_message .= 'The captcha result you entered does not appear to be correct.<br />';
     }
 
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
@@ -109,27 +105,6 @@ if(isset($_POST['email'])) {
     //   if(strlen($comments) < 8) {
     //     $error_message .= 'Your input is pretty short! <br />';
     //   }
-//       if(RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
-//         $url = 'https://www.google.com/recaptcha/api/siteverify';
-//         $ch = curl_init();
-//
-//         curl_setopt($ch, CURLOPT_URL, $url);
-//         curl_setopt($ch, CURLOPT_POST, 1);
-//         curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_SECRET, 'response' => $_POST['g-recaptcha-response'])));
-//         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-//
-//         $server_output = curl_exec($ch);
-//
-//         $server_output = json_decode($server_output, true);
-//
-//         curl_close($ch);
-//
-//         if (!isset($server_output['success']) || $server_output['success'] !== true) {
-//           $error_message .= 'The captcha result was invalid.<br />';
-//         }
-//       } else {
-//         $error_message .= 'Captcha code is missing.<br />';
-//       }
 
     if ($terms !== 'yes') {
         $error_message .= '<li>Terms need to be signed.</li>';
@@ -141,20 +116,20 @@ if(isset($_POST['email'])) {
         $error_message .= '<li>Only "basic" and "standard" are valid subscriptions.</li>';
     } else {
         $basicNumbers = [
-            50 => 1900,
-            75 => 2650,
-            100 => 3400,
-            150 => 4400,
-            200 => 5400,
-            250 => 6400,
+            50 => 1995,
+            75 => 2782,
+            100 => 3570,
+            150 => 4620,
+            200 => 5670,
+            250 => 6720,
         ];
         $standardNumbers = [
-            50 => 3400,
-            75 => 4750,
-            100 => 6100,
-            150 => 7600,
-            200 => 9100,
-            250 => 10600,
+            50 => 3604,
+            75 => 5034,
+            100 => 6466,
+            150 => 8056,
+            200 => 9646,
+            250 => 11235,
         ];
 
         switch($edition) {
@@ -178,7 +153,7 @@ if(isset($_POST['email'])) {
 
             // OUTLOOK
             if ($outlook === 'yes') {
-                $outlookPrice = $users * 5;
+                $outlookPrice = $users * 7.2;
             }
 
             if ($edition === 'standard') {
@@ -242,15 +217,15 @@ if(isset($_POST['email'])) {
             } else {
                 switch ($duration) {
                     case 2:
-                        $usersPrice *= 1.9;
-                        $outlookPrice *= 1.9;
-                        $collaboraPrice *= 1.9;
+                        $usersPrice *= 1.92;
+                        $outlookPrice *= 1.92;
+                        $collaboraPrice *= 1.92;
                         $onlyofficePrice *= 2;
                         break;
                     case 3:
-                        $usersPrice *= 2.75;
-                        $outlookPrice *= 2.75;
-                        $collaboraPrice *= 2.75;
+                        $usersPrice *= 2.8;
+                        $outlookPrice *= 2.8;
+                        $collaboraPrice *= 2.8;
                         $onlyofficePrice *= 3;
                         break;
                 }
@@ -302,6 +277,7 @@ if(isset($_POST['email'])) {
 		$email_message .= "Number of Collabora users (17€ for first 99, then 16€/user): " . clean_string($collaboraCheck) . "\n";
 		$email_message .= "Would like ONLYOFFICE option (935€ for first 250): " . clean_string($onlyofficeCheck) . "\n";
 		$email_message .= "Would like remote installation help (990 €): " . clean_string($remoteinstall) . "\n\n";
+        $email_message .= "How did you find out about Nextcloud? ".clean_string($foundnextcloud)."\n";
 		// 	$email_message .= "Would like Branding option: ".clean_string($branding)."\n";
 		// 	$email_message .= "Would like Spreed option: ".clean_string($spreed)."\n";
 		$email_message .= "Price: " . clean_string($givenprice) . "\n";

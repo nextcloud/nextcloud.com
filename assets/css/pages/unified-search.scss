@@ -1,0 +1,25 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+/* @import '../modules/vertical'; */
+.unified-search-background {
+  background: url("../../img/headers/unified-search.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px
+}
+
+.section--intro {
+    //padding-top: 0;
+    //margin-top: 20px;
+    p {
+        margin-top: 20px;
+    }
+    .video .video-js {
+        background-color: transparent !important;
+    }
+}
+
+
+footer {
+    margin-top: 100px;
+}

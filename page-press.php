@@ -2,7 +2,20 @@
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/generic.css?v=1" rel="stylesheet">
 <!--     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css"> -->
 <!--     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script> -->
-
+<script>
+    require(["require.config"], function() {
+        require(["pages/scroll"])
+    });
+</script>
+<style>
+.thelogo {
+    height: 200px;
+}
+.description {
+height: 100px;
+}
+</style>
+</head>
 <div class="background generic-background">
 	<div class="container">
 		<div class="row">
@@ -17,10 +30,135 @@
 <div class="container">
     <h2>Current Release Information</h2>
     <h3>Nextcloud <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></h3>
-    <a class="button button--large button--white button--arrow" target="_blank" href="https://nextcloud.com/blog/nextcloud-hub-brings-productivity-to-home-office/">Announcement blog</a><br />
-    <a href="<?php echo home_url('press/pr20200117-2') ?>" class="button button--large button--white button--arrow">Press release</a>
-    <h2>Press releases 2020</h2>
+    <a class="button button--large button--white button--arrow" target="_blank" href="https://nextcloud.com/blog/nextcloud-hub-21-out-with-up-to-10x-better-performance-whiteboard-and-more-collaboration-features/">Announcement blog</a><br />
+    <a href="<?php echo home_url('press/pr20210222-1') ?>" class="button button--large button--white button--arrow">Press release</a>
+    <h2>Press releases 2021</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20210504') ?>">May 4, 2021: OpenProject and Nextcloud announce collaboration and integration features</a></li>
+        <li><a href="<?php echo home_url('press/pr20210503') ?>">May 3, 2021: Nextcloud and 8Soft launch sales partnership</a></li>
+        <li><a href="<?php echo home_url('press/pr20210421') ?>">April 21, 2021: German government funds first open source personal health data store</a></li>
+        <li><a href="<?php echo home_url('press/pr20210416') ?>">April 16, 2021: Managed Nextcloud: IONOS launches Professional Cloud Storage</a></li>
+        <li><a href="<?php echo home_url('press/pr20210414') ?>">April 14, 2021: EU funds creation of first major European Solid provider for Enterprises</a></li>
+        <li><a href="<?php echo home_url('press/pr20210325') ?>">March 25, 2021: Canonical, Collabora, Nextcloud deliver work-from-home solution to Raspberry Pi and enterprise ARM users</a></li>
+        <li><a href="<?php echo home_url('press/pr20210222-1') ?>">February 22, 2021: Nextcloud Hub 21 out with up to 10x better performance, whiteboard and more collaboration features</a></li>
+        <li><a href="<?php echo home_url('press/pr20210222-2') ?>">February 22, 2021: Nextcloud near to double bookings in 2020, invests in expanding for 2021</a></li>
+        <li><a href="<?php echo home_url('press/pr20210203') ?>">February 03, 2021: Harvard Medical School, Kiel University of Applied Sciences and others are using Nextcloud in the fight against COVID-19</a></li>
+        <li><a href="<?php echo home_url('press/pr20210129') ?>">January 29, 2021: Nextcloud, Open-Xchange and Univention partner to create Sovereign Productivity suite</a></li>
+        <li><a href="<?php echo home_url('press/pr20210118') ?>">January 18, 2021: Nextcloud and VIBE Cybersecurity Join Forces to Launch Crypto as a Service</a></li>
+        <li><a href="<?php echo home_url('press/pr20210111') ?>">January 11, 2021: Telekom and Nextcloud offer Collaboration Platform</a></li>
+        <li>See below for press releases from 2020 and before.</li>
+    </ul>
+
+    <h2>Latest News and Annoucements</h2>
+    <?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 5, 'format' => 'html' ) ); ?>
+<a name="logo"></a>
+    <h2>Nextcloud Resources</h2>
+    <!-- <p>Find an overview of Nextcloud history <a href="/history">on our history page</a> and an overview with <a href="/faq">frequently asked questions in our FAQ</a>.</p> -->
+    <a href="<?php echo home_url('hub') ?>" class="button button--blue">Key Features of Nextcloud Hub</a>
+    <a href="<?php echo home_url('install') ?>" class="button button--blue">Download Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></a>
+    <h3>Official logo resources</h3>
+    <div class="row logolist">
+        <div class="col-md-2">
+            <div class="thelogo">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-logo.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-logo.png" class="img-responsive"></a>
+            </div>
+            <div class="description">
+                Standard logo <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-logo.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-logo.png">png</a></small>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="thelogo">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-enterprise-logo.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-enterprise-logo.png" class="img-responsive"></a>
+            </div>
+            <div class="description">
+                Nextcloud Enterprise logo <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-enterprise-logo.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-enterprise-logo.png">png</a></small>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="thelogo">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Hub-logo.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Hub-logo.png" class="img-responsive"></a>
+            </div>
+            <div class="description">
+                Nextcloud Hub logo <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Hub-logo.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Hub-logo.png">png</a></small>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="thelogo">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_nextcloud_white.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_nextcloud_white.png" class="img-responsive" style="background: rgba(128, 128, 128, 0.3)"></a>
+            </div>
+            <div class="description">
+                Transparent white logo <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_nextcloud_white.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_nextcloud_white.png">png</a></small>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="thelogo">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_nextcloud_blue.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_nextcloud_blue.png" class="img-responsive"></a>
+            </div>
+            <div class="description">
+                Inverted blue logo <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_nextcloud_blue.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_nextcloud_blue.png">png</a></small>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="thelogo">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Enterprise.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Enterprise.png" class="img-responsive"></a>
+            </div>
+            <div class="description">
+                Nextcloud Enterprise inverted logo <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Enterprise.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Enterprise.png">png</a></small>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 30px;">
+        <div class="col-md-2">
+            <div class="thelogo">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Enterprise-white.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Enterprise-white.png" class="img-responsive" style="background: rgba(128, 128, 128, 0.3)"></a>
+            </div>
+            <div class="description">
+                Nextcloud Enterprise white logo <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Enterprise-white.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Enterprise-white.png">png</a></small>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="thelogo">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Hub-logo-transparent.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Hub-logo-transparent.png" class="img-responsive" style="background: rgba(128, 128, 128, 0.3)"></a>
+            </div>
+            <div class="description">
+                Nextcloud Hub transparent logo <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Hub-logo-transparent.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Hub-logo-transparent.png">png</a></small>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thelogo">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Hub_background.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Hub_background.png" class="img-responsive"></a>
+            </div>
+            <div class="description">
+                Nextcloud Hub background <small><a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Hub_background.svg">svg</a> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud_Hub_background.png">png</a></small>
+            </div>
+        </div>
+    </div>
+ <h3>press photos, screenshots and videos</h3>
+    <div class="row">
+        <div class="col-md-3"><a href="https://nextcloud.com/media/screenshots.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/screenshots.png" class="img-responsive" alt="Download a zip file with press photos and screenshots"></a></div>
+        <div class="col-md-3"><a href="https://nextcloud.com/media/videos.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/videofiles.png" style="width: 100%" alt="Download a zip file with video files" class="img-responsive"></a></div>
+        <div class="col-md-3"><a href="https://www.youtube.com/c/Nextcloud"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/youtube.png" style="width: 100%" alt="View the Nextcloud community YouTube channel" class="img-responsive"></a></div>
+    </div>
+
+    <h2>Branding and Trademark Guidelines</h2>
+    <p>Our Trademark guidelines <a href="<?php echo home_url('trademarks') ?>">can be found here</a>.
+
+    <!-- Find graphics like posters, stickers, flyers, release banners and other designs in our <a href="https://github.com/nextcloud/promo">promo github account</a>.</p>-->
+    <h2>Inquiries</h2>
+    <p>For press inquiries, please contact <a href="mailto:pr@nextcloud.com" target="_blank">our marketing and PR team</a>.<p>
+    <h2>Older press releases</h2>
+    <ul>
+        <li><a href="<?php echo home_url('press/pr20201216') ?>">December 16, 2020: Nextcloud introduces one-click migration from privacy-unfriendly public cloud platforms</a></li>
+        <li><a href="<?php echo home_url('press/pr20201214-2') ?>">December 14, 2020: Hancom Works brings productivity, collaboration, and self-managed data privacy to the Cloud</a></li>
+        <li><a href="<?php echo home_url('press/pr20201214-1') ?>">December 14, 2020: Hancom and Nextcloud announce Strategic Partnership</a></li>
+        <li><a href="<?php echo home_url('press/pr20201210') ?>">December 10, 2020: SalesAgility and Nextcloud announce SuiteCRM integration collaboration</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-0') ?>">October 3, 2020: Nextcloud Hub 20 debuts Dashboard, unifies search, becomes an integration platform</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-1') ?>">October 3, 2020: Nextcloud becomes an integration platform with Microsoft, Google, Slack, Moodle, Github, Jira, Dropbox, Matrix and more</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-2') ?>">October 3, 2020: Nextcloud announces Gitlab integration at Nextcloud Conference</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-3') ?>">October 3, 2020: Nextcloud and Hancom partner up to provide users a secure, real-time co-authoring experience</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-4') ?>">October 3, 2020: Moodle and Nextcloud announce further integration steps at Nextcloud Conference</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-5') ?>">October 3, 2020: Zammad and Nextcloud announce collaboration at Nextcloud Conference</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-6') ?>">October 3, 2020: Nextcloud and Struktur offer easy 30 day trial and integrated signup for hosted HPB in Talk 10</a></li>
         <li><a href="<?php echo home_url('press/pr20200831') ?>">August 31, 2020: Nextcloud and Kaspersky partner up to protect users from malicious files</a></li>
         <li><a href="<?php echo home_url('press/pr20200818') ?>">August 18, 2020: Production ready end-to-end encryption and new user interface for desktop client 3.0</a></li>
         <li><a href="<?php echo home_url('press/pr20200728') ?>">July 28, 2020: Nextcloud introduces Forms to protect privacy-sensitive survey data</a></li>
@@ -32,29 +170,6 @@
         <li><a href="<?php echo home_url('press/pr20200312') ?>">March 12, 2020: Nextcloud doubles order intake and customer base, remains profitable and independent</a></li>
         <li><a href="<?php echo home_url('press/pr20200117-1') ?>">January 17, 2020: IONOS and Nextcloud together for more data sovereignty</a></li>
         <li><a href="<?php echo home_url('press/pr20200117-2') ?>">January 17, 2020: Nextcloud challenges SAAS vendors with launch of Hub</a></li>
-        <li>See below for press releases from 2019 and before.</li>
-    </ul>
-
-    <h2>Latest News and Annoucements</h2>
-    <?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 5, 'format' => 'html' ) ); ?>
-    <h2>Nextcloud Resources</h2>
-    <!-- <p>Find an overview of Nextcloud history <a href="/history">on our history page</a> and an overview with <a href="/faq">frequently asked questions in our FAQ</a>.</p> -->
-    <a href="<?php echo home_url('hub') ?>" class="button button--blue">Key Features of Nextcloud Hub</a>
-    <a href="<?php echo home_url('install') ?>" class="button button--blue">Download Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></a>
-    <div class="row">
-        <div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/files/screenshots.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/screenshots.png" style="width: 100%" alt="Download a zip file with screenshots" class="img-thumbnail"></a></div>
-        <div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/files/videos.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/videofiles.png" style="width: 100%" alt="Download a zip file with video files" class="img-thumbnail"></a></div>
-        <div class="col-md-3"><a href="https://www.youtube.com/c/Nextcloud"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/youtube.png" style="width: 100%" alt="View the Nextcloud community YouTube channel" class="img-thumbnail"></a></div>
-    <!-- 		<div class="col-md-3"><a href="/nine"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/newfeatures.png" style="width: 100%" alt="See what is new in Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>" class="img-thumbnail"></a></div> -->
-    </div>
-    <h2>Branding and Trademark Guidelines</h2>
-    <p>Our general Trademark guidelines <a href="<?php echo home_url('trademarks') ?>">can be found here</a>.
-
-    <!-- Find graphics like posters, stickers, flyers, release banners and other designs in our <a href="https://github.com/nextcloud/promo">promo github account</a>.</p>-->
-    <h2>Inquiries</h2>
-    <p>For press inquiries, please contact <a href="mailto:pr@nextcloud.com" target="_blank">our marketing and PR team</a>.<p>
-    <h2>Older press releases</h2>
-    <ul>
         <li><a href="<?php echo home_url('press/pr20191016') ?>">October 16, 2019: French universities and research organizations will gain access to secure, private collaboration platform</a></li>
         <li><a href="<?php echo home_url('press/pr20190930') ?>">September 30, 2019: Nextcloud 17 brings remote wipe, collaborative text editor and next generation secure watermarking</a></li>
         <li><a href="<?php echo home_url('press/pr20190827') ?>">August 27, 2019: Amid escalating trade disputes, EU governments choose independence from US cloud providers</a></li>

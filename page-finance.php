@@ -169,7 +169,7 @@ require(["require.config"], function() {
         <div class="row feature-row">
             <div class="col-md-6 image--floated">
                 <div data-type="youtube" data-video-id="nueL_hzDp-s"></div>
-                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/nueL_hzDp-s" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556896875?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Secure view_ blocking downloads, watermarking and secure mailboxes in Nextcloud.mp4"></iframe></div>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Virtual Data Room');?></h3>
@@ -219,7 +219,7 @@ require(["require.config"], function() {
         <div class="row feature-row">
             <div class="col-md-6 image--floated">
                 <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
-                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556890169?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud File Drop"></iframe></div>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Secure collaboration');?></h3>
@@ -241,7 +241,7 @@ require(["require.config"], function() {
         <div class="row feature-row">
             <div class="col-md-6 image--floated">
                 <div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
-                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/jwhfeJlYBbM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556108262?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Outlook Add-in"></iframe></div>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Integrated in email');?></h3>
@@ -315,7 +315,7 @@ require(["require.config"], function() {
             <a href="<?php echo home_url('monitoring') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring and auditing');?></a>
         </div>
     </div>
-    <div class="row feature-row">
+    <!--<div class="row feature-row">
         <div class="col-md-6 image--feature new-img">
             <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ransomware-recovery.png" alt="in action"/></a>
         </div>
@@ -324,7 +324,7 @@ require(["require.config"], function() {
             <p class="section--paragraph"><?php echo $l->t('Ransomware attacks are becoming more targetted as lots of money can be extracted from businesses and government organizations. While insurance can cover direct costs, the disruption to business is immense regardless. Nextcloud goes far beyond competing solutions, offering automated, one-click ransomware recovery tools.');?></p>
             <a href="https://nextcloud.com/blog/amidst-rising-ransomware-costs-another-us-city-pays-hundreds-of-thousands-to-recover-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Ransomware risks and protection');?></a>
         </div>
-    </div>
+    </div>-->
     <div class="row feature-row">
         <div class="col-md-6 image--floated ">
             <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/endtoend-server-nw.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/endtoend-server-nw.png" alt="in action" /></a>

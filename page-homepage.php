@@ -14,10 +14,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/breaking-news-ecj-rules-us-cloud-services-fundamentally-incompatible-with-eu-privacy-laws/">
+				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-hub-21-out-with-up-to-10x-better-performance-whiteboard-and-more-collaboration-features/">
 				<span class="type">News</span>
-				<span class="message"><strong><?php echo $l->t('BREAKING');?>:</strong> <?php echo $l->t('ECJ rules US Cloud services incompatible with EU Privacy laws');?></span>
-				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
+				<span class="message"><strong><?php echo $l->t('Nextcloud 21');?>:</strong> <?php echo $l->t('up to 10x faster with high performance back-end, plus whiteboard, author colors and more');?></span>
+				<?php echo file_get_contents(__DIR__."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Regain control');?></h1>
 				<h2 class="jumbotron--lead"><?php echo $l->t('The self-hosted productivity platform that keeps you in control');?></h2>
@@ -47,8 +47,7 @@
 <div class="container">
 	<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-			<stream src="eb1384b4fa48d8f47abdec5051bc922d" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/hub-video.png"></stream>
-            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=eb1384b4fa48d8f47abdec5051bc922d"></script>
+			<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555692548?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Hub introduction"></iframe></div>
 		</div>
     </div>
 	<div class="row">
@@ -59,6 +58,22 @@
 	</div>
 </div>
 </section>
+
+<!--<section class="section--intro">
+<div class="container">
+	<div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555769437?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="21 introduction video"></iframe></div>
+		</div>
+    </div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+                <p class="section--paragraph text-center"><?php echo $l->t('Watch the announcement of Nextcloud Hub 21');?></p>
+                <p class="section--paragraph text-center"><a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-hub-21-out-with-up-to-10x-better-performance-whiteboard-and-more-collaboration-features/"><?php echo $l->t('Learn more in the blog.');?></a></p>
+		</div>
+	</div>
+</div>
+</section>-->
 
 <section class="section--hub">
 <div class="container-fluid icon-background">
@@ -81,94 +96,34 @@
 </div>
 </section>
 
-<section class="section--products">
+<a name="why-nextcloud"></a>
+<section id="why-nextcloud" class="section--why">
 	<div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <stream src="fa1b52828b602f72cf1bcfab61f74fb4" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/files-video.png"></stream>
-                <script data-cfasync="false" defer type="text/javascript"
-                src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=fa1b52828b602f72cf1bcfab61f74fb4"></script>
-                <div class="row description">
-                    <div class="title">
-                        <div class="logo">
-                            <img style="fill:white !important;" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Files.svg" >
-                        </div>
-                        <div class="text">
-                            <?php echo $l->t('<strong>Nextcloud Files</strong><br><small>Enterprise File Sync and Share</small>');?>
-                        </div>
-                    </div>
-                    <p class="section--paragraph"><?php echo $l->t('Nextcloud Files offers an on-premise Universal File Access and sync platform with powerful collaboration capabilities and desktop, mobile and web interfaces.');?></p>
-                    <a href="<?php echo home_url('files') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <stream src="58bf7b0f3ae662ee1d6b368099c8c94f" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-video.png"></stream>
-                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=58bf7b0f3ae662ee1d6b368099c8c94f"></script>
-                <div class="row description">
-                    <div class="title">
-                        <div class="logo">
-                            <img style="" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Talk.svg" >
-                        </div>
-                        <div class="text">
-                            <?php echo $l->t('<strong>Nextcloud Talk</strong><br><small>Calls, chat and web meetings</small>');?>
-                        </div>
-                    </div>
-                    <p class="section--paragraph"><?php echo $l->t('Nextcloud Talk delivers on-premises, private audio/video conferencing and text chat through browser and mobile interfaces with integrated screen sharing and SIP integration.');?></p>
-                    <a href="<?php echo home_url('talk') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <stream src="3e135d59fff771d1909c4b8d588d5800" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/groupware-video.png"></stream>
-                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=3e135d59fff771d1909c4b8d588d5800"></script>
-                <div class="row description">
-                    <div class="title">
-                        <div class="logo">
-                            <img style="" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Groupware.svg" >
-                        </div>
-                        <div class="text">
-                            <?php echo $l->t('<strong>Nextcloud Groupware</strong><br><small>Calendar, Contacts & Mail</small>');?>
-                        </div>
-                    </div>
-                    <p class="section--paragraph"><?php echo $l->t('Nextcloud Groupware integrates Calendar, Contacts, Mail and other productivity features to help teams get their work done faster, easier and on your terms.');?></p>
-                    <a href="<?php echo home_url('groupware') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
-                </div>
-            </div>
-        </div>
+		<h1 class="section--heading-1 text-center"><?php echo $l->t('Why Nextcloud?');?></h1>
+		<div class="highlights">
+			<div class="highlights_align ">
+				<div class="privacy-icon" data-animation-path="img/home/privacy/" data-anim-loop="false" data-name="privacy"></div>
+				<h4><?php echo $l->t('Control');?></h4>
+				<p class="section--paragraph"><?php echo $l->t('Protect, control and monitor data and communication across your company. Guarantee compliance with business and legal requirements. Keep your data on servers you own, at all times. Nothing leaks, not even metadata.');?></p>
+			</div>
+			<div class="highlights_align">
+				<div class="flexibility-icon" data-animation-path="img/home/flexibility/" data-anim-loop="false" data-name="flexibility"></div>
+				<h4><?php echo $l->t('Productivity');?></h4>
+				<p class="section--paragraph"><?php echo $l->t('Enable productivity across any platform, whether in the office or on the road, to share, collaborate and communicate across organizational boundaries. Nextcloud provides transparent access to data on any storage.');?></p>
+			</div>
+			<div class="highlights_align">
+				<div class="community-icon" data-animation-path="img/home/community/" data-anim-loop="false" data-name="community"></div>
+				<h4><?php echo $l->t('Community');?></h4>
+				<p class="section--paragraph"><?php echo $l->t('Enjoy constant improvements from a thriving and transparent, entirely open-source community development model, free of lockins or paywalls. Enjoy the benefits of enterprise support when you need it.');?></p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+        <p class="text-center"><a class="button button--large button--blue button--arrow" href="<?php echo home_url('athome') ?>"><?php echo $l->t('Nextcloud at home');?></a>
+        <a class="button button--large button--blue button--arrow" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Nextcloud for Enterprises');?></a></p>
     </div>
 </section>
 
-<section class="section--ionos">
-<div class="container">
-    <h1 class="section--heading-1 text-center"><?php echo $l->t('Deploy immediately');?></h1>
-    <div class="row">
-        <div class="col-md-6">
-            <a href="<?php echo home_url('ionos') ?>"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/partners/ionos.png" /></a>
-        </div>
-        <div class="col-md-6">
-            <p class="section--paragraph__title"><?php echo $l->t('Move now to a reliable GDPR compliant cloud solution');?></h1>
-            <p class="section--paragraph"><?php echo $l->t('If your organization needs to a guaranteed GDPR compliant, efficient and easy to use online collaboration platform, we have a great offer for you. Together with Europe\'s largest hosting provider we bring you a near-instant deployment of Nextcloud, providing secure document exchange and collaboration, audio/video chat, calendar and email and more.');?></p>
-            <a class="button button--blue button--arrow button--large " href="<?php echo home_url('ionos') ?>"><?php echo $l->t('Get started');?></a></p>
-        </div>
-    </div>
-</div>
-</section>
-
-<section class="section--homeoffice">
-<div class="container">
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1 video">
-            <h1 class="section--heading-1 text-center"><?php echo $l->t('Home Office');?></h1>
-            <p class="text-center"><?php echo $l->t('Why Nextcloud is the perfect home office platform');?></p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1 video">
-            <stream src="4b66104c586170a4dc5b6ebbed80b193" controls preload poster="https://nextcloud.com/media/Home-Office-video-thumb.jpg"></stream> <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=4b66104c586170a4dc5b6ebbed80b193"></script>
-        </div>
-    </div>
-</div>
-</section>
 
 <section class="section--customers quote">
 	<div class="container">
@@ -250,33 +205,92 @@
 </div>
 </section>
 
-<a name="why-nextcloud"></a>
-<section id="why-nextcloud" class="section--why">
+<section class="section--products">
 	<div class="container">
-		<h1 class="section--heading-1 text-center"><?php echo $l->t('Why Nextcloud?');?></h1>
-		<div class="highlights">
-			<div class="highlights_align ">
-				<div class="privacy-icon" data-animation-path="img/home/privacy/" data-anim-loop="false" data-name="privacy"></div>
-				<h4><?php echo $l->t('Control');?></h4>
-				<p class="section--paragraph"><?php echo $l->t('Protect, control and monitor data and communication across your company. Guarantee compliance with business and legal requirements. Keep your data on servers you own, at all times. Nothing leaks, not even metadata.');?></p>
-			</div>
-			<div class="highlights_align">
-				<div class="flexibility-icon" data-animation-path="img/home/flexibility/" data-anim-loop="false" data-name="flexibility"></div>
-				<h4><?php echo $l->t('Productivity');?></h4>
-				<p class="section--paragraph"><?php echo $l->t('Enable productivity across any platform, whether in the office or on the road, to share, collaborate and communicate across organizational boundaries. Nextcloud provides transparent access to data on any storage.');?></p>
-			</div>
-			<div class="highlights_align">
-				<div class="community-icon" data-animation-path="img/home/community/" data-anim-loop="false" data-name="community"></div>
-				<h4><?php echo $l->t('Community');?></h4>
-				<p class="section--paragraph"><?php echo $l->t('Enjoy constant improvements from a thriving and transparent, entirely open-source community development model, free of lockins or paywalls. Enjoy the benefits of enterprise support when you need it.');?></p>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-        <p class="text-center"><a class="button button--large button--blue button--arrow" href="<?php echo home_url('athome') ?>"><?php echo $l->t('Nextcloud at home');?></a>
-        <a class="button button--large button--blue button--arrow" href="<?php echo home_url('files') ?>"><?php echo $l->t('Nextcloud for Enterprises');?></a></p>
+        <div class="row">
+            <div class="col-md-4">
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555693158?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Files video"></iframe></div>
+                <div class="row description">
+                    <div class="title">
+                        <div class="logo">
+                            <img style="fill:white !important;" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Files.svg" >
+                        </div>
+                        <div class="text">
+                            <?php echo $l->t('<strong>Nextcloud Files</strong><br><small>Enterprise File Sync and Share</small>');?>
+                        </div>
+                    </div>
+                    <p class="section--paragraph"><?php echo $l->t('Nextcloud Files offers an on-premise Universal File Access and sync platform with powerful collaboration capabilities and desktop, mobile and web interfaces.');?></p>
+                    <a href="<?php echo home_url('files') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('About Files');?></a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555693791?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Talk video"></iframe></div>
+                <div class="row description">
+                    <div class="title">
+                        <div class="logo">
+                            <img style="" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Talk.svg" >
+                        </div>
+                        <div class="text">
+                            <?php echo $l->t('<strong>Nextcloud Talk</strong><br><small>Calls, chat and web meetings</small>');?>
+                        </div>
+                    </div>
+                    <p class="section--paragraph"><?php echo $l->t('Nextcloud Talk delivers on-premises, private audio/video conferencing and text chat through browser and mobile interfaces with integrated screen sharing and SIP integration.');?></p>
+                    <a href="<?php echo home_url('talk') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('About Talk');?></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555693729?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Groupware video"></iframe></div>
+                <div class="row description">
+                    <div class="title">
+                        <div class="logo">
+                            <img style="" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Groupware.svg" >
+                        </div>
+                        <div class="text">
+                            <?php echo $l->t('<strong>Nextcloud Groupware</strong><br><small>Calendar, Contacts & Mail</small>');?>
+                        </div>
+                    </div>
+                    <p class="section--paragraph"><?php echo $l->t('Nextcloud Groupware integrates Calendar, Contacts, Mail and other productivity features to help teams get their work done faster, easier and on your terms.');?></p>
+                    <a href="<?php echo home_url('groupware') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('About Groupware');?></a>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+
+<section class="section--ionos">
+<div class="container">
+    <h1 class="section--heading-1 text-center"><?php echo $l->t('Deploy immediately');?></h1>
+    <div class="row">
+        <div class="col-md-6">
+            <a href="<?php echo home_url('ionos') ?>"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/partners/ionos.png" /></a>
+        </div>
+        <div class="col-md-6">
+            <p class="section--paragraph__title"><?php echo $l->t('Move now to a reliable GDPR compliant cloud solution');?></h1>
+            <p class="section--paragraph"><?php echo $l->t('If your organization needs to a guaranteed GDPR compliant, efficient and easy to use online collaboration platform, we have a great offer for you. Together with Europe\'s largest hosting provider we bring you a near-instant deployment of Nextcloud, providing secure document exchange and collaboration, audio/video chat, calendar and email and more.');?></p>
+            <a class="button button--blue button--arrow button--large " href="<?php echo home_url('ionos') ?>"><?php echo $l->t('Get started');?></a></p>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="section--homeoffice">
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+            <h1 class="section--heading-1 text-center"><?php echo $l->t('Home Office');?></h1>
+            <p class="text-center"><?php echo $l->t('Why Nextcloud is the perfect home office platform');?></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555685141?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud-at-home video"></iframe></div>
+        </div>
+    </div>
+</div>
+</section>
+
+
 
 <!--<section class="section--enterprise-day">
 	<div class="container-fluid">
@@ -428,3 +442,5 @@
 		<a class="button button--blue button--arrow button--large" href="https://newsletter.nextcloud.com/?p=subscribe&id=1" role="button"><?php echo $l->t('Subscribe');?></a>
 	</div>
 </section>
+
+<?php require get_template_directory().'/overlay.php'; ?>

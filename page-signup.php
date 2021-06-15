@@ -66,6 +66,7 @@ $officialApps = [
     'gallery' => $l->t('Gallery'),
     'photos' => $l->t('Photos'),
     'collabora' => $l->t('Collabora Online'),
+    'onlyoffice' => $l->t('Onlyoffice'),
     'deck' => $l->t('Deck'),
     'fulltextsearch' => $l->t('Full text search'),
     'mindmaps' => $l->t('Mindmaps'),
@@ -114,8 +115,9 @@ $coreApps = ['files', 'calendar', 'contacts', 'spreed', 'mail', 'tasks', 'notes'
             </p>
             <h3 class="section--paragraph__title"><?php echo $l->t('Privacy'); ?></h3>
             <p class="section--paragraph"><?php echo $l->t('By proceeding, you agree with our privacy policy. In short, we only handle the minimum amount of user data for the purpose of enabling the provider to create a minimal account and do not store any personally identifiable data.'); ?></p>
-            <p><a href="<?php echo home_url('privacy') ?>" target="_blank" class="button button--white button--arrow button--large"><?php echo $l->t('Nextcloud privacy policy'); ?></a></p>
+            <p><a href="<?php echo home_url('privacy') ?>" target="_blank" class="button button--white button--arrow button--large overlay-trigger"><?php echo $l->t('Nextcloud privacy policy'); ?></a></p>
         </div>
     </div>
 </div>
 </section>
+<?php require __DIR__.'/overlay.php'; ?>

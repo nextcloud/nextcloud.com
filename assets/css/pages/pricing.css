@@ -42,41 +42,54 @@
 
 .pricing-background {
   background-image: url("../../img/headers/enterprise.jpg");
-  background-position: bottom 0 right 0;
-  min-height: 700px; }
-  .pricing-background .menu {
-    margin-top: -100px; }
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  height: 700px !important; }
+  .pricing-background .topheader h1 {
+    margin-top: 0px; }
+  .pricing-background .topheader h2 {
+    margin-bottom: 100px; }
 
-.plans {
+.section--links {
+  padding-top: 0;
+  padding-bottom: 40px;
+  margin-top: 0; }
+  .section--links .button {
+    margin: 7px 7px;
+    min-width: 100px; }
+  @media (min-width: 1200px) {
+    .section--links {
+      display: none; } }
+
+.section--plans {
   margin-top: 133px;
   /* Tooltips */
   /* Tooltip text */
   /* Show the tooltip text when you mouse over the tooltip container */ }
-  .plans h1 {
-    margin-bottom: 10px; }
-  .plans h3 {
+  .section--plans h1 {
+    margin-bottom: 40px; }
+  .section--plans h3 {
     font-size: 1.8em;
     margin-bottom: 45px; }
-  .plans .table-column {
+  .section--plans .table-column {
     cursor: default;
     border-radius: 8px;
     border: solid 1px #eeeeee;
     padding: 0px;
     width: 31%;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: 50px; }
+    margin: 20px 1% 50px 1%; }
     @media (max-width: 991px) {
-      .plans .table-column {
+      .section--plans .table-column {
         width: 80%;
-        margin: auto;
-        margin-bottom: 60px; } }
-    .plans .table-column .table-header {
+        margin: 20px auto 60px auto; } }
+    .section--plans .table-column .table-header {
       padding: 0px;
       margin: 0px;
       width: 100%;
       border-radius: 7px 7px 0px 0px; }
-      .plans .table-column .table-header h1 {
+      .section--plans .table-column .table-header h1 {
         text-align: center;
         color: #2a2a36;
         font-size: 22px;
@@ -86,7 +99,7 @@
         margin: 0px;
         padding-top: 42px;
         letter-spacing: 0; }
-      .plans .table-column .table-header h2 {
+      .section--plans .table-column .table-header h2 {
         font-size: 18px;
         font-weight: 300;
         text-align: center;
@@ -96,24 +109,24 @@
         margin: 0px;
         padding-top: 0px;
         padding-bottom: 29px; }
-    .plans .table-column .basic {
+    .section--plans .table-column .basic {
       background-color: #f9f9f9; }
-    .plans .table-column .standard {
+    .section--plans .table-column .standard {
       background-color: #c4e1f7; }
-    .plans .table-column .premium {
+    .section--plans .table-column .premium {
       background-color: #178ecd; }
-      .plans .table-column .premium h1 {
+      .section--plans .table-column .premium h1 {
         color: white !important; }
-      .plans .table-column .premium h2 {
+      .section--plans .table-column .premium h2 {
         color: white !important; }
-    .plans .table-column .highlight {
+    .section--plans .table-column .highlight {
       box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.16); }
-  .plans .table-content {
+  .section--plans .table-content {
     margin: 15px;
     padding: 0px;
     margin-left: 30px;
     margin-right: 30px; }
-    .plans .table-content h1 {
+    .section--plans .table-content h1 {
       font-size: 18px;
       font-weight: 600;
       font-style: normal;
@@ -124,44 +137,44 @@
       letter-spacing: 0;
       margin-top: 25px;
       margin-bottom: 0px; }
-    .plans .table-content .button--large {
+    .section--plans .table-content .button--large {
       margin-top: 30px;
       margin-bottom: 30px;
       width: 100%; }
-  .plans .line {
+  .section--plans .line {
     width: 100%;
     border: solid 1px #eeeeee;
     margin-top: -5px;
     margin-bottom: 15px; }
-  .plans .hyperlink {
+  .section--plans .hyperlink {
     color: #555555; }
-  .plans .list li {
+  .section--plans .list li {
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.2;
     height: 50px; }
-  .plans .list .check {
+  .section--plans .list .check {
     list-style-image: url("../../img/enterprise/check.svg");
     list-style-position: inside;
     color: #555555; }
-  .plans .list .nocheck {
+  .section--plans .list .nocheck {
     list-style-image: url("../../img/enterprise/nocheck.svg");
     list-style-position: inside;
     color: #b1b1b1; }
-    .plans .list .nocheck a {
+    .section--plans .list .nocheck a {
       color: #b1b1b1;
       text-decoration: none; }
-  .plans .list .optional {
+  .section--plans .list .optional {
     list-style-image: url("../../img/enterprise/optional.svg");
     list-style-position: inside;
     color: #555555; }
-  .plans .list .price {
+  .section--plans .list .ball {
     list-style-image: url("../../img/enterprise/blank.svg");
     list-style-position: inside;
     color: #555555; }
-  .plans .overinfo .infotext {
+  .section--plans .overinfo .infotext {
     visibility: hidden;
     /*     width: 200px; */
     background-color: #555555;
@@ -177,9 +190,9 @@
     /*     top: 100%; */
     /*     left: 50%;  */
     /*     margin-left: -100px; */ }
-  .plans .overinfo:hover .infotext {
+  .section--plans .overinfo:hover .infotext {
     visibility: visible; }
-  .plans .overinfo .infotext::after {
+  .section--plans .overinfo .infotext::after {
     content: " ";
     position: absolute;
     bottom: 100%;
@@ -189,11 +202,28 @@
     border-width: 5px;
     border-style: solid;
     border-color: transparent transparent #555555 transparent; }
-  .plans .overinfo .infotext {
+  .section--plans .overinfo .infotext {
     opacity: 0;
     transition: opacity 0.5s; }
-  .plans .overinfo:hover .infotext {
+  .section--plans .overinfo:hover .infotext {
     opacity: 1; }
+  .section--plans .datasheet {
+    margin-bottom: 50px; }
+    .section--plans .datasheet h4 {
+      margin-bottom: 10px; }
+    .section--plans .datasheet .button {
+      margin: 0; }
+
+.form-mail {
+  height: 30px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: thin;
+  padding: 4px;
+  /*         margin-top: 15px; */
+  color: #757575;
+  max-width: 400px; }
 
 /* options section */
 .section--options {
@@ -247,13 +277,24 @@
 /* end section */
 /* Other Products section */
 .section--others {
-  margin: 0 0 0 0;
-  padding: 90px 0 70px 0;
-  background-color: #eee; }
+  background-image: url("../../img/logo/background.svg"), linear-gradient(40deg, #0082c9 0%, #1cafff 100%);
+  background-position: 50% 50%;
+  background-repeat: repeat;
+  background-size: 275px, contain;
+  background-attachment: fixed;
+  /* fix background gradient */
+  min-height: 100%;
+  /* fix sticky footer */
+  height: auto;
+  margin: 200px 0 0 0;
+  padding: 90px 0 70px 0; }
   .section--others .row {
     margin-bottom: 10px; }
-  .section--others img {
-    padding: 20px; }
+  .section--others .image--feature.new-img {
+    background-color: transparent !important; }
+    @media (min-width: 768px) {
+      .section--others .image--feature.new-img {
+        border: none !important; } }
 
 /* Discount section */
 .discounts {
@@ -275,84 +316,5 @@
       border: solid 1px #fbfbfb;
       border-radius: 8px;
       transition: all 0.5s ease; }
-
-/* FAQ section  */
-.section--faq {
-  background: #0082c9;
-  padding-bottom: 50px; }
-  .section--faq .container {
-    background: white;
-    margin-bottom: 90px;
-    padding-left: 0px;
-    padding-right: 0px; }
-    .section--faq .container .row {
-      padding: 30px;
-      margin: 40px;
-      margin-right: 60px; }
-      @media (max-width: 768px) {
-        .section--faq .container .row {
-          padding-left: 10px;
-          padding-right: 10px;
-          margin-left: 10px;
-          margin-right: 10px;
-          margin-right: 30px; } }
-  .section--faq h2 {
-    font-size: 30px;
-    font-weight: 100;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.45;
-    text-align: left;
-    color: #555555;
-    margin-top: 30px; }
-  .section--faq h3 {
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.45;
-    text-align: left;
-    color: #555555; }
-  .section--faq h1 {
-    font-size: 60px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 0.88;
-    color: #ffffff;
-    margin-top: 100px;
-    margin-bottom: 80px;
-    text-align: center; }
-  .section--faq p {
-    font-size: 18px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.61;
-    text-align: left;
-    color: #555555; }
-  .section--faq .downarrow a {
-    color: #555555; }
-    .section--faq .downarrow a:hover {
-      text-decoration: none; }
-    .section--faq .downarrow a:active {
-      text-decoration: none; }
-  .section--faq .line {
-    width: 100%;
-    height: 1px;
-    border: solid 1px #eeeeee; }
-  .section--faq .downarrow {
-    position: relative; }
-  .section--faq ul li {
-    /* 			list-style-type: circle; */
-    list-style-image: url("../../img/enterprise/check.svg");
-    /* 		list-style-position:inside; */ }
-  .section--faq .downarrow span.icon-arrow-down {
-    background: url("../../img/common/simple_arrow_down_grey.svg") center/contain no-repeat;
-    position: absolute;
-    width: 25px;
-    height: 100%;
-    right: -30px;
-    top: 0px; }
 
 /*# sourceMappingURL=pricing.css.map */

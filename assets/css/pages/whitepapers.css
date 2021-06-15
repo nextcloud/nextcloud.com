@@ -41,9 +41,10 @@ section {
   padding: 100px 0;
   min-width: 320px; }
   section .row {
-    padding-top: 30px; }
+    padding-top: 60px; }
+  section .list .col-md-3 {
+    padding-bottom: 20px; }
   section .list .row {
-    padding-top: 0px;
     margin-left: 0px;
     margin-right: 0px; }
   section .list .wpthumbnail {
@@ -53,10 +54,13 @@ section {
     section .list .wpthumbnail img {
       max-height: 250px; }
   section .list .description {
-    height: 180px; }
+    height: 200px; }
   section .list .section--paragraph__title {
-    padding: 0;
-    font-size: 18px; }
+    padding: 0 0;
+    font-size: 18px;
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 0px; }
   section .list .section--paragraph {
     font-size: 14px;
     max-width: 400px; }
@@ -128,6 +132,7 @@ section {
     width: 100%;
     max-width: 300px; }
   section .list .newsletter {
+    margin-top: 5px;
     padding-left: 15px;
     line-height: 1.2; }
     section .list .newsletter small {

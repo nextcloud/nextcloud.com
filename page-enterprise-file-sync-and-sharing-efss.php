@@ -65,11 +65,11 @@
     </div>
 	<div class="row">
         <div class="col-md-6">
-           <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/Files_Sharing_Share_Link_Permissions.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/Files_Sharing_Share_Link_Permissions.png" alt="file view" ></a><br />
+           <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/Files_Sharing_Share_Link_Permissions.png"><img class="overlay-trigger img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/Files_Sharing_Share_Link_Permissions.png" alt="file view" ></a><br />
            A typical EFSS web interface showing files and a sidebar with sharing options for the selected file
         </div>
         <div class="col-md-6">
-           <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/text-and-talk.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/text-and-talk.png" alt="sidebar with talk" ></a><br />
+           <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/text-and-talk.png"><img class="overlay-trigger img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/text-and-talk.png" alt="sidebar with talk" ></a><br />
            More advanced solutions allow real-time document editing and communication in one interface
         </div>
        <!-- <div class="col-md-6">
@@ -134,7 +134,7 @@
                     <div role="tabpanel" class="tab-pane active" id="differentiators-tab1">
                         <div class="feature">
                             <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/mobile.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/mobile.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('A simple, familiar interface is key for fast adoption. While the more complex document management solutions, groupware products or workflow tools are introducing EFSS features, they tend to be too complicated so users keep using Dropbox or Google Drive.');?></p>
                         </div>
@@ -142,7 +142,7 @@
                     <div role="tabpanel" class="tab-pane" id="differentiators-tab2">
                         <div class="feature">
                             <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/storage.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/storage.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('Another key barrier to adoption is integration in existing data silos and user management. While most off-premises solutions integrate with Active Directory, data typically has to be migrated. On-premises solutions can offer access to existing data on Windows Network Drive, Sharepoint or FTP storages, as well as Outlook and other integrations.');?></p>
                         </div>
@@ -150,7 +150,7 @@
                     <div role="tabpanel" class="tab-pane" id="differentiators-tab3">
                         <div class="feature">
                             <div class="icon">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/icons/people.svg"); ?>
+                                <?php echo file_get_contents(__DIR__."/assets/img/icons/people.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('The market is quickly moving away from file exchange solutions and towards integrated work flows with video chat, task management and collaborative document editing built in ("content collaboration platforms"). Solutions which are slow to adopt to these trends present a long-term risks for their customers as migrations are costly.');?></p>
                         </div>
@@ -312,7 +312,7 @@
     </div>
 </div>
 </section>
-<section>
+<!--<section>
 <div class="container">
     <div class="row feature-row">
         <div class="col-md-6 image--feature image--floated new-img">
@@ -325,12 +325,12 @@
         </div>
     </div>
 </div>
-</section>
+</section>-->
 <section>
 <div class="container">
     <div class="row">
         <div class="col-md-6 image--floated">
-            <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/I5wcLS9xxMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556895226?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Global Scale"></iframe></div>
         </div>
 	    <div class="col-md-6">
             <h3>At global scale and ensuring data locality</h3>
@@ -368,3 +368,4 @@
 	</div>
 </div>
 
+<?php require get_template_directory().'/overlay.php'; ?>

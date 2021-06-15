@@ -39,9 +39,7 @@
 <div class="container">
     <div class="row">
 		<div class="col-md-10 col-md-offset-1 video">
-            <stream src="fa1b52828b602f72cf1bcfab61f74fb4" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/files-video.png"></stream>
-            <script data-cfasync="false" defer type="text/javascript"
-            src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=fa1b52828b602f72cf1bcfab61f74fb4"></script>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555693158?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Files video"></iframe></div>
 		</div>
 		<div class="col-md-8 col-md-offset-2">
 			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Enterprise File Sync and Share');?></h3>
@@ -95,24 +93,19 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-6  image--floated">
-                <stream src="6644f6c1e7c0a5e3ff5b877e07ed1dea" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/documents-video.png"></stream>
-                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=6644f6c1e7c0a5e3ff5b877e07ed1dea"></script>
+               <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555695491?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Document editing video"></iframe></div>
             </div>
                 <h3 class="section--paragraph__title"><?php echo $l->t('Seamless collaboration');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('The core strength of Nextcloud is its ability to enhance team productivity on the go with an easy user interface on mobile, web and desktop and powerful integrated document collaboration and communication capabilities.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Real-time notifications of shares or comments on mobile devices, built-in collaborative editing of Microsoft Office compatible files, seamless transition to chat and audio/video calls and a wide variety of productivity tools to handle mail, appointments, tasks and more are available in Nextcloud.');?></p>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <h1> </h1>
-        <div class="row">
+       <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <p class="text-center"><?php echo $l->t('Improve collaboration and communication and reduce operational expenses with the leading content collaboration platform.');?></p>
                 <p class="text-center"><?php echo $l->t('Contact us now to learn how we can help you!');?></p>
             <div class="text-center morebuttondiv">
                 <a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
-            </div>
             </div>
         </div>
 	</div>
@@ -122,8 +115,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <stream src="438ffb5360ced41ccc9849a7e41973a6" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/workspaces.png"></stream>
-                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=438ffb5360ced41ccc9849a7e41973a6"></script>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555691922?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Rich workspaces video"></iframe></div>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Rich workspaces');?></h3>
@@ -137,8 +129,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 image--floated">
-                <stream src="b2bff2b8e183f558fcfcb64f41851d9d" controls  poster="<?php bloginfo('template_directory'); ?>/assets/img/features/lock_file.png"></stream>
-                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=b2bff2b8e183f558fcfcb64f41851d9d"></script>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555691008?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="lock files video"></iframe></div>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Lock files');?></h3>
@@ -153,14 +144,29 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-6">
-                <stream src="75499b40ed321ef2eb0ff5cc2a95e7cf" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-admin.png"></stream>
-                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=75499b40ed321ef2eb0ff5cc2a95e7cf"></script>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555688777?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Flow video"></iframe></div>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Workflow management');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('With Nextcloud, system administrators can control and direct the flow of data between users on or between servers. Rule-based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud puts IT in control of user data and keeps it safe.');?></p>
-                <a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Workflow handling');?></a>
+                <a href="<?php echo home_url('workflow') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Workflow handling');?></a>
+            </div>
+        </div>
+	</div>
+</section>
+
+
+<section class="section--templates">
+	<div class="container">
+        <div class="row">
+            <div class="col-md-6 image--floated">
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556887335?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Text and Templates"></iframe></div>
+            </div>
+            <div class="col-md-6 feature--block">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Note taking and templates');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('Nextcloud comes out of the box with an easy to use collaborative note taking application, Nextcloud Text. It supports a variety of rich text formats like headers, bold and italics as well as images and links. During a group editing session, author colors can show who has changed what.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Template support in Nextcloud allow quick creation of a variety of files. A number of default templates is included and users can manage their own templates in the Templates folder.');?></p>
             </div>
         </div>
 	</div>
@@ -169,8 +175,8 @@
 <section class="section--design">
 	<div class="container">
         <div class="row">
-                <div class="col-md-6 image--floated">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/LrF4jf1ROOc" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                <div class="col-md-6">
+                    <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556888164?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sidebar improvements in Nextcloud 14.mp4"></iframe></div>
                 </div>
                 <div class="col-md-6 feature--block">
                     <h3 class="section--paragraph__title"><?php echo $l->t('Designed for humans');?></h3>
@@ -185,15 +191,15 @@
 <section class="section--sharing">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
-                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            <div class="col-md-6 image--floated">
+
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556890169?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud File Drop"></iframe></div>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Secure file exchange');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud Files enables hospitals, banks, notaries and government agencies to securely send files to and receive files from customers, patients, clients or partners.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The easy web and mobile interfaces of Nextcloud Files allow users to share files with other users on the server, to create and send password-protected public links, to let others upload files to the private cloud and to get notifications on phone and desktop when a user on another cloud server shares files.');?></p>
-                <a href="<?php echo home_url('file-drop') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Secure file exchange');?></a><br>
+                <a href="<?php echo home_url('file-drop') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Secure file exchange');?></a><br>
             </div>
         </div>
     </div>
@@ -213,9 +219,8 @@
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Mobile and desktop clients');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud Files clients for Android, iOS and desktop systems allow users to sync and share files, in a fully secure way through an encrypted connection. The mobile clients feature automatic upload of pictures and videos users take and they can synchronize selected files and folders. The clients can handle multiple accounts, show all activity happening on the server and notify users of new events such as the availability of new shares.');?></p>
-                <!--<p class="section--paragraph"><?php echo $l->t('The Nextcloud clients support');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('End-to-end Encryption</a> for ultimate security of enterprise data.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Note that E2E is currently (2019) in beta. V2 is expected end summer 2020.');?></p>-->
-                   <a href="<?php echo home_url('clients') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Nextcloud clients');?></a>
+                <p class="section--paragraph"><?php echo $l->t('The Nextcloud clients support');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('End-to-end Encryption</a> for ultimate security of enterprise data.');?></p>
+                   <a href="<?php echo home_url('clients') ?>" class="button button--blue button--arrow button--large overlay-trigger"><?php echo $l->t('Nextcloud clients');?></a>
             </div>
         </div>
 	</div>
@@ -230,17 +235,16 @@
     <p class="section--paragraph text-center"><?php echo $l->t('Automatically upload files to replace large attachments or integrate Calendars and Contacts in Microsoft Outlook');?></p>
         <div class="row">
             <div class="col-md-6">
-                <div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
-                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/jwhfeJlYBbM" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556108262?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Outlook Add-in"></iframe></div>
             </div>
             <div class="col-md-6 feature--block">
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud users to easily and securely send files, folders or upload links to others from within Microsoft Outlook. The Add-in can replace attachments, automatically uploading files to Nextcloud and inserting a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>
-                <p><a href="<?php echo home_url('outlook') ?>" class="button button--arrow button--large"><?php echo $l->t('Secure Sharing Outlook Add-in');?></a></p>
+                <p><a href="<?php echo home_url('outlook') ?>" class="button button--arrow button--large overlay-trigger"><?php echo $l->t('Secure Sharing Outlook Add-in');?></a></p>
             </div>
         </div>
     </div>
+ 			<h1 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1>
     <div class="featurerow">
-<!-- 			<h1 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
 			<div class="row">
 				<div class="col-md-6 image--feature image--floated">
 					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/moztb.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb.png" alt="in action" /></a>
@@ -254,19 +258,21 @@
 </div>
 </section>
 
-<section class="section--fulltextsearch">
-	<div class="container">
-        <div class="row">
-            <div class="col-md-6 image--floated image--feature">
-                <a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/fulltextsearch.png"/></a>
-            </div>
-            <div class="col-md-6 feature--block">
-                <h3 class="section--paragraph__title"><?php echo $l->t('Powerful search');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('Nextcloud includes a powerful full-text search engine capable of using ElasticSearch as back-end. Its flexible plugin-based interface enables search capabilities beyond files and accommodates other back-end solutions like Apache Solr.');?></p>
-                <a href="https://apps.nextcloud.com/apps/fulltextsearch" class="button button--blue button--arrow button--large"><?php echo $l->t('In the App store');?></a>
-            </div>
-        </div>
+<section class="section--search">
+<div class="container">
+	<div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555766609?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Universal search video"></iframe></div>
+		</div>
+    </div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+                <h3 class="section--paragraph__tittle"><?php echo $l->t('Find everything in one place');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('On the top-right of your Nextcloud window, a search glass shows search results from all over Nextcloud. Additional search providers can be installed and over a dozen different search providers are available to show you Github issues, Moodle courses, Jira tickets and more');?></p>
+                <p><a href="<?php echo home_url('unified-search') ?>" class="overlay-trigger button button--blue button--arrow"><?php echo $l->t('Unified Search');?></a></p>
+		</div>
 	</div>
+</div>
 </section>
 
 
@@ -289,3 +295,4 @@
         </div>
     </div>
 </section>
+<?php require get_template_directory().'/overlay.php'; ?>

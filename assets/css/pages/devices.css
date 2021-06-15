@@ -42,11 +42,28 @@ section {
   section .section--paragraph__title {
     padding: 0; }
 
-.feature--block {
+.section--devices .feature--block {
   padding-top: 60px; }
-
-.row {
+.section--devices .row {
   padding-top: 60px; }
+.section--devices .col-lg-4 {
+  padding: 20px; }
+.section--devices .block-container {
+  height: 1000px;
+  overflow-y: auto;
+  transition: all .5s ease;
+  background: white;
+  border-radius: 10px 10px 0 0;
+  margin: 20px 0;
+  padding-top: 10px; }
+  .section--devices .block-container:hover {
+    transition: all .3s ease;
+    transform: translate3D(0, -1px, 0); }
+.section--devices .featureimg {
+  height: 200px;
+  width: auto; }
+.section--devices h3 {
+  height: 50px; }
 
 footer {
   margin-top: 150px; }

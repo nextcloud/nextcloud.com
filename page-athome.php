@@ -1,14 +1,13 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/athome.css?v=1" rel="stylesheet">
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+<!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css"> -->
+<!-- <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script> -->
 <script>
 	require(["require.config"], function() {
 		require(["modules/youtubePlayer", "modules/submenu"])
 	});
 </script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <div class="background features-background second-menu">
 	<div class="container">
@@ -20,7 +19,7 @@
 		</div>
 	</div>
 </div>
-<div class="second-menu">
+<div class="second-menu hide-in-overlay">
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
 			<a href="#hosting"><span class="avoidwrap"><?php echo $l->t('Your files');?></span></a>
@@ -80,7 +79,7 @@
 	<h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud is people');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud is an open source community of developers and contributors, some helping out in their free time, others paid by their company to make Nextcloud better.');?> <!--<a class="hyperlink" href="<?php echo home_url('contributors') ?>"><?php echo $l->t('You can see some of the people involved in Nextcloud here.</a>');?>--></p>
 			<p class="section--paragraph"><?php echo $l->t('We organize events, attend conferences, hang out together at meetups and hackweeks. If you would like to meet Nextclouders,');?> <a class="hyperlink" href="<?php echo home_url('events') ?>"><?php echo $l->t('check out our events page!</a>');?></p>
-			<a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017.jpg"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017-small.jpg" alt="in action" ></a>
+			<a class="overlay-trigger" href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017.jpg"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017-small.jpg" alt="in action" ></a>
 	</div>
 	<div class="col-md-6">
         <div class="text-center">
@@ -91,12 +90,27 @@
 </div>
 </section>
 
+<section class="section--dashboard">
+<div class="container">
+	<div class="row">
+        <div class="col-md-6 image--feature">
+			<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555765504?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Dashboard Introduction"></iframe></div>
+		</div>
+		<div class="col-md-6 feature--block">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Start your day informed');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('The Nextcloud Dashboard is your starting point of the day, giving you an overview of your upcoming appointments, urgent emails, chat messages, incoming tickets, latest tweets and much more! Users can set their status so others know what they are up to..');?></p>
+                <a href="<?php echo home_url('dashboard') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Dashboard features');?></a>
+		</div>
+	</div>
+</div>
+</section>
+
 <section class="section--files">
 	<a name="files" id="files"></a>
 	<div class="container">
 		<div class="col-md-6 image--floated">
 			<div data-type="youtube" data-video-id="Fe1I7wYW6hA"></div>
-			<iframe width="100%" height="315" src="https://www.youtube.com/embed/Fe1I7wYW6hA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556097133?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Anonymous upload in 2 minutes.mp4"></iframe></div>
 		</div>
 		<div class="col-md-6 feature--block">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Share with others on your terms.');?></h3>
@@ -110,7 +124,7 @@
 	<a name="files" id="files"></a>
 	<div class="container">
 		<div class="col-md-6 image--feature new-img">
-            <img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/Admin_Overview_Security_and_setup_warnings.png" alt="in action" >
+            <img class="img-responsive featureimg overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/Admin_Overview_Security_and_setup_warnings.png" alt="in action" >
 
 		</div>
 		<div class="col-md-6 feature--block">
@@ -124,7 +138,7 @@
 <section class="section--design">
 	<div class="container">
 		<div class="col-md-6 image--floated">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/LrF4jf1ROOc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555692548?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Hub introduction"></iframe></div>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Designed for humans');?></h3>
@@ -138,7 +152,7 @@
 	<a name="security" id="security"></a>
 	<div class="container">
 		<div class="col-md-6 image--feature">
-		<img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP.png" alt="in action" >
+		<img class="overlay-trigger img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP.png" alt="in action" >
 		</div>
 
 		<div class="col-md-6 feature--block">
@@ -157,7 +171,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6 image--feature new-img image--floated">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/privacy_big.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/privacy.png" alt="in action" ></a>
+            <a class="overlay-trigger " href="<?php bloginfo('template_directory'); ?>/assets/img/features/privacy_big.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/privacy.png" alt="in action" ></a>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Privacy center');?></h3>
@@ -177,7 +191,6 @@
 		<div class="col-md-6 feature--block">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Mobile and desktop clients');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('The free Nextcloud clients for Android, iOS and desktop systems allow you to sync and share files, in a fully secure way through an encrypted connection. The mobile clients feature automatic upload of pictures and videos you take and can synchronize select files and folders. The clients can handle multiple accounts, show all activity happening on your server and notify you of new events such as the availability of new shares.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Note that E2E is currently (early 2019) in beta. V2 is expected end summer 2019.');?></p>
 			<a href="<?php echo home_url('clients') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
 		</div>
 	</div>
@@ -187,14 +200,11 @@
 	<a name="calendar" id="calendar"></a>
 	<div class="container">
 		<div class="col-md-6 image--floated image--feature">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png"/></a>
+			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555693729?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Groupware video"></iframe></div>
 		</div>
 		<div class="col-md-6">
-			<h3 class="section--paragraph__title"><?php echo $l->t('Calendar and Contacts');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('The Nextcloud Calendar and Contacts apps allow you to store, sync and share your plans and contacts. You can share with users or groups on your server or sync the calendar or contacts with your devices and access them wherever you are. The Calendar and Contacts app feature:');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Easy to use interface with views for days, weeks, months and years');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Private and shared calendars and addressbooks with permissions management');?></p>
-			<p class="section--paragraph"><?php echo $l->t('CalDAV and CardDAV sync with third party clients both on mobile and desktop (i.e with Thunderbird, iOS and more)');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Calendar, Contacts and Mail');?></h3>
+			<p class="section--paragraph"><?php echo $l->t('The Nextcloud Calendar and Contacts apps allow you to store, sync and share your plans and contacts. You can share with users or groups on your server or sync the calendar or contacts with your devices and access them wherever you are. Nextcloud Mail gives you a easy to use but powerful mail client, directly integrated in Nextcloud, that can talk to your existing IMAP or POP mail server.');?></p>
 		</div>
 	</div>
 </section>
@@ -203,7 +213,7 @@
 	<a name="calls" id="calls"></a>
 	<div class="container">
 		<div class="col-md-6 image--feature">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png"/></a>
+			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555693791?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Talk video"></iframe></div>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Secure audio and video calls');?></h3>
@@ -216,7 +226,7 @@
 <section class="section--accessibility">
 	<div class="container">
 		<div class="col-md-6 image--floated">
-			<iframe width="100%" height="315" src="https://www.youtube.com/embed/S_842AQx3MQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556100447?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Accessibility themes.mp4"></iframe></div>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Accessibility');?></h3>
@@ -230,7 +240,7 @@
 	<a name="picocms" id="picocms">
 	<div class="container">
 		<div class="col-md-6 image--feature">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/picocms-nw.png"/></a>
+			<a><img class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/picocms-nw.png"/></a>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Build your own website!');?></h3>
@@ -245,7 +255,7 @@
 	<a name="collabora" id="collabora"></a>
 	<div class="container">
 		<div class="col-md-6 image--feature image--floated">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-nw.png"/></a>
+			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555693791?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Document editing video"></iframe></div>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('View and edit documents with Collabora');?></h3>
@@ -257,6 +267,23 @@
 	</div>
 </section>
 
+<section class="section--search">
+<div class="container">
+	<div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555766609?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Universal search video"></iframe></div>
+		</div>
+    </div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+                <h3 class="section--paragraph__tittle"><?php echo $l->t('Find everything in one place');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('On the top-right of your Nextcloud window, a search glass shows search results from all over Nextcloud. Additional search providers can be installed and over a dozen different search providers are available to show you Github issues, Moodle courses, Jira tickets and more');?></p>
+                <p><a href="<?php echo home_url('unified-search') ?>" class="overlay-trigger button button--blue button--arrow"><?php echo $l->t('Unified Search');?></a></p>
+		</div>
+	</div>
+</div>
+</section>
+
 <a name="calendar" id="calendar"></a>
 <section class="section--outlook quote">
 <div class="container">
@@ -265,8 +292,8 @@
     <p class="section--paragraph text-center"><?php echo $l->t('Automatically upload files to replace large attachments or integrate Calendars and Contacts in your mail client');?></p>
         <div class="row">
             <div class="col-md-6">
-                <div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/jwhfeJlYBbM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556108262?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Outlook integration video"></iframe></div>
+
             </div>
             <div class="col-md-6">
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud users to easily and securely send files, folders or upload links to others from within Microsoft Outlook. The Add-in can replace attachments, automatically uploading files to Nextcloud and inserting a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>
@@ -280,7 +307,7 @@
 <!-- 			<h1 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
 			<div class="row">
 				<div class="col-md-6 image--feature image--floated">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/moztb.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb.png" alt="in action" /></a>
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/moztb.png"><img class="overlay-trigger img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb.png" alt="in action" /></a>
 				</div>
 				<div class="col-md-6 featureblock">
 					<h3 class="section--paragraph__title"><?php echo $l->t('Mozilla Thunderbird');?></h3>
@@ -297,7 +324,7 @@
 	<a name="storage" id="storage"></a>
 	<div class="container">
         <div class="col-md-6 image--feature new-img image--floated">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/usermanagement.png" alt="in action" ></a>
+            <a class="overlay-trigger " href="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/usermanagement.png" alt="in action" ></a>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Integrated account management');?></h3>
@@ -310,12 +337,12 @@
 <section class="section--workflow">
 	<a name="workflow" id="workflow"></a>
 	<div class="container">
-		<div class="col-md-6 image--feature">
-			<a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/file-access-control-nw.png" alt="in action"/></a>
+		<div class="col-md-6 image--feature new-img">
+			<a><img class="overlay-trigger img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/flow-as-user.png" alt="in action"/></a>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Workflow management');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('With Nextcloud, system administrators can control and direct the flow of data between users on or between servers. The File Access Control app and other workflow tools can be used to prevent accidental sharing of sensitive data, adding an additional layer of protection to Nextcloud.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('With Nextcloud Flow, you can automate common actions like turning a file into a PDF when it is dropped into a specific folder, or receiving a notification when a file with a certain tag is updated. The File Access Control app and other workflow tools can be used to prevent accidental sharing of sensitive data, adding an additional layer of protection to Nextcloud.');?></p>
 			<a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Workflow handling');?></a>
 		</div>
 	</div>
@@ -324,8 +351,8 @@
 <section class="section--monitoring">
     <a name="monitoring" id="monitoring"></a>
     <div class="container">
-        <div class="col-md-6 image--feature image--floated">
-            <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-nw.png" alt="in action"/></a>
+        <div class="col-md-6 image--feature image--floated new-img">
+            <a><img class="overlay-trigger img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring.png" alt="in action"/></a>
         </div>
         <div class="col-md-6">
             <h3 class="section--paragraph__title"><?php echo $l->t('Tracking changes to your files');?></h3>
@@ -340,8 +367,8 @@
 <section class="section--storage">
 	<a name="storage" id="storage"></a>
 	<div class="container">
-		<div class="col-md-6 image--feature">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png"/></a>
+		<div class="col-md-6 image--feature new-img">
+			<a><img class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png"/></a>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('External storage, securely encrypted');?></h3>
@@ -352,17 +379,6 @@
 	</div>
 </section>
 
-<section class="section--fulltextsearch">
-	<div class="container">
-		<div class="col-md-6 image--feature image--floated">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/fulltextsearch.png"/></a>
-		</div>
-		<div class="col-md-6">
-			<h3 class="section--paragraph__title"><?php echo $l->t('Powerful search');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud includes a powerful full-text search engine capable of using ElasticSearch as back-end. Its flexible plugin-based interface enables search capabilities beyond files and accomodates other back-end solutions like Apache Solr.');?></p>
-		</div>
-	</div>
-</section>
 
 <section class="section--appstore benefits">
 <div class="container-fluid banner quote">
@@ -508,3 +524,4 @@
         </div>
     </div>
 </section>
+<?php require get_template_directory().'/overlay.php'; ?>

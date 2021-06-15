@@ -1,10 +1,10 @@
 <head>
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/onlyoffice.css?v=1">
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/onlyoffice.css?v=1">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 	require(["require.config"], function() {
-		require(["pages/collabora", "modules/youtubePlayer", "modules/codeHighlights"])
+		require(["pages/collabora"])
 	});
 </script>
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/onlyoffice.png">
@@ -28,8 +28,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <stream src="6644f6c1e7c0a5e3ff5b877e07ed1dea" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/documents-video.png"></stream>
-            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=6644f6c1e7c0a5e3ff5b877e07ed1dea"></script>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555695491?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Document editing video"></iframe></div>
         </div>
     </div>
     <div class="row">
@@ -46,21 +45,18 @@
         <div class="row">
 			<div class="col-lg-8">
                 <h2><?php echo $l->t('North-West University<br/> Case Study');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Get the free case study:');?><br>
                     <?php echo $l->t('The North-West University of South Africa improves user storage mobility,<br /> collaboration and productivity with Nextcloud and ONLYOFFICE.');?><br>
-                    <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-                    </div>
-                    </td>
                     <input type="hidden" name="segmentId" value="90">
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <div class="newsletter">
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small><br/>
                         <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
                     </div>
                     <input class="button button--large" type="submit" value=" Get the case study "></p>
@@ -75,17 +71,17 @@
 <div class="container-widest">
 	<div class="row">
 		<div class="col-md-4">
-			<div class="text-center"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-spreadsheet.png"  /></div>
+			<div class="text-center"><img class="overlay-trigger img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-spreadsheet.png"  /></div>
 			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Powerful spreadsheet editor');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Organize and manage your data online in XLSX, ODS and CSV files with over 400 formulas and create colorful visualisations.');?></p>
         </div>
 		<div class="col-md-4">
-			<div class="text-center"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-presentation.png" /></div>
+			<div class="text-center"><img class="overlay-trigger img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-presentation.png" /></div>
 			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Beautiful presentation builder');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Express ideas in beautiful presentations stored  in PPTX and ODP or exported to PDF full of charts, shapes and images.');?></p>
 		</div>
 		<div class="col-md-4">
-			<div class="text-center"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-document.png" /></div>
+			<div class="text-center"><img class="overlay-trigger img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-document.png" /></div>
 			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Complete document writer');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Open, edit and collaborate on Word, ODT, PDF or HTML documents in real time with powerful formatting and layout capabilities.');?></p>
 		</div>
@@ -99,7 +95,8 @@
 			<div class="row">
 <!-- 				</div> -->
 				<div class="col-md-6 image--floated">
-					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/html5.png" alt="in action" />
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/pgSaYsgI6NU" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
 				</div>
 				<div class="col-md-6 featureblock">
 					<h2 class="section--paragraph__title"><?php echo $l->t('Up-to-date technology');?></h2>
@@ -118,7 +115,7 @@
 		<div class="featurerow">
 			<div class="row">
 				<div class="col-md-6">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/onlyoffice-integration.png" alt="in action" /></a>
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png"><img class="img-responsive overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/onlyoffice-integration.png" alt="in action" /></a>
 				</div>
 				<div class="col-md-6 featureblock">
 					<h2 class="section--paragraph__title"><?php echo $l->t('Integrated and on-premises');?></h2>
@@ -161,7 +158,7 @@
 			<div class="col-md-8 col-md-offset-2">
 				<div class="text-center morebuttondiv">
 					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a><br/>
-					<a href="https://www.onlyoffice.com/download.aspx" class="hyperlink"><?php echo $l->t('Get ONLYOFFICE for at home');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="https://www.onlyoffice.com/download.aspx" class="hyperlink"><?php echo $l->t('Get ONLYOFFICE for home use');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>
@@ -238,3 +235,4 @@
 		</div>
 	</div>
 </div>
+<?php require get_template_directory().'/overlay.php'; ?>

@@ -23,7 +23,7 @@ require(["require.config"], function() {
 <div class="container">
 	<div class="sub-nav">
 		<a href="<?php echo home_url('events/meetups') ?>">Meetups</a>&nbsp;&nbsp;
-		|&nbsp;&nbsp;<a href="<?php echo home_url('events/conference-program') ?>">Events Program</a>
+		|&nbsp;&nbsp;<a href="<?php echo home_url('events/conference-program') ?>"><?php echo $l->t('Events Program');?></a>
 	<!--     |&nbsp;&nbsp;<a href="<?php echo home_url('events/contactform') ?>">Contact</a> -->
 	</div>
 </div>
@@ -32,29 +32,54 @@ require(["require.config"], function() {
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<p class="section--paragraph">Are you interested in meeting fellow Nextcloud users and contributors (<a class="hyperlink" href="<?php echo home_url('contributors') ?>">Nextclouders</a>, as we lovingly call ourselves)? You&#39;ve come to the right place! The Nextcloud community organizes and participates in many events around the globe and here you can find details on where you can meet us and how to organise your own event and become a member of the most active file sync and share open source community!</p>
-				<div class="alignright"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/events/fosdem18.jpg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/fosdem18.jpg" style="width: 400px" title="" alt="" class="img-thumbnail"></a>
-				<p class="text-center">Our awesome team at FOSDEM 2018!</p></div>
-				<h2>Meetups</h2>
-				<p class="section--paragraph">Nextcloud community members get together in meetups to learn, share ideas and work on Nextcloud. Meetups are informal meetings which are typically held in the evening and can be focused on development, user or business topics. You can take part as a speaker, participant or promoter. Meetups are typically held once a month and are open to anyone. Below is a list of local meetup groups.</p>
-				<script type="text/javascript" src="https://www.meetup.com/embed/largest/nextcloud/"></script>
-				<p class="section--paragraph">Find the next Meetup dates and more on <a class="hyperlink" target="_blank" href="https://nextcloud.meetup.com/">nextcloud.meetup.com</a></p>
+				<p class="section--paragraph"><?php echo $l->t('Are you interested in meeting fellow Nextcloud users and contributors');?> (<a class="hyperlink" href="<?php echo home_url('contributors') ?>">Nextclouders</a>, <?php echo $l->t('as we lovingly call ourselves');?>)? <?php echo $l->t('You have come to the right place! The Nextcloud community organizes and participates in many events around the globe and here you can find details on where you can meet us and how to organise your own event and become a member of the most active file sync and share open source community!');?></p>
+				<div class="alignright"><a class="overlay-trigger"  href="<?php echo get_template_directory_uri(); ?>/assets/img/events/fosdem18.jpg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/fosdem18.jpg" style="width: 400px" title="" alt="" class="img-thumbnail"></a>
+				<p class="text-center"><?php echo $l->t('Our awesome team at FOSDEM 2018!');?></p></div>
+				<h2><?php echo $l->t('Meetups');?></h2>
+				<p class="section--paragraph"><?php echo $l->t('Nextcloud community members get together in meetups to learn, share ideas and work on Nextcloud. Meetups are informal meetings which are typically held in the evening and can be focused on development, user or business topics. You can take part as a speaker, participant or promoter. Meetups are typically held once a month and are open to anyone. You can find the meetups managed on our discourse forum.');?></p>
+				<p class="section--paragraph"><?php echo $l->t('Find the next Meetup dates and more on');?> <a class="hyperlink" target="_blank" href="https://help.nextcloud.com/c/events/25">help.nextcloud.com</a></p>
 				<div class="row" style="text-align: center">
-					<p class="section--paragraph"><a target="_blank" href="https://nextcloud.meetup.com/" class="btn btn-lg btn-default">
-					<i class="icon-group"></i> Join a Meetup!</a>
+					<p class="section--paragraph"><a target="_blank" href="https://help.nextcloud.com/c/events/25" class="btn btn-lg btn-default">
+					<i class="icon-group"></i> <?php echo $l->t('Join a Meetup!');?></a>
 					<a target="_blank"  href="<?php echo home_url('events/meetups') ?>" class="btn btn-lg btn-default">
-					<i class="icon-lightbulb-o"></i> Organize a Meetup!</a></p>
+					<i class="icon-lightbulb-o"></i> <?php echo $l->t('Organize a Meetup!');?></a></p>
 				</div>
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2019.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2019.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright overlay-trigger">
 				<h2>Nextcloud Conference</h2>
-				<p class="section--paragraph">The most exciting event on the yearly calendar for Nextcloud is of course our very own Nextcloud Conference! Over 300 Nextcloud community members get together for a full week. During week days, we write and discuss code while on the weekend we have an exciting, educational and inspirational program with keynotes, lightning talks and workshops around private, self-hosted cloud technologies.</p>
-				<p class="section--paragraph">You can read a report of our last conference <a class="hyperlink" href="https://nextcloud.com/blog/massive-series-of-announcements-over-weekend-from-nextcloud-conf-event-continues/">in this blog</a> and if you'd like to join in 2020 - mark these dates in your calendar:</p>
-				<h3>October 3-4 - online!</h3>
-				<a href="<?php echo home_url('conf') ?>" class="button button--blue button--large button--arrow">Learn more about the Nextcloud Conference</a>
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/booth.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
-				<h2>Conferences, tradeshows and other events</h2>
-				<p class="section--paragraph">Nextcloud is participating in trade shows and conferences to present our community and technology to visitors.<br/>
-				Below is a list of tradeshows and conferences where Nextcloud is represented! If you have questions and would like to meet us at an event, check out this list and <a class="hyperlink" href="https://help.nextcloud.com/c/conference">let us know on the forums</a> you will be there.</p>
+				<p class="section--paragraph"><?php echo $l->t('The most exciting event on the yearly calendar for Nextcloud is of course our very own Nextcloud Conference! Over 300 Nextcloud community members get together for a full week. During week days, we write and discuss code while on the weekend we have an exciting, educational and inspirational program with keynotes, lightning talks and workshops around private, self-hosted cloud technologies.');?></p>
+				<p class="section--paragraph"><?php echo $l->t('You can read a report of our last conference');?> <a class="hyperlink" href="https://nextcloud.com/blog/massive-series-of-announcements-over-weekend-from-nextcloud-conf-event-continues/"><?php echo $l->t('in this blog');?></a> <?php echo $l->t('and if you would like to join in 2021 - stay tuned, due to COVID we have no date yet.');?></p>
+// 				<h3>October 3-4 - online!</h3>
+				<a href="<?php echo home_url('conf') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Learn more about the Nextcloud Conference');?></a>
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/booth.jpg" style="width: 400px" title="" alt="" class="overlay-trigger img-thumbnail alignright">
+				<h2><?php echo $l->t('Conferences, tradeshows and other events');?></h2>
+				<p class="section--paragraph"><?php echo $l->t('Nextcloud is participating in trade shows and conferences to present our community and technology to visitors.');?><br/>
+				<?php echo $l->t('Below is a list of tradeshows and conferences where Nextcloud is represented! If you have questions and would like to meet us at an event, check out this list and');?> <a class="hyperlink" href="https://help.nextcloud.com/c/conference"><?php echo $l->t('let us know on the forums');?></a><?php echo $l->t(' you will be there.');?></p>
+            <a class="button button--blue" href="#2021" data-toggle="collapse"><?php echo $l->t('Events in 2021');?></a>
+                <div id="2021" class="collapse in">
+                <br>
+                <table class="table table-striped">
+					<tr>
+						<th>Event</th>
+						<th>Location</th>
+						<th>Date</th>
+					</tr>
+                     <tr>
+						<td><a class="hyperlink" target="_blank" href="https://fosdem.org/2021/">FOSDEM</a></td>
+						<td>Online/Brussels, Belgium</td>
+						<td>February 6-7</td>
+					</tr>
+					<tr>
+						<td><a class="hyperlink" target="_blank" href="https://www.univention-summit.de/">Univention Summit</a></td>
+						<td>Online/Bremen, Germany</td>
+						<td>January 28-29</td>
+					</tr>
+					<tr>
+						<td><a class="hyperlink" target="_blank" href="http://www.cs3community.org/2021/">CS3 cloud services workshop</a></td>
+						<td>Online</td>
+						<td>January 25-29</td>
+					</tr>
+				</table>
+			</div>
             <a class="button button--blue" href="#2020" data-toggle="collapse">Events in 2020</a>
                 <div id="2020" class="collapse in">
                 <br>
@@ -64,6 +89,11 @@ require(["require.config"], function() {
 						<th>Location</th>
 						<th>Date</th>
 					</tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/conf/">Nextcloud Conference</a></td>
+						<td>Online/Berlin, Germany</td>
+						<td>October 3-4</td>
+                    </tr>
                      <tr>
 						<td><a class="hyperlink" target="_blank" href="https://fosdem.org/2020/">FOSDEM</a></td>
 						<td>Brussels, Belgium</td>
@@ -82,10 +112,10 @@ require(["require.config"], function() {
 				</table>
 			</div>
 			<br/>
-            <p class="section--paragraph">Is there a conference, trade show or other event close by and you want Nextcloud to be there? Please <a class="hyperlink" href="https://help.nextcloud.com/c/conference">get in touch</a> and let us know, we will do our best to help making it happen!</p>
-            <p class="section--paragraph">Are you presenting about Nextcloud or running a booth at an upcoming event that should be listed here? Let us know <a class="hyperlink" href="https://help.nextcloud.com/c/conference">on the forums</a>!</p>
-                <a class="button button--blue" href="#2019" data-toggle="collapse">Events in 2019</a>
-                <div id="2019" class="collapse in">
+            <p class="section--paragraph"><?php echo $l->t('Is there a conference, trade show or other event close by and you want Nextcloud to be there?');?> <a class="hyperlink" href="https://help.nextcloud.com/c/conference"><?php echo $l->t('Please get in touch');?></a> <?php echo $l->t('and let us know, we will do our best to help making it happen!');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Are you presenting about Nextcloud or running a booth at an upcoming event that should be listed here? Let us know');?> <a class="hyperlink" href="https://help.nextcloud.com/c/conference"><?php echo $l->t('on the forums');?></a>!</p>
+                <a class="button button--blue" href="#2019" data-toggle="collapse"><?php echo $l->t('Events in 2019');?></a>
+                <div id="2019" class="collapse">
                 <br>
                 <table class="table table-striped">
 					<tr>
@@ -195,7 +225,7 @@ require(["require.config"], function() {
 					</tr>
 				</table>
 			</div>
-            <a class="button button--blue" href="#2018" data-toggle="collapse">Events in 2018</a>
+            <a class="button button--blue" href="#2018" data-toggle="collapse"><?php echo $l->t('Events in 2018');?></a>
                 <div id="2018" class="collapse">
                 <br>
                 <table class="table table-striped">
@@ -277,7 +307,7 @@ require(["require.config"], function() {
 				</table>
 			</div>
             <br>
-            <a class="button button--blue" href="#2017" data-toggle="collapse">Events in 2017</a>
+            <a class="button button--blue" href="#2017" data-toggle="collapse"><?php echo $l->t('Events in 2017');?></a>
             <div id="2017" class="collapse">
             <br>
             <table class="table table-striped">
@@ -405,7 +435,8 @@ require(["require.config"], function() {
             </div>
             <a name="ts" id="ts"></a>
             <h2>Travel support</h2>
-            <p class="section--paragraph">For the Conference, the Contributor Week and some events where we can use the help of some volunteers, we offer travel support. With this program, we cover 80% of your travel and hotel costs for a conference, and ask you to volunteer at the event. Please note that we can only offer travel support to a limited amount of our community members, so keep in mind that if we help cover your costs, the costs of another community member who may need it more than you can't be covered - only request travel support if you need it! If you want travel support, fill in <a href="https://cloud.nextcloud.com/apps/forms/7x6yQHNpZDbgC3EP">this form.</a></p>
+            <p class="section--paragraph"><?php echo $l->t('For the Conference, the Contributor Week and some events where we can use the help of some volunteers, we offer travel support. With this program, we cover 80% of your travel and hotel costs for a conference, and ask you to volunteer at the event. Please note that we can only offer travel support to a limited amount of our community members, so keep in mind that if we help cover your costs, the costs of another community member who may need it more than you can\'t be covered - only request travel support if you need it! If you want travel support, fill in');?> <a href="https://cloud.nextcloud.com/apps/forms/7x6yQHNpZDbgC3EP"><?php echo $l->t('this form.');?></a></p>
 		</div>
 	</div>
 </section>
+<?php require get_template_directory().'/overlay.php'; ?>

@@ -58,6 +58,50 @@ section {
 .section--compliance h2 {
   margin-bottom: 30px; }
 
+.section--quote .floating--quote--container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 40px 30px 40px;
+  background: #FFFFFF;
+  border: 1px solid #FCFCFC;
+  box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
+  margin: 30px 20px; }
+  @media (min-width: 991px) {
+    .section--quote .floating--quote--container {
+      float: right;
+      width: 40%;
+      min-width: 300px; } }
+  .section--quote .floating--quote--container blockquote {
+    font-style: italic;
+    font-size: 1.6em;
+    margin: 0; }
+.section--quote .quote--container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px 15px 20px;
+  background: #FFFFFF;
+  border: 1px solid #FCFCFC;
+  box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
+  margin: 20px 5%; }
+  @media (min-width: 991px) {
+    .section--quote .quote--container {
+      width: 90%; } }
+.section--quote .floating--quote--container .quote--brand, .section--quote .quote--container .quote--brand {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 200px; }
+  .section--quote .floating--quote--container .quote--brand .quote--derstandard--logo, .section--quote .quote--container .quote--brand .quote--derstandard--logo {
+    background: url("../../img/history/der-standard-logo.png") no-repeat center/contain;
+    width: 200px;
+    height: 70px; }
+
 @media (max-width: 768px) {
   .section--benefits {
     text-align: center; } }

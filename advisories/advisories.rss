@@ -4,7 +4,123 @@
  <title>Nextcloud Security Advisories RSS Feed</title>
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
- <ttl>1800</ttl><item>
+ <ttl>1800</ttl>
+  <item>
+  <title>Security Advisories are moving to GitHub Security Advisories</title>
+  <description>We have moved our new security advisories to GitHub Security Advisories. If you rely on a RSS feed, you can find alternatives discussed in https://github.com/nextcloud/security-advisories/discussions/25.</description>
+  <link>https://github.com/nextcloud/security-advisories</link>
+  <guid isPermaLink="true">https://github.com/nextcloud/security-advisories</guid>
+  <pubDate>Wed, 2 Jun 2021 10:00:00 +0100</pubDate>
+ </item>
+  <item>
+  <title>Desktop Client: Missing URL validation allowed RCE for the server on the Desktop client (NC-SA-2021-008)</title>
+  <description>Missing validation of URLs in Nextcloud Desktop Client 3.1.2 and earlier allowed a malicious server to execute code on the client. User interaction was required.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-008&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-008</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2021-008</guid>
+  <pubDate>Wed, 24 Feb 2021 12:00:00 +0100</pubDate>
+ </item><item>
+  <title>Deck App: New users can read all Nextcloud Deck data from previous user with same username (NC-SA-2021-007)</title>
+  <description>A logic error in Nextcloud Deck 1.0.1 allowed new users with a duplicate user identifier to use deck data of a previous deleted user.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-007&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-007</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2021-007</guid>
+  <pubDate>Wed, 03 Jun 2020 12:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: External storage app saves password for all users in the database (NC-SA-2021-006)</title>
+  <description>A missing condition in Nextcloud Server 19 and prior caused the external storage app to always store the users password in a recoverable format.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-006&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-006</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2021-006</guid>
+  <pubDate>Sat, 03 Oct 2020 12:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Reflected XSS when renaming malicious file (NC-SA-2021-005)</title>
+  <description>Missing sanitization in Nextcloud Server 20.0.5 and prior allowed to perform a reflected XSS when saving html as file name and causing an error on rename e.g. by renaming to an existing file. The risk is mostly mitigated due to the strict Content-Security-Policy (CSP) of Nextcloud, and thus mainly targets browsers not supporting CSP such as Internet Explorer.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-005&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-005</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2021-005</guid>
+  <pubDate>Mon, 25 Jan 2021 12:00:00 +0100</pubDate>
+ </item><item>
+  <title>Server: External storage credentials stored for wrong user (NC-SA-2021-004)</title>
+  <description>A missing user check in Nextcloud 20.0.5 and prior allowed to populate your own credentials for other users external storage configuration when they did not configure one yet.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-004&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-004</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2021-004</guid>
+  <pubDate>Mon, 25 Jan 2021 12:00:00 +0100</pubDate>
+ </item><item>
+  <title>Server: Denial of Service by requesting to reset a password (NC-SA-2021-003)</title>
+  <description>A wrong check in Nextcloud Server 19 and prior allowed to perform a denial of service attack when resetting the password for a user.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-003&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-003</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2021-003</guid>
+  <pubDate>Sat, 03 Oct 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Stored XSS in markdown file with Nextcloud Talk using Internet Explorer (NC-SA-2021-002)</title>
+  <description>A missing link validation in Nextcloud Server 20.0.1 allowed to execute a stored XSS attack on Internet Explorer users by saving a javascript url in a Markdown.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-002&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-002</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2021-002</guid>
+  <pubDate>Wed, 18 Nov 2020 13:00:00 +0100</pubDate>
+ </item><item>
+  <title>Server: Potential DDoS when posting long data into workflow validation rules (NC-SA-2021-001)</title>
+  <description>A missing input validation in Nextcloud Server 20.0.1 allowed users to store unlimited data in workflow rules causing load and potential DDoS on later interactions and usage with those rules.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2021-001&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2021-001</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2021-001</guid>
+  <pubDate>Wed, 18 Nov 2020 13:00:00 +0100</pubDate>
+ </item><item>
+  <title>Contacts App: XSS through image upload of contacts using svg file (NC-SA-2020-045)</title>
+  <description>A missing file type check in Nextcloud Contacts 3.3.0 allowed a malicious user to upload malicious SVG files to perform XSS attacks.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-045&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-045</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-045</guid>
+  <pubDate>Tue, 20 Oct 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Contacts App: XSS through image upload on contacts using svg file with png extension (NC-SA-2020-044)</title>
+  <description>A missing file type check in Nextcloud Contacts 3.4.0 allowed a malicious user to upload SVG files as PNG files to perform XSS attacks.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-044&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-044</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-044</guid>
+  <pubDate>Tue, 20 Oct 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Social App: Social App does not validate server certificates for outgoing connections (NC-SA-2020-043)</title>
+  <description>Missing validation of server certificates for out-going connections allowed a man-in-the-middle attack.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-043&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-043</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-043</guid>
+  <pubDate>Thu, 15 Oct 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Social App: Improper access control to messages of Social app (NC-SA-2020-042)</title>
+  <description>Improper access control in Social app 0.3.1 allowed to read posts of any user.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-042&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-042</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-042</guid>
+  <pubDate>Thu, 15 Oct 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Improper integrity protection of server-side encryption keys (NC-SA-2020-041)</title>
+  <description>Insufficient protection of the server-side encryption keys in Nextcloud Server 19.0.1 allowed an attacker to replace the encryption keys.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-041&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-041</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-041</guid>
+  <pubDate>Sat, 03 Oct 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Improper confidentiality protection of server-side encryption keys (NC-SA-2020-040)</title>
+  <description>Insufficient protection of the server-side encryption keys in Nextcloud Server 19.0.1 allowed an attacker to replace the public key to decrypt them later on.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-040&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-040</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-040</guid>
+  <pubDate>Sat, 03 Oct 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Downgrade encryption scheme and break integrity through known-plaintext attack (NC-SA-2020-039)</title>
+  <description>A cryptographic issue in Nextcloud Server 19.0.1 allowed an attacker to downgrade the encryption scheme and break the integrity of encrypted files.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-039&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-039</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-039</guid>
+  <pubDate>Wed, 26 Aug 2020 02:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Message Authentication Codes calculated by the Default Encryption Module allow an attacker to silently overwrite blocks in a file (NC-SA-2020-038)</title>
+  <description>A wrong generation of the passphrase for the encrypted block in Nextcloud Server 19.0.1 allowed an attacker to overwrite blocks in a file.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-038&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-038</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-038</guid>
+  <pubDate>Wed, 26 Aug 2020 02:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: PIN for passwordless WebAuthn is asked for but not verified (NC-SA-2020-037)</title>
+  <description>A wrong configuration in Nextcloud Server 19.0.1 incorrectly made the user feel the passwordless WebAuthn is also a two factor verification by asking for the PIN of the passwordless WebAuthn but not verifying it.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-037&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-037</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-037</guid>
+  <pubDate>Tue, 25 Aug 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Deck App: Access control missing while viewing the attachments in the 'All boards' (NC-SA-2020-036)</title>
+  <description>Missing access control in Nextcloud Deck 1.0.4 caused an insecure direct object reference allowing an attacker to view all attachments.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-036&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-036</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-036</guid>
+  <pubDate>Wed, 15 Jul 2020 14:00:00 +0200</pubDate>
+ </item><item>
   <title>Desktop Client: Missing memory corruption protection on Windows release built (NC-SA-2020-035)</title>
   <description>Missing ASLR and DEP protections in Nextcloud Desktop Client 2.6.4 for windows allowed to corrupt memory.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-035&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-035</link>
@@ -16,6 +132,12 @@
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-034</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-034</guid>
   <pubDate>Fri, 10 Jul 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Preferred providers: Missing rate limit on signup page (NC-SA-2020-033)</title>
+  <description>A missing rate limit in the Preferred Providers app 1.7.0 allowed an attacker to set the password an uncontrolled amount of times.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-033&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-033</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-033</guid>
+  <pubDate>Mon, 03 Aug 2020 14:00:00 +0200</pubDate>
  </item><item>
   <title>Desktop Client: Linux client is vulnerable to directory traversal when downloading files (NC-SA-2020-032)</title>
   <description>Missing sanitization of a server response in Nextcloud Desktop Client 2.6.4 for Linux allowed a malicious Nextcloud Server to store files outside of the dedicated sync directory.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-032&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
@@ -34,6 +156,12 @@
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-030</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-030</guid>
   <pubDate>Fri, 10 Jul 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Re-Sharing allows increase of privileges (NC-SA-2020-029)</title>
+  <description>A logic error in Nextcloud Server 19.0.0 caused a privilege escalation allowing malicious users to reshare with higher permissions than they got assigned themselves.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-029&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-029</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-029</guid>
+  <pubDate>Thu, 16 Jul 2020 14:00:00 +0200</pubDate>
  </item><item>
   <title>Preferred providers: Possible denial of service when entering a long password (NC-SA-2020-028)</title>
   <description>Improper check of inputs in Preferred providers app 1.6.0 allowed to perform a denial of service attack when using a very long password.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-028&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
