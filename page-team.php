@@ -389,19 +389,6 @@
 				<p class="teamdescription">Lukas has been contributing to the Nextcloud code base since 2012 and is responsible for many of the security hardenings in the code. He has worked as security assessment and forensic investigator, reviewing security, training and dealing with breaches at Fortune 500 companies and several of the largest Swiss financial institutes. He also worked at Facebook, creating privacy and security roadmaps, working on privacy incident management, security analysis, review and more.</p>
 			</div>
 		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/roeland.jpg" />
-				<h2 class="teamname">Roeland Douma</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Server Engineering and Support Lead</h3>
-					<h4 class="teamexpertise">Co-founder, Security, Sharing</h4>
-					<h4 class="teamlocation">Lives in Zuidoostbeemster, Netherlands</h4>
-					<p class="teamsocial"><a href="http://rullzer.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/rullzer"><i class="fa-github fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Roeland has been working on improving private file sharing since 2015. He has a MSc degree in Computer Science from the University of Amsterdam, having done research for his PhD in cache partitioning for real time systems. He is in charge of engineering and support and works on various security hardenings.</p>
-			</div>
-		</div>
         <div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/tobias.jpg" />
