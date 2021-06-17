@@ -766,6 +766,19 @@
 				<p class="teamdescription">Richard studies computer science and has been contributing since late 2020 to Nextcloud. He's passionate about open source and technology in general.</p>
 			</div>
 		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Simon Lindner</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Design Student</h3>
+					<h4 class="teamexpertise">User Experience and Interface Design</h4>
+					<h4 class="teamlocation">Lives in Berlin, Germany</h4>
+					<p class="teamsocial"><a href="https://github.com/szaimen"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Simon is currently studying design and works part time for Nextcloud. He has a degree in architecture and has been contributing to Nextcloud since 2019. He is interested in making Nextcloud and open-source software in general accessible to everyone and has experience in ticket triaging, Shell scripting, writing documentation, VMs and server administration.</p>
+			</div>
+		</div>
         <div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
