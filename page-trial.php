@@ -73,7 +73,8 @@
                 <label for="email"><?php echo $l->t('Business email');?></label>
             </div>
             <div class="col-lg-7">
-                <input   type="text" name="email" maxlength="80" size="60" placeholder="<?php echo $l->t('Business email');?>">
+                <input   type="text" name="email" maxlength="80" size="60" placeholder="<?php echo $l->t('Business email');?>"> <br />
+                <small><?php echo $l->t('Please do not email us from private mail addresses like gmail, gmx and the like. We only provide a trial to businesses > 50 employees. As a small business or private user, we recommend you simply try our demo or talk to one of our partners.');?> <a class="button button--white button--small" href="https://try.nextcloud.com"><?php echo $l->t('Instant Nextcloud Demo');?></a></small>
             </div>
         </div>
         <div class="row">
