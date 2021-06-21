@@ -271,7 +271,7 @@
 					<li>Problem solving</li>
 					<li>Product knowledge around open source technology</li>
 					<li>General programming skills in PHP, HTML, CSS</li>
-					<li>Writing and speaking German and/or French language</li>
+<!--					<li>Writing and speaking German and/or French language</li>-->
 				</ul>
 				<h3 class="section--paragraph__title">What we offer:</h3>
 				<ul>
