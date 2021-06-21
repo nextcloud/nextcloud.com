@@ -48,7 +48,7 @@
 
 /* General */
 section {
-  padding: 50px 0 50px; }
+  padding: 70px 0 70px; }
   section .section--heading-1 {
     padding-bottom: 50px; }
   section .section--paragraph--tittle {
@@ -111,12 +111,12 @@ section {
   position: relative; }
   .section--customers .container {
     padding-top: 8.54296875em;
-    /*     padding-bottom: ms(1); */ }
+    padding-bottom: 0; }
   .section--customers .customer {
     position: relative; }
     .section--customers .customer .customer-logo {
       float: center;
-      height: 400px;
+      height: 200px;
       position: relative;
       /* 			line-height: 400px; */
       text-align: center;
@@ -155,7 +155,7 @@ section {
           line-height: 300px; } }
       @media (max-width: 768px) {
         .section--customers .customer .customer-logo {
-          height: 200px;
+          height: 300px;
           line-height: 200px; } }
 
 .section--whitepaper {
