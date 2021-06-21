@@ -222,6 +222,7 @@
 					<li>Html/css skills to turn design into page</li>
 					<li>Video and animation are a plus</li>
 					<li>Being able to work independently, track progress and ask for help when needed</li>
+					<li>Native German speaker</li>
 				</ul>
 
 				<h3 class="section--paragraph__title">What we offer:</h3>
@@ -232,6 +233,7 @@
 					<li>Flexibility for a healthy work-life balance</li>
 					<li>Time for personal growth and education</li>
 					<li>We have flexible office hours and most of our team works from home.</li>
+					<li>You can literally live anywhere. You're welcome in our Berlin or Stuttgart offices, of course.</li>
 					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
 				</ul>
 				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of enhancing our online presence. We strive to provide the freedom and space to find the right approach! We look for somebody with design and basic website development experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
