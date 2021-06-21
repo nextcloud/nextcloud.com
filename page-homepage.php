@@ -267,7 +267,7 @@
         </div>
         <div class="col-md-6">
             <p class="section--paragraph__title"><?php echo $l->t('Move now to a reliable GDPR compliant cloud solution');?></h1>
-            <p class="section--paragraph"><?php echo $l->t('If your organization needs to a guaranteed GDPR compliant, efficient and easy to use online collaboration platform, we have a great offer for you. Together with Europe\'s largest hosting provider we bring you a near-instant deployment of Nextcloud, providing secure document exchange and collaboration, audio/video chat, calendar and email and more.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('If your organization needs a guaranteed GDPR compliant, efficient and easy to use online collaboration platform, we have a great offer for you. Together with Europe\'s largest hosting provider we bring you a near-instant deployment of Nextcloud, providing secure document exchange and collaboration, audio/video chat, calendar and email and more.');?></p>
             <a class="button button--blue button--arrow button--large " href="<?php echo home_url('ionos') ?>"><?php echo $l->t('Get started');?></a></p>
         </div>
     </div>
