@@ -65,19 +65,6 @@
 				<p class="teamdescription">Jos graduated in Psychology from the University of Utrecht and handled project and service level management at Royal Bank of Scottland, KPN and the Dutch Department of Education. He has over a decade open source marketing and PR experience, being active in the KDE community for over a decade and working as Community Manager for several companies including SUSE Linux.</p>
 			</div>
 		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mitzi.jpg" />
-				<h2 class="teamname">Mitzi László</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Head of Strategy </h3>
-					<h4 class="teamexpertise">Strategy and Communication</h4>
-					<h4 class="teamlocation">Lives in Amsterdam, Netherlands</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/mitzilaszlo"><i class="fa-linkedin fa"></i></a> <a href="https://twitter.com/MitziLaszlo"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Mitzi has been an advocate for equity enhancing computational infrastructures for a little under a decade. She graduated in neuroscience specialising in decision making and has worked in a variety of roles ranging from evaluator to investment and ethics advisor for the European Commission to Solid manger for Inrupt. </p>
-			</div>
-		</div>
         <div class="col-md-4">
             <div class="teamp">
                 <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/uwe.jpg" />
