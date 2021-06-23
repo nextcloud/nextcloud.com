@@ -449,6 +449,7 @@
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/nitrokey.png" title="Nitrokey" />
 				</a>
 				<p class="partnertext">Nitrokey is a German developer of hardware security keys. Their hardware is open source, enabling users to verify its security themselves. Nextcloud and Nitrokey work together on secure and easy authentication solutions around open standards.</p>
+			</div>
 			<div class="col-md-4">
 				<a href="http://www.onlyoffice.com" target="_blank" title="ONLYOFFICE">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/onlyoffice.png" title="ONLYOFFICE" />
