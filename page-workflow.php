@@ -49,6 +49,16 @@
 		</div>
 	</div>
     <div class="row">
+		<div class="col-md-6 image--feature">
+			<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555765504?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Dashboard Introduction"></iframe></div>
+		</div>
+		<div class="col-md-6">
+			<h3 class="section--paragraph__title"><?php echo $l->t('Get work approved and digitally signed');?></h3>
+			<p class="section--paragraph"><?php echo $l->t('Easy approval work flows enable teams to collaborate and management to sign off on important documents. An administrator can define approval flows and users can request approval on a document. They have to choose what approval to get, and the manager(s) who can approve will have the document shared with them automatically. They can then see the request and approve, or deny, after reviewing the document.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('For a formal sign-off on a contract or deal with an external organization, you need a internationally recognized digital signature. Nextcloud offers several solutions in our app store, from DocuSign and eID-easy to the open source LibreSign.');?></p>
+		</div>
+	</div>
+    <div class="row">
 		<div class="col-md-6 image--floated image--feature new-img">
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-admin.png"><img class="overlay-trigger img-responsive featureimg" alt="pic of flow in action" src="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-admin.png" /></a>
 		</div>
