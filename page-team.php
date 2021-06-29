@@ -244,6 +244,19 @@
 				<p class="teamdescription">Matthias worked for nine years as a 3rd level IT Engineer and IT Administrator. Acting as a broker between the customer, the Sales and Engineering department, his main focus is to give our clients the best possible advice. Matthias is passionate about innovative technology, enabling clients to collaborate securely while retaining ease-of-use.</p>
 			</div>
 		</div>
+        <div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Pietro Marini</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Senior Sales Engineer</h3>
+					<h4 class="teamexpertise">Consulting and Sales</h4>
+					<h4 class="teamlocation">Lives in La Coruña, Spain</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/pietro-m-32347959"><i class="fa-linkedin fa"></i></a></p>
+				</div>
+				<p class="teamdescription">After graduating in Physics in 2011 at University of Pavia, Italy, Pietro has been working as a developer and consultant in the Business Intelligence and Data Analytics sector for many companies across Europe and is now settled in Galicia, Spain. Customer-oriented, self-learner and with a passion in open-source software engineering, Pietro enjoys teaming up with customers to solve complex technical challenges. He also tries to help the general public in forming opinions on the impacts of technology in their life, by spreading concepts and trends around big data, machine learning and the digital economy.</p>
+			</div>
+		</div>
     </div>
     <div class="row">
         <h2><?php echo $l->t('Marketing');?></h2>
