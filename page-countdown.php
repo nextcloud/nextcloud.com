@@ -180,7 +180,7 @@ $(document).ready(function(){
                     <td>Frank, Greta, Jan, Jos and others</td>
                     </tr>
                     <tr>
-                    <th scope="row">13:30-14:30</th>
+                    <th scope="row">13:45-14:30</th>
                     <td>Live Q&A ask questions in the chat!
                     </td>
                     <td><span class="break">Frank Karlitschek<br>Jos Poortvliet</span></td>
