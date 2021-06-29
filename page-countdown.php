@@ -86,7 +86,7 @@ $(document).ready(function(){
 		}
 		//
 		$("#countdown").countdown({
-			date: "22 February 2021 12:59:59", // change date/time here - do not change the format!
+			date: "06 July 2021 12:59:59", // change date/time here - do not change the format!
 			format: "on"
 		});
 	});
@@ -100,10 +100,10 @@ $(document).ready(function(){
 <div class=" background security-background">
     <div class="container">
         <div class="col-md-6 topheader">
-            <!--<h1>Coming soon!</h1>-->
-            <!--<h2>Stay tuned for our announcement on February 22<br>at 1PM CET</h2>-->
-            <h1>Nextcloud 21 is here!</h2>
-            <h2>Re-watch our announcement below.</h2>
+            <h1>Coming soon!</h1>
+            <h2>Stay tuned for our announcement on July 6<br>at 1PM CET</h2>
+<!--             <h1>Nextcloud 21 is here!</h2> -->
+<!--             <h2>Re-watch our announcement below.</h2> -->
         </div>
     </div>
 </div>
@@ -134,17 +134,17 @@ $(document).ready(function(){
 </section>
 
 
-<section>
+<!--<section>
     <div class="container">
         <div class="row text-center">
-            <!--<iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/bjivOowRao4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+            <iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/bjivOowRao4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>Announcement video:</p>
             <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556069230?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud 21 introduction video"></iframe></div>
             <p>Live Q&A recording:</p>
             <iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/iMCza-AX3hg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
-</section>
+</section>-->
 
 
 
@@ -164,7 +164,8 @@ $(document).ready(function(){
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
             <p class="section--paragraph__tittle"><?php echo $l->t('Be a part of it!');?></p>
-            <p class="section--paragraph"><!--<a class="hyperlink" href="https://youtu.be/">--><?php echo $l->t('Join us at the live stream on our YouTube channel.');?><!--</a>--></p>
+            <p class="section--paragraph"><a class="hyperlink" href="https://youtu.be/Y0VZ7t8JGZE"><?php echo $l->t('Join us at the live stream on our YouTube channel.');?></a></p>
+            <p class="section--paragraph"><?php echo $l->t('The virtual event starts on July 6th at 1PM CET.');?></p>
 		</div>
 	</div>
 	<div class="row program">
@@ -176,7 +177,7 @@ $(document).ready(function(){
                     <th scope="row">13:00</th>
                     <td><span class="break">Start of presentation<br>
                     <small>On our YouTube channel.</small></span></td>
-                    <td>Frank, Mitzi, Jan, Jos</td>
+                    <td>Frank, Greta, Jan, Jos and others</td>
                     </tr>
                     <tr>
                     <th scope="row">13:30-14:30</th>
