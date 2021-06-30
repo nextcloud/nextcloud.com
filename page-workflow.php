@@ -29,6 +29,7 @@
 		<div class="col-md-8 col-md-offset-2">
 			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Build automated flows');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Flow makes it easy to automate repetitive, boring tasks and build efficient team collaboration workflows.');?></p>
+			<br />
 			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Protect and retire data');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Advanced file access control and retention capabilities enable IT to block unauthorized access and ensure files are retired in time.');?></p>
 		</div>
@@ -50,10 +51,10 @@
 	</div>
     <div class="row">
 		<div class="col-md-6 image--feature">
-			<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555765504?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Dashboard Introduction"></iframe></div>
+		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/569448618?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="separate approval process and pdf signatures screencast for vimeo"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 		</div>
 		<div class="col-md-6">
-			<h3 class="section--paragraph__title"><?php echo $l->t('Get work approved and digitally signed');?></h3>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Get work approved and documents digitally signed');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Easy approval work flows enable teams to collaborate and management to sign off on important documents. An administrator can define approval flows and users can request approval on a document. They have to choose what approval to get, and the manager(s) who can approve will have the document shared with them automatically. They can then see the request and approve, or deny, after reviewing the document.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('For a formal sign-off on a contract or deal with an external organization, you need a internationally recognized digital signature. Nextcloud offers several solutions in our app store, from DocuSign and eID-easy to the open source LibreSign.');?></p>
 		</div>
@@ -86,7 +87,7 @@
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/qnNZafE7ECM" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-md-6">
-                <h3 class="section--paragraph__title"><?php echo $l->t('Featured community app:');?> <br /> Nextcloud Data Analytics</h3>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Featured community app:');?> <br />Nextcloud Data Analytics</h3>
                 <p class="section--paragraph"><?php echo $l->t('A great example of flow integration is the Data Analytics app by developer Marcel \'Rello\' Scherello. This application is designed to turn data into reports, tracking and analyzing data which can be imported through an API. Data Analytics provides modular datasources, a realtime or storage backend and flexibile visualization. Its flow integration allows it to monitor files for updates or act on other events on Nextcloud.');?></p>
                 <a href="https://github.com/Rello/analytics/wiki/Flow-integration" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
             </div>
@@ -111,12 +112,11 @@
 <section class="section--workflow">
 <div class="container">
 	<div class="row">
-		<div class="col-md-6 image--feature">
-			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-tagging-retention-nw.png" class="overlay-trigger img-responsive featureimg" />
+		<div class="col-md-6 image--feature new-img">
+			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/tagging-retention.png" class="overlay-trigger img-responsive featureimg" />
 		</div>
 		<div class="col-md-6">
-			<h3 class="section--paragraph__title"><?php echo $l->t('Define automated Workflows and retention');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('The Workflow engine expands the capabilities of auto tagging and File Access Control, enabling administrators to start any kind of actions based on triggers. Examples would be converting document file types to PDF upon upload by members of a specified group or emailing files put in a specified folder with a given tag to a given mail address.');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Define document retention');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('File retention and deletion can also be controlled based on tags set manually or automatically, ensuring legal or practical requirements for the longevity of data lifespans can be enforced.');?></p>
 		</div>
 	</div>
