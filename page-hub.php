@@ -66,7 +66,7 @@
                         </div>
                     </div>
                     <p class="section--paragraph"><?php echo $l->t('Nextcloud Files offers universal file access on desktop, mobile and web. Find files with powerful search, share your thoughts in comments or lock files until you are done with them.');?></p>
-                    <a href="<?php echo home_url('files') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Nextcloud Files');?></a>
+                    <a href="<?php echo home_url('files') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('About Files');?></a>
                 </div>
             </div>
 
@@ -97,7 +97,7 @@
                         </div>
                     </div>
                     <p class="section--paragraph"><?php echo $l->t('Nextcloud Groupware integrates Calendar, Contacts, Mail and other productivity features to help teams get their work done faster, easier and on your terms.');?></p>
-                    <a href="<?php echo home_url('groupware') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+                    <a href="<?php echo home_url('groupware') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('About Groupware');?></a>
                 </div>
             </div>
         </div>
@@ -416,28 +416,6 @@
 </div>
 </section>
 
-<section class="section--ONLYOFFICE">
-	<div class="container">
-        <div class="row">
-            <div class="col-md-6 image--floated image--feature new-img">
-                <a class="overlay-trigger" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"/></a>
-            </div>
-           <div class="col-md-6 feature--block">
-                <h3 class="section--paragraph__title"><?php echo $l->t('Collaborate on documents with Collabora');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('Collabora Online integration in Nextcloud empowers your users to collaborate on office documents with team members in real time.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Compatibility with Microsoft Office formats means perfect documents, every time.');?></p>
-                <ul>
-                <li><?php echo $l->t('Shipping by default in Nextcloud Hub');?></li>
-                <li><?php echo $l->t('A modern and familiar user interface');?></li>
-                <li><?php echo $l->t('The same document rendering in every browser');?></li>
-                <li><?php echo $l->t('Desktop level editing capabilities');?></li>
-                    </ul>
-                <a href="<?php echo home_url('collabora') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Collabora Online');?></a>
-            </div>
-        </div>
-	</div>
-</section>
-
 <section class="section--search">
 <div class="container">
 	<div class="row">
@@ -496,6 +474,7 @@
     </div>
 </section>
 
+
 <section class="section--accessibility">
 	<div class="container">
         <div class="row">
@@ -510,12 +489,33 @@
 	</div>
 </section>
 
+<section class="section--ONLYOFFICE">
+	<div class="container">
+        <div class="row">
+            <div class="col-md-6 image--feature new-img">
+                <a class="overlay-trigger" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"/></a>
+            </div>
+           <div class="col-md-6 feature--block">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Collaborate on documents with Collabora');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('Collabora Online integration in Nextcloud empowers your users to collaborate on office documents with team members in real time.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Compatibility with Microsoft Office formats means perfect documents, every time.');?></p>
+                <ul>
+                <li><?php echo $l->t('Shipping by default in Nextcloud Hub');?></li>
+                <li><?php echo $l->t('A modern and familiar user interface');?></li>
+                <li><?php echo $l->t('The same document rendering in every browser');?></li>
+                <li><?php echo $l->t('Desktop level editing capabilities');?></li>
+                    </ul>
+                <a href="<?php echo home_url('collabora') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Collabora Online');?></a>
+            </div>
+        </div>
+	</div>
+</section>
 
 <section class="section--storage">
 	<a name="storage" id="storage"></a>
 	<div class="container">
         <div class="row">
-            <div class="col-md-6 image--feature">
+            <div class="col-md-6 image--feature image--floated">
                 <a class="overlay-trigger" href="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png"/></a>
             </div>
                 <h3 class="section--paragraph__title"><?php echo $l->t('External storage, securely encrypted');?></h3>
@@ -530,7 +530,7 @@
 <section class="section--usermanagement">
 	<div class="container">
         <div class="row">
-            <div class="col-md-6 image--feature new-img image--floated">
+            <div class="col-md-6 image--feature new-img">
                 <a class="overlay-trigger" href="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/usermanagement.png" alt="in action" ></a>
             </div>
                 <h3 class="section--paragraph__title"><?php echo $l->t('Integrated account management');?></h3>
@@ -541,20 +541,95 @@
 	</div>
 </section>
 
-<!--<section class="section--vdr">
+<section class="section--vdr">
     <div class="container">
         <div class="row feature-row">
-            <div class="col-md-6">
-                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/vdr-link.jpg" alt="in action"/>
+            <div class="col-md-6 image--floated">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/vdr-link.jpg" alt="VDR stock image"/>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Virtual Data Room');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('In settings where a firewall is needed between departments or organizations without impeding smooth and efficient collaboration, a separate Virtual Data Room can be set up. Nextcloud offers a wide range of unique features for VDR use and its on-premises nature offers unparalleled confidentiality and control.');?></p>
-                <a href="<?php echo home_url('virtual-data-room') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Virtual Data Rooms');?></a>
+                <a href="<?php echo home_url('virtual-data-room') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Virtual Data Room features');?></a>
             </div>
         </div>
     </div>
-</section>-->
+</section>
+
+<section class="section--appstore benefits">
+<div class="container-fluid banner quote">
+    <div class="container">
+    <div class="col-md-6">
+        <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Extend your cloud');?></h1>
+        <p class="section--paragraph"><?php echo $l->t('You can extend the functionality of your Nextcloud with extra features from the Nextcloud app store. Among the more than 200 apps you can find features that enhance sharing, including:');?></p>
+        <p class="section--paragraph">
+        <ul>
+        <li><i class="fa-check fa"></i> <?php echo $l->t('Groupfolders allows admin-shared folders users can\'t remove');?></li>
+        <li><i class="fa-check fa"></i> <?php echo $l->t('Activities for shared file downloads so you can track who downloads your shared files');?></li>
+        <li><i class="fa-check fa"></i> <?php echo $l->t('Easy sharing via email, Google+, Diaspora, Facebook and more social channels');?></li>
+        </ul>
+        </p>
+        <div class="text-center morebuttondiv">
+			<a href="https://apps.nextcloud.com" class="button button--large button--arrow"><?php echo $l->t('Appstore');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+        </div>
+    </div>
+    <img class="big-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/appstore-big.png">
+    <img class="small-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/appstore-big.png">
+    </div>
+</div>
+</section>
+
+<h1 class="text-center"><?php echo $l->t('Some key apps');?></h1>
+
+<section class="section--collectives">
+	<div class="container">
+         <div class="row">
+            <div class="col-md-6 ">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/569475807?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Knowledge management in Nextcloud"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+            <div class="col-md-6">
+                <h3 class="section--paragraph__title">Nextcloud app: <?php echo $l->t('Collectives');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('Bringing knowledge management to Nextcloud, Collectives enables users to share a set of handbooks with each other. Collectives is closely tied with the custom group feature in Nextcloud and builds on Nextcloud Text, so it allows for collaborative editing of documents, showing author colors, versioning, cross-page links and more.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('With Collectives, organizations can reduce the \'bus factor\' by sharing knowledge in a way that fits a modern, paperless office and support asynchronous collaboration.');?></p>
+                <a href="https://apps.nextcloud.com/apps/collectives" class="button button--blue button--arrow button--large"><?php echo $l->t('More about Collectives');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section--forms">
+	<div class="container">
+         <div class="row">
+            <div class="col-md-6 image--feature new-img image--floated">
+                <a class="overlay-trigger" href="<?php bloginfo('template_directory'); ?>/assets/img/features/forms.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/forms.png" alt="Forms in action" ></a>
+            </div>
+            <div class="col-md-6">
+                <h3 class="section--paragraph__title">Nextcloud app: <?php echo $l->t('Forms');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('Did you know a third of people who abandon a survey form do so because they worry about privacy and security? We understand, pretty much all those forms are hosted at Google or other, data-vacuuming services. Well, we have good news to you surveyors!');?></p>
+                <p class="section--paragraph"><?php echo $l->t('With Nextcloud Forms, you can create as many forms, with as many questions, and shared with as many people as you like – without any limitations. You keep your form and the data you collect on Nextcloud. And you can easily analyze and share the results with our pretty and insightful graphs.');?></p>
+                <a href="https://nextcloud.com/blog/nextcloud-forms-is-here-to-take-on-gafam/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about Forms');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section--whiteboard">
+	<div class="container">
+         <div class="row">
+            <div class="col-md-6 ">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555768438?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Whiteboard"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+            <div class="col-md-6">
+                <h3 class="section--paragraph__title">Nextcloud app: <?php echo $l->t('Whiteboard');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('The collaborative Whiteboard app allows users to draw lines & shapes, take notes, add images and more, alone or while working with others. The app works fully in Talk and is very useful to give presentations during a video call with its synchronized view area feature.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Files created with Whiteboard are saved among other regular files and are collaborative. Drawing, typing and adding images on the file are possible. The presentation feature is especially helpful for schools or analytical team meetings or brainstorming sessions.');?></p>
+                <a href="https://apps.nextcloud.com/apps/whiteboard" class="button button--blue button--arrow button--large"><?php echo $l->t('More about Whiteboard');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 <section class="section--benefits">
 <div class="container-fluid quote">
