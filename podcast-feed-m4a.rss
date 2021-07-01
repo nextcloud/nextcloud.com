@@ -43,7 +43,7 @@
 <item>
 
       <title>Nextcloud podcast episode pt. 11: Interview with Sebastian and Michael from hosting.de!</title>
-      <itunes:subtitle>In this 11th episode, our host Ingo talked with Sebastian Holländer, the Product owner & Michael Ernst, the Chief Software Officer at hosting.de.</itunes:subtitle>
+      <itunes:subtitle>In this 11th episode, our host Ingo talked with Sebastian Holländer, the Product owner and Michael Ernst, the Chief Software Officer at hosting.de.</itunes:subtitle>
       <itunes:summary>Learn more about what hosting.de is, how and why they chose Nextcloud, and the simple and quick steps of getting started with Nextcloud, either as a home or business user.</itunes:summary>
       <itunes:duration>00:41:43</itunes:duration>
       <description>Learn more about what hosting.de is, how and why they chose Nextcloud, and the simple and quick steps of getting started with Nextcloud, either as a home or business user.</description>
@@ -54,7 +54,7 @@
       <itunes:explicit>no</itunes:explicit>
       <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_011.m4a</guid>
       <link>https://nextcloud.com/blog/nextcloud-podcast-episode-pt-11-interview-with-sebastian-and-michael-from-hosting-de/</link>
-</item>     
+</item>
 
       <title>Interview with Michael Meeks, the General Manager of Collabora Productivity</title>
       <itunes:subtitle>In this 10th episode, our host Ingo talked with Michael Meeks, the General Manager of Collabora Productivity.</itunes:subtitle>
