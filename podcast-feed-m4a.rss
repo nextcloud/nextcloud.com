@@ -39,9 +39,7 @@
     <atom:link href="https://nextcloud.com/podcast-feed-m4a.rss" rel="self" type="application/rss+xml" />
     <link>https://nextcloud.com/podcast/</link>
 
-       <item>
-<item>
-
+    <item>
       <title>Nextcloud podcast episode pt. 11: Interview with Sebastian and Michael from hosting.de!</title>
       <itunes:subtitle>In this 11th episode, our host Ingo talked with Sebastian Holländer, the Product owner and Michael Ernst, the Chief Software Officer at hosting.de.</itunes:subtitle>
       <itunes:summary>Learn more about what hosting.de is, how and why they chose Nextcloud, and the simple and quick steps of getting started with Nextcloud, either as a home or business user.</itunes:summary>
@@ -54,8 +52,9 @@
       <itunes:explicit>no</itunes:explicit>
       <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_011.m4a</guid>
       <link>https://nextcloud.com/blog/nextcloud-podcast-episode-pt-11-interview-with-sebastian-and-michael-from-hosting-de/</link>
-</item>
+    </item>
 
+    <item>
       <title>Interview with Michael Meeks, the General Manager of Collabora Productivity</title>
       <itunes:subtitle>In this 10th episode, our host Ingo talked with Michael Meeks, the General Manager of Collabora Productivity.</itunes:subtitle>
       <itunes:summary>In this 10th episode, our host Ingo talked with Michael Meeks, Open Source developer and General Manager of Collabora Productivity, leading Collabora Online and Office products, supporting customers, and consulting on development alongside his team.</itunes:summary>
@@ -68,8 +67,9 @@
       <itunes:explicit>no</itunes:explicit>
       <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_010.m4a</guid>
       <link>https://nextcloud.com/blog/interview-with-michael-meeks-the-general-manager-of-collabora-productivity/</link>
-</item>
-       <item>
+    </item>
+
+    <item>
       <title>Interview with Marco Nöchel and Thorsten Krüger from HKN</title>
       <itunes:subtitle>In this 9th-episode, our host Ingo talked with Marco Nöchel and Thorsten Krüger from HKN</itunes:subtitle>
       <itunes:summary>In this 9th-episode, our host Ingo talked with Marco Nöchel, the CEO, and engineer Thorsten Krüger from HKN GmbH, which is the biggest multi-region German Openstack Cloud, and Nextcloud silver partner.</itunes:summary>
@@ -84,7 +84,7 @@
       <link>https://nextcloud.com/blog/podcast-no-9-interview-with-marco-nochel-and-thorsten-kruger-from-hkn/</link>
     </item>
 
-          <item>
+    <item>
       <title>Podcast No. 8 - Interview with Arthur Schiwon about Nextcloud Flow</title>
       <itunes:subtitle>In this eight-episode, our host Ingo talked with Arthur, Senior Software Engineer at Nextcloud, about Nextcloud Flow.</itunes:subtitle>
       <itunes:summary>In this eight-episode, our host Ingo talked with Arthur, Senior Software Engineer at Nextcloud, about Nextcloud Flow. Nextcloud Flow is the workflow engine of Nextcloud.
@@ -99,7 +99,6 @@
       <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_008.m4a</guid>
       <link>https://nextcloud.com/blog/podcast-no-8-interview-with-arthur-schiwon-about-nextcloud-flow/</link>
     </item>
-
 
     <item>
       <title>Interview with Stefan Niedermann, an amazing community member!</title>
