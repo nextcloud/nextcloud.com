@@ -328,8 +328,19 @@
             <blockquote class="section--paragraph"><?php echo $l->t('Drag a document into a chat and edit it with other participants during a video call');?></blockquote>
 		</div>
 	</div>
+    <div class="row">
+        <div class="col-md-6">
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/570271904?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Chat and project management integration"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+        <div class="col-md-6">
+            <h3 class="section--paragraph__title"><?php echo $l->t('Integrated groupware, chat and project management');?></h3>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud features tightly integrated chat, project management, mail, calendaring and more. Chat messages can be directly transformed into tasks, task deadlines are visible in the Calendar and files can be attached to a task from the sharing dialog.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('A single platform means there is no need to juggle different accounts, keep track of where in the many cloud platforms the latest version of a document is floating around, or worry about security threats and invisible costs.');?></p>
+            <a href="<?php echo home_url('content-collaboration-platform') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Benefits of a single platform');?></a>
+        </div>
+    </div>
 	<div class="row">
-		<div class="col-md-6 image--feature">
+		<div class="col-md-6 image--feature  image--floated">
 			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555768438?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Whiteboarding in Talk video"></iframe></div>
 		</div>
         <div class="col-md-6">
@@ -340,7 +351,7 @@
 		</div>
 	</div>
     <div class="row">
-		<div class="col-md-6  image--floated  image--feature new-img">
+		<div class="col-md-6  image--feature new-img">
 			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk_bridge_slack_matrix.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk_bridge_slack_matrix.png" class="overlay-trigger img-responsive featureimg" alt="<?php echo $l->t('Bridging Slack and Matrix into a room');?>" /></a>
 		</div>
         <div class="col-md-6">

@@ -151,6 +151,10 @@
             <p class="section--paragraph"><?php echo $l->t('Switching between different tools is more than cumbersome and inefficient: it also increases the chance for mistakes that can result in data leaks.');?></p>
         </div>
     </div>
+</section>
+
+<section class="section--home-office">
+	<div class="container">
      <h2 class="section--heading-2 text-center"><?php echo $l->t('The perfect home office platform');?></h2>
     <div class="row">
         <div class="col-md-10 col-md-offset-1 video">
@@ -159,7 +163,6 @@
         </div>
     </div>
 </div>
-</section>
 
 <section class="section--products">
 	<div class="container">
@@ -219,6 +222,16 @@
     <div class="row">
         <h2 class="text-center"><?php echo $l->t('Feature highlights');?></h2>
     </div>
+    <div class="row">
+            <div class="col-md-6">
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/570271904?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Chat and project management integration"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+            <div class="col-md-6">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Integrated groupware, chat and project management');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('Nextcloud features tightly integrated chat, project management, mail, calendaring and more. Chat messages can be directly transformed into tasks, task deadlines are visible in the Calendar and files can be attached to a task from the sharing dialog.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('A single platform means there is no need to juggle different accounts, keep track of where in the many cloud platforms the latest version of a document is floating around, or worry about security threats and invisible costs.');?></p>
+            </div>
+        </div>
     <div class="row">
         <h3 class="section--paragraph__title"><?php echo $l->t('Secure view in action');?></h3>
         <p class="section--paragraph"><?php echo $l->t('With secure view, our online office solutions can be configured to open PDF files, images and text files, making these files available in a watermark-protected way, while downloads and other apps are disabled using File Access Control. This setup is useful when data has to be protected from leaking but still has to be made available for review, as in a virtual data room scenario.');?></p>

@@ -41,6 +41,9 @@
 .section--intro .video .video-js {
   background-color: transparent !important; }
 
+.section--collaboration .row {
+  padding: 50px 0 100px 0; }
+
 .section--products {
   margin: 0 0 0 0;
   padding: 90px 0 70px 0;
