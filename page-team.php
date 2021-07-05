@@ -535,7 +535,7 @@
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-				<h2 class="teamname">	Felix Weilbach</h2>
+				<h2 class="teamname">Felix Weilbach</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Desktop client engineer</h4>
@@ -626,7 +626,7 @@
         <div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-				<h2 class="teamname">	Louis Chemineau</h2>
+				<h2 class="teamname">Louis Chemineau</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Server and front-end</h4>
@@ -777,6 +777,19 @@
 					<p class="teamsocial"><a href="https://github.com/szaimen"><i class="fa-github fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Simon is currently studying design and works part time for Nextcloud. He has a degree in architecture and has been contributing to Nextcloud since 2019. He is interested in making Nextcloud and open-source software in general accessible to everyone and has experience in ticket triaging, Shell scripting, writing documentation, VMs and server administration.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Tim Krüger</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Android Talk app</h4>
+					<h4 class="teamlocation">Lives in Herne, Germany</h4>
+					<p class="teamsocial"><a href="https://github.com/timkrueger/"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Tim has worked in the field of navigation solutions for 13 years, most recently further developing and operating the backend for routing and geocoding services. He has a Dipl.-Ing. (FH) in geoinformatics from the Bochum University of Applied Sciences.<br />Cleaning up is one of his passions. No matter if code, documentation or dependencies. And since he likes to finish work early, he automates what he can.</p>
 			</div>
 		</div>
         <div class="col-md-4">
