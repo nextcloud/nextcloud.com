@@ -18,7 +18,7 @@
 /**
  * Event date in UTC, modify the string!!
  */
-const eventDateUTC =  new Date('06 July 2021 12:59:59');
+const eventDateUTC =  new Date('06 July 2021 10:59:59');
 
 // Start the counter
 $(document).ready(function(){
@@ -43,18 +43,18 @@ const updateCounter = function() {
 }
 
 /**
- * Gets the time left from the event date to 
+ * Gets the time left from the event date to
  */
 const getTimeLeft = function(eventDateUTC) {
 
 	const now = new Date
 
 	// Time left in milliseconds (UTC)
-	const timeLeftUTC = eventDateUTC - now 
+	const timeLeftUTC = eventDateUTC - now
 
 	// Offset to local timezone in milliseconds
-	let offset = now.getTimezoneOffset() * 60000 
-	
+	let offset = now.getTimezoneOffset() * 60000
+
 	// Time left in milliseconds
 	const timeLeft = timeLeftUTC - offset
 
@@ -69,7 +69,7 @@ const getTimeLeft = function(eventDateUTC) {
 	millisecondsLeft = millisecondsLeft % 3600000
 	const minutesLeft = format(Math.floor(millisecondsLeft / 60000))
 
-	// get seconds left 
+	// get seconds left
 	millisecondsLeft = millisecondsLeft % 60000
 	const secondsLeft = format(Math.floor(millisecondsLeft / 1000))
 
