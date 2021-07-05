@@ -1,96 +1,12 @@
 <head>
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/clock.css?v=1" rel="stylesheet">
-    <script>
-    require(["require.config"], function() {
-        require(["jquery"])
-    });
-    </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/clock.css?v=1" rel="stylesheet">
+
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/gears.jpg">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/gears.jpg">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/gears.jpg">
 <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/gears.jpg">
 <meta name=”Description” content="Nextcloud is the most secure private cloud solution - learn how it keeps your data safe!">
 <!-- <meta http-equiv="refresh" content="60"> -->
-
-<script>
-
-/**
- * Event date in UTC, modify the string!!
- */
-const eventDateUTC =  new Date('06 July 2021 10:59:59');
-
-// Start the counter
-$(document).ready(function(){
-	setInterval(updateCounter, 1000)
-})
-
-// Clear the interval
-$(window).unload(function() {
-	clearInterval(updateCounter, 1000)
-})
-
-
-const updateCounter = function() {
-	// Get time left
-	timeLeft = getTimeLeft(eventDateUTC)
-
-	// Update the template
-	$('.hours').text(timeLeft.hours)
-	$('.minutes').text(timeLeft.minutes)
-	$('.seconds').text(timeLeft.seconds)
-	$('.days').text(timeLeft.days)
-}
-
-/**
- * Gets the time left from the event date to
- */
-const getTimeLeft = function(eventDateUTC) {
-
-	const now = new Date
-
-	// Time left in milliseconds (UTC)
-	const timeLeftUTC = eventDateUTC - now
-
-	// Offset to local timezone in milliseconds
-	let offset = now.getTimezoneOffset() * 60000
-
-	// Time left in milliseconds
-	const timeLeft = timeLeftUTC - offset
-
-	// Get days left
-	const daysLeft = format(Math.floor(timeLeft / 86400000))
-
-	// Get hours left
-	let millisecondsLeft = timeLeft % 86400000
-	const hoursLeft = format(Math.floor(millisecondsLeft / 3600000))
-
-	// Get minutes left
-	millisecondsLeft = millisecondsLeft % 3600000
-	const minutesLeft = format(Math.floor(millisecondsLeft / 60000))
-
-	// get seconds left
-	millisecondsLeft = millisecondsLeft % 60000
-	const secondsLeft = format(Math.floor(millisecondsLeft / 1000))
-
-	return {
-		days: daysLeft,
-		hours: hoursLeft,
-		minutes: minutesLeft,
-		seconds: secondsLeft,
-	}
-}
-
-/**
- * Add zeros if needed and stringifies everything
- */
-const format = (number) => {
-	if (number < 10) {
-		return `0${number}`
-	} else return number.toString()
-}
-</script>
-
 </head>
 
 <div class=" background security-background">

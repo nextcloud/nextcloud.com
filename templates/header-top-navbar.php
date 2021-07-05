@@ -1,53 +1,99 @@
 <?php $l = new L10N('header-navbar');
 require get_template_directory() . '/strings.php';
 ?>
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<!-- <meta http-equiv="refresh" content="60"> -->
 
 <script>
-// Set the date we're counting down to (in UTC)
-var countDownDate = new Date("July 06, 2021 12:59:59").getTime();
+require(["require.config"], function() {
+	require(["jquery"], ($) => {
+		/**
+		 * Event date in UTC, modify the string!!
+		 */
+		const eventDateUTC =  new Date('06 July 2021 10:59:59');
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+		const updateCounter = function() {
+			// Get time left
+			timeLeft = getTimeLeft(eventDateUTC)
 
-  // Get today's date and time
-  var now = new Date().getTime();
+			// Update the template
+			$('.hours').text(timeLeft.hours)
+			$('.minutes').text(timeLeft.minutes)
+			$('.seconds').text(timeLeft.seconds)
+			$('.days').text(timeLeft.days)
+			document.getElementById("clockday").innerHTML = timeLeft.days
+			document.getElementById("clockhour").innerHTML = timeLeft.hours
+			document.getElementById("clockmin").innerHTML = timeLeft.minutes
+			document.getElementById("clocksec").innerHTML = timeLeft.seconds
+		}
 
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+		/**
+		 * Gets the time left from the event date to
+		 */
+		const getTimeLeft = function(eventDateUTC) {
 
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+			const now = new Date
 
-  // Display the result in the element with id="clock"
-//   document.getElementById("clock").innerHTML = days + "d" + hours + ":" + minutes + ":" + seconds;
+			// Time left in milliseconds (UTC)
+			const timeLeftUTC = eventDateUTC - now
 
-  if (hours < 10) {
-  hours = "0" + hours;
-  }
-  if (minutes < 10) {
-  minutes = "0" + minutes;
-  }
-  if (seconds < 10) {
-  seconds = "0" + seconds;
-  }
-  document.getElementById("clockday").innerHTML = days;
-  document.getElementById("clockhour").innerHTML = hours;
-  document.getElementById("clockmin").innerHTML = minutes;
-  document.getElementById("clocksec").innerHTML = seconds;
+			// Offset to local timezone in milliseconds
+			let offset = now.getTimezoneOffset() * 60000
 
+			// Time left in milliseconds
+			const timeLeft = timeLeftUTC - offset
 
+			if (Math.floor(timeLeft / 1000) < 1) {
+				clearInterval(updateCounter, 1000)
+				document.getElementById("clock").innerHTML = "Announcement"
+				return
+			}
 
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("clock").innerHTML = "Announcement";
-  }
-}, 1000);
+			// Get days left
+			const daysLeft = format(Math.floor(timeLeft / 86400000))
+
+			// Get hours left
+			let millisecondsLeft = timeLeft % 86400000
+			const hoursLeft = format(Math.floor(millisecondsLeft / 3600000))
+
+			// Get minutes left
+			millisecondsLeft = millisecondsLeft % 3600000
+			const minutesLeft = format(Math.floor(millisecondsLeft / 60000))
+
+			// get seconds left
+			millisecondsLeft = millisecondsLeft % 60000
+			const secondsLeft = format(Math.floor(millisecondsLeft / 1000))
+
+			return {
+				days: daysLeft,
+				hours: hoursLeft,
+				minutes: minutesLeft,
+				seconds: secondsLeft,
+			}
+		}
+
+		/**
+		 * Add zeros if needed and stringifies everything
+		 */
+		const format = (number) => {
+			if (number < 10) {
+				return `0${number}`
+			} else return number.toString()
+		}
+
+		// Start the counter
+		$(document).ready(function(){
+			setInterval(updateCounter, 1000)
+		})
+
+		// Clear the interval
+		$(window).on('unload', () => { 
+			clearInterval(updateCounter, 1000)
+		})
+	})
+});
+
 </script>
+
 <style>
 #clockday,#clockhour,#clockmin,#clocksec {
     background-color: white;
