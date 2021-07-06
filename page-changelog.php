@@ -130,8 +130,14 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
         <li><a href="https://github.com/nextcloud/server/pull/27802">Run s3 tests again (server#27802)</a></li>
         <li><a href="https://github.com/nextcloud/server/pull/27812">Add a text string to l10n (server#27812)</a></li>
         <li><a href="https://github.com/nextcloud/server/pull/27814">Fix DnsPinMiddleware resolve pinning bug (server#27814)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/595">Fix missing, outdated and extra files (3rdparty#595)</a></li>
         <li><a href="https://github.com/nextcloud/3rdparty/pull/616">Add the psr/event-dispatcher package (3rdparty#616)</a></li>
         <li><a href="https://github.com/nextcloud/3rdparty/pull/649">Upgrade to GitHub-native Dependabot (3rdparty#649)</a></li>
+        <li><a href="https://github.com/nextcloud/activity/pull/549">Clear event array on getting them (activity#549)</a></li>
+        <li><a href="https://github.com/nextcloud/activity/pull/550">Fix doctrine compatibility (activity#550)</a></li>
+        <li><a href="https://github.com/nextcloud/activity/pull/552">Bye travis, hello actions (activity#552)</a></li>
+        <li><a href="https://github.com/nextcloud/activity/pull/553">Fix doctrine Types class (activity#553)</a></li>
+        <li><a href="https://github.com/nextcloud/activity/pull/555">Don't break completely when creating the digest fail for one user (activity#555)</a></li>
         <li><a href="https://github.com/nextcloud/activity/pull/558">Update version on master (activity#558)</a></li>
         <li><a href="https://github.com/nextcloud/activity/pull/561">Fix 'Daily activity summary' email subject translation (activity#561)</a></li>
         <li><a href="https://github.com/nextcloud/activity/pull/564">Fix PHP 7.3 github action (activity#564)</a></li>
@@ -148,9 +154,13 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
         <li><a href="https://github.com/nextcloud/activity/pull/596">Update stable22 target versions (activity#596)</a></li>
         <li><a href="https://github.com/nextcloud/activity/pull/601">Fix preference name when generating notifications (activity#601)</a></li>
         <li><a href="https://github.com/nextcloud/activity/pull/605">Fix monochrome icon detection for correct dark mode invert (activity#605)</a></li>
+        <li><a href="https://github.com/nextcloud/example-files/pull/12">Add templates (example-files#12)</a></li>
         <li><a href="https://github.com/nextcloud/example-files/pull/13">Add remaining templates (example-files#13)</a></li>
         <li><a href="https://github.com/nextcloud/example-files/pull/15">Add CC0 license info to templates (example-files#15)</a></li>
         <li><a href="https://github.com/nextcloud/example-files/pull/17">Fix accessibility issues in PDF pt. II (example-files#17)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/291">Fix opening PDF files with special characters in their name (files_pdfviewer#291)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/292">Only attempt to use a secure view if hide download is actually set (files_pdfviewer#292)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/297">Fix PDF viewer failing on Edge (not based on Chromium) (files_pdfviewer#297)</a></li>
         <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/304">Update version on master (files_pdfviewer#304)</a></li>
         <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/319">Fix opening pdf files in public folder shares (files_pdfviewer#319)</a></li>
         <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/325">Make sure we only load the public script on public pages (files_pdfviewer#325)</a></li>
@@ -228,6 +238,10 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
         <li><a href="https://github.com/nextcloud/privacy/pull/614">Move to latest webpack-vue-config and global babel config (privacy#614)</a></li>
         <li><a href="https://github.com/nextcloud/privacy/pull/623">Show more details about the actual state of SSE (privacy#623)</a></li>
         <li><a href="https://github.com/nextcloud/privacy/pull/627">L10n: Correct a typo (privacy#627)</a></li>
+        <li><a href="https://github.com/nextcloud/recommendations/pull/358">Move remaining CI to Github actions (recommendations#358)</a></li>
+        <li><a href="https://github.com/nextcloud/recommendations/pull/359">Fix css-loader config regression due to major version bump (recommendations#359)</a></li>
+        <li><a href="https://github.com/nextcloud/recommendations/pull/360">Create Dependabot config file (recommendations#360)</a></li>
+        <li><a href="https://github.com/nextcloud/recommendations/pull/369">Add, apply and enforce the Nextcloud PHP coding standards (recommendations#369)</a></li>
         <li><a href="https://github.com/nextcloud/recommendations/pull/371">Update version on master (recommendations#371)</a></li>
         <li><a href="https://github.com/nextcloud/recommendations/pull/401">Show file path on hover (recommendations#401)</a></li>
         <li><a href="https://github.com/nextcloud/recommendations/pull/410">Use new viewer syntax with destructuring object (recommendations#410)</a></li>
@@ -249,6 +263,12 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
         <li><a href="https://github.com/nextcloud/serverinfo/pull/322">Update stable22 target versions (serverinfo#322)</a></li>
         <li><a href="https://github.com/nextcloud/survey_client/pull/115">Update version on master (survey_client#115)</a></li>
         <li><a href="https://github.com/nextcloud/survey_client/pull/117">Update stable22 target versions (survey_client#117)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1296">Temporary editor colors during editing sessions (text#1296)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1352">Implement support for creating files from templates (text#1352)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1353">Simplify save indicator (text#1353)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1384">Remove EPUB mimetype (text#1384)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1385">Track authors by step rather than transaction (text#1385)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1386">Only increase refetch timer if we have all initial steps loaded (text#1386)</a></li>
         <li><a href="https://github.com/nextcloud/text/pull/1409">Make sure the session list is always at the end (text#1409)</a></li>
         <li><a href="https://github.com/nextcloud/text/pull/1414">Update version on master (text#1414)</a></li>
         <li><a href="https://github.com/nextcloud/text/pull/1419">Fix clicking links with color annotations (text#1419)</a></li>
@@ -265,6 +285,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
         <li><a href="https://github.com/nextcloud/text/pull/1678">Update stable22 target versions (text#1678)</a></li>
         <li><a href="https://github.com/nextcloud/text/pull/1690">Use text/plain as content type for fetching the document (text#1690)</a></li>
         <li><a href="https://github.com/nextcloud/text/pull/1696">Log exceptions that happen on unknown exception and return generic messages (text#1696)</a></li>
+        <li><a href="https://github.com/nextcloud/updater/pull/322">Create Dependabot config file (updater#322)</a></li>
         <li><a href="https://github.com/nextcloud/updater/pull/331">Disable UI when web updater is disabled in config.php (updater#331)</a></li>
         <li><a href="https://github.com/nextcloud/updater/pull/333">Remove obsolete pipeline php72-master (updater#333)</a></li>
         <li><a href="https://github.com/nextcloud/updater/pull/339">Update CLI tests to PHP 7.4 to 8.0 (updater#339)</a></li>
@@ -290,6 +311,8 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
         <li><a href="https://github.com/nextcloud/viewer/pull/927">Fix: fullscreen for Firefox (viewer#927)</a></li>
         <li><a href="https://github.com/nextcloud/viewer/pull/945">Build(deps-dev): bump phpunit/phpunit from 8.5.15 to 8.5.16 (viewer#945)</a></li>
 </ul>
+
+<p>Note: to keep the size of the change log manageable, dependency bumps have been pruned.</p>
 
 <a name="latest21"></a>
 
