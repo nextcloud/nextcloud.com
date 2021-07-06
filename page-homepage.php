@@ -59,21 +59,21 @@
 </div>
 </section>
 
-<!--<section class="section--intro">
+<section class="section--intro">
 <div class="container">
 	<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555769437?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="21 introduction video"></iframe></div>
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/571637197?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud 22 introduction and overview"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 		</div>
     </div>
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-                <p class="section--paragraph text-center"><?php echo $l->t('Watch the announcement of Nextcloud Hub 21');?></p>
-                <p class="section--paragraph text-center"><a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-hub-21-out-with-up-to-10x-better-performance-whiteboard-and-more-collaboration-features/"><?php echo $l->t('Learn more in the blog.');?></a></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Watch the announcement of Nextcloud Hub 22');?></p>
+                <p class="section--paragraph text-center"><a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-hub-22-introduces-approval-workflows-integrated-knowledge-management-and-decentralized-group-administration/"><?php echo $l->t('Learn more in the blog.');?></a></p>
 		</div>
 	</div>
 </div>
-</section>-->
+</section>
 
 <section class="section--hub">
 <div class="container-fluid icon-background">
