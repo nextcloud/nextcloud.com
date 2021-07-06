@@ -18,9 +18,10 @@
     <p>We recommend you follow our <a href="<?php echo home_url('release-channels') ?>">Release Channels</a> to always have the latest and most secure Nextcloud Server version which fits your needs.</p>
     Go directly to the latest maintenance release of:
     <ul>
+    <li><a href="#latest22">Nextcloud 22</a></li>
     <li><a href="#latest21">Nextcloud 21</a></li>
     <li><a href="#latest20">Nextcloud 20</a></li>
-    <li><a href="#latest19">Nextcloud 19</a></li>
+    <li><a href="#latest19">Nextcloud 19 (unsupported!)</a></li>
     <li><a href="#latest18">Nextcloud 18 (unsupported!)</a></li>
     <li><a href="#latest17">Nextcloud 17 (unsupported!)</a></li>
     <li><a href="#latest16">Nextcloud 16 (unsupported!)</a></li>
@@ -33,6 +34,36 @@
     <li><a href="#latest9">Nextcloud 9 (unsupported!)</a></li>
     </ul>
 <p>Note here that with 'supported' in this context we mean that software updates will be available to the public, not that there is any actual support beyond community members answering questions in our home user forums. If you need to run Nextcloud in an enterprise setting, we recommend <a class="hyperlink" href="https://nextcloud.com/enterprise">Nextcloud Enterprise.</a></p>
+
+<a name="latest22"></a>
+
+<h3 id="22-0-0">Version 22.0.0 <small>July 6 2021</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.0.0.tar.bz2">nextcloud-22.0.0.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.0.0.zip">nextcloud-22.0.0.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.0.0.tar.bz2.md5">nextcloud-22.0.0.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.0.0.zip.md5">nextcloud-22.0.0.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.0.0.tar.bz2.sha256">nextcloud-22.0.0.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.0.0.zip.sha256">nextcloud-22.0.0.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.0.0.tar.bz2.sha512">nextcloud-22.0.0.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.0.0.zip.sha512">nextcloud-22.0.0.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-22.0.0.tar.bz2.asc">nextcloud-22.0.0.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.0.0.zip.asc">nextcloud-22.0.0.zip.asc</a></p>
+
+<h4>Nextcloud 22 is here!</h4>
+
+<p>The biggest improvements Nextcloud Hub 22 introduces are:</p>
+<ul>
+ 	<li>⭕ User-defined groups with Circles that makes it easier to manage teams where you can share files or assign tasks to circles, or create chat rooms for a circle</li>
+ 	<li>🗂️ Integrated chat and task management where you can simply share a deck card into a chat room or turn a chat message into a task</li>
+ 	<li>🔃 Easy approval workflow, where an administrator can define a new approval flow in the settings and users can, on a document, request approval</li>
+ 	<li>📝 Getting your document signatures easy with integrated PDF signing with DocuSign, EIDEasy, and LibreSign</li>
+ 	<li>📚 Integrated knowledge management Nextcloud puts knowledge available to everyone at a moments' notice, providing easy search, sharing, and portable access</li>
+ 	<li>💌 Groupware improvements bringing a trash bin feature in Calendar, resource booking to facilitate the handling of resources in organizations. Nextcloud Mail features improved threading, email tagging, and support for Sieve filtering</li>
+</ul>
+<p>There are many more new features and changes like notifications in the app navigation, integrated compression in the Files interface, and significant performance improvements to universal search.</p>
+
+<p><a href="https://nextcloud.com/blog/nextcloud-hub-22-introduces-approval-workflows-integrated-knowledge-management-and-decentralized-group-administration/">Read our announcement blog for the details.</a></p>
+
+<h4>Changelog</h4>
+<p>A full changelog would be to long to reproduce here, given the core server alone had over 600 PR's merged.</p>
+<p>You can find a list of PR's for the core server, without dependency bumps, <a href="https://github.com/nextcloud/server/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">here.</a> If you replace 'server' in the URL above with, for example, <a href="https://github.com/nextcloud/viewer/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">viewer</a>, <a href="https://github.com/nextcloud/activity/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">activity</a>, <a href="https://github.com/nextcloud/photos/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">photos</a>, <a href="https://github.com/nextcloud/notifications/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">notifications</a> or <a href="https://github.com/nextcloud/text/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">text</a>, the changes in the respective apps will show up.</p>
+
 <a name="latest21"></a>
 
 <h3 id="21-0-3">Version 21.0.3 <small>July 2 2021</small></h3>

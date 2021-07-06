@@ -14,7 +14,7 @@
 		<div class="row">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('User Management');?></h1>
-				<h2><?php echo $l->t('<span class="avoidwrap">Easy account management</span>, <span class="avoidwrap">from 5 to 50 million users</span>');?></p>
+				<h2><span class="avoidwrap"><?php echo $l->t('Easy account management');?></span>, <span class="avoidwrap"><?php echo $l->t('from 5 to 50 million users</span>');?></p>
 			</div>
 		</div>
 	</div>
@@ -90,7 +90,16 @@
     </div>
     <div class="row">
         <div class="col-md-6">
-            <div data-type="youtube" data-video-id="oyWXMjb-6ik"></div>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/570275577?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="User defined groups in Nextcloud"></iframe></div>
+        </div>
+        <div class="col-md-6">
+            <h3 class="section--paragraph__title"><?php echo $l->t('User-defined group management');?></h3>
+            <p class="section--paragraph"><?php echo $l->t('Users can define their own, custom groups, named Circles. These can be managed in various ways, including with invitations, through an open listing where users can join with or without an approval step, with designated sub-managers and so on.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Users can share with these groups the same way as administrator-defined Nextcloud groups. Users can add members of a circle to a conversation, share a folder to a circle, assign a task to a circle and so on.~');?></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 image--floated">
             <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556897803?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Remote wipe_ keep your data yours even when you lose devices!.mp4"></iframe></div>
         </div>
         <div class="col-md-6">

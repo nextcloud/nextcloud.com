@@ -36,13 +36,20 @@ Template Name: Search Page
 
     <p><?php echo $l->t('Find an overview of some of the pages on Nextcloud.com below.');?></p>
 
-    <h3><?php echo $l->t('Nextcloud capabilities');?></h3>
+    <h3><?php echo $l->t('Nextcloud Products');?></h3>
 
     <ul>
         <li><a href="<?php echo home_url('hub') ?>" class="hyperlink"><?php echo $l->t('Nextcloud Hub overview');?></a></li>
         <li><a href="<?php echo home_url('files') ?>" class="hyperlink"><?php echo $l->t('Nextcloud Files overview');?></a></li>
-        <li><a href="<?php echo home_url('files') ?>" class="hyperlink"><?php echo $l->t('Nextcloud Talk overview');?></a></li>
-        <li><a href="<?php echo home_url('files') ?>" class="hyperlink"><?php echo $l->t('Nextcloud Groupware overview');?></a></li>
+        <li><a href="<?php echo home_url('talk') ?>" class="hyperlink"><?php echo $l->t('Nextcloud Talk overview');?></a></li>
+        <li><a href="<?php echo home_url('groupware') ?>" class="hyperlink"><?php echo $l->t('Nextcloud Groupware overview');?></a></li>
+        <li><a href="<?php echo home_url('industries') ?>" class="hyperlink"><?php echo $l->t('Industry solutions');?></a></li>
+        <li><a href="<?php echo home_url('enterprise') ?>" class="hyperlink"><?php echo $l->t('Nextcloud Enterprise');?></a></li>
+    </ul>
+
+        <h3><?php echo $l->t('Nextcloud capabilities');?></h3>
+
+    <ul>
         <li><a href="<?php echo home_url('clients') ?>" class="hyperlink"><?php echo $l->t('Mobile and desktop clients');?></a></li>
         <li><a href="<?php echo home_url('sharing') ?>" class="hyperlink"><?php echo $l->t('Secure file sharing abilities');?></a></li>
         <li><a href="<?php echo home_url('file-drop') ?>" class="hyperlink"><?php echo $l->t('Customer file upload (file drop)');?></a></li>
@@ -71,7 +78,10 @@ Template Name: Search Page
 
     <h3><?php echo $l->t('Other');?></h3>
         <ul>
-            <li><a href="<?php echo home_url('gdpr') ?>" class="hyperlink"><?php echo $l->t('Compliance (GDPR, HIPAA)');?></a></li>
+            <li><a href="<?php echo home_url('securesharing') ?>" class="hyperlink"><?php echo $l->t('Covering the importance of secure sharing.');?></a></li>
+            <li><a href="<?php echo home_url('enterprise-file-sync-and-sharing-efss') ?>" class="hyperlink"><?php echo $l->t('What is enterprise file sync and share or EFSS.');?></a></li>
+             <li><a href="<?php echo home_url('content-collaboration-platform') ?>" class="hyperlink"><?php echo $l->t('What is a content collaboration platform.');?></a></li>
+            <li><a href="<?php echo home_url('developer') ?>" class="hyperlink"><?php echo $l->t('Developer resources.');?></a></li>
             <li><a href="<?php echo home_url('privacy') ?>" class="hyperlink"><?php echo $l->t('Our privacy policy');?></a></li>
             <li><a href="<?php echo home_url('trademarks') ?>" class="hyperlink"><?php echo $l->t('Our brand and trademark policy');?></a></li>
         </ul>

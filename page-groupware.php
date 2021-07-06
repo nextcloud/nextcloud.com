@@ -135,8 +135,18 @@
 			');?></p>
         </div>
 	</div>
+    <div class="row">
+        <div class="col-md-6 image--floated">
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/570275577?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="User defined groups in Nextcloud"></iframe></div>
+        </div>
+        <div class="col-md-6">
+            <h3 class="section--paragraph__title"><?php echo $l->t('User-defined group management');?></h3>
+            <p class="section--paragraph"><?php echo $l->t('In Contacts, users can define their own, custom groups, named Circles. These can be managed in various ways, including with invitations, through an open listing where users can join with or without an approval step, with designated sub-managers and so on.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Users can share with these groups the same way as administrator-defined Nextcloud groups. Users can add members of a circle to a conversation, share a folder to a circle, assign a task to a circle and so on.');?></p>
+        </div>
+    </div>
 	<div class="row">
-		<div class="col-md-6 image--feature new-img image--floated">
+		<div class="col-md-6 image--feature new-img">
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-projects.png"><img class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-projects.png" alt="a project in deck" /></a>
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Deck');?></h3>
@@ -159,6 +169,17 @@
             <?php echo $l->t('Deck integration in Calendar');?>
         </div>
 	</div>
+	<div class="row">
+        <div class="col-md-6">
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/570271904?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Chat and project management integration"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+        <div class="col-md-6">
+            <h3 class="section--paragraph__title"><?php echo $l->t('Integrated groupware, chat and project management');?></h3>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud features tightly integrated chat, project management, mail, calendaring and more. Chat messages can be directly transformed into tasks, task deadlines are visible in the Calendar and files can be attached to a task from the sharing dialog.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('A single platform means there is no need to juggle different accounts, keep track of where in the many cloud platforms the latest version of a document is floating around, or worry about security threats and invisible costs.');?></p>
+            <a href="<?php echo home_url('content-collaboration-platform') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Benefits of a single platform');?></a>
+        </div>
+    </div>
 	<div class="row">
         <div class="col-sm-8 col-sm-offset-2">
             <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud fluently integrates into your existing infrastructure while also providing its own. Note that Nextcloud Mail is a client for IMAP-infrastructure; Nextcloud does not include a mail server.');?></p>

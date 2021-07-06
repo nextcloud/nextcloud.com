@@ -39,7 +39,7 @@
             <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
             <h3 class="section--paragraph__title"><?php echo $l->t('Largest ecosystem');?></h3>
             <p class="section--paragraph"><?php echo $l->t('As the most deployed self-hosted file sync and content collaboration platform, Nextcloud offers the widest range of add-on capabilities and integrations in the industry. Over 200 \'apps\' offer powerful security capabilities, team productivity features and infrastructure integrations.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Workflow capabilities, several online office solutions and a tool employing advanced entropy analysis to recover files from a ransomware attack, built by security researchers from a German university, are just some of the applications found in our app store.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('With Nextcloud you can eliminate a confusing mess of different SaaS platforms and the security, cost, compliance and productivity problems they bring with them.');?></p>
         </div>
         <div class="col-lg-4 col-sm-12">
             <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/tools.svg" /></div>
@@ -96,6 +96,9 @@
 					<li title="" rel="tooltip"><?php echo $l->t('Integrated Groupware<br> (Calendar/Contacts/<br>Mail/Kanban)');?></li> <!--Calendar/Contact/Mail integration-->
 					<li title="" rel="tooltip"><?php echo $l->t('Mobile calendar/contact integration');?></li> <!--Mobile calendar/contact integration-->
  					<li title="<?php echo $l->t('Integrated in browser / integrated in own mobile apps');?>" rel="tooltip"><?php echo $l->t('Online Office web / mobile apps');?></li> <!--Online Office-->
+					<li title="<?php echo $l->t('A knowledge base/wiki with articles/pages, sub pages, search and other basic knowledge base functionality is available');?>" rel="tooltip"><?php echo $l->t('Knowledge management');?></li> <!--knowledge management-->
+					<li title="<?php echo $l->t('The platform allows creating forms and surveys and store and display the results');?>" rel="tooltip"><?php echo $l->t('Forms and surveys');?></li> <!--Forms and surveys-->
+					<li title="<?php echo $l->t('Normal users can create and manage groups without having to rely on the system administrator, a power user or a group admin');?>" rel="tooltip"><?php echo $l->t('User-managed groups');?></li> <!--user-managed groups-->
 					<li title="<?php echo $l->t('Public link to folder recipient can upload to, which hides existing content of the shared folder');?>" rel="tooltip"><?php echo $l->t('File Drop (customer file upload)');?></li> <!--File Drop (customer file upload)-->
 					<li title="<?php echo $l->t('Protect public links with Video Verification');?>" rel="tooltip"><?php echo $l->t('Video Verification');?></li> <!-- Video Verification -->
 					<li title="<?php echo $l->t('Sharing between separate cloud instances of different vendors. Example, Nextcloud users can share files with users on Pydio and ownCloud servers.');?>" rel="tooltip"><?php echo $l->t('Inter-server sharing');?></li> <!--Inter-server sharing-->
@@ -107,6 +110,8 @@
 						<li class="cd-group"><?php echo $l->t('Admin features');?></li> <!--Admin features-->
                     <li title="<?php echo $l->t('Permissions on files and folders, inherited by default, can be overridden at any level.');?>" rel="tooltip"><?php echo $l->t('Access control lists');?></li> <!--Access control lists-->
 					<li title="" rel="tooltip"><?php echo $l->t('Content workflow automation');?></li> <!--Content workflow automation-->
+					<li title="" rel="tooltip"><?php echo $l->t('Approval process workflow');?></li> <!--Approval process workflow-->
+					<li title="Request documents signed with DocuSign or another technology" rel="tooltip"><?php echo $l->t('Cryptographic document signatures');?></li> <!-- PDF signatures-->
 					<li title="" rel="tooltip"><?php echo $l->t('Automatic script execution');?></li> <!--Automatic script execution-->
 					<li title="" rel="tooltip"><?php echo $l->t('Impersonate users');?></li> <!--impersonate users-->
 					<li title="<?php echo $l->t('files created, updated, shared, unshared and deleted by user or others, chat or call received etc');?>" rel="tooltip"><?php echo $l->t('Real time notifications');?></li> <!--Real-time (push) notifications-->
@@ -121,12 +126,12 @@
 					<li title="" rel="tooltip"><?php echo $l->t('Terms-of-service');?></li> <!--Terms-of-service-->
                         <li class="cd-group"><?php echo $l->t('Security features');?></li> <!--Security features-->
 					<li title="" rel="tooltip"><?php echo $l->t('Server side encryption');?></li> <!--Server side encryption-->
-					<li title="" rel="tooltip"><?php echo $l->t('Client side encryption');?></li> <!--Client side encryption-->
+					<li title="" rel="tooltip"><?php echo $l->t('Client side / End-to-end encryption');?></li> <!--Client side encryption-->
 					<li title="<?php echo $l->t('Optionally verify identity of recipient by video call');?>" rel="tooltip"><?php echo $l->t('Video Verification');?></li> <!--Video Verification-->
 					<li title="" rel="tooltip"><?php echo $l->t('Brute force hacking protection');?></li> <!--Brute force hacking protection-->
 					<li title="" rel="tooltip"><?php echo $l->t('NIST compliant password policy');?></li> <!--NIST compliant password policy-->
 					<li title="" rel="tooltip"><?php echo $l->t('Web UI secured with CSP 3.0');?></li> <!--Web UI secured with CSP 3.0-->
-					<li title="" rel="tooltip"><?php echo $l->t('With same-site cookie attribute');?></li> <!--With same-site cookies-->
+					<li title="" rel="tooltip"><?php echo $l->t('Same-site cookie attribute');?></li> <!--same-site cookies-->
 					<li title="" rel="tooltip"><?php echo $l->t('File Access Control');?></li> <!--File Access Control-->
 					<li title="<?php echo $l->t('Allow restricting mobile/desktop/third party applications access to filesystem or other data');?>" rel="tooltip"><?php echo $l->t('App access rights');?></li> <!--App access rights-->
 						<li class="cd-group"><?php echo $l->t('Authentication');?></li> <!--Authentication-->
@@ -162,7 +167,7 @@
 							<li title="<?php echo $l->t('single cluster: up to 100K active users. With Global Scale: unlimited.');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-check"></i></li> <!-- Auto upload images/video/other files -->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i> <i class="fa fa-linux"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--LAN Synchronization-->
 							<li title="<?php echo $l->t('Over 200 apps available');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
@@ -180,6 +185,9 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="<?php echo $l->t('both Android/iOS (Android with integrated 3rd party tool)');?>" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="<?php echo $l->t('With Collabora Online, ONLYOFFICE, Hancom Office or MS Office Online');?>" rel="tooltip"><div><i class="fa fa-check"></i> / <i class="fa fa-check"></i><br /><small>4 options</small></div></li> <!--Online Office-->
+                            <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--knowledge management-->
+                            <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Forms and surveys-->
+                            <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--user-managed groups-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Inter-server sharing-->
@@ -191,6 +199,8 @@
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Admin features-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Access control lists-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Content workflow automation-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Approval process workflow-->
+							<li title="DocuSign, EID-Easy and LibreSign" rel="tooltip"><i class="fa fa-check"></i></li> <!-- PDF signatures-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--impersonate users-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Real-time (push) notifications-->
@@ -210,7 +220,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--NIST compliant password policy-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Web UI secured with CSP 3.0-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--With same-site cookies-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--App access rights-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Authentication-->
@@ -244,7 +254,7 @@
 							<li title="<?php echo $l->t('5K in one group, 10K for educational organizations, unclear limits otherwise');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
-							<li title="<?php echo $l->t('can do files with external app');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
+							<li title="<?php echo $l->t('can do files with external app');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--LAN Synchronization-->
 							<li title="<?php echo $l->t('No third-party apps that can be integrated');?>" rel="tooltip"><i class="fa fa-times"></i></li> <!--Extensible with apps-->
@@ -262,6 +272,9 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
+                            <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--knowledge management-->
+                            <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Forms and surveys-->
+                            <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--user-managed groups-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
@@ -273,6 +286,8 @@
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Admin features-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Access control lists-->
 							<li title="<?php echo $l->t('Only via third party app');?>" rel="tooltip"><i class="fa fa-clock-o"></i></li> <!--Content workflow automation-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Approval process workflow-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- PDF signatures-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--impersonate users-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Real-time (push) notifications-->
@@ -287,12 +302,12 @@
                             <li title="<?php echo $l->t('You and your customers you share with have to agree to their terms');?>" rel="tooltip"><i class="fa fa-check optional"></i></li> <!--Terms-of-service-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Server side encryption-->
-							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Client side encryption-->
+							<li title="Google is working to introduce this" rel="tooltip"><i class="fa fa-clock-o"></i></li> <!--Client side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Video Verification-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--NIST compliant password policy-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Web UI secured with CSP 3.0-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--With same-site cookies-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--App access rights-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Authentication-->
@@ -327,7 +342,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
-							<li title="<?php echo $l->t('Can be done with external app');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
+							<li title="<?php echo $l->t('Can be done with external app');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--LAN Synchronization-->
 							<li title="<?php echo $l->t('Limited to Microsoft Apps');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
@@ -345,6 +360,9 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="<?php echo $l->t('feature-limited in web and mobile UI compared to desktop');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
+                            <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--knowledge management-->
+                            <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Forms and surveys-->
+                            <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--user-managed groups-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
@@ -356,6 +374,8 @@
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Admin features-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Access control lists-->
 							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small><?php echo $l->t('limited to admins');?></small></div></li> <!--Content workflow automation-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Approval process workflow-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- PDF signatures-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--impersonate users-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Real-time (push) notifications-->
@@ -375,7 +395,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--NIST compliant password policy-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Web UI secured with CSP 3.0-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--With same-site cookies-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--App access rights-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Authentication-->
@@ -409,7 +429,7 @@
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Scalability limits-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i></li> <!-- Auto upload images/video/other files -->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class="fa fa-times"></i></li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i> <i class="fa fa-linux"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--LAN Synchronization-->
 							<li title="<?php echo $l->t('Over 70 apps available');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
@@ -427,6 +447,9 @@
 							<li title="<?php echo $l->t('Only as unsupported (Nextcloud-developed) third party apps');?>" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="<?php echo $l->t('Unsupported. Available for iOS, Android possible with tool from Nextcloud partner');?>" rel="tooltip"><?php echo $l->t('<i class="fa fa-check optional"></i>/<i class="fa fa-check optional"></i>');?></li> <!--Mobile calendar/contact integration-->
 							<li title="<?php echo $l->t('Collabora Online, OnlyOffice, MS Office Online');?>" rel="tooltip"><div><i class="fa fa-check"></i> / <i class="fa fa-times"></i><br /><small><?php echo $l->t('3 options');?></small></div></li> <!--Online Office-->
+                            <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--knowledge management-->
+                            <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Forms and surveys-->
+                            <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--user-managed groups-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Inter-server sharing-->
@@ -438,6 +461,8 @@
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Admin features-->
                             <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Access control lists-->
 							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small><?php echo $l->t('limited to admins');?></small></div></li> <!--Content workflow automation-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Approval process workflow-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- PDF signatures-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--impersonate users-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Real-time (push) notifications-->
@@ -457,7 +482,7 @@
 							<li title="<?php echo $l->t('There is an unsupported external app developed by community student, occasionally updated');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--NIST compliant password policy-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Web UI secured with CSP 3.0-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--With same-site cookies-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--App access rights-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Authentication-->
@@ -491,7 +516,7 @@
 							<li title="<?php echo $l->t('Some limitations exist but nothing is clearly documented');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
-							<li title="<?php echo $l->t('Only paid. Files can be done with external app');?>" rel="tooltip"><i class="fa fa-usd"></i> / <i class="fa fa-usd"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
+							<li title="<?php echo $l->t('Only paid. Files can be done with external app');?>" rel="tooltip"><i class="fa fa-usd"></i> / <i class="fa fa-usd"></i> / <i class="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--LAN Synchronization-->
 							<li title="<?php echo $l->t('Limited Microsoft office integration');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
@@ -508,6 +533,9 @@
 							<li title="<?php echo $l->t('not natively, third party app');?>" rel="tooltip"><i class="fa fa-clock-o"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="<?php echo $l->t('Through Microsoft Office');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
+                            <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--knowledge management-->
+                            <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Forms and surveys-->
+                            <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--user-managed groups-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
@@ -519,6 +547,8 @@
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Admin features-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Access control lists-->
 							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small><?php echo $l->t('limited to admins');?></small></div></li> <!--Content workflow automation-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Approval process workflow-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- PDF signatures-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--impersonate users-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Real-time (push) notifications-->
@@ -538,7 +568,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--NIST compliant password policy-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Web UI secured with CSP 3.0-->
-							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--With same-site cookies-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--same-site cookies-->
 							<li title="<?php echo $l->t('Can be done in limited way with third party applications');?>" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--App access rights-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Authentication-->
@@ -572,7 +602,7 @@
 							<li title="<?php echo $l->t('2K users in a share, more limits exist but not clearly documented');?>" rel="tooltip"><i class="fa fa-times"></i></li> <!--Scalability limits-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
-							<li title="<?php echo $l->t('Extra paid feature. Files can be done with third party app');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
+							<li title="<?php echo $l->t('Extra paid feature. Files can be done with third party app');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--LAN Synchronization-->
 							<li title="<?php echo $l->t('No third-party apps that can be integrated');?>" rel="tooltip"><i class="fa fa-times"></i></li> <!--Extensible with apps-->
@@ -590,6 +620,9 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-times"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="<?php echo $l->t('Microsoft Office 365');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
+                            <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--knowledge management-->
+                            <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Forms and surveys-->
+                            <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--user-managed groups-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
@@ -601,6 +634,8 @@
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Admin features-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Access control lists-->
 							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small><?php echo $l->t('limited to admins');?></small></div></li> <!--Content workflow automation-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Approval process workflow-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- PDF signatures-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--impersonate users-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Real-time (push) notifications-->
@@ -620,7 +655,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--NIST compliant password policy-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Web UI secured with CSP 3.0-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--With same-site cookies-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--App access rights-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Authentication-->
@@ -653,7 +688,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
 							<li title="<?php echo $l->t('free version only supports up to 3 client devices total');?>" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
-							<li title="<?php echo $l->t('Files can be done with third party app');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
+							<li title="<?php echo $l->t('Files can be done with third party app');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i> / <i class="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="<?php echo $l->t('free version only supports up to 3 client devices total');?>" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--LAN Synchronization-->
 							<li title="<?php echo $l->t('Limited Microsoft office integration');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
@@ -671,6 +706,9 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i title="through Google Apps" rel="tooltip" class="fa fa-google"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="<?php echo $l->t('Microsoft Office 365');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
+                            <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--knowledge management-->
+                            <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Forms and surveys-->
+                            <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--user-managed groups-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
@@ -682,6 +720,8 @@
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Admin features-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Access control lists-->
 							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small><?php echo $l->t('limited to admins');?></small></div></li> <!--Content workflow automation-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Approval process workflow-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- PDF signatures-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--impersonate users-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Real-time (push) notifications-->
@@ -701,7 +741,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--NIST compliant password policy-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Web UI secured with CSP 3.0-->
-							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--With same-site cookies-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--App access rights-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Authentication-->
@@ -734,7 +774,7 @@
 							<li title="<?php echo $l->t('various file limitations exist, unclear user limits');?>" rel="tooltip"><?php echo $l->t('unclear');?></li> <!--Scalability limits-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
-							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i> / <i class="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--LAN Synchronization-->
 							<li title="<?php echo $l->t('Pretty wide range of apps');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
@@ -752,6 +792,9 @@
 							<li title="" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="<?php echo $l->t('Microsoft Office 365');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
+                            <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--knowledge management-->
+                            <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Forms and surveys-->
+                            <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--user-managed groups-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
@@ -763,6 +806,8 @@
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Admin features-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Access control lists-->
 							<li title="" rel="tooltip"><div><i class="fa fa-check"></i><br /><small><?php echo $l->t('limited to admins');?></small></div></li> <!--Content workflow automation-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Approval process workflow-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- PDF signatures-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--impersonate users-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Real-time (push) notifications-->
@@ -782,7 +827,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--NIST compliant password policy-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Web UI secured with CSP 3.0-->
-							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--With same-site cookies-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--App access rights-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Authentication-->
@@ -816,7 +861,7 @@
 							<li title="<?php echo $l->t('real limits are unclear');?>" rel="tooltip"><i class="fa fa-check"></i></li> <!--Scalability limits-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></li> <!--Mobile Clients-->
-							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i> / <i class.="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i> / <i class="fa fa-times"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--LAN Synchronization-->
 							<li title="<?php echo $l->t('No third-party apps that can be integrated');?>" rel="tooltip"><i class="fa fa-times"></i></li> <!--Extensible with apps-->
@@ -834,6 +879,9 @@
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="<?php echo $l->t('Microsoft Office 365');?>" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Online Office-->
+                            <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--knowledge management-->
+                            <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Forms and surveys-->
+                            <li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--user-managed groups-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Inter-server sharing-->
@@ -845,6 +893,8 @@
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Admin features-->
                             <li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Access control lists-->
 							<li title="" rel="tooltip"><div><i class="fa fa-times"></i><br /><small><?php echo $l->t('limited to admins');?></small></div></li> <!--Content workflow automation-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Approval process workflow-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- PDF signatures-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--impersonate users-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Real-time (push) notifications-->
@@ -864,7 +914,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--NIST compliant password policy-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Web UI secured with CSP 3.0-->
-							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--With same-site cookies-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--App access rights-->
 								<li class="cd-group"><?php echo $l->t('');?></li> <!--Authentication-->
@@ -898,7 +948,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
-            <p><?php echo $l->t('Based on public information to our best knowledge, gathered September 2 2018. We understand the world is constantly changing, if you see we missed a feature or made a mistake, let us know.');?> You can use <a href="<?php echo home_url('contact') ?>">our contact form.</a></p>
+            <p><?php echo $l->t('Based on public information to our best knowledge, gathered July 1, 2021. We understand the world is constantly changing, if you see we missed a feature or made a mistake, let us know.');?> You can use <a href="<?php echo home_url('contact') ?>">our contact form.</a></p>
             <p><?php echo $l->t('Note that end-to-end encryption in a browser is not the same as client-side encryption as it fails to protect adequately from the server (it does not offer \'zero-knowledge\' protection). The security experts at the British NCC Group have <a class="hyperlink" href="https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2011/august/javascript-cryptography-considered-harmful/">written on this subject,</a> considering javascript encryption in the browser "harmful".');?></p>
         </div>
     </div>

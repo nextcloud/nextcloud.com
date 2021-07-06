@@ -54,6 +54,12 @@
 <section class="section--products">
 	<div class="container">
         <div class="row">
+            <div class="col-sm-8 col-md-offset-2">
+                <h2 class="section--heading-2 text-center"><?php echo $l->t('One integrated solution');?></h2>
+                <p class="section--paragraph text-center"><?php echo $l->t('Hub integrates the three key Nextcloud products Files, Talk and Groupware into a single platform, optimizing the flow of collaboration. Eliminate the confusing hodgepodge of different SaaS tools and the compliance, security, cost and productivity issues that come with it and standardize on a single solution with Nextcloud Hub.');?></p>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-sm-4">
                 <a href="<?php echo home_url('files') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mobileDesktop.png" /></a>
                 <div class="row description">
@@ -66,7 +72,7 @@
                         </div>
                     </div>
                     <p class="section--paragraph"><?php echo $l->t('Nextcloud Files offers universal file access on desktop, mobile and web. Find files with powerful search, share your thoughts in comments or lock files until you are done with them.');?></p>
-                    <a href="<?php echo home_url('files') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Nextcloud Files');?></a>
+                    <a href="<?php echo home_url('files') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('About Files');?></a>
                 </div>
             </div>
 
@@ -97,7 +103,7 @@
                         </div>
                     </div>
                     <p class="section--paragraph"><?php echo $l->t('Nextcloud Groupware integrates Calendar, Contacts, Mail and other productivity features to help teams get their work done faster, easier and on your terms.');?></p>
-                    <a href="<?php echo home_url('groupware') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+                    <a href="<?php echo home_url('groupware') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('About Groupware');?></a>
                 </div>
             </div>
         </div>
@@ -119,7 +125,7 @@
                     <h3 class="section--paragraph__title"><?php echo $l->t('Why Nextcloud Hub');?></h3>
                     <li class="check"><?php echo $l->t('Hosted on-premises');?></li>
                     <li class="check"><?php echo $l->t('100% open source');?></li>
-                    <li class="check"><?php echo $l->t('Very easy to use');?></li>
+                    <li class="check"><?php echo $l->t('A single, integrated plaform');?></li>
                     <li class="check"><?php echo $l->t('Integration in infrastructure');?></li>
                     <li class="check"><?php echo $l->t('Security and encryption');?></li>
                 </div>
@@ -278,7 +284,7 @@
             <div class="col-md-10 col-md-offset-1">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Writing and gaining approval for a public proposal document: Project X');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('<strong>Goal:</strong> write a proposal document with a team of people, then having it reviewed by the board and approved for release');?></p>
-                <p class="section--paragraph"><?php echo $l->t('<strong>Tools:</strong> Files, Talk, Groupware, Collabora Online, tags, comments, groups, dashboard, Circles, Guests');?></p>
+                <p class="section--paragraph"><?php echo $l->t('<strong>Tools:</strong> Files, Talk, Groupware, Collabora Online, tags, comments, groups, dashboard, Guests');?></p>
                 <a href="#workflow1" data-toggle="collapse" class="button button--blue button--arrow--down"><?php echo $l->t('Read the full scenario');?><span class="icon-arrow-down"></a>
 				<div id="workflow1" class="collapse ">
                     <p class="section--paragraph"><strong><?php echo $l->t('Personas involved:');?></strong></p>
@@ -290,7 +296,7 @@
                     </ul>
                     <p class="section--paragraph"><strong><?php echo $l->t('Setup in advance');?></strong></p>
                     <ul>
-                        <li><?php echo $l->t('Default Nextcloud Hub + Circles and Guests apps');?></li>
+                        <li><?php echo $l->t('Default Nextcloud Hub + Guests apps');?></li>
                         <li><?php echo $l->t('User accounts for board, team members, owner');?></li>
                         <li><?php echo $l->t('Group for the board members and one for the team members');?></li>
                     </ul>
@@ -298,20 +304,18 @@
                     <ul>
                     <li><?php echo $l->t('The owner opens Nextcloud Mail and writes an email to the team members, 1 board member and 2 external consultants by selecting them from the address book and explains the project, including a timeline with an initial meeting, asking for some time slots for the external consultants.');?></li>
                     <li><?php echo $l->t('The consultants share possible time slots.');?></li>
-                    <li><?php echo $l->t('The owner opens Nextcloud Calendar and creates an appointment for the team plus the board member and external consultants, using the busy-view to find a time most suitable. The owner clicks the “create Talk room” to include a chat and video call room link for the meeting.');?></li>
-                    <li><?php echo $l->t('after the appointment is sent out, the owner goes to the Talk room and names it “Project X meeting room”.');?></li>
+                    <li><?php echo $l->t('The owner opens Nextcloud Calendar and creates an appointment for the team plus the board member and external consultants, using the busy-view to find a time most suitable. The owner clicks the “create Talk room” to include a chat and video call room link for the meeting. The room is automatically named after the appointment.');?></li>
                     </ul>
                     <h3><?php echo $l->t('Creating a project and a team');?></h3>
                     <ul>
                     <li><?php echo $l->t('The owner plans their own time, creating a Deck board named “Project X” and populating it with tasks that need to be done.');?></li>
-                    <li><?php echo $l->t('The owner goes to the Circles app and creates a circle of the team members called Project X (this is a custom group).');?></li>
+                    <li><?php echo $l->t('The owner goes to the Contacts app and creates a circle of the team members called Project X (this is a custom group).');?></li>
                     <li><?php echo $l->t('The owner creates a new document (+ icon -&gt; new Text document) and writes an agenda draft, then shares it with the Project X circle, adding a note to the share: please, give feedback on the draft agenda!');?></li>
                     </ul>
                     <h3><?php echo $l->t('Discuss the agenda');?></h3>
                     <ul>
                     <li><?php echo $l->t('The team members get notified of the share, read the note and review the document, providing feedback as comments in the sidebar (The owner receives a notification when a comment is made) or just editing it right away.');?></li>
                     <li><?php echo $l->t('After agreement on the agenda is reached, the owner shares the agenda in the meeting room that was created earlier, simply sharing to “Project X meeting room”. Now everybody, including the board member and consultants, have access to it.');?></li>
-                    <li><?php echo $l->t('To easily manage all documents related to the project, the owner adds the agenda document, the Deck board “Project X” and the meeting room “Project X meeting room” to the “Project X” project.');?></li>
                     </ul>
                     <h3><?php echo $l->t('The first meeting');?></h3>
                     <ul>
@@ -338,7 +342,7 @@
             <div class="col-md-10 col-md-offset-1">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Turning an idea into a new office layout');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('<strong>Goal:</strong> Find support for an idea in the office and get it approved');?></p>
-                <p class="section--paragraph"><?php echo $l->t('<strong>Tools:</strong> Files, Talk, Groupware, Circles, Flow, Social, Forms, Anti-virus, Ransomware Protection');?></p>
+                <p class="section--paragraph"><?php echo $l->t('<strong>Tools:</strong> Files, Talk, Groupware, Flow, Social, Forms, Anti-virus, Ransomware Protection');?></p>
                 <a href="#workflow2" data-toggle="collapse" class="button button--blue button--arrow--down"><?php echo $l->t('Read the full scenario');?><span class="icon-arrow-down"></a>
 				<div id="workflow2" class="collapse ">
                     <p class="section--paragraph"><strong><?php echo $l->t('Personas involved:');?></strong></p>
@@ -351,7 +355,7 @@
                     </ul>
                     <p class="section--paragraph"><strong><?php echo $l->t('Setup in advance:');?></strong></p>
                     <ul>
-                        <li><?php echo $l->t('Default Nextcloud Hub plus Forms, Social, Circles,  Anti-virus, Ransomware Protection apps');?></li>
+                        <li><?php echo $l->t('Default Nextcloud Hub plus Forms, Social, Anti-virus, Ransomware Protection apps');?></li>
                         <li><?php echo $l->t('User accounts for all participants');?></li>
                         <li><?php echo $l->t('Group for the the team members, group for management');?></li>
                         <li><?php echo $l->t('Circle (custom group) of team members and Principal');?></li>
@@ -377,7 +381,7 @@
                     </ul>
                     <h3><?php echo $l->t('Receiving an offer');?></h3>
                     <ul>
-                    <li><?php echo $l->t('The next day, Principal shares the folder wwith the office manager to asks if she can get an idea of the costs.');?></li>
+                    <li><?php echo $l->t('The next day, Principal shares the folder with the office manager to asks if she can get an idea of the costs.');?></li>
                     <li><?php echo $l->t('The office manager shares the folder through a public link with their office supplies firm, asking if they can provide such a phone booth. In a note with the share she asks them to provide at least 2 options. She gives them upload rights so they can simply upload a pdf with an offer in the folder, which they do.');?></li>
                     <li><?php echo $l->t('The next morning, when checking his dashboard in the morning, Principal sees the chat message notifying them the offer was uploaded. Two team members already signaled their approval of the more expensive offer in the chat.');?></li>
                     </ul>
@@ -400,26 +404,32 @@
 
 <?php require get_template_directory().'/onpremises.php';?>
 
-
-<section class="section--dashboard">
-<div class="container">
-	<div class="row">
-        <div class="col-md-6 image--feature">
-			<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555765504?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Dashboard Introduction"></iframe></div>
-		</div>
-		<div class="col-md-6 feature--block">
-                <h3 class="section--paragraph__title"><?php echo $l->t('Start your day informed');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('The Nextcloud Dashboard is your starting point of the day, giving you an overview of your upcoming appointments, urgent emails, chat messages, incoming tickets, latest tweets and much more! Users can set their status so others know what they are up to..');?></p>
-                <a href="<?php echo home_url('dashboard') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Dashboard features');?></a>
-		</div>
-	</div>
-</div>
-</section>
-
-<section class="section--ONLYOFFICE">
+<section class="section--collaboration">
 	<div class="container">
+	<h1 class="section--heading-1 text-center"><?php echo $l->t('Powerful collaboration');?></h1>
         <div class="row">
-            <div class="col-md-6 image--floated image--feature new-img">
+            <div class="col-md-6">
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/570271904?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Chat and project management integration"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+            <div class="col-md-6">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Integrated groupware, chat and project management');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('Nextcloud features tightly integrated chat, project management, mail, calendaring and more. Chat messages can be directly transformed into tasks, task deadlines are visible in the Calendar and files can be attached to a task from the sharing dialog.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('A single platform means there is no need to juggle different accounts, keep track of where in the many cloud platforms the latest version of a document is floating around, or worry about security threats and invisible costs.');?></p>
+                <a href="<?php echo home_url('content-collaboration-platform') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Benefits of a single platform');?></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 image--floated">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/569448618?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Approval process and pdf signatures in Nextcloud"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+            <div class="col-md-6">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Efficient workflows');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('Common processes in organizations, like getting a document approved or turning it into a PDF, can be automated with Nextcloud Flow and Approval workflows. Thanks to integration of a number of document signing tools, requesting a formal signature on a PDF document like a contract or NDA can now be done directly from within Nextcloud.');?></p>
+                <a href="<?php echo home_url('workflow') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('More about automation');?></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 image--feature new-img">
                 <a class="overlay-trigger" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"/></a>
             </div>
            <div class="col-md-6 feature--block">
@@ -435,8 +445,20 @@
                 <a href="<?php echo home_url('collabora') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Collabora Online');?></a>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-6 image--feature image--floated">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555765504?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Dashboard Introduction"></iframe></div>
+            </div>
+            <div class="col-md-6 feature--block">
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Start your day informed');?></h3>
+                    <p class="section--paragraph"><?php echo $l->t('The Nextcloud Dashboard is your starting point of the day, giving you an overview of your upcoming appointments, urgent emails, chat messages, incoming tickets, latest tweets and much more! Users can set their status so others know what they are up to..');?></p>
+                    <a href="<?php echo home_url('dashboard') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Dashboard features');?></a>
+            </div>
+        </div>
 	</div>
 </section>
+
+
 
 <section class="section--search">
 <div class="container">
@@ -496,6 +518,7 @@
     </div>
 </section>
 
+
 <section class="section--accessibility">
 	<div class="container">
         <div class="row">
@@ -509,7 +532,6 @@
         </div>
 	</div>
 </section>
-
 
 <section class="section--storage">
 	<a name="storage" id="storage"></a>
@@ -533,28 +555,123 @@
             <div class="col-md-6 image--feature new-img image--floated">
                 <a class="overlay-trigger" href="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/usermanagement.png" alt="in action" ></a>
             </div>
+            <div class="col-md-6">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Integrated account management');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud features built-in account management with optional two-factor authentication as well as Single-sign-on support and integration with external user directories like LDAP or IMAP, SMB, FTP and more.');?></p>
                 <a href="<?php echo home_url('usermanagement') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('User management');?></a>
             </div>
         </div>
-	</div>
+    </div>
 </section>
 
-<!--<section class="section--vdr">
+<section class="section--usermanagement">
+	<div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/570275577?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="User defined groups in Nextcloud"></iframe></div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="section--paragraph__title"><?php echo $l->t('User-defined group management');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('Users can define their own, custom groups, named Circles. These can be managed in various ways, including with invitations, through an open listing where users can join with or without an approval step, with designated sub-managers and so on.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Users can share with these groups the same way as administrator-defined Nextcloud groups. Users can add members of a circle to a conversation, share a folder to a circle, assign a task to a circle and so on.');?></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section--vdr">
     <div class="container">
         <div class="row feature-row">
-            <div class="col-md-6">
-                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/vdr-link.jpg" alt="in action"/>
+            <div class="col-md-6 image--floated">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/vdr-link.jpg" alt="VDR stock image"/>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Virtual Data Room');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('In settings where a firewall is needed between departments or organizations without impeding smooth and efficient collaboration, a separate Virtual Data Room can be set up. Nextcloud offers a wide range of unique features for VDR use and its on-premises nature offers unparalleled confidentiality and control.');?></p>
-                <a href="<?php echo home_url('virtual-data-room') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Virtual Data Rooms');?></a>
+                <a href="<?php echo home_url('virtual-data-room') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Virtual Data Room features');?></a>
             </div>
         </div>
     </div>
-</section>-->
+</section>
+
+<section class="section--appstore benefits">
+<div class="container-fluid banner quote">
+    <div class="container">
+    <div class="col-md-6">
+        <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Extend your cloud');?></h1>
+        <p class="section--paragraph"><?php echo $l->t('You can extend the functionality of your Nextcloud with extra features from the Nextcloud app store. Among the more than 200 apps you can find features that enhance sharing, including:');?></p>
+        <p class="section--paragraph">
+        <ul>
+        <li><i class="fa-check fa"></i> <?php echo $l->t('Groupfolders allows admin-shared folders users can\'t remove');?></li>
+        <li><i class="fa-check fa"></i> <?php echo $l->t('Activities for shared file downloads so you can track who downloads your shared files');?></li>
+        <li><i class="fa-check fa"></i> <?php echo $l->t('Easy sharing via email, Google+, Diaspora, Facebook and more social channels');?></li>
+        </ul>
+        </p>
+        <div class="text-center morebuttondiv">
+			<a href="https://apps.nextcloud.com" class="button button--large button--arrow"><?php echo $l->t('Appstore');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+        </div>
+    </div>
+    <img class="big-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/appstore-big.png">
+    <img class="small-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/appstore-big.png">
+    </div>
+</div>
+</section>
+
+<section class="section--collectives">
+	<div class="container">
+         <div class="row">
+            <div class="col-md-6 ">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/569475807?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Knowledge management in Nextcloud"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+            <div class="col-md-6">
+                <h3 class="section--paragraph__title">Nextcloud app: <?php echo $l->t('Collectives');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('Bringing knowledge management to Nextcloud, Collectives enables users to share a set of handbooks with each other. Collectives is closely tied with the custom group feature in Nextcloud and builds on Nextcloud Text, so it allows for collaborative editing of documents, showing author colors, versioning, cross-page links and more.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('With Collectives, organizations can reduce the \'bus factor\' by sharing knowledge in a way that fits a modern, paperless office and support asynchronous collaboration.');?></p>
+                <a href="https://apps.nextcloud.com/apps/collectives" class="button button--blue button--arrow button--large"><?php echo $l->t('More about Collectives');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section--forms">
+	<div class="container">
+         <div class="row">
+            <div class="col-md-6 image--feature new-img image--floated">
+                <a class="overlay-trigger" href="<?php bloginfo('template_directory'); ?>/assets/img/features/forms.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/forms.png" alt="Forms in action" ></a>
+            </div>
+            <div class="col-md-6">
+                <h3 class="section--paragraph__title">Nextcloud app: <?php echo $l->t('Forms');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('Did you know a third of people who abandon a survey form do so because they worry about privacy and security? We understand, pretty much all those forms are hosted at Google or other, data-vacuuming services. Well, we have good news to you surveyors!');?></p>
+                <p class="section--paragraph"><?php echo $l->t('With Nextcloud Forms, you can create as many forms, with as many questions, and shared with as many people as you like – without any limitations. You keep your form and the data you collect on Nextcloud. And you can easily analyze and share the results with our pretty and insightful graphs.');?></p>
+                <a href="https://nextcloud.com/blog/nextcloud-forms-is-here-to-take-on-gafam/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about Forms');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section--whiteboard">
+	<div class="container">
+         <div class="row">
+            <div class="col-md-6 ">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555768438?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Whiteboard"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+            <div class="col-md-6">
+                <h3 class="section--paragraph__title">Nextcloud app: <?php echo $l->t('Whiteboard');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('The collaborative Whiteboard app allows users to draw lines & shapes, take notes, add images and more, alone or while working with others. The app works fully in Talk and is very useful to give presentations during a video call with its synchronized view area feature.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Files created with Whiteboard are saved among other regular files and are collaborative. Drawing, typing and adding images on the file are possible. The presentation feature is especially helpful for schools or analytical team meetings or brainstorming sessions.');?></p>
+                <a href="https://apps.nextcloud.com/apps/whiteboard" class="button button--blue button--arrow button--large"><?php echo $l->t('More about Whiteboard');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section--collectives">
+	<div class="container">
+        <div class="text-center">
+            <a href="https://apps.nextcloud.com/" class="button button--blue button--arrow button--large"><?php echo $l->t('Nextcloud App store');?></a>
+        </div>
+    </div>
+</section>
 
 <section class="section--benefits">
 <div class="container-fluid quote">

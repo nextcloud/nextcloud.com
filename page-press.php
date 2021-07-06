@@ -30,10 +30,13 @@ height: 100px;
 <div class="container">
     <h2>Current Release Information</h2>
     <h3>Nextcloud <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></h3>
-    <a class="button button--large button--white button--arrow" target="_blank" href="https://nextcloud.com/blog/nextcloud-hub-21-out-with-up-to-10x-better-performance-whiteboard-and-more-collaboration-features/">Announcement blog</a><br />
-    <a href="<?php echo home_url('press/pr20210222-1') ?>" class="button button--large button--white button--arrow">Press release</a>
+    <a class="button button--large button--white button--arrow" target="_blank" href="https://nextcloud.com/blog/nextcloud-hub-22-introduces-approval-workflows-integrated-knowledge-management-and-decentralized-group-administration/">Announcement blog</a><br />
+    <a href="<?php echo home_url('press/pr20210706') ?>" class="button button--large button--white button--arrow">Press release</a>
     <h2>Press releases 2021</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20210706') ?>">July 6, 2021: Nextcloud Hub 22 is the digital office optimized for the post-pandemic workplace</a></li>
+        <li><a href="<?php echo home_url('press/pr20210706-1') ?>">July 6, 2021: Nextcloud and eID Easy partner up to deliver secure document signing to Nextcloud users</a></li>
+        <li><a href="<?php echo home_url('press/pr20210706-2') ?>">July 6, 2021: IONOS partners with Nextcloud to offer UK SMEs comprehensive cloud storage</a></li>
         <li><a href="<?php echo home_url('press/pr20210504') ?>">May 4, 2021: OpenProject and Nextcloud announce collaboration and integration features</a></li>
         <li><a href="<?php echo home_url('press/pr20210503') ?>">May 3, 2021: Nextcloud and 8Soft launch sales partnership</a></li>
         <li><a href="<?php echo home_url('press/pr20210421') ?>">April 21, 2021: German government funds first open source personal health data store</a></li>
