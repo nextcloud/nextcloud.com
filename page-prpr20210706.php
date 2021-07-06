@@ -39,17 +39,16 @@
 <p>Nextcloud Hub 22 is available immediately. Starting today, Nextcloud Hub is also available on the IONOS Cloud in the UK.</p>
 <h2>About Nextcloud GmbH</h2>
 <p>Nextcloud Hub is the industry-leading, fully open source, on-premises team productivity platform, combining the easy user interface of consumer-grade cloud solutions with the security and compliance measures enterprises need. Nextcloud Hub brings together universal access to data through mobile, desktop and web interfaces with next-generation, on-premise secure communication and collaboration features like real-time document editing, chat and video calls, putting them under the direct control of IT and integrated with existing infrastructure.</p>
-<p>Nextcloud’s easy and quick deployment, open, modular architecture and emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing file storage assets within and across the borders of their organization. For more information, visit <a href="https://nextcloud.com">nextcloud.com</a> or follow <span class="citation" data-cites="nextclouders">[@nextclouders]</span>(https://twitter.com/nextclouders) on Twitter.</p>
+<p>Nextcloud’s easy and quick deployment, open, modular architecture and emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing file storage assets within and across the borders of their organization. For more information, visit <a href="https://nextcloud.com">nextcloud.com</a> or follow <a href="https://twitter.com/nextclouders">@nextclouders<a/> on Twitter.</p>
 <h2>Links</h2>
 <ul>
-<li>About Nextcloud: <a href="https://nextcloud.com/about" class="uri">https://nextcloud.com/about</a></li>
-<li>Final URL of this press release: <a href="https://nextcloud.com/press/pr20210706" class="uri">https://nextcloud.com/press/pr20210706</a></li>
-<li>EIDEasy and Nextcloud collaboration announcement: <a href="https://nextcloud.com/press/pr20210706-1" class="uri">https://nextcloud.com/press/pr20210706-1</a></li>
-<li>IONOS Cloud offering Nextcloud in the UK: <a href="https://nextcloud.com/press/pr20210706-2" class="uri">https://nextcloud.com/press/pr20210706-2</a></li>
-<li>link to blogs: coming</li>
+<li><a href="https://nextcloud.com/about">About Nextcloud</a></li>
+<li><a href="https://nextcloud.com/press/pr20210706-1">EIDEasy and Nextcloud collaboration announcement</a></li>
+<li><a href="https://nextcloud.com/press/pr20210706-2">IONOS Cloud offering Nextcloud in the UK</a></li>
+<li><a href="https://nextcloud.com/blog/nextcloud-hub-22-introduces-approval-workflows-integrated-knowledge-management-and-decentralized-group-administration/">Announcement blog</a></li>
 </ul>
 <h2>Graphics</h2>
-<p><strong>Link to screenshots and videos:</strong> <a href="https://cloud.nextcloud.com/s/bAkqWnrB6EinRGn" class="uri">https://cloud.nextcloud.com/s/bAkqWnrB6EinRGn</a></p>
+<p><strong>Link to screenshots and videos:</strong> <a href="https://cloud.nextcloud.com/s/bAkqWnrB6EinRGn">https://cloud.nextcloud.com/s/bAkqWnrB6EinRGn</a></p>
 <h2>Press contacts</h2>
 <p>Jos Poortvliet<br />
 Marketing Director<br />
@@ -81,14 +80,13 @@ pr@nextcloud.com</p>
 <p>Für weitere Informationen besuchen Sie <a href="https://nextcloud.com/">nextcloud.com</a> oder folgen Sie <span class="citation" data-cites="Nextclouders">[@Nextclouders]</span>(https://twitter.com/Nextclouders) auf Twitter.</p>
 <h2>Links</h2>
 <ul>
-<li><strong>Über Nextcloud:</strong> <a href="https://nextcloud.com/about" class="uri">https://nextcloud.com/about</a></li>
-<li><strong>Endgültige URL dieser Pressemeldung:</strong> <a href="https://nextcloud.com/press/pr20210706" class="uri">https://nextcloud.com/press/pr20210706</a></li>
-<li><strong>Ankündigung der Zusammenarbeit von EIDEasy und Nextcloud:</strong> <a href="https://nextcloud.com/press/pr20210706-1" class="uri">https://nextcloud.com/press/pr20210706-1</a></li>
-<li><strong>IONOS Cloud bietet Nextcloud in Großbritannien an:</strong> <a href="https://nextcloud.com/press/pr20210706-2" class="uri">https://nextcloud.com/press/pr20210706-2</a></li>
-<li><strong>Link zu Blogs:</strong> in Vorbereitung</li>
+<li><a href="https://nextcloud.com/about">Über Nextcloud</a></li>
+<li><a href="https://nextcloud.com/press/pr20210706-1">Ankündigung der Zusammenarbeit von EIDEasy und Nextcloud</a></li>
+<li><a href="https://nextcloud.com/press/pr20210706-2">IONOS Cloud bietet Nextcloud in Großbritannien an</a></li>
+<li><a href="https://nextcloud.com/blog/nextcloud-hub-22-introduces-approval-workflows-integrated-knowledge-management-and-decentralized-group-administration/">Link zu Blog</a></li>
 </ul>
 <h2>Graphics</h2>
-<p><strong>Link to screenshots and videos:</strong> <a href="https://cloud.nextcloud.com/s/bAkqWnrB6EinRGn" class="uri">https://cloud.nextcloud.com/s/bAkqWnrB6EinRGn</a></p>
+<p><strong>Link to screenshots and videos:</strong> <a href="https://cloud.nextcloud.com/s/bAkqWnrB6EinRGn">https://cloud.nextcloud.com/s/bAkqWnrB6EinRGn</a></p>
 <h2>Press contacts</h2>
 <p>Jos Poortvliet<br />
 Marketing Director<br />

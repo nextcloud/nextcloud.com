@@ -37,11 +37,24 @@
 <h2>Data protection and complete data sovereignty</h2>
 <p>Managed Nextcloud meets the highest security standards in accordance with European data protection law, with data stored exclusively in European data centers . Access rights can be defined individually and activities can be tracked and logged in accordance with compliance guidelines, to ensure privacy and confidentiality where needed. Other safety features include antivirus scanning with an antivirus app, two-factor authentication and NIST compliant password policy control functionalities. In addition to desktop clients for Windows, Mac and Linux, there are mobile apps for all major platforms.</p>
 <h2>1,000 GB Managed Nextcloud storage free of charge for three months</h2>
-<p>The Managed Nextcloud 1,000 GB package is recommended for up to 15 concurrent users and is free for the first three months. After that, it costs £9 per month. The largest package, Managed Nextcloud 10,000 GB, costs £45 per month and is recommended for up to 100 concurrent users. All package details and more information about Managed Nextcloud can be found here: https://cloud.ionos.co.uk/solutions/nextcloud</p>
+<p>The Managed Nextcloud 1,000 GB package is recommended for up to 15 concurrent users and is free for the first three months. After that, it costs £9 per month. The largest package, Managed Nextcloud 10,000 GB, costs £45 per month and is recommended for up to 100 concurrent users. All package details and more information about Managed Nextcloud can be found here: <a href="https://cloud.ionos.co.uk/solutions/nextcloud">https://cloud.ionos.co.uk/solutions/nextcloud</a></p>
 <h2>About IONOS</h2>
 <p>With more than eight million customer contracts, IONOS is the leading European provider of cloud infrastructure, cloud services and hosting services. The product portfolio offers everything that companies need to be successful in the cloud: from domains, classic websites and do-it-yourself solutions, online marketing tools to full-fledged servers and an IaaS solution. The portfolio is aimed at freelancers, business people and consumers as well as corporate customers with complex IT requirements.</p>
-<p>IONOS was created in 2018 from the merger of 1&amp;1 Internet and the Berlin IaaS provider ProfitBricks. 1&amp;1 IONOS is part of the listed United Internet AG (ISIN DE0005089031). The 1&amp;1 IONOS brand family includes STRATO, Arsys, Fasthosts, home.pl, InterNetX, SEDO,</p>
-
+<p>IONOS was created in 2018 from the merger of 1&amp;1 Internet and the Berlin IaaS provider ProfitBricks. 1&amp;1 IONOS is part of the listed United Internet AG (ISIN DE0005089031). The 1&amp;1 IONOS brand family includes STRATO, Arsys, Fasthosts, home.pl, InterNetX, SEDO.</p>
+<h2>About Nextcloud GmbH</h2>
+<p>Nextcloud Hub is the industry-leading, fully open source, on-premises team productivity platform, combining the easy user interface of consumer-grade cloud solutions with the security and compliance measures enterprises need. Nextcloud Hub brings together universal access to data through mobile, desktop and web interfaces with next-generation, on-premise secure communication and collaboration features like real-time document editing, chat and video calls, putting them under the direct control of IT and integrated with existing infrastructure.</p>
+<p>Nextcloud’s easy and quick deployment, open, modular architecture and emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing file storage assets within and across the borders of their organization. For more information, visit <a href="https://nextcloud.com">nextcloud.com</a> or follow <a href="https://twitter.com/nextclouders">@nextclouders<a/> on Twitter.</p>
+<h2>Links</h2>
+<ul>
+<li><a href="https://nextcloud.com/about">About Nextcloud</a></li>
+<li><a href="https://cloud.ionos.co.uk/solutions/nextcloud">IONOS UK Offering</a></li>
+<li><a href="https://nextcloud.com/blog/nextcloud-hub-22-introduces-approval-workflows-integrated-knowledge-management-and-decentralized-group-administration/">Nextcloud Hub 22 Announcement blog</a></li>
+</ul>
+<h2>Press contact</h2>
+<p>Jos Poortvliet<br />
+Marketing Director<br />
+Phone: +49 (0) 171 121 7528<br />
+pr@nextcloud.com</p>
 
 </div>
 </div>
