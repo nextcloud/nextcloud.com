@@ -63,14 +63,6 @@
 				<a class="button button--white" href="https://arulogic.com">Learn more</a>
 			</div>
 			<div class="col-md-4">
-				<a href="https://belmontcloud.com" target="_blank" title="belmont">
-				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/belmont.png" title="Belmont logo" />
-				</a>
-				<p class="partnertext">BelmontCloud helps customers achieve sustainable data management by consolidating their environment into a single secure, open source, cloud computing, on-site / on-premises collaborative software suite. We enable data, voice and video communications with security protocols consistent with your jurisdiction.<br />
-				We serve the entire Americas region - North America, Central America, South America, and The Caribbean and focus on serving public sector entities, educational, health care, automotive, legal, financial and engineering industries.</p>
-				<a class="button button--white" href="https://belmontcloud.com">Learn more</a>
-			</div>
-			<div class="col-md-4">
 				<a href="https://www.bitbone.de/" target="_blank" title="Bitbone">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/bitbone.png" title="Bitbone logot" />
 				</a>

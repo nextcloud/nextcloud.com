@@ -3,7 +3,7 @@ require get_template_directory() . '/strings.php';
 ?>
 <!-- <meta http-equiv="refresh" content="60"> -->
 
-<script>
+<!--<script>
 require(["require.config"], function() {
 	require(["jquery"], ($) => {
 		/**
@@ -86,13 +86,13 @@ require(["require.config"], function() {
 		})
 
 		// Clear the interval
-		$(window).on('unload', () => { 
+		$(window).on('unload', () => {
 			clearInterval(updateCounter, 1000)
 		})
 	})
 });
 
-</script>
+</script>-->
 
 <style>
 #clockday,#clockhour,#clockmin,#clocksec {
@@ -354,12 +354,12 @@ padding-left: 0;
 														</a>
                         </li>
                     </ul>
-                     <li class="ghost-btn clock">
+<!--                     <li class="ghost-btn clock">
                         <a href="<?php echo home_url('countdown'); ?>" class="nav__label">
 
                             <span id="clockday"></span><span id="clockhour"></span><span id="clockmin"></span><span id="clocksec"></span>
                         </a>
-                    </li>
+                    </li>-->
                 </li>
             </ul>
 			</div>
