@@ -304,17 +304,16 @@
 				<a href="https://www.securetech.ae" target="_blank" title="securetech">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/securetech.png" title="Securetech logo" />
 				</a>
-				<p  class="partnertext">SecureTech, a UAE based company Founded by Dr. Abdulla Al Nuaimi in 2000. SecureTech is a leading Integrator based out of Abu Dhabi and Operates across the emirates with more than 600 qualified staff from various regions. As a leading solutions provider focusing on:
-				<ul>
-                    <li>IT Infrastructure</li>
-                    <li>Artificial Intelligence based solutions</li>
-                    <li>Big data analysis solutions</li>
-                    <li>Cyber Security solutions</li>
-                    <li>IOT & integrated Security solutions</li>
-                </ul>
-                SecureTech provides innovative and cost-effective solutions to your complex problems. Since 2000, SecureTech has been and continues to be a partner of choice for our key customers. With a customer-centric approach and industry applauded technical support, we have always strived to exceed our customer’s expectations.</p>
-				<a class="button button--white" href="https://www.safespring.com/en/ocre/">Learn more</a>
-			</div>			<div class="col-md-4">
+				<p  class="partnertext">SecureTech, a UAE based company Founded by Dr. Abdulla Al Nuaimi in 2000. SecureTech is a leading Integrator based out of Abu Dhabi and Operates across the emirates with more than 600 qualified staff from various regions. As a leading solutions provider focusing on:<br />
+                    IT Infrastructure<br />
+                    Artificial Intelligence based solutions<br />
+                    Big data analysis solutions<br />
+                    Cyber Security solutions<br />
+                    IOT & integrated Security solutions<br />
+                SecureTech provides innovative and cost-effective solutions to your complex problems. Since 2000, SecureTech has been and continues to be a partner of choice for our key customers. With a customer-centric approach and industry applauded technical support, we always strive to exceed our customer’s expectations.</p>
+				<a class="button button--white" href="https://www.securetech.ae">Learn more</a>
+			</div>
+			<div class="col-md-4">
 				<a href="https://www.siedl.net/portfolio/nextcloud" target="_blank" title="Siedl">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/siedl.png" title="siedl logo" />
 				</a>
