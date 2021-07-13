@@ -293,7 +293,6 @@
                 Our focus is on the smooth operation of your IT infrastructure and its continuous expansion. In the course of this, individual and customer-oriented support form the basis for long-term cooperation. Moreover, we offer programming services for web applications to our customers.</p>
 				<a class="button button--white" href="http://www.robhost.de">Learn more</a>
 			</div>
-
             <div class="col-md-4">
 				<a href="https://www.safespring.com/en/ocre/" target="_blank" title="Safespring">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/safespring.png" title="Safespring logo" />
@@ -301,7 +300,21 @@
 				<p  class="partnertext">Safesprings is a Nordic provider of cloud infrastructure services. Based on Open Source technology, our compute and storage services is highly scalable and support API driven workflows. We support federated login to enable single sign-on. Safespring is trusted by more than 60 universities, institutions and research platforms and we’re hoping to be part of your digital future as well. Welcome to make a first contact!</p>
 				<a class="button button--white" href="https://www.safespring.com/en/ocre/">Learn more</a>
 			</div>
-			<div class="col-md-4">
+            <div class="col-md-4">
+				<a href="https://www.securetech.ae" target="_blank" title="securetech">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/securetech.png" title="Securetech logo" />
+				</a>
+				<p  class="partnertext">SecureTech, a UAE based company Founded by Dr. Abdulla Al Nuaimi in 2000. SecureTech is a leading Integrator based out of Abu Dhabi and Operates across the emirates with more than 600 qualified staff from various regions. As a leading solutions provider focusing on:
+				<ul>
+                    <li>IT Infrastructure</li>
+                    <li>Artificial Intelligence based solutions</li>
+                    <li>Big data analysis solutions</li>
+                    <li>Cyber Security solutions</li>
+                    <li>IOT & integrated Security solutions</li>
+                </ul>
+                SecureTech provides innovative and cost-effective solutions to your complex problems. Since 2000, SecureTech has been and continues to be a partner of choice for our key customers. With a customer-centric approach and industry applauded technical support, we have always strived to exceed our customer’s expectations.</p>
+				<a class="button button--white" href="https://www.safespring.com/en/ocre/">Learn more</a>
+			</div>			<div class="col-md-4">
 				<a href="https://www.siedl.net/portfolio/nextcloud" target="_blank" title="Siedl">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/siedl.png" title="siedl logo" />
 				</a>
