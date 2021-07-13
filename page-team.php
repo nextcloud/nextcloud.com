@@ -483,6 +483,19 @@
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Carl Schwan</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Server</h4>
+					<h4 class="teamlocation">Lives in Saarbrücken, Germany</h4>
+					<p class="teamsocial"><a href="https://carlschwan.eu"><i class="fa-rss fa"></i></a> <a href="https://github.com/ognarb"><i class="fa-github fa"></i></a> <a href="https://invent.kde.org/carlschwan"><i class="fa-gitlab fa"></i></a> <a href="https://twitter.com/CarlKDE"><i class="fa-twitter fa"></i></a> <a href="https://linuxrocks.online/@carl"><i class="fa-mastodon fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Carl is from a Franco-German family and lived in Germany and France. He's involved in the KDE community, leading its web efforts as well as being a core member of promo, Plasma, Plasma Mobile and fundraising teams and maintaining NeoChat, KDE's Matrix client.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
 				<h2 class="teamname">Christopher Ng</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
