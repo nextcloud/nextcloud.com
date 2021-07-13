@@ -12,10 +12,10 @@
 <div class=" background security-background">
     <div class="container">
         <div class="col-md-6 topheader">
-            <h1>Coming soon!</h1>
-            <h2>Stay tuned for our announcement on July 6<br>at 1PM CET</h2>
-<!--             <h1>Nextcloud 21 is here!</h2> -->
-<!--             <h2>Re-watch our announcement below.</h2> -->
+<!--             <h1>Coming soon!</h1> -->
+<!--             <h2>Stay tuned for our announcement on July 6<br>at 1PM CET</h2> -->
+            <h1>Nextcloud 22 is here!</h2>
+             <h2>Re-watch our announcement below.</h2>
         </div>
     </div>
 </div>
@@ -46,7 +46,7 @@
 </section>
 
 
-<!--<section>
+<section>
     <div class="container">
         <div class="row text-center">
             <iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/bjivOowRao4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -56,7 +56,7 @@
             <iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/iMCza-AX3hg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
-</section>-->
+</section>
 
 
 
