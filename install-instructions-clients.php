@@ -47,7 +47,7 @@
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
-								<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/macsettings.png" alt="Desktop Client" />
+								<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/menu.png" alt="Desktop Client" />
 							</div>
 						</div>
 					</div>
