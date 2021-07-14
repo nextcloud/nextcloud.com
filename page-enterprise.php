@@ -114,6 +114,23 @@
     </div>
 </section>
 
+<section class="section--ionos">
+<div class="container">
+    <h1 class="section--heading-1 text-center"><?php echo $l->t('Deploy immediately');?></h1>
+    <h3 class="section--heading-3 text-center"><?php echo $l->t('At one of our world-leading hosting partners');?></h3>
+    <div class="row">
+        <div class="col-md-6">
+            <a href="<?php echo home_url('ionos') ?>"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/partners/ionos.png" /></a>
+        </div>
+        <div class="col-md-6">
+            <p class="section--paragraph__title"><?php echo $l->t('Move now to a reliable GDPR compliant cloud solution');?></h1>
+            <p class="section--paragraph"><?php echo $l->t('If your organization needs a guaranteed GDPR compliant, efficient and easy to use online collaboration platform, we have a great offer for you. Together with Europe\'s largest hosting provider we bring you a near-instant deployment of Nextcloud, providing secure document exchange and collaboration, audio/video chat, calendar and email and more.');?></p>
+            <p><a class="button button--blue button--arrow button--large " href="https://www.ionos.co.uk/office-solutions/managed-nextcloud-hosting"><?php echo $l->t('Start at IONOS');?></a> <a class="button button--blue button--arrow button--large " href="<?php echo home_url('partners') ?>"><?php echo $l->t('Find another partner');?></a></p>
+        </div>
+    </div>
+</div>
+</section>
+
 <section class="quote section--contact">
 <div class="container">
     <div class="row">
@@ -174,7 +191,6 @@
         </div>
     </div>
 </section>
-
 
 
 
