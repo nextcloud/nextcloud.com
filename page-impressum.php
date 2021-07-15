@@ -21,7 +21,8 @@ Hauptmannsreute 44a<br/>
 HRB 227086 (AG München)<br/>
 T +49 711 25 24 28 90<br/>
 VAT-ID / USt-IdNr.: DE307093598<br/>
-<a href="<?php echo home_url('contact') ?>"><?php echo $l->t('contact form');?></a><br/>
+For the fastest reply use our <a href="<?php echo home_url('contact') ?>"><?php echo $l->t('contact form');?></a><br/>
+But you can also contact us at <img src="<?php echo get_template_directory_uri(); ?>/assets/img/common/contact.png" width="200" height="15" style="margin-top: -5px"><br/>
 </p>
 <p>Visitors:
 <address>Hirschstrasse 26<br/>
@@ -30,6 +31,6 @@ VAT-ID / USt-IdNr.: DE307093598<br/>
 Managing Director:<br/>
 Frank Karlitschek<br/></p>
 
-<p><?php echo $l->t('<small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small>');?></p>
+<p><small><?php echo $l->t('All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.');?></small></p>
 </div>
 </section>
