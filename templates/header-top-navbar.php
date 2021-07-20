@@ -94,29 +94,6 @@ require(["require.config"], function() {
 
 </script>-->
 
-<style>
-#clockday,#clockhour,#clockmin,#clocksec {
-    background-color: white;
-    color: black;
-    margin: 0 1px;
-    border-bottom: 6px solid #0082c9;
-    font-size: 80%;
-    padding: 0 1px;
-}
-
-.nav .container .right-buttons .ghost-btn.clock a::before {
-    display: none;
-}
-
-.nav .container .right-buttons .ghost-btn.clock a:hover {
-    border-bottom: 10px solid #0082c9;
-}
-
-.nav .container .right-buttons li.clock {
-padding-left: 0;
-}
-</style>
-
 <nav class="nav" id="nav">
 <!-- To finish -->
 	<div class="mobile-bg-container">

@@ -9907,6 +9907,49 @@ img.overlay-trigger {
   clip: auto; }
 
 /*# sourceMappingURL=fork-awesome.min.css.map */
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
+#clockday, #clockhour, #clockmin, #clocksec {
+  background-color: white;
+  color: black;
+  margin: 0 1px;
+  border-bottom: 6px solid #0082c9;
+  font-size: 80%;
+  padding: 0 1px; }
+
+.nav .container .right-buttons .ghost-btn.clock a::before {
+  display: none; }
+
+.nav .container .right-buttons .ghost-btn.clock a:hover {
+  border-bottom: 10px solid #0082c9; }
+
+.nav .container .right-buttons li.clock {
+  padding-left: 0; }
+
 html {
   margin-top: 0 !important; }
 
