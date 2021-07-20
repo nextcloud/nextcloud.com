@@ -34,6 +34,7 @@ height: 100px;
     <a href="<?php echo home_url('press/pr20210706') ?>" class="button button--large button--white button--arrow">Press release</a>
     <h2>Press releases 2021</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20210720') ?>">July 20, 2021: Nextcloud Talk takes on Whatsapp and Skype-for-business</a></li>
         <li><a href="<?php echo home_url('press/pr20210706') ?>">July 6, 2021: Nextcloud Hub 22 is the digital office optimized for the post-pandemic workplace</a></li>
         <li><a href="<?php echo home_url('press/pr20210706-1') ?>">July 6, 2021: Nextcloud and eID Easy partner up to deliver secure document signing to Nextcloud users</a></li>
         <li><a href="<?php echo home_url('press/pr20210706-2') ?>">July 6, 2021: IONOS partners with Nextcloud to offer UK SMEs comprehensive cloud storage</a></li>
