@@ -55,18 +55,18 @@
 
 <div class="row">
     <div class="col-sm-6">
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/576684156?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Talk"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script><br />Nextcloud Talk overview
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/576684156?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Talk"></iframe></div><br />Nextcloud Talk overview
     </div>
     <div class="col-sm-6">
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/570271904?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Chat and project management integration"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script><br />With Talk 12, users can turn a chat message into a task in Deck or share a task into a chat room
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/570271904?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Chat and project management integration"></iframe></div><br />With Talk 12, users can turn a chat message into a task in Deck or share a task into a chat room
     </div>
 </div>
 <div class="row">
     <div class="col-sm-6">
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/576684235?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Outlook Calendar Integration with Nextcloud"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script><br />For businesses using Outlook, Nextcloud Talk can be integrated in the Calendar app, just as file attachments can be replaced in the mail component.
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/576684235?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Outlook Calendar Integration with Nextcloud"></iframe></div><br />For businesses using Outlook, Nextcloud Talk can be integrated in the Calendar app, just as file attachments can be replaced in the mail component.
     </div>
      <div class="col-sm-6">
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/576900580?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="talk in calendar"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>See how easy it is to add a conversation room to a meeting invitation!
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/576900580?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="talk in calendar"></iframe></div>See how easy it is to add a conversation room to a meeting invitation!
     </div>
 </div>
 

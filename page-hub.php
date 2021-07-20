@@ -39,7 +39,7 @@
 <div class="container">
 	<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555692548?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Accessibility themes.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555692548?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Accessibility themes.mp4"></iframe></div>
 		</div>
     </div>
 	<div class="row">
@@ -409,7 +409,7 @@
 	<h1 class="section--heading-1 text-center"><?php echo $l->t('Powerful collaboration');?></h1>
         <div class="row">
             <div class="col-md-6">
-                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/570271904?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Chat and project management integration"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/570271904?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Chat and project management integration"></iframe></div>
             </div>
             <div class="col-md-6">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Integrated groupware, chat and project management');?></h3>
@@ -420,7 +420,7 @@
         </div>
         <div class="row">
             <div class="col-md-6 image--floated">
-                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/569448618?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Approval process and pdf signatures in Nextcloud"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/569448618?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Approval process and pdf signatures in Nextcloud"></iframe></div>
             </div>
             <div class="col-md-6">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Efficient workflows');?></h3>
@@ -621,7 +621,7 @@
 	<div class="container">
          <div class="row">
             <div class="col-md-6 ">
-                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/569475807?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Knowledge management in Nextcloud"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/569475807?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Knowledge management in Nextcloud"></iframe></div>
             </div>
             <div class="col-md-6">
                 <h3 class="section--paragraph__title">Nextcloud app: <?php echo $l->t('Collectives');?></h3>
@@ -653,7 +653,7 @@
 	<div class="container">
          <div class="row">
             <div class="col-md-6 ">
-                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555768438?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Whiteboard"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555768438?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Whiteboard"></iframe></div>
             </div>
             <div class="col-md-6">
                 <h3 class="section--paragraph__title">Nextcloud app: <?php echo $l->t('Whiteboard');?></h3>

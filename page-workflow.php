@@ -51,7 +51,7 @@
 	</div>
     <div class="row">
 		<div class="col-md-6 image--feature">
-		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/569448618?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="separate approval process and pdf signatures screencast for vimeo"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/569448618?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="separate approval process and pdf signatures screencast for vimeo"></iframe></div>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Get work approved and documents digitally signed');?></h3>
