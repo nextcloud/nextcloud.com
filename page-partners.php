@@ -64,7 +64,7 @@
 			</div>
 			<div class="col-md-4">
 				<a href="https://www.b1-systems.de" target="_blank" title="B1-systems">
-				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/b1-systems.png" title="Bitbone logot" />
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/b1-systems.png" title="B1 logo" />
 				</a>
 				<p class="partnertext">B1 Systems provides consulting, managed service and support, as well as trainings, subscriptions and development for individual and professional Linux & OpenSource solutions.<br />
                 Any solution is precisely tailored to our customers' requirements. Our areas of expertise include private and public cloud, containerization, monitoring, patch management, automation and video conferencing. It is entirely up to you to decide how our team of more than 140 certified Linux and Open Source specialists assist you.<br />
@@ -73,7 +73,7 @@
 			</div>
 			<div class="col-md-4">
 				<a href="https://www.bitbone.de/" target="_blank" title="Bitbone">
-				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/bitbone.png" title="Bitbone logot" />
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/bitbone.png" title="Bitbone logo" />
 				</a>
 				<p class="partnertext">Bitbone was founded in 2001 in Germany, as on Open-Source (Linux) services provider, offering secure and powerful infrastructure & IT services. They have 20 years of experience with Linux, Kaspersky products and expertise that ranges from standards such as server technologies, operating systems, monitoring, firewalls, endpoint security to new technologies such as automation, containerization and cyber-security.<br /> Bitbone aims further development for their customers‘ strategic projects and business.</p>
 				<a class="button button--white" href="https://www.bitbone.de/">Learn more</a>
