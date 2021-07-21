@@ -365,6 +365,19 @@
 		</div>
         <div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/daphne.jpg" />
+				<h2 class="teamname">Daphne Muller</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Support lead</h3>
+					<h4 class="teamexpertise">Customer satisfaction and process coordination</h4>
+					<h4 class="teamlocation">Lives in Amsterdam, the Netherlands</h4>
+					<p class="teamsocial"><a href="http://www.daphnemuller.nl"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/daphne-muller/"><i class="fa-linkedin fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Daphne graduated from the Eindhoven University of Technology and gained work experience in consultancy, teaching, and various tech start-ups. She conducts academic research in Human-Computer Interaction about privacy and data minimisation. As support lead, she evolves the support process to improve customer and developer happiness.</p>
+			</div>
+		</div>
+        <div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
 				<h2 class="teamname">Jan-Christoph Borchardt</h2>
 				<div class="teammeta">
