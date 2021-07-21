@@ -102,7 +102,6 @@
 					<li>Excellent listening, negotiation and presentation skills</li>
 					<li>Excellent verbal and written communications skills</li>
 					<li>Problem solving skills</li>
-					<li>Writing and speaking German and/or French language</li>
 				</ul>
 
 				<h3 class="section--paragraph__title">What we offer:</h3>
@@ -118,7 +117,7 @@
 				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
-			<a href="#salesrep" data-toggle="collapse"><h3 class="jobs">Sales Representative<span class="icon-arrow"></span></h3></a>
+			<!--<a href="#salesrep" data-toggle="collapse"><h3 class="jobs">Sales Representative<span class="icon-arrow"></span></h3></a>
 			<div id="salesrep" class="collapse">
 				<p>We are looking for a passionate Sales Representative to work with prospective customers to determine if Nextcloud is a good fit for them.</p>
 				<p>Your responsibilities include building relationships with prospective customers and connecting with key business executives and stakeholders. You will research and develop market segments, work with Marketing to generate and classify leads, develop them to opportunities and work as part of our internal cross-functional internal teams to ensure the customers get timely information and fitting solutions to their problems.</p>
@@ -168,8 +167,60 @@
 				</ul>
 
 				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-			</div>
+			</div>-->
 
+
+			<a href="#junioraccountmgr" data-toggle="collapse"><h3 class="jobs">Junior Account Manager<span class="icon-arrow"></span></h3></a>
+			<div id="junioraccountmgr" class="collapse">
+				<p>We are looking for a passionate Junior Account Manager to work with prospective customers to determine if Nextcloud is a good fit for them.</p>
+				<p>Your responsibilities include building relationships with prospective customers and connecting with key business executives and stakeholders. You will research and develop market segments, to generate and classify leads, develop them to opportunities and work as part of our internal cross-functional internal teams to ensure the customers get timely information and fitting solutions to their needs.</p>
+				<h3 class="section--paragraph__title">Responsibilities:</h3>
+
+				<ul>
+                    <li>Work with marketing on outreach, lead generation and classification of opportunities</li>
+                    <li>Research, develop and maintain communication within and for specific market segments</li>
+					<li>Collaborate with your team and our Partners in determining the best
+					solution for our customers</li>
+					<li>Build and maintain strong, long-lasting customer relationships</li>
+					<li>Communicate clearly the progress of monthly/quarterly initiatives
+					internally</li>
+					<li>Forecast and track key account metrics</li>
+					<li>negotiating tender and contract terms and conditions to meet both
+					client and company needs</li>
+					<li>Identify and grow opportunities within territory and collaborate
+					with sales teams to ensure growth attainment</li>
+					<li>Assist with high severity requests or issue escalations as needed</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">Required skills:</h3>
+
+				<ul>
+					<li>Proven sales/account management or other relevant experience</li>
+					<li>Demonstrated ability to communicate, present and influence credibly
+					and effectively at all levels of the organization, including
+					executive and C-level</li>
+					<li>Experience in delivering client-focused solutions based on customer
+					needs</li>
+					<li>Proven ability to manage multiple projects at a time while paying
+					strict attention to prioritize</li>
+					<li>Excellent listening, negotiation and presentation skills</li>
+					<li>Excellent verbal and written communications skills</li>
+					<li>Problem solving skills</li>
+					<li>Fluent in writing and speaking English. More languages are welcome.</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">What we offer:</h3>
+
+				<ul>
+					<li>A distributed, open team with a passion for working on and within the open source community</li>
+					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
+					<li>A competitive salary</li>
+					<li>Flexibility for a healthy work-life balance</li>
+					<li>Time for personal growth and education</li>
+				</ul>
+
+				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+			</div>
             <a href="#marketing" data-toggle="collapse"><h3 class="jobs">Marketing and event manager<span class="icon-arrow"></span></h3></a>
 			<div id="marketing" class="collapse">
 				<p>Our marketing team is looking for a new member: you would help grow and multiply our marketing efforts. You'd be responsible for building up Nextcloud marketing, and your efforts would include implementing marketing campaigns, reaching out to and working with press, translating and putting together promotional materials and organizing or attending events. We're looking for somebody with marketing experience, able to work remote in a small, self-guided team and willing to learn and try new things!</p>
