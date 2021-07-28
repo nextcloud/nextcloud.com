@@ -755,19 +755,6 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/morris.jpg" />
-				<h2 class="teamname">Morris Jobke</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software and Support Engineer</h3>
-					<h4 class="teamexpertise">Co-founder, Server and Support</h4>
-					<h4 class="teamlocation">Lives in Chemnitz, Germany</h4>
-					<p class="teamsocial"><a href="http://morrisjobke.de/"><i class="fa-rss fa"></i></a> <a href="https://github.com/MorrisJobke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/MorrisJbk"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Morris has worked on the Nextcloud code base since early 2013. He has worked with most components of the server and uses his experience now at Nextcloud to troubleshoot and create fixes for issues in large scale installations.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
 				<h2 class="teamname">Nimisha Vijay</h2>
 				<div class="teammeta">
