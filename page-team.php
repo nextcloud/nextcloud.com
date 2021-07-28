@@ -352,6 +352,19 @@
     <div class="row">
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/barth.jpg" />
+				<h2 class="teamname">Barthélémy Briand</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Server lead</h3>
+					<h4 class="teamexpertise">Server, contacts, front-end and accessibility</h4>
+					<h4 class="teamlocation">Lives in France</h4>
+                    <p class="teamsocial"></p>
+				</div>
+				<p class="teamdescription">Barthélémy is a software engineer specialized in front-end development. He cares about simplicity and ease of use and likes to create a smooth user experience for everyone. He has been part of the contacts and design team since 2016.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/christoph.jpg" />
 				<h2 class="teamname">Christoph Wurst</h2>
 				<div class="teammeta">
@@ -465,19 +478,6 @@
 					<p class="teamsocial"><a href="https://arthur-schiwon.de"><i class="fa-rss fa"></i></a> <a href="https://github.com/blizzz"><i class="fa-github fa"></i></a> <!--<a href="https://twitter.com/blizzz"><i class="fa-twitter fa"></i></a>--> </p>
 				</div>
 				<p class="teamdescription">Arthur Schiwon has been working on the Nextcloud code base since 2010, developing state of the art user management and directory support. Before he has been SEO project manager at construktiv and was active in the Kubuntu community, still being a Free and Open Source Software enthusiast and privacy activist.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/barth.jpg" />
-				<h2 class="teamname">Barthélémy Briand</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Server, contacts, front-end and accessibility</h4>
-					<h4 class="teamlocation">Lives in France</h4>
-                    <p class="teamsocial"></p>
-				</div>
-				<p class="teamdescription">Barthélémy is a software engineer specialized in front-end development. He cares about simplicity and ease of use and likes to create a smooth user experience for everyone. He has been part of the contacts and design team since 2016.</p>
 			</div>
 		</div>
         <div class="col-md-4">
