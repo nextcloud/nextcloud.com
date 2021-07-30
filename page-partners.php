@@ -192,6 +192,13 @@
 				<a class="button button--white" href="http://www.itservicenet.net">Learn more</a>
 			</div>
 			<div class="col-md-4">
+			<a href="https://iwv.works" target="_blank" title="iCONZ-Webvisions">
+			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/iwv.png" title="iCONZ-Webvisions logo" />
+                </a>
+                <p class="partnertext">Over the last two decades, iCONZ-Webvisions (iWV) has evolved from a hosting provider to a full-fledged cloud technology company (based out of Singapore) that provides high-touch personalised services for cloud compute and managed services. For SMEs, the benefits of cloud computing are endless. For many SMEs operating on a tight budget, turning fixed costs into variable costs is incredibly helpful that can make or break a business. iWV helps SMEs overcome the lack of expertise on their digital transformation journey and is the trusted cloud partner to help SMEs work smarter by providing flexible, cost-effective access to technology and information.</p>
+                <a class="button button--white" href="https://iwv.works">Learn more</a>
+			</div>
+			<div class="col-md-4">
 				<a href="http://www.kafit.se/" target="_blank" title="kafit AB">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/kafit.png" title="kafit logo" />
 				</a>
