@@ -218,19 +218,6 @@
 				<p class="teamdescription">Björn is a computer scientist, graduated at the University of Stuttgart. He conducted research in the area of cloud robotics before he joined a private cloud community project in 2012 and later co-founded Nextcloud. Björn has a deep knowledge about all technical and legal aspects of Free and Open Source Software. After working for several years as a software engineer he became a sales engineer, using his in-depth knowledge to provide the best possible solutions to our customers.</p>
 			</div>
 		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-				<h2 class="teamname">Dimitri Rupp</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Sales Engineer</h3>
-					<h4 class="teamexpertise">Engineering and project management</h4>
-					<h4 class="teamlocation">Lives in Vienna, Austria</h4>
-					<p class="teamsocial"><a href="https://infeather.one/"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/dimitrirupp/"><i class="fa-linkedin fa"></i></a> <a href="https://www.facebook.com/dimitri.rupp.54"><i class="fa-facebook fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Dimitri has a commercial and business organization education. With more than 20 years of experiences in system administration and project management, including working abroad for a well-known European cybersecurity company. Dimitri loves intelligent software solutions which are supporting work processes in the most efficient and intuitive way. He is ambitious to provide first-class support and collaboration with a strong focus to bring your Nextcloud project to excellent success.</p>
-			</div>
-		</div>
         <div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
