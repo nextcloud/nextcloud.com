@@ -117,6 +117,47 @@
 				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
+			<a href="#hrmanager" data-toggle="collapse"><h3 class="jobs">HR Manager<span class="icon-arrow"></span></h3></a>
+			<div id="hrmanager" class="collapse">
+				<p>To help us grow and continue to improve our organization for our existing employees, we are looking for a HR Manager to join our team.</p>
+				<p>Your HR responsibilities will include guiding, supporting and accelerating our hiring process, improving and professionalizing our people-related processes in our organization and supporting management with HR related topics.</p>
+				<h3 class="section--paragraph__title">Responsibilities:</h3>
+
+				<ul>
+					<li>The process of hiring and recruitment (together with the team leads and management)</li>
+					<li>Assessing fit of new hires and monitoring on boarding progress</li>
+					<li>Monitoring and improving our people processes across the whole employee life cycle (from on boarding, feedback and performance management and absence handling to off boarding)</li>
+					<li>Work with our back office to optimize and handle legal, payroll and benefits related processes</li>
+					<li>Support management and team leads with your HR knowledge</li>
+					<li>Protect and nurture a healthy, positive company culture</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">Required skills:</h3>
+
+				<ul>
+					<li>Relevant work experience, preferably in a startup environment and around recruitment</li>
+					<li>Affinity for remote work (Berlin or Stuttgart office are of course available for you but most of us are remote anyway)</li>
+					<li>Insight in organizational change and development, a plus is experience in handling and guiding rapid growth</li>
+					<li></li>
+					<li>Knowledge of German labour law is a plus, some experience with international employment regulations even better</li>
+					<li>English and German language proficiency</li>
+					<li>Affinity with our goals and mission around open source, giving people back control over their data, data sovereignty, privacy and so on is a pre!</li>
+					<li>Optional: You think you could have written a better job description for this position :-)</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">What we offer:</h3>
+
+				<ul>
+					<li>A distributed, open and passionate team with a mission to make the world a better place</li>
+					<li>A young, dynamic organization that values personal freedom and growth, diversity, inclusion, ambition and collaboration</li>
+					<li>A competitive salary</li>
+					<li>A real impact on our team culture and future growth. We know that our product can only be as good as the people who create it. Since you will be our very first dedicated HR professional, you have a lot of freedom to shape your role</li>
+					<li>Flexibility for a healthy work-life balance</li>
+					<li>Time for personal growth and education</li>
+				</ul>
+
+				<p>We are looking for somebody with ambition and drive who would like to grow and learn.  That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+			</div>
 			<!--<a href="#salesrep" data-toggle="collapse"><h3 class="jobs">Sales Representative<span class="icon-arrow"></span></h3></a>
 			<div id="salesrep" class="collapse">
 				<p>We are looking for a passionate Sales Representative to work with prospective customers to determine if Nextcloud is a good fit for them.</p>
