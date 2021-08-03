@@ -163,6 +163,12 @@
 		<p class="section--paragraph"><?php echo $l->t('We keep track of some of the mentions of Nextcloud in the press.');?> Find our Press center <a href="<?php echo home_url('press') ?>" class="hyperlink">here.</a></p>
         <div class="row newsrow">
             <div class="col-md-4">
+            <a class="hyperlink" href="https://www.hostingadvice.com/blog/nextcloud-delivers-free-client-server-software/" target="_blank" title="HostingAdvice.com covering Nextcloud">
+                    <img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/ha.png" title="HostingAdvice.com covering Nextcloud"/>
+                    <span class="text">"a new standard in self-hosted collaboration, providing security and control in an open, transparent, and reliable manner"</span>
+                </a>
+            </div>
+            <div class="col-md-4">
 				<a class="hyperlink" href="https://www.tijd.be/dossiers/de-tijd-vooruit/datakluizenproject-van-tim-berners-lee-wint-veld-in-europa-maar-opent-ook-debat/10303256.html" target="_blank" title="De Tijd on Nextcloud and Solid">
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/detijd.png" title="De Tijd on Nextcloud and Solid"/>
 				<span class="text">"Er zijn ongeveer 400.000 Nextcloud-servers online waarvan sommige miljoenen gebruikers hebben"</span>
