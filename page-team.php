@@ -189,7 +189,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/viktoria.jpg" />
 				<h2 class="teamname">Viktoria Linder</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Senior account manager</h3>
@@ -220,7 +220,7 @@
 		</div>
         <div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/maxime.jpg" />
 				<h2 class="teamname">Maxime Le Hericy</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Sales Engineer</h3>
@@ -456,7 +456,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/anna.jpg" />
 				<h2 class="teamname">Anna Larch</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
@@ -508,7 +508,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/carl.jpg" />
 				<h2 class="teamname">Carl Schwan</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
@@ -573,7 +573,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/felix.jpg" />
 				<h2 class="teamname">Felix Weilbach</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
@@ -664,7 +664,7 @@
 		</div>
         <div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/louis.jpg" />
 				<h2 class="teamname">Louis Chemineau</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
@@ -690,7 +690,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/matthieu.jpg" />
 				<h2 class="teamname">Matthieu Gallien</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
@@ -794,7 +794,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/simonl.jpg" />
 				<h2 class="teamname">Simon Lindner</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Design Student</h3>
@@ -820,7 +820,7 @@
 		</div>
         <div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/vincent.jpg" />
 				<h2 class="teamname">Vincent Petry</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
