@@ -79,6 +79,19 @@
             </div>
         </div>
         <div class="col-md-4">
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/andy.jpg" />
+                <h2 class="teamname">Andy Scherzinger</h2>
+                <div class="teammeta">
+                    <h3 class="teamtitle">Director Engineering</h3>
+                    <h4 class="teamexpertise">Software engineering and delivery</h4>
+                    <h4 class="teamlocation">Lives in Frankfurt, Germany</h4>
+                    <p class="teamsocial"><a href="https://www.linkedin.com/in/andyscherzinger/"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Andy_Scherzinger/"><i class="fa-xing fa"></i></a> <a href="https://github.com/AndyScherzinger"><i class="fa-github fa"></i></a> <a href="https://twitter.com/AndyScherzinger"><i class="fa-twitter fa"></i></a></p>
+                </div>
+                <p class="teamdescription">Andy graduated in Applied Business in Computer Science and has more than 15 years of experience in delivering custom software solutions and IT consulting to customers. He worked for companies like msg systems and Capgemini supporting enterprises and startups in various industries like telecommunication, travel, logistics and finance with a focus on building software-systems, -plattforms and -factories.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/patrick.jpg" />
 				<h2 class="teamname">Patrick Walther</h2>
