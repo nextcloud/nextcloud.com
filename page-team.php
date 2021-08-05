@@ -88,7 +88,7 @@
                     <h4 class="teamlocation">Lives in Frankfurt, Germany</h4>
                     <p class="teamsocial"><a href="https://www.linkedin.com/in/andyscherzinger/"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Andy_Scherzinger/"><i class="fa-xing fa"></i></a> <a href="https://github.com/AndyScherzinger"><i class="fa-github fa"></i></a> <a href="https://twitter.com/AndyScherzinger"><i class="fa-twitter fa"></i></a></p>
                 </div>
-                <p class="teamdescription">Andy graduated in Applied Business in Computer Science and has more than 15 years of experience in delivering custom software solutions and IT consulting to customers. He worked for companies like msg systems and Capgemini supporting enterprises and startups in various industries like telecommunication, travel, logistics and finance with a focus on building software-systems, -plattforms and -factories.</p>
+                <p class="teamdescription">Andy graduated in Applied Business in Computer Science and has more than 15 years of experience in delivering custom software solutions and IT consulting to customers. He worked for companies like msg systems and Capgemini supporting enterprises and startups in various industries like telecommunication, travel, logistics and finance with a focus on building software-systems, -platforms and -factories.</p>
             </div>
         </div>
         <div class="col-md-4">
