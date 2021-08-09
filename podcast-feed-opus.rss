@@ -38,6 +38,21 @@
     <language>en-us</language>
     <atom:link href="https://nextcloud.com/podcast-feed.xml" rel="self" type="application/rss+xml" />
     <link>https://nextcloud.com/podcast/</link>
+      
+    <item>
+      <title>Interview with Nimisha Vijay, the UX & UI Designer at Nextcloud</title>
+      <itunes:subtitle>In this 12th episode, our host Ingo talked with Nimisha Vijay, the UX and UI Designer at Nextcloud.</itunes:subtitle>
+      <itunes:summary>Find more about UX Design, in general, and Nimisha's experience as a designer at Nextcloud!</itunes:summary>
+      <itunes:duration>00:33:25</itunes:duration>
+      <description>Find more about UX Design, in general, and Nimisha's experience as a designer at Nextcloud!</description>
+      <pubDate>Tue, 10 Aug 2021 12:00:00 GMT</pubDate>
+        <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_012.opus"
+                 type="audio/opus" length="20020074"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_012.opus</guid>
+      <link>https://nextcloud.com/blog/interview-with-nimisha-vijay-the-ux-ui-designer-at-nextcloud/</link>
+    </item>
 
     <item>
       <title>Nextcloud podcast episode pt. 11: Interview with Sebastian and Michael from hosting.de!</title>
