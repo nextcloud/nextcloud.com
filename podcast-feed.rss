@@ -38,13 +38,13 @@
     <language>en-us</language>
     <atom:link href="https://nextcloud.com/podcast-feed.rss" rel="self" type="application/rss+xml" />
     <link>https://nextcloud.com/podcast/</link>
-      
+
    <item>
-      <title>Interview with Nimisha Vijay, the UX & UI Designer at Nextcloud</title>
-      <itunes:subtitle>In this 12th episode, our host Ingo talked with Nimisha Vijay, the UX and UI Designer at Nextcloud.</itunes:subtitle>
-      <itunes:summary>Find more about UX Design, in general, and Nimisha's experience as a designer at Nextcloud!</itunes:summary>
+      <title>Interview with Nimisha Vijay, UX & UI Designer at Nextcloud</title>
+      <itunes:subtitle>In this 12th episode, our host Ingo talked with Nimisha Vijay, UX and UI Designer at Nextcloud.</itunes:subtitle>
+      <itunes:summary>Find more about UX Design in general and Nimisha's experience as a designer at Nextcloud!</itunes:summary>
       <itunes:duration>00:33:25</itunes:duration>
-      <description>Find more about UX Design, in general, and Nimisha's experience as a designer at Nextcloud!</description>
+      <description>Find more about UX Design in general and Nimisha's experience as a designer at Nextcloud!</description>
       <pubDate>Tue, 10 Aug 2021 12:00:00 GMT</pubDate>
       <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_012.mp3"
                  type="audio/mpeg" length="28207721"/>
