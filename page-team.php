@@ -560,19 +560,6 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-				<h2 class="teamname">Enoch Terry Mize George Muller</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Server</h4>
-					<h4 class="teamlocation">Lives in Magdeburg, Germany</h4>
-					<p class="teamsocial"> <a href="https://github.com/enochterrymize"><i class="fa-github fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Enoch Terry Mize has worked as IT Consultant and application developer in the software industry. but also freelanced in a variety of front-end and back-end work with JS. He is experienced in Frontend Technologies and effective use of Cloud Technologies and applying his learning and expertise and his passion for free software.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/felix.jpg" />
 				<h2 class="teamname">Felix Weilbach</h2>
 				<div class="teammeta">
@@ -647,19 +634,6 @@
 					<p class="teamsocial"><a href="https://framapiaf.org/@eneiluj"><i class="fa-mastodon fa"></i></a> <a href="https://github.com/eneiluj"><i class="fa-github fa"></i></a> <a href="https://gitlab.com/eneiluj"><i class="fa-gitlab fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Julien has a master's degree in computer science and does public research for 10 years as scientific computing engineer in biology and geographical data processing. He loves interactive maps, collaborative tools, and is passionate about the Free Software movement. He started contributing to the Nextcloud code base in 2015 and has developed 6 apps since then. He has much experience in data processing and computing optimization.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-				<h2 class="teamname">Kevin Ottens</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Desktop client</h4>
-					<h4 class="teamlocation">Lives in Toulouse, France</h4>
-					<p class="teamsocial"><a href="https://ervin.ipsquad.net"><i class="fa-rss fa"></i></a> <a href="https://github.com/er-vin"><i class="fa-github fa"></i></a> <a href="https://mamot.fr/@ervin"><i class="fa-mastodon fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Kevin Ottens has a Ph.D. in artificial intelligence which led him to focus on Ontology engineering and multi-agent systems. As a student, he fell in love with the KDE community and never stopped contributing code. Lately, he has been also helping with the community stewardship, for instance participating in the creation of the KDE Manifesto. Nowadays he spends time rethinking his job via a strong interest in software craftsmanship and graphics facilitation.</p>
 			</div>
 		</div>
         <div class="col-md-4">
