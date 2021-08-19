@@ -42,7 +42,7 @@
 			<ul>
 				<li><?php echo $l->t('Software should work. It is better to not have a feature instead of having one that works poorly.');?></li>
 				<li><?php echo $l->t('Software should be easy to use. Show only the most important elements.');?></li>
-				<li><?php echo $l->t('Software should get out of the way. Do things automatically instead of offering configuration options. When people ask for a setting, find out what the root of the problem is and fix that instead. ');?></li>
+				<li><?php echo $l->t('Software should get out of the way. Do things automatically instead of offering configuration options. When people ask for a setting, find out what the root of the problem is and fix that instead.');?></li>
 				<li><?php echo $l->t('Software should be usable everywhere. Make sure to test in different devices and browsers.');?></li>
 				<li><?php echo $l->t('Software should be usable by everyone. Find out more below in the accessibility section.');?></li>
 			</ul>
