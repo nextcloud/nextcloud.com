@@ -57,9 +57,22 @@ pr@nextcloud.com</p>
 
 
 <a name="german"></a>
-
-<h1>TBD</h1>
-
+<h1>Gaia-X beweist Unabhängigkeit von großen US-Tech-Anbietern und entscheidet sich für EU-basierte Kollaborationsplattform</h1>
+<p><em>Gaia-X fokussiert sich auf ihre ursprüngliche Mission und zeigt durch handfeste Ergebnisse ihre Unabhängigkeit von Hyperscalern</em></p>
+<p><em>Berlin, 26. August 202</em>1 - Nexcloud GmbH, das Unternehmen hinter der weltweit am häufigsten eingesetzten On-Premises Content Collaboration Plattform, gibt die Zusammenarbeit mit dem Gaia-X Projekt bekannt und ist nun die offizielle digitale Kollaborationsplattform für Gaia-X.</p>
+<blockquote>
+<p>Als große und breit aufgestellte europäische Organisation war Gaia-X auf der Suche nach einer flexiblen, voll ausgestatteten und in Europa ansässigen Kollaborationsplattform, die sich gut mit anderen Tools integrieren lässt. Nextcloud ermöglicht uns die umfassende organisationsübergreifende Zusammenarbeit auf sichere und konforme Art und Weise.</p>
+</blockquote>
+<p><em>– Francesco Bonfiglio, CEO of Gaia-X AISBL</em></p>
+<p>Gaia-X wurde als ein föderiertes Dateninfrastruktur-Ökosystem für Europa konzipiert. Mehr als 250 Mitglieder sind bereits an Bord und wollen ihre Kräfte zu bündeln, um gemeinsam die Ziele und Bestrebungen von Gaia-X zu verfolgen. Europas Gaia-X stellt die Vorherrschaft der Big-Tech-Cloud in Frage und gibt europäischen Unternehmen mehr Kontrolle über ihre Daten. In anderen Worten: Europa will die Datenhoheit zurückgewinnen, welches die treibende Motivation hinter dem Projekt ist.</p>
+<p>Der Beitritt von den US-Hyperscalern Amazon Web Services, Google und Microsoft warf die Frage auf, ob die europäische Cloud-Plattform Gaia-X von der Beteiligung dieser ausländischen Giganten abhängig ist und es war unklar, wie Europa die Kontrolle über ihre digitale Zukunft behalten kann, wenn man hinsichtlich der Technologien auf ausländische Unternehmen angewiesen ist.</p>
+<p>Nach einem langen Auswahlprozess umging der Vorstand von Gaia-X die Produkte der Hyperscaler und entschied sich stattdessen für eine in Europa entwickelte und gehostete Kollaborationsplattform. Gemeinsam werden die Gaia-X Mitglieder über Nextcloud, der bekanntesten On-Premises Kollaborationsplattform, an der unabhängigen und föderierten Infrastruktur der nächsten Generation für Europa arbeiten. Die Plattform wird bei IONOS gehostet, Europas größtem Hosting-Provider.</p>
+<blockquote>
+<p>Dass die Entscheidung von Gaia-X auf Nextcloud fiel, beweist, dass Europa bereits eine leistungsstarke Alternative zu den Produkten von ausländischen Hyperscalern vorweisen kann. Als eine bewährte Plattform, die bereits von mehreren Millionen Nutzern in Behörden, im Bildungs-, Finanz- und Gesundheitswesen eingesetzt wird, ermöglicht Nextcloud eine effiziente Zusammenarbeit in Echtzeit auf sichere, konforme und datenschutzfreundliche Weise.</p>
+</blockquote>
+<p><em>– Frank Karlitschek, CEO and Founder of Nextcloud</em></p>
+<p>Die neue Plattform für digitale Zusammenarbeit Nextcloud ist jetzt in Betrieb und die ersten Mitglieder an Bord. Jedes Mitglied hat bereits Lesezugriff auf <a href="https://community.gaia-x.eu/." class="uri">https://community.gaia-x.eu/.</a></p>
+<p>Die erste außerordentliche Hauptversammlung der Gaia-X AISBL fand bereits im Juni 2021 mit Nextcloud statt. Um den neuen Vorstand zu wählen, wurde Nextcloud Polls als Abstimmungssystem verwendet und so der Vorstand für die nächsten zwei Jahre ernannt.</p>
 <h2>Über Nextcloud</h2>
 <p>Nextcloud Hub ist die branchenführende, vollständig quelloffene Plattform für die Team-Produktivität vor Ort, die die einfache Benutzeroberfläche von Cloud-Lösungen für Privatanwender mit den Sicherheits- und Compliance-Maßnahmen kombiniert, die Unternehmen benötigen. Nextcloud Hub vereint den universellen Zugriff auf Daten über Mobil-, Desktop- und Webschnittstellen mit sicheren Kommunikations- und Kollaborationsfunktionen der nächsten Generation vor Ort, wie Dokumentenbearbeitung in Echtzeit, Chat und Videoanrufe, und stellt sie unter die direkte Kontrolle der IT-Abteilung und integriert in die bestehende Infrastruktur.</p>
 
