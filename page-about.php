@@ -149,10 +149,10 @@
         <h3><?php echo $l->t('History');?></h3>
 		<p class="section--paragraph"><?php echo $l->t('The Nextcloud journey started in 2010 with <a class="hyperlink" href="https://karlitschek.de">Frank Karlitschek</a> and a handful developers. It grew steadily and by 2016 Nextcloud GmbH employed a dozen open source developers working to empower users to take back control over their data and communication.');?></p>
 
-		<p class="section--paragraph"><?php echo $l->t('Fully employee-funded and pursuing an organic-growth strategy, Nextcloud already turned profitable by the end of 2016 and had nearly tripled to 35 employees by the end of 2017. See our full ');?><a class="hyperlink" href="<?php echo home_url('team') ?>"><?php echo $l->t('team here.');?></a> </p>
+		<p class="section--paragraph"><?php echo $l->t('Fully employee-funded and pursuing an organic-growth strategy, Nextcloud had nearly tripled to 35 employees by the end of 2017. See our full ');?><a class="hyperlink" href="<?php echo home_url('team') ?>"><?php echo $l->t('team here.');?></a> </p>
         <p class="section--paragraph"><?php echo $l->t('By January 2018, <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-grew-customer-base-7x-added-over-6.6-million-lines-of-code-and-doubled-its-team-in-2017/">after record growth in 2017</a>, Nextcloud had become the market-leading, on-premises Enterprise File Sync and Share solution <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-grew-customer-base-7x-added-over-6.6-million-lines-of-code-and-doubled-its-team-in-2017/">according to Google Trends.</a> Since then, Nextcloud has continued to organically double its revenue year after year.');?></p>
         <p class="section--paragraph"><?php echo $l->t('By 2020, Nextcloud completed its transition from a secure file exchange solution to a full collaboration platform with the introduction of Hub. Nextcloud Hub brings together Nextcloud Files, Talk and Groupware in a single, integrated productivity suite that empowers modern, digital organizations. Later in the year, Nextcloud responded to unprecedented demand by scaling up its video and chat capabilities for larger groups and with features specifically aimed at remote learning and day-to-day interactions of remote workers.');?></p>
-        <p class="section--paragraph"><?php echo $l->t('The fast growing company and its quickly expanding partner base added thousands of new customers in 2021 and continues to innovate in the collaboration space.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('The fast growing company and its quickly expanding partner base added thousands of new customers and dozens new employees in 2021 and continues to innovate in the collaboration space.');?></p>
         <p class="section--paragraph"><?php echo $l->t('With an estimated over 400.000 Nextcloud servers online, no other on-premises content collaboration platform comes close in terms of installed base.');?></p>
 		<p class="section--paragraph"><?php echo $l->t('You can follow what we are up to in our blog');?> <a class="hyperlink" href="<?php echo home_url('news') ?>"><?php echo $l->t('here');?></a> <?php echo $l->t('and subscribe to our newsletter');?> <a class="hyperlink" href="https://newsletter.nextcloud.com"><?php echo $l->t('here');?></a>.</p>
 	</div>
@@ -164,6 +164,12 @@
 		<h2><?php echo $l->t('Media coverage');?></h2>
 		<p class="section--paragraph"><?php echo $l->t('We keep track of some of the mentions of Nextcloud in the press.');?> Find our Press center <a href="<?php echo home_url('press') ?>" class="hyperlink">here.</a></p>
         <div class="row newsrow">
+            <div class="col-md-4">
+				<a class="hyperlink" href="https://www.handelsblatt.com/technik/it-internet/cloud-projekt-gaia-x-beteiligte-ringen-um-umgang-mit-us-techkonzernen/27547620.html" target="_blank" title="Gaia-X picks Nextcloud over Google and Microsoft">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/detijd.png" title="Gaia-X picks Nextcloud over Google and Microsoft"/>
+				<span class="text">"[Gaia-X] entschied sich im Frühjahr nach einem mehrmonatigen Prozess allerdings für ein Angebot von Nextcloud"</span> <small><a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-beat-us-hyperscalers-as-collaboration-platform-for-eu-digital-sovereignty-project-gaia-x/">(english)</a></small>
+				</a>
+			</div>
             <div class="col-md-4">
 				<a class="hyperlink" href="https://www.tijd.be/dossiers/de-tijd-vooruit/datakluizenproject-van-tim-berners-lee-wint-veld-in-europa-maar-opent-ook-debat/10303256.html" target="_blank" title="De Tijd on Nextcloud and Solid">
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/detijd.png" title="De Tijd on Nextcloud and Solid"/>
