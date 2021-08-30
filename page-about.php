@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud develops the worlds\' most deployed on-premises content collaboration platform.');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud develops and maintains the worlds\' most deployed on-premises content collaboration platform.');?></p>
                 <p class="section--paragraph text-center"><?php echo $l->t('Our technology combines the convenience and ease of use of consumer-grade solutions like Dropbox and Google Workspaces with the security, privacy and control business needs.');?></p>
 
             </div>
