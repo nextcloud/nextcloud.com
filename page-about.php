@@ -154,7 +154,7 @@
         <p class="section--paragraph"><?php echo $l->t('By 2020, Nextcloud completed its transition from a secure file exchange solution to a full collaboration platform with the introduction of Hub. Nextcloud Hub brings together Nextcloud Files, Talk and Groupware in a single, integrated productivity suite that empowers modern, digital organizations. Later in the year, Nextcloud responded to unprecedented demand by scaling up its video and chat capabilities for larger groups and with features specifically aimed at remote learning and day-to-day interactions of remote workers.');?></p>
         <p class="section--paragraph"><?php echo $l->t('The fast growing company and its quickly expanding partner base added thousands of new customers in 2021 and continues to innovate in the collaboration space.');?></p>
         <p class="section--paragraph"><?php echo $l->t('With an estimated over 400.000 Nextcloud servers online, no other on-premises content collaboration platform comes close in terms of installed base.');?></p>
-		<p class="section--paragraph"><?php echo $l->t('You can follow what we are up to in our blog');?> <a class="hyperlink" href="<?php echo home_url('news') ?>"><?php echo $l->t('here');?></a> <?php echo $l->t('and subscribe to our newsletter');?> <a class="hyperlink" href="https://newsletter.nextcloud.com"><?php echo $l->t('here');?></a>');?>.</p>
+		<p class="section--paragraph"><?php echo $l->t('You can follow what we are up to in our blog');?> <a class="hyperlink" href="<?php echo home_url('news') ?>"><?php echo $l->t('here');?></a> <?php echo $l->t('and subscribe to our newsletter');?> <a class="hyperlink" href="https://newsletter.nextcloud.com"><?php echo $l->t('here');?></a>.</p>
 	</div>
 </section>
 
