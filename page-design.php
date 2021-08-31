@@ -21,19 +21,16 @@
 </div>
 
 
-<section class="section--video">
+<section class="section--content">
 <div class="container">
+
 	<div class="row">
 		<div class="col-md-12">
 			<div data-type="youtube" data-video-id="5SAB0CY-iZ0"></div>
 			<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/5SAB0CY-iZ0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
 	</div>
-</div>
-</section>
 
-<section class="section--content">
-<div class="container">
 
 	<div class="row">
 		<div class="col-md-12">
@@ -119,6 +116,22 @@
 
 			<p><?php echo $l->t('Find more info on the accessibility of Nextcloud in the <a href="https://docs.nextcloud.com/server/latest/user_manual/en/universal_access.html" target="_blank">user manual</a>, and if you want to learn more about accessibility, check out <a href="https://www.a11yproject.com/" target="_blank">The A11Y Project</a>');?></p>
 		
+		</div>
+	</div>
+
+		<div class="row">
+		<div class="col-md-12">
+			
+			<h3 class="section--paragraph__title"><?php echo $l->t('Design reads we like');?></h3>
+		
+			<p><?php echo $l->t('Check out some of these interesting websites and articles!');?></p>
+			<ul>
+				<li><?php echo $l->t('<a href="https://ukhomeoffice.github.io/accessibility-posters/posters/accessibility-posters.pdf" target="_blank">UK Home Office accessibility posters</a>');?></li>
+				<li><?php echo $l->t('<a href="https://lawsofux.com/" target="_blank">Laws of UX</a>');?></li>
+				<li><?php echo $l->t('<a href="https://www.nngroup.com/" target="_blank">Nielsen Norman Group</a>');?></li>
+				<li><?php echo $l->t('<a href="https://ometer.com/preferences.html" target="_blank">Choosing our preferences</a>');?></li>
+			</ul>	
+
 		</div>
 	</div>
 
