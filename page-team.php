@@ -455,6 +455,19 @@
 			</div>
 		</div>
 		<div class="col-md-4">
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+                <h2 class="teamname">Álvaro Brey Vilas</h2>
+                <div class="teammeta">
+                    <h3 class="teamtitle">Software Engineer</h3>
+                    <h4 class="teamexpertise">Android Files app</h4>
+                    <h4 class="teamlocation">Lives in Santiago de Compostela, Spain</h4>
+                    <p class="teamsocial"><a href="https://github.com/AlvaroBrey"><i class="fa-github fa"></i></a> <a href="https://twitter.com/AlvaroBrey_"><i class="fa-twitter fa"></i></a> <a href="https://www.linkedin.com/in/alvarobrey/"><i class="fa-linkedin fa"></i></a></p>
+                </div>
+                <p class="teamdescription">Álvaro has a masters's degree in AI, and is a generalist software engineer with experience in Android, DevOps and frontend. He's passionate about automation and code cleanliness. In his spare time, he's busy automating his home, modeling and 3D printing stuff, playing videogames or reading about technology.</p>
+            </div>
+		</div>
+		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/anna.jpg" />
 				<h2 class="teamname">Anna Larch</h2>
@@ -803,19 +816,6 @@
 					<p class="teamsocial"><a href="https://github.com/pvince81"><i class="fa-github fa"></i></a> <a href="https://twitter.com/pvince81"><i class="fa-twitter fa"></i></a> <a href="https://gitlab.com/pvince81"><i class="fa-gitlab fa"></i></a> <a href="https://www.linkedin.com/in/vincentpetry/"><i class="fa-linkedin fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Vincent is a full-stack software engineer with many years of experience in the open-source space. He's well-known for quickly finding bugs in various systems and his ability to debug deeply in unknown territories and also write extensive bug reports. He's now working in the Nextcloud Talk team using Vue.js, PHP and Golang.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-				<h2 class="teamname">Álvaro Brey Vilas</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Android Files app</h4>
-					<h4 class="teamlocation">Lives in Santiago de Compostela, Spain</h4>
-					<p class="teamsocial"><a href="https://github.com/AlvaroBrey"><i class="fa-github fa"></i></a> <a href="https://twitter.com/AlvaroBrey_"><i class="fa-twitter fa"></i></a> <a href="https://www.linkedin.com/in/alvarobrey/"><i class="fa-linkedin fa"></i></a></p>
-				</div>
-				<p class="teamdescription">Álvaro has a masters's degree in AI, and is a generalist software engineer with experience in Android, DevOps and frontend. He's passionate about automation and code cleanliness. In his spare time, he's busy automating his home, modeling and 3D printing stuff, playing videogames or reading about technology.</p>
 			</div>
 		</div>
 	</div>
