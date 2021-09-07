@@ -417,6 +417,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/julius.jpg" />
+				<h2 class="teamname">Julius Härtl</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Office Lead</h3>
+					<h4 class="teamexpertise">Office and productivity</h4>
+					<h4 class="teamlocation">Lives in Würzburg, Germany</h4>
+					<p class="teamsocial"><a href="https://blog.juliushaertl.de/"><i class="fa-rss fa"></i></a> <a href="https://github.com/juliushaertl"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jus_42"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Julius is involved in the Nextcloud community since the beginning, working on frontend and backend development of the server and apps like Deck. He is currently doing his master's degree in computer science at the University of Würzburg.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/lukas.jpg" />
 				<h2 class="teamname">Lukas Reschke</h2>
 				<div class="teammeta">
@@ -621,19 +634,6 @@
 					<p class="teamsocial"><a href="https://www.joachim-bauch.de"><i class="fa-rss fa"></i></a> <a href="https://github.com/fancycode"><i class="fa-github fa"></i></a> <a href="https://twitter.com/fancycode"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Joachim graduated computer science in Stuttgart and has been committing to various open source projects for a long time, including Google's WebRTC project and was core developer for the Red5 streaming server between 2005 and 2008.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/julius.jpg" />
-				<h2 class="teamname">Julius Härtl</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Server and apps</h4>
-					<h4 class="teamlocation">Lives in Würzburg, Germany</h4>
-					<p class="teamsocial"><a href="https://blog.juliushaertl.de/"><i class="fa-rss fa"></i></a> <a href="https://github.com/juliushaertl"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jus_42"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Julius is involved in the Nextcloud community since the beginning, working on frontend and backend development of the server and apps like Deck. He is currently doing his master's degree in computer science at the University of Würzburg.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
