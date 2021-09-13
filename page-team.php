@@ -23,7 +23,7 @@
 	<div class="featurerow">
 	<div class="wrap container teamgroup">
     <div class="row">
-	<h2><?php echo $l->t('Management');?></h2>
+<!-- 	<h2><?php echo $l->t('Management');?></h2> -->
 	</div>
 	<div class="row">
 		<div class="col-md-4">
@@ -417,6 +417,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/julius.jpg" />
+				<h2 class="teamname">Julius Härtl</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Office Lead</h3>
+					<h4 class="teamexpertise">Office and productivity</h4>
+					<h4 class="teamlocation">Lives in Würzburg, Germany</h4>
+					<p class="teamsocial"><a href="https://blog.juliushaertl.de/"><i class="fa-rss fa"></i></a> <a href="https://github.com/juliushaertl"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jus_42"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Julius is involved in the Nextcloud community since the beginning, working on frontend and backend development of the server and apps like Deck. He is currently doing his master's degree in computer science at the University of Würzburg.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/lukas.jpg" />
 				<h2 class="teamname">Lukas Reschke</h2>
 				<div class="teammeta">
@@ -551,7 +564,7 @@
 				<h2 class="teamname">Daniel Calviño Sánchez</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Front-end and automated testing</h4>
+					<h4 class="teamexpertise">Talk, front-end</h4>
 					<h4 class="teamlocation">Lives in Oviedo, Spain</h4>
 					<p class="teamsocial"> <a href="https://github.com/danxuliu"><i class="fa-github fa"></i></a> </p>
 				</div>
@@ -625,24 +638,11 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/julius.jpg" />
-				<h2 class="teamname">Julius Härtl</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Server and apps</h4>
-					<h4 class="teamlocation">Lives in Würzburg, Germany</h4>
-					<p class="teamsocial"><a href="https://blog.juliushaertl.de/"><i class="fa-rss fa"></i></a> <a href="https://github.com/juliushaertl"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jus_42"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Julius is involved in the Nextcloud community since the beginning, working on frontend and backend development of the server and apps like Deck. He is currently doing his master's degree in computer science at the University of Würzburg.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
 				<h2 class="teamname">Julien Veyssier</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Full stack/app developer</h4>
+					<h4 class="teamexpertise">Office, full stack/app developer</h4>
 					<h4 class="teamlocation">Lives in Montpellier, France</h4>
 					<p class="teamsocial"><a href="https://framapiaf.org/@eneiluj"><i class="fa-mastodon fa"></i></a> <a href="https://github.com/eneiluj"><i class="fa-github fa"></i></a> <a href="https://gitlab.com/eneiluj"><i class="fa-gitlab fa"></i></a> </p>
 				</div>
@@ -694,7 +694,7 @@
 				<h2 class="teamname">Marco Ambrosini</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Frontend and design</h4>
+					<h4 class="teamexpertise">Talk, frontend and design</h4>
 					<h4 class="teamlocation">Lives in Barcelona, spain</h4>
 					<p class="teamsocial"> <a href="https://github.com/ma12-co"><i class="fa-github fa"></i></a> </p>
 				</div>
@@ -733,7 +733,7 @@
 				<h2 class="teamname">Maxence Lange</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Consulting Services, App development, Full Text Search</h4>
+					<h4 class="teamexpertise">Server, full text search</h4>
 					<h4 class="teamlocation">Lives in Santa Maria, Cape Verde</h4>
 					<p class="teamsocial"> <a href="https://github.com/daita"><i class="fa-github fa"></i></a> <a href="https://twitter.com/AnArtificialOwl"><i class="fa-twitter fa"></i></a></p>
 				</div>
@@ -759,7 +759,7 @@
 				<h2 class="teamname">Robin Appelman</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Co-founder, Filesystem and Scalability</h4>
+					<h4 class="teamexpertise">Co-founder, server, filesystem and scalability</h4>
 					<h4 class="teamlocation">Lives in Eindhoven, Netherlands</h4>
 					<p class="teamsocial"><a href="https://icewind.nl"><i class="fa-rss fa"></i></a> <a href="https://github.com/icewind1991"><i class="fa-github fa"></i></a> <a href="https://twitter.com/icewind1991"><i class="fa-twitter fa"></i></a></p>
 				</div>
@@ -785,7 +785,7 @@
 				<h2 class="teamname">Simon Lindner</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Design Student</h3>
-					<h4 class="teamexpertise">User Experience and Interface Design</h4>
+					<h4 class="teamexpertise">Server, UX and interface design</h4>
 					<h4 class="teamlocation">Lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="https://github.com/szaimen"><i class="fa-github fa"></i></a></p>
 				</div>
@@ -811,11 +811,11 @@
 				<h2 class="teamname">Vincent Petry</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Full stack, Talk team</h4>
+					<h4 class="teamexpertise">Full stack, server</h4>
 					<h4 class="teamlocation">Lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"><a href="https://github.com/pvince81"><i class="fa-github fa"></i></a> <a href="https://twitter.com/pvince81"><i class="fa-twitter fa"></i></a> <a href="https://gitlab.com/pvince81"><i class="fa-gitlab fa"></i></a> <a href="https://www.linkedin.com/in/vincentpetry/"><i class="fa-linkedin fa"></i></a></p>
 				</div>
-				<p class="teamdescription">Vincent is a full-stack software engineer with many years of experience in the open-source space. He's well-known for quickly finding bugs in various systems and his ability to debug deeply in unknown territories and also write extensive bug reports. He's now working in the Nextcloud Talk team using Vue.js, PHP and Golang.</p>
+				<p class="teamdescription">Vincent is a full-stack software engineer with many years of experience in the open-source space. He's well-known for quickly finding bugs in various systems and his ability to debug deeply in unknown territories and also write extensive bug reports. He's now working in the Nextcloud server team using Vue.js, PHP and other technologies.</p>
 			</div>
 		</div>
 	</div>
