@@ -25,8 +25,14 @@ For the fastest reply use our <a href="<?php echo home_url('contact') ?>"><?php 
 But you can also contact us at <img src="<?php echo get_template_directory_uri(); ?>/assets/img/common/contact.png" width="200" height="15" style="margin-top: -5px"><br/>
 </p>
 <p>Visitors:
-<address>Hirschstrasse 26<br/>
-70173 Stuttgart Germany<br/></address>
+<h3>Main office Berlin</h3>
+<p><address>Nextcloud GmbH<br/>
+Gerichtstraße 23<br/>
+13347 Berlin</address></p>
+<h3>Co-working office Stuttgart</h3>
+<p><address>Nextcloud GmbH<br/>
+Hirschstrasse 26, 4th Floor<br/>
+70173 Stuttgart Germany</address></p>
 <p>
 Managing Director:<br/>
 Frank Karlitschek<br/></p>
