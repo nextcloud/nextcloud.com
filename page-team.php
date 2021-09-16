@@ -314,6 +314,19 @@
 				<p class="teamdescription">Marinela studied Business Informatics in the Faculty of Economics, University of Tirana. She got involved in open source in 2015, first by contributing to open source projects and then, in 2016, she started co-organizing events or conferences in Tirana to promote software freedom, open knowledge and the importance of open source in the public sector.</p>
 			</div>
         </div>
+        <div class="col-md-4">
+            <div class="teamp">
+            <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marko-b.jpg" />
+				<h2 class="teamname">Marko Bijelic</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">UI/UX Designer</h3>
+					<h4 class="teamexpertise">Visual Identity, Design Systems, Animation, Illustration</h4>
+					<h4 class="teamlocation">Lives in Banja Luka, Bosnia and Herzegovina</h4>
+					<p class="teamsocial"><a href="https://ba.linkedin.com/in/markobijelic"><i class="fa-rss fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Marko is working as a UI/UX Designer for 14 years. He has worked directly for clients like Coca-Cola, Audi and McLaren and for numerous startups featuring CrazyEgg, Flippa, Udemy and Tim Ferris. Marko has diversified skillset. He is college dropout and auto didactic.</p>
+			</div>
+        </div>
     </div>
     <div class="row">
         <h2><?php echo $l->t('Back office');?></h2>
