@@ -676,6 +676,20 @@
 			</div>
 		</div>
 		<div class="col-md-4">
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+                <h2 class="teamname">Luka Trovic</h2>
+                <div class="teammeta">
+                    <h3 class="teamtitle">Software Engineer</h3>
+                    <h4 class="teamexpertise">Office, full stack</h4>
+                    <h4 class="teamlocation">Lives in Raska, Serbia</h4>
+                    <p class="teamsocial"> <a href="github.com/luka-nextcloud"><i class="fa-github fa"></i></a> <a href="https://www.linkedin.com/in/luka-trovic"><i class="fa-linkedin fa"></i></a> </p>
+                </div>
+                <p class="teamdescription">Luka is a full stack developer specialized in JavaScript and PHP. He has over 8 years of professional experience with software development.
+                </p>
+            </div>
+		</div>
+		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
 				<h2 class="teamname">Marcel Hibbe</h2>
