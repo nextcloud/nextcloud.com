@@ -76,7 +76,7 @@
         <a class="hyperlink" href="https://apps.nextcloud.com" target="_blank" rel="tooltip" title="App Store"><?php echo $l->t('the Nextcloud app store.');?></a></p>
 		<p><a class="button button--blue eios" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Enterprise support</a>');?></p></p>
 	</div>
-	<a name="testing"></a>
+	<a id="testing"></a>
 	<div class="col-md-4">
 		<hr class="narrow"></hr>
 		<div class="numbadge centre">

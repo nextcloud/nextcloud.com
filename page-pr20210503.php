@@ -60,7 +60,7 @@ Marketing Director<br />
 Phone: +49 (0) 171 121 7528<br />
 pr@nextcloud.com</p>
 
-<a name="german"></a>
+<a id="german"></a>
 
 <h1>Nextcloud und 8Soft starten Vertriebspartnerschaft</h1>
 <p><em>Nextcloud App bietet Gegenentwurf zu der Masse an Lösungen, die sich durch den Verkauf von Gesundheitsdaten finanzieren</em></p>
@@ -109,6 +109,3 @@ pr@nextcloud.com</p>
 </div>
 </div>
 </section>
-
-
-

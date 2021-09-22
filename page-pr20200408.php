@@ -58,7 +58,7 @@ jos.poortvliet<a href="mailto:pr@nextcloud.com">@nextcloud.com</a></p>
 <p>Matthias Damerow<br />
 Phone: +49 461 430 920 0<br />
 matthias.damerow<a href="https://mailto:marketing@viakom.de">@viakom.de</a></p>
-<a name="german"></a>
+<a id="german"></a>
 <h1>Deutsche Cloud-Spezialisten starten DSGVO-konforme Kollaborationsplattform für Schulen, Behörden und Mittelstand</h1>
 <p>So geht Homeschooling und Home Office datenschutzkonform und einfach: Nextcloud, IONOS und der Managed Service Provider Viakom bieten seit heute eine Kollaborations-Lösung an, die eine DSGVO-konforme und sichere Zusammenarbeit ermöglicht. Das Angebot richtet sich insbesondere an Schulen, Behörden sowie kleinere und mittelständische Unternehmen. Hinter der Lösung steht die Anwendung Nextcloud Hub, inklusive aller Funktionen, die Nutzer von einer modernen Kollaborationsplattform erwarten: Telefonie,  Chat- und Videokonferenzsystem, gemeinsame Dokumentenbearbeitung, ein Mailserver und -client sowie eine Aufgaben- und Kalenderverwaltung. Die Lösung ist über eine einfache mobile, Desktop- und Web-Oberfläche bedienbar. Sie wird in den deutschen IONOS Rechenzentren gehosted und von Viakom vertrieben und gem.</p>
 <p>Die DSGVO-konforme, vollständig verwaltete Lösung kann innerhalb von 24 Stunden implementiert werden. Im Gegensatz zu ausländischen SaaS-Lösungen haben die Anwender dank der Kooperation dreier deutscher Unternehmen keinerlei Datenschutzrisiken und Sicherheitslücken zu befürchten.</p>
@@ -103,4 +103,3 @@ matthias.damerow<a href="https://mailto:marketing@viakom.de">@viakom.de</a></p>
 </div>
 </div>
 </section>
-

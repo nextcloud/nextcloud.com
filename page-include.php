@@ -171,7 +171,7 @@
             </div>
         </div>
     </div>
-    <a name="mentors" id="mentors"></a>
+    <a id="mentors"></a>
     <h1 class="section--heading-1 text-center">Mentors</h1>
     <div class="row">
         <div class="col-md-4">

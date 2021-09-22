@@ -56,7 +56,7 @@ Peter Ganten, CEO at Univention, said:
 
 <p>With UCS @ school, Univention offers a platform optimized for digital education with central identity management and the simple provision of services from third-party vendors, such as learning management systems, email, cloud and office applications for schools, school authorities and federal states via their own school portals. UCS and UCS @ school are used by a number of federal states, and a range of municipalities and districts, administrations and companies. For more information: <a href="https://www.univention.de">www.univention.de</a>.</p>
 
-<a name="german"></a>
+<a id="german"></a>
 
 <h1>Nextcloud, Open-Xchange und Univention kündigen Software-Suite für den öffentlichen Sektor an</h1>
 <h3>Führende Open-Source-Software-Unternehmen unterzeichnen Partnerschaftsvertrag für Entwicklung einer Branchenneuheit</h3>
@@ -115,6 +115,3 @@ Phone: +49 (0) 711 25 24 28 90<br />
 </div>
 </div>
 </section>
-
-
-

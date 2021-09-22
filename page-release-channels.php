@@ -89,7 +89,7 @@
         <p><?php echo $l->t('Note that releases don\'t show up in the updater app right away. We usually stagger releases out to watch the impact and hold off in case very serious problems pop up. In practice, most bugfix releases are available within a week, major releases to a proportion of the users on release day in the Stable channel; we will increase that percentage usually to 100% after the first bugfix release.Packages for the Release channels might be available in distributions, docker images, Snap and so on, this is up to the packagers and communities developing for those platforms.');?></p>
         <!--<p><strong>Security note:</strong></br>
         To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="http://mailman.nextcloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>-->
-        <a name=""></a>
+        <a id=""></a>
         <p><?php echo $l->t('To <em>upgrade in the safest way possible</em>, always update to the latest minor release before upgrading to a new version. As an extreme example, to upgrade from 9 all the way to 12.0.5, upgrade 9.0.x to 9.0.6, then upgrade to 10.0.6, 11.0.7, then 12.0.5. We try to set up our updater to do this automatically for you whenever possible.');?></p>
     </div>
 <!--    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-10">

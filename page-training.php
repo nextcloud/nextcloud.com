@@ -119,7 +119,7 @@
 </div>
 </section>
 
-<a name="program"></a>
+<a id="program"></a>
 <section class="section--training">
 <div class="container">
 	<div class="row">
@@ -292,9 +292,3 @@
 <!--     <p class="section--paragraph text-center"><a href="https://eventyay.com/e/b4dd4aab/" class="button button--blue button--arrow button--large">Register now!</a></p> -->
 </div>
 </section>
-
-
-
-
-
-

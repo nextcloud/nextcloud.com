@@ -131,7 +131,7 @@
         <a href="https://nextcloud.com/media/new-password-policy-configuration.png"><img src="https://nextcloud.com/media/new-password-policy-configuration.png" alt="screenshot of the password policy configuration" class="img-responsive" /></a><br>The new password policy configuration
     </div>
 </div>
-<a name="german"></a>
+<a id="german"></a>
 <h1>Nextcloud Hub bringt Produktivität für Home-Office-Mitarbeiter</h1>
 <p><em>Die 19. Version von Nextcloud Hub bietet Remote-Mitarbeitern vollen Zugriff auf alle Teamressourcen und direkte Kommunikation, so dass Unternehmen ihre Produktivität steigern und gleichzeitig Sicherheit und Vertraulichkeit schützen können.</em></p>
 <p>Juni 2020 - Nextcloud, der Marktführer für On-Premises-Collaboration-Lösungen, setzt einen neuen Industriestandard und führt eine wichtige neue Version von Nextcloud Hub ein, die auf die Zusammenarbeit von Teams an verteilten Standorten abgestimmt ist, die bereits in Tausenden von großen und kleinen Unternehmen auf der ganzen Welt beschäftigt sind. Diese Version, die als “Home-Office” bezeichnet wird, bringt die Zusammenarbeit an Dokumenten in Video-Chats, vereinfacht die Authentifizierung erheblich und verbessert die Leistung.</p>
@@ -250,4 +250,3 @@ jos.poortvliet<a href="mailto:pr@nextcloud.com">@nextcloud.com</a></p>
 </div>
 </div>
 </section>
-

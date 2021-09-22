@@ -126,7 +126,7 @@ require(["require.config"], function() {
 <?php require get_template_directory().'/onpremises.php';?>
 
 
-<a name="convenient"></a>
+<a id="convenient"></a>
 <section class="section--convenient">
 	<div class="container">
         <div class="row">
@@ -197,7 +197,7 @@ require(["require.config"], function() {
 </div>
 </section>
 
-<a name="secure"></a>
+<a id="secure"></a>
 <section class="section--secure">
 <div class="container">
     <div class="row">
@@ -299,7 +299,7 @@ require(["require.config"], function() {
 
 
 
-<a name="integrated"></a>
+<a id="integrated"></a>
 <section class="section--integrated">
 <div class="container">
     <div class="row">
@@ -404,7 +404,7 @@ require(["require.config"], function() {
 </section>
 
 <div class="separator"></div>
-<a name="HIPAA"></a>
+<a id="HIPAA"></a>
 <section class="section--hipaa">
 <div class="container">
     <div class="row">

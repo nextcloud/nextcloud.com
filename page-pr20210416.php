@@ -48,7 +48,7 @@ Marketing Director<br />
 Phone: +49 (0) 171 121 7528<br />
 pr@nextcloud.com</p>
 
-<a name="german"></a>
+<a id="german"></a>
 
 <h1>Managed Nextcloud: IONOS startet professionellen Cloud-Speicher</h1>
 <h3>Vollständige Datensouveränität und deutscher Datenschutz / Managed-Betrieb ohne Administrationsaufwand / flexibel erweiterbar</h3>
@@ -84,6 +84,3 @@ pr@nextcloud.com</p>
 </div>
 </div>
 </section>
-
-
-

@@ -43,7 +43,7 @@
 </section>
 
 <section class="section--faq">
-<a name="faq" id="faq"></a>
+<a id="faq"></a>
 <div class="container-fluid">
 			<div class="text-center">
 				<h1><?php echo $l->t('Frequently asked questions');?></h1>

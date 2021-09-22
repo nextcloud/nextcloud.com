@@ -48,7 +48,7 @@
 </section>
 
 <section class="section--plans">
-<a name="plans" id="plans"></a>
+<a id="plans"></a>
 <div class="container">
 	<div class="row">
         <div class="col-md-8 col-md-offset-2">
@@ -220,7 +220,7 @@
 					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('Additional pricing tiers are available up to millions of users');?></li>
 					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
 				</div>
-				<a name="extracosts" id="extracosts"></a> <!--has to be here due to header-->
+				<a id="extracosts"></a> <!--has to be here due to header-->
 				<a class="button button--blue button--arrow button--large" href="<?php echo home_url('enterprise/buy') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
 		</div>
@@ -309,7 +309,7 @@
 </section>
 
 <section class="section--options">
-	<a name="options" id="options"></a>
+	<a id="options"></a>
 <div class="container-widest">
 	<div class="introduction">
 		<h1 class="section--heading-1 section--text--center "><?php echo $l->t('Fitting your needs');?></h1>
@@ -406,7 +406,7 @@
 </section>
 
 
-<a name="discounts" id="discounts"></a>
+<a id="discounts"></a>
 <div class="container discounts">
 	<div class="row">
 		<h1 class="header "><?php echo $l->t('Discounts');?></h1>

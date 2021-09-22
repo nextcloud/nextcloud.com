@@ -56,7 +56,7 @@ height: 100px;
 
     <h2>Latest News and Annoucements</h2>
     <?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 5, 'format' => 'html' ) ); ?>
-<a name="logo"></a>
+<a id="logo"></a>
     <h2>Nextcloud Resources</h2>
     <!-- <p>Find an overview of Nextcloud history <a href="/history">on our history page</a> and an overview with <a href="/faq">frequently asked questions in our FAQ</a>.</p> -->
     <a href="<?php echo home_url('hub') ?>" class="button button--blue">Key Features of Nextcloud Hub</a>

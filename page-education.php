@@ -158,7 +158,7 @@ require(["require.config"], function() {
     </div>
 </section>
 
-<a name="eduedition"></a>
+<a id="eduedition"></a>
 <div class="separator"></div>
 <section class="section--eduedition">
 <div class="container">
@@ -236,7 +236,7 @@ require(["require.config"], function() {
     </div>
 </section>
 
-<a name="easy"></a>
+<a id="easy"></a>
 <section class="section--easy">
 	<div class="container">
         <div class="row">
@@ -334,7 +334,7 @@ require(["require.config"], function() {
 	</div>
 </section>
 
-<a name="scalability"></a>
+<a id="scalability"></a>
 <section class="section--scalability">
 <div class="container">
     <div class="row">
@@ -429,7 +429,7 @@ require(["require.config"], function() {
 </section>
 
 <div class="separator"></div>
-<a name="control"></a>
+<a id="control"></a>
 <section class="section--control">
 <div class="container">
     <div class="row">

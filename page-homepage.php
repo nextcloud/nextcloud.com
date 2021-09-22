@@ -41,7 +41,7 @@
 		selector.style.opacity = 0;
 	})
 </script>
-<a name="scroll"></a>
+<a id="scroll"></a>
 
 <section class="section--intro">
 <div class="container">
@@ -96,7 +96,7 @@
 </div>
 </section>
 
-<a name="why-nextcloud"></a>
+<a id="why-nextcloud"></a>
 <section id="why-nextcloud" class="section--why">
 	<div class="container">
 		<h1 class="section--heading-1 text-center"><?php echo $l->t('Why Nextcloud?');?></h1>

@@ -215,7 +215,7 @@ require(["require.config"], function() {
     </div>
 </section>
 
-<a name="convenient"></a>
+<a id="convenient"></a>
 <section class="section--convenient">
 	<div class="container">
         <div class="row">
@@ -280,7 +280,7 @@ require(["require.config"], function() {
 </section>
 
 
-<a name="secure"></a>
+<a id="secure"></a>
 <section class="section--secure">
 <div class="container">
     <div class="row">
@@ -360,7 +360,7 @@ require(["require.config"], function() {
 </div>
 </section>
 
-<a name="integrated"></a>
+<a id="integrated"></a>
 <section class="section--integrated">
 <div class="container">
     <div class="row">
