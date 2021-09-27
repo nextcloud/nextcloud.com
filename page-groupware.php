@@ -301,7 +301,7 @@
 	</div>
 </section>
 
-<a name="pricing">
+<a id="pricing">
 <section class="section--contact quote">
 <div class="container">
     <div class="row">

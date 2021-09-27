@@ -93,7 +93,7 @@
 <p>Jos Poortvliet<br />
 Phone: +49 (0) 171 121 7528<br />
 jos.poortvliet<a href="mailto:pr@nextcloud.com">@nextcloud.com</a></p>
-<a name="german"></a>
+<a id="german"></a>
 <h2>German version</h2>
 <h1>Talk 9: Großer Schritt vorwärts für Teamgespräche, effiziente Arbeitsabläufe und Open-Source-Backend</h1>
 <p><em>Neue Version macht das <strong>hochleistungsfähige Back-End Open Source verfügbar</strong>, verbessert die Skalierbarkeit, führt die Grid-Ansicht ein und erleichtert die gemeinsame Nutzung und Bearbeitung von Dokumenten</em></p>
@@ -167,4 +167,3 @@ jos.poortvliet<a href="mailto:pr@nextcloud.com">@nextcloud.com</a></p>
 </div>
 </div>
 </section>
-

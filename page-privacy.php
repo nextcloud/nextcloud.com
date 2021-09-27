@@ -117,7 +117,7 @@
             </ul>
             <h3><?php echo $l->t('Unsubscribing');?></h3>
             <p><?php echo $l->t('If at any time you would like to unsubscribe from receiving future emails follow the instructions at the bottom of each email and we will promptly remove you from correspondence by that tool. Note that you have to unsubscribe separately from our newsletter and our marketing automation tool.');?></p>
-            <a name="TOS"></a>
+            <a id="TOS"></a>
             <h3><?php echo $l->t('Discourse forums ToS');?></h3>
             <p><?php echo $l->t('If you wish to use our forums, you have to agree to the stipulations below.');?></p>
             <ul>

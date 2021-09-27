@@ -89,7 +89,7 @@
 </section>
 
 <section class="section--collaboration quote">
-    <a name="collaboration" id="collaboration"></a>
+    <a id="collaboration"></a>
 	<div class="container">
         <div class="row">
             <div class="col-md-6  image--floated">
@@ -140,7 +140,7 @@
 </section>
 
 <section class="section--workflow">
-	<a name="workflow" id="workflow"></a>
+	<a id="workflow"></a>
 	<div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -187,7 +187,7 @@
 	</div>
 </section>
 
-<a name="send" id="send"></a>
+<a id="send"></a>
 <section class="section--sharing">
     <div class="container">
         <div class="row">
@@ -209,7 +209,7 @@
 <?php require get_template_directory().'/compliance.php';?>
 
 <section class="section--clients">
-	<a name="clients" id="clients"></a>
+	<a id="clients"></a>
 	<div class="container">
         <div class="row">
             <div class="col-md-6 image--feature">
@@ -227,7 +227,7 @@
 </section>
 
 
-<a name="integrations" id="integrations"></a>
+<a id="integrations"></a>
 <section class="section--outlook quote">
 <div class="container">
     <div class="featurerow">

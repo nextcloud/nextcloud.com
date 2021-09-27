@@ -76,7 +76,7 @@ Phone: +49 (0) 171 121 7528<br />
 </ul>
 
 
-<a name="german"></a>
+<a id="german"></a>
 <h1>Telekom und Nextcloud bieten Collaboration-Lösung</h1>
 <h3>    • Gemanagtes Angebot für Unternehmen in Europa<br />
     • Europäische Datensouveränität und DSGVO-Konformität im Mittelpunkt</h3>
@@ -137,6 +137,3 @@ Phone: +49 (0) 711 25 24 28 90<br />
 </div>
 </div>
 </section>
-
-
-

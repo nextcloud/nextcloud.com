@@ -433,7 +433,7 @@ require(["require.config"], function() {
                 </tr>
             </table>
             </div>
-            <a name="ts" id="ts"></a>
+            <a id="ts"></a>
             <h2>Travel support</h2>
             <p class="section--paragraph"><?php echo $l->t('For the Conference, the Contributor Week and some events where we can use the help of some volunteers, we offer travel support. With this program, we cover 80% of your travel and hotel costs for a conference, and ask you to volunteer at the event. Please note that we can only offer travel support to a limited amount of our community members, so keep in mind that if we help cover your costs, the costs of another community member who may need it more than you can\'t be covered - only request travel support if you need it! If you want travel support, fill in');?> <a href="https://cloud.nextcloud.com/apps/forms/7x6yQHNpZDbgC3EP"><?php echo $l->t('this form.');?></a></p>
 		</div>

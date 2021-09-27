@@ -121,7 +121,7 @@
 
 
 <section class="section--metadata">
-<a name="metadata"></a>
+<a id="metadata"></a>
 <div class="container">
    	<div class="row">
 		<div class="col-md-6">
@@ -150,7 +150,7 @@
 
 
 <section class="section--features">
-<a name="features" id="features"></a>
+<a id="features"></a>
 <div class="container-fluid quote">
     <div class="container">
         <h2 class="text-center"><?php echo $l->t('Key capabilities');?></h2>
@@ -459,7 +459,7 @@
 </section>
 
 <section class="section--scalability">
-<a name="scalability" id="scalability"></a>
+<a id="scalability"></a>
 <div class="container">
 	<div class="row">
 	<h1 class="text-center"><?php echo $l->t('Scalability');?></h1>
@@ -502,7 +502,7 @@
 
 
 <section class="section--options">
-<a name="hpb" id="hpb"></a>
+<a id="hpb"></a>
 <div class="container-widest">
 	<div class="row introduction">
         <div class="col-lg-6 col-lg-offset-3">
@@ -546,7 +546,7 @@
 </section>
 
 <section class="section--contact quote">
-<a name="pricing" id="pricing"></a>
+<a id="pricing"></a>
 <div class="container">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">

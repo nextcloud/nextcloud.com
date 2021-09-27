@@ -162,7 +162,7 @@ Our purpose here is to control the experience of Nextcloud business users. To be
 	<li>"Built on Nextcloud"</li>
 </ul>
 
-<a name="advertising"></a>
+<a id="advertising"></a>
 <h3>Advertising and Marketing Materials</h3>
 <p>You may use the Nextcloud Marks in describing and advertising your Nextcloud-related product or services like training, development and support, on websites, marketing materials or on business cards to identify your affiliation with the Nextcloud Community, so long as:</p>
 

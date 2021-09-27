@@ -24,7 +24,7 @@
         <li>Reproduction steps</li>
     </ul>
     <p>A member of the security team will confirm the vulnerability, determine its impact, and develop a fix. The fix will be applied to the master branch, tested, and packaged in the next security release. The vulnerability will be publicly announced after the release. Finally, your name will be added to the <a href="/security/hall-of-fame">hall of fame</a> as a thank you from the entire Nextcloud community.</p>
-    <a name="policy"></a>
+    <a id="policy"></a>
     <h3>Responsible Disclosure Policy</h3>
     The Nextcloud community asks that you comply with the following guidelines when researching and reporting security vulnerabilities:
     <ul>

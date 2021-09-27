@@ -33,7 +33,7 @@
 </div>
 
 <section class="section--hosting">
-	<a name="hosting" id="hosting"></a>
+	<a id="hosting"></a>
 	<div class="container">
 		<div class="col-md-6">
 			<img class="img-responsive acess__anywhere" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/access-anywhere.png" alt="in action" >
@@ -48,7 +48,7 @@
 </section>
 
 <section class="section--on-premise">
-    <a name="selfhosting" id="selfhosting"></a>
+    <a id="selfhosting"></a>
 <div class="container">
 	<h1 class="section--heading-1 text-center"><?php echo $l->t('Why self-hosting?');?></h1>
 	<div class="row">
@@ -106,7 +106,7 @@
 </section>
 
 <section class="section--files">
-	<a name="files" id="files"></a>
+	<a id="files"></a>
 	<div class="container">
 		<div class="col-md-6 image--floated">
 			<div data-type="youtube" data-video-id="Fe1I7wYW6hA"></div>
@@ -121,7 +121,7 @@
 </section>
 
 <section class="section--files">
-	<a name="files" id="files"></a>
+	<a id="files"></a>
 	<div class="container">
 		<div class="col-md-6 image--feature new-img">
             <img class="img-responsive featureimg overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/Admin_Overview_Security_and_setup_warnings.png" alt="in action" >
@@ -149,7 +149,7 @@
 </section>
 
 <section class="section--security">
-	<a name="security" id="security"></a>
+	<a id="security"></a>
 	<div class="container">
 		<div class="col-md-6 image--feature">
 		<img class="overlay-trigger img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP.png" alt="in action" >
@@ -183,7 +183,7 @@
 
 
 <section class="section--clients">
-	<a name="clients" id="clients"></a>
+	<a id="clients"></a>
 	<div class="container">
 		<div class="col-md-6 image--feature">
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mobileDesktop.png">
@@ -197,7 +197,7 @@
 </section>
 
 <section class="section--Calendar">
-	<a name="calendar" id="calendar"></a>
+	<a id="calendar"></a>
 	<div class="container">
 		<div class="col-md-6 image--floated image--feature">
 			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555693729?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Groupware video"></iframe></div>
@@ -210,7 +210,7 @@
 </section>
 
 <section class="section--calls">
-	<a name="calls" id="calls"></a>
+	<a id="calls"></a>
 	<div class="container">
 		<div class="col-md-6 image--feature">
 			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555693791?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nextcloud Talk video"></iframe></div>
@@ -237,7 +237,7 @@
 </section>
 
 <section class="section--picocms">
-	<a name="picocms" id="picocms">
+	<a id="picocms">
 	<div class="container">
 		<div class="col-md-6 image--feature">
 			<a><img class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/picocms-nw.png"/></a>
@@ -252,7 +252,7 @@
 </section>
 
 <section class="section--Collabora">
-	<a name="collabora" id="collabora"></a>
+	<a id="collabora"></a>
 	<div class="container">
 		<div class="col-md-6 image--feature image--floated">
 			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555693791?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Document editing video"></iframe></div>
@@ -284,7 +284,7 @@
 </div>
 </section>
 
-<a name="calendar" id="calendar"></a>
+<a id="calendar"></a>
 <section class="section--outlook quote">
 <div class="container">
     <div class="featurerow">
@@ -321,7 +321,7 @@
 </section>
 
 <section class="section--usermanagement">
-	<a name="storage" id="storage"></a>
+	<a id="storage"></a>
 	<div class="container">
         <div class="col-md-6 image--feature new-img image--floated">
             <a class="overlay-trigger " href="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/usermanagement.png" alt="in action" ></a>
@@ -335,7 +335,7 @@
 </section>
 
 <section class="section--workflow">
-	<a name="workflow" id="workflow"></a>
+	<a id="workflow"></a>
 	<div class="container">
 		<div class="col-md-6 image--feature new-img">
 			<a><img class="overlay-trigger img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/flow-as-user.png" alt="in action"/></a>
@@ -349,7 +349,7 @@
 </section>
 
 <section class="section--monitoring">
-    <a name="monitoring" id="monitoring"></a>
+    <a id="monitoring"></a>
     <div class="container">
         <div class="col-md-6 image--feature image--floated new-img">
             <a><img class="overlay-trigger img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring.png" alt="in action"/></a>
@@ -365,7 +365,7 @@
 </section>
 
 <section class="section--storage">
-	<a name="storage" id="storage"></a>
+	<a id="storage"></a>
 	<div class="container">
 		<div class="col-md-6 image--feature new-img">
 			<a><img class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png"/></a>
@@ -407,7 +407,7 @@
 
 
 <section class="section--more">
-	<a name="more" id="more"></a>
+	<a id="more"></a>
 <div class="container-widest">
 	<h1 class="section--heading-1 section--text--center"><?php echo $l->t('And much more.');?></h1>
     <div class="row">

@@ -138,7 +138,7 @@
             </ul>
         </p>
     </div>
-    <a name="history"></a>
+    <a id="history"></a>
     <div class="row floating--quote--container">
         <blockquote class="quote--paragraph">Nextcloud hit the ground running</blockquote>
         <div class="quote--brand">

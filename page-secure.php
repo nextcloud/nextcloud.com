@@ -385,7 +385,7 @@
             </div>
         </div>
     </div>
-    <a name="videoverification"></a>
+    <a id="videoverification"></a>
     <div class="row">
         <div class="features--container">
             <div class="col-md-6 image--floated">
@@ -458,7 +458,7 @@
 </div>
 </section>
 
-<a name="process"></a>
+<a id="process"></a>
 <section class="section--process">
 <div class="container">
     <div class="featureblock process">

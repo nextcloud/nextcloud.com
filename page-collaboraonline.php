@@ -294,7 +294,7 @@ ProxyPass           /hosting/capabilities https://127.0.0.1:9980/hosting/capabil
 ProxyPassReverse    /hosting/capabilities https://127.0.0.1:9980/hosting/capabilities
 &lt;/VirtualHost&gt;
 			</code></pre></p>
-			<a name="update"></a>
+			<a id="update"></a>
 			<p class="section--paragraph"><?php echo $l->t('After configuring these do restart your apache using <code>/etc/init.d/apache2 restart</code>.');?></p>
 			<h3 class="section--paragraph__title"><?php echo $l->t('3. Configure the app in Nextcloud');?></h3>
 			<ol>

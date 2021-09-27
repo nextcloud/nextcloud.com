@@ -197,7 +197,7 @@
 
 <!--<div class="separator"></div>
 
-<a name="security" id="security"></a>
+<a id="security"></a>
 <section class="section--security">
 	<div class="container">
 		<h2 class="text-center"><?php echo $l->t('Security');?></h2>
@@ -213,7 +213,7 @@
 </section>
 
 <div class="separator"></div>
-<a name="compliance" id="compliance"></a>
+<a id="compliance"></a>
 <section class="section--compliance">
 	<div class="container">
         <h2 class="text-center"><?php echo $l->t('Compliance');?></h2>
@@ -230,7 +230,7 @@
 
 <div class="separator"></div>
 
-<a name="scalability" id="scalability"></a>
+<a id="scalability"></a>
 <section class="section--scalability">
 	<div class="container">
 		<h2 class="text-center"><?php echo $l->t('Scalability');?></h2>
@@ -248,7 +248,7 @@
 
 <div class="separator"></div>
 
-<a name="reliability" id="reliability"></a>
+<a id="reliability"></a>
 <section class="section--reliability">
 	<div class="container">
 		<h2 class="text-center"><?php echo $l->t('Reliability');?></h1>
@@ -268,7 +268,7 @@
 <?php require get_template_directory().'/verticals.php';?>
 
 
-<a name="capabilities" id="capabilities"></a>
+<a id="capabilities"></a>
 <section class="section--whitepaper">
     <div class="container">
         <h3 class="section--intro text-center"><?php echo $l->t('What you need');?></h3>

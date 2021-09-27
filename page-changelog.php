@@ -35,7 +35,7 @@
     </ul>
 <p>Note here that with 'supported' in this context we mean that software updates will be available to the public, not that there is any actual support beyond community members answering questions in our home user forums. If you need to run Nextcloud in an enterprise setting, we recommend <a class="hyperlink" href="https://nextcloud.com/enterprise">Nextcloud Enterprise.</a></p>
 
-<a name="latest22"></a>
+<a id="latest22"></a>
 
 <h3 id="22-1-1">Version 22.1.1 <small>August 29 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.1.1.tar.bz2">nextcloud-22.1.1.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.1.1.zip">nextcloud-22.1.1.zip</a></br>
@@ -258,7 +258,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p>A full changelog would be to long to reproduce here, given the core server alone had over 600 PR's merged.</p>
 <p>You can find a list of PR's for the core server, without dependency bumps, <a href="https://github.com/nextcloud/server/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">here.</a> If you replace 'server' in the URL above with, for example, <a href="https://github.com/nextcloud/viewer/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">viewer</a>, <a href="https://github.com/nextcloud/activity/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">activity</a>, <a href="https://github.com/nextcloud/photos/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">photos</a>, <a href="https://github.com/nextcloud/notifications/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">notifications</a> or <a href="https://github.com/nextcloud/text/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">text</a>, the changes in the respective apps will show up.</p>
 
-<a name="latest21"></a>
+<a id="latest21"></a>
 
 <h3 id="21-0-4">Version 21.0.4 <small>August 6 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.4.tar.bz2">nextcloud-21.0.4.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.4.zip">nextcloud-21.0.4.zip</a></br>
@@ -601,7 +601,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p><a href="https://nextcloud.com/blog/nextcloud-hub-21-out-with-up-to-10x-better-performance-whiteboard-and-more-collaboration-features/">Read the full announcement on our blog.</a></p>
 <p>An exhaustive changelog would be unreasonably long, but one can always see our entire development history in github. For the core Server repository, see for example <a href="https://github.com/nextcloud/server/milestone/120?closed=1">here the 762 pull requests merged for Milestone 21.</a></p>
 
-<a name="latest20"></a>
+<a id="latest20"></a>
 
 <h3 id="20-0-12">Version 20.0.12 <small>August 6 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.12.tar.bz2">nextcloud-20.0.12.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.12.zip">nextcloud-20.0.12.zip</a></br>
@@ -1321,7 +1321,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p><a href="https://nextcloud.com/blog/nextcloud-hub-20-debuts-dashboard-unifies-search-and-notifications-integrates-with-other-technologies/">Read the full announcement on our blog.</a></p>
 <p>An exhaustive changelog would be unreasonably long, but one can always see our entire development history in github. For the core Server repository, see for example <a href="https://github.com/nextcloud/server/milestone/117?closed=1">here the 783 pull requests merged for Milestone 20.</a></p>
 
-<a name="latest19"></a>
+<a id="latest19"></a>
 
 <h3 id="19-0-13">Version 19.0.13 <small>July 2 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.13.tar.bz2">nextcloud-19.0.13.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.13.zip">nextcloud-19.0.13.zip</a></br>
@@ -1967,7 +1967,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 </ul>
 <p>Read the <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-hub-brings-productivity-to-home-office/">release announcement</a> for more details.</p>
 
-<a name="latest18"></a>
+<a id="latest18"></a>
 
 <h3 id="18-0-14">Version 18.0.14 <small>January 27 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.14.tar.bz2">nextcloud-18.0.14.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.14.zip">nextcloud-18.0.14.zip</a></br>
@@ -2662,7 +2662,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 </ul>
 <p>Read the <a class="hyperlink" href="https://nextcloud.com/blog/the-new-standard-in-on-premises-team-collaboration-nextcloud-hub/">release announcement</a> for more details.</p>
 
-<a name="latest17"></a>
+<a id="latest17"></a>
 <h3 id="17-0-10">Version 17.0.10 <small>October 9 2020</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.10.tar.bz2">nextcloud-17.0.10.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.10.zip">nextcloud-17.0.10.zip</a></br>
 Check the file integrity with:</br>
@@ -3079,7 +3079,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 </ul>
 <p>Read the <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-17-brings-remote-wipe-collaborative-text-editor-and-next-generation-secure-watermarking/">release announcement</a> and blogs it links to for more details.</p>
 
-    <a name="latest16"></a>
+    <a id="latest16"></a>
 
 <h3 id="16-0-11">Version 16.0.11 <small>June 9 2020</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.11.tar.bz2">nextcloud-16.0.11.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.11.zip">nextcloud-16.0.11.zip</a></br>
@@ -3607,7 +3607,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
         <li><a href="https://nextcloud.com/blog/talk-6.0-brings-commands-improved-user-experience-and-more/">Talk 6.0 brings commands, improved user experience and more</a></li>
     </ul>
 
-    <a name="latest15"></a>
+    <a id="latest15"></a>
 
 <h3 id="15-0-14">Version 15.0.14 <small>December 20 2019</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.14.tar.bz2">nextcloud-15.0.14.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.14.zip">nextcloud-15.0.14.zip</a></br>
@@ -4329,7 +4329,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
         <li><a href="https://github.com/nextcloud/survey_client/pull/87">Update stable15 target versions (survey_client#87)</a></li>
     </ul>
 
-    <a name="latest14"></a>
+    <a id="latest14"></a>
 
 <h3 id="14-0-14">Version 14.0.14 <small>August 16 2019</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.14.tar.bz2">nextcloud-14.0.14.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.14.zip">nextcloud-14.0.14.zip</a></br>
@@ -4836,7 +4836,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
     </ul>
     <p><a href="https://nextcloud.com/blog/nextcloud-14-now-available-with-video-verification-signaltelegram-2fa-support-improved-collaboration-and-gdpr-compliance/">Our blog with more details is here.</a></p>
 
-    <a name="latest13"></a>
+    <a id="latest13"></a>
 
     <h3 id="13-0-12">Version 13.0.12 <small>February 29 2019</small></h3>
     <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.12.tar.bz2">nextcloud-13.0.12.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.12.zip">nextcloud-13.0.12.zip</a></br>
@@ -5337,7 +5337,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
     <p><a href="https://github.com/nextcloud/server/milestone/20?closed=1">See a full list of integrated pull requests here.</a></p>
 
 
-    <a name="latest12"></a>
+    <a id="latest12"></a>
 
     <h4 id="12-0-13">Version 12.0.13 <small>November 22 2018</small></h4>
     <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.13.tar.bz2">nextcloud-12.0.13.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.13.zip">nextcloud-12.0.13.zip</a></br>
@@ -5900,7 +5900,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
     <p><a href="https://nextcloud.com/blog/welcome-to-nextcloud-12/">Release announcement with overview about features and changes</a></p>
     <p><a href="https://github.com/nextcloud/server/milestone/10?closed=1">See a full list of integrated pull requests here.</a></p>
 
-    <a name="latest11"></a>
+    <a id="latest11"></a>
     <h3 id="11-0-8">Version 11.0.8 <small>March 15 2018</small></h3>
     <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.8.tar.bz2">nextcloud-11.0.8.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.8.zip">nextcloud-11.0.8.zip</a></br>
     Check the file integrity with:</br>
@@ -6257,7 +6257,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
     <p><a href="https://nextcloud.com/blog/nextcloud-11-sets-new-standard-for-security-and-scalability/">Release announcement with overview about features and changes</a></p>
     <p><a href="https://github.com/nextcloud/server/milestone/6?closed=1">See a full list of integrated pull requests here.</a></p>
 
-    <a name="latest10"></a>
+    <a id="latest10"></a>
     <h3 id="10-0-6">Version 10.0.6 <small>August 7 2017</small></h3>
     <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.6.tar.bz2">nextcloud-10.0.6.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.6.zip">nextcloud-10.0.6.zip</a></br>
     Check the file integrity with:</br>
@@ -6517,7 +6517,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
         <li>Additional configuration switch to use application specific passwords for desktop clients</li>
     </ul>
 
-    <a name="latest9"></a>
+    <a id="latest9"></a>
     <h3 id="9-0-58">Version 9.0.58 <small>April 24 2017</small></h3>
     <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-9.0.58.tar.bz2">nextcloud-9.0.58.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-9.0.58.zip">nextcloud-9.0.58.zip</a></br>
     Check the file integrity with:</br>

@@ -179,7 +179,7 @@
 </section>
 
 <section class="section--more">
-	<a name="more" id="more"></a>
+	<a id="more"></a>
 <div class="container-widest">
 	<h1 class="section--heading-1 section--text--center"><?php echo $l->t('Key capabilities.');?></h1>
     <div class="row">
@@ -421,7 +421,7 @@
 
 
 <section class="section--security">
-	<a name="security" id="security"></a>
+	<a id="security"></a>
 	<div class="container">
         <div class="row">
             <div class="col-md-6 image--floated image--feature new-img">
@@ -443,7 +443,7 @@
 </section>
 
 <section class="section--monitoring">
-    <a name="monitoring" id="monitoring"></a>
+    <a id="monitoring"></a>
     <div class="container">
         <div class="row">
             <div class="col-md-6 image--feature new-img">
@@ -476,7 +476,7 @@
 
 
 <section class="section--storage">
-	<a name="storage" id="storage"></a>
+	<a id="storage"></a>
 	<div class="container">
         <div class="row">
             <div class="col-md-6 image--feature">
@@ -584,7 +584,7 @@
 </section>
 
 <section class="section--more">
-	<a name="more" id="more"></a>
+	<a id="more"></a>
 <div class="container-widest">
 	<h1 class="section--heading-1 section--text--center"><?php echo $l->t('And much more.');?></h1>
     <div class="row">
@@ -686,6 +686,3 @@
 </div>
 </section>
 <?php require get_template_directory().'/overlay.php'; ?>
-
-
-

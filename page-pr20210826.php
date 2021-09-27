@@ -56,7 +56,7 @@ pr@nextcloud.com</p>
 <hr />
 
 
-<a name="german"></a>
+<a id="german"></a>
 <h1>Gaia-X beweist Unabhängigkeit von großen US-Tech-Anbietern und entscheidet sich für EU-basierte Kollaborationsplattform</h1>
 <p><em>Gaia-X fokussiert sich auf ihre ursprüngliche Mission und zeigt durch handfeste Ergebnisse ihre Unabhängigkeit von Hyperscalern</em></p>
 <p><em>Berlin, 26. August 202</em>1 - Nexcloud GmbH, das Unternehmen hinter der weltweit am häufigsten eingesetzten On-Premises Content Collaboration Plattform, gibt die Zusammenarbeit mit dem Gaia-X Projekt bekannt und ist nun die offizielle digitale Kollaborationsplattform für Gaia-X.</p>
@@ -97,6 +97,3 @@ pr@nextcloud.com</p>
 </div>
 </div>
 </section>
-
-
-
