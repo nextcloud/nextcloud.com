@@ -278,7 +278,13 @@
 				<p  class="partnertext">Oivan harnesses the strengths of the web, mobile, cloud, cybersecurity, and blockchain technologies to help customers launch transformative digital services. Their international team of digitalization experts manages digital services’ entire lifecycle, from design and development to operations and analytics. Operations and cybersecurity experts at Oivan manage the continuous operations of several high-profile services with multi-million user bases. They employ 130 experts in Finland, the Middle East, Thailand, and Vietnam.</p>
 				<a class="button button--white" href="https://oivan.com/">Learn more</a>
 			</div>
-
+            <div class="col-md-4">
+				<a href="http://primasys.co.id/" target="_blank" title="Primasys">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/primasys.png" title="procilon logo" />
+				</a>
+				<p  class="partnertext">Founded in 2010, Primasys has been offering a range of IT consulting services in the on-premises and cloud infrastructure area as well as more specialized Risk-Based Security Assessment services. The team has already build up extensive experience with Nextcloud, setting up multiple high scalability, high availability installations at customers. Primasys offers their services in Indonesian and English and services government and state owned enterprises, FMCG, transportation, NGO and financial institutions such as the Indonesian stock exchange and Financial Services Authority.</p>
+				<a class="button button--white" href="http://primasys.co.id/">Learn more</a>
+			</div>
             <div class="col-md-4">
 				<a href="https://www.procilon.de/pesa-cloud-plattform" target="_blank" title="Procilon">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/procilon.png" title="procilon logo" />
