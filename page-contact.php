@@ -142,6 +142,7 @@
         <p><address>Nextcloud GmbH<br/>
         Gerichtstraße 23<br/>
         13347 Berlin</address></p>
+        <a href="<?php echo get_template_directory_uri(); ?>/assets/files/Directions_Nextcloud_Berlin_Office.pdf"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/Directions_Nextcloud_Berlin_Office.png" width="500" alt="Map - click to download" /></a>
         <h3>Co-working office Stuttgart</h3>
         <p><address>Nextcloud GmbH<br/>
         Hirschstrasse 26, 4th Floor<br/>
