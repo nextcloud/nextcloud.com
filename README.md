@@ -29,7 +29,7 @@ process easy and effective for everyone involved.
 * Setup your local development environment using the instructions above, changing the remote origin url
 * Submit a pull request to master, on github once the feature/bugfix is complete
 * After review (usually following one or two thumbs up), somebody from Nc marketing merges (typically @jospoortvliet )
-* Deploment on nextcloud.com is handled manually by @jospoortvliet or the Nextcloud sysadmins including @LukasReschke
+* Deployment on nextcloud.com is handled manually by @jospoortvliet or the Nextcloud sysadmins including @LukasReschke
 
 ### Notes
 
