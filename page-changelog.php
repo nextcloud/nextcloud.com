@@ -37,6 +37,85 @@
 
 <a id="latest22"></a>
 
+<h3 id="22-2-0">Version 22.2.0 <small>October 1 2021</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.0.tar.bz2">nextcloud-22.2.0.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.0.zip">nextcloud-22.2.0.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.0.tar.bz2.md5">nextcloud-22.2.0.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.0.zip.md5">nextcloud-22.2.0.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.0.tar.bz2.sha256">nextcloud-22.2.0.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.0.zip.sha256">nextcloud-22.2.0.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.0.tar.bz2.sha512">nextcloud-22.2.0.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.0.zip.sha512">nextcloud-22.2.0.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.0.tar.bz2.asc">nextcloud-22.2.0.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.0.zip.asc">nextcloud-22.2.0.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/28531">Fix SQL type error (server#28531)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28594">Allow to open any app in a standalone window (server#28594)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28603">Fix encrypted version to 0 when finding unencrypted file (server#28603)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28658">Only recommand for php-sodium on >= PHP 7.4 (server#28658)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28670">Fix position of search bar (server#28670)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28683">Fix S3 ObjectStore proxy option (server#28683)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28685">NMC-464 Highlight the search term on no results (server#28685)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28697">NMC-552 Move filename/size out of the download button (server#28697)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28701">Fix user list infinite loading state in user settings (server#28701)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28705">Pin Psalm version for security analysis (server#28705)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28712">Bump css-vars-ponyfill from 2.4.6 to 2.4.7 (server#28712)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28734">Check if SVG path is valid (server#28734)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28740">Remove 2FA exemption from PublicPage annotation (server#28740)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28744">Bump 3rdparty ref (server#28744)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28748">Send attendence links to required and optinal attendees of an event without an RSVP (server#28748)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28752">Bump 3rdparty ref (server#28752)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28769">Fix trashbin files view sticky action bar (server#28769)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28777">Make it possible to  override the default collation on mysql (server#28777)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28780">Allow users to choose a different email for notifications (server#28780)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28781">Dashboard - fix touch layout (server#28781)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28785">Scan the shared external storage source on access (server#28785)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28801">Bump vue-clipboard2 from 0.3.1 to 0.3.2 (server#28801)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28814">Add database ratelimiting backend (server#28814)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28824">Fixes missing prefix to validate password reset token (server#28824)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28827">Update .htaccess (php8+ and mod_lsapi) (server#28827)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28830">Do not cache file ids in FileSystemTags inside group folders (server#28830)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28841">Allow using of disabled password reset mechanism for special cases (server#28841)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28843">The user always may modify their additional emails (server#28843)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28844">Added support for transferring incoming file shares. (server#28844)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28850">L10n: ignore packed js files from TX sync (server#28850)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28851">Add config.php option for transfer ownership (server#28851)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28852">L10n: Remove a text string from translation (server#28852)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28855">Let user choose notification email in user settings (server#28855)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28860">Add email addresses to contacts menu (server#28860)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28865">Add new ExternalShareActions API (server#28865)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28878">Fix files view change and undefined currentFileList (server#28878)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28881">Fix file creation from template without ext (server#28881)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28888">Bump vue-clipboard2 from 0.3.2 to 0.3.3 (server#28888)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28895">Fall back to full file for video previews (server#28895)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28900">Update CRL due to revoked twofactor_email.crt (server#28900)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28910">Support seeking also from the end of file on S3 storage (server#28910)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28919">Use IRoomMetadata as source of truth for supported room types (server#28919)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28928">Bump 3rdparty ref (server#28928)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28945">Allow upgrade from 22.2.0.0 to 22.2.0.1 (server#28945)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28949">Fix caching of objectsid searches (server#28949)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28953">Allow casting query functions (server#28953)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28954">Fix check for redis minimal version (server#28954)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28962">Don't allow to change activity settings that don't work (server#28962)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28984">Bump app versions (server#28984)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28998">Fix redirect during initial setup (server#28998)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/758">Fix CI (3rdparty#758)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/780">Bump Webauthn Lib to 3.3.9 (3rdparty#780)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/781">Bump Archive_Tar to latest release (3rdparty#781)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/812">Composer install (3rdparty#812)</a></li>
+        <li><a href="https://github.com/nextcloud/activity/pull/637">Read the email from IUser (API) not guess from the DB (activity#637)</a></li>
+        <li><a href="https://github.com/nextcloud/activity/pull/641">Increase activity email speed in instances with more than 500 users (activity#641)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/478">Bump pdfjs-dist from 2.8.335 to 2.9.359 (files_pdfviewer#478)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/479">Bump @nextcloud/babel-config from 1.0.0-beta.1 to 1.0.0 (files_pdfviewer#479)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/487">Fix phpunit (files_pdfviewer#487)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/492">Update workflows (files_pdfviewer#492)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/495">Use setup-php v2 (files_pdfviewer#495)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/504">Bump cli-progress from 3.9.0 to 3.9.1 (files_pdfviewer#504)</a></li>
+        <li><a href="https://github.com/nextcloud/photos/pull/876">Fix illustrations (photos#876)</a></li>
+        <li><a href="https://github.com/nextcloud/photos/pull/889">Bump @nextcloud/vue from 3.10.0 to 3.10.2 (photos#889)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1835">Dependency updates (text#1835)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1851">Bump prosemirror-markdown from 1.5.1 to 1.5.2 (text#1851)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1013">Update dependabot (viewer#1013)</a></li>
+</ul>
+
 <h3 id="22-1-1">Version 22.1.1 <small>August 29 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.1.1.tar.bz2">nextcloud-22.1.1.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.1.1.zip">nextcloud-22.1.1.zip</a></br>
 Check the file integrity with:</br>
@@ -259,6 +338,121 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p>You can find a list of PR's for the core server, without dependency bumps, <a href="https://github.com/nextcloud/server/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">here.</a> If you replace 'server' in the URL above with, for example, <a href="https://github.com/nextcloud/viewer/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">viewer</a>, <a href="https://github.com/nextcloud/activity/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">activity</a>, <a href="https://github.com/nextcloud/photos/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">photos</a>, <a href="https://github.com/nextcloud/notifications/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">notifications</a> or <a href="https://github.com/nextcloud/text/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">text</a>, the changes in the respective apps will show up.</p>
 
 <a id="latest21"></a>
+
+<h3 id="21-0-5">Version 21.0.5 <small>October 1 2021</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.5.tar.bz2">nextcloud-21.0.5.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.5.zip">nextcloud-21.0.5.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.5.tar.bz2.md5">nextcloud-21.0.5.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.5.zip.md5">nextcloud-21.0.5.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.5.tar.bz2.sha256">nextcloud-21.0.5.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.5.zip.sha256">nextcloud-21.0.5.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.5.tar.bz2.sha512">nextcloud-21.0.5.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.5.zip.sha512">nextcloud-21.0.5.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.5.tar.bz2.asc">nextcloud-21.0.5.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.5.zip.asc">nextcloud-21.0.5.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/27203">Fix Oracle query limit compliance in Comments (server#27203)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/27234">Bump @babel/core from 7.12.10 to 7.12.17 (server#27234)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/27406">Avoid fread on directories and unencrypted files (server#27406)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/27640">Bump clipboard from 2.0.6 to 2.0.8 (server#27640)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/27681">Harden bootstrap context registrations when apps are missing (server#27681)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/27917">Bump css-loader from 5.0.1 to 5.0.2 (server#27917)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/27983">Bump vue and vue-template-compiler (server#27983)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28203">Bump url-search-params-polyfill from 8.1.0 to 8.1.1 (server#28203)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28253">Add h2 to personal info page, fixing accessibility issue (server#28253)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28275">Fix CI failures when building settings app (server#28275)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28287">Check that php was compiled with argon2 support or that the php-sodium extensions is installed (server#28287)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28354">Change the concurrent upload limit to less than 10 (server#28354)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28358">Bump debounce from 1.2.0 to 1.2.1 (server#28358)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28361">Fix Folder->getById() when a single storage is mounted multiple times (server#28361)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28383">Make "name" column nullable for workflows (server#28383)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28386">Dont show trusted proxy warning when the proxy and remote are both localhost (server#28386)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28400">Better cleanup of user files on user deletion (server#28400)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28415">Gracefully handle smb acls for users without a domain (server#28415)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28440">Bump vue-loader from 15.9.7 to 15.9.8 (server#28440)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28442">Add missing files for Composer v2 (server#28442)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28447">Improve auto expiration hint for trashbin and file versions (server#28447)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28455">UnifiedSearchController: strip webroot from URL before finding a route (server#28455)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28469">Only trap E_ERROR in session handling (server#28469)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28490">Emit an error log when the app token login name does not match (server#28490)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28495">Hash cache key (server#28495)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28498">Fix #20913: Check image resource before attempting to preserve alpha (server#28498)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28517">Output exception in cron (server#28517)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28523">Properly log errors in Movie previews generation (server#28523)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28535">Fix folder size contained in S3 buckets (server#28535)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28537">Set alias for result of cast column function (server#28537)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28546">Do not load versions tab view if the files app is not available (server#28546)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28577">Log exception message during failed ownership transfer share restore (server#28577)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28597">Fix setting up 2FA providers when 2FA is enforced and bc are generated (server#28597)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28604">Fix encrypted version to 0 when finding unencrypted file (server#28604)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28623">Bump css-vars-ponyfill from 2.4.5 to 2.4.6 (server#28623)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28656">Only recommand for php-sodium on >= PHP 7.4 (server#28656)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28673">Fix position of search bar (server#28673)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28702">Fix user list infinite loading state in user settings (server#28702)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28706">Pin Psalm version for security analysis (server#28706)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28709">Bump css-vars-ponyfill from 2.4.6 to 2.4.7 (server#28709)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28735">Check if SVG path is valid (server#28735)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28741">Remove 2FA exemption from PublicPage annotation (server#28741)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28749">Send attendence links to required and optinal attendees of an event without an RSVP (server#28749)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28753">Bump 3rdparty ref (server#28753)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28770">Fix trashbin files view sticky action bar (server#28770)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28782">Dashboard - fix touch layout (server#28782)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28786">Scan the shared external storage source on access (server#28786)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28790">Fix null displayname crash as described in #21885 (server#28790)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28800">Bump vue-clipboard2 from 0.3.1 to 0.3.2 (server#28800)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28811">Bump 3rdparty reference (server#28811)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28815">Add database ratelimiting backend (server#28815)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28829">Update .htaccess (php8+ and mod_lsapi) (server#28829)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28831">Do not cache file ids in FileSystemTags inside group folders (server#28831)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28849">L10n: ignore packed js files from TX sync (server#28849)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28859">Add email addresses to contacts menu (server#28859)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28879">Fix files view change and undefined currentFileList (server#28879)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28882">Fix file creation from template without ext (server#28882)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28887">Bump vue-clipboard2 from 0.3.2 to 0.3.3 (server#28887)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28896">Fall back to full file for video previews (server#28896)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28901">Update CRL due to revoked twofactor_email.crt (server#28901)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28905">Explicitly close source stream on object store upload even if count… (server#28905)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28909">Support seeking also from the end of file on S3 storage (server#28909)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28920">Use IRoomMetadata as source of truth for supported room types (server#28920)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28929">Bump 3rdparty ref (server#28929)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28950">Fix caching of objectsid searches (server#28950)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28963">Don't allow to change activity settings that don't work (server#28963)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28999">Fix redirect during initial setup (server#28999)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/782">Bump Archive_Tar to latest release (3rdparty#782)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/784">Bump Webauthn Lib to 3.3.9 (3rdparty#784)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/811">Composer install (3rdparty#811)</a></li>
+        <li><a href="https://github.com/nextcloud/activity/pull/634">Fix activity design (activity#634)</a></li>
+        <li><a href="https://github.com/nextcloud/activity/pull/642">Increase activity email speed in instances with more than 500 users (activity#642)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/462">Fix hide download and printing (files_pdfviewer#462)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/464">Fix body footer hiding (files_pdfviewer#464)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/470">Disable download for pdf files (files_pdfviewer#470)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/474">Fix download & print view (files_pdfviewer#474)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/481">Bump @babel/preset-env from 7.12.11 to 7.12.17 (files_pdfviewer#481)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/482">Bump @babel/core from 7.12.10 to 7.12.17 (files_pdfviewer#482)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/484">Bump eslint-import-resolver-webpack from 0.13.0 to 0.13.1 (files_pdfviewer#484)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/486">Bump vue-loader from 15.9.6 to 15.9.8 (files_pdfviewer#486)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/488">Bump vue-template-compiler from 2.6.12 to 2.6.14 (files_pdfviewer#488)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/496">Use setup-php v2 (files_pdfviewer#496)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/497">Update workflows (files_pdfviewer#497)</a></li>
+        <li><a href="https://github.com/nextcloud/files_rightclick/pull/120">Fix share option being displayed erroneously (files_rightclick#120)</a></li>
+        <li><a href="https://github.com/nextcloud/notifications/pull/1063">Give twofactor nextcloud notifications a high priority (notifications#1063)</a></li>
+        <li><a href="https://github.com/nextcloud/notifications/pull/1066">Always show the dismiss all button (notifications#1066)</a></li>
+        <li><a href="https://github.com/nextcloud/notifications/pull/1071">High priority for the PhoneTrack app (notifications#1071)</a></li>
+        <li><a href="https://github.com/nextcloud/photos/pull/874">Update dependabot (photos#874)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1752">Bump vue from 2.6.12 to 2.6.14 (text#1752)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1816">Bump vue-loader from 15.9.7 to 15.9.8 (text#1816)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1840">Bump core-js from 3.16.2 to 3.16.3 (text#1840)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1846">Bump core-js from 3.16.3 to 3.16.4 (text#1846)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1850">Bump prosemirror-markdown from 1.5.1 to 1.5.2 (text#1850)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1858">Bump @babel/preset-env from 7.15.0 to 7.15.6 (text#1858)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1859">Bump @babel/core from 7.15.0 to 7.15.5 (text#1859)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1009">Build(deps-dev): bump @babel/core from 7.13.14 to 7.13.16 (viewer#1009)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1011">Build(deps-dev): bump vue-loader from 15.9.6 to 15.9.8 (viewer#1011)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1012">Build(deps-dev): bump @babel/preset-env from 7.13.12 to 7.13.15 (viewer#1012)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1014">Build(deps-dev): bump eslint-import-resolver-webpack from 0.13.0 to 0.13.1 (viewer#1014)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1021">Build(deps-dev): bump eslint-config-standard from 16.0.2 to 16.0.3 (viewer#1021)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1023">Build(deps): bump @nextcloud/dialogs from 3.1.1 to 3.1.2 (viewer#1023)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1039">Build(deps): bump regenerator-runtime from 0.13.7 to 0.13.9 (viewer#1039)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1040">Build(deps-dev): bump eslint-webpack-plugin from 2.5.3 to 2.5.4 (viewer#1040)</a></li>
+</ul>
 
 <h3 id="21-0-4">Version 21.0.4 <small>August 6 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.4.tar.bz2">nextcloud-21.0.4.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.4.zip">nextcloud-21.0.4.zip</a></br>
@@ -602,6 +796,107 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p>An exhaustive changelog would be unreasonably long, but one can always see our entire development history in github. For the core Server repository, see for example <a href="https://github.com/nextcloud/server/milestone/120?closed=1">here the 762 pull requests merged for Milestone 21.</a></p>
 
 <a id="latest20"></a>
+
+<h3 id="20-0-13">Version 20.0.13 <small>October 1 2021</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.13.tar.bz2">nextcloud-20.0.13.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.13.zip">nextcloud-20.0.13.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.13.tar.bz2.md5">nextcloud-20.0.13.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.13.zip.md5">nextcloud-20.0.13.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.13.tar.bz2.sha256">nextcloud-20.0.13.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.13.zip.sha256">nextcloud-20.0.13.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.13.tar.bz2.sha512">nextcloud-20.0.13.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.13.zip.sha512">nextcloud-20.0.13.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.13.tar.bz2.asc">nextcloud-20.0.13.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.13.zip.asc">nextcloud-20.0.13.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/27407">Avoid fread on directories and unencrypted files (server#27407)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/27991">Manual backport of "No limit in the number of group shares" #27875 (server#27991)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28186">Bump file-loader from 6.1.0 to 6.1.1 (server#28186)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28248">Fix autocompletion for usernames in comments (server#28248)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28305">Fix CI failures when building settings app (server#28305)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28339">Bump vue-loader from 15.9.7 to 15.9.8 (server#28339)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28355">Change the concurrent upload limit to less than 10 (server#28355)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28362">Fix Folder->getById() when a single storage is mounted multiple times (server#28362)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28382">Make "name" column nullable for workflows (server#28382)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28387">Dont show trusted proxy warning when the proxy and remote are both localhost (server#28387)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28414">Gracefully handle smb acls for users without a domain (server#28414)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28448">Improve auto expiration hint for trashbin and file versions (server#28448)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28453">UnifiedSearchController: strip webroot from URL before finding a route (server#28453)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28471">Only trap E_ERROR in session handling (server#28471)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28491">Emit an error log when the app token login name does not match (server#28491)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28516">Output exception in cron (server#28516)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28524">Properly log errors in Movie previews generation (server#28524)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28538">Set alias for result of cast column function (server#28538)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28547">Do not load versions tab view if the files app is not available (server#28547)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28578">Log exception message during failed ownership transfer share restore (server#28578)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28598">Fix setting up 2FA providers when 2FA is enforced and bc are generated (server#28598)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28605">Fix encrypted version to 0 when finding unencrypted file (server#28605)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28655">Only recommand for php-sodium on >= PHP 7.4 (server#28655)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28672">Fix position of search bar (server#28672)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28736">Check if SVG path is valid (server#28736)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28742">Remove 2FA exemption from PublicPage annotation (server#28742)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28750">Send attendence links to required and optinal attendees of an event without an RSVP (server#28750)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28771">Fix trashbin files view sticky action bar (server#28771)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28783">Dashboard - fix touch layout (server#28783)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28787">Scan the shared external storage source on access (server#28787)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28789">Fix null displayname crash as described in #21885 (server#28789)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28799">Bump vue-clipboard2 from 0.3.1 to 0.3.2 (server#28799)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28808">Bump 3rdparty reference (server#28808)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28812">Bump 3rdparty ref (server#28812)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28818">Add database ratelimiting backend (server#28818)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28820">Extend cache events (server#28820)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28833">Do not cache file ids in FileSystemTags inside group folders (server#28833)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28848">L10n: ignore packed js files from TX sync (server#28848)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28880">Fix files view change and undefined currentFileList (server#28880)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28886">Bump vue-clipboard2 from 0.3.2 to 0.3.3 (server#28886)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28897">Fall back to full file for video previews (server#28897)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28902">Update CRL due to revoked twofactor_email.crt (server#28902)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28908">Support seeking also from the end of file on S3 storage (server#28908)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28921">Use IRoomMetadata as source of truth for supported room types (server#28921)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28930">Bump 3rdparty ref (server#28930)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28946">Explicitly close source stream on object store upload even if count… (server#28946)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28951">Fix caching of objectsid searches (server#28951)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/28964">Don't allow to change activity settings that don't work (server#28964)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/29000">Fix redirect during initial setup (server#29000)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/785">Remove unneeded dependencies (3rdparty#785)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/788">Bump Webauthn Lib to 3.3.9 (3rdparty#788)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/789">Manually add removed dependencies (3rdparty#789)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/796">Bump Archive_Tar to last release (3rdparty#796)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/810">Composer install (3rdparty#810)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/824">Add Spomsky (3rdparty#824)</a></li>
+        <li><a href="https://github.com/nextcloud/activity/pull/635">Fix activity design (activity#635)</a></li>
+        <li><a href="https://github.com/nextcloud/activity/pull/643">Increase activity email speed in instances with more than 500 users (activity#643)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/461">Fix hide download and printing (files_pdfviewer#461)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/465">Fix body footer hiding (files_pdfviewer#465)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/471">Disable download for pdf files (files_pdfviewer#471)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/475">Fix download & print view (files_pdfviewer#475)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/480">Bump vue-template-compiler from 2.6.12 to 2.6.14 (files_pdfviewer#480)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/483">Bump stylelint-webpack-plugin from 2.1.0 to 2.1.1 (files_pdfviewer#483)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/485">Bump stylelint from 13.7.1 to 13.7.2 (files_pdfviewer#485)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/489">Bump eslint-plugin-import from 2.22.0 to 2.22.1 (files_pdfviewer#489)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/490">Bump file-loader from 6.1.0 to 6.1.1 (files_pdfviewer#490)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/498">Update node.yml (files_pdfviewer#498)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/499">Bump eslint-plugin-standard from 4.0.1 to 4.0.2 (files_pdfviewer#499)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/501">Bump url-loader from 4.1.0 to 4.1.1 (files_pdfviewer#501)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/502">Bump webpack from 4.44.1 to 4.44.2 (files_pdfviewer#502)</a></li>
+        <li><a href="https://github.com/nextcloud/files_rightclick/pull/121">Fix share option being displayed erroneously (files_rightclick#121)</a></li>
+        <li><a href="https://github.com/nextcloud/notifications/pull/1064">Give twofactor nextcloud notifications a high priority (notifications#1064)</a></li>
+        <li><a href="https://github.com/nextcloud/notifications/pull/1072">High priority for the PhoneTrack app (notifications#1072)</a></li>
+        <li><a href="https://github.com/nextcloud/photos/pull/875">Update dependabot (photos#875)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1648">Bump vue from 2.6.12 to 2.6.14 (text#1648)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1812">Bump vue-loader from 15.9.7 to 15.9.8 (text#1812)</a></li>
+        <li><a href="https://github.com/nextcloud/text/pull/1845">Bump prosemirror-markdown from 1.5.1 to 1.5.2 (text#1845)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1005">Build(deps): bump regenerator-runtime from 0.13.7 to 0.13.9 (viewer#1005)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1006">Build(deps-dev): bump stylelint-webpack-plugin from 2.1.0 to 2.1.1 (viewer#1006)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1007">Build(deps-dev): bump url-loader from 4.1.0 to 4.1.1 (viewer#1007)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1008">Build(deps-dev): bump vue-loader from 15.9.3 to 15.9.8 (viewer#1008)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1010">Build(deps-dev): bump eslint-plugin-import from 2.22.0 to 2.22.1 (viewer#1010)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1016">Build(deps-dev): bump wait-on from 5.2.0 to 5.2.2 (viewer#1016)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1017">Build(deps): bump path-parse from 1.0.6 to 1.0.7 (viewer#1017)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1018">Build(deps-dev): bump webpack from 4.44.1 to 4.44.2 (viewer#1018)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1020">Build(deps-dev): bump file-loader from 6.1.0 to 6.1.1 (viewer#1020)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1028">Build(deps-dev): bump eslint-plugin-standard from 4.0.1 to 4.0.2 (viewer#1028)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1029">Build(deps): bump @nextcloud/vue from 2.6.5 to 2.6.9 (viewer#1029)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/1036">Build(deps): bump debounce from 1.2.0 to 1.2.1 (viewer#1036)</a></li>
+</ul>
 
 <h3 id="20-0-12">Version 20.0.12 <small>August 6 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.12.tar.bz2">nextcloud-20.0.12.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.12.zip">nextcloud-20.0.12.zip</a></br>
