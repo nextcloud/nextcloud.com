@@ -117,7 +117,7 @@
 				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
-			<a href="#hrmanager" data-toggle="collapse"><h3 class="jobs">HR Manager<span class="icon-arrow"></span></h3></a>
+			<!--<a href="#hrmanager" data-toggle="collapse"><h3 class="jobs">HR Manager<span class="icon-arrow"></span></h3></a>
 			<div id="hrmanager" class="collapse">
 				<p>To help us grow and continue to improve our organization for our existing employees, we are looking for a HR Manager to join our team.</p>
 				<p>Your HR responsibilities will include guiding, supporting and accelerating our hiring process, improving and professionalizing our people-related processes in our organization and supporting management with HR related topics.</p>
@@ -157,7 +157,7 @@
 				</ul>
 
 				<p>We are looking for somebody with ambition and drive who would like to grow and learn.  That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-			</div>
+			</div>-->
 			<!--<a href="#salesrep" data-toggle="collapse"><h3 class="jobs">Sales Representative<span class="icon-arrow"></span></h3></a>
 			<div id="salesrep" class="collapse">
 				<p>We are looking for a passionate Sales Representative to work with prospective customers to determine if Nextcloud is a good fit for them.</p>
@@ -262,9 +262,43 @@
 
 				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
-            <a href="#marketing" data-toggle="collapse"><h3 class="jobs">Marketing and event manager<span class="icon-arrow"></span></h3></a>
+
+            <a href="#marketing" data-toggle="collapse"><h3 class="jobs">Marketing and event manager France<span class="icon-arrow"></span></h3></a>
 			<div id="marketing" class="collapse">
-				<p>Our marketing team is looking for a new member: you would help grow and multiply our marketing efforts. You'd be responsible for building up Nextcloud marketing, and your efforts would include implementing marketing campaigns, reaching out to and working with press, translating and putting together promotional materials and organizing or attending events. We're looking for somebody with marketing experience, able to work remote in a small, self-guided team and willing to learn and try new things!</p>
+				<p>Our marketing team is looking for a new member: you would help grow and multiply our marketing efforts in France. You'd be responsible for building up Nextcloud marketing in France, and your efforts would include implementing marketing campaigns, reaching out to and working with press, translating and putting together promotional materials and organizing or attending events. We're looking for somebody with marketing experience, able to work remote in an international team and willing to learn and try new things!</p>
+				<h3 class="section--paragraph__title">Responsibilities:</h3>
+				<ul>
+					<li>Creating, implementing and measuring marketing campaigns</li>
+					<li>Organize events and our presence at conferences</li>
+					<li>Build up content and social media presence</li>
+					<li>Do PR and communication outreach</li>
+					<li>Work with both community and business</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">Skills:</h3>
+				<ul>
+					<li>Interest in messaging, public relations, able to build relations with local press</li>
+					<li>Able to represent Nextcloud at events (self organized or attending)</li>
+					<li>Writing and visual communication skills</li>
+					<li>Being able to work independently, track progress and ask for help when needed</li>
+					<li>Being fluent in French and living in France are required</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">What we offer:</h3>
+				<ul>
+					<li>A distributed, open team with a passion for working on and within the open source community</li>
+					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
+					<li>A competitive salary</li>
+					<li>Flexibility for a healthy work-life balance</li>
+					<li>Time for personal growth and education</li>
+					<li>We have flexible office hours and most of our team works from home.</li>
+					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
+				</ul>
+				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of building up a local presence. It is a wide-ranging job and we strive to provide the freedom and space to find the right approach! We look for somebody with some marketing or sales/business development experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+			</div>
+            <a href="#marketing-spain" data-toggle="collapse"><h3 class="jobs">Marketing and event manager Spain<span class="icon-arrow"></span></h3></a>
+			<div id="marketing-spain" class="collapse">
+				<p>Our marketing team is looking for a new member: you would help grow and multiply our marketing efforts in Spain. You'd be responsible for building up Nextcloud marketing in Spain, and your efforts would include implementing marketing campaigns, reaching out to and working with press, translating and putting together promotional materials and organizing or attending events. We're looking for somebody with marketing experience, able to work remote in an international team and willing to learn and try new things!</p>
 				<h3 class="section--paragraph__title">Responsibilities:</h3>
 				<ul>
 					<li>Creating, implementing and measuring marketing campaigns</li>
@@ -294,12 +328,215 @@
 				</ul>
 				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of building up a local presence. It is a wide-ranging job and we strive to provide the freedom and space to find the right approach! We look for somebody with some marketing or sales/business development experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
+            <a href="#marketing-italy" data-toggle="collapse"><h3 class="jobs">Marketing and event manager Italy<span class="icon-arrow"></span></h3></a>
+			<div id="marketing-italy" class="collapse">
+				<p>Our marketing team is looking for a new member: you would help grow and multiply our marketing efforts in Italy. You'd be responsible for building up Nextcloud marketing in Italy, and your efforts would include implementing marketing campaigns, reaching out to and working with press, translating and putting together promotional materials and organizing or attending events. We're looking for somebody with marketing experience, able to work remote in an international team and willing to learn and try new things!</p>
+				<h3 class="section--paragraph__title">Responsibilities:</h3>
+				<ul>
+					<li>Creating, implementing and measuring marketing campaigns</li>
+					<li>Organize events and our presence at conferences</li>
+					<li>Build up content and social media presence</li>
+					<li>Do PR and communication outreach</li>
+					<li>Work with both community and business</li>
+				</ul>
 
+				<h3 class="section--paragraph__title">Skills:</h3>
+				<ul>
+					<li>Interest in messaging, public relations, able to build relations with local press</li>
+					<li>Able to represent Nextcloud at events (self organized or attending)</li>
+					<li>Writing and visual communication skills</li>
+					<li>Being able to work independently, track progress and ask for help when needed</li>
+					<li>Speak Italian and live in Italy, ideally quite central</li>
+				</ul>
 
-			<a href="#web-designer-developer" data-toggle="collapse"><h3 class="jobs">Web designer & developer <span class="icon-arrow"></span></h3></a>
+				<h3 class="section--paragraph__title">What we offer:</h3>
+				<ul>
+					<li>A distributed, open team with a passion for working on and within the open source community</li>
+					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
+					<li>A competitive salary</li>
+					<li>Flexibility for a healthy work-life balance</li>
+					<li>Time for personal growth and education</li>
+					<li>We have flexible office hours and most of our team works from home.</li>
+					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
+				</ul>
+				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of building up a local presence. It is a wide-ranging job and we strive to provide the freedom and space to find the right approach! We look for somebody with some marketing or sales/business development experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+			</div>
+            <a href="#marketing-nordics" data-toggle="collapse"><h3 class="jobs">Marketing and event manager Nordics<span class="icon-arrow"></span></h3></a>
+			<div id="marketing-nordics" class="collapse">
+				<p>Our marketing team is looking for a new member: you would help grow and multiply our marketing efforts in the Nordic countries, Denmark, Norway, Sweden and Finland. You'd be responsible for building up Nextcloud marketing in your region, and your efforts would include implementing marketing campaigns, reaching out to and working with press, translating and putting together promotional materials and organizing or attending events. We're looking for somebody with marketing experience, able to work remote in an international team and willing to learn and try new things!</p>
+				<h3 class="section--paragraph__title">Responsibilities:</h3>
+				<ul>
+					<li>Creating, implementing and measuring marketing campaigns</li>
+					<li>Organize events and our presence at conferences</li>
+					<li>Build up content and social media presence</li>
+					<li>Do PR and communication outreach</li>
+					<li>Work with both community and business</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">Skills:</h3>
+				<ul>
+					<li>Interest in messaging, public relations, able to build relations with local press</li>
+					<li>Able to represent Nextcloud at events (self organized or attending)</li>
+					<li>Writing and visual communication skills</li>
+					<li>Being able to work independently, track progress and ask for help when needed</li>
+					<li>Speak at least 3 of the languages in the Nordics and live in one of the 4 mentioned countries</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">What we offer:</h3>
+				<ul>
+					<li>A distributed, open team with a passion for working on and within the open source community</li>
+					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
+					<li>A competitive salary</li>
+					<li>Flexibility for a healthy work-life balance</li>
+					<li>Time for personal growth and education</li>
+					<li>We have flexible office hours and most of our team works from home.</li>
+					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
+				</ul>
+				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of building up a local presence. It is a wide-ranging job and we strive to provide the freedom and space to find the right approach! We look for somebody with some marketing or sales/business development experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+			</div>
+            <a href="#marketing-_benelux" data-toggle="collapse"><h3 class="jobs">Marketing and event manager Benelux<span class="icon-arrow"></span></h3></a>
+			<div id="marketing-_benelux" class="collapse">
+				<p>Our marketing team is looking for a new member: you would help grow and multiply our marketing efforts in the Benelux. You'd be responsible for building up Nextcloud marketing in your region, and your efforts would include implementing marketing campaigns, reaching out to and working with press, translating and putting together promotional materials and organizing or attending events. We're looking for somebody with marketing experience, able to work remote in an international team and willing to learn and try new things!</p>
+				<h3 class="section--paragraph__title">Responsibilities:</h3>
+				<ul>
+					<li>Creating, implementing and measuring marketing campaigns</li>
+					<li>Organize events and our presence at conferences</li>
+					<li>Build up content and social media presence</li>
+					<li>Do PR and communication outreach</li>
+					<li>Work with both community and business</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">Skills:</h3>
+				<ul>
+					<li>Interest in messaging, public relations, able to build relations with local press</li>
+					<li>Able to represent Nextcloud at events (self organized or attending)</li>
+					<li>Writing and visual communication skills</li>
+					<li>Being able to work independently, track progress and ask for help when needed</li>
+					<li>Speak Dutch and, ideally, also French</li>
+					<li>Live in the Benelux</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">What we offer:</h3>
+				<ul>
+					<li>A distributed, open team with a passion for working on and within the open source community</li>
+					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
+					<li>A competitive salary</li>
+					<li>Flexibility for a healthy work-life balance</li>
+					<li>Time for personal growth and education</li>
+					<li>We have flexible office hours and most of our team works from home.</li>
+					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
+				</ul>
+				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of building up a local presence. It is a wide-ranging job and we strive to provide the freedom and space to find the right approach! We look for somebody with some marketing or sales/business development experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+			</div>
+
+			<a href="#marketing-local" data-toggle="collapse"><h3 class="jobs">Marketing and event manager - in your region!<span class="icon-arrow"></span></h3></a>
+			<div id="marketing-local" class="collapse">
+				<p>Our marketing team is looking for a new member: you would help grow and multiply our marketing efforts in your region. We are looking for enthusiastic people in countries and regions not mentioned above and where Nextcloud has a small presence but great potential! You'd be responsible for building up Nextcloud marketing to achieve that potential, and your efforts would include implementing marketing campaigns, reaching out to and working with press, translating and putting together promotional materials and organizing or attending events. We're looking for somebody with marketing experience, able to work remote in an international team and willing to learn and try new things!</p>
+				<h3 class="section--paragraph__title">Responsibilities:</h3>
+				<ul>
+					<li>Creating, implementing and measuring marketing campaigns</li>
+					<li>Organize events and our presence at conferences</li>
+					<li>Build up content and social media presence</li>
+					<li>Do PR and communication outreach</li>
+					<li>Work with both community and business</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">Skills:</h3>
+				<ul>
+					<li>Interest in messaging, public relations, able to build relations with local press</li>
+					<li>Able to represent Nextcloud at events (self organized or attending)</li>
+					<li>Writing and visual communication skills</li>
+					<li>Being able to work independently, track progress and ask for help when needed</li>
+
+				</ul>
+
+				<h3 class="section--paragraph__title">What we offer:</h3>
+				<ul>
+					<li>A distributed, open team with a passion for working on and within the open source community</li>
+					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
+					<li>A competitive salary</li>
+					<li>Flexibility for a healthy work-life balance</li>
+					<li>Time for personal growth and education</li>
+					<li>We have flexible office hours and most of our team works from home.</li>
+					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
+				</ul>
+				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of building up a local presence. It is a wide-ranging job and we strive to provide the freedom and space to find the right approach! We look for somebody with some marketing or sales/business development experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+			</div>
+
+			<a href="#marketing-pm" data-toggle="collapse"><h3 class="jobs">Marketing project manager<span class="icon-arrow"></span></h3></a>
+			<div id="marketing-pm" class="collapse">
+				<p>Our marketing team is looking for a marketing project manager and team lead who helps us build and then ensures the success of our local marketing team. You would be responsible for managing the local marketing people and help them achieve their potential. Your focus should be on facilitating them in their job, interfacing with the rest of the organization, tracking their progress and helping them develop and share best practices. We are looking for somebody with team leadership experience, able to work remote in an international team and willing to learn and try new things!</p>
+				<h3 class="section--paragraph__title">Responsibilities:</h3>
+				<ul>
+					<li>Manage local and remote marketing experts</li>
+					<li>Coordinating marketing activities like events, PR, social media, web and other</li>
+					<li>Setting goals and monitoring progress</li>
+					<li>Ensure alignment with global marketing team</li>
+					<li>Coordinate and handle internal resources</li>
+					<li>Report and escalate to management as needed</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">Skills:</h3>
+				<ul>
+                    <li>Comfortable working remotely with people from all over the world in a global company</li>
+                    <li>Capable of managing many parallel tasks</li>
+                    <li>Good planning and tracking skills</li>
+                    <li>Pro-active communication</li>
+                    <li>Good marketing experience</li>
+                    <li>Very good English skills. German is a plus.</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">What we offer:</h3>
+				<ul>
+					<li>A distributed, open team with a passion for working on and within the open source community</li>
+					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
+					<li>A competitive salary</li>
+					<li>Flexibility for a healthy work-life balance</li>
+					<li>Time for personal growth and education</li>
+					<li>We have flexible office hours and most of our team works from home.</li>
+					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
+				</ul>
+				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of building up a team. It is a wide-ranging job and we strive to provide the freedom and space to find the right approach! We look for somebody with some team lead experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+			</div>
+
+			<a href="#marketing-content" data-toggle="collapse"><h3 class="jobs">Content marketeer<span class="icon-arrow"></span></h3></a>
+			<div id="marketing-content" class="collapse">
+				<p>Our marketing team is looking for an enthusiastic writer who helps us with opinion blogs, case studies, newsletters, announcements and other writing tasks! You'd be responsible for managing our blog, work on newsletters, and other areas that involve content like our website, flyers, and so on. We're looking for somebody with writing experience, able to work remote in an international team and willing to learn and try new things!</p>
+				<h3 class="section--paragraph__title">Responsibilities:</h3>
+				<ul>
+                    <li>Manage our monthly newsletters and some ad-hoc newsletters</li>
+                    <li>Coordinate, write and publish release blogs</li>
+                    <li>Write opinion pieces and essay-style, argumentative articles</li>
+                    <li>Write content for our website, flyers and other promo materials</li>
+                    <li>Interview customers and create case studies</li>
+                    <li>And in all that, coordinate with other team members to create, publish and promote the final products</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">Skills:</h3>
+				<ul>
+                    <li>Experience writing a variety of texts in English</li>
+                    <li>Proven ability to work remote and independently</li>
+                    <li>You don't need to have experience in every single type of content we need, but it'd be nice if you have tried your hands at a few and know how to adapt a certain tone or style. We write sometimes for big enterprises, at other times to activist home users.</li>
+                    <li>Enthusiasm, drive and motivation are helpful: we love initiative as there are plenty things worth writing about around Nextcloud!</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">What we offer:</h3>
+				<ul>
+					<li>A distributed, open team with a passion for working on and within the open source community</li>
+					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
+					<li>A competitive salary</li>
+					<li>Flexibility for a healthy work-life balance</li>
+					<li>Time for personal growth and education</li>
+					<li>We have flexible office hours and most of our team works from home.</li>
+					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
+				</ul>
+				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for getting content created and published. We look for somebody with some writing experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+			</div>
+
+			<!--<a href="#web-designer-developer" data-toggle="collapse"><h3 class="jobs">Web designer & developer <span class="icon-arrow"></span></h3></a>
 			<div id="web-designer-developer" class="collapse">
 				<p>Our marketing team is looking for a new member: You would design and maintain our website. You'd be responsible for our online presence, both technical and design-wise, and work closely with the other marketers on messaging and content.
-				We're looking for somebody with great design skills and some website maintenance experience, able to work remote in a small, self-guided team and willing to learn and try new things!</p>
+				We're looking for somebody with great design skills and some website maintenance experience, able to work remote in an international team and willing to learn and try new things!</p>
 				<h3 class="section--paragraph__title">Responsibilities:</h3>
 				<ul>
 					<li>Full maintenance of Nextcloud web site</li>
@@ -328,13 +565,13 @@
 					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
 				</ul>
 				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of enhancing our online presence. We strive to provide the freedom and space to find the right approach! We look for somebody with design and basic website development experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-			</div>
+			</div>-->
 
 
-			<a href="#illustrator-animator" data-toggle="collapse"><h3 class="jobs">Illustrator & animator <span class="icon-arrow"></span></h3></a>
+			<a href="#illustrator-animator" data-toggle="collapse"><h3 class="jobs">Illustrator, video editor & animator <span class="icon-arrow"></span></h3></a>
 			<div id="illustrator-animator" class="collapse">
 				<p>Our marketing team is looking for a new member: You would create illustrations, animations and videos for our social media presence, website, and supporting our releases. You will work closely with other marketers on messaging and content.
-				We're looking for somebody with great design skills and some marketing experience, able to work remote in a small, self-guided team and willing to learn and try new things!</p>
+				We're looking for somebody with great design skills and some marketing experience, able to work remote in an international team and willing to learn and try new things!</p>
 				<h3 class="section--paragraph__title">Responsibilities:</h3>
 				<ul>
 					<li>Creating illustrations, animations and videos</li>
@@ -588,7 +825,7 @@
             </div>
 		<h3 class="jobs">And more</h3>
 		<div>
-			<p>We are always looking for talented new people in all areas of our business - from engineering and support to sales and marketing. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> and tell us how you can help!</p>
+			<p>We are always looking for talented new people in all areas of our business - from engineering and support to sales and marketing. We especially encourage applications by people from underrepresented groups to submit their resume! Contact us at <a class="hyperlink" href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> and tell us how you can help!</p>
 		</div>
 	</div>
 
