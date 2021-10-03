@@ -16,7 +16,7 @@
 <section class="content">
 <div class="container">
 
-<p>Developers can find our <a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app/l10n.html" target="_blank">technical translation documentation here</a>. If you want to help translate Nextcloud, just create an account and request to be added on <a class="hyperlink" href="https://transifex.com/nextcloud">Transifex</a>. It can sometimes take a while - you can ask on <a class="hyperlink" href="https://riot.im/app/#/room/#freenode_#nextcloud-dev:matrix.org" target="_blank">chat channel #nextcloud-dev (IRC)</a>, also accessible via <a class="hyperlink" href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>. Or on <a class="hyperlink" href="https://help.nextcloud.com">our forums!!</a></p>
+<p>Developers can find our <a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app/l10n.html" target="_blank">technical translation documentation here</a>. If you want to help translate Nextcloud, just create an account and request to be added on <a class="hyperlink" href="https://transifex.com/nextcloud">Transifex</a>. It can sometimes take a while - you can ask on <a class="hyperlink" href="https://app.element.io/#/room/#freenode_#nextcloud-dev:matrix.org" target="_blank">chat channel #nextcloud-dev (IRC)</a>, also accessible via <a class="hyperlink" href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>. Or on <a class="hyperlink" href="https://help.nextcloud.com">our forums!!</a></p>
 
 <h2>Thanks for making Nextcloud available to people in your language!</h2>
 </div>
