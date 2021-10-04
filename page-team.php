@@ -337,7 +337,7 @@
 					<h4 class="teamlocation">Lives in Karlsruhe, Germany</h4>
 					<p class="teamsocial"><a href="https://www.linkedin.com/in/sandra-stutz-02904a135"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Sandra_Stutz4"><i class="fa-xing fa"></i></a></p>
 				</div>
-				<p class="teamdescription">Sandra studied business administration at the dual university Ravensburg. The last 20 years she worked as marketing and business development manager for different departments at CAS Sofware AG. Knowing what the market needs and customer centricity are very important to her. She likes to think in pictures and stories.</p>
+				<p class="teamdescription">Sandra studied business administration at the dual university Ravensburg. The last 20 years she worked as marketing and business development manager for different departments at CAS Sofware AG. Knowing what the market needs and customer centricity are very important to her.</p>
 			</div>
         </div>
     </div>
