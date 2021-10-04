@@ -488,7 +488,7 @@
 					<h3 class="teamtitle">Software engineer</h3>
 					<h4 class="teamexpertise">Talk iOS, Swift</h4>
 					<h4 class="teamlocation">Lives in Belgrade, Serbia</h4>
-					<p class="teamsocial"><a href=""><i class="fa-rss fa"></i></a></p>
+					<p class="teamsocial"><a href="https://github.com/alazarevic5"><i class="fa-github fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Aleksandra has finished her master studies in University in Belgrade for Information Technology. She has been developing iOS mobile applications for several years. In addition to application development, she has experience in teaching.</p>
 			</div>
