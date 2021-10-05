@@ -327,6 +327,19 @@
 				<p class="teamdescription">Marko is working as a UI/UX Designer for 14 years. He has worked directly for clients like Coca-Cola, Audi and McLaren and for numerous startups featuring CrazyEgg, Flippa, Udemy and Tim Ferris. Marko has diversified skillset. He is college dropout and auto didactic.</p>
 			</div>
         </div>
+        <div class="col-md-4">
+            <div class="teamp">
+            <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/sandra.jpg" />
+				<h2 class="teamname">Sandra Stutz</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Partner Marketing Manager</h3>
+					<h4 class="teamexpertise">Partner and customer relations</h4>
+					<h4 class="teamlocation">Lives in Karlsruhe, Germany</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/sandra-stutz-02904a135"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Sandra_Stutz4"><i class="fa-xing fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Sandra studied business administration at the dual university Ravensburg. The last 20 years she worked as marketing and business development manager for different departments at CAS Sofware AG. Knowing what the market needs and customer centricity are very important to her.</p>
+			</div>
+        </div>
     </div>
     <div class="row">
         <h2><?php echo $l->t('Back office');?></h2>
