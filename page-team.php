@@ -22,7 +22,7 @@
 	</div>
 	<div class="featurerow">
 	<div class="wrap container teamgroup">
-    <div class="row">
+	<div class="row">
 <!-- 	<h2><?php echo $l->t('Management');?></h2> -->
 	</div>
 	<div class="row">
@@ -65,33 +65,33 @@
 				<p class="teamdescription">Jos graduated in Psychology from the University of Utrecht and handled project and service level management at Royal Bank of Scottland, KPN and the Dutch Department of Education. He has over a decade open source marketing and PR experience, being active in the KDE community for over a decade and working as Community Manager for several companies including SUSE Linux.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
-            <div class="teamp">
-                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/uwe.jpg" />
-                <h2 class="teamname">Uwe Presler</h2>
-                <div class="teammeta">
-                    <h3 class="teamtitle">Director Sales</h3>
-                    <h4 class="teamexpertise">Sales and partnerships</h4>
-                    <h4 class="teamlocation">Lives in Karlsruhe, Germany</h4>
-                    <p class="teamsocial"><a href="https://www.linkedin.com/in/uwe-presler/"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Uwe_Presler/"><i class="fa-xing fa"></i></a></p>
-                </div>
-                <p class="teamdescription">Uwe has been educated in IT sales an has worked for a variety of tech enterprises including Deutsche Telekom and Vodafone and more recently the SME market leading CRM, xRM CAS Software AG. He is experienced in the areas of partner and sales management as well as business development.</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="teamp">
-                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/andy.jpg" />
-                <h2 class="teamname">Andy Scherzinger</h2>
-                <div class="teammeta">
-                    <h3 class="teamtitle">Director Engineering</h3>
-                    <h4 class="teamexpertise">Software engineering and delivery</h4>
-                    <h4 class="teamlocation">Lives in Frankfurt, Germany</h4>
-                    <p class="teamsocial"><a href="https://www.linkedin.com/in/andyscherzinger/"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Andy_Scherzinger/"><i class="fa-xing fa"></i></a> <a href="https://github.com/AndyScherzinger"><i class="fa-github fa"></i></a> <a href="https://twitter.com/AndyScherzinger"><i class="fa-twitter fa"></i></a></p>
-                </div>
-                <p class="teamdescription">Andy graduated in Applied Business in Computer Science and has more than 15 years of experience in delivering custom software solutions and IT consulting to customers. He worked for companies like msg systems and Capgemini supporting enterprises and startups in various industries like telecommunication, travel, logistics and finance with a focus on building software-systems, -platforms and -factories.</p>
-            </div>
-        </div>
-        <div class="col-md-4">
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/uwe.jpg" />
+				<h2 class="teamname">Uwe Presler</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Director Sales</h3>
+					<h4 class="teamexpertise">Sales and partnerships</h4>
+					<h4 class="teamlocation">Lives in Karlsruhe, Germany</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/uwe-presler/"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Uwe_Presler/"><i class="fa-xing fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Uwe has been educated in IT sales an has worked for a variety of tech enterprises including Deutsche Telekom and Vodafone and more recently the SME market leading CRM, xRM CAS Software AG. He is experienced in the areas of partner and sales management as well as business development.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/andy.jpg" />
+				<h2 class="teamname">Andy Scherzinger</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Director Engineering</h3>
+					<h4 class="teamexpertise">Software engineering and delivery</h4>
+					<h4 class="teamlocation">Lives in Frankfurt, Germany</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/andyscherzinger/"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Andy_Scherzinger/"><i class="fa-xing fa"></i></a> <a href="https://github.com/AndyScherzinger"><i class="fa-github fa"></i></a> <a href="https://twitter.com/AndyScherzinger"><i class="fa-twitter fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Andy graduated in Applied Business in Computer Science and has more than 15 years of experience in delivering custom software solutions and IT consulting to customers. He worked for companies like msg systems and Capgemini supporting enterprises and startups in various industries like telecommunication, travel, logistics and finance with a focus on building software-systems, -platforms and -factories.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/patrick.jpg" />
 				<h2 class="teamname">Patrick Walther</h2>
@@ -104,12 +104,12 @@
 				<p class="teamdescription">Patrick was co-founder of struktur AG in 2000, responsible for sales and finance. He held several sales and marketing positions at IBM and Oracle, adding up to more than two decades of experience in the IT industry.</p>
 			</div>
 		</div>
-    </div>
-    <div class="row">
-        <h2><?php echo $l->t('Account management');?></h2>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
+	</div>
+	<div class="row">
+		<h2><?php echo $l->t('Account management');?></h2>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/christian.jpg" />
 				<h2 class="teamname">Christian Göhring</h2>
@@ -122,7 +122,7 @@
 				<p class="teamdescription">Christian grew up in Paris and is now back in Stuttgart for many years. He worked in telecommunication and technology companies for over 20 years and still enjoys French wine, together with family, mountain biking and remote controlled cars.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
+		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/edeltraut.jpg" />
 				<h2 class="teamname">Edeltraut Bobb</h2>
@@ -148,7 +148,7 @@
 				<p class="teamdescription">Fabian worked for various industries always close to the customer and has been in the IT industry now for several years with a focus on customer relationship management. He is passionate about innovative and new technologies and his primary goal is to help our customers to fulfill their vision.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
+		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/markus.jpg" />
 				<h2 class="teamname">Markus Windecker</h2>
@@ -174,7 +174,7 @@
 				<p class="teamdescription">Olivier studied Economics and Information and Communications Systems Management at the University of Geneva. He did work on the Nextcloud code base and has close to 20 years experience in Consulting, Business Development and large scale deployments. He has helped customers in a broad range of industies both in the private and public sector, with a focus on open source, usability, security and privacy.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
+		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
 				<h2 class="teamname">Simon Ebentheuer</h2>
@@ -200,10 +200,10 @@
 				<p class="teamdescription">Viktoria studied business administration and learned Spanish living in Mexico for a while. She has over 7 years of sales experience and has a strong focus on finding the perfect fit for the needs of the customer.</p>
 			</div>
 		</div>
-    </div>
-    <div class="row">
-    <h2><?php echo $l->t('Sales engineering');?></h2>
-    </div>
+	</div>
+	<div class="row">
+		<h2><?php echo $l->t('Sales engineering');?></h2>
+	</div>
 	<div class="row">
 		<div class="col-md-4">
 			<div class="teamp">
@@ -218,7 +218,7 @@
 				<p class="teamdescription">Björn is a computer scientist, graduated at the University of Stuttgart. He conducted research in the area of cloud robotics before he joined a private cloud community project in 2012 and later co-founded Nextcloud. Björn has a deep knowledge about all technical and legal aspects of Free and Open Source Software. After working for several years as a software engineer he became a sales engineer, using his in-depth knowledge to provide the best possible solutions to our customers.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
+		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/maxime.jpg" />
 				<h2 class="teamname">Maxime Le Hericy</h2>
@@ -257,7 +257,7 @@
 				<p class="teamdescription">Matthias worked for nine years as a 3rd level IT Engineer and IT Administrator. Acting as a broker between the customer, the Sales and Engineering department, his main focus is to give our clients the best possible advice. Matthias is passionate about innovative technology, enabling clients to collaborate securely while retaining ease-of-use.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
+		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
 				<h2 class="teamname">Pietro Marini</h2>
@@ -270,40 +270,40 @@
 				<p class="teamdescription">After graduating in Physics in 2011 at University of Pavia, Italy, Pietro has been working as a developer and consultant in the Business Intelligence and Data Analytics sector for many companies across Europe and is now settled in Galicia, Spain. Customer-oriented, self-learner and with a passion in open-source software engineering, Pietro enjoys teaming up with customers to solve complex technical challenges. He also tries to help the general public in forming opinions on the impacts of technology in their life, by spreading concepts and trends around big data, machine learning and the digital economy.</p>
 			</div>
 		</div>
-    </div>
-    <div class="row">
-        <h2><?php echo $l->t('Marketing');?></h2>
-    </div>
-    <div class="row">
-    <div class="col-md-4">
-            <div class="teamp">
-                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/joshua.jpg" />
-                <h2 class="teamname">Joshua Ofor</h2>
-                <div class="teammeta">
-                    <h3 class="teamtitle">Designer</h3>
-                    <h4 class="teamexpertise">Visual Identity, Design Systems, Animation, Illustration</h4>
-                    <h4 class="teamlocation">Lives in Port Harcourt, Nigeria</h4>
-                    <p class="teamsocial"> <a href="https://www.linkedin.com/in/ofor"><i class="fa-rss fa"></i></a> <a href="https://www.twitter.com/theman_ofor"><i class="fa-twitter fa"></i></a></p>
-                </div>
-                <p class="teamdescription">Joshua is a multidisciplinary designer & art director, with a push for visual storytelling, sustainability & design par problem-solving. He currently seeks to design systems, spaces & create other forms of visual arts. He holds a brief but viable experience in the creative industry, previously working as a Snr. Creative Designer at Mesh Design Studios. He’s a TEDx aficionado, a design contributor at the Open Source Community Africa and a UN Youth Delegate.</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="teamp">
-                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marija.jpg" />
-                <h2 class="teamname">Marija Puselja</h2>
-                <div class="teammeta">
-                    <h3 class="teamtitle">Marketing and PR coordinator</h3>
-                    <h4 class="teamexpertise">PR and design</h4>
-                    <h4 class="teamlocation">Lives in Berlin, Germany</h4>
-                    <p class="teamsocial"><a href="https://www.linkedin.com/in/marija-puselja"><i class="fa-rss fa"></i></a></p>
-                </div>
-                <p class="teamdescription">Marija hold’s a master's degree in Journalism and Public Relations. She mostly finds her inspiration in the strength of visual delivery of information through photography, as much as she admires the creativity of witty and intelligent writing and finally, a well-executed layout and design.</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="teamp">
-            <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marinela.jpg" />
+	</div>
+	<div class="row">
+		<h2><?php echo $l->t('Marketing');?></h2>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/joshua.jpg" />
+				<h2 class="teamname">Joshua Ofor</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Designer</h3>
+					<h4 class="teamexpertise">Visual Identity, Design Systems, Animation, Illustration</h4>
+					<h4 class="teamlocation">Lives in Port Harcourt, Nigeria</h4>
+					<p class="teamsocial"> <a href="https://www.linkedin.com/in/ofor"><i class="fa-rss fa"></i></a> <a href="https://www.twitter.com/theman_ofor"><i class="fa-twitter fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Joshua is a multidisciplinary designer & art director, with a push for visual storytelling, sustainability & design par problem-solving. He currently seeks to design systems, spaces & create other forms of visual arts. He holds a brief but viable experience in the creative industry, previously working as a Snr. Creative Designer at Mesh Design Studios. He’s a TEDx aficionado, a design contributor at the Open Source Community Africa and a UN Youth Delegate.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marija.jpg" />
+				<h2 class="teamname">Marija Puselja</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Marketing and PR coordinator</h3>
+					<h4 class="teamexpertise">PR and design</h4>
+					<h4 class="teamlocation">Lives in Berlin, Germany</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/marija-puselja"><i class="fa-rss fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Marija hold’s a master's degree in Journalism and Public Relations. She mostly finds her inspiration in the strength of visual delivery of information through photography, as much as she admires the creativity of witty and intelligent writing and finally, a well-executed layout and design.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marinela.jpg" />
 				<h2 class="teamname">Marinela Gogo</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Online Marketer</h3>
@@ -313,10 +313,10 @@
 				</div>
 				<p class="teamdescription">Marinela studied Business Informatics in the Faculty of Economics, University of Tirana. She got involved in open source in 2015, first by contributing to open source projects and then, in 2016, she started co-organizing events or conferences in Tirana to promote software freedom, open knowledge and the importance of open source in the public sector.</p>
 			</div>
-        </div>
-        <div class="col-md-4">
-            <div class="teamp">
-            <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marko-b.jpg" />
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marko-b.jpg" />
 				<h2 class="teamname">Marko Bijelic</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">UI/UX Designer</h3>
@@ -326,10 +326,10 @@
 				</div>
 				<p class="teamdescription">Marko is working as a UI/UX Designer for 14 years. He has worked directly for clients like Coca-Cola, Audi and McLaren and for numerous startups featuring CrazyEgg, Flippa, Udemy and Tim Ferris. Marko has diversified skillset. He is college dropout and auto didactic.</p>
 			</div>
-        </div>
-        <div class="col-md-4">
-            <div class="teamp">
-            <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/sandra.jpg" />
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/sandra.jpg" />
 				<h2 class="teamname">Sandra Stutz</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Partner Marketing Manager</h3>
@@ -339,43 +339,43 @@
 				</div>
 				<p class="teamdescription">Sandra studied business administration at the dual university Ravensburg. The last 20 years she worked as marketing and business development manager for different departments at CAS Sofware AG. Knowing what the market needs and customer centricity are very important to her.</p>
 			</div>
-        </div>
-    </div>
-    <div class="row">
-        <h2><?php echo $l->t('Back office');?></h2>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
-            <div class="teamp">
-                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/vanessa.jpg" />
-                <h2 class="teamname">Vanessa Steeg</h2>
-                <div class="teammeta">
-                    <h3 class="teamtitle">Executive assistant</h3>
-                    <h4 class="teamexpertise">Sales, marketing, design and project management</h4>
-                    <h4 class="teamlocation">Lives in Stuttgart, Germany</h4>
-                    <p class="teamsocial">&nbsp;</p>
-                </div>
-                <p class="teamdescription">Vanessa has a degree in Media Design and qualifications as Executive Assistant in various languages (German, English and Spanish). Her experience ranges from project management to graphic design, marketing and communication.</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="teamp">
-                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/alexandra.jpg" />
-                <h2 class="teamname">Alexandra Boehm</h2>
-                <div class="teammeta">
-                    <h3 class="teamtitle">Accountant</h3>
-                    <h4 class="teamexpertise">Accounting and finance</h4>
-                    <h4 class="teamlocation">Lives in Berlin, Germany</h4>
-                    <p class="teamsocial"><a href="http://www.linkedin.com/in/alexandra-boehm-02bba3a1"><i class="fa-linkedin fa"></i></a></p>
-                </div>
-                <p class="teamdescription">Experienced Accountant and Office Manager with a long history of working in the computer software industry. </p>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <h2><?php echo $l->t('Engineering and support');?></h2>
-    </div>
-    <div class="row">
+		</div>
+	</div>
+	<div class="row">
+		<h2><?php echo $l->t('Back office');?></h2>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/vanessa.jpg" />
+				<h2 class="teamname">Vanessa Steeg</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Executive assistant</h3>
+					<h4 class="teamexpertise">Sales, marketing, design and project management</h4>
+					<h4 class="teamlocation">Lives in Stuttgart, Germany</h4>
+					<p class="teamsocial">&nbsp;</p>
+				</div>
+				<p class="teamdescription">Vanessa has a degree in Media Design and qualifications as Executive Assistant in various languages (German, English and Spanish). Her experience ranges from project management to graphic design, marketing and communication.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/alexandra.jpg" />
+				<h2 class="teamname">Alexandra Boehm</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Accountant</h3>
+					<h4 class="teamexpertise">Accounting and finance</h4>
+					<h4 class="teamlocation">Lives in Berlin, Germany</h4>
+					<p class="teamsocial"><a href="http://www.linkedin.com/in/alexandra-boehm-02bba3a1"><i class="fa-linkedin fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Experienced Accountant and Office Manager with a long history of working in the computer software industry. </p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<h2><?php echo $l->t('Engineering and support');?></h2>
+	</div>
+	<div class="row">
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/barth.jpg" />
@@ -384,7 +384,7 @@
 					<h3 class="teamtitle">Server lead</h3>
 					<h4 class="teamexpertise">Server, contacts, front-end and accessibility</h4>
 					<h4 class="teamlocation">Lives in France</h4>
-                    <p class="teamsocial"></p>
+					<p class="teamsocial"></p>
 				</div>
 				<p class="teamdescription">Barthélémy is a software engineer specialized in front-end development. He cares about simplicity and ease of use and likes to create a smooth user experience for everyone. He has been part of the contacts and design team since 2016.</p>
 			</div>
@@ -402,7 +402,7 @@
 				<p class="teamdescription">Christoph has been working on the Nextcloud code base since 2014. He has a master's degree in Software Engineering from the University of Applied Sciences Upper Austria.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
+		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/daphne.jpg" />
 				<h2 class="teamname">Daphne Muller</h2>
@@ -415,7 +415,7 @@
 				<p class="teamdescription">Daphne graduated from the Eindhoven University of Technology and gained work experience in consultancy, teaching, and various tech start-ups. She conducts academic research in Human-Computer Interaction about privacy and data minimisation. As support lead, she evolves the support process to improve customer and developer happiness.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
+		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
 				<h2 class="teamname">Jan-Christoph Borchardt</h2>
@@ -467,7 +467,7 @@
 				<p class="teamdescription">Lukas has been contributing to the Nextcloud code base since 2012 and is responsible for many of the security hardenings in the code. He has worked as security assessment and forensic investigator, reviewing security, training and dealing with breaches at Fortune 500 companies and several of the largest Swiss financial institutes. He also worked at Facebook, creating privacy and security roadmaps, working on privacy incident management, security analysis, review and more.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
+		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/tobias.jpg" />
 				<h2 class="teamname">Tobias Kaminsky</h2>
@@ -493,9 +493,9 @@
 				<p class="teamdescription">Alex has a master's degree in computer science. He worked in the gaming industry on well-known game franchises doing C++ and ActionScript but also freelanced while traveling through South East Asia in a variety of front-end and back-end work with JS, and even more with C++ and Qt. He's into cyberpunk and 80's heavy metal.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
-            <div class="teamp">
-            <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/aleksandra.jpg" />
+		<div class="col-md-4">
+			<div class="teamp">
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/aleksandra.jpg" />
 				<h2 class="teamname">Aleksandra Lazarević</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software engineer</h3>
@@ -505,19 +505,19 @@
 				</div>
 				<p class="teamdescription">Aleksandra has finished her master studies in University in Belgrade for Information Technology. She has been developing iOS mobile applications for several years. In addition to application development, she has experience in teaching.</p>
 			</div>
-        </div>
+		</div>
 		<div class="col-md-4">
-            <div class="teamp">
-                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-                <h2 class="teamname">Álvaro Brey Vilas</h2>
-                <div class="teammeta">
-                    <h3 class="teamtitle">Software Engineer</h3>
-                    <h4 class="teamexpertise">Android Files app</h4>
-                    <h4 class="teamlocation">Lives in Santiago de Compostela, Spain</h4>
-                    <p class="teamsocial"><a href="https://github.com/AlvaroBrey"><i class="fa-github fa"></i></a> <a href="https://twitter.com/AlvaroBrey_"><i class="fa-twitter fa"></i></a> <a href="https://www.linkedin.com/in/alvarobrey/"><i class="fa-linkedin fa"></i></a></p>
-                </div>
-                <p class="teamdescription">Álvaro has a masters's degree in AI, and is a generalist software engineer with experience in Android, DevOps and frontend. He's passionate about automation and code cleanliness. In his spare time, he's busy automating his home, modeling and 3D printing stuff, playing videogames or reading about technology.</p>
-            </div>
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Álvaro Brey Vilas</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Android Files app</h4>
+					<h4 class="teamlocation">Lives in Santiago de Compostela, Spain</h4>
+					<p class="teamsocial"><a href="https://github.com/AlvaroBrey"><i class="fa-github fa"></i></a> <a href="https://twitter.com/AlvaroBrey_"><i class="fa-twitter fa"></i></a> <a href="https://www.linkedin.com/in/alvarobrey/"><i class="fa-linkedin fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Álvaro has a masters's degree in AI, and is a generalist software engineer with experience in Android, DevOps and frontend. He's passionate about automation and code cleanliness. In his spare time, he's busy automating his home, modeling and 3D printing stuff, playing videogames or reading about technology.</p>
+			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
@@ -545,7 +545,7 @@
 				<p class="teamdescription">Arthur Schiwon has been working on the Nextcloud code base since 2010, developing state of the art user management and directory support. Before he has been SEO project manager at construktiv and was active in the Kubuntu community, still being a Free and Open Source Software enthusiast and privacy activist.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
+		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/brian.jpg" />
 				<h2 class="teamname">Brian Krause</h2>
@@ -701,7 +701,7 @@
 				<p class="teamdescription">Julien has a master's degree in computer science and does public research for 10 years as scientific computing engineer in biology and geographical data processing. He loves interactive maps, collaborative tools, and is passionate about the Free Software movement. He started contributing to the Nextcloud code base in 2015 and has developed 6 apps since then. He has much experience in data processing and computing optimization.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
+		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/louis.jpg" />
 				<h2 class="teamname">Louis Chemineau</h2>
@@ -715,18 +715,18 @@
 			</div>
 		</div>
 		<div class="col-md-4">
-            <div class="teamp">
-                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-                <h2 class="teamname">Luka Trovic</h2>
-                <div class="teammeta">
-                    <h3 class="teamtitle">Software Engineer</h3>
-                    <h4 class="teamexpertise">Office, full stack</h4>
-                    <h4 class="teamlocation">Lives in Raska, Serbia</h4>
-                    <p class="teamsocial"> <a href="github.com/luka-nextcloud"><i class="fa-github fa"></i></a> <a href="https://www.linkedin.com/in/luka-trovic"><i class="fa-linkedin fa"></i></a> </p>
-                </div>
-                <p class="teamdescription">Luka is a full stack developer specialized in JavaScript and PHP. He has over 8 years of professional experience with software development.
-                </p>
-            </div>
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Luka Trovic</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Office, full stack</h4>
+					<h4 class="teamlocation">Lives in Raska, Serbia</h4>
+					<p class="teamsocial"> <a href="github.com/luka-nextcloud"><i class="fa-github fa"></i></a> <a href="https://www.linkedin.com/in/luka-trovic"><i class="fa-linkedin fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Luka is a full stack developer specialized in JavaScript and PHP. He has over 8 years of professional experience with software development.
+				</p>
+			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
@@ -767,7 +767,7 @@
 				<p class="teamdescription">Marco is a front end developer that cares deeply about design and user experience. He is part of the talk and design teams.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
+		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marino.jpg" />
 				<h2 class="teamname">Marino Faggiana</h2>
@@ -871,7 +871,7 @@
 				<p class="teamdescription">Tim has worked in the field of navigation solutions for 13 years, most recently further developing and operating the backend for routing and geocoding services. He has a Dipl.-Ing. (FH) in geoinformatics from the Bochum University of Applied Sciences.<br />Cleaning up is one of his passions. No matter if code, documentation or dependencies. And since he likes to finish work early, he automates what he can.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
+		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/vincent.jpg" />
 				<h2 class="teamname">Vincent Petry</h2>
@@ -882,6 +882,19 @@
 					<p class="teamsocial"><a href="https://github.com/pvince81"><i class="fa-github fa"></i></a> <a href="https://twitter.com/pvince81"><i class="fa-twitter fa"></i></a> <a href="https://gitlab.com/pvince81"><i class="fa-gitlab fa"></i></a> <a href="https://www.linkedin.com/in/vincentpetry/"><i class="fa-linkedin fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Vincent is a full-stack software engineer with many years of experience in the open-source space. He's well-known for quickly finding bugs in various systems and his ability to debug deeply in unknown territories and also write extensive bug reports. He's now working in the Nextcloud server team using Vue.js, PHP and other technologies.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/come.jpg" />
+				<h2 class="teamname">Côme Chilliet</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Server, LDAP</h4>
+					<h4 class="teamlocation">Lives in Lyon, France</h4>
+					<p class="teamsocial"><a href="https://github.com/come-nc"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Côme is a back-end developer and Free Software lover and user. He has been working on PHP server code for more than 8 years. He is the official maintainer of the PHP LDAP module because no one else on earth wanted to do it.</p>
 			</div>
 		</div>
 	</div>
