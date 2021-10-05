@@ -651,6 +651,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/henrik.jpg" />
+				<h2 class="teamname">Henrik Storch</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">iOS developer</h4>
+					<h4 class="teamlocation">Lives near Stuttgart, Germany</h4>
+					<p class="teamsocial"><a href="https://github.com/thisisthefoxe"><i class="fa-github fa"></i></a> <a href="https://twitter.com/thisisthefoxe"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Henrik graduated from the DHBW Stuttgart in CS. He is enthusiastic about the Swift programming language and open souce software in general. Over the years he published 9 apps to the iOS App Store and was even awarded two consecutive WWDC Scholarships in 2017 & 2018. </p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/ivan.jpg" />
 				<h2 class="teamname">Ivan Sein</h2>
 				<div class="teammeta">
