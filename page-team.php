@@ -884,5 +884,18 @@
 				<p class="teamdescription">Vincent is a full-stack software engineer with many years of experience in the open-source space. He's well-known for quickly finding bugs in various systems and his ability to debug deeply in unknown territories and also write extensive bug reports. He's now working in the Nextcloud server team using Vue.js, PHP and other technologies.</p>
 			</div>
 		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/come.jpg" />
+				<h2 class="teamname">Côme Chilliet</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Server, LDAP</h4>
+					<h4 class="teamlocation">Lives in Lyon, France</h4>
+					<p class="teamsocial"><a href="https://github.com/come-nc"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Côme is a back-end developer and Free Software lover and user. He has been working on PHP server code for more than 8 years. He is the official maintainer of the PHP LDAP module because no one else on earth wanted to do it.</p>
+			</div>
+		</div>
 	</div>
 </section>
