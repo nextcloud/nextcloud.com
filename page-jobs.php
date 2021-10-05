@@ -567,6 +567,41 @@
 				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of enhancing our online presence. We strive to provide the freedom and space to find the right approach! We look for somebody with design and basic website development experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>-->
 
+			<a href="#devrelmgr" data-toggle="collapse"><h3 class="jobs">Developer relations manager<span class="icon-arrow"></span></h3></a>
+			<div id="devrelmgr" class="collapse">
+				<p>We are looking for a passionate community and developer relations manager who can work alongside our engineers with our wonderful Nextcloud community and partners. You will be working on our open source libraries, communicate with our developer community and partners through all our channels and help them resolve issues they encounter writing apps or contributing. You work on tutorials, update documentations, give practical tips and help and give talks at events.</p>
+				<h3 class="section--paragraph__title">Responsibilities:</h3>
+				<ul>
+					<li>Support, grow and empower our community and technical partners</li>
+					<li>Represent Nextcloud in our community and our community in Nextcloud</li>
+					<li>Monitor and respond to community requests for help</li>
+					<li>Ensure resources for community contributors and developers are well maintained</li>
+					<li>Work with our partners to ensure they can build the best possible apps and improvements</li>
+					<li>Measure, track and improve community metrics</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">Skills:</h3>
+				<ul>
+					<li>You love working with people and have good interpersonal skills</li>
+					<li>You know open source and have experience in communities, maybe even Nextcloud</li>
+					<li>You have been or are a developer and thus have the technical skills to understand and support developers</li>
+					<li>You have a passion for and experience in communicating through various channels</li>
+					<li>You can fix an occasional bug or help somebody else do so</li>
+					<li>You have good English language skills</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">What we offer:</h3>
+				<ul>
+					<li>A distributed, open team with a passion for working on and within the open source community</li>
+					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
+					<li>A competitive salary</li>
+					<li>Flexibility for a healthy work-life balance</li>
+					<li>Time for personal growth and education</li>
+					<li>We have flexible office hours and most of our team works from home.</li>
+					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
+				</ul>
+				<p>There will be plenty of freedom and flexibility in defining the role and working conditions and room to advance within the company. We're a small company looking to change the world and you can change it with us. We are looking for somebody who wants to make a difference, who wants to be responsible for the results of building community. We look for somebody with some developer experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+			</div>
 
 			<a href="#illustrator-animator" data-toggle="collapse"><h3 class="jobs">Illustrator, video editor & animator <span class="icon-arrow"></span></h3></a>
 			<div id="illustrator-animator" class="collapse">
