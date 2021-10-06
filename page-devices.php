@@ -35,6 +35,44 @@ require(["require.config"], function() {
         <div class="col-lg-4">
             <div class="block-container">
                 <div class="text-center">
+                <a href=""><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/TrueNAS-banner.jpg" class="text-center featureimg" /></a>
+                </div>
+                <div class="col-md-12">
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud on TrueNAS');?></h3>
+                    <p class="section--paragraph"><em><?php echo $l->t('Add Nextcloud to your NAS');?></em></p>
+                    <p class="section--paragraph"><?php echo $l->t('TrueNAS is an Open Source powered storage platform that scales from private home servers to 20PB+ storage platforms and has over a million deployments. Nextcloud Hub is be officially supported on TrueNAS systems with easy install of  the official Nextcloud Hub app requiring just a few clicks. Together, Nextcloud and TrueNAS provide an extremely versatile and reliable collaboration and data storage platform.');?></p>
+                    <div class="devices-tags">
+                        <span>Enterprise</span>
+                        <span>Community</span>
+                        <span>Official</span>
+                    </div>
+                    <a href="https://www.truenas.com/docs/core/solutions/integrations/nextcloud/ " class="button button--blue button--arrow button--large"><?php echo $l->t('Get started');?></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="block-container">
+                <div class="text-center">
+                    <a href="https://shop.hanssonit.se/product-category/nextcloud/home-sme-server/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/asuspn51back.png" class="text-center featureimg" /></a>
+                </div>
+                <div class="col-md-12">
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Home/SME Server');?></h3>
+                    <p class="section--paragraph"><em><?php echo $l->t('Get your own self-hosted cloud server!');?></em></p>
+                    <p class="section--paragraph"><?php echo $l->t('The Nextcloud Home/SME Server is a Nextcloud server pre-configured with Nextcloud and ready to boot once delivered. Just as the Nextcloud VM it includes easy to setup apps like Collabora, OnlyOffice, Talk and more.');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('Updates are managed with a easy-to-run update script which updates the whole server in just one single command. The server is based on a powerful AMD Ryzen 5500U 64-bit CPU (6 cores, 12 threads), 500 GB M2 PCIe SSD + 2/4 TB HDD/SSD, and 16/32 GB RAM.');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('The Nextcloud Home/SME server is made by the team behind the Nextcloud VM, and aims to be the easiest way to setup your own cloud - now available as a bare-bone server!');?></p>
+                    <div class="devices-tags">
+                        <span>Managed</span>
+                        <span>Commercial</span>
+                        <span>Community</span>
+                    </div>
+                    <a href="https://shop.hanssonit.se/product-category/nextcloud/home-sme-server/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about HanssonIT');?></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="block-container">
+                <div class="text-center">
                     <a href="https://shop.hanssonit.se/product-category/nextcloud/home-sme-server/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/asuspn51back.png" class="text-center featureimg" /></a>
                 </div>
                 <div class="col-md-12">
