@@ -54,11 +54,7 @@
 <p>Work in organizations alternates between intensive work in a focus group putting ideas in writing, and relaxed conversations during a coffee break. Nextcloud Hub facilitates both activities with a multitude of group and individual chat rooms and integrated collaborative document editing.</p>
 <h3>Have casual or business calls and chats</h3>
 <p>A virtual water cooler or coffee room, for teams or larger parts of the organization, provides a space for banter and off-topic conversations, sharing of ideas and simple “good morning” and “good evening”. The new grid view facilitates a casual-Friday hangout with the team or department, perhaps at beer-o-clock.</p>
-<p>The introduction of automatic scaling of call quality will help participants on limited internet connections at home still be an integral part of the team! This and other performance and scalability improvements were developed in close cooperation with our partner Heinlein Support while working on deployments in the German public sector and are complemented by the release of the high-performance back-end for Talk. The back-end, required for calls with 10-50 participants, has been developed by our technology partner, leading video conferencing solution provider Struktur AG.</p>
-<blockquote>
-<p>The public sector needs to facilitate home office for thousands of employees and we are excited to see the results that came out of our collaboration to improve connectivity on private and less powerful network connections reach the market.</p>
-</blockquote>
-<p>-- Peer Heinlein, Managing Director of Heinlein Support GmbH</p>
+<p>The introduction of automatic scaling of call quality will help participants on limited internet connections at home still be an integral part of the team! This and other performance and scalability improvements were developed  while working on deployments in the German public sector and are complemented by the release of the high-performance back-end for Talk. The back-end, required for calls with 10-50 participants, has been developed by our technology partner, leading video conferencing solution provider Struktur AG.</p>
 <blockquote>
 <p>Nextcloud Hub plays a key role in the growing demand for scalable software for team collaboration and e-learning. Our decades of experience with open source and video conferencing software, combined with the audio/video technology behind the powerful back-end, meets the expectations for a reliable and scalable Nextcloud Hub team conference solution that organizations and businesses need to master the new challenges of the future.</p>
 </blockquote>
@@ -104,7 +100,6 @@
 <li>Collabora Blog <a href="https://www.collaboraoffice.com/collabora-online-as-default-in-nextcloud-hub/" class="uri">https://www.collaboraoffice.com/collabora-online-as-default-in-nextcloud-hub/</a></li>
 <li>Nitrokey blog <a href="https://www.nitrokey.com/news/2020/webauthn-passwordless-world" class="uri">https://www.nitrokey.com/news/2020/webauthn-passwordless-world</a></li>
 <li>Collabora <a href="https://www.collaboraoffice.com/" class="uri">https://www.collaboraoffice.com/</a></li>
-<li>Heinlein Support <a href="https://heinlein-support.de/" class="uri">https://heinlein-support.de/</a></li>
 <li>Nextcloud <a href="https://nextcloud.com/" class="uri">https://nextcloud.com/</a></li>
 <li>Nitrokey <a href="https://www.nitrokey.com/" class="uri">https://www.nitrokey.com/</a></li>
 <li>Struktur <a href="https://www.struktur.de/" class="uri">https://www.struktur.de/</a></li>
@@ -164,11 +159,7 @@
 <p>Die Arbeit in Organisationen wechselt zwischen intensiver Arbeit in einer Fokusgruppe, in der Ideen schriftlich festgehalten werden, und entspannten Gesprächen während einer Kaffeepause. Nextcloud Hub erleichtert beide Aktivitäten mit einer Vielzahl von Gruppen- und Einzelchaträumen und integrierter kollaborativer Dokumentenbearbeitung.</p>
 <h3>Führen Sie gelegentliche oder geschäftliche Anrufe und Chats</h3>
 <p>Ein virtueller Wasserkühler oder ein Kaffeeraum für Teams oder größere Teile der Organisation bietet Raum für Geplänkel und themenfremde Gespräche, Ideenaustausch und ein einfaches “Guten Morgen” und “Guten Abend”. Die neue Grid-Darstellung erleichtert einen zwanglosen, freitäglichen After-Work Treffpunkt mit dem Team oder der Abteilung.</p>
-<p>Mit Talk 9 wird die Gesprächsqualität in Video- und Audiokonferenzen automatisch skaliert. Damit können auch Teilnehmer mit schwächeren Internetverbindungen zu Hause oder unterwegs immer noch ein integraler Bestandteil des Teams sein! Diese und andere Verbesserungen der Leistung und Skalierbarkeit wurden in enger Zusammenarbeit mit unserem Partner Heinlein Support während der Arbeit an Einsätzen im deutschen öffentlichen Sektor entwickelt und werden durch die Freigabe des High Performance Back-Ends für Talk ergänzt. Das Back-End, das für Gespräche mit 10-50 Teilnehmern benötigt wird, wurde von unserem Technologiepartner, dem führenden Anbieter von Videokonferenzlösungen Struktur AG, entwickelt.</p>
-<blockquote>
-<p>Der öffentliche Sektor muss das Home-Office für zausende von Mitarbeitern erleichtern, und wir sind gespannt, wie die Ergebnisse unserer Zusammenarbeit zur Verbesserung der Konnektivität bei privaten und weniger leistungsfähigen Netzwerkverbindungen den Markt erreichen werden.</p>
-</blockquote>
-<p>-- Peer Heinlein, Geschäftsführer der Heinlein Support GmbH</p>
+<p>Mit Talk 9 wird die Gesprächsqualität in Video- und Audiokonferenzen automatisch skaliert. Damit können auch Teilnehmer mit schwächeren Internetverbindungen zu Hause oder unterwegs immer noch ein integraler Bestandteil des Teams sein! Diese und andere Verbesserungen der Leistung und Skalierbarkeit wurden während der Arbeit an Einsätzen im deutschen öffentlichen Sektor entwickelt und werden durch die Freigabe des High Performance Back-Ends für Talk ergänzt. Das Back-End, das für Gespräche mit 10-50 Teilnehmern benötigt wird, wurde von unserem Technologiepartner, dem führenden Anbieter von Videokonferenzlösungen Struktur AG, entwickelt.</p>
 <blockquote>
 <p>Nextcloud Hub spielt eine Schlüsselrolle bei der wachsenden Nachfrage nach skalierbarer Software für Teamzusammenarbeit und E-Learning. Unsere jahrzehntelange Erfahrung mit Open Source- und Videokonferenzsoftware, kombiniert mit der Audio-/Video-Technologie hinter dem leistungsstarken Back-End, erfüllt die Erwartungen an eine zuverlässige und skalierbare Teamkonferenzlösung Nextcloud Hub, die Organisationen und Unternehmen benötigen, um die neuen Herausforderungen der Zukunft zu meistern.</p>
 </blockquote>
@@ -214,7 +205,6 @@
 <li>Collabora Blog <a href="https://www.collaboraoffice.com/collabora-online-as-default-in-nextcloud-hub/" class="uri">https://www.collaboraoffice.com/collabora-online-as-default-in-nextcloud-hub/</a></li>
 <li>Nitrokey blog <a href="https://www.nitrokey.com/news/2020/webauthn-passwordless-world" class="uri">https://www.nitrokey.com/news/2020/webauthn-passwordless-world</a></li>
 <li>Collabora <a href="https://www.collaboraoffice.com/" class="uri">https://www.collaboraoffice.com/</a></li>
-<li>Heinlein Support <a href="https://heinlein-support.de/" class="uri">https://heinlein-support.de/</a></li>
 <li>Nextcloud <a href="https://nextcloud.com/" class="uri">https://nextcloud.com/</a></li>
 <li>Nitrokey <a href="https://www.nitrokey.com/" class="uri">https://www.nitrokey.com/</a></li>
 <li>Struktur <a href="https://www.struktur.de/" class="uri">https://www.struktur.de/</a></li>

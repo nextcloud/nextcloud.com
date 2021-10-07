@@ -46,10 +46,8 @@
 </ul>
 <p>Other improvements include back-end clustering to improve the scalability of server setup, improved connection management and error handling, improved handling of adding participants, the ability for moderators to turn off microphones of participants and the ability to limit creating conversations to a specific group.</p>
 <blockquote>
-<p>We have been impressed by the quick turn-around and fast improvements possible in tight collaboration between the Nextcloud engineers, our team and our customers in the public sector; and we’re excited to see the performance improvements that came out of that collaboration reach the wider open source community</p>
-</blockquote>
-<p>-- Peer Heinlein, CEO and founder of Heinlein Support</p>
-<p>Most of the performance improvements and video quality selection capabilities that were developed together with Heinlein technicians have also been made available to Nextcloud Talk 8, giving users of current Nextcloud Hub releases also access to a smoother Talk experience. The feature enhancements will be part of Nextcloud Talk 9, which will depend on the upcoming 19 release of Nextcloud Hub.</p>
+
+<p>Some of the performance improvements and video quality selection capabilities that were developed have also been made available to Nextcloud Talk 8, giving users of current Nextcloud Hub releases also access to a smoother Talk experience. The feature enhancements will be part of Nextcloud Talk 9, which will depend on the upcoming 19 release of Nextcloud Hub.</p>
 <p><strong>With this release, Nextcloud Talk cements its position as the only on-premises content collaboration platform on the market with native integrated audio/video chat ready for large organizations. This provides the best solution for thousands of organizations across the globe to keep their communication confidential and prevent their data from leaking.</strong></p>
 <h2>About Nextcloud</h2>
 <p>Nextcloud Hub is the industry-leading, fully open source, on-premises team productivity platform, combining the easy user interface of consumer-grade cloud solutions with the security and compliance measures enterprises need. Nextcloud Hub brings together universal access to data through mobile, desktop and web interfaces with next-generation, on-premise secure communication and collaboration features like real-time document editing, chat and video calls, putting them under direct control of IT and integrated with existing infrastructure.</p>
@@ -61,7 +59,6 @@
 <li><a href="https://nextcloud.com/press/pr20200519">Link to this press release</a></li>
 <li><a href="https://github.com/strukturag/nextcloud-spreed-signaling">Source code of signaling server by Struktur AG</a></li>
 <li><a href="https://www.spreed.eu/contact-nextcloud-talk-high-performance-backend/">Struktur AG hosted offering</a></li>
-<li><a href="https://heinlein-support.de">Heinlein Support</a></li>
 </ul>
 
 <h2>Graphics</h2>
@@ -118,11 +115,7 @@ jos.poortvliet<a href="mailto:pr@nextcloud.com">@nextcloud.com</a></p>
 <li>Mobile Anwendungen führen Offline-Unterstützung ein, eine große Benutzeroberfläche, die in der Android-Anwendung neu erstellt wurde, sowie Verbesserungen der Zugänglichkeit und Benutzerfreundlichkeit für iOS</li>
 </ul>
 <p>Weitere Verbesserungen umfassen Back-End-Clustering zur Verbesserung der Skalierbarkeit der Server-Einrichtung, verbessertes Verbindungsmanagement und Fehlerbehandlung, verbesserte Handhabung beim Hinzufügen von Teilnehmern, die Möglichkeit für Moderatoren, die Mikrofone der Teilnehmer abzuschalten, und die Möglichkeit, das Erstellen von Gesprächen auf eine bestimmte Gruppe zu beschränken.</p>
-<blockquote>
-<p>Wir waren beeindruckt von der schnellen Abwicklung und den schnellen Verbesserungen, die in enger Zusammenarbeit zwischen den Nextcloud-Ingenieuren, unserem Team und unseren Kunden im öffentlichen Sektor möglich sind. und wir freuen uns, dass die durch diese Zusammenarbeit erzielten Leistungsverbesserungen die breitere Open Source-Community erreichen</p>
-</blockquote>
-<p>-- Peer Heinlein, CEO und Gründer von Heinlein Support</p>
-<p>Die meisten Leistungsverbesserungen und Auswahlmöglichkeiten für die Videoqualität, die gemeinsam mit Heinlein-Technikern entwickelt wurden, wurden auch für Nextcloud Talk 8 zur Verfügung gestellt, so dass auch Nutzer der aktuellen Versionen des Nextcloud Hubs Zugang zu einem reibungsloseren Gesprächserlebnis haben. Die Funktionsverbesserungen werden Teil von Nextcloud Talk 9 sein, die von der kommenden Version 19 des Nextcloud Hubs abhängig sein wird.</p>
+<p>Die meisten Leistungsverbesserungen und Auswahlmöglichkeiten für die Videoqualität wurden auch für Nextcloud Talk 8 zur Verfügung gestellt, so dass auch Nutzer der aktuellen Versionen des Nextcloud Hubs Zugang zu einem reibungsloseren Gesprächserlebnis haben. Die Funktionsverbesserungen werden Teil von Nextcloud Talk 9 sein, die von der kommenden Version 19 des Nextcloud Hubs abhängig sein wird.</p>
 <p><strong>Mit dieser Version festigt Nextcloud Talk seine Position als einzige Enterprise-ready, On-Premises Plattform für Zusammenarbeit mit nativem integriertem Audio- / Video-Chat auf dem Markt. Talk ist die bereits die beste Lösung für tausende Unternehmen auf der ganzen Wetl, die ihre Kommunikation vertraulich behandeln wollen und somit verhindern, dass ihre Daten verloren gehen.</strong></p>
 <h2>Über Nextcloud</h2>
 <p>Nextcloud bietet die branchenführende Open-Source-Softwarelösung für on-premises Datenverarbeitung und -kommunikation, die die einfache Benutzeroberfläche von Consumer-Grade-Cloud-Lösungen mit den für Unternehmen erforderlichen Sicherheits- und Compliance-Maßnahmen kombiniert. Nextcloud vereint den universellen Zugriff auf Daten über mobile, Desktop- und Web-Interfaces mit innovativen, sicheren Kommunikations- und Kollaborationsfunktionen wie Dokumentenbearbeitung in Echtzeit, Chat und Videoanrufe, die unter direkter Kontrolle der IT und in die bestehende Infrastruktur integriert werden.</p>
@@ -134,7 +127,6 @@ jos.poortvliet<a href="mailto:pr@nextcloud.com">@nextcloud.com</a></p>
 <li><a href="https://nextcloud.com/press/pr20200519">Link to this press release</a></li>
 <li><a href="https://github.com/strukturag/nextcloud-spreed-signaling">Source code of signaling server by Struktur AG</a></li>
 <li><a href="https://www.spreed.eu/de/nextcloud-talk-high-performance-backend/">Struktur AG hosted offering</a></li>
-<li><a href="https://heinlein-support.de">Heinlein Support</a></li>
 </ul>
 <h2>Graphics</h2>
 <div class="row">
