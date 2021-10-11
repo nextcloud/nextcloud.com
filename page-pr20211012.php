@@ -35,7 +35,7 @@
 
 <blockquote>Enterprise storage needs continue to explode, only overtaken by the growth of compliance and privacy challenges. iXsystems and Nextcloud are uniquely capable of delivering a platform that tackles these two challenges at once.</blockquote>
 <p>-- Brett Davis, EVP, iXsystems</p>
-<p>Nextcloud Hub for TrueNAS is available immediately, based on the current Nextcloud 22. TrueNAS 12.0 users (CORE and Enterprise) can deploy the Nextcloud plugin. Nextcloud and iXsystems also offer enterprise support options for business users. Find more details in our blogs: TrueNAS announcement – <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-now-officially-supported-on-truenas/">Nextcloud announcement.</a></p>
+<p>Nextcloud Hub for TrueNAS is available immediately, based on the current Nextcloud 22. TrueNAS 12.0 users (CORE and Enterprise) can deploy the Nextcloud plugin. Nextcloud and iXsystems also offer enterprise support options for business users. Find more details in our blogs: <a class="hyperlink" href="https://www.ixsystems.com/blog/nextcloud-and-truenas-collaborate-to-help-you-build-your-own-private-cloud">TrueNAS announcement</a> – <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-now-officially-supported-on-truenas/">Nextcloud announcement.</a></p>
 <p>A video with a walk-through of the installation process and a short look at Nextcloud is available on the <a class="hyperlink" href="https://youtu.be/TgSiYpcZZPY">TrueNAS YouTube channel.</a></p>
 
 <h2>About iXsystems and TrueNAS</h2>
@@ -52,6 +52,8 @@
     <li><a class="hyperlink" href="">About Us - iXsystems, Inc. - Enterprise Storage & Servers</a></li>
     <li><a class="hyperlink" href="https://youtu.be/TgSiYpcZZPY">Installation walk-through on YouTube</a></li>
     <li><a class="hyperlink" href="https://www.truenas.com/docs/core/solutions/integrations/nextcloud/">Installation documentation</a></li>
+    <li><a class="hyperlink" href="https://www.ixsystems.com/blog/nextcloud-and-truenas-collaborate-to-help-you-build-your-own-private-cloud">TrueNAS blog</a></li>
+    <li><a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-now-officially-supported-on-truenas/">Nextcloud blog</a></li>
 </ul>
 
 
