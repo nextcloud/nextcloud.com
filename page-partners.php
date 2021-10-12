@@ -458,17 +458,24 @@
 				</a>
 				<p  class="partnertext">HostBill is a powerful and flexible, all-in-one automation, billing, client management and support platform for online businesses. It handles all aspects of running a successful hosting business, integrating with countless control panels, domain registrars and other tools, including Nextcloud.</p>
 			</div>
-            <div class="col-md-4">
-				<a href="https://kailona.org" target="_blank" title="Kailona">
-				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/kailona.png" title="Kailona logo" />
-				</a>
-				<p  class="partnertext">Kailona is the pioneer in providing an integrated DICOM and FHIR open source developer platform to the developer community. The platform allows developers to rapidly launch GPDR-compliant clinical and personal health apps. The Kailona EHR health app gives patient full control over their health data. This means that they can fully control who they want to share their data with and the level of anonymization of the data. This even allows for the option to share anonymized data with the research community and help accelerate the speed of medical innovations. The app also provides people with data correlations that allows them to make healthier choices. Kailona is working with the Centre Hospitalier Universitaire Vaudois (CHUV) on a Nextcloud-based solution for sensitive data sharing and collaboration.</p>
-			</div>
 			<div class="col-md-4">
 				<a href="http://ibm.com" target="_blank" title="IBM">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/ibm.png" title="IBM" />
 				</a>
 				<p class="partnertext">IBM offers a wide range of digital solutions and consulting. Nextcloud and IBM work together in various areas including support for the IBM Spectrum Scale file system.</p>
+			</div>
+			<div class="col-md-4">
+                <a href="https://www.truenas.com/" target="_blank" title="IX Systems/TrueNAS website">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/ixsystems.png" title="TrueNAS/iX systems logo" />
+                </a>
+                <p  class="partnertext">Through decades of expertise in system design and development of Open Source software (FreeNAS, FreeBSD, OpenZFS, and TrueNAS), iXsystems has become an innovation leader in high availability storage and servers powered by Open Source solutions. With over one million deployments and backed by the legendary ZFS file system, TrueNAS offers the stability and reliability required for Backup, Multimedia, Cloud Hosting, Virtualization, Hyper-converged Infrastructure, and much more.<br />
+                Since the founding of iXsystems in 2002, thousands of companies, universities, and government organizations have come to rely on the company’s enterprise servers, TrueNAS Open Storage, and consultative approach to building IT infrastructure and Private Clouds with Open Source economics. </p>
+			</div>
+            <div class="col-md-4">
+				<a href="https://kailona.org" target="_blank" title="Kailona">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/kailona.png" title="Kailona logo" />
+				</a>
+				<p  class="partnertext">Kailona is the pioneer in providing an integrated DICOM and FHIR open source developer platform to the developer community. The platform allows developers to rapidly launch GPDR-compliant clinical and personal health apps. The Kailona EHR health app gives patient full control over their health data. This means that they can fully control who they want to share their data with and the level of anonymization of the data. This even allows for the option to share anonymized data with the research community and help accelerate the speed of medical innovations. The app also provides people with data correlations that allows them to make healthier choices. Kailona is working with the Centre Hospitalier Universitaire Vaudois (CHUV) on a Nextcloud-based solution for sensitive data sharing and collaboration.</p>
 			</div>
 			<div class="col-md-4">
 				<a href="http://nitrokey.com" target="_blank" title="Nitrokey">
@@ -499,19 +506,6 @@
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/redhat.png" title="Red Hat Partnership" />
 				</a>
 				<p  class="partnertext">Red Hat is the world's leading provider of reliable and high-performing open source cloud, Linux, middleware, storage and virtualization technologies. As Red Hat Advanced Business Partner, Nextcloud offers integrated solutions to its customers.</p>
-			</div>
-			<div class="col-md-4">
-				<a href="http://www.twsweb.it/" target="_blank" title="TWS">
-				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/tws.png" title="TWS" />
-				</a>
-				<p  class="partnertext">TWS is the official provider of Nexcloud iOS Client. The company has its headquarters in Italy and it mainly deals with design and development of web-based application software.</p>
-			</div>
-
-			<div class="col-md-4">
-				<a href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/" target="_blank" title="Western Digital Labs">
-				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/wdlabs.png" title="Western Digital Labs" />
-				</a>
-				<p  class="partnertext"><a href="http://wdlabs.wd.com/">WDLabs™</a> is a business growth incubator of storage solutions leader <a href="http://www.wdc.com/en/">Western Digital Corporation</a> (NASDAQ:WDC). We work with Western Digital Labs on the <a href="/box">Nextcloud Box project</a> to create a device that makes it easier for people to self-host their data.</p>
 			</div>
 			<div class="col-md-4">
 				<a href="http://www.moodle.com/" target="_blank" title="Moodle">
