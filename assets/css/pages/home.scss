@@ -14,6 +14,7 @@
   margin-bottom: 0;
 /*   background-size: 100% auto, cover; */
   height: 100vh;
+  max-height: 100vw;
   min-height: 700px;
   border-radius: 0 !important;
   position: relative;
@@ -83,11 +84,13 @@
     @media (max-width: $break-small) {
       background-image: url("../../img/home/top-homeimage@2x_mobile.png");
       padding-top: 100%;
+      max-width: 40vw;
     }
 
     @media (min-width: $break-small) and (max-width: $break-big) {
       background-image: url("../../img/home/top-homeimage@2x_mobile.png");
-      padding-top: 55%;
+      padding-top: 60%;
+      max-width: 40vw;
     }
   }
 

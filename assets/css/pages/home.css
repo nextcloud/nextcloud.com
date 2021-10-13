@@ -42,6 +42,7 @@
   margin-bottom: 0;
   /*   background-size: 100% auto, cover; */
   height: 100vh;
+  max-height: 100vw;
   min-height: 700px;
   border-radius: 0 !important;
   position: relative;
@@ -96,11 +97,13 @@
     @media (max-width: 768px) {
       .jumbotron .topbanner {
         background-image: url("../../img/home/top-homeimage@2x_mobile.png");
-        padding-top: 100%; } }
+        padding-top: 100%;
+        max-width: 40vw; } }
     @media (min-width: 768px) and (max-width: 991px) {
       .jumbotron .topbanner {
         background-image: url("../../img/home/top-homeimage@2x_mobile.png");
-        padding-top: 55%; } }
+        padding-top: 60%;
+        max-width: 40vw; } }
   .jumbotron .topbanner img {
     width: 100%;
     height: 100%;
