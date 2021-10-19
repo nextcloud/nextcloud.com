@@ -5,7 +5,7 @@ process easy and effective for everyone involved.
 
 ## Setup of a local development environment
 
-### [Quick docker setup](https://github.com/ma12-co/docker-nc-web)
+### [Quick docker setup](https://github.com/marcoambrosini/docker-nc-web)
 
 ### Manual setup
 
