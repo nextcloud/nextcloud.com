@@ -35,7 +35,7 @@
 		<h2 class="text-center">Job openings</h2>
 		<div class="wrapper-text">
 
-<!--            <a href="#desktopdev" data-toggle="collapse"><h3 class="jobs">C++ Developer<span class="icon-arrow"></span></h3></a>
+            <a href="#desktopdev" data-toggle="collapse"><h3 class="jobs">C++ Developer<span class="icon-arrow"></span></h3></a>
             <div id="desktopdev" class="collapse">
                 <p>We're looking for a C++ developer to join our desktop client team!</p>
                 <p>You would work with our small and agile team to bring new features and improvements to the desktop client application. You ideally have some open source experience, know your way a bit around git and Github and live in the CET timezone.</p>
@@ -62,7 +62,7 @@
                     <li>A competitive salary.</li>
                 </ul>
                 <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this position.</p>
-            </div>-->
+            </div>
 
 			<a href="#accountmgr" data-toggle="collapse"><h3 class="jobs">Account Manager<span class="icon-arrow"></span></h3></a>
 			<div id="accountmgr" class="collapse">
