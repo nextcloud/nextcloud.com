@@ -38,6 +38,7 @@
 <p>ecsec (<a class="hyperlink" ="https://ecsec.de/en">https://ecsec.de/en</a>) is a specialized vendor of innovative solutions in the sector of security in the information and communication technology, security management, smart card technology, identity management, web security and electronic signature technology. Based on experiences from several consulting projects with international reach ecsec GmbH counts to the leading providers in this sector and supports well known customers within the conception and implementation of tailor-made solutions. Due to the observance of current results of science and technology and current and future international standards, an excellent consulting quality and sustainable customer prosperity are guaranteed. For example, ecsec developed the Open eCard App and the Open eCard Library, which was the world's first Open Source "eID-Client" or "eID-Kernel" to be certified by the German Federal Office for Information Security and received numerous international awards for its innovative SkIDentity service, which enables "Mobile eID as a Service".</p>
 <h2>Links</h2>
 <ul>
+<li>Blog post: <a href="https://nextcloud.com/blog/german-government-supports-authentication-with-identity-card-in-nextcloud/" class="hyperlink">https://nextcloud.com/blog/german-government-supports-authentication-with-identity-card-in-nextcloud/</a></li>
 <li>About Nextcloud: <a href="https://nextcloud.com/about" class="hyperlink">https://nextcloud.com/about</a></li>
 <li>About eIDAS : <a href="https://www.eid.as" class="hyperlink">https://www.eid.as</a></li>
 <li>About ecsec GmbH : <a class="hyperlink" ="https://ecsec.de">https://www.ecsec.de</a></li>
@@ -69,6 +70,7 @@ ecsec (<a class="hyperlink" ="https://ecsec.de">https://ecsec.de</a>) ist ein sp
 
 <h2>Links</h2>
 <ul>
+<li>Blog post: <a href="https://nextcloud.com/blog/german-government-supports-authentication-with-identity-card-in-nextcloud/" class="hyperlink">https://nextcloud.com/blog/german-government-supports-authentication-with-identity-card-in-nextcloud/</a></li>
 <li>Über Nextcloud: <a href="https://nextcloud.com/about" class="hyperlink">https://nextcloud.com/about</a></li>
 <li>Über eIDAS : <a href="https://www.eid.as" class="hyperlink">https://www.eid.as</a></li>
 <li>Über ecsec GmbH : <a class="hyperlink" ="https://ecsec.de">https://www.ecsec.de</a></li>
