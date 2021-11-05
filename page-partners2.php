@@ -56,6 +56,16 @@
                 <div class="desc-text">
                     <p>If you want to ensure your Nextcloud contributes to your business success, we recommend working locally with one of our partners which have the full backing of Nextcloud GmbH. These partners can help you do a proof of concept and purchase, deploy, optimize and maintain your Nextcloud.</p>
                 </div>
+                <div class="text-center">
+                    <p>Look for one of these logo's to make sure you deal with a certified partner!</p>
+                </div>
+                <div class="text-center" style="margin-bottom: 50px;">
+                    <img style="width: 80px;" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/Nextcloud_Bronze_Partner.svg" alt="partner logo" title="partner logo"/>
+                    <img style="width: 80px;" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/Nextcloud_Silver_Partner.svg" alt="partner logo" title="partner logo"/>
+                    <img style="width: 80px;" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/Nextcloud_Gold_Partner.svg" alt="partner logo" title="partner logo"/>
+                    <img style="width: 80px;" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/Nextcloud_Platinum_Partner.svg" alt="partner logo" title="partner logo"/>
+                    <img style="width: 80px;" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/Nextcloud_Hosting_Partner.svg" alt="partner logo" title="partner logo"/>
+                </div>
             </div>
         </div>
         <div class="row">
