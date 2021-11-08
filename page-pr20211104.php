@@ -20,7 +20,7 @@
 <div class="row">
 <div class="pr">
 <p><a href="#german">Deutsche Version unter</a></p>
-<h1>German government supports authentication with passport in Nextcloud</h1>
+<h1>German government supports authentication with identity card in Nextcloud</h1>
 <p><em>A digital boost for Europe as the collaboration platform for Gaia-X makes it possible to use European identity card for access</em></p>
 <p><em>Berlin, October 20 2021</em> - Nextcloud GmbH, the company behind the worlds’ most deployed on-premises content collaboration platform announces support for European e-ID identity card authentication, developed on behalf of the German Federal Office for Information Security. Citizens are now able to log into the European digital sovereign communication and collaboration platform used by Gaia-X and many others.</p>
 <p>To date, organizations in Europe have largely relied on proprietary, foreign collaboration platforms due to a lack of viable alternatives. This leads to dependency and a quasi-monopoly position for mostly US and China-based software and service providers while also introducing data protection and privacy concerns. Nextcloud supports businesses, governments and individuals in data protection-compliant digitalization, providing a complete, modern solution for communication and collaboration. Nextcloud has been proven in tens of thousands of organizations with tens of millions of users across the globe and is widely adopted by businesses and government organizations across Europe.</p>
