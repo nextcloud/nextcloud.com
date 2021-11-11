@@ -78,7 +78,7 @@ $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.nextcloud.com/download/repos
 
 // Testing
 $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.nextcloud.com/server/prereleases/';
-$SERVER_TESTING_VERSION ='23.0.0beta2'; // nothing to test -> leave it empty
+$SERVER_TESTING_VERSION ='23.0.0rc1'; // nothing to test -> leave it empty
 $DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-'.$SERVER_TESTING_VERSION.'.tar.bz2';
 $DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-'.$SERVER_TESTING_VERSION.'.zip';
 
