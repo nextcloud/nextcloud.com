@@ -37,7 +37,18 @@
 
 <a id="latest22"></a>
 
-<h3 id="22-2-1">Version 22.2.1 <small>November 12 2021</small></h3>
+<h3 id="22-2-2">Version 22.2.2 <small>November 12 2021</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.2.tar.bz2">nextcloud-22.2.2.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.2.zip">nextcloud-22.2.2.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.2.tar.bz2.md5">nextcloud-22.2.2.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.2.zip.md5">nextcloud-22.2.2.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.2.tar.bz2.sha256">nextcloud-22.2.2.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.2.zip.sha256">nextcloud-22.2.2.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.2.tar.bz2.sha512">nextcloud-22.2.2.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.2.zip.sha512">nextcloud-22.2.2.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.2.tar.bz2.asc">nextcloud-22.2.2.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.2.zip.asc">nextcloud-22.2.2.zip.asc</a></p>
+
+<h4>Changes</h4>
+<p>Single fix that could cause significant performance degradation: Fix missing token update <a href="https://github.com/nextcloud/server/pull/29682">#29682</a></p>
+
+<h3 id="22-2-1">Version 22.2.1 <small>November 11 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.1.tar.bz2">nextcloud-22.2.1.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.1.zip">nextcloud-22.2.1.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.1.tar.bz2.md5">nextcloud-22.2.1.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.1.zip.md5">nextcloud-22.2.1.zip.md5</a></br>
