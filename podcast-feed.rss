@@ -40,6 +40,21 @@
     <link>https://nextcloud.com/podcast/</link>
 
    <item>
+      <title>Interview with Matthieu Gallien, Senior Software Engineer at Nextcloud</title>
+      <itunes:subtitle>In this 13th episode, our host Ingo talked with Matthieu Gallien, Senior Software Engineer at Nextcloud, responsible for  Desktop client.</itunes:subtitle>
+      <itunes:summary>Matthieu covers interesting topics of Desktop Client such as Sync Client, how it works, and the new features like Virtual files, Speedup sync, E2E encryption, and more.</itunes:summary>
+      <itunes:duration>00:34:02</itunes:duration>
+      <description>Matthieu covers interesting topics of Desktop Client such as Sync Client, how it works, and the new features like Virtual files, Speedup sync, E2E encryption, and more.</description>
+      <pubDate>Tue, 12 Nov 2021 9:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_013.mp3"
+                 type="audio/mpeg" length="28727039"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_013.mp3</guid>
+      <link>https://nextcloud.com/blog/interview-with-matthieu-gallien-senior-software-engineer-at-nextcloud/</link>
+   </item> 
+      
+   <item>
       <title>Interview with Nimisha Vijay, UX and UI Designer at Nextcloud</title>
       <itunes:subtitle>In this 12th episode, our host Ingo talked with Nimisha Vijay, UX and UI Designer at Nextcloud.</itunes:subtitle>
       <itunes:summary>Find more about UX Design in general and Nimisha's experience as a designer at Nextcloud!</itunes:summary>
