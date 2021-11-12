@@ -223,7 +223,7 @@
                             <div class="icon">
                                 <?php echo file_get_contents(__DIR__."/assets/img/icons/tools.svg"); ?>
                             </div>
-                            <p class="section--paragraph"><?php echo $l->t('Nextcloud offers built in monitoring tools and integrates with existing MDM, DLP, event logging and backup tools, enabling existing tool chains to be used to monitor, back up and restore systems.');?></p>
+                            <p class="section--paragraph"><?php echo $l->t('Nextcloud offers built in monitoring tools and integrates with existing MDM, DLP, event logging and backup tools, enabling existing tool chains to be used to monitor, backup and restore systems.');?></p>
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="integration-tab3">
@@ -311,8 +311,8 @@
                             <div class="icon">
                                 <?php echo file_get_contents(__DIR__."/assets/img/icons/2fa.svg"); ?>
                             </div>
-                             <p class="section--paragraph"><?php echo $l->t('Nextcloud includes a variety of second factors like TOTP, U2F and SMS gateaways. 2-factor authentication can be enforced and user sessions and devices can be managed.');?></p>
-                              <p class="section--paragraph"><?php echo $l->t('Nextcloud is also among the first in the industry to provide support for the WebAuthn standard, enabling password-less authentication and support for Windows Hello, varous FIDO2 keys and other standards-compliant authentication devices');?></p>
+                             <p class="section--paragraph"><?php echo $l->t('Nextcloud includes a variety of second factors like TOTP, U2F and SMS gateways. 2-factor authentication can be enforced and user sessions and devices can be managed.');?></p>
+                              <p class="section--paragraph"><?php echo $l->t('Nextcloud is also among the first in the industry to provide support for the WebAuthn standard, enabling password-less authentication and support for Windows Hello, various FIDO2 keys and other standards-compliant authentication devices');?></p>
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="authentication-tab4">
