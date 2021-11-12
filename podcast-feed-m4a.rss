@@ -38,14 +38,14 @@
     <language>en-us</language>
     <atom:link href="https://nextcloud.com/podcast-feed-m4a.rss" rel="self" type="application/rss+xml" />
     <link>https://nextcloud.com/podcast/</link>
-      
+
     <item>
       <title>Interview with Matthieu Gallien, Senior Software Engineer at Nextcloud</title>
       <itunes:subtitle>In this 13th episode, our host Ingo talked with Matthieu Gallien, Senior Software Engineer at Nextcloud, responsible for  Desktop client.</itunes:subtitle>
       <itunes:summary>Matthieu covers interesting topics of Desktop Client such as Sync Client, how it works, and the new features like Virtual files, Speedup sync, E2E encryption, and more.</itunes:summary>
       <itunes:duration>00:34:02</itunes:duration>
       <description>Matthieu covers interesting topics of Desktop Client such as Sync Client, how it works, and the new features like Virtual files, Speedup sync, E2E encryption, and more.</description>
-      <pubDate>Tue, 12 Nov 2021 9:00:00 GMT</pubDate>
+      <pubDate>Fri, 12 Nov 2021 9:00:00 GMT</pubDate>
       <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_013.m4a"
                  type="audio/x-m4a" length="20938937"/>
       <itunes:author>Nextcloud</itunes:author>
