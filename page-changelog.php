@@ -34,8 +34,29 @@
     <li><a href="#latest9">Nextcloud 9 (unsupported!)</a></li>
     </ul>
 <p>Note here that with 'supported' in this context we mean that software updates will be available to the public, not that there is any actual support beyond community members answering questions in our home user forums. If you need to run Nextcloud in an enterprise setting, we recommend <a class="hyperlink" href="https://nextcloud.com/enterprise">Nextcloud Enterprise.</a></p>
+<h3>Privacy needs security</h3>
+<p>We strongly recommend to stay up to date with Nextcloud to keep your data safe. The minor releases fix security issues that are found through, for example, our <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-conference-news-nextcloud-gmbh-doubling-hackerone-security-bug-bounties/">HackerOne program.</a> Not doing so can put your data at risk. Update timely and don't run unmaintained Nextcloud versions. <strong>Privacy does not exist without security.</strong><br /> Our security policy is to publicize CVE's about 3 weeks after public availability of a new minor release. Administrators can then learn more about the vulnerabilities fixed and determine if their systems might have been vulnerable. As malicious actors are at this point more able to determine attack vectors, it is important to have updated before the CVE's are published.</p>
+<p>We provide advance patches and security information for no-downtime-security-patching for Nextcloud Enterprise. If you run a server with sensitive data at scale, we highly recommend to use Nextcloud Enterprise.</p>
 
 <a id="latest22"></a>
+
+<h3 id="22-2-3">Version 22.2.3 <small>November 15 2021</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.3.tar.bz2">nextcloud-22.2.3.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.3.zip">nextcloud-22.2.3.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.3.tar.bz2.md5">nextcloud-22.2.3.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.3.zip.md5">nextcloud-22.2.3.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.3.tar.bz2.sha256">nextcloud-22.2.3.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.3.zip.sha256">nextcloud-22.2.3.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.3.tar.bz2.sha512">nextcloud-22.2.3.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.3.zip.sha512">nextcloud-22.2.3.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.3.tar.bz2.asc">nextcloud-22.2.3.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.3.zip.asc">nextcloud-22.2.3.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/29658">Bump moment-timezone from 0.5.33 to 0.5.34 (server#29658)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/29706">Don't flash external storage mountpoints during the status check (server#29706)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/29717">Bump doctrine/dbal to 3.1.4 (server#29717)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/890">Add composer patch (3rdparty#890)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/895">Bump doctrine/dbal to 3.1.4 (3rdparty#895)</a></li>
+</ul>
+
 
 <h3 id="22-2-2">Version 22.2.2 <small>November 12 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.2.tar.bz2">nextcloud-22.2.2.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.2.zip">nextcloud-22.2.2.zip</a></br>
@@ -434,6 +455,24 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p>You can find a list of PR's for the core server, without dependency bumps, <a href="https://github.com/nextcloud/server/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">here.</a> If you replace 'server' in the URL above with, for example, <a href="https://github.com/nextcloud/viewer/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">viewer</a>, <a href="https://github.com/nextcloud/activity/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">activity</a>, <a href="https://github.com/nextcloud/photos/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">photos</a>, <a href="https://github.com/nextcloud/notifications/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">notifications</a> or <a href="https://github.com/nextcloud/text/pulls?q=is%3Apr+milestone%3A%22Nextcloud+22%22+is%3Aclosed+sort%3Acreated-asc+is%3Amerged+NOT+bump+">text</a>, the changes in the respective apps will show up.</p>
 
 <a id="latest21"></a>
+
+<h3 id="21-0-7">Version 21.0.7 <small>November 15 2021</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.7.tar.bz2">nextcloud-21.0.7.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.7.zip">nextcloud-21.0.7.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.7.tar.bz2.md5">nextcloud-21.0.7.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.7.zip.md5">nextcloud-21.0.7.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.7.tar.bz2.sha256">nextcloud-21.0.7.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.7.zip.sha256">nextcloud-21.0.7.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.7.tar.bz2.sha512">nextcloud-21.0.7.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.7.zip.sha512">nextcloud-21.0.7.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.7.tar.bz2.asc">nextcloud-21.0.7.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.7.zip.asc">nextcloud-21.0.7.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/29635">Use unique combination of hostname/bucket/key for external storages (server#29635)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/29656">Bump moment-timezone from 0.5.33 to 0.5.34 (server#29656)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/29707">Don't flash external storage mountpoints during the status check (server#29707)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/29718">Bump doctrine/dbal to 3.1.4 (server#29718)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/891">Add composer patch (3rdparty#891)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/896">Bump doctrine/dbal to 3.1.4 (3rdparty#896)</a></li>
+</ul>
 
 <h3 id="21-0-6">Version 21.0.6 <small>November 12 2021</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.6.tar.bz2">nextcloud-21.0.6.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-21.0.6.zip">nextcloud-21.0.6.zip</a></br>
