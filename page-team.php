@@ -703,6 +703,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Jonas Meurer</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Office Team and Collectives app</h4>
+					<h4 class="teamlocation">Lives in Germany</h4>
+					<p class="teamsocial"><a href="https://github.com/mejo-"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Jonas is a full stack developer with focus on PHP and Javascript. He's one of the authors of the Nextcloud Collectives app.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/julien.jpg" />
 				<h2 class="teamname">Julien Veyssier</h2>
 				<div class="teammeta">
