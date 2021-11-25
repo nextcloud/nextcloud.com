@@ -329,6 +329,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Marius Quabeck</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Audio/video editor</h3>
+					<h4 class="teamexpertise">Photography, UI graphics and video</h4>
+					<h4 class="teamlocation">Lives in ..., Germany</h4>
+					<p class="teamsocial"><a href="TBD"><i class="fa-rss fa"></i></a></p>
+				</div>
+				<p class="teamdescription">TBD</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/sandra.jpg" />
 				<h2 class="teamname">Sandra Stutz</h2>
 				<div class="teammeta">
