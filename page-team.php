@@ -176,19 +176,6 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-				<h2 class="teamname">Simon Ebentheuer</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Senior account manager</h3>
-					<h4 class="teamexpertise">Sales and Account Management</h4>
-					<h4 class="teamlocation">Lives in Nuremberg, Germany</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/simon-ebentheuer/"><i class="fa-linkedin fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Simon has gained sales experience in the past for ABB, Siemens and most recently for SUSE. Here he was responsible especially for manufacturing customers. Infected with the open source idea he is now happy to provide customers with more productivity thanks to the collaboration platform of Nextcloud. Simon studied teaching and technical journalism and lives in Nuremberg.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/viktoria.jpg" />
 				<h2 class="teamname">Viktoria Elvert</h2>
 				<div class="teammeta">
