@@ -579,7 +579,7 @@
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Server</h4>
 					<h4 class="teamlocation">Lives in Saarbrücken, Germany</h4>
-					<p class="teamsocial"><a href="https://carlschwan.eu"><i class="fa-rss fa"></i></a> <a href="https://github.com/ognarb"><i class="fa-github fa"></i></a> <a href="https://invent.kde.org/carlschwan"><i class="fa-gitlab fa"></i></a> <a href="https://twitter.com/CarlKDE"><i class="fa-twitter fa"></i></a> <a href="https://linuxrocks.online/@carl"><i class="fa-mastodon fa"></i></a></p>
+					<p class="teamsocial"><a href="https://carlschwan.eu"><i class="fa-rss fa"></i></a> <a href="https://github.com/CarlSchwan"><i class="fa-github fa"></i></a> <a href="https://invent.kde.org/carlschwan"><i class="fa-gitlab fa"></i></a> <a href="https://twitter.com/CarlKDE"><i class="fa-twitter fa"></i></a> <a href="https://linuxrocks.online/@carl"><i class="fa-mastodon fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Carl is from a Franco-German family and lived in Germany and France. He's involved in the KDE community, leading its web efforts as well as being a core member of promo, Plasma, Plasma Mobile and fundraising teams and maintaining NeoChat, KDE's Matrix client.</p>
 			</div>
@@ -775,7 +775,7 @@
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Talk, frontend and design</h4>
 					<h4 class="teamlocation">Lives in Barcelona, spain</h4>
-					<p class="teamsocial"> <a href="https://github.com/ma12-co"><i class="fa-github fa"></i></a> </p>
+					<p class="teamsocial"> <a href="https://github.com/marcoambrosini"><i class="fa-github fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Marco is a front end developer that cares deeply about design and user experience. He is part of the talk and design teams.</p>
 			</div>
@@ -814,7 +814,7 @@
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Server, full text search</h4>
 					<h4 class="teamlocation">Lives in Santa Maria, Cape Verde</h4>
-					<p class="teamsocial"> <a href="https://github.com/daita"><i class="fa-github fa"></i></a> <a href="https://twitter.com/AnArtificialOwl"><i class="fa-twitter fa"></i></a></p>
+					<p class="teamsocial"> <a href="https://github.com/ArtificialOwl"><i class="fa-github fa"></i></a> <a href="https://twitter.com/AnArtificialOwl"><i class="fa-twitter fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Maxence has extensive experience in PHP and Java/android development as well as database and network management. He is the principal author and maintainer of the Nextcloud full-text search apps and Circles.</p>
 			</div>
