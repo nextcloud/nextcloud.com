@@ -311,6 +311,30 @@
 		</div>
         <div class="col-md-3">
             <div class="row wpthumbnail">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/luxembourg-thumbnail-banner.png"/>
+            </div>
+            <div class="row">
+				<div class="description">
+					<h3 class="section--paragraph__title"><?php echo $l->t('15K teachers in Luxembourg use Nextcloud');?></h3>
+                    <p class="section--paragraph"><?php echo $l->t('Nextcloud partner HNK has delivered a super fast Nextcloud setup to protect student and teacher data in Luxembourg, working for the Centre de gestion informatique de éducation');?></p>
+                </div>
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
+                    <input type="hidden" name="segmentId" value="18">
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?> <?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
+                </form>
+			</div>
+		</div>
+        <div class="col-md-3">
+            <div class="row wpthumbnail">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/geneve-audit-thumbnail-banner.png"/>
             </div>
             <div class="row">

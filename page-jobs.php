@@ -740,6 +740,63 @@
                 </ul>
                 <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
             </div>
+
+            <a href="#webrtcdev" data-toggle="collapse"><h3 class="jobs">WebRTC Developer<span class="icon-arrow"></span></h3></a>
+            <div id="webrtcdev" class="collapse">
+            <p>We're looking for developers with experience in WebRTC development to join our server team!</p>
+            <p>You would work with the engineering team to bring new features and improvements to the server user interface like our File management app or one of the many other applications like Calendar and Contacts, Announcements and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
+            <h3 class="section--paragraph__title">Responsibilities:</h3>
+            <ul>
+            <li>Front end development (JS, PHP, WebRTC)</li>
+            <li>Cross platform testing</li>
+            <li>Quality assurance</li>
+            </ul>
+            <h3 class="section--paragraph__title">Required skills:</h3>
+            <ul>
+            <li>Deep technical experience with WebRTC, Javascript and perhaps a bit of PHP</li>
+            <li>Teamworking capabilities</li>
+            <li>Independence and self-reliance.</li>
+            <li>Knowledge around open source technology</li>
+            </ul>
+            <h3 class="section--paragraph__title">What we offer:</h3>
+            <ul>
+            <li>A distributed, open team with a passion for working on and within the open source community</li>
+            <li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
+            <li>A competitive salary</li>
+            <li>Flexibility for a healthy work-life balance</li>
+            <li>Time for personal growth and education</li>
+            </ul>
+            <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+            </div>
+            <a href="#phpdev" data-toggle="collapse"><h3 class="jobs">PHP back-end developer<span class="icon-arrow"></span></h3></a>
+            <div id="phpdev" class="collapse">
+            <p>We're looking for developers with experience in PHP back-end development to join our server team!</p>
+            <p>You would work with the engineering team to bring new features and improvements to the server back-end like new authentication or storage mechanisms, audio/video chat and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
+            <h3 class="section--paragraph__title">Responsibilities:</h3>
+            <ul>
+            <li>Back end development (PHP)</li>
+            <li>Database design</li>
+            <li>Systems design</li>
+            <li>Quality assurance</li>
+            </ul>
+            <h3 class="section--paragraph__title">Required skills:</h3>
+            <ul>
+            <li>Technical experience with PHP and bit of HTML, CSS, Javascript</li>
+            <li>Teamworking capabilities</li>
+            <li>Independence and self-reliance.</li>
+            <li>Knowledge around open source technology</li>
+            </ul>
+            <h3 class="section--paragraph__title">What we offer:</h3>
+            <ul>
+            <li>A distributed, open team with a passion for working on and within the open source community</li>
+            <li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
+            <li>A competitive salary</li>
+            <li>Flexibility for a healthy work-life balance</li>
+            <li>Time for personal growth and education</li>
+            </ul>
+            <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+            </div>
+
             <a href="#androiddev" data-toggle="collapse"><h3 class="jobs">Android App developer<span class="icon-arrow"></span></h3></a>
             <div id="androiddev" class="collapse">
                 <p>We're looking for developers with experience in Android app development to join our client team!</p>

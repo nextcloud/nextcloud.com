@@ -3,7 +3,7 @@
 
 /* VERSIONS */
 $VERSIONS_SERVER_MAJOR_STABLE = '22';
-$VERSIONS_SERVER_FULL_STABLE = '22.2.0';
+$VERSIONS_SERVER_FULL_STABLE = '22.2.3';
 $VERSIONS_SERVER_MAJOR_DEVELOPMENT = '22';
 $VERSIONS_SERVER_MAJOR_DEV_DOCS = '22'; // Used in dev docs links
 $VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '3.3.6';
@@ -45,7 +45,7 @@ $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES = 'https://github.com/nextcloud/desktop'
 // $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES.'.asc';
 
 // Desktop client testing
-$VERSIONS_CLIENT_DESKTOP_TESTING = '';
+$VERSIONS_CLIENT_DESKTOP_TESTING = '3.4RC1';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE= 'https://download.nextcloud.com/desktop/prereleases/';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'Windows/Nextcloud-3.4.0-rc2-x64.msi';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'Mac/Nextcloud-3.4.0-rc2.pkg';
@@ -78,7 +78,7 @@ $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.nextcloud.com/download/repos
 
 // Testing
 $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.nextcloud.com/server/prereleases/';
-$SERVER_TESTING_VERSION ='23.0.0beta2'; // nothing to test -> leave it empty
+$SERVER_TESTING_VERSION ='23.0.0rc3'; // nothing to test -> leave it empty
 $DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-'.$SERVER_TESTING_VERSION.'.tar.bz2';
 $DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-'.$SERVER_TESTING_VERSION.'.zip';
 
