@@ -111,19 +111,6 @@
 	<div class="row">
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/christian.jpg" />
-				<h2 class="teamname">Christian Göhring</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Senior account manager</h3>
-					<h4 class="teamexpertise">Sales and account management</h4>
-					<h4 class="teamlocation">Lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/christian-g-62523156/"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Christian_Goehring/cv"><i class="fa-xing fa"></i></a></p>
-				</div>
-				<p class="teamdescription">Christian grew up in Paris and is now back in Stuttgart for many years. He worked in telecommunication and technology companies for over 20 years and still enjoys French wine, together with family, mountain biking and remote controlled cars.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/edeltraut.jpg" />
 				<h2 class="teamname">Edeltraut Bobb</h2>
 				<div class="teammeta">
