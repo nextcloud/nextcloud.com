@@ -111,19 +111,6 @@
 	<div class="row">
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/christian.jpg" />
-				<h2 class="teamname">Christian Göhring</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Senior account manager</h3>
-					<h4 class="teamexpertise">Sales and account management</h4>
-					<h4 class="teamlocation">Lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/christian-g-62523156/"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Christian_Goehring/cv"><i class="fa-xing fa"></i></a></p>
-				</div>
-				<p class="teamdescription">Christian grew up in Paris and is now back in Stuttgart for many years. He worked in telecommunication and technology companies for over 20 years and still enjoys French wine, together with family, mountain biking and remote controlled cars.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/edeltraut.jpg" />
 				<h2 class="teamname">Edeltraut Bobb</h2>
 				<div class="teammeta">
@@ -172,19 +159,6 @@
 					<p class="teamsocial"><a href="https://www.linkedin.com/in/olivierparoz"><i class="fa-linkedin fa"></i></a> <a href="https://github.com/oparoz"><i class="fa-github fa"></i></a> <a href="https://twitter.com/oparoz"><i class="fa-twitter fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Olivier studied Economics and Information and Communications Systems Management at the University of Geneva. He did work on the Nextcloud code base and has close to 20 years experience in Consulting, Business Development and large scale deployments. He has helped customers in a broad range of industies both in the private and public sector, with a focus on open source, usability, security and privacy.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-				<h2 class="teamname">Simon Ebentheuer</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Senior account manager</h3>
-					<h4 class="teamexpertise">Sales and Account Management</h4>
-					<h4 class="teamlocation">Lives in Nuremberg, Germany</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/simon-ebentheuer/"><i class="fa-linkedin fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Simon has gained sales experience in the past for ABB, Siemens and most recently for SUSE. Here he was responsible especially for manufacturing customers. Infected with the open source idea he is now happy to provide customers with more productivity thanks to the collaboration platform of Nextcloud. Simon studied teaching and technical journalism and lives in Nuremberg.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
