@@ -34,6 +34,7 @@ height: 100px;
     <a href="<?php echo home_url('press/pr20210706') ?>" class="button button--large button--white button--arrow">Press release</a>
     <h2>Press releases 2021</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20211129') ?>">November 29, 2021: EU coalition urges EU to push back against gate keeping by Microsoft, files official complaint</a></li>
         <li><a href="<?php echo home_url('press/pr20211104') ?>">November 4st, 2021: German government supports authentication with passport in Nextcloud</a></li>
         <li><a href="<?php echo home_url('press/pr20211101') ?>">November 1st, 2021: Nextcloud introduces peer-to-peer backup app for private instances, beta available now</a></li>
         <li><a href="<?php echo home_url('press/pr20211012') ?>">October 12, 2021: Nextcloud and TrueNAS deliver Productivity and Privacy</a></li>
