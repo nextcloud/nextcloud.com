@@ -14,9 +14,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-			<a class="announcement" href="https://nextcloud.com/blog/first-in-germany-again/">
+			<a class="announcement" href="https://nextcloud.com/blog/nextcloud-hub-2-brings-major-overhaul-introducing-nextcloud-office-p2p-backup-and-more/">
 				<span class="type">News</span>
-				<span class="message"><strong><?php echo $l->t('#1 Collaboration platform');?>:</strong> <?php echo $l->t('Nextcloud again wins Platinum award from largest professional IT community in Germany');?></span>
+				<span class="message"><strong><?php echo $l->t('Introducing Nextcloud Hub II');?>:</strong> <?php echo $l->t('Market shake-up with Nextcloud Office, P2P backup & more');?></span>
 				<?php echo file_get_contents(__DIR__."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Regain control');?></h1>

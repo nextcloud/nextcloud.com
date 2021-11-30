@@ -1,9 +1,9 @@
 <head>
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/pressrelease.css" rel="stylesheet">
-    <meta itemprop="image" content="https://nextcloud.com/media/backup-app-settings-1.png">
-    <meta name="twitter:image" content="https://nextcloud.com/media/backup-app-settings-1.png">
-    <meta name="twitter:image:src" content="https://nextcloud.com/media/backup-app-settings-1.png">
-    <meta property="og:image" content="https://nextcloud.com/media/backup-app-settings-1.png">
+    <meta itemprop="image" content="https://antitrust.nextcloud.com/organizations.png">
+    <meta name="twitter:image" content="https://antitrust.nextcloud.com/organizations.png">
+    <meta name="twitter:image:src" content="https://antitrust.nextcloud.com/organizations.png">
+    <meta property="og:image" content="https://antitrust.nextcloud.com/organizations.png">
 </head>
 <div class="background generic-background">
 	<div class="container">
