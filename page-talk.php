@@ -171,6 +171,7 @@
                     <li><?php echo $l->t('Individual and group calls & chat');?></li>
                     <li><?php echo $l->t('Mobile apps for Android and iOS');?></li>
                     <li><?php echo $l->t('Easy screen sharing');?></li>
+                    <li><?php echo $l->t('Permission management by moderators');?></li>
                     <li><?php echo $l->t('Integration with');?> <a class="hyperlink" href="<?php echo home_url('files') ?>">Nextcloud Files</a> <?php echo $l->t('and');?> <a class="hyperlink" href="<?php echo home_url('groupware') ?>">Groupware</a></li>
                 </ul></p>
             </div>
@@ -178,7 +179,7 @@
                 <ul>
                     <li><?php echo $l->t('Mobile calls & chat with push notifications');?></li>
                     <li><?php echo $l->t('Commands to enable integration with other tools');?></li>
-                    <li><?php echo $l->t('Webinars & public web meetings¹');?></li>
+                    <li><?php echo $l->t('Webinars & public web meetings¹ with lobby');?></li>
                     <li><?php echo $l->t('SIP bridge: dial in by phone²');?></li>
                 </ul>
             </div>
@@ -374,15 +375,14 @@
     </div>
 	<div class="row">
 		<div class="col-md-6 image--floated">
-			<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/556061980?badge=0&amp;autopause=0&amp;dnt=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Raise hand in Talk video"></iframe></div>
-<!-- 			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a> -->
+			<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/650819931?h=7e60a839cc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Talk moderation"></iframe></div>
 		</div>
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Webinars and presentations');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Share the content of a single window or a full desktop screen for presentations with chat-partners.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Manage participants by inviting, muting or removing them.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Manage participants permissions for audio/video and screen sharing.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Schedule meetings and be notified when they start.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('A lobby is provided for guests to wait until the call starts.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('A lobby is provided for guests to wait until the call starts. Moderators can let a selected guest in early.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Participants can raise their hand to get attention or be allowed to speak.');?></p>
 		</div>
 	</div>
@@ -398,7 +398,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-6  image--floated  image--feature new-img">
+		<div class="col-md-6 image--floated image--feature new-img">
             <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/Talk_settings.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/Talk_settings.png" class="overlay-trigger img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">

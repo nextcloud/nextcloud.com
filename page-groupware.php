@@ -77,14 +77,13 @@
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Mail');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Send and receive emails in a breeze');?></p>
-			<p class="section--paragraph"><?php echo $l->t('<ul>
-			<li>Multiple accounts with unified inbox</li>
-			<li>Recognizes travel itineraries and adds them to calendar</li>
-			<li>Supports end-to-end encryption using OpenPGP</li>
+			<ul>
+                <li><?php echo $l->t('Multiple accounts with unified, smart inbox');?></li>
+                <li><?php echo $l->t('Travel itinerary recognition and Calendar integration');?></li>
+                <li><?php echo $l->t('Supports end-to-end encryption using OpenPGP');?></li>
 			</ul>
 			<br>
-			<small><strong>Note:</strong> Nextcloud Mail is a client for IMAP servers;<br>Nextcloud does not include a mail server.</small>
-			');?></p>
+			<p class="section--paragraph"><small><?php echo $l->t('<strong>Note:</strong> Nextcloud Mail is a client for IMAP servers; Nextcloud does not include a mail server.');?></small></p>
         </div>
 	</div>
     <div class="row">
@@ -103,22 +102,22 @@
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Calendar');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Schedule work and meetings online');?></p>
-			<p class="section--paragraph"><?php echo $l->t('<ul>
-			<li>Create and share multiple calendars</li>
-            <li>Integrate external calendar resources (WebCal)</li>
-			<li>Book resources through a busy view or plan a Talk meeting</li>
+			<p class="section--paragraph"><ul>
+			<li><?php echo $l->t('Create and share multiple calendars');?></li>
+            <li><?php echo $l->t('Integrate external calendar resources (WebCal)');?></li>
+			<li><?php echo $l->t('Appointment scheduling, resource booking & Talk integration');?></li>
 			</ul>
-			');?></p>
+			</p>
         </div>
 	</div>
     <div class="row">
 		<div class="col-md-6 image--feature">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_list_view.png"><img alt="<?php echo $l->t('Calendar list view');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_list_view.png" /></a><br />
-			<?php echo $l->t('Calendar list view');?>
+			<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/650621426?h=5896b9b0bd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Appointments planning in Calendar"></iframe></div>
+			<?php echo $l->t('Appointment planning');?>
         </div>
 		<div class="col-md-6 image--feature">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_day_view.png"><img alt="<?php echo $l->t('Calendar day view');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_day_view.png" /></a><br />
-            <?php echo $l->t('Calendar day view');?>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-resource-booking.png"><img alt="<?php echo $l->t('Calendar day view');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-resource-booking.png" /></a><br />
+            <?php echo $l->t('Resource search and booking');?>
         </div>
 	</div>
 	<div class="row">
@@ -127,12 +126,12 @@
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Contacts');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Keep your relations organized');?></p>
-			<p class="section--paragraph"><?php echo $l->t('<ul>
-			<li>Track birthdays of your contacts</li>
-			<li>Share your address books with your team</li>
-			<li>Sync your contacts with phones and other devices</li>
+			<p class="section--paragraph"><ul>
+			<li><?php echo $l->t('Share your address books with your team');?></li>
+			<li><?php echo $l->t('Sync your contacts with phones and other devices');?></li>
+			<li><?php echo $l->t('Create, join and manage custom groups you can share with across Nextcloud');?></li>
 			</ul>
-			');?></p>
+			</p>
         </div>
 	</div>
     <div class="row">
@@ -151,12 +150,12 @@
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Deck');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Manage your work with others');?></p>
-			<p class="section--paragraph"><?php echo $l->t('<ul>
-			<li>Create any number of private or shared Kanban-style task boards</li>
-			<li>Drag\'n\'drop cards, assign them to team members and set due dates</li>
-			<li>Use checklists, attach files & export boards</li>
+			<p class="section--paragraph"><ul>
+			<li><?php echo $l->t('Create any number of private or shared Kanban-style task boards');?></li>
+			<li><?php echo $l->t('Drag\'n\'drop cards, assign them to team members and set due dates');?></li>
+			<li><?php echo $l->t('Use checklists, attach files & export boards');?></li>
 			</ul>
-			');?></p>
+			</p>
         </div>
 	</div>
     <div class="row">
