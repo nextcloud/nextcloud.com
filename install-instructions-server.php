@@ -120,13 +120,18 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <h5><?php echo $l->t('Docker image');?></h5>
                                     <p><?php echo $l->t('Several Nextcloud community members maintain a Docker image. It supports a wide range of architectures, releases, various webservers, databases and more.');?></p>
                                     <p><a class="button button--blue" href="https://hub.docker.com/_/nextcloud/" target="_blank"><?php echo $l->t('Get Docker image');?></a></p>
                                     <p><a class="hyperlink" href="https://github.com/nextcloud/docker" target="_blank"><?php echo $l->t('Find source here');?></a>.</p>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-4">
+                                    <h5><?php echo $l->t('Docker all-in-one image');?></h5>
+                                    <p><?php echo $l->t('Nextcloud GmbH maintains an easy all-in-one Docker image. It does not support the wide range of options of the community image, but is easy to install and maintain.');?></p>
+                                    <p><a class="button button--blue" href="https://hub.docker.com/r/nextcloud/all-in-one" target="_blank"><?php echo $l->t('Get Docker image');?></a></p>
+                                </div>
+                                <div class="col-md-4">
                                     <h5><?php echo $l->t('Snap package');?></h5>
                                     <p><a class="hyperlink" href="https://canonical.com">Canonical</a><?php echo $l->t(' and the Nextcloud community maintain a Nextcloud Snap, including release channels and quick and easy deployment for easy home use.');?></p>
                                     <p><a class="button button--blue" href="https://snapcraft.io/nextcloud" target="_blank"><?php echo $l->t('Get Snap package');?></a></p>
