@@ -243,6 +243,7 @@
 				<li><code class="apache">a2enmod proxy_http</code></li>
 				<li><code class="apache">a2enmod ssl</code></li>
 			</ol>
+			<p class="section--paragraph"><?php echo $l->t('Warning, if you are using Nextcloud 23 (Nextcloud HUB II), the VirtualHost configuration has changed. You can find the latest installation information on <a href="%s">Collabora Online official documentation</a>', ['https://sdk.collaboraonline.com/docs/installation/Proxy_settings.html#reverse-proxy-with-apache-2-webserver']);?></p>
 			<p class="section--paragraph"><?php echo $l->t('Afterward, configure one VirtualHost properly to proxy the traffic. For security reason we recommend to use a subdomain such as office.nextcloud.com instead of running on the same domain. An example config can be found below:');?></p>
 			<p><pre>
 				<code class="apache">
