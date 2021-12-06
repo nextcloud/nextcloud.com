@@ -130,7 +130,7 @@
 				<h1 class="header"><?php echo $l->t('Benefits');?></h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 3 years');?></li>
+					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 1 year');?></li>
 					<li class="check" title="<?php echo $l->t('Ahead of time access to security and stability patches.');?>" rel="tooltip"><?php echo $l->t('Early security and stability patches');?></li>
 					<li class="check" title="<?php echo $l->t('Questions and issues are generally responded to in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 2 business days');?></li>
 					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support engineers.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://portal.nextcloud.com">Portal support</a>');?></li>
