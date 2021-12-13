@@ -18,9 +18,10 @@
     <p>We recommend you follow our <a href="<?php echo home_url('release-channels') ?>">Release Channels</a> to always have the latest and most secure Nextcloud Server version which fits your needs.</p>
     Go directly to the latest maintenance release of:
     <ul>
+    <li><a href="#latest22">Nextcloud 23</a></li>
     <li><a href="#latest22">Nextcloud 22</a></li>
     <li><a href="#latest21">Nextcloud 21</a></li>
-    <li><a href="#latest20">Nextcloud 20</a></li>
+    <li><a href="#latest20">Nextcloud 20 (unsupported!)</a></li>
     <li><a href="#latest19">Nextcloud 19 (unsupported!)</a></li>
     <li><a href="#latest18">Nextcloud 18 (unsupported!)</a></li>
     <li><a href="#latest17">Nextcloud 17 (unsupported!)</a></li>
@@ -37,6 +38,32 @@
 <h3>Privacy needs security</h3>
 <p>We strongly recommend to stay up to date with Nextcloud to keep your data safe. The minor releases fix security issues that are found through, for example, our <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-conference-news-nextcloud-gmbh-doubling-hackerone-security-bug-bounties/">HackerOne program.</a> Not doing so can put your data at risk. Update timely and don't run unmaintained Nextcloud versions. <strong>Privacy does not exist without security.</strong><br /> Our security policy is to publicize CVE's about 3 weeks after public availability of a new minor release. Administrators can then learn more about the vulnerabilities fixed and determine if their systems might have been vulnerable. As malicious actors are at this point more able to determine attack vectors, it is important to have updated before the CVE's are published.</p>
 <p>We provide advance patches and security information for no-downtime-security-patching for Nextcloud Enterprise. If you run a server with sensitive data at scale, we highly recommend to use Nextcloud Enterprise.</p>
+
+<a id="latest23"></a>
+<h3 id="23-0-0">Version 23.0.0 <small>November 30 2021</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.0.tar.bz2">nextcloud-23.0.0.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.0.zip">nextcloud-23.0.0.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.0.tar.bz2.md5">nextcloud-23.0.0.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.0.zip.md5">nextcloud-23.0.0.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.0.tar.bz2.sha256">nextcloud-23.0.0.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.0.zip.sha256">nextcloud-23.0.0.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.0.tar.bz2.sha512">nextcloud-23.0.0.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.0.zip.sha512">nextcloud-23.0.0.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.0.tar.bz2.asc">nextcloud-23.0.0.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.0.zip.asc">nextcloud-23.0.0.zip.asc</a></p>
+
+<h4>Nextcloud 23 is here!</h4>
+
+<p>The biggest improvements Nextcloud Hub 22 introduces are:</p>
+<ul>
+    <li>🚀 Nextcloud Files: 10x syncing performance improvements,delegate limited administration from admins to users; automatic user status setting</li>
+    <li>👥 Nextcloud Groupware: external appointment booking, advanced room and resource search in Calendar and Mail improvements</li>
+    <li>💬 Nextcloud Talk: background blur, device check screen and advanced permission management</li>
+    <li>🖺 Nextcloud Office: developed in collaboration with Collabora Productivity</li>
+    <li>🖱️ One-click deployment: easy installation and update</li>
+    <li>📦 Nextcloud Backup: a peer-to-peer backup solution designed for private users</li>
+    <li>📱 Nextcloud Clients: updates available for Desktop, Android and iOS clients</li>
+</ul>
+
+<p>There are many more new features and changes like integration of Unified Search, User Profile and User status in our mobile apps, emoji picker in Text, updates to Deck and much more.</p>
+
+<p><a href="https://nextcloud.com/blog/nextcloud-hub-2-brings-major-overhaul-introducing-nextcloud-office-p2p-backup-and-more/">Read our announcement blog for all the the details.</a></p>
 
 <a id="latest22"></a>
 
