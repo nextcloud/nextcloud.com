@@ -18,7 +18,7 @@
     <p>We recommend you follow our <a href="<?php echo home_url('release-channels') ?>">Release Channels</a> to always have the latest and most secure Nextcloud Server version which fits your needs.</p>
     Go directly to the latest maintenance release of:
     <ul>
-    <li><a href="#latest22">Nextcloud 23</a></li>
+    <li><a href="#latest23">Nextcloud 23</a></li>
     <li><a href="#latest22">Nextcloud 22</a></li>
     <li><a href="#latest21">Nextcloud 21</a></li>
     <li><a href="#latest20">Nextcloud 20 (unsupported!)</a></li>
