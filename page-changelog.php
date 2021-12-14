@@ -48,15 +48,15 @@ SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.0
 SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.0.tar.bz2.sha512">nextcloud-23.0.0.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.0.zip.sha512">nextcloud-23.0.0.zip.sha512</a></br>
 PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.0.tar.bz2.asc">nextcloud-23.0.0.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.0.zip.asc">nextcloud-23.0.0.zip.asc</a></p>
 
-<h4>Nextcloud 23 is here!</h4>
+<h4>Nextcloud Hub II is here!</h4>
 
-<p>The biggest improvements Nextcloud Hub 22 introduces are:</p>
+<p>The biggest improvements Nextcloud Hub II (Nextcloud 23) introduces are:</p>
 <ul>
     <li>🚀 Nextcloud Files: 10x syncing performance improvements,delegate limited administration from admins to users; automatic user status setting</li>
     <li>👥 Nextcloud Groupware: external appointment booking, advanced room and resource search in Calendar and Mail improvements</li>
     <li>💬 Nextcloud Talk: background blur, device check screen and advanced permission management</li>
     <li>🖺 Nextcloud Office: developed in collaboration with Collabora Productivity</li>
-    <li>🖱️ One-click deployment: easy installation and update</li>
+    <li>🖱️ Docker-All-In-One: easy installation and update</li>
     <li>📦 Nextcloud Backup: a peer-to-peer backup solution designed for private users</li>
     <li>📱 Nextcloud Clients: updates available for Desktop, Android and iOS clients</li>
 </ul>
