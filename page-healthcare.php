@@ -54,7 +54,7 @@ require(["require.config"], function() {
                 <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
 
                     <p><label for="email">
-                    <input type="hidden" name="segmentId" value="2">
+                    <input type="hidden" name="segmentId" value="18">
                     <input type="hidden" name="firstname" value="">
                     <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>

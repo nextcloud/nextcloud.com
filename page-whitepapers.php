@@ -402,7 +402,7 @@
                     <p class="section--paragraph"><?php echo $l->t('The Health care market poses a special challenge to IT, requiring immediate availability of life-saving data while securing Protected Health Information. Nextcloud is an uniquely fitting solution.');?></p>
                 </div>
                 <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
-                    <input type="hidden" name="segmentId" value="2">
+                    <input type="hidden" name="segmentId" value="18">
                     <input type="hidden" name="firstname" value="">
                     <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
