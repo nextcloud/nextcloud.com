@@ -141,7 +141,7 @@
             </div>
             <div class="col-sm-2 col-lg-2 customer">
                 <div class="customer-logo">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/siemens.png" />
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/paris.png" />
                 </div>
             </div>
             <div class="col-sm-2 col-lg-2 customer">
