@@ -89,7 +89,7 @@ try {
     $email_message = "Thank you for requesting a Nextcloud white paper or data sheet.\n\n";
     $email_subject = "Nextcloud download: ".clean_string($whitepaper_name);
     $email_message .= "Download our ".clean_string($whitepaper_name)." here:\n";
-    $email_message .= clean_string($whitepaper_url)."\n\n";
+    $email_message .= $whitepaper_url."\n\n";
     $email_from = "sales@nextcloud.com";
 // add note that we added them to our newsletter (if they did tick the box)
      if($newsletter === 1) {
