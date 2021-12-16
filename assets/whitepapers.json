@@ -105,11 +105,8 @@
     },
     "19": {
         "whitepaper_name": "Case Study SIB in France, English version",
-        "whitepaper_url": "https://nextcloud.com/media/wp135098u/CaseStudy-SIB-v2-EN.pdf"
+        "whitepaper_url": "English: https://nextcloud.com/media/wp135098u/CaseStudy-SIB-v2-EN.pdf\n
+        French: https://nextcloud.com/media/wp135098u/CaseStudy-SIB-v2-FR.pdf"
     },
-    "20": {
-        "whitepaper_name": "Case Study SIB in France, French version",
-        "whitepaper_url": "https://nextcloud.com/media/wp135098u/CaseStudy-SIB-v2-FR.pdf"
-    }
 
 }
