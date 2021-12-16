@@ -104,6 +104,19 @@
 				<p class="teamdescription">Patrick was co-founder of struktur AG in 2000, responsible for sales and finance. He held several sales and marketing positions at IBM and Oracle, adding up to more than two decades of experience in the IT industry.</p>
 			</div>
 		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/dietlinde.jpg" />
+				<h2 class="teamname">Dietlinde Lutsch</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Head of Human Resources</h3>
+					<h4 class="teamexpertise">Talent management</h4>
+					<h4 class="teamlocation">Lives in Stuttgart, Germany</h4>
+					<p class="teamsocial"> <a href="https://www.linkedin.com/in/dietlinde-lutsch-54b53436/"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Dietlinde_Lutsch2/portfolio"><i class="fa-xing fa"></i></a> &nbsp;  </p>
+				</div>
+				<p class="teamdescription">Dietlinde has degrees in Public Management and Business Administration and has been working for over a decade in human resources with a focus on recruitment in the UK and in Germany. She is passionate about supporting Nextclouds´ biggest asset – our people, and about bringing new talents into our team.</p>
+			</div>
+		</div>
 	</div>
 	<div class="row">
 		<h2><?php echo $l->t('Account management');?></h2>
