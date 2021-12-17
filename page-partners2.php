@@ -28,7 +28,7 @@
             <div class="col-md-6 col-md-offset-3">
                 <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud works with a variety of partners in our ecosystem, building on, providing services around and complementing our product.'); ?></p>
                 <div class="text-center">
-                    <a class="button button--blue" href="https://nextcloud.com/partnerprogram/">Became a Partner</a>
+                    <a class="button button--blue" href="https://nextcloud.com/partnerprogram/">Become a Partner</a>
                 </div>
             </div>
         </div>
@@ -65,19 +65,19 @@
                         <div class="input-holder selection">
                             <span class="label">Services</span>
                             <div class="inner">
-                                <input id="services" type="text" value="All development" readonly="readonly" data-value="all-dev"/>
+                                <input id="services" type="text" value="Services" readonly="readonly" data-value="all-dev"/>
                             </div>
                         </div>
                         <ul class="select-list service-list">
                             <li data-service="host-own">Hosting in own data center</li>
-                            <li data-service="host-rend">Hosting in rend data center</li>
+                            <li data-service="host-rend">Hosting in third party data center</li>
                             <li data-service="archi">Architecture consulting</li>
                             <li data-service="hardware">Hardware development</li>
                             <li data-service="app">App development</li>
                             <li data-service="custom">Custom integrations</li>
-                            <li data-service="train">Trainings</li>
+                            <li data-service="train">Training</li>
                             <li data-service="on-site">On-site management</li>
-                            <li data-service="resell">Reselling</li>
+                            <li data-service="resell">Nextcloud Enterprise licenses</li>
                         </ul>
                     </div>
                     <div class="input-outer">
@@ -177,7 +177,7 @@
                                         <li><a href="http://www.ionos.com" target="_blank">Go to website</a></li>
                                     </ul>
                                 </div>
-                            </div>    
+                            </div>
                             <div class="partner-col" data-type="platinum system" data-country="eu">
                                 <div class="partner-box">
                                     <div class="certificate-line plat">
@@ -198,7 +198,7 @@
                                         <li><a href="https://www.b1-systems.de" target="_blank">Go to website</a></li>
                                     </ul>
                                 </div>
-                            </div>    
+                            </div>
                             <div class="partner-col" data-type="platinum host-rend app on-site" data-country="euasia">
                                 <div class="partner-box">
                                     <div class="certificate-line plat">
@@ -306,14 +306,14 @@
                                         <h4>BK Tech</h4>
                                         <p>
                                             BK Tech is your Brazilian partner for implementing Nextcloud in simple or complex environments, in public or private companies, with qualified professionals and processes of excellence. We are a family owned and operated business and have several significant customers, including in the federal government. But all customers are important to us, no matter the size! Contact us to for information about licenses and specialized services.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
                                         <li><a href="https://bktech.com.br" target="_blank">Go to website</a></li>
                                     </ul>
                                 </div>
-                            </div>    
+                            </div>
                             <div class="partner-col" data-type="gold host-own on-site archi" data-country="eu">
                                 <div class="partner-box">
                                     <div class="certificate-line gold">
@@ -324,14 +324,14 @@
                                     </div>
                                     <div class="partner-text">
                                         <h4>bloosite AG</h4>
-                                        <p>bloosite helps SMEs keep up with rapidly changing markets by providing convenient IT solutions to suit their evolving business models. Companies benefit from a ready-to-use package with a usage-dependent pricing model as well as from a sound knowledge in IT-security. The innovative Swiss company’s comprehensive offering is available from local installation to highly secured Swiss data centers.</p>        
+                                        <p>bloosite helps SMEs keep up with rapidly changing markets by providing convenient IT solutions to suit their evolving business models. Companies benefit from a ready-to-use package with a usage-dependent pricing model as well as from a sound knowledge in IT-security. The innovative Swiss company’s comprehensive offering is available from local installation to highly secured Swiss data centers.</p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
                                         <li><a href="www.bloosite.com" target="_blank">Go to website</a></li>
                                     </ul>
                                 </div>
-                            </div>    
+                            </div>
                             <div class="partner-col" data-type="gold app custom on-site train archi" data-country="eu">
                                 <div class="partner-box">
                                     <div class="certificate-line gold">
@@ -342,14 +342,14 @@
                                     </div>
                                     <div class="partner-text">
                                         <h4>compaso GmbH</h4>
-                                        <p>Compaso has solved a wide variety of hosting, administration and development challenges for a variety of German customers. We can set up and maintain your digital collaboration infrastructure, guaranteeing secure and reliable service on-premises or in the cloud. Contact us to find out more!</p>        
+                                        <p>Compaso has solved a wide variety of hosting, administration and development challenges for a variety of German customers. We can set up and maintain your digital collaboration infrastructure, guaranteeing secure and reliable service on-premises or in the cloud. Contact us to find out more!</p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
                                         <li><a href="https://compaso.de" target="_blank">Go to website</a></li>
                                     </ul>
                                 </div>
-                            </div>    
+                            </div>
                             <div class="partner-col" data-type="gold host-own" data-country="other">
                                 <div class="partner-box">
                                     <div class="certificate-line gold">
@@ -360,14 +360,14 @@
                                     </div>
                                     <div class="partner-text">
                                         <h4>Dialead AS</h4>
-                                        <p>Dialead Cloud is built on Norwegian values where security, unity and freedom are central. Our technology ensures that data is only stored locally, and offer storage in Hardanger; close to the Norwegian fjords. We provide hosting, support and the rest of the services that are normally part of the technological everyday work.<br>For us, our customers' quality of life and freedom of action come first. We are concerned that people and organizations should have control over both their data and their lives. Thus, we focused on privacy from the first second and GDPR is well taken care of in our tools.</p>        
+                                        <p>Dialead Cloud is built on Norwegian values where security, unity and freedom are central. Our technology ensures that data is only stored locally, and offer storage in Hardanger; close to the Norwegian fjords. We provide hosting, support and the rest of the services that are normally part of the technological everyday work.<br>For us, our customers' quality of life and freedom of action come first. We are concerned that people and organizations should have control over both their data and their lives. Thus, we focused on privacy from the first second and GDPR is well taken care of in our tools.</p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
                                         <li><a href="http://dialead.com" target="_blank">Go to website</a></li>
                                     </ul>
                                 </div>
-                            </div>    
+                            </div>
                             <div class="partner-col" data-type="gold host-own" data-country="eu">
                                 <div class="partner-box">
                                     <div class="certificate-line gold">
@@ -378,14 +378,14 @@
                                     </div>
                                     <div class="partner-text">
                                         <h4>dogado.pro GmbH</h4>
-                                        <p>dogado.pro is specialised in managed hosting "made in Germany" and offers server solutions for various requirements. Individual support is one of our strengths. We would be happy to advise you on which products are best suited for your project.</p>        
+                                        <p>dogado.pro is specialised in managed hosting "made in Germany" and offers server solutions for various requirements. Individual support is one of our strengths. We would be happy to advise you on which products are best suited for your project.</p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
                                         <li><a href="http://www.robhost.de" target="_blank">Go to website</a></li>
                                     </ul>
                                 </div>
-                            </div>    
+                            </div>
                             <div class="partner-col" data-type="gold host-own" data-country="eu">
                                 <div class="partner-box">
                                     <div class="certificate-line gold">
@@ -398,14 +398,14 @@
                                         <h4>Econocom PSF Luxembourg (SP)</h4>
                                         <p>
                                             Enter text here.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
                                         <li><a href="https://www.econocom.be/fr" target="_blank">Go to website</a></li>
                                     </ul>
                                 </div>
-                            </div>    
+                            </div>
                             <div class="partner-col" data-type="gold host-rend" data-country="eu">
                                 <div class="partner-box">
                                     <div class="certificate-line gold">
@@ -421,7 +421,7 @@
                                             We offer hosting solutions based on our high availability infrastructure in France (Marseille and Paris).<br>
                                             We are experts on web application stack with FLOSS : we help your developers to deploy source code, optimize databases, make software and servers hosting choices,  use Cloud Computing, etc.<br>
                                             Our "NextCloud as a Service" is a managed and supervised NextCloud instance hosted on our high availability Cloud in France based on Open Source technologies (Linux, KVM, HAProxy, Nginx, CEPH).
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -441,7 +441,7 @@
                                         <h4>Flowz Digital, LLP</h4>
                                         <p>
                                            Enter text here.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -461,7 +461,7 @@
                                         <h4>Future404</h4>
                                         <p>
                                            Future404 ehf. and 1984 ehf. joined forces to be able to provide our customers with a unique product that combines excellent support, stable infrastructure and nextcloud into one product. !984 ehf. is a hosting company that has been safeguarding privacy and civil rights since 2006. Future404 is a privacy consulting think tank that provides risk and security consulting globally.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -481,7 +481,7 @@
                                         <h4>HKN GmbH</h4>
                                         <p>
                                             Started in 1996 and now a team of 10 strong, HKN has been betting on scaleable, open source clusters since its inception. HKN offers bigger organizations a scaleable, HA-capable, resilient platform with Nextcloud that is hosted in their own data centers in three German cities. HKN offers optional 'hybrid' cloud solutions, with an internally, on-premises hosted Nextcloud at the customer working seamlessly with a Nextcloud hosted by HKN.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li></li>
@@ -501,7 +501,7 @@
                                         <h4>hosting.de GmbH</h4>
                                         <p>
                                             With more than 22 years of experience in multiple areas of professional web hosting services, hosting.de has proven to be a reliable partner for business projects, from small to enterprise-sized. As an official Nextcloud Gold partner, the company provides fully managed Nextcloud hosting in one of their three data centers in Germany and operates fully GPDR compliant. One of the key elements of the company's infrastructure is a public API, which allows customers to fully integrate and automate all services from hosting.de in their own workflow.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -521,7 +521,7 @@
                                         <h4>ITSERVICENET & Enterprise OSS - IT & Comunication</h4>
                                         <p>
                                            An Italian Company, ITServicenet has over 2 decades experience managing open source servers and developing software. They handle virtualization, high availability, monitoring and storage, helping customers set up and manage a powerful, reliable infrastructure. ITServicenet offers support in Italian language for Nextcloud.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -540,7 +540,7 @@
                                     <div class="partner-text">
                                         <h4>Lansol GmbH</h4>
                                         <p>
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -560,7 +560,7 @@
                                         <h4>Librebit</h4>
                                         <p>
                                            Librebit is a Nextcloud partner based in Spain. Specialized in rapid deployments with Puppet IT automation technologies, they have managed thousands of computers and servers with more than 80,000 systems! Librebit helps customers turn projects into reality by managing their servers and IT challenges while minimizing costs compared to the public cloud.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -580,7 +580,7 @@
                                         <h4>Linuxfabrik GmbH</h4>
                                         <p>
                                            Founded in 2016 in Zurich/Switzerland, Linuxfabrik supports companies from consulting to operation and troubleshooting Linux hosts and selected Open Source Software – with technical support up to 7x24. Providing hosting with IaaS, PaaS and SaaS models in anything from virtual data centers to virtual machines in a CIS and GDPR compliant, fully self-managed, ISO 27001 certified datacenter, Linuxfabrik offers the consulting, operational excellence and expertise required for enterprises small and large.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -600,7 +600,7 @@
                                         <h4>Mise Sur Orbite</h4>
                                         <p>
                                            Mise Sur Orbite is a French company specialised in hosting websites, applications, emails and open-source solutions. We are very attached to data sovereignty and GPDR, that's why we only use dedicated servers or cloud servers from OVHcloud or other French companies.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -620,7 +620,7 @@
                                         <h4>Netcloud</h4>
                                         <p>
                                            Netcloud AG is a Winterthur (Zurich)-based company with 130 employees. Core competencies include consulting, designing, implementing and operating IT infrastructure solutions around Cisco technology, borderless networks, data-center and unified communications solutions.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -640,7 +640,7 @@
                                         <h4>NOBUGS IT GmbH</h4>
                                         <p>
                                            NOBUGS IT GmbH provides IT cloud msp/bsp solutions for small and big businesses in Austria. We are currently located in Terfens, Austria, serving customers all over Tyrol and bordering states. As service providers we believe that managed services are the future. As such, we try to improve a customer’s workflow through approved hard- and software solutions and to preemptively act on system failures to facilitate scalability.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -660,7 +660,7 @@
                                         <h4>Redpill Linpro</h4>
                                         <p>
                                            The Open Source specialist and digital societies builder Redpill Linpro contributes to the sustainable development of societies by helping companies increase their competitiveness and making digital citizen-centric services even better for more people. With open source, its deep technical knowledge and extensive experience across the private and public sectors, Redpill Linpro helps its customers digitalise and make the most out of their data. The company delivers all aspects of digital innovation, from analysis, design and development to integration, user experience and operation. With more than 200 employees the company has offices in Stockholm, Gothenburg, Karlstad, Linköping as well as in Copenhagen and Oslo. For more information, please visit https://www.redpill-linpro.com/.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -680,7 +680,7 @@
                                         <h4>safespring</h4>
                                         <p>
                                            Safesprings is a Nordic provider of cloud infrastructure services. Based on Open Source technology, our compute and storage services is highly scalable and support API driven workflows. We support federated login to enable single sign-on. Safespring is trusted by more than 60 universities, institutions and research platforms and we’re hoping to be part of your digital future as well. Welcome to make a first contact!
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -701,7 +701,7 @@
                                         <p>
                                            SecureTech, a UAE based company Founded by Dr. Abdulla Al Nuaimi in 2000. SecureTech is a leading Integrator based out of Abu Dhabi and Operates across the emirates with more than 600 qualified staff from various regions. As a leading solutions provider focusing on:
                                            IT Infrastructure Artificial Intelligence based solutions, big data analysis solutions, cyber Security solutions, IOT & integrated Security solutions. SecureTech provides innovative and cost-effective solutions to your complex problems. Since 2000, SecureTech has been and continues to be a partner of choice for our key customers.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -721,7 +721,7 @@
                                         <h4>Sola K.K.</h4>
                                         <p>
                                            Type text here.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -741,7 +741,7 @@
                                         <h4>Sorint.lab Poland, Italy & Spain</h4>
                                         <p>
                                            Sorint.lab is the Next Generation System Integrator, leader in the Digital Transformation with a flexible and vendor independent approach. We provide consultancy in Agile, DevOps, CI/CD, Cloud Adoption, Modern Application Development, Application Modernization, Next Generation IT Operations and Site Reliability Engineering. With offices in Italy, Spain, UK, Germany, France and USA, we are able to deliver a wide range of professional services from architecture design, development, implementation to training, providing 24x7 support to on prem, cloud and hybrid infrastructures and Application support & maintenan.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -761,7 +761,7 @@
                                         <h4>Stylez Corporation</h4>
                                         <p>
                                            Since 2013, Stylez has grown by focusing on integration and Business Process Outsourcing. Today Stylez expands its scope into cloud and open source services, keeping up their focus on customers and quality.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -779,7 +779,7 @@
                                     </div>
                                     <div class="partner-text">
                                         <h4>TAB.DIGITAL / SIA Network Operations Center</h4>
-                                        <p>TAB Digital is a private company based in the EU, helping customers build private collaboration systems and clouds in EU and Russia. The newest technology and high staff competence will help you to build you success. Want to build a Nextcloud solution and have a provider take care of it? Contact us.</p>        
+                                        <p>TAB Digital is a private company based in the EU, helping customers build private collaboration systems and clouds in EU and Russia. The newest technology and high staff competence will help you to build you success. Want to build a Nextcloud solution and have a provider take care of it? Contact us.</p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -797,7 +797,7 @@
                                     </div>
                                     <div class="partner-text">
                                         <h4>TAS France (SP & VAR)</h4>
-                                        <p>TAS France is a company based in VALBONNE | SOPHIA-ANTIPOLIS. It is a subsidiary of the European IT group TAS Group. TAS France offers hosting, cloud computing and outsourcing solutions mainly for SMEs and ETIs from its Datacenters in France and Italy. TAS France's main datacenter is in Sophia Antipolis. This IT hosting site is at the latest technological level in terms of data protection. It allows companies to securely outsource their IT, servers, network equipment, and access to secure and local cloud services.</p>        
+                                        <p>TAS France is a company based in VALBONNE | SOPHIA-ANTIPOLIS. It is a subsidiary of the European IT group TAS Group. TAS France offers hosting, cloud computing and outsourcing solutions mainly for SMEs and ETIs from its Datacenters in France and Italy. TAS France's main datacenter is in Sophia Antipolis. This IT hosting site is at the latest technological level in terms of data protection. It allows companies to securely outsource their IT, servers, network equipment, and access to secure and local cloud services.</p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -815,7 +815,7 @@
                                     </div>
                                     <div class="partner-text">
                                         <h4>The Good Cloud (SP & VAR)</h4>
-                                        <p>The Good Cloud (based in the Netherlands) is fully committed to ensuring the privacy of all its users. They offer user-friendly and flexible subscriptions that are easy to share with multiple users. The Good Cloud is an ideal partner for professionals, offering a variety of business subscriptions and personalized services.</p>      
+                                        <p>The Good Cloud (based in the Netherlands) is fully committed to ensuring the privacy of all its users. They offer user-friendly and flexible subscriptions that are easy to share with multiple users. The Good Cloud is an ideal partner for professionals, offering a variety of business subscriptions and personalized services.</p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -835,7 +835,7 @@
                                         <h4>Unodata</h4>
                                         <p>
                                            UNODATA is a multi cultural company located in Brazil expert in Cloud solutions. We offer professional services and hosted solutions such as e-mail, e-mail security, backup and disaster recover to SMB, Enterprise, Universities and Government institutions to a large number of locations in South America. We connect companies to the Cloud and Cloud to the People.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -855,7 +855,7 @@
                                         <h4>YansaTech ApS</h4>
                                         <p>
                                            Denmark-based YansaTech specializes in solutions for planning and collaborating effectively and securely. It helps private and public organizations implement real-time meeting/document collaboration solutions and keep control of their data. The company experts provide a wide range of services, including consulting, project management and implementation, bringing data privacy and sovereignty into everything they do. Contact YansaTech for help with identifying secure and innovative alternatives to big tech cloud providers.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Partner</li>
@@ -1271,7 +1271,7 @@
                                         <h4>Arulogic Labs</h4>
                                         <p>
                                             Arulogic Labs is an IT managed services provider in Indonesia. Our specialty is the implementation of on-premises and cloud based systems.<br>
-                                            We sell Nextcloud Enterprise with local support and can fully implement and operate a Nextcloud environment with all the infrastructure on which it will run.    
+                                            We sell Nextcloud Enterprise with local support and can fully implement and operate a Nextcloud environment with all the infrastructure on which it will run.
                                         </p>
                                     </div>
                                     <ul class="partner-info">
@@ -1312,9 +1312,9 @@
                                     <div class="partner-text">
                                         <h4>Bitbone</h4>
                                         <p>
-                                            Bitbone was founded in 2001 in Germany, as on Open-Source (Linux) services provider, offering secure and powerful infrastructure & IT services. They have 20 years of experience with Linux, Kaspersky products and expertise that ranges from standards such as server technologies, operating systems, monitoring, firewalls, endpoint security to new technologies such as automation, containerization and cyber-security.<br> 
+                                            Bitbone was founded in 2001 in Germany, as on Open-Source (Linux) services provider, offering secure and powerful infrastructure & IT services. They have 20 years of experience with Linux, Kaspersky products and expertise that ranges from standards such as server technologies, operating systems, monitoring, firewalls, endpoint security to new technologies such as automation, containerization and cyber-security.<br>
                                             Bitbone aims further development for their customers‘ strategic projects and business.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1334,7 +1334,7 @@
                                         <h4>Bloosite</h4>
                                         <p>
                                             Bloosite helps SMEs keep up with rapidly changing markets by providing convenient IT solutions to suit their evolving business models. Companies benefit from a ready-to-use package with a usage-dependent pricing model as well as from a sound knowledge in IT-security. The innovative Swiss company’s comprehensive offering is available from local installation to highly secured Swiss data centers.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1354,7 +1354,7 @@
                                         <h4>Compaso</h4>
                                         <p>
                                             Compaso has solved a wide variety of hosting, administration and development challenges for a variety of German customers. We can set up and maintain your digital collaboration infrastructure, guaranteeing secure and reliable service on-premises or in the cloud. Contact us to find out more!
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1373,11 +1373,11 @@
                                     <div class="partner-text">
                                         <h4>CoreWin</h4>
                                         <p>
-                                            CoreWin is a distributor of software with a focus on process optimization, information security, data analysis and consulting.<br> 
+                                            CoreWin is a distributor of software with a focus on process optimization, information security, data analysis and consulting.<br>
                                             CoreWin’s team speaks English fluently, that’s why company works directly with software vendors to provide a quick response to all inquiries.<br>
                                             CoreWin also provides the first level of technical support for all products. Being a distributor, CoreWin carries out pre-sales and technical consultations, as well as provide implementation services.<br>
                                             CoreWin – first Core, then Win.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1397,7 +1397,7 @@
                                         <h4>dass IT GmbH</h4>
                                         <p>
                                             dass IT GmbH in Cologne, founded in 2004 by former senior consultants of Suse Linux, is primarily a system integrator, offering support and consulting around Linux and Open Source Software. dass IT can help you build and run a private cloud infrastructure or migrate an existing ownCloud to Nextcloud.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1417,7 +1417,7 @@
                                         <h4>DASEQ</h4>
                                         <p>
                                             DASEQ is delivering Nextcloud as integral part of their OpenSource solution framework which consists of open source technology, services and training as well as security solutions.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1437,7 +1437,7 @@
                                         <h4>Factor group</h4>
                                         <p>
                                             Factor group specializes in supplying the telecommunications industry with the world's leading equipment and technological solutions, offering consulting services, pre-design and design works, pre-sale advice, equipment installation and commissioning support, employee training, as well as after-sales service, product versions updates, equipment repair and replacement. Factor group executives have expertise in networking and information technologies market in Russia and the CIS countries since 1991.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1457,7 +1457,7 @@
                                         <h4>The Good Cloud</h4>
                                         <p>
                                             The Good Cloud (based in the Netherlands) is fully committed to ensuring the privacy of all its users. They offer user-friendly and flexible subscriptions that are easy to share with multiple users. The Good Cloud is an ideal partner for professionals, offering a variety of business subscriptions and personalized services.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1477,7 +1477,7 @@
                                         <h4>Hansson IT</h4>
                                         <p>
                                             The Nextcloud professionals at Hansson IT based in Sweden, have been working with Nextcloud since day one. They specialize in Linux and Virtual Machine development and are helping thousands of customers to success together with the Nextcloud VM they develop. They offer a variety of support options and virtual machine images in <a href="https://shop.hanssonit.se/product-category/virtual-machine/nextcloud-vm/" target="_blank">their shop</a>, as well as Nextcloud Enterprise licenses. You can follow <a href="https://twitter.com/tmhanssonit">@tmhanssonit on Twitter</a>.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1497,7 +1497,7 @@
                                         <h4>HBPS</h4>
                                         <p>
                                             We pride ourselves in listening to our clients as we believe that every customer is different and unique. Our service offering is not a one-size-fits-all solution to everyone. By truly listening to our customers we can help to customise and tailor our solutions to be fit for purpose to solve the problem at hand. HBPS is focused on helping companies take back control of what is rightly yours: your data. We want to empower our customers by helping them understand how the magic of data works and how it can help them to be future fit.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1519,7 +1519,7 @@
                                             With more than 22 years of experience in multiple areas of professional web hosting services, hosting.de has proven to be a reliable partner for business projects, from small to enterprise-sized.<br>
                                             As an official Nextcloud Gold partner, the company provides fully managed Nextcloud hosting in one of their three data centers in Germany and operates fully GPDR compliant. One of the key elements of the company's infrastructure is a public API, which allows customers to fully integrate and automate all services from hosting.de in their own workflow.<br>
                                             Professionally trained in-house support and an extensive developer team ensure that existing services run smoothly while new technologies are integrated progressively, helping customers to reach their professional goals.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1595,7 +1595,7 @@
                                         <h4>Arulogic Labs</h4>
                                         <p>
                                             Arulogic Labs is an IT managed services provider in Indonesia. Our specialty is the implementation of on-premises and cloud based systems.<br>
-                                            We sell Nextcloud Enterprise with local support and can fully implement and operate a Nextcloud environment with all the infrastructure on which it will run.    
+                                            We sell Nextcloud Enterprise with local support and can fully implement and operate a Nextcloud environment with all the infrastructure on which it will run.
                                         </p>
                                     </div>
                                     <ul class="partner-info">
@@ -1615,9 +1615,9 @@
                                     <div class="partner-text">
                                         <h4>Bitbone</h4>
                                         <p>
-                                            Bitbone was founded in 2001 in Germany, as on Open-Source (Linux) services provider, offering secure and powerful infrastructure & IT services. They have 20 years of experience with Linux, Kaspersky products and expertise that ranges from standards such as server technologies, operating systems, monitoring, firewalls, endpoint security to new technologies such as automation, containerization and cyber-security.<br> 
+                                            Bitbone was founded in 2001 in Germany, as on Open-Source (Linux) services provider, offering secure and powerful infrastructure & IT services. They have 20 years of experience with Linux, Kaspersky products and expertise that ranges from standards such as server technologies, operating systems, monitoring, firewalls, endpoint security to new technologies such as automation, containerization and cyber-security.<br>
                                             Bitbone aims further development for their customers‘ strategic projects and business.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1637,7 +1637,7 @@
                                         <h4>Bloosite</h4>
                                         <p>
                                             Bloosite helps SMEs keep up with rapidly changing markets by providing convenient IT solutions to suit their evolving business models. Companies benefit from a ready-to-use package with a usage-dependent pricing model as well as from a sound knowledge in IT-security. The innovative Swiss company’s comprehensive offering is available from local installation to highly secured Swiss data centers.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1657,7 +1657,7 @@
                                         <h4>BK Tech</h4>
                                         <p>
                                             BK Tech is your Brazilian partner for implementing Nextcloud in simple or complex environments, in public or private companies, with qualified professionals and processes of excellence. We are a family owned and operated business and have several significant customers, including in the federal government. But all customers are important to us, no matter the size! Contact us to for information about licenses and specialized services.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1677,7 +1677,7 @@
                                         <h4>Compaso</h4>
                                         <p>
                                             Compaso has solved a wide variety of hosting, administration and development challenges for a variety of German customers. We can set up and maintain your digital collaboration infrastructure, guaranteeing secure and reliable service on-premises or in the cloud. Contact us to find out more!
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1696,11 +1696,11 @@
                                     <div class="partner-text">
                                         <h4>CoreWin</h4>
                                         <p>
-                                            CoreWin is a distributor of software with a focus on process optimization, information security, data analysis and consulting.<br> 
+                                            CoreWin is a distributor of software with a focus on process optimization, information security, data analysis and consulting.<br>
                                             CoreWin’s team speaks English fluently, that’s why company works directly with software vendors to provide a quick response to all inquiries.<br>
                                             CoreWin also provides the first level of technical support for all products. Being a distributor, CoreWin carries out pre-sales and technical consultations, as well as provide implementation services.<br>
                                             CoreWin – first Core, then Win.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1720,7 +1720,7 @@
                                         <h4>dass IT GmbH</h4>
                                         <p>
                                             dass IT GmbH in Cologne, founded in 2004 by former senior consultants of Suse Linux, is primarily a system integrator, offering support and consulting around Linux and Open Source Software. dass IT can help you build and run a private cloud infrastructure or migrate an existing ownCloud to Nextcloud.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1740,7 +1740,7 @@
                                         <h4>DASEQ</h4>
                                         <p>
                                             DASEQ is delivering Nextcloud as integral part of their OpenSource solution framework which consists of open source technology, services and training as well as security solutions.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1760,7 +1760,7 @@
                                         <h4>Factor group</h4>
                                         <p>
                                             Factor group specializes in supplying the telecommunications industry with the world's leading equipment and technological solutions, offering consulting services, pre-design and design works, pre-sale advice, equipment installation and commissioning support, employee training, as well as after-sales service, product versions updates, equipment repair and replacement. Factor group executives have expertise in networking and information technologies market in Russia and the CIS countries since 1991.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1780,7 +1780,7 @@
                                         <h4>The Good Cloud</h4>
                                         <p>
                                             The Good Cloud (based in the Netherlands) is fully committed to ensuring the privacy of all its users. They offer user-friendly and flexible subscriptions that are easy to share with multiple users. The Good Cloud is an ideal partner for professionals, offering a variety of business subscriptions and personalized services.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1800,7 +1800,7 @@
                                         <h4>Hansson IT</h4>
                                         <p>
                                             The Nextcloud professionals at Hansson IT based in Sweden, have been working with Nextcloud since day one. They specialize in Linux and Virtual Machine development and are helping thousands of customers to success together with the Nextcloud VM they develop. They offer a variety of support options and virtual machine images in <a href="https://shop.hanssonit.se/product-category/virtual-machine/nextcloud-vm/" target="_blank">their shop</a>, as well as Nextcloud Enterprise licenses. You can follow <a href="https://twitter.com/tmhanssonit">@tmhanssonit on Twitter</a>.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1820,7 +1820,7 @@
                                         <h4>HBPS</h4>
                                         <p>
                                             We pride ourselves in listening to our clients as we believe that every customer is different and unique. Our service offering is not a one-size-fits-all solution to everyone. By truly listening to our customers we can help to customise and tailor our solutions to be fit for purpose to solve the problem at hand. HBPS is focused on helping companies take back control of what is rightly yours: your data. We want to empower our customers by helping them understand how the magic of data works and how it can help them to be future fit.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1842,7 +1842,7 @@
                                             With more than 22 years of experience in multiple areas of professional web hosting services, hosting.de has proven to be a reliable partner for business projects, from small to enterprise-sized.<br>
                                             As an official Nextcloud Gold partner, the company provides fully managed Nextcloud hosting in one of their three data centers in Germany and operates fully GPDR compliant. One of the key elements of the company's infrastructure is a public API, which allows customers to fully integrate and automate all services from hosting.de in their own workflow.<br>
                                             Professionally trained in-house support and an extensive developer team ensure that existing services run smoothly while new technologies are integrated progressively, helping customers to reach their professional goals.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
@@ -1862,7 +1862,7 @@
                                         <h4>HKN</h4>
                                         <p>
                                             Started in 1996 and now a team of 10 strong, HKN has been betting on scaleable, open source clusters since its inception. HKN offers bigger organizations a scaleable, HA-capable, resilient platform with Nextcloud that is hosted in their own data centers in three German cities. HKN offers optional 'hybrid' cloud solutions, with an internally, on-premises hosted Nextcloud at the customer working seamlessly with a Nextcloud hosted by HKN.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Industry name</li>
