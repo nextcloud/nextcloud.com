@@ -158,8 +158,34 @@ require(["require.config"], function() {
     </div>
 </section>
 
+<section class="section--whitepaper quote">
+	<div class="container ">
+        <div class="row">
+			<div class="col-lg-8">
+                <h2 class=""><?php echo $l->t('Nextcloud for 33K middle school students in France');?></h2>
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
+                    <p><label for="email"><?php echo $l->t('SIB offers digital services that supports over 500 healthcare structures and public entities in France.<br />  Learn about their deployment of Nextcloud in middle schools.');?><br>
+                    <input type="hidden" name="segmentId" value="19">
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small><br/>
+                        <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
+                    </div>
+                    <input class="button button--large" type="submit" value=" Get the case study "></p>
+                </form>
+            </div>
+        </div>
+        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/sib-thumbnail-banner.png"/>
+	</div>
+</section>
+
 <a id="eduedition"></a>
-<div class="separator"></div>
+<!--<div class="separator"></div>-->
 <section class="section--eduedition">
 <div class="container">
     <h1 class="section--heading-1 text-center "><?php echo $l->t('Education Edition');?></h1>
@@ -428,7 +454,6 @@ require(["require.config"], function() {
 </div>
 </section>
 
-<div class="separator"></div>
 <a id="control"></a>
 <section class="section--control">
 <div class="container">
