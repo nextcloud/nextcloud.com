@@ -84,7 +84,7 @@ $l = new L10N('footer');
             <h1><?php echo $l->t('Follow us'); ?></h1>
             <ul >
                 <li><a href="https://www.facebook.com/Nextclouders/"><?php echo $l->t('Facebook'); ?></a></li>
-                <li><a href="https://instagram.com/nextclouders"><?php echo $l->t('Instagram'); ?></a></li>
+                <li><a href="https://www.instagram.com/nextclouders/"><?php echo $l->t('Instagram'); ?></a></li>
                 <li><a href="https://www.linkedin.com/company/10827569/"><?php echo $l->t('LinkedIn'); ?></a></li>
                 <li><a href="https://youtube.com/nextcloud"><?php echo $l->t('YouTube'); ?></a></li>
                 <li><a href="https://twitter.com/nextclouders"><?php echo $l->t('Twitter'); ?></a></li>
