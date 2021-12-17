@@ -38,6 +38,21 @@
     <language>en-us</language>
     <atom:link href="https://nextcloud.com/podcast-feed.rss" rel="self" type="application/rss+xml" />
     <link>https://nextcloud.com/podcast/</link>
+      
+   <item>
+      <title>Interview with Galina Goduhina, Head of Sales and Partner Relations at ONLYOFFICE</title>
+      <itunes:subtitle>In this last, December episode in 2021, our host Ingo talked with Galina Goduhina, Head of Sales and Partner Relations at ONLYOFFICE.</itunes:subtitle>
+      <itunes:summary>Galina explains what ONLYOFFICE is with all its capabilities and functionalities, and the important advantages of ONLYOFFICE with millions of users worldwide in various sectors, from SMEs to large enterprises.</itunes:summary>
+      <itunes:duration>00:49:07</itunes:duration>
+      <description>Galina explains what ONLYOFFICE is with all its capabilities and functionalities, and the important advantages of ONLYOFFICE with millions of users worldwide in various sectors, from SMEs to large enterprises.</description>
+      <pubDate>Fri, 17 Dec 2021 9:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_014.mp3"
+                 type="audio/mpeg" length="41396479"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_014.mp3</guid>
+      <link>https://nextcloud.com/blog/interview-with-galina-goduhina-head-of-sales-and-partner-relations-at-onlyoffice/</link>
+   </item>
 
    <item>
       <title>Interview with Matthieu Gallien, Senior Software Engineer at Nextcloud</title>
