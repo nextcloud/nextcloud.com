@@ -625,19 +625,6 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/felix.jpg" />
-				<h2 class="teamname">Felix Weilbach</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Desktop client engineer</h4>
-					<h4 class="teamlocation">lives near Stuttgart, Germany</h4>
-					<p class="teamsocial"> <a href="https://github.com/FlexW"><i class="fa-github fa"></i></a> <a href="https://www.linkedin.com/in/felix-weilbach-73a0651b9/"><i class="fa-linkedin fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Felix apprenticed in automotive mechatronics and then decided to study Computer Science in Augsburg. He is a big free software fan and develops a small Android app named SplitBills. He's an Emacs user and loves mountain biking.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/greta.jpg" />
 				<h2 class="teamname">Greta Doçi</h2>
 				<div class="teammeta">
