@@ -221,6 +221,19 @@
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Nico Kossuch</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Sales Engineer</h3>
+					<h4 class="teamexpertise">Sales and Customer Relationships</h4>
+					<h4 class="teamlocation">Lives in Unna, Germany</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/nicokossuch/"><i class="fa-linkedin fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Nico is a certified Networking Specialist (CNS) and Microsoft Certified Systems Engineer (MCSE) with over 20 years account management and sales engineering experience in the communications and voip sector.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
 				<h2 class="teamname">João Cortez</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Sales Engineer</h3>
@@ -312,6 +325,19 @@
 					<p class="teamsocial"><a href="https://ba.linkedin.com/in/markobijelic"><i class="fa-rss fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Marko is working as a UI/UX Designer for 14 years. He has worked directly for clients like Coca-Cola, Audi and McLaren and for numerous startups featuring CrazyEgg, Flippa, Udemy and Tim Ferris. Marko has diversified skillset. He is college dropout and auto didactic.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Mikaela Schneider</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Content marketing</h3>
+					<h4 class="teamexpertise">Stories and writing</h4>
+					<h4 class="teamlocation">Lives in Ulm, Germany</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/mikaela-schneider/"><i class="fa-rss fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Mikaela has a masters in Global Business from Canada and much experience in marketing in the IT sector.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -582,6 +608,19 @@
 					<p class="teamsocial"><a href="https://github.com/Pytal"><i class="fa-github fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Christopher is a software engineer who works across front-end and back-end technologies and enjoys dabbling in DevOps from time to time. He is a Canadian, an advocate of the open source software movement, and has a passion for lifelong learning.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Claudio Cambra</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Desktop client</h4>
+					<h4 class="teamlocation">Lives in Barcelona, Spain</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/claudio-c-140760a1/"><i class="fa-linkedin fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Claudio is a KDE contributor with a Bachelor's degree in History and Master's degree in Digital Humanities from UCL, now studying a Master's in Computer Science from Peking University. In KDE he maintains the new Kalendar app and helps with documentation for Kirigami.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
