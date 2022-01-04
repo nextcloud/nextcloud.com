@@ -163,6 +163,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Nico Kossuch</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Senior account manager</h3>
+					<h4 class="teamexpertise">Sales management</h4>
+					<h4 class="teamlocation">Lives in Unna, Germany</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/nicokossuch/"><i class="fa-linkedin fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Nico is a certified Networking Specialist (CNS) and Microsoft Certified Systems Engineer (MCSE) with over 20 years account management experience in the communications and voip sector.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/olivier.jpg" />
 				<h2 class="teamname">Olivier Paroz</h2>
 				<div class="teammeta">
@@ -216,19 +229,6 @@
 					<p class="teamsocial"><a href="https://github.com/maximelehericy"><i class="fa-github fa"></i></a> <a href="https://www.linkedin.com/in/maximelehericy/"><i class="fa-linkedin fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Maxime holds a general engineering master degree. He started his career as a process engineer in the industry, before shifting to IT. He aims to provide his customers with secure, quality and highly-reliable systems or products, in an efficient way. A good listener and interested in complex problem solving, Maxime is dedicated to help customers succeed in their projects.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-				<h2 class="teamname">Nico Kossuch</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Sales Engineer</h3>
-					<h4 class="teamexpertise">Sales and Customer Relationships</h4>
-					<h4 class="teamlocation">Lives in Unna, Germany</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/nicokossuch/"><i class="fa-linkedin fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Nico is a certified Networking Specialist (CNS) and Microsoft Certified Systems Engineer (MCSE) with over 20 years account management and sales engineering experience in the communications and voip sector.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -617,7 +617,7 @@
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Desktop client</h4>
-					<h4 class="teamlocation">Lives in Barcelona, Spain</h4>
+					<h4 class="teamlocation">Lives in Málaga, Spain</h4>
 					<p class="teamsocial"><a href="https://www.linkedin.com/in/claudio-c-140760a1/"><i class="fa-linkedin fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Claudio is a KDE contributor with a Bachelor's degree in History and Master's degree in Digital Humanities from UCL, now studying a Master's in Computer Science from Peking University. In KDE he maintains the new Kalendar app and helps with documentation for Kirigami.</p>
