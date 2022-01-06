@@ -822,6 +822,19 @@
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/nimisha.jpg" />
+				<h2 class="teamname">Nikola Gladovic</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software engineer</h3>
+					<h4 class="teamexpertise">Talk, full stack developer</h4>
+					<h4 class="teamlocation">Lives in Macvanska Mitrovica, Serbia</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/nikola-gladovic-js"><i class="fa-linkedin fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Nikola is a full stack developer with extensive experience in Javascript and PHP. He has build a variety of applications and large scale platforms in the past.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/nimisha.jpg" />
 				<h2 class="teamname">Nimisha Vijay</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Designer</h3>
