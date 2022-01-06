@@ -33,7 +33,7 @@
 				<div class="teammeta">
 					<h3 class="teamtitle">Chief Executive Officer</h3>
 					<h4 class="teamexpertise">Founder</h4>
-					<h4 class="teamlocation">Lives in Stuttgart, Germany</h4>
+					<h4 class="teamlocation">Lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="https://karlitschek.de/"><i class="fa-rss fa"></i></a> <a href="https://github.com/karlitschek"><i class="fa-github fa"></i></a> <a href="https://twitter.com/fkarlitschek"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Frank founded the ownCloud project in 2010 to put home users and enterprises back in control of their data. To bring file sync and share technology to the next level and better align to the needs of users and customers he founded Nextcloud in 2016 and has been tirelessly working to realize his vision ever since.</p>
@@ -368,7 +368,7 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/barth.jpg" />
 				<h2 class="teamname">Barthélémy Briand</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Server lead</h3>
+					<h3 class="teamtitle">Files lead</h3>
 					<h4 class="teamexpertise">Server, contacts, front-end and accessibility</h4>
 					<h4 class="teamlocation">Lives in France</h4>
 					<p class="teamsocial"></p>
