@@ -821,6 +821,20 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Max Wiehle</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Office, full stack / app developer</h4>
+					<h4 class="teamlocation">Lives in Germany</h4>
+					<p class="teamsocial"> <a href="github.com/max-nextcloud"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Max graduated in Physics in 2007 and has been working on free software projects ever since. He cares deeply about empowering community projects and social movements through usable tools fitting their needs. Within Nextcloud he's focusing on making collaboration as smooth as possible.
+				</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/maxence.jpg" />
 				<h2 class="teamname">Maxence Lange</h2>
 				<div class="teammeta">
