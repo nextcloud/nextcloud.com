@@ -322,7 +322,7 @@
 					<h3 class="teamtitle">UI/UX Designer</h3>
 					<h4 class="teamexpertise">Visual Identity, Design Systems, Animation, Illustration</h4>
 					<h4 class="teamlocation">Lives in Banja Luka, Bosnia and Herzegovina</h4>
-					<p class="teamsocial"><a href="https://ba.linkedin.com/in/markobijelic"><i class="fa-rss fa"></i></a></p>
+					<p class="teamsocial"><a href="https://ba.linkedin.com/in/markobijelic"><i class="fa-linkedin fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Marko is working as a UI/UX Designer for 14 years. He has worked directly for clients like Coca-Cola, Audi and McLaren and for numerous startups featuring CrazyEgg, Flippa, Udemy and Tim Ferris. Marko has diversified skillset. He is college dropout and auto didactic.</p>
 			</div>
@@ -334,8 +334,8 @@
 				<div class="teammeta">
 					<h3 class="teamtitle">Content marketing</h3>
 					<h4 class="teamexpertise">Stories and writing</h4>
-					<h4 class="teamlocation">Lives in Ulm, Germany</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/mikaela-schneider/"><i class="fa-rss fa"></i></a></p>
+					<h4 class="teamlocation">Lives in Nuremberg, Germany</h4>
+					<p class="teamsocial"><a href="http://www.msbutterflyblessings.com"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/mikaela-schneider/"><i class="fa-linkedin fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Mikaela has a masters in Global Business from Canada and much experience in marketing in the IT sector.</p>
 			</div>
