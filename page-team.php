@@ -33,7 +33,7 @@
 				<div class="teammeta">
 					<h3 class="teamtitle">Chief Executive Officer</h3>
 					<h4 class="teamexpertise">Founder</h4>
-					<h4 class="teamlocation">Lives in Stuttgart, Germany</h4>
+					<h4 class="teamlocation">Lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="https://karlitschek.de/"><i class="fa-rss fa"></i></a> <a href="https://github.com/karlitschek"><i class="fa-github fa"></i></a> <a href="https://twitter.com/fkarlitschek"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Frank founded the ownCloud project in 2010 to put home users and enterprises back in control of their data. To bring file sync and share technology to the next level and better align to the needs of users and customers he founded Nextcloud in 2016 and has been tirelessly working to realize his vision ever since.</p>
@@ -338,6 +338,19 @@
 					<p class="teamsocial"><a href="http://www.msbutterflyblessings.com"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/mikaela-schneider/"><i class="fa-linkedin fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Mikaela has a masters in Global Business from Canada and much experience in marketing in the IT sector.</p>
+      </div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">  
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mariusq.jpg" />
+				<h2 class="teamname">Marius Quabeck</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Audio/video editor</h3>
+					<h4 class="teamexpertise">Photography, UI graphics and video</h4>
+					<h4 class="teamlocation">Lives in ..., Germany</h4>
+					<p class="teamsocial"><a href="TBD"><i class="fa-rss fa"></i></a></p>
+				</div>
+				<p class="teamdescription">TBD</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -394,7 +407,7 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/barth.jpg" />
 				<h2 class="teamname">Barthélémy Briand</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Server lead</h3>
+					<h3 class="teamtitle">Files lead</h3>
 					<h4 class="teamexpertise">Server, contacts, front-end and accessibility</h4>
 					<h4 class="teamlocation">Lives in France</h4>
 					<p class="teamsocial"></p>
@@ -847,6 +860,20 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Max Wiehle</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Office, full stack / app developer</h4>
+					<h4 class="teamlocation">Lives in Germany</h4>
+					<p class="teamsocial"> <a href="github.com/max-nextcloud"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Max graduated in Physics in 2007 and has been working on free software projects ever since. He cares deeply about empowering community projects and social movements through usable tools fitting their needs. Within Nextcloud he's focusing on making collaboration as smooth as possible.
+				</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/maxence.jpg" />
 				<h2 class="teamname">Maxence Lange</h2>
 				<div class="teammeta">
@@ -856,6 +883,19 @@
 					<p class="teamsocial"> <a href="https://github.com/ArtificialOwl"><i class="fa-github fa"></i></a> <a href="https://twitter.com/AnArtificialOwl"><i class="fa-twitter fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Maxence has extensive experience in PHP and Java/android development as well as database and network management. He is the principal author and maintainer of the Nextcloud full-text search apps and Circles.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/nimisha.jpg" />
+				<h2 class="teamname">Nikola Gladovic</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software engineer</h3>
+					<h4 class="teamexpertise">Talk, full stack developer</h4>
+					<h4 class="teamlocation">Lives in Macvanska Mitrovica, Serbia</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/nikola-gladovic-js"><i class="fa-linkedin fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Nikola is a full stack developer with extensive experience in Javascript and PHP. He has build a variety of applications and large scale platforms in the past.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
