@@ -270,6 +270,102 @@
                                     </ul>
                                 </div>
                             </div>
+                            <div class="partner-col" data-type="platinum software" data-country="international">
+                                <div class="partner-box">
+                                    <div class="certificate-line plat">
+                                        Platinum Partner
+                                    </div>
+                                    <div class="partner-logo">
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/adfinis.png" alt="Adfinis SyGroup logo" title="Adfinis SyGroup"/>
+                                    </div>
+                                    <div class="partner-text">
+                                        <h4>Adfinis Sygroup</h4>
+                                        <p>Adfinis SyGroup supports clients from the private and public sectors in the planning, testing and implementation of tailor-made software projects. The core competences of Adfinis SyGroup AG are open source engineering & devops, 24/7 services & support, managed services and open source development.</p>
+                                    </div>
+                                    <ul class="partner-info">
+                                        <li>Industry name</li>
+                                        <li><a href="https://adfinis-sygroup.ch/en" target="_blank">Go to website</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="partner-col" data-type="platinum system" data-country="international">
+                                <div class="partner-box">
+                                    <div class="certificate-line plat">
+                                        Platinum Partner
+                                    </div>
+                                    <div class="partner-logo">
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/arawa.png" alt="Arawa logo" title="Arawa"/>
+                                    </div>
+                                    <div class="partner-text">
+                                        <h4>Arawa</h4>
+                                        <p>8Soft is a value added distributor focused on cybersecurity solutions. The portfolio consists of explicitly selected solutions that have passed the 8Soft tests. In this way, the distributor also secures the trust of its resellers (IT retailers and system integrators). 8Soft offers sales and technical support through fixed contact persons who are also available at any time for customer appointments. There is also a partner programme, marketing support and project promotion via MDF funds. The idea of a jointly successful and strong (partner) community "fighting" against cybercrime is also in the 8Soft slogan: "IT Security, that's us."</p>
+                                    </div>
+                                    <ul class="partner-info">
+                                        <li>Industry name</li>
+                                        <li><a href="https://www.arawa.fr" target="_blank">Go to website</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="partner-col" data-type="platinum system" data-country="germany">
+                                <div class="partner-box">
+                                    <div class="certificate-line plat">
+                                        Platinum Partner
+                                    </div>
+                                    <div class="partner-logo">
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/8soft.png" alt="8Soft logo" title="8Soft"/>
+                                    </div>
+                                    <div class="partner-text">
+                                        <h4>8Soft</h4>
+                                        <p>8Soft is a value added distributor focused on cybersecurity solutions. The portfolio consists of explicitly selected solutions that have passed the 8Soft tests. In this way, the distributor also secures the trust of its resellers (IT retailers and system integrators). 8Soft offers sales and technical support through fixed contact persons who are also available at any time for customer appointments. There is also a partner programme, marketing support and project promotion via MDF funds. The idea of a jointly successful and strong (partner) community "fighting" against cybercrime is also in the 8Soft slogan: "IT Security, that's us."</p>
+                                    </div>
+                                    <ul class="partner-info">
+                                        <li>Industry name</li>
+                                        <li><a href="https://www.8soft.de/portfolio/nextcloud/nextcloud-enterprise" target="_blank">Go to website</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="partner-col" data-type="gold system" data-country="international">
+                                <div class="partner-box">
+                                    <div class="certificate-line gold">
+                                        Gold Partner
+                                    </div>
+                                    <div class="partner-logo">
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/arulogic.png" alt="Arulogic Labs logo" title="Arulogic Labs"/>
+                                    </div>
+                                    <div class="partner-text">
+                                        <h4>Arulogic Labs</h4>
+                                        <p>
+                                            Arulogic Labs is an IT managed services provider in Indonesia. Our specialty is the implementation of on-premises and cloud based systems.<br>
+                                            We sell Nextcloud Enterprise with local support and can fully implement and operate a Nextcloud environment with all the infrastructure on which it will run.
+                                        </p>
+                                    </div>
+                                    <ul class="partner-info">
+                                        <li>Industry name</li>
+                                        <li><a href="https://arulogic.com" target="_blank">Go to website</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="partner-col" data-type="gold software" data-country="germany">
+                                <div class="partner-box">
+                                    <div class="certificate-line gold">
+                                        Gold Partner
+                                    </div>
+                                    <div class="partner-logo">
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/bitbone.png" alt="Bitbone logo" title="Bitbone"/>
+                                    </div>
+                                    <div class="partner-text">
+                                        <h4>Bitbone</h4>
+                                        <p>
+                                            Bitbone was founded in 2001 in Germany, as on Open-Source (Linux) services provider, offering secure and powerful infrastructure & IT services. They have 20 years of experience with Linux, Kaspersky products and expertise that ranges from standards such as server technologies, operating systems, monitoring, firewalls, endpoint security to new technologies such as automation, containerization and cyber-security.<br>
+                                            Bitbone aims further development for their customers‘ strategic projects and business.
+                                        </p>
+                                    </div>
+                                    <ul class="partner-info">
+                                        <li>Industry name</li>
+                                        <li><a href="https://www.bitbone.de/" target="_blank">Go to website</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                             <div class="partner-col" data-type="gold hardware" data-country="dach">
                                 <div class="partner-box">
                                     <div class="certificate-line gold">
@@ -1146,6 +1242,129 @@
                                     </ul>
                                 </div>
                             </div>
+                            <div class="partner-col" data-type="silver software" data-country="international">
+                                <div class="partner-box">
+                                    <div class="certificate-line silver">
+                                        Silver Partner
+                                    </div>
+                                    <div class="partner-logo">
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/bloosite.png" alt="Bloosite logo" title="Bloosite"/>
+                                    </div>
+                                    <div class="partner-text">
+                                        <h4>Bloosite</h4>
+                                        <p>
+                                            Bloosite helps SMEs keep up with rapidly changing markets by providing convenient IT solutions to suit their evolving business models. Companies benefit from a ready-to-use package with a usage-dependent pricing model as well as from a sound knowledge in IT-security. The innovative Swiss company’s comprehensive offering is available from local installation to highly secured Swiss data centers.
+                                        </p>
+                                    </div>
+                                    <ul class="partner-info">
+                                        <li>Industry name</li>
+                                        <li><a href="https://bloosite.com" target="_blank">Go to website</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="partner-col" data-type="silver system" data-country="international">
+                                <div class="partner-box">
+                                    <div class="certificate-line silver">
+                                        Silver Partner
+                                    </div>
+                                    <div class="partner-logo">
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/bktech.png" alt="BK Tech logo" title="BK Tech"/>
+                                    </div>
+                                    <div class="partner-text">
+                                        <h4>BK Tech</h4>
+                                        <p>
+                                            BK Tech is your Brazilian partner for implementing Nextcloud in simple or complex environments, in public or private companies, with qualified professionals and processes of excellence. We are a family owned and operated business and have several significant customers, including in the federal government. But all customers are important to us, no matter the size! Contact us to for information about licenses and specialized services.
+                                        </p>
+                                    </div>
+                                    <ul class="partner-info">
+                                        <li>Industry name</li>
+                                        <li><a href="https://bktech.com.br" target="_blank">Go to website</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="partner-col" data-type="silver app" data-country="germany">
+                                <div class="partner-box">
+                                    <div class="certificate-line silver">
+                                        Silver Partner
+                                    </div>
+                                    <div class="partner-logo">
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/compaso.png" alt="Compaso logo" title="Compaso"/>
+                                    </div>
+                                    <div class="partner-text">
+                                        <h4>Compaso</h4>
+                                        <p>
+                                            Compaso has solved a wide variety of hosting, administration and development challenges for a variety of German customers. We can set up and maintain your digital collaboration infrastructure, guaranteeing secure and reliable service on-premises or in the cloud. Contact us to find out more!
+                                        </p>
+                                    </div>
+                                    <ul class="partner-info">
+                                        <li>Industry name</li>
+                                        <li><a href="https://compaso.de" target="_blank">Go to website</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="partner-col" data-type="silver software" data-country="uk">
+                                <div class="partner-box">
+                                    <div class="certificate-line silver">
+                                        Silver Partner
+                                    </div>
+                                    <div class="partner-logo">
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/corewin.png" alt="CoreWin logo" title="CoreWin"/>
+                                    </div>
+                                    <div class="partner-text">
+                                        <h4>CoreWin</h4>
+                                        <p>
+                                            CoreWin is a distributor of software with a focus on process optimization, information security, data analysis and consulting.<br>
+                                            CoreWin’s team speaks English fluently, that’s why company works directly with software vendors to provide a quick response to all inquiries.<br>
+                                            CoreWin also provides the first level of technical support for all products. Being a distributor, CoreWin carries out pre-sales and technical consultations, as well as provide implementation services.<br>
+                                            CoreWin – first Core, then Win.
+                                        </p>
+                                    </div>
+                                    <ul class="partner-info">
+                                        <li>Industry name</li>
+                                        <li><a href="https://corewin.com.ua/nextcloud/" target="_blank">Go to website</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="partner-col" data-type="silver software" data-country="germany">
+                                <div class="partner-box">
+                                    <div class="certificate-line silver">
+                                        Silver Partner
+                                    </div>
+                                    <div class="partner-logo">
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/dassit.png" alt="dass IT GmbH logo" title="dass IT GmbH"/>
+                                    </div>
+                                    <div class="partner-text">
+                                        <h4>dass IT GmbH</h4>
+                                        <p>
+                                            dass IT GmbH in Cologne, founded in 2004 by former senior consultants of Suse Linux, is primarily a system integrator, offering support and consulting around Linux and Open Source Software. dass IT can help you build and run a private cloud infrastructure or migrate an existing ownCloud to Nextcloud.
+                                        </p>
+                                    </div>
+                                    <ul class="partner-info">
+                                        <li>Industry name</li>
+                                        <li><a href="https://www.dass-it.de/" target="_blank">Go to website</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="partner-col" data-type="silver system" data-country="germany">
+                                <div class="partner-box">
+                                    <div class="certificate-line silver">
+                                        Silver Partner
+                                    </div>
+                                    <div class="partner-logo">
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/daseq.png" alt="DASEQ logo" title="DASEQ"/>
+                                    </div>
+                                    <div class="partner-text">
+                                        <h4>DASEQ</h4>
+                                        <p>
+                                            DASEQ is delivering Nextcloud as integral part of their OpenSource solution framework which consists of open source technology, services and training as well as security solutions.
+                                        </p>
+                                    </div>
+                                    <ul class="partner-info">
+                                        <li>Industry name</li>
+                                        <li><a href="http://www.daseq.de/produkte/nextcloud/" target="_blank">Go to website</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                             <div class="partner-col" data-type="bronze resell" data-country="asia">
                                 <div class="partner-box">
                                     <div class="certificate-line bronze">
@@ -1290,229 +1509,6 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="custom-tab-panel" data-panel="technology-tab">
-                        <div class="partners-holder">
-                            <div class="partner-col" data-type="platinum system" data-country="germany">
-                                <div class="partner-box">
-                                    <div class="certificate-line plat">
-                                        Platinum Partner
-                                    </div>
-                                    <div class="partner-logo">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/8soft.png" alt="8Soft logo" title="8Soft"/>
-                                    </div>
-                                    <div class="partner-text">
-                                        <h4>8Soft</h4>
-                                        <p>8Soft is a value added distributor focused on cybersecurity solutions. The portfolio consists of explicitly selected solutions that have passed the 8Soft tests. In this way, the distributor also secures the trust of its resellers (IT retailers and system integrators). 8Soft offers sales and technical support through fixed contact persons who are also available at any time for customer appointments. There is also a partner programme, marketing support and project promotion via MDF funds. The idea of a jointly successful and strong (partner) community "fighting" against cybercrime is also in the 8Soft slogan: "IT Security, that's us."</p>
-                                    </div>
-                                    <ul class="partner-info">
-                                        <li>Industry name</li>
-                                        <li><a href="https://www.8soft.de/portfolio/nextcloud/nextcloud-enterprise" target="_blank">Go to website</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="partner-col" data-type="platinum software" data-country="international">
-                                <div class="partner-box">
-                                    <div class="certificate-line plat">
-                                        Platinum Partner
-                                    </div>
-                                    <div class="partner-logo">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/adfinis.png" alt="Adfinis SyGroup logo" title="Adfinis SyGroup"/>
-                                    </div>
-                                    <div class="partner-text">
-                                        <h4>Adfinis Sygroup</h4>
-                                        <p>Adfinis SyGroup supports clients from the private and public sectors in the planning, testing and implementation of tailor-made software projects. The core competences of Adfinis SyGroup AG are open source engineering & devops, 24/7 services & support, managed services and open source development.</p>
-                                    </div>
-                                    <ul class="partner-info">
-                                        <li>Industry name</li>
-                                        <li><a href="https://adfinis-sygroup.ch/en" target="_blank">Go to website</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="partner-col" data-type="platinum system" data-country="international">
-                                <div class="partner-box">
-                                    <div class="certificate-line plat">
-                                        Platinum Partner
-                                    </div>
-                                    <div class="partner-logo">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/arawa.png" alt="Arawa logo" title="Arawa"/>
-                                    </div>
-                                    <div class="partner-text">
-                                        <h4>Arawa</h4>
-                                        <p>8Soft is a value added distributor focused on cybersecurity solutions. The portfolio consists of explicitly selected solutions that have passed the 8Soft tests. In this way, the distributor also secures the trust of its resellers (IT retailers and system integrators). 8Soft offers sales and technical support through fixed contact persons who are also available at any time for customer appointments. There is also a partner programme, marketing support and project promotion via MDF funds. The idea of a jointly successful and strong (partner) community "fighting" against cybercrime is also in the 8Soft slogan: "IT Security, that's us."</p>
-                                    </div>
-                                    <ul class="partner-info">
-                                        <li>Industry name</li>
-                                        <li><a href="https://www.arawa.fr" target="_blank">Go to website</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="partner-col" data-type="gold system" data-country="international">
-                                <div class="partner-box">
-                                    <div class="certificate-line gold">
-                                        Gold Partner
-                                    </div>
-                                    <div class="partner-logo">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/arulogic.png" alt="Arulogic Labs logo" title="Arulogic Labs"/>
-                                    </div>
-                                    <div class="partner-text">
-                                        <h4>Arulogic Labs</h4>
-                                        <p>
-                                            Arulogic Labs is an IT managed services provider in Indonesia. Our specialty is the implementation of on-premises and cloud based systems.<br>
-                                            We sell Nextcloud Enterprise with local support and can fully implement and operate a Nextcloud environment with all the infrastructure on which it will run.
-                                        </p>
-                                    </div>
-                                    <ul class="partner-info">
-                                        <li>Industry name</li>
-                                        <li><a href="https://arulogic.com" target="_blank">Go to website</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="partner-col" data-type="gold software" data-country="germany">
-                                <div class="partner-box">
-                                    <div class="certificate-line gold">
-                                        Gold Partner
-                                    </div>
-                                    <div class="partner-logo">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/bitbone.png" alt="Bitbone logo" title="Bitbone"/>
-                                    </div>
-                                    <div class="partner-text">
-                                        <h4>Bitbone</h4>
-                                        <p>
-                                            Bitbone was founded in 2001 in Germany, as on Open-Source (Linux) services provider, offering secure and powerful infrastructure & IT services. They have 20 years of experience with Linux, Kaspersky products and expertise that ranges from standards such as server technologies, operating systems, monitoring, firewalls, endpoint security to new technologies such as automation, containerization and cyber-security.<br>
-                                            Bitbone aims further development for their customers‘ strategic projects and business.
-                                        </p>
-                                    </div>
-                                    <ul class="partner-info">
-                                        <li>Industry name</li>
-                                        <li><a href="https://www.bitbone.de/" target="_blank">Go to website</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="partner-col" data-type="silver software" data-country="international">
-                                <div class="partner-box">
-                                    <div class="certificate-line silver">
-                                        Silver Partner
-                                    </div>
-                                    <div class="partner-logo">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/bloosite.png" alt="Bloosite logo" title="Bloosite"/>
-                                    </div>
-                                    <div class="partner-text">
-                                        <h4>Bloosite</h4>
-                                        <p>
-                                            Bloosite helps SMEs keep up with rapidly changing markets by providing convenient IT solutions to suit their evolving business models. Companies benefit from a ready-to-use package with a usage-dependent pricing model as well as from a sound knowledge in IT-security. The innovative Swiss company’s comprehensive offering is available from local installation to highly secured Swiss data centers.
-                                        </p>
-                                    </div>
-                                    <ul class="partner-info">
-                                        <li>Industry name</li>
-                                        <li><a href="https://bloosite.com" target="_blank">Go to website</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="partner-col" data-type="silver system" data-country="international">
-                                <div class="partner-box">
-                                    <div class="certificate-line silver">
-                                        Silver Partner
-                                    </div>
-                                    <div class="partner-logo">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/bktech.png" alt="BK Tech logo" title="BK Tech"/>
-                                    </div>
-                                    <div class="partner-text">
-                                        <h4>BK Tech</h4>
-                                        <p>
-                                            BK Tech is your Brazilian partner for implementing Nextcloud in simple or complex environments, in public or private companies, with qualified professionals and processes of excellence. We are a family owned and operated business and have several significant customers, including in the federal government. But all customers are important to us, no matter the size! Contact us to for information about licenses and specialized services.
-                                        </p>
-                                    </div>
-                                    <ul class="partner-info">
-                                        <li>Industry name</li>
-                                        <li><a href="https://bktech.com.br" target="_blank">Go to website</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="partner-col" data-type="silver app" data-country="germany">
-                                <div class="partner-box">
-                                    <div class="certificate-line silver">
-                                        Silver Partner
-                                    </div>
-                                    <div class="partner-logo">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/compaso.png" alt="Compaso logo" title="Compaso"/>
-                                    </div>
-                                    <div class="partner-text">
-                                        <h4>Compaso</h4>
-                                        <p>
-                                            Compaso has solved a wide variety of hosting, administration and development challenges for a variety of German customers. We can set up and maintain your digital collaboration infrastructure, guaranteeing secure and reliable service on-premises or in the cloud. Contact us to find out more!
-                                        </p>
-                                    </div>
-                                    <ul class="partner-info">
-                                        <li>Industry name</li>
-                                        <li><a href="https://compaso.de" target="_blank">Go to website</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="partner-col" data-type="silver software" data-country="uk">
-                                <div class="partner-box">
-                                    <div class="certificate-line silver">
-                                        Silver Partner
-                                    </div>
-                                    <div class="partner-logo">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/corewin.png" alt="CoreWin logo" title="CoreWin"/>
-                                    </div>
-                                    <div class="partner-text">
-                                        <h4>CoreWin</h4>
-                                        <p>
-                                            CoreWin is a distributor of software with a focus on process optimization, information security, data analysis and consulting.<br>
-                                            CoreWin’s team speaks English fluently, that’s why company works directly with software vendors to provide a quick response to all inquiries.<br>
-                                            CoreWin also provides the first level of technical support for all products. Being a distributor, CoreWin carries out pre-sales and technical consultations, as well as provide implementation services.<br>
-                                            CoreWin – first Core, then Win.
-                                        </p>
-                                    </div>
-                                    <ul class="partner-info">
-                                        <li>Industry name</li>
-                                        <li><a href="https://corewin.com.ua/nextcloud/" target="_blank">Go to website</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="partner-col" data-type="silver software" data-country="germany">
-                                <div class="partner-box">
-                                    <div class="certificate-line silver">
-                                        Silver Partner
-                                    </div>
-                                    <div class="partner-logo">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/dassit.png" alt="dass IT GmbH logo" title="dass IT GmbH"/>
-                                    </div>
-                                    <div class="partner-text">
-                                        <h4>dass IT GmbH</h4>
-                                        <p>
-                                            dass IT GmbH in Cologne, founded in 2004 by former senior consultants of Suse Linux, is primarily a system integrator, offering support and consulting around Linux and Open Source Software. dass IT can help you build and run a private cloud infrastructure or migrate an existing ownCloud to Nextcloud.
-                                        </p>
-                                    </div>
-                                    <ul class="partner-info">
-                                        <li>Industry name</li>
-                                        <li><a href="https://www.dass-it.de/" target="_blank">Go to website</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="partner-col" data-type="silver system" data-country="germany">
-                                <div class="partner-box">
-                                    <div class="certificate-line silver">
-                                        Silver Partner
-                                    </div>
-                                    <div class="partner-logo">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/daseq.png" alt="DASEQ logo" title="DASEQ"/>
-                                    </div>
-                                    <div class="partner-text">
-                                        <h4>DASEQ</h4>
-                                        <p>
-                                            DASEQ is delivering Nextcloud as integral part of their OpenSource solution framework which consists of open source technology, services and training as well as security solutions.
-                                        </p>
-                                    </div>
-                                    <ul class="partner-info">
-                                        <li>Industry name</li>
-                                        <li><a href="http://www.daseq.de/produkte/nextcloud/" target="_blank">Go to website</a></li>
-                                    </ul>
-                                </div>
-                            </div>
                             <div class="partner-col" data-type="bronze system" data-country="international">
                                 <div class="partner-box">
                                     <div class="certificate-line bronze">
@@ -1633,6 +1629,117 @@
                                         <li>Industry name</li>
                                         <li><a href="https://www.hkn.de/nextcloud-cloud-speicher" target="_blank">Go to website</a></li>
                                     </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="custom-tab-panel" data-panel="technology-tab">
+                        <div class="partners-holder">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/sendent.png" title="Assanti" />
+                                    <p>Sendent develops the Sendent Outlook Addin, helping customers easily and securily send and receive files with Outlook and Nextcloud.</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="https://www.canonical.com/" target="_blank" title="Canonical">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/canonical.png" title="Canonical" />
+                                    </a>
+                                    <p  class="partnertext">Canonical is the company behind Ubuntu, the leading Operating System for cloud and the Internet of Things. Most public cloud workloads are running on Ubuntu, and most new smart gateways, self-driving cars and advanced humanoid robots also run Ubuntu. Nextcloud and Canonical collaborate to build the <a href="<?php echo home_url('box') ?>">Nextcloud Box</a>, a device that makes it easy for anyone to self host their data.</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="https://www.collaboraoffice.com/" target="_blank" title="Collabora Office website">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/collabora.png" title="Collabora" />
+                                    </a>
+                                    <p  class="partnertext">Collabora Productivity is the world’s leading LibreOffice services company and one of the biggest contributors to the LibreOffice for desktop codebase. It is the driving force behind putting LibreOffice in the Cloud with Collabora Online.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <a href="https://office.hancom.com/" target="_blank" title="Hancom">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/hancom.png" title="Hancom logo" />
+                                    </a>
+                                    <p  class="partnertext">With more than 30 years in productivity applications, HANCOM has been providing a powerful productivity solution optimized for collaboration in diverse workplaces. We deliver a consistent, professional-grade experience and supports essential office applications - word processor, spreadsheet, presentation and PDF tool across multiple platforms including Windows OS, Mobile and Web to offer boundless office productivity environments.</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="https://hostbillapp.com/products-services/nextcloud/" target="_blank" title="HostBill">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/hostbill.png" title="HostBill logo" />
+                                    </a>
+                                    <p  class="partnertext">HostBill is a powerful and flexible, all-in-one automation, billing, client management and support platform for online businesses. It handles all aspects of running a successful hosting business, integrating with countless control panels, domain registrars and other tools, including Nextcloud.</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="http://ibm.com" target="_blank" title="IBM">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/ibm.png" title="IBM" />
+                                    </a>
+                                    <p class="partnertext">IBM offers a wide range of digital solutions and consulting. Nextcloud and IBM work together in various areas including support for the IBM Spectrum Scale file system.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <a href="https://www.truenas.com/" target="_blank" title="IX Systems/TrueNAS website">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/ixsystems.png" title="TrueNAS/iX systems logo" />
+                                    </a>
+                                    <p  class="partnertext">Through decades of expertise in system design and development of Open Source software (FreeNAS, FreeBSD, OpenZFS, and TrueNAS), iXsystems has become an innovation leader in high availability storage and servers powered by Open Source solutions. With over one million deployments and backed by the legendary ZFS file system, TrueNAS offers the stability and reliability required for Backup, Multimedia, Cloud Hosting, Virtualization, Hyper-converged Infrastructure, and much more.<br />
+                                    Since the founding of iXsystems in 2002, thousands of companies, universities, and government organizations have come to rely on the company’s enterprise servers, TrueNAS Open Storage, and consultative approach to building IT infrastructure and Private Clouds with Open Source economics. </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="https://kailona.org" target="_blank" title="Kailona">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/kailona.png" title="Kailona logo" />
+                                    </a>
+                                    <p  class="partnertext">Kailona is the pioneer in providing an integrated DICOM and FHIR open source developer platform to the developer community. The platform allows developers to rapidly launch GPDR-compliant clinical and personal health apps. The Kailona EHR health app gives patient full control over their health data. This means that they can fully control who they want to share their data with and the level of anonymization of the data. This even allows for the option to share anonymized data with the research community and help accelerate the speed of medical innovations. The app also provides people with data correlations that allows them to make healthier choices. Kailona is working with the Centre Hospitalier Universitaire Vaudois (CHUV) on a Nextcloud-based solution for sensitive data sharing and collaboration.</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="http://nitrokey.com" target="_blank" title="Nitrokey">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/nitrokey.png" title="Nitrokey" />
+                                    </a>
+                                    <p class="partnertext">Nitrokey is a German developer of hardware security keys. Their hardware is open source, enabling users to verify its security themselves. Nextcloud and Nitrokey work together on secure and easy authentication solutions around open standards.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <a href="http://www.onlyoffice.com" target="_blank" title="ONLYOFFICE">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/onlyoffice.png" title="ONLYOFFICE" />
+                                    </a>
+                                    <p class="partnertext">Ascensio System SIA develops ONLYOFFICE, a powerful office suite that comprises online editors for text documents, spreadsheets and presentations highly compatible with Microsoft Office, OpenDocument and all other popular file formats.</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="http://www.openinventionnetwork.com" target="_blank" title="OIN">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/oin.png" title="OIN" />
+                                    </a>
+                                    <p  class="partnertext">The Open Invention Network is a shared defensive patent pool with the mission to protect Linux.  Launched in 2005, OIN has strong industry support with backing from Google, IBM, NEC, Philips, Red Hat, Sony, SUSE, and Toyota.  Any company, project or developer that is working on Linux, GNU, Android or any other Linux-related software is welcome to join OIN, free of charge or royalties.</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="https://osb-alliance.com" target="_blank" title="Open Source Business Alliance">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/osballiance.png" title="The Open Source Business Alliance" />
+                                    </a>
+                                    <p  class="partnertext">The German language focused OSB Alliance is a collaboration of IT providers who want to push Open Source Software forward. As member Nextcloud GmbH helps push interoperability and open standards forward in the open cloud.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <a href="https://redhat.com" target="_blank" title="Red Hat Partnership">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/redhat.png" title="Red Hat Partnership" />
+                                    </a>
+                                    <p  class="partnertext">Red Hat is the world's leading provider of reliable and high-performing open source cloud, Linux, middleware, storage and virtualization technologies. As Red Hat Advanced Business Partner, Nextcloud offers integrated solutions to its customers.</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="http://www.moodle.com/" target="_blank" title="Moodle">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/moodle.png" title="Moodle" />
+                                    </a>
+                                    <p  class="partnertext">Moodle is the world's open source learning platform with a mission to empower educators to improve our world. Moodle provides educators with a private online space, filled with powerful, flexible tools for collaborative learning. Moodle is used in every country in the world by over 100 million registered users.</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="https://www.univention.de/" target="_blank" title="Univention">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/univention.png" title="Univention" />
+                                    </a>
+                                    <p  class="partnertext">Univention is a leading provider of Open Source products for running and managing whole IT infrastructures and applications. Our core product is Univention Corporate Server (UCS), a flexible, effective alternative to Microsoft solutions with AD functions, a strong identity management and a wide range of applications in our App Center.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <a href="https://www.vibecyber.com/" target="_blank" title="Vibe Cyber">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/vibe.png" title="Vibe Cyber" />
+                                    </a>
+                                    <p  class="partnertext">VIBE Cybersecurity International’s core offering, Verifiable Identity-Based Encryption (VIBE), is a modern certificate-less, authenticating, cryptosystem that completely disrupts today’s security landscape, and affords organizations which embrace it the opportunity to eliminate their reliance on vulnerable, costly, complex certificate-based technologies.</p>
                                 </div>
                             </div>
                         </div>
