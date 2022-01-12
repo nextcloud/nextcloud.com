@@ -31,13 +31,35 @@ jQuery(document).ready(function () {
         select.slideToggle();
     });
 
-    jQuery('.service-list li').click(function () {
-        var filter1 = jQuery(this).data('service');
-        jQuery(this).parent('.select-list').slideUp();
-        jQuery(this).closest('.input-outer').find('.selection').removeClass('active');
-        var value1 = jQuery(this).text();
-        jQuery('#services').val(value1);
-        jQuery('#services').data('value', filter1);
+//    jQuery('.service-list li').click(function () {
+//        var filter1 = jQuery(this).data('service');
+//        jQuery(this).parent('.select-list').slideUp();
+//        jQuery(this).closest('.input-outer').find('.selection').removeClass('active');
+//        var value1 = jQuery(this).text();
+//        jQuery('#services').val(value1);
+//        jQuery('#services').data('value', filter1);
+//        iniFilter();
+//    });
+
+    jQuery('input[name="servi"]').change(function () {
+        var textArray = '';
+//        var valArray = '';
+        var valArray = [];
+        var count = jQuery('input[name="servi"]:checked').length;
+        var i = 1;
+        jQuery('input[name="servi"]:checked').each(function () {
+            var labeltext = jQuery(this).next('label').text();
+            var valuefilter = jQuery(this).val();
+            valArray.push(valuefilter);
+            if (count == i) {
+                textArray += labeltext;
+            } else {
+                textArray += labeltext + ', ';
+            }
+            i++;
+        });
+        jQuery('#services').val(textArray);
+        jQuery('#services').data('value', valArray);
         iniFilter();
     });
 
@@ -92,9 +114,9 @@ function iniFilter() {
     var filter1 = jQuery('#services').data('value');
     var filter2 = jQuery('#certificates').data('value');
     var filter3 = jQuery('#country').data('value');
-
-    if (filter1 == 'all-dev') {
-        filter1 = '';
+    console.log(filter1);
+    if (jQuery.inArray("all-dev", filter1) !== -1 || filter1.length === 0) {
+        var allDev = 1;
     }
     if (filter2 == 'all-cert') {
         filter2 = '';
@@ -109,10 +131,18 @@ function iniFilter() {
         } else {
             var country = jQuery(this).data('country');
         }
-        if (values.includes(filter1) && values.includes(filter2) && filter3.includes(country)) {
-            jQuery(this).show();
+        if (allDev == 1) {
+            if (values.includes(filter2) && filter3.includes(country)) {
+                jQuery(this).show();
+            } else {
+                jQuery(this).hide();
+            }
         } else {
-            jQuery(this).hide();
+            if (filter1.every(item => values.includes(item)) && values.includes(filter2) && filter3.includes(country)) {
+                jQuery(this).show();
+            } else {
+                jQuery(this).hide();
+            }
         }
     });
 }
