@@ -340,7 +340,7 @@
 				<p class="teamdescription">Mikaela has a masters in Global Business from Canada and much experience in marketing in the IT sector.</p>
       </div>
 		</div>
-		
+
 <div class="col-md-4">
 			<div class="teamp">
 			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mariusq.jpg" />
@@ -975,6 +975,19 @@
 					<p class="teamsocial"><a href="https://github.com/pvince81"><i class="fa-github fa"></i></a> <a href="https://twitter.com/pvince81"><i class="fa-twitter fa"></i></a> <a href="https://gitlab.com/pvince81"><i class="fa-gitlab fa"></i></a> <a href="https://www.linkedin.com/in/vincentpetry/"><i class="fa-linkedin fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Vincent is a full-stack software engineer with many years of experience in the open-source space. He's well-known for quickly finding bugs in various systems and his ability to debug deeply in unknown territories and also write extensive bug reports. He's now working in the Nextcloud server team using Vue.js, PHP and other technologies.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Vitor Mattos</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Talk, backend</h4>
+					<h4 class="teamlocation">Lives in Rio de Janeiro, Brazil</h4>
+					<p class="teamsocial"><a href="https://github.com/vitormattos"><i class="fa-github fa"></i></a> <a href="https://twitter.com/vitormattosrj"><i class="fa-twitter fa"></i></a> <a href="http://slides.com/vitormattos"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/vitormattos/"><i class="fa-linkedin fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Vitor is a Zend Certified Engineer working with PHP, Linux and FLOSS solutions for over 15 years, a great supporter of Free and Open Source Software, privacy activist and PHP fan. He loves to give talks and share knowledge with everyone.</p>
 			</div>
 		</div>
 	</div>
