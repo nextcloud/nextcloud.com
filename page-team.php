@@ -347,8 +347,8 @@
 				<div class="teammeta">
 					<h3 class="teamtitle">Audio/video editor</h3>
 					<h4 class="teamexpertise">Photography, UI graphics and video</h4>
-					<h4 class="teamlocation">Lives in ..., Germany</h4>
-					<p class="teamsocial"><a href="TBD"><i class="fa-rss fa"></i></a></p>
+					<h4 class="teamlocation">Lives in Germany</h4>
+					<p class="teamsocial"><a href="https://nerdzoom.de/author/marius/"><i class="fa-rss fa"></i></a> <a href="https://www.youtube.com/channel/UCVE_MEcaZPcd6E6qVmuYarw"><i class="fa-youtube fa"></i></a> <a href="https://www.linkedin.com/in/marius-quabeck-3a984020b"><i class="fa-linkedin fa"></i></a> <a href="https://twitter.com/MariusQuabeck"><i class="fa-twitter fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Marius has been working as an IT Consultant for many big IT companies and startups. <br />He is also a blogger, podcaster, YouTuber, streamer and managers audio and video productions at Nextcloud.</p>
 			</div>
