@@ -985,7 +985,7 @@
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Talk, backend</h4>
 					<h4 class="teamlocation">Lives in Rio de Janeiro, Brazil</h4>
-					<p class="teamsocial"><a href="https://github.com/vitormattos"><i class="fa-github fa"></i></a> <a href="https://twitter.com/pvince81"><i class="fa-twitter fa"></i></a> <a href="http://slides.com/vitormattos"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/vitormattos/"><i class="fa-linkedin fa"></i></a></p>
+					<p class="teamsocial"><a href="https://github.com/vitormattos"><i class="fa-github fa"></i></a> <a href="https://twitter.com/vitormattosrj"><i class="fa-twitter fa"></i></a> <a href="http://slides.com/vitormattos"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/vitormattos/"><i class="fa-linkedin fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Vitor is a Zend Certified Engineer working with PHP, Linux and FLOSS solutions for over 15 years, a great supporter of Free and Open Source Software, privacy activist and PHP fan. He loves to give talks and share knowledge with everyone.</p>
 			</div>
