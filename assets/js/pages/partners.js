@@ -4,8 +4,8 @@ jQuery(document).ready(function () {
     var filter2 = 'all-cert';
     var filter3 = 'all-comp';
 
-    jQuery('#services').val('All development');
-    jQuery('#certificates').val('All Certificates');
+    jQuery('#services').val('All services');
+    jQuery('#certificates').val('All levels');
     jQuery('#country').val('All');
     jQuery('input[type="checkbox"]').each(function () {
         jQuery(this).prop('checked', false);
@@ -147,9 +147,9 @@ function iniFilter() {
     });
 }
 function resetFilter() {
-    jQuery('#services').val('All development');
+    jQuery('#services').val('All services');
     jQuery('#services').data('value', 'all-dev');
-    jQuery('#certificates').val('All Certificates');
+    jQuery('#certificates').val('All levels');
     jQuery('#certificates').data('value', 'all-cert');
     jQuery('#country').val('All');
     jQuery('#country').data('value', 'all-comp');
