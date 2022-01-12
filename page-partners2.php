@@ -257,7 +257,7 @@
                                         Platinum Partner
                                     </div>
                                     <div class="partner-logo">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/atea.png" alt="Atea logo" title="Atea
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/atea.png" alt="Atea logo" title="Atea"/>
                                              </div>
                                              <div class="partner-text">
                                              <h4>Atea Sverige AB</h4>
