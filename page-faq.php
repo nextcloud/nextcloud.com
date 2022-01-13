@@ -89,7 +89,7 @@
 					<p><?php echo $l->t('With the Nextcloud Enterprise subscription you get:');?></p>
 					<ul class="list">
 						<li class="check"><?php echo $l->t('Access to our Enterprise portal with associated services and benefits');?></li>
-						<li class="check"><?php echo $l->t('Full lifecycle support with up to 15 years security and stability fixes');?></li>
+						<li class="check"><?php echo $l->t('Full lifecycle support with up to 5 years security and stability fixes');?></li>
 						<li class="check"><?php echo $l->t('Technical expertise and help covering project inception to production and user growth');?></li>
 						<li class="check"><?php echo $l->t('Help to scale your Nextcloud installation to large amounts of storage and large numbers of users');?></li>
 						<li class="check"><?php echo $l->t('Security and hardening consulting and early access to security patches');?></li>
