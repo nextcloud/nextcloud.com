@@ -21,6 +21,11 @@ jQuery(document).ready(function () {
         resetFilter();
         jQuery('#filtersearch').val('');
         jQuery('.partner-col').show();
+        if (jQuery('#technology-tab').hasClass('active')) {
+            jQuery('.filters-holder').slideUp();
+        } else {
+            jQuery('.filters-holder').slideDown();
+        }
     });
 
     jQuery('.selection').click(function () {
@@ -31,19 +36,8 @@ jQuery(document).ready(function () {
         select.slideToggle();
     });
 
-//    jQuery('.service-list li').click(function () {
-//        var filter1 = jQuery(this).data('service');
-//        jQuery(this).parent('.select-list').slideUp();
-//        jQuery(this).closest('.input-outer').find('.selection').removeClass('active');
-//        var value1 = jQuery(this).text();
-//        jQuery('#services').val(value1);
-//        jQuery('#services').data('value', filter1);
-//        iniFilter();
-//    });
-
     jQuery('input[name="servi"]').change(function () {
         var textArray = '';
-//        var valArray = '';
         var valArray = [];
         var count = jQuery('input[name="servi"]:checked').length;
         var i = 1;
