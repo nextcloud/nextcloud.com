@@ -385,7 +385,7 @@
                                         <li><a href="https://compaso.de" target="_blank">Go to website</a></li>
                                     </ul>
                                 </div>
-                            </div>    
+                            </div>
                             <div class="partner-col" data-type="gold host-own host-rend app custom train archi" data-country="eu">
                                 <div class="partner-box">
                                     <div class="certificate-line gold">
@@ -396,14 +396,14 @@
                                     </div>
                                     <div class="partner-text">
                                         <h4>cyminds GmbH</h4>
-                                        <p></p>        
+                                        <p></p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Service Provider</li>
                                         <li><a href="https://www.cyminds.eu/" target="_blank">Go to website</a></li>
                                     </ul>
                                 </div>
-                            </div>   
+                            </div>
                             <div class="partner-col" data-type="gold app custom on-site train archi" data-country="eu">
                                 <div class="partner-box">
                                     <div class="certificate-line gold">
@@ -414,14 +414,14 @@
                                     </div>
                                     <div class="partner-text">
                                         <h4>DG Network Solution</h4>
-                                        <p></p>        
+                                        <p></p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Service Provider</li>
                                         <li><a href="https://www.dgnetwork.com.br/" target="_blank">Go to website</a></li>
                                     </ul>
                                 </div>
-                            </div>     
+                            </div>
                             <div class="partner-col" data-type="gold host-own" data-country="other">
                                 <div class="partner-box">
                                     <div class="certificate-line gold">
@@ -469,7 +469,7 @@
                                     <div class="partner-text">
                                         <h4>Econocom PSF Luxembourg (SP)</h4>
                                         <p>
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Service Provider</li>
@@ -611,7 +611,7 @@
                                     <div class="partner-text">
                                         <h4>iWV.works</h4>
                                         <p>
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Service Provider</li>
@@ -689,7 +689,7 @@
                                     <div class="partner-text">
                                         <h4>Manz Solutions GmbH</h4>
                                         <p>
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Service Provider</li>
@@ -769,7 +769,7 @@
                                         <h4>opinsys</h4>
                                         <p>
                                             Opinsys is a finnish company working in the field of IT and education. We provide IT-services to schools and daycare to cities and municipalities in Finland and Germany. Our aim is to make the use of technology at schools as seamless as possible so that teachers can concentrate on pedagogy and help pupils learn better instead of spending their time fighting with unusable technology. We believe that if teachers have reliable tools, they will also be more motivated in their work. And the more motivated the teachers are, it is turned into improved learning.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Service Provider</li>
@@ -788,7 +788,7 @@
                                     <div class="partner-text">
                                         <h4>Promin Computer Technologies Inc.</h4>
                                         <p>
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Service Provider</li>
@@ -812,7 +812,7 @@
                                     </div>
                                     <ul class="partner-info">
                                         <li>Reseller & Service Provider</li>
-                                        <li><a href="https://https://www.redpill-linpro.com/" target="_blank">Go to website</a></li>
+                                        <li><a href="https://www.redpill-linpro.com/" target="_blank">Go to website</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -869,7 +869,7 @@
                                         <h4>Sola K.K.</h4>
                                         <p>
                                             Sola is a Japanese IT company specialized in infrastructure, networks, systems, virtualization and software development. Since its establishment in 2008 Sola has successfully carried out several projects to a wide range of clients including large, internationally recognized corporations, and governmental organizations. Sola is also actively engaged in smartphone application and VR development.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Service Provider</li>
@@ -889,7 +889,7 @@
                                         <h4>Sorint.lab Italy & Spain</h4>
                                         <p>
                                             Sorint.lab is the Next Generation System Integrator, leader in the Digital Transformation with a flexible and vendor independent approach. We provide consultancy in Agile, DevOps, CI/CD, Cloud Adoption, Modern Application Development, Application Modernization, Next Generation IT Operations and Site Reliability Engineering. With offices in Italy, Spain, UK, Germany, France and USA, we are able to deliver a wide range of professional services from architecture design, development, implementation to training, providing 24x7 support to on prem, cloud and hybrid infrastructures and Application support & maintenan.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Reseller</li>
@@ -1466,7 +1466,7 @@
                                     <div class="partner-text">
                                         <h4>HostBill</h4>
                                         <p>
-                                            HostBill is a powerful and flexible, all-in-one automation, billing, client management and support platform for online businesses. It handles all aspects of running a successful hosting business, integrating with countless control panels, domain registrars and other tools, including Nextcloud.    
+                                            HostBill is a powerful and flexible, all-in-one automation, billing, client management and support platform for online businesses. It handles all aspects of running a successful hosting business, integrating with countless control panels, domain registrars and other tools, including Nextcloud.
                                         </p>
                                     </div>
                                     <ul class="partner-info">
@@ -1484,7 +1484,7 @@
                                         <h4>IBM</h4>
                                         <p>
                                             IBM offers a wide range of digital solutions and consulting. Nextcloud and IBM work together in various areas including support for the IBM Spectrum Scale file system.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Technology Partner</li>
@@ -1501,7 +1501,7 @@
                                         <h4>Kailona</h4>
                                         <p>
                                             Kailona is the pioneer in providing an integrated DICOM and FHIR open source developer platform to the developer community. The platform allows developers to rapidly launch GPDR-compliant clinical and personal health apps. The Kailona EHR health app gives patient full control over their health data. This means that they can fully control who they want to share their data with and the level of anonymization of the data. This even allows for the option to share anonymized data with the research community and help accelerate the speed of medical innovations. The app also provides people with data correlations that allows them to make healthier choices. Kailona is working with the Centre Hospitalier Universitaire Vaudois (CHUV) on a Nextcloud-based solution for sensitive data sharing and
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Technology Partner</li>
@@ -1518,7 +1518,7 @@
                                         <h4>Moodle</h4>
                                         <p>
                                             Moodle is the world's open source learning platform with a mission to empower educators to improve our world. Moodle provides educators with a private online space, filled with powerful, flexible tools for collaborative learning. Moodle is used in every country in the world by over 100 million registered users.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Technology Partner</li>
@@ -1535,7 +1535,7 @@
                                         <h4>Nitrokey</h4>
                                         <p>
                                             Nitrokey is a German developer of hardware security keys. Their hardware is open source, enabling users to verify its security themselves. Nextcloud and Nitrokey work together on secure and easy authentication solutions around open standards.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Technology Partner</li>
@@ -1568,7 +1568,7 @@
                                         <h4>Open Invention Network</h4>
                                         <p>
                                             The Open Invention Network is a shared defensive patent pool with the mission to protect Linux. Launched in 2005, OIN has strong industry support with backing from Google, IBM, NEC, Philips, Red Hat, Sony, SUSE, and Toyota. Any company, project or developer that is working on Linux, GNU, Android or any other Linux-related software is welcome to join OIN, free of charge or royalties.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Technology Partner</li>
@@ -1585,7 +1585,7 @@
                                         <h4>OSB Alliance</h4>
                                         <p>
                                             The German language focused OSB Alliance is a collaboration of IT providers who want to push Open Source Software forward. As member Nextcloud GmbH helps push interoperability and open standards forward in the open cloud.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Technology Partner</li>
@@ -1602,7 +1602,7 @@
                                         <h4>RedHat</h4>
                                         <p>
                                             Red Hat is the world's leading provider of reliable and high-performing open source cloud, Linux, middleware, storage and virtualization technologies. As Red Hat Advanced Business Partner, Nextcloud offers integrated solutions to its customers.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Technology Partner</li>
@@ -1619,7 +1619,7 @@
                                         <h4>sendent</h4>
                                         <p>
                                             Sendent develops the Sendent Outlook Addin, helping customers easily and securily send and receive files with Outlook and Nextcloud.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Technology Partner</li>
@@ -1636,7 +1636,7 @@
                                         <h4>TrueNAS</h4>
                                         <p>
                                             Through decades of expertise in system design and development of Open Source software (FreeNAS, FreeBSD, OpenZFS, and TrueNAS), iXsystems has become an innovation leader in high availability storage and servers powered by Open Source solutions. With over one million deployments and backed by the legendary ZFS file system, TrueNAS offers the stability and reliability required for Backup, Multimedia, Cloud Hosting, Virtualization, Hyper-converged Infrastructure, and much more. Since the founding of iXsystems in 2002, thousands of companies, universities, and government organizations have come to rely on the company’s enterprise servers, TrueNAS Open Storage, and consultative approach to building IT infrastructure and Private Clouds with Open Source economics.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Technology Partner</li>
@@ -1653,7 +1653,7 @@
                                         <h4>Univention</h4>
                                         <p>
                                             Univention is a leading provider of Open Source products for running and managing whole IT infrastructures and applications. Our core product is Univention Corporate Server (UCS), a flexible, effective alternative to Microsoft solutions with AD functions, a strong identity management and a wide range of applications in our App Center.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Technology Partner</li>
@@ -1670,7 +1670,7 @@
                                         <h4>VIBE Cybersecurity</h4>
                                         <p>
                                             VIBE Cybersecurity International’s core offering, Verifiable Identity-Based Encryption (VIBE), is a modern certificate-less, authenticating, cryptosystem that completely disrupts today’s security landscape, and affords organizations which embrace it the opportunity to eliminate their reliance on vulnerable, costly, complex certificate-based technologies.
-                                        </p>        
+                                        </p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Technology Partner</li>
@@ -1766,7 +1766,7 @@
                             <div class="partner-text">
                                 <h4>Prianto PPM GmbH</h4>
                                 <p>
-                                    Prianto PPM GmbH is an independant part of the Prianto Group, which was spun off from Prianto GmbH in July 2019. Prianto PPM is aimed at system houses that want to purchase a wide variety of software products easily and at competitive prices from a single source. The business will be operated centrally from Germany for the whole of Europe. These include electronic data exchange, individualized price lists and a high level of compliance and security.    
+                                    Prianto PPM GmbH is an independant part of the Prianto Group, which was spun off from Prianto GmbH in July 2019. Prianto PPM is aimed at system houses that want to purchase a wide variety of software products easily and at competitive prices from a single source. The business will be operated centrally from Germany for the whole of Europe. These include electronic data exchange, individualized price lists and a high level of compliance and security.
                                 </p>
                             </div>
                             <ul class="partner-info">
