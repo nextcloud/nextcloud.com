@@ -460,6 +460,42 @@
 			</div>
 
 
+			<a href="partner-marketing" data-toggle="collapse"><h3 class="jobs">Partner marketing manager<span class="icon-arrow"></span></h3></a>
+			<div id="partner-marketing" class="collapse">
+				<p>Our marketing team is looking for an enthusiastic partner marketing manager who helps our partners market Nextcloud in their regions and become successful. You'd be responsible for onboarding our partners and planning and coordinating marketing efforts with our top partners. You would work with our team to organize events and webinars, create white papers and co-branded materials, send out newsletters or social media messages and more. We're looking for somebody with marketing and business development experience, able to work remote in an international team and willing to learn and try new things!</p>
+				<h3 class="section--paragraph__title">Responsibilities:</h3>
+				<ul>
+					<li>Manage partner onboarding, materials and newsletter</li>
+					<li>Discuss marketing activities with partners and help implement them</li>
+					<li>Support PR activities with partners</li>
+					<li>Track activities with partners</li>
+					<li>Organize partner events</li>
+					<li>Manage partner training and certification</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">Requirements:</h3>
+				<ul>
+					<li>You either have a commercial apprenticeship or another relevant qualification in either sales or marketing and a strong commercial focus</li>
+					<li>You have experience with wide range of marketing activities</li>
+					<li>Proven ability to work remotely and be a strong teamplayer in a remote setting</li>
+					<li>An independent, reliable and responsible way of working as well as a systematic and structured working style are required</li>
+					<li>Enthusiasm, drive and motivation are essential: our partner program is still young and needs creativity and ideas</li>
+					<li>German and English language skills are essential, other languages are a benefit</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">What we offer:</h3>
+				<ul>
+					<li>A distributed, open team with a passion for working on and within the open source community</li>
+					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
+					<li>A competitive salary</li>
+					<li>Flexibility for a healthy work-life balance</li>
+					<li>Time for personal growth and education</li>
+					<li>We have flexible office hours and most of our team works from home.</li>
+					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
+				</ul>
+				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of building up a team. It is a wide-ranging job and we strive to provide the freedom and space to find the right approach! We look for somebody with some team lead experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+			</div>
+
 
 			<a href="#devrelmgr" data-toggle="collapse"><h3 class="jobs">Developer relations manager<span class="icon-arrow"></span></h3></a>
 			<div id="devrelmgr" class="collapse">
