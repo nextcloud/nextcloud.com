@@ -459,39 +459,6 @@
 				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of building up a team. It is a wide-ranging job and we strive to provide the freedom and space to find the right approach! We look for somebody with some team lead experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
-			<a href="#marketing-content" data-toggle="collapse"><h3 class="jobs">Content marketeer<span class="icon-arrow"></span></h3></a>
-			<div id="marketing-content" class="collapse">
-				<p>Our marketing team is looking for an enthusiastic writer who helps us with opinion blogs, case studies, newsletters, announcements and other writing tasks! You'd be responsible for managing our blog, work on newsletters, and other areas that involve content like our website, flyers, and so on. We're looking for somebody with writing experience, able to work remote in an international team and willing to learn and try new things!</p>
-				<h3 class="section--paragraph__title">Responsibilities:</h3>
-				<ul>
-                    <li>Manage our monthly newsletters and some ad-hoc newsletters</li>
-                    <li>Coordinate, write and publish release blogs</li>
-                    <li>Write opinion pieces and essay-style, argumentative articles</li>
-                    <li>Write content for our website, flyers and other promo materials</li>
-                    <li>Interview customers and create case studies</li>
-                    <li>And in all that, coordinate with other team members to create, publish and promote the final products</li>
-				</ul>
-
-				<h3 class="section--paragraph__title">Skills:</h3>
-				<ul>
-                    <li>Experience writing a variety of texts in English</li>
-                    <li>Proven ability to work remote and independently</li>
-                    <li>You don't need to have experience in every single type of content we need, but it'd be nice if you have tried your hands at a few and know how to adapt a certain tone or style. We write sometimes for big enterprises, at other times to activist home users.</li>
-                    <li>Enthusiasm, drive and motivation are helpful: we love initiative as there are plenty things worth writing about around Nextcloud!</li>
-				</ul>
-
-				<h3 class="section--paragraph__title">What we offer:</h3>
-				<ul>
-					<li>A distributed, open team with a passion for working on and within the open source community</li>
-					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
-					<li>A competitive salary</li>
-					<li>Flexibility for a healthy work-life balance</li>
-					<li>Time for personal growth and education</li>
-					<li>We have flexible office hours and most of our team works from home.</li>
-					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
-				</ul>
-				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for getting content created and published. We look for somebody with some writing experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-			</div>
 
 			<!--<a href="#web-designer-developer" data-toggle="collapse"><h3 class="jobs">Web designer & developer <span class="icon-arrow"></span></h3></a>
 			<div id="web-designer-developer" class="collapse">
