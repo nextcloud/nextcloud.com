@@ -460,39 +460,6 @@
 			</div>
 
 
-			<!--<a href="#web-designer-developer" data-toggle="collapse"><h3 class="jobs">Web designer & developer <span class="icon-arrow"></span></h3></a>
-			<div id="web-designer-developer" class="collapse">
-				<p>Our marketing team is looking for a new member: You would design and maintain our website. You'd be responsible for our online presence, both technical and design-wise, and work closely with the other marketers on messaging and content.
-				We're looking for somebody with great design skills and some website maintenance experience, able to work remote in an international team and willing to learn and try new things!</p>
-				<h3 class="section--paragraph__title">Responsibilities:</h3>
-				<ul>
-					<li>Full maintenance of Nextcloud web site</li>
-					<li>Turning marketing messages into beautiful visuals</li>
-					<li>Coordinate with other designers at Nextcloud, collaborate on and maintain our common design language</li>
-				</ul>
-
-				<h3 class="section--paragraph__title">Skills:</h3>
-				<ul>
-					<li>Visual communication skills</li>
-					<li>Screen and web design</li>
-					<li>HTML/CSS skills to turn design into reality</li>
-					<li>Being able to work independently, track progress and ask for help when needed</li>
-					<li>(German language at C1, C2 or native level is a plus)</li>
-				</ul>
-
-				<h3 class="section--paragraph__title">What we offer:</h3>
-				<ul>
-					<li>A distributed, open team with a passion for working on and within the open source community</li>
-					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
-					<li>A competitive salary</li>
-					<li>Flexibility for a healthy work-life balance</li>
-					<li>Time for personal growth and education</li>
-					<li>We have flexible office hours and most of our team works from home.</li>
-					<li>You can literally live anywhere. You're welcome in our Berlin or Stuttgart offices, of course.</li>
-					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
-				</ul>
-				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of enhancing our online presence. We strive to provide the freedom and space to find the right approach! We look for somebody with design and basic website development experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-			</div>-->
 
 			<a href="#devrelmgr" data-toggle="collapse"><h3 class="jobs">Developer relations manager<span class="icon-arrow"></span></h3></a>
 			<div id="devrelmgr" class="collapse">
