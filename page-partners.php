@@ -1037,7 +1037,7 @@
                                         Gold Partner
                                     </div>
                                     <div class="partner-logo">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/qloud.png" alt="QLoud logo" title="QLoud"/>
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/qloudmsp.png" alt="QLoud logo" title="QLoud"/>
                                     </div>
                                     <div class="partner-text">
                                         <h4>QLoud MSP</h4>
