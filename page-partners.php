@@ -1031,6 +1031,27 @@
                                     </ul>
                                 </div>
                             </div>
+                            <div class="partner-col" data-type="gold host-own on-site" data-country="asia">
+                                <div class="partner-box">
+                                    <div class="certificate-line gold">
+                                        Gold Partner
+                                    </div>
+                                    <div class="partner-logo">
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/qloud.png" alt="QLoud logo" title="QLoud"/>
+                                    </div>
+                                    <div class="partner-text">
+                                        <h4>QLoud MSP</h4>
+                                        <p>
+                                          At Qloud MSP, we believe technology should be working for businesses. The complexity and cost should not prevent companies from achieving greater heights. We are obsessively passionate about helping corporates to adopt technology that can make better decisions, save cost and time, building brand image, and, most importantly, customer’s trust towards your company. Specialized in Managed Services, Cloud Computing, Cybersecurity, Data Hosting and Protection, Backup and Disaster Recovery. Qloud MSP doesn’t stop at one area, we continuously expand into the latest technology advancement, providing a more comprehensive solution to our partners, with an affordable price, and instant results.
+                                          As a certified ISO 9001:2015 company, Qloud MSP has been a trusted brand for providing Managed IT Services to companies of all sizes and industry, including from retail, insurance, hospitality, telecommunications, governments, oil and gas, healthcare, charity organizations and many more, ranging from SMEs to multi-national corporations.
+                                        </p>
+                                    </div>
+                                    <ul class="partner-info">
+                                        <li>Service Provider</li>
+                                        <li><a href="http://www.qloud.my" target="_blank">Go to website</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                             <div class="partner-col" data-type="silver host-rend archi" data-country="eu">
                                 <div class="partner-box">
                                     <div class="certificate-line silver">
