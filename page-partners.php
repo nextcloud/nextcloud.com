@@ -28,7 +28,7 @@
             <div class="col-md-6 col-md-offset-3">
                 <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud works with a variety of partners in our ecosystem, building on, providing services around and complementing our product.'); ?></p>
                 <div class="text-center">
-                    <a class="button button--blue" href="https://nextcloud.com/partnerprogram/">Became a Partner</a>
+                    <a class="button button--blue" href="https://nextcloud.com/partnerprogram/">Become a Partner</a>
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@
                 <div class="tabs-navigation">
                     <ul class="custom-partner-tabs">
                         <li>
-                            <button class="tab-link active" id="solution-tab">Solution providers</button>
+                            <button class="tab-link active" id="solution-tab">Solution Providers</button>
                         </li>
                         <li>
                             <button class="tab-link" id="technology-tab">Technology Partners</button>
@@ -57,7 +57,7 @@
                     <p>If you want to ensure your Nextcloud contributes to your business success, we recommend working locally with one of our partners which have the full backing of Nextcloud GmbH. These partners can help you do a proof of concept and purchase, deploy, optimize and maintain your Nextcloud.</p>
                 </div>
                 <div class="text-center">
-                    <p>Look for one of these logo's to make sure you deal with a certified partner!</p>
+                    <p>Look for one of these logos to make sure you deal with a certified partner!</p>
                 </div>
                 <div class="text-center" style="margin-bottom: 50px;">
                     <img style="width: 80px;" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/Nextcloud_Bronze_Partner.svg" alt="partner logo" title="partner logo"/>
@@ -320,7 +320,7 @@
                                         <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/arawa.png" alt="Arawa logo" title="Arawa"/>
                                     </div>
                                     <div class="partner-text">
-                                        <h4>Arawa (VAR)</h4>
+                                        <h4>Arawa</h4>
                                         <p>Arawa is a French IT company specialized in open source office and collaborative software.<br>
                                             Arawa helps organizations to develop document collaboration while keeping control of their data. Arawa's large range of services, including setup, development, support and change management, is used to tailor projects to the specific needs of each organization. Visit arawa.fr or follow @Arawa_fr on Twitter.</p>
                                     </div>
@@ -410,7 +410,7 @@
                                         Gold Partner
                                     </div>
                                     <div class="partner-logo">
-                                        <img src="<?php bloginfo('template_directory'); ?>" alt="compaso GmbH logo" title="compaso GmbH"/>
+                                        <img src="<?php bloginfo('template_directory'); ?>" alt="DG Network Solution logo" title="DG Network Solution"/>
                                     </div>
                                     <div class="partner-text">
                                         <h4>DG Network Solution</h4>
@@ -467,7 +467,7 @@
                                         <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/econocom.png" alt="Econocom logo" title="Econocom"/>
                                     </div>
                                     <div class="partner-text">
-                                        <h4>Econocom PSF Luxembourg (SP)</h4>
+                                        <h4>Econocom PSF Luxembourg</h4>
                                         <p>
                                         </p>
                                     </div>
@@ -486,7 +486,7 @@
                                         <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/evolix.png" alt="Evolix logo" title="Evolix"/>
                                     </div>
                                     <div class="partner-text">
-                                        <h4>Evolix (SP)</h4>
+                                        <h4>Evolix</h4>
                                         <p>
                                             Evolix is a french Managed Hosting Provider.
                                             We offer hosting solutions based on our high availability infrastructure in France (Marseille and Paris).<br>
@@ -511,7 +511,7 @@
                                     <div class="partner-text">
                                         <h4>Flowz Digital, LLP</h4>
                                         <p>
-                                            Enter text here.
+                                            coming soon.
                                         </p>
                                     </div>
                                     <ul class="partner-info">
@@ -684,7 +684,7 @@
                                         Gold Partner
                                     </div>
                                     <div class="partner-logo">
-                                        <img src="<?php bloginfo('template_directory'); ?>" alt="Linuxfabrik logo" title="Linuxfabrik"/>
+                                        <img src="<?php bloginfo('template_directory'); ?>" alt="Manz Solutions GmbH logo" title="Manz Solutions GmbH"/>
                                     </div>
                                     <div class="partner-text">
                                         <h4>Manz Solutions GmbH</h4>
@@ -845,7 +845,7 @@
                                         <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/securetech.png" alt="SecureTech logo" title="SecureTech"/>
                                     </div>
                                     <div class="partner-text">
-                                        <h4>SecureTech (VAR)</h4>
+                                        <h4>SecureTech</h4>
                                         <p>
                                             SecureTech, a UAE based company Founded by Dr. Abdulla Al Nuaimi in 2000. SecureTech is a leading Integrator based out of Abu Dhabi and Operates across the emirates with more than 600 qualified staff from various regions. As a leading solutions provider focusing on:
                                             IT Infrastructure Artificial Intelligence based solutions, big data analysis solutions, cyber Security solutions, IOT & integrated Security solutions. SecureTech provides innovative and cost-effective solutions to your complex problems. Since 2000, SecureTech has been and continues to be a partner of choice for our key customers.
@@ -877,26 +877,6 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="partner-col" data-type="gold host-rend on-site train archi resell" data-country="eu">
-                                <div class="partner-box">
-                                    <div class="certificate-line gold">
-                                        Gold Partner
-                                    </div>
-                                    <div class="partner-logo">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/sorint.png" alt="Sorint.lab logo" title="Sorint.lab"/>
-                                    </div>
-                                    <div class="partner-text">
-                                        <h4>Sorint.lab Italy & Spain</h4>
-                                        <p>
-                                            Sorint.lab is the Next Generation System Integrator, leader in the Digital Transformation with a flexible and vendor independent approach. We provide consultancy in Agile, DevOps, CI/CD, Cloud Adoption, Modern Application Development, Application Modernization, Next Generation IT Operations and Site Reliability Engineering. With offices in Italy, Spain, UK, Germany, France and USA, we are able to deliver a wide range of professional services from architecture design, development, implementation to training, providing 24x7 support to on prem, cloud and hybrid infrastructures and Application support & maintenan.
-                                        </p>
-                                    </div>
-                                    <ul class="partner-info">
-                                        <li>Reseller</li>
-                                        <li><a href="http://www.sorint.it" target="_blank">Go to website</a></li>
-                                    </ul>
-                                </div>
-                            </div>
                             <div class="partner-col" data-type="gold host-rend on-site train archi" data-country="eu">
                                 <div class="partner-box">
                                     <div class="certificate-line gold">
@@ -906,9 +886,9 @@
                                         <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/sorint.png" alt="Sorint.lab logo" title="Sorint.lab"/>
                                     </div>
                                     <div class="partner-text">
-                                        <h4>Sorint.lab Poland</h4>
+                                        <h4>Sorint.lab</h4>
                                         <p>
-                                            Sorint.lab is the Next Generation System Integrator, leader in the Digital Transformation with a flexible and vendor independent approach. We provide consultancy in Agile, DevOps, CI/CD, Cloud Adoption, Modern Application Development, Application Modernization, Next Generation IT Operations and Site Reliability Engineering. With offices in Italy, Spain, UK, Germany, France and USA, we are able to deliver a wide range of professional services from architecture design, development, implementation to training, providing 24x7 support to on prem, cloud and hybrid infrastructures and Application support & maintenan.
+                                            Sorint.lab is the Next Generation System Integrator, leader in the Digital Transformation with a flexible and vendor independent approach. We provide consultancy in Agile, DevOps, CI/CD, Cloud Adoption, Modern Application Development, Application Modernization, Next Generation IT Operations and Site Reliability Engineering. With offices in Italy, Spain, UK, Germany, France and USA, we are able to deliver a wide range of professional services from architecture design, development, implementation to training, providing 24x7 support to on prem, cloud and hybrid infrastructures and Application support & maintenance.
                                         </p>
                                     </div>
                                     <ul class="partner-info">
@@ -1079,7 +1059,7 @@
                                         <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/arulogic.png" alt="Arulogic logo" title="Arulogic"/>
                                     </div>
                                     <div class="partner-text">
-                                        <h4>Arulogic Labs Indonesia (VAR)</h4>
+                                        <h4>Arulogic Labs Indonesia</h4>
                                         <p>Arulogic Labs is an IT managed services provider in Indonesia. Our specialty is the implementation of on-premises and cloud based systems. We sell Nextcloud Enterprise with local support and can fully implement and operate a Nextcloud environment with all the infrastructure on which it will run.</p>
                                     </div>
                                     <ul class="partner-info">
@@ -1205,7 +1185,7 @@
                                         <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/opendsi.png" alt="OPEN-DSI logo" title="OPEN-DSI"/>
                                     </div>
                                     <div class="partner-text">
-                                        <h4>OPEN-DSI (VAR)</h4>
+                                        <h4>OPEN-DSI</h4>
                                         <p>Open-DSI is a French company which supports organizations and companies with their computing projects. Our specialty is the implementation of open source cloud computing solutions and outsourcing. Our solutions are based on three main building blocks: Nextcloud, ERP+CRM Dolibarr and WooCommerce.</p>
                                     </div>
                                     <ul class="partner-info">
@@ -1403,7 +1383,7 @@
                                         <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/tamkeen.png" alt="Tamkeen logo" title="Tamkeen"/>
                                     </div>
                                     <div class="partner-text">
-                                        <h4>Tamkeen Technologies (VAR)</h4>
+                                        <h4>Tamkeen Technologies(</h4>
                                         <p>Tamkeen Technologies is a Saudi company established in 2013 with a clear and ambitious vision to be the first choice for the government sector in IT. Our innovative solutions are designed to digitally transform the businesses of the public sector by adopting leading technologies, and leveraging on our strategic partnerships. Our services are formed to fit various modules and to ensure self-sustainability, improve performance and efficiency for our partners.</p>
                                     </div>
                                     <ul class="partner-info">
@@ -1706,7 +1686,7 @@
         </div>
     </div>
 </section>
-<section class="dist-partners-section">
+<!--<section class="dist-partners-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -1800,7 +1780,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <section class="join-partner-section">
     <div class="container">
         <div class="row">
