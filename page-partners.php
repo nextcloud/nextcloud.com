@@ -1254,15 +1254,15 @@
                                         Silver Partner
                                     </div>
                                     <div class="partner-logo">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/telekom.png" alt="T-Systems logo" title="T-Systems"/>
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/telekom.png" alt="Deutsche Telekom logo" title="Deutsche Telekom"/>
                                     </div>
                                     <div class="partner-text">
-                                        <h4>T-Systems Multimedia Solutions GmbH</h4>
+                                        <h4>Deutsche Telekom</h4>
                                         <p>Deutsche Telekom is one of the world's leading integrated telecommunications companies, with some 235.8 million mobile customers, 27,3 million fixed-network lines, and 21.3 million broadband lines. We provide fixed-network/broadband, mobile communications, Internet, and IPTV products and services for consumers, and information and communication technology (ICT) solutions for business and corporate customers.</p>
                                     </div>
                                     <ul class="partner-info">
                                         <li>Reseller</li>
-                                        <li><a href="http://www.t-systems.com" target="_blank">Go to website</a></li>
+                                        <li><a href="https://open-telekom-cloud.com/de/loesungen/digital-workplace" target="_blank">Go to website</a></li>
                                     </ul>
                                 </div>
                             </div>
