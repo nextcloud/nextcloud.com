@@ -250,7 +250,7 @@
 &lt;VirtualHost *:443&gt;
 ServerName office.nextcloud.com:443
 
-# SSL configuration, you may want to take the easy route instead and use Lets Encrypt!
+# SSL configuration, you may want to take the easy route instead and use Let's Encrypt!
 SSLEngine on
 SSLCertificateFile /path/to/signed_certificate
 SSLCertificateChainFile /path/to/intermediate_certificate
