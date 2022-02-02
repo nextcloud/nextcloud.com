@@ -21,8 +21,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud offers the industry-leading, on-premises content collaboration platform.');?></p>
-                <p class="section--paragraph text-center"><?php echo $l->t('Our technology combines the convenience and ease of use of consumer-grade solutions like Dropbox and Google Drive with the security, privacy and control business needs.');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud develops and maintains the worlds\' most deployed on-premises content collaboration platform.');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Our technology combines the convenience and ease of use of consumer-grade solutions like Dropbox and Google Workspaces with the security, privacy and control business needs.');?></p>
 
             </div>
         </div>
@@ -41,7 +41,7 @@
     <div class="row">
         <h2><?php echo $l->t('Our key differentiators');?></h2>
         <h3 class="section--paragraph__title"><?php echo $l->t('Putting IT back in control');?></h3>
-        <p class="section--paragraph"><?php echo $l->t('As a vendor of on-premises solutions, Nextcloud puts the customer in control over their data in the most literal and direct sense. Your data is in your data center, on a server managed by you, rather than floating somewhere in the cloud.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('As a vendor of on-premises solutions, Nextcloud puts the customer in control over their data in the most literal and direct sense. Your data is in your data center, on a server managed by you or your IT service provider, rather than floating somewhere in the cloud.');?></p>
         <p class="section--paragraph"><?php echo $l->t('Our products integrate powerful capabilities to control and monitor data exchange and communication, including our unique File Access Control and workflow features, extensive audit logs, fine-grained sharing controls and more.');?></p>
         <p class="section--paragraph"><?php echo $l->t('Unlike competitors, we offer hosting strictly through partners and have absolutely no incentive to lock our customers into a SAAS solution.');?></p>
          <h3 class="section--paragraph__title"><?php echo $l->t('Security and compliance first');?></h3>
@@ -147,12 +147,14 @@
     </div>
     <div class="row">
         <h3><?php echo $l->t('History');?></h3>
-		<p class="section--paragraph"><?php echo $l->t('Nextcloud was started in June 2016 by <a class="hyperlink" href="https://karlitschek.de">Frank Karlitschek</a> and a dozen experienced open source entrepreneurs and engineers to empower users to take back control over their data and communication. We envisioned our company to develop the next generation open source Enterprise File Sync and Share and have been relentlessly pursuing that vision, raising the bar for self-hosted solutions.');?></p>
+		<p class="section--paragraph"><?php echo $l->t('The Nextcloud journey started in 2010 with <a class="hyperlink" href="https://karlitschek.de">Frank Karlitschek</a> and a handful developers. It grew steadily and by 2016 Nextcloud GmbH employed a dozen open source developers working to empower users to take back control over their data and communication.');?></p>
 
 		<p class="section--paragraph"><?php echo $l->t('Fully employee-funded and pursuing an organic-growth strategy, Nextcloud already turned profitable by the end of 2016 and had nearly tripled to 35 employees by the end of 2017. See our full ');?><a class="hyperlink" href="<?php echo home_url('team') ?>"><?php echo $l->t('team here.');?></a> </p>
-        <p class="section--paragraph"><?php echo $l->t('By January 2018, <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-grew-customer-base-7x-added-over-6.6-million-lines-of-code-and-doubled-its-team-in-2017/">after record growth in 2017</a>, Nextcloud had become the most sought-after Enterprise File Sync and Share solution <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-grew-customer-base-7x-added-over-6.6-million-lines-of-code-and-doubled-its-team-in-2017/">according to Google Trends</a> and was widely recognized as leading the on-premises Enterprise File Sync and Share industry. Since then, Nextcloud has continued to organically double its revenue year after year.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('By January 2018, <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-grew-customer-base-7x-added-over-6.6-million-lines-of-code-and-doubled-its-team-in-2017/">after record growth in 2017</a>, Nextcloud had become the market-leading, on-premises Enterprise File Sync and Share solution <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-grew-customer-base-7x-added-over-6.6-million-lines-of-code-and-doubled-its-team-in-2017/">according to Google Trends.</a> Since then, Nextcloud has continued to organically double its revenue year after year.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('By 2020, Nextcloud completed its transition from a secure file exchange solution to a full collaboration platform with the introduction of Hub. Nextcloud Hub brings together Nextcloud Files, Talk and Groupware in a single, integrated productivity suite that empowers modern, digital organizations. Later in the year, Nextcloud responded to unprecedented demand by scaling up its video and chat capabilities for larger groups and with features specifically aimed at remote learning and day-to-day interactions of remote workers.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('The fast growing company and its quickly expanding partner base added thousands of new customers in 2021 and continues to innovate in the collaboration space.');?></p>
         <p class="section--paragraph"><?php echo $l->t('With an estimated over 400.000 Nextcloud servers online, no other on-premises content collaboration platform comes close in terms of installed base.');?></p>
-		<p class="section--paragraph"><?php echo $l->t('You can follow what we are up to');?> <a class="hyperlink" href="<?php echo home_url('news') ?>"><?php echo $l->t('in our blogs</a> and subscribe to <a class="hyperlink" href="https://newsletter.nextcloud.com">our newsletter.</a>');?></p>
+		<p class="section--paragraph"><?php echo $l->t('You can follow what we are up to in our blog');?> <a class="hyperlink" href="<?php echo home_url('news') ?>"><?php echo $l->t('here');?></a> <?php echo $l->t('and subscribe to our newsletter');?> <a class="hyperlink" href="https://newsletter.nextcloud.com"><?php echo $l->t('here');?></a>.</p>
 	</div>
 </section>
 
