@@ -53,7 +53,7 @@
 					<li>Communicate clearly the progress of monthly/quarterly initiatives
 					internally</li>
 					<li>Forecast and track key account metrics</li>
-					<li>negotiating tender and contract terms and conditions to meet both
+					<li>Negotiate tender and contract terms and conditions to meet both
 					client and company needs</li>
 					<li>Identify and grow opportunities within territory and collaborate
 					with sales teams to ensure growth attainment</li>
@@ -86,7 +86,7 @@
 					<li>Time for personal growth and education</li>
 				</ul>
 
-				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
 			<!--<a href="#salesrep" data-toggle="collapse"><h3 class="jobs">Sales Representative<span class="icon-arrow"></span></h3></a>
@@ -138,7 +138,7 @@
 					<li>Time for personal growth and education</li>
 				</ul>
 
-				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>-->
 
 
@@ -191,7 +191,7 @@
 					<li>Time for personal growth and education</li>
 				</ul>
 
-				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
       <a href="#marketing" data-toggle="collapse"><h3 class="jobs">Marketing and event manager France<span class="icon-arrow"></span></h3></a>
@@ -548,7 +548,7 @@
 					<li>Flexibility for a healthy work-life balance</li>
 					<li>Time for personal growth and education</li>
 				</ul>
-				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
 	    <a href="#jsdev" data-toggle="collapse"><h3 class="jobs">Javascript Developer<span class="icon-arrow"></span></h3></a>
@@ -577,7 +577,7 @@
 	            <li>Flexibility for a healthy work-life balance</li>
 	            <li>Time for personal growth and education</li>
 	        </ul>
-	        <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+	        <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 	    </div>
 
 			<a href="#phpdev" data-toggle="collapse"><h3 class="jobs">PHP back-end developer<span class="icon-arrow"></span></h3></a>
@@ -606,7 +606,7 @@
               <li>Flexibility for a healthy work-life balance</li>
               <li>Time for personal growth and education</li>
           </ul>
-          <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+          <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
       </div>
 
       <a href="#webrtcdev" data-toggle="collapse"><h3 class="jobs">WebRTC Developer<span class="icon-arrow"></span></h3></a>
@@ -634,7 +634,7 @@
 		      <li>Flexibility for a healthy work-life balance</li>
 		      <li>Time for personal growth and education</li>
 	      </ul>
-	      <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+	      <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
       </div>
 
       <a href="#androiddev" data-toggle="collapse"><h3 class="jobs">Android App developer<span class="icon-arrow"></span></h3></a>
@@ -663,7 +663,7 @@
               <li>Flexibility for a healthy work-life balance</li>
               <li>Time for personal growth and education</li>
           </ul>
-          <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+          <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
       </div>
 
 			<a href="#iosdev" data-toggle="collapse"><h3 class="jobs">iOS App developer<span class="icon-arrow"></span></h3></a>
@@ -692,7 +692,7 @@
               <li>Flexibility for a healthy work-life balance</li>
               <li>Time for personal growth and education</li>
           </ul>
-          <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+          <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
       </div>
 
       <!--<a href="#techwrite" data-toggle="collapse"><h3 class="jobs">Technical documentation writer<span class="icon-arrow"></span></h3></a>
@@ -724,7 +724,7 @@
               <li>Flexibility for a healthy work-life balance</li>
               <li>Time for personal growth and education</li>
           </ul>
-          <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+          <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
       </div>-->
 
       <a href="#qa" data-toggle="collapse"><h3 class="jobs">QA engineer<span class="icon-arrow"></span></h3></a>
@@ -755,7 +755,7 @@
               <li>Flexibility for a healthy work-life balance</li>
               <li>Time for personal growth and education</li>
           </ul>
-          <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+          <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
       </div>
 
 		<h3 class="jobs">And more</h3>
