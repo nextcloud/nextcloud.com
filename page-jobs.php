@@ -2,7 +2,7 @@
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/jobs.css?v=1" rel="stylesheet">
 	<script>
 	require(["require.config"], function() {
-		require(["bootstrap"])
+		require(["bootstrap", "pages/jobs"])
 	});
 	</script>
 </head>
