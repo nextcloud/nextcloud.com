@@ -20,14 +20,47 @@
 </section>
 <section class="section-company-description">
 	<div class="container">
-		<h2 class="text-center"><?php echo $l->t('Company description');?></h2>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h2><?php echo $l->t('Company description');?></h2>
 
-		<p class=""><?php echo $l->t('We are a modern, distributed, open source company. It is our mission to provide our users and customers with the means for data storage, access and communication under their control; protecting their privacy and security');?>.</p>
+                <p><?php echo $l->t('We are a modern, distributed, open source company. It is our mission to provide our users and customers with the means for data storage, access and communication under their control; protecting their privacy and security');?>.</p>
 
-		<p><?php echo $l->t('We pursue a fully-open strategy, keeping internal communication to a minimum while aiming to work, discuss and develop in public. We are a thriving, quickly growing company with a solid customer base. An open source background or experience contributing to Nextcloud is a big plus for job applicants! Especially for developers we pursue a strong "hire from the community" strategy.');?></p>
-		<p><?php echo $l->t('Nextcloud actively strives for diversity and we would like to especially encourage applications by people from underrepresented groups in tech.');?></p>
-		<p><?php echo $l->t('As a very international, distributed company with employees in 2 dozen countries and on most continents, our company language is English, most of us work from home or a local co-working space and working hours are very flexible. We try to bring everyone in the company together for a week 5-6 times a year, usually in Berlin and various teams also organize their own, separate meetings throughout the year as working together is fun and productive!');?></p>
-	</div>
+                <p><?php echo $l->t('We pursue a fully-open strategy, keeping internal communication to a minimum while aiming to work, discuss and develop in public. We are a thriving, quickly growing company with a solid customer base. An open source background or experience contributing to Nextcloud is a big plus for job applicants! Especially for developers we pursue a strong "hire from the community" strategy.');?></p>
+                <p><?php echo $l->t('Nextcloud actively strives for diversity and we would like to especially encourage applications by people from underrepresented groups in tech.');?></p>
+                <p><?php echo $l->t('As a very international, distributed company with employees in 2 dozen countries and on most continents, our company language is English, most of us work from home or a local co-working space and working hours are very flexible. We try to bring everyone in the company together for a week 5-6 times a year, usually in Berlin and various teams also organize their own, separate meetings throughout the year as working together is fun and productive!');?></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+            <a href="#FAQ" data-toggle="collapse"><h3 class="jobs">FAQs applying with Nextcloud<span class="icon-arrow"></span></h3></a>
+            <div id="FAQ" class="collapse">
+                <h3 class="western">How do I apply for a job?</h3>
+                <p lang="en-GB"><span style="font-family: Calibri Light, sans-serif;">Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume, the role you’re interested in and your motivation. We post new vacancies regularly, so it is worth having a look every now and then, if you don´t find a suitable vacancy first time around.</span></p>
+
+                <h3 class="western">Should I apply multiple times?</h3>
+                <p lang="en-GB"><span style="font-family: Calibri Light, sans-serif;">It is not necessary to apply multiple times when you see more than one vacancy that is of interest to you. In this case please let us know which positions are of interest to you, we will then be able to consider your application for all positions listed. Multiple applications just cause additional administrative burden. </span></p>
+
+                <h3 class="western">
+                Reapplying after having been rejected?</h3>
+                <p lang="en-GB"><span style="font-family: Calibri Light, sans-serif;">In case you have been rejected in the past, we encourage you to reapply if your qualifications or experience have changed in the meantime, or if you see a new role more suitable to your skills.</span></p>
+
+                <h3 class="western">I applied for a job with Nextcloud. What are the next steps?</h3>
+                <p lang="en-GB"><span style="font-family: Calibri Light, sans-serif;">Thanks for your interest in Nextcloud! We will reach out if we need more information from you.</span></p>
+                <p lang="en-GB"><span style="font-family: Calibri Light, sans-serif;">If your experience is a good fit for our vacancy, we will be in touch soon. Please note that it's not possible for us to respond to every candidate, but we review every application.</span></p>
+
+                <h3 class="western">What should I include in my application?</h3>
+                <p lang="en-GB"><span style="font-family: Calibri Light, sans-serif;">Please always include your CV in pdf format, detailing relevant skills, keywords, and experience. You might want to consider writing a short note about who you are and why you want to join Nextcloud. Additional information that is valuable to us and you can, but don’t have to include availability (when can you start and how many hours per week to you want to work?) and salary desired.</span></p>
+
+                <h3 class="western">What is Nextclouds position regarding diversity and inclusion?</h3>
+                <p lang="en-GB"><span style="font-family: Calibri Light, sans-serif;">Our goal is to continue to grow Nextcloud and build a more diverse team in the most efficient way possible. Diversity and inclusion are some of our core values. </span></p>
+                <p lang="en-GB"><span style="font-family: Calibri Light, sans-serif;">Nextcloud’s people policies and practices relating to recruitment, employment and career development aim to ensure that we welcome people from all walks of lives in their individuality and do not discriminate.</span></p>
+
+                <h3 class="western">We don't accept solicitations by recruitment agencies.</h3>
+                <p lang="en-GB"><span style="font-family: Calibri Light, sans-serif;">At Nextcloud, we do not accept solicitations from recruitment agencies, headhunters, or outsourcing organizations. Please refrain from sending us information or profiles as they will not be considered. </span></p>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="section-jobs-opening">
@@ -726,8 +759,7 @@
           </ul>
           <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
       </div>-->
-
-      <a href="#qa" data-toggle="collapse"><h3 class="jobs">QA engineer<span class="icon-arrow"></span></h3></a>
+		<a href="#qa" data-toggle="collapse"><h3 class="jobs">QA engineer<span class="icon-arrow"></span></h3></a>
       <div id="qa" class="collapse">
           <p>We're looking for an engineer who can help us test and make Nextcloud rock stable!</p>
           <p>You would work with the engineering team to make sure Nextcloud is stable and well tested, developing and maintaining test plans, executing them and working with others to improve the automated and manual testing processes. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
@@ -757,11 +789,11 @@
           </ul>
           <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
       </div>
-
 		<h3 class="jobs">And more</h3>
 		<div>
 			<p>We are always looking for talented new people in all areas of our business - from engineering and support to sales and marketing. We especially encourage applications by people from underrepresented groups to submit their resume! Contact us at <a class="hyperlink" href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> and tell us how you can help!</p>
 		</div>
+
 	</div>
 
 </section>

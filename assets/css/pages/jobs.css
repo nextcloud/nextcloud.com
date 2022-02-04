@@ -39,22 +39,23 @@
         text-align: left;
         font-size: 25px; } }
 
-.section-company-description {
-  margin-top: 130px; }
-  .section-company-description h3 {
-    font-size: 22px; }
-  .section-company-description p {
-    max-width: 700px;
-    margin: 0 auto;
-    padding-top: 20px;
-    font-size: 18px;
-    text-align: center; }
-    @media (max-width: 768px) {
-      .section-company-description p {
-        text-align: left; } }
+.icon-arrow {
+  background: url(../../img/common/simple_arrow_down_grey.svg) center/contain no-repeat;
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  right: 20px;
+  top: 2px; }
+
+.section-company-description h3 {
+  font-size: 22px; }
+.section-company-description p {
+  font-size: 18px; }
+  @media (max-width: 768px) {
+    .section-company-description p {
+      text-align: left; } }
 
 .section-jobs-opening {
-  margin-top: 70px;
   margin-bottom: 100px; }
   .section-jobs-opening a:hover, .section-jobs-opening a:focus {
     text-decoration: none;
@@ -69,13 +70,6 @@
       .section-jobs-opening .jobs {
         text-align: left;
         font-size: 25px; } }
-  .section-jobs-opening .icon-arrow {
-    background: url(../../img/common/simple_arrow_down_grey.svg) center/contain no-repeat;
-    position: absolute;
-    width: 20px;
-    height: 100%;
-    right: 20px;
-    top: 2px; }
   .section-jobs-opening .wrapper-text {
     padding-top: 20px;
     width: 60%;
