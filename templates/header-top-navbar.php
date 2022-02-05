@@ -252,16 +252,6 @@ require(["require.config"], function() {
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="<?php echo home_url('install/#install-clients'); ?>">
-                                <div class="nav__logo">
-                                    <?php echo file_get_contents(__DIR__."/../assets/img/icons/phone.svg");?>
-                                </div>
-                                <div class="nav__text">
-                                    <?php echo $l->t('<strong>Desktop & mobile apps</strong><br><small>Windows, macOS, Linux, Android, iOS, …</small>'); ?>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav__item">
                             <a href="<?php echo home_url('signup'); ?>">
                                 <div class="nav__logo">
                                     <?php echo file_get_contents(__DIR__."/../assets/img/icons/signup.svg");?>
@@ -284,10 +274,10 @@ require(["require.config"], function() {
                         <li class="nav__item">
                             <a href="<?php echo home_url('install/#instructions-server'); ?>">
                                 <div class="nav__logo">
-                                    <?php echo file_get_contents(__DIR__."/../assets/img/icons/server.svg");?>
+                                    <?php echo file_get_contents(__DIR__."/../assets/img/icons/download.svg");?>
                                 </div>
                                 <div class="nav__text">
-                                    <?php echo $l->t('<strong>Server packages</strong><br><small>For self-hosting on your server</small>'); ?>
+                                    <?php echo $l->t('<strong>Nextcloud server</strong><br><small>For self-hosting on your server</small>'); ?>
                                 </div>
                             </a>
                         </li>
@@ -298,6 +288,16 @@ require(["require.config"], function() {
                                 </div>
                                 <div class="nav__text">
                                     <?php echo $l->t('<strong>Devices</strong><br><small>Buy hardware with Nextcloud</small>'); ?>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="<?php echo home_url('install/#install-clients'); ?>">
+                                <div class="nav__logo">
+                                    <?php echo file_get_contents(__DIR__."/../assets/img/icons/phone.svg");?>
+                                </div>
+                                <div class="nav__text">
+                                    <?php echo $l->t('<strong>Desktop & mobile apps</strong><br><small>Windows, macOS, Linux, Android, iOS, …</small>'); ?>
                                 </div>
                             </a>
                         </li>

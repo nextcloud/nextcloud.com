@@ -4,6 +4,14 @@
             <div class="row navigation-row">
                 <a href="#" class="close install-close">&times;</a>
                 <ul class="install-nav nav-tabs" role="tablist">
+                    <li>
+                        <a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab">
+                            <div>
+                            <i class="fa-cloud"></i> <br />
+                            <?php echo $l->t('Appliances');?><br>
+                            </div>
+                        </a>
+                    </li>
                     <li id="li-tab-archive" class="active">
                         <a href="#tab-archive" title="For server owners" role="tab" data-toggle="tab">
                             <div>
@@ -17,14 +25,6 @@
                             <div>
                             <i class="fa-code"></i> <br />
                             <?php echo $l->t('Web Installer');?><br>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab">
-                            <div>
-                            <i class="fa-cloud"></i> <br />
-                            <?php echo $l->t('Appliances');?><br>
                             </div>
                         </a>
                     </li>
