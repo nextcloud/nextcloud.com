@@ -40,6 +40,21 @@
     <link>https://nextcloud.com/podcast/</link>
       
    <item>
+      <title>Nextcloud podcast 15: Interview about Collectives app and Prototype Fund</title>
+      <itunes:subtitle>In this 15th episode, our host Ingo talked with Marie Gutbub from Prototype Fund and Max and Jonas, developers at Nextcloud about Collectives app and Prototype Fund.</itunes:subtitle>
+      <itunes:summary>Max & Jonas share the idea behind the Collectives app and Marie explains what Prototype Fund is, how can you apply and get your innovative Open source project funded!</itunes:summary>
+      <itunes:duration>00:48:49</itunes:duration>
+      <description>Max & Jonas share the idea behind the Collectives app and Marie explains what Prototype Fund is, how can you apply and get your innovative Open source project funded!</description>
+      <pubDate>Thu, 10 Feb 2022 9:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_015.mp3"
+                 type="audio/mpeg" length="41144132"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_015.mp3</guid>
+      <link>https://https://nextcloud.com/blog/nextcloud-podcast-15-interview-about-collectives-app-and-prototype-fund/</link>
+   </item>
+      
+   <item>
       <title>Interview with Galina Goduhina, Head of Sales and Partner Relations at ONLYOFFICE</title>
       <itunes:subtitle>In this last, December episode in 2021, our host Ingo talked with Galina Goduhina, Head of Sales and Partner Relations at ONLYOFFICE.</itunes:subtitle>
       <itunes:summary>Galina explains what ONLYOFFICE is with all its capabilities and functionalities, and the important advantages of ONLYOFFICE with millions of users worldwide in various sectors, from SMEs to large enterprises.</itunes:summary>
