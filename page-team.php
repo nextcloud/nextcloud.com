@@ -150,6 +150,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Fyruz Binte Wahid</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Account manager</h3>
+					<h4 class="teamexpertise">Sales and Partnerships</h4>
+					<h4 class="teamlocation">Lives in Heilbronn, Germany</h4>
+					<p class="teamsocial"><a href="www.linkedin.com/in/fyruzbintewahid3b71a7140"><i class="fa-linkedin fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Fyruz did her post-graduate in International Business & Intercultural Management at the University of Heilbronn. She's been in key account management and sales at a number of IT startups and is driven to help the customers find the best suited solution for their challenges.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/markus.jpg" />
 				<h2 class="teamname">Markus Windecker</h2>
 				<div class="teammeta">
@@ -268,6 +281,19 @@
 					<p class="teamsocial"><a href="https://www.linkedin.com/in/pietro-m-32347959"><i class="fa-linkedin fa"></i></a></p>
 				</div>
 				<p class="teamdescription">After graduating in Physics in 2011 at University of Pavia, Italy, Pietro has been working as a developer and consultant in the Business Intelligence and Data Analytics sector for many companies across Europe and is now settled in Galicia, Spain. Customer-oriented, self-learner and with a passion in open-source software engineering, Pietro enjoys teaming up with customers to solve complex technical challenges. He also tries to help the general public in forming opinions on the impacts of technology in their life, by spreading concepts and trends around big data, machine learning and the digital economy.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Sebastian Möbus</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Sales Engineer</h3>
+					<h4 class="teamexpertise">Consulting and Sales</h4>
+					<h4 class="teamlocation">Lives in Taunusstein, Gernabt</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/sebastian-möbus-5178111b1"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Sebastian_Moebus4"><i class="fa-xing fa"></i></a> <a href="https://github.com/binford6000"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Sebastian is a Prince2 and Itil3 certified technical consulting and presales engineer with 14 years of experience. He is passionate about tech and stands ready to help customers with challenging projects. He also cares about every-day technology like home automation and is passionate about pool billiards.</p>
 			</div>
 		</div>
 	</div>
@@ -767,6 +793,19 @@
 				<p class="teamdescription">Julien has a master's degree in computer science and does public research for 10 years as scientific computing engineer in biology and geographical data processing. He loves interactive maps, collaborative tools, and is passionate about the Free Software movement. He started contributing to the Nextcloud code base in 2015 and has developed 6 apps since then. He has much experience in data processing and computing optimization.</p>
 			</div>
 		</div>
+        <div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Julia Kirschenheuter</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Groupware</h4>
+					<h4 class="teamlocation">Stuttgart, Austria</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/julia-kirschenheuter-a61459200/"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Julia_Kirschenheuter/cv"><i class="fa-xing fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Julia studied Graphic Design in St. Petersburg and finished master studies in Hochschule der Media in Stuttgart for audiovisual media. She loves software development and new technologies, has an open mind and a passion for our society.</p>
+			</div>
+		</div>
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/louis.jpg" />
@@ -977,6 +1016,19 @@
 				<p class="teamdescription">Vincent is a full-stack software engineer with many years of experience in the open-source space. He's well-known for quickly finding bugs in various systems and his ability to debug deeply in unknown territories and also write extensive bug reports. He's now working in the Nextcloud server team using Vue.js, PHP and other technologies.</p>
 			</div>
 		</div>
+		<!--<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Vinícius Reis</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Nextcloud Office</h4>
+					<h4 class="teamlocation">Lives in Rio de Janeiro, Brazil</h4>
+					<p class="teamsocial"><a href="https://github.com/vinicius73"><i class="fa-github fa"></i></a> <a href="https://twitter.com/luizvinicius73"><i class="fa-twitter fa"></i></a> <a href="https://vinicius73.dev/"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/luizvinicius73/"><i class="fa-linkedin fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Vinícius has more hobbies than he has time for, but is passionate about coding and open source.</p>
+			</div>
+		</div>-->
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
