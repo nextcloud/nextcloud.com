@@ -33,31 +33,31 @@
         </div>
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-            <a href="#FAQ" data-toggle="collapse"><h3 class="jobs">FAQs applying with Nextcloud<span class="icon-arrow"></span></h3></a>
+            <a href="#FAQ" data-toggle="collapse"><h3 class="jobs">FAQs applying with Nextcloud<span class="icon-arrow"></h3></a>
             <div id="FAQ" class="collapse">
-                <h3 class="western">How do I apply for a job?</h3>
-                <p lang="en-GB"><span style="font-family: Calibri Light, sans-serif;">Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume, the role you’re interested in and your motivation. We post new vacancies regularly, so it is worth having a look every now and then, if you don´t find a suitable vacancy first time around.</span></p>
+                <h3>How do I apply for a job?</h3>
+                <p>Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume, the role you’re interested in and your motivation. We post new vacancies regularly, so it is worth having a look every now and then, if you don´t find a suitable vacancy first time around.</p>
 
-                <h3 class="western">Should I apply multiple times?</h3>
-                <p lang="en-GB"><span style="font-family: Calibri Light, sans-serif;">It is not necessary to apply multiple times when you see more than one vacancy that is of interest to you. In this case please let us know which positions are of interest to you, we will then be able to consider your application for all positions listed. Multiple applications just cause additional administrative burden. </span></p>
+                <h3>Should I apply multiple times?</h3>
+                <p>It is not necessary to apply multiple times when you see more than one vacancy that is of interest to you. In this case please let us know which positions are of interest to you, we will then be able to consider your application for all positions listed. Multiple applications just cause additional administrative burden. </p>
 
-                <h3 class="western">
+                <h3>
                 Reapplying after having been rejected?</h3>
-                <p lang="en-GB"><span style="font-family: Calibri Light, sans-serif;">In case you have been rejected in the past, we encourage you to reapply if your qualifications or experience have changed in the meantime, or if you see a new role more suitable to your skills.</span></p>
+                <p>In case you have been rejected in the past, we encourage you to reapply if your qualifications or experience have changed in the meantime, or if you see a new role more suitable to your skills.</p>
 
-                <h3 class="western">I applied for a job with Nextcloud. What are the next steps?</h3>
-                <p lang="en-GB"><span style="font-family: Calibri Light, sans-serif;">Thanks for your interest in Nextcloud! We will reach out if we need more information from you.</span></p>
-                <p lang="en-GB"><span style="font-family: Calibri Light, sans-serif;">If your experience is a good fit for our vacancy, we will be in touch soon. Please note that it's not possible for us to respond to every candidate, but we review every application.</span></p>
+                <h3>I applied for a job with Nextcloud. What are the next steps?</h3>
+                <p>Thanks for your interest in Nextcloud! We will reach out if we need more information from you.</p>
+                <p>If your experience is a good fit for our vacancy, we will be in touch soon. Please note that it's not possible for us to respond to every candidate, but we review every application.</p>
 
-                <h3 class="western">What should I include in my application?</h3>
-                <p lang="en-GB"><span style="font-family: Calibri Light, sans-serif;">Please always include your CV in pdf format, detailing relevant skills, keywords, and experience. You might want to consider writing a short note about who you are and why you want to join Nextcloud. Additional information that is valuable to us and you can, but don’t have to include availability (when can you start and how many hours per week to you want to work?) and salary desired.</span></p>
+                <h3>What should I include in my application?</h3>
+                <p>Please always include your CV in pdf format, detailing relevant skills, keywords, and experience. You might want to consider writing a short note about who you are and why you want to join Nextcloud. Additional information that is valuable to us and you can, but don’t have to include availability (when can you start and how many hours per week to you want to work?) and salary desired.</p>
 
-                <h3 class="western">What is Nextclouds position regarding diversity and inclusion?</h3>
-                <p lang="en-GB"><span style="font-family: Calibri Light, sans-serif;">Our goal is to continue to grow Nextcloud and build a more diverse team in the most efficient way possible. Diversity and inclusion are some of our core values. </span></p>
-                <p lang="en-GB"><span style="font-family: Calibri Light, sans-serif;">Nextcloud’s people policies and practices relating to recruitment, employment and career development aim to ensure that we welcome people from all walks of lives in their individuality and do not discriminate.</span></p>
+                <h3>What is Nextclouds position regarding diversity and inclusion?</h3>
+                <p>Our goal is to continue to grow Nextcloud and build a more diverse team in the most efficient way possible. Diversity and inclusion are some of our core values. </p>
+                <p>Nextcloud’s people policies and practices relating to recruitment, employment and career development aim to ensure that we welcome people from all walks of lives in their individuality and do not discriminate.</p>
 
-                <h3 class="western">We don't accept solicitations by recruitment agencies.</h3>
-                <p lang="en-GB"><span style="font-family: Calibri Light, sans-serif;">At Nextcloud, we do not accept solicitations from recruitment agencies, headhunters, or outsourcing organizations. Please refrain from sending us information or profiles as they will not be considered. </span></p>
+                <h3>We don't accept solicitations by recruitment agencies.</h3>
+                <p>At Nextcloud, we do not accept solicitations from recruitment agencies, headhunters, or outsourcing organizations. Please refrain from sending us information or profiles as they will not be considered. </p>
             </div>
         </div>
     </div>
@@ -68,6 +68,46 @@
 		<h2 class="text-center">Job openings</h2>
 		<div class="wrapper-text">
 
+
+            <a href="#keyaccountmgr" data-toggle="collapse"><h3 class="jobs">Key Account Manager<span class="icon-arrow"></span></h3></a>
+			<div id="keyaccountmgr" class="collapse">
+				<p>We are looking for a passionate Key Account Manager who will partner with and ensure the long-term success of our customers.</p>
+				<p>As a Key Account Manager you will be developing long-term relationships with your portfolio of assigned customers, will be developing new business from existing clients, and actively seek new sales opportunities. Connecting with key business executives and stakeholders you will liaise between customers and internal teams to ensure the timely and successful delivery of our solutions according to customers.</p>
+				<h3 class="section--paragraph__title">Responsibilities:</h3>
+
+				<ul>
+					<li>Negotiate contracts and close agreements  with prospective clients with the goals of maximizing profits as well as building and maintaining strong, long-lasting customer relationships</li>
+					<li>Be the lead responsible point of contact for all matters specific to your customers</li>
+					<li>Collaborate with our Partners in delivering the best solution to our customers</li>
+					<li>Ensure the timely and successful delivery of our solutions according to customer needs and objectives</li>
+					<li>Communicate clearly the progress of monthly/quarterly initiatives internally and forecast and track key account metrics</li>
+					<li>Assist with high severity requests or issue escalations as needed</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">Required skills:</h3>
+
+				<ul>
+					<li>Key account management experience in enterprise software sales, responsible for (strategic) key accounts, ideally in the French market and / or in either of these sectors: telecommunications, public sector, educational sector</li>
+					<li>Ability to communicate, present and influence credibly and effectively at all levels of the organization, including executive and C-level</li>
+					<li>Experience in delivering client-focused solutions based on customers individual needs</li>
+					<li>Ability to manage multiple projects at a time while prioritizing</li>
+					<li>Excellent listening, negotiation and presentation skills as well as verbal and written communications skills</li>
+					<li>Drive and ambition, problem solving skills and flexibility</li>
+					<li>Language skills: English essential, French and German ideal, any other language beneficial</li>
+				</ul>
+
+				<h3 class="section--paragraph__title">Benefits:</h3>
+
+				<ul>
+                    <li><strong>Remote first</strong> - You decide from where you work. Choose your home office or optional office hubs in Stuttgart and Berlin</li>
+                    <li><strong>Flexibility guaranteed</strong> - You can flexibly schedule and plan your working hours and vacation days</li>
+                    <li><strong>International team</strong> - Become part of an ambitious international team. We are shaping the world of tomorrow and firmly believe in innovation</li>
+                    <li><strong>Learn and grow</strong> - With us, you can challenge yourself and grow steadily. We support you with regular feedback meetings and individual further training opportunities</li>
+                    <li><strong>Technical excellence and ethics</strong> - We provide future-proof technology as the basis for successful, secure digitization. We always focus on the needs of our customers and protecting the privacy of our users</li>
+				</ul>
+
+				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+			</div>
 
 			<a href="#accountmgr" data-toggle="collapse"><h3 class="jobs">Account Manager<span class="icon-arrow"></span></h3></a>
 			<div id="accountmgr" class="collapse">
@@ -109,14 +149,14 @@
 					<li>Problem solving skills</li>
 				</ul>
 
-				<h3 class="section--paragraph__title">What we offer:</h3>
+				<h3 class="section--paragraph__title">Benefits:</h3>
 
 				<ul>
-					<li>A distributed, open team with a passion for working on and within the open source community</li>
-					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
-					<li>A competitive salary</li>
-					<li>Flexibility for a healthy work-life balance</li>
-					<li>Time for personal growth and education</li>
+                    <li><strong>Remote first</strong> - You decide from where you work. Choose your home office or optional office hubs in Stuttgart and Berlin</li>
+                    <li><strong>Flexibility guaranteed</strong> - You can flexibly schedule and plan your working hours and vacation days</li>
+                    <li><strong>International team</strong> - Become part of an ambitious international team. We are shaping the world of tomorrow and firmly believe in innovation</li>
+                    <li><strong>Learn and grow</strong> - With us, you can challenge yourself and grow steadily. We support you with regular feedback meetings and individual further training opportunities</li>
+                    <li><strong>Technical excellence and ethics</strong> - We provide future-proof technology as the basis for successful, secure digitization. We always focus on the needs of our customers and protecting the privacy of our users</li>
 				</ul>
 
 				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
@@ -161,14 +201,14 @@
 					<li>Writing and speaking German and/or French language</li>
 				</ul>
 
-				<h3 class="section--paragraph__title">What we offer:</h3>
+				<h3 class="section--paragraph__title">Benefits:</h3>
 
 				<ul>
-					<li>A distributed, open team with a passion for working on and within the open source community</li>
-					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
-					<li>A competitive salary</li>
-					<li>Flexibility for a healthy work-life balance</li>
-					<li>Time for personal growth and education</li>
+                    <li><strong>Remote first</strong> - You decide from where you work. Choose your home office or optional office hubs in Stuttgart and Berlin</li>
+                    <li><strong>Flexibility guaranteed</strong> - You can flexibly schedule and plan your working hours and vacation days</li>
+                    <li><strong>International team</strong> - Become part of an ambitious international team. We are shaping the world of tomorrow and firmly believe in innovation</li>
+                    <li><strong>Learn and grow</strong> - With us, you can challenge yourself and grow steadily. We support you with regular feedback meetings and individual further training opportunities</li>
+                    <li><strong>Technical excellence and ethics</strong> - We provide future-proof technology as the basis for successful, secure digitization. We always focus on the needs of our customers and protecting the privacy of our users</li>
 				</ul>
 
 				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
@@ -214,14 +254,14 @@
 					<li>Fluent in writing and speaking English. More languages are welcome.</li>
 				</ul>
 
-				<h3 class="section--paragraph__title">What we offer:</h3>
+				<h3 class="section--paragraph__title">Benefits:</h3>
 
 				<ul>
-					<li>A distributed, open team with a passion for working on and within the open source community</li>
-					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
-					<li>A competitive salary</li>
-					<li>Flexibility for a healthy work-life balance</li>
-					<li>Time for personal growth and education</li>
+                    <li><strong>Remote first</strong> - You decide from where you work. Choose your home office or optional office hubs in Stuttgart and Berlin</li>
+                    <li><strong>Flexibility guaranteed</strong> - You can flexibly schedule and plan your working hours and vacation days</li>
+                    <li><strong>International team</strong> - Become part of an ambitious international team. We are shaping the world of tomorrow and firmly believe in innovation</li>
+                    <li><strong>Learn and grow</strong> - With us, you can challenge yourself and grow steadily. We support you with regular feedback meetings and individual further training opportunities</li>
+                    <li><strong>Technical excellence and ethics</strong> - We provide future-proof technology as the basis for successful, secure digitization. We always focus on the needs of our customers and protecting the privacy of our users</li>
 				</ul>
 
 				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
@@ -248,13 +288,13 @@
 					<li>Being fluent in French and living in France are required</li>
 				</ul>
 
-				<h3 class="section--paragraph__title">What we offer:</h3>
+				<h3 class="section--paragraph__title">Benefits:</h3>
 				<ul>
-					<li>A distributed, open team with a passion for working on and within the open source community</li>
-					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
-					<li>A competitive salary</li>
-					<li>Flexibility for a healthy work-life balance</li>
-					<li>Time for personal growth and education</li>
+                    <li><strong>Remote first</strong> - You decide from where you work. Choose your home office or optional office hubs in Stuttgart and Berlin</li>
+                    <li><strong>Flexibility guaranteed</strong> - You can flexibly schedule and plan your working hours and vacation days</li>
+                    <li><strong>International team</strong> - Become part of an ambitious international team. We are shaping the world of tomorrow and firmly believe in innovation</li>
+                    <li><strong>Learn and grow</strong> - With us, you can challenge yourself and grow steadily. We support you with regular feedback meetings and individual further training opportunities</li>
+                    <li><strong>Technical excellence and ethics</strong> - We provide future-proof technology as the basis for successful, secure digitization. We always focus on the needs of our customers and protecting the privacy of our users</li>
 					<li>We have flexible office hours and most of our team works from home.</li>
 					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
 				</ul>
@@ -280,13 +320,13 @@
 					<li>Being able to work independently, track progress and ask for help when needed</li>
 				</ul>
 
-				<h3 class="section--paragraph__title">What we offer:</h3>
+				<h3 class="section--paragraph__title">Benefits:</h3>
 				<ul>
-					<li>A distributed, open team with a passion for working on and within the open source community</li>
-					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
-					<li>A competitive salary</li>
-					<li>Flexibility for a healthy work-life balance</li>
-					<li>Time for personal growth and education</li>
+                    <li><strong>Remote first</strong> - You decide from where you work. Choose your home office or optional office hubs in Stuttgart and Berlin</li>
+                    <li><strong>Flexibility guaranteed</strong> - You can flexibly schedule and plan your working hours and vacation days</li>
+                    <li><strong>International team</strong> - Become part of an ambitious international team. We are shaping the world of tomorrow and firmly believe in innovation</li>
+                    <li><strong>Learn and grow</strong> - With us, you can challenge yourself and grow steadily. We support you with regular feedback meetings and individual further training opportunities</li>
+                    <li><strong>Technical excellence and ethics</strong> - We provide future-proof technology as the basis for successful, secure digitization. We always focus on the needs of our customers and protecting the privacy of our users</li>
 					<li>We have flexible office hours and most of our team works from home.</li>
 					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
 				</ul>
@@ -313,13 +353,13 @@
 					<li>Speak Italian and live in Italy, ideally quite central</li>
 				</ul>
 
-				<h3 class="section--paragraph__title">What we offer:</h3>
+				<h3 class="section--paragraph__title">Benefits:</h3>
 				<ul>
-					<li>A distributed, open team with a passion for working on and within the open source community</li>
-					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
-					<li>A competitive salary</li>
-					<li>Flexibility for a healthy work-life balance</li>
-					<li>Time for personal growth and education</li>
+                    <li><strong>Remote first</strong> - You decide from where you work. Choose your home office or optional office hubs in Stuttgart and Berlin</li>
+                    <li><strong>Flexibility guaranteed</strong> - You can flexibly schedule and plan your working hours and vacation days</li>
+                    <li><strong>International team</strong> - Become part of an ambitious international team. We are shaping the world of tomorrow and firmly believe in innovation</li>
+                    <li><strong>Learn and grow</strong> - With us, you can challenge yourself and grow steadily. We support you with regular feedback meetings and individual further training opportunities</li>
+                    <li><strong>Technical excellence and ethics</strong> - We provide future-proof technology as the basis for successful, secure digitization. We always focus on the needs of our customers and protecting the privacy of our users</li>
 					<li>We have flexible office hours and most of our team works from home.</li>
 					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
 				</ul>
@@ -346,13 +386,13 @@
 					<li>Speak at least 3 of the languages in the Nordics and live in one of the 4 mentioned countries</li>
 				</ul>
 
-				<h3 class="section--paragraph__title">What we offer:</h3>
+				<h3 class="section--paragraph__title">Benefits:</h3>
 				<ul>
-					<li>A distributed, open team with a passion for working on and within the open source community</li>
-					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
-					<li>A competitive salary</li>
-					<li>Flexibility for a healthy work-life balance</li>
-					<li>Time for personal growth and education</li>
+                    <li><strong>Remote first</strong> - You decide from where you work. Choose your home office or optional office hubs in Stuttgart and Berlin</li>
+                    <li><strong>Flexibility guaranteed</strong> - You can flexibly schedule and plan your working hours and vacation days</li>
+                    <li><strong>International team</strong> - Become part of an ambitious international team. We are shaping the world of tomorrow and firmly believe in innovation</li>
+                    <li><strong>Learn and grow</strong> - With us, you can challenge yourself and grow steadily. We support you with regular feedback meetings and individual further training opportunities</li>
+                    <li><strong>Technical excellence and ethics</strong> - We provide future-proof technology as the basis for successful, secure digitization. We always focus on the needs of our customers and protecting the privacy of our users</li>
 					<li>We have flexible office hours and most of our team works from home.</li>
 					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
 				</ul>
@@ -380,13 +420,13 @@
 					<li>Live in the Benelux</li>
 				</ul>
 
-				<h3 class="section--paragraph__title">What we offer:</h3>
+				<h3 class="section--paragraph__title">Benefits:</h3>
 				<ul>
-					<li>A distributed, open team with a passion for working on and within the open source community</li>
-					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
-					<li>A competitive salary</li>
-					<li>Flexibility for a healthy work-life balance</li>
-					<li>Time for personal growth and education</li>
+                    <li><strong>Remote first</strong> - You decide from where you work. Choose your home office or optional office hubs in Stuttgart and Berlin</li>
+                    <li><strong>Flexibility guaranteed</strong> - You can flexibly schedule and plan your working hours and vacation days</li>
+                    <li><strong>International team</strong> - Become part of an ambitious international team. We are shaping the world of tomorrow and firmly believe in innovation</li>
+                    <li><strong>Learn and grow</strong> - With us, you can challenge yourself and grow steadily. We support you with regular feedback meetings and individual further training opportunities</li>
+                    <li><strong>Technical excellence and ethics</strong> - We provide future-proof technology as the basis for successful, secure digitization. We always focus on the needs of our customers and protecting the privacy of our users</li>
 					<li>We have flexible office hours and most of our team works from home.</li>
 					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
 				</ul>
@@ -414,13 +454,13 @@
 
 				</ul>
 
-				<h3 class="section--paragraph__title">What we offer:</h3>
+				<h3 class="section--paragraph__title">Benefits:</h3>
 				<ul>
-					<li>A distributed, open team with a passion for working on and within the open source community</li>
-					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
-					<li>A competitive salary</li>
-					<li>Flexibility for a healthy work-life balance</li>
-					<li>Time for personal growth and education</li>
+                    <li><strong>Remote first</strong> - You decide from where you work. Choose your home office or optional office hubs in Stuttgart and Berlin</li>
+                    <li><strong>Flexibility guaranteed</strong> - You can flexibly schedule and plan your working hours and vacation days</li>
+                    <li><strong>International team</strong> - Become part of an ambitious international team. We are shaping the world of tomorrow and firmly believe in innovation</li>
+                    <li><strong>Learn and grow</strong> - With us, you can challenge yourself and grow steadily. We support you with regular feedback meetings and individual further training opportunities</li>
+                    <li><strong>Technical excellence and ethics</strong> - We provide future-proof technology as the basis for successful, secure digitization. We always focus on the needs of our customers and protecting the privacy of our users</li>
 					<li>We have flexible office hours and most of our team works from home.</li>
 					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
 				</ul>
@@ -450,13 +490,13 @@
                     <li>Very good English skills. German is a plus.</li>
 				</ul>
 
-				<h3 class="section--paragraph__title">What we offer:</h3>
+				<h3 class="section--paragraph__title">Benefits:</h3>
 				<ul>
-					<li>A distributed, open team with a passion for working on and within the open source community</li>
-					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
-					<li>A competitive salary</li>
-					<li>Flexibility for a healthy work-life balance</li>
-					<li>Time for personal growth and education</li>
+                    <li><strong>Remote first</strong> - You decide from where you work. Choose your home office or optional office hubs in Stuttgart and Berlin</li>
+                    <li><strong>Flexibility guaranteed</strong> - You can flexibly schedule and plan your working hours and vacation days</li>
+                    <li><strong>International team</strong> - Become part of an ambitious international team. We are shaping the world of tomorrow and firmly believe in innovation</li>
+                    <li><strong>Learn and grow</strong> - With us, you can challenge yourself and grow steadily. We support you with regular feedback meetings and individual further training opportunities</li>
+                    <li><strong>Technical excellence and ethics</strong> - We provide future-proof technology as the basis for successful, secure digitization. We always focus on the needs of our customers and protecting the privacy of our users</li>
 					<li>We have flexible office hours and most of our team works from home.</li>
 					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
 				</ul>
@@ -487,13 +527,13 @@
 					<li>German and English language skills are essential, other languages are a benefit</li>
 				</ul>
 
-				<h3 class="section--paragraph__title">What we offer:</h3>
+				<h3 class="section--paragraph__title">Benefits:</h3>
 				<ul>
-					<li>A distributed, open team with a passion for working on and within the open source community</li>
-					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
-					<li>A competitive salary</li>
-					<li>Flexibility for a healthy work-life balance</li>
-					<li>Time for personal growth and education</li>
+                    <li><strong>Remote first</strong> - You decide from where you work. Choose your home office or optional office hubs in Stuttgart and Berlin</li>
+                    <li><strong>Flexibility guaranteed</strong> - You can flexibly schedule and plan your working hours and vacation days</li>
+                    <li><strong>International team</strong> - Become part of an ambitious international team. We are shaping the world of tomorrow and firmly believe in innovation</li>
+                    <li><strong>Learn and grow</strong> - With us, you can challenge yourself and grow steadily. We support you with regular feedback meetings and individual further training opportunities</li>
+                    <li><strong>Technical excellence and ethics</strong> - We provide future-proof technology as the basis for successful, secure digitization. We always focus on the needs of our customers and protecting the privacy of our users</li>
 					<li>We have flexible office hours and most of our team works from home.</li>
 					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
 				</ul>
@@ -524,13 +564,13 @@
 					<li>You have good English language skills</li>
 				</ul>
 
-				<h3 class="section--paragraph__title">What we offer:</h3>
+				<h3 class="section--paragraph__title">Benefits:</h3>
 				<ul>
-					<li>A distributed, open team with a passion for working on and within the open source community</li>
-					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
-					<li>A competitive salary</li>
-					<li>Flexibility for a healthy work-life balance</li>
-					<li>Time for personal growth and education</li>
+                    <li><strong>Remote first</strong> - You decide from where you work. Choose your home office or optional office hubs in Stuttgart and Berlin</li>
+                    <li><strong>Flexibility guaranteed</strong> - You can flexibly schedule and plan your working hours and vacation days</li>
+                    <li><strong>International team</strong> - Become part of an ambitious international team. We are shaping the world of tomorrow and firmly believe in innovation</li>
+                    <li><strong>Learn and grow</strong> - With us, you can challenge yourself and grow steadily. We support you with regular feedback meetings and individual further training opportunities</li>
+                    <li><strong>Technical excellence and ethics</strong> - We provide future-proof technology as the basis for successful, secure digitization. We always focus on the needs of our customers and protecting the privacy of our users</li>
 					<li>We have flexible office hours and most of our team works from home.</li>
 					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
 				</ul>
@@ -573,13 +613,13 @@
 					<li>General programming skills in PHP, HTML, CSS</li>
 <!--					<li>Writing and speaking German and/or French language</li>-->
 				</ul>
-				<h3 class="section--paragraph__title">What we offer:</h3>
+				<h3 class="section--paragraph__title">Benefits:</h3>
 				<ul>
-					<li>A distributed, open team with a passion for working on and within the open source community</li>
-					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
-					<li>A competitive salary</li>
-					<li>Flexibility for a healthy work-life balance</li>
-					<li>Time for personal growth and education</li>
+                    <li><strong>Remote first</strong> - You decide from where you work. Choose your home office or optional office hubs in Stuttgart and Berlin</li>
+                    <li><strong>Flexibility guaranteed</strong> - You can flexibly schedule and plan your working hours and vacation days</li>
+                    <li><strong>International team</strong> - Become part of an ambitious international team. We are shaping the world of tomorrow and firmly believe in innovation</li>
+                    <li><strong>Learn and grow</strong> - With us, you can challenge yourself and grow steadily. We support you with regular feedback meetings and individual further training opportunities</li>
+                    <li><strong>Technical excellence and ethics</strong> - We provide future-proof technology as the basis for successful, secure digitization. We always focus on the needs of our customers and protecting the privacy of our users</li>
 				</ul>
 				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
@@ -602,7 +642,7 @@
 	            <li>Independence and self-reliance.</li>
 	            <li>Knowledge around open source technology</li>
 	        </ul>
-	        <h3 class="section--paragraph__title">What we offer:</h3>
+	        <h3 class="section--paragraph__title">Benefits:</h3>
 	        <ul>
 	            <li>A distributed, open team with a passion for working on and within the open source community</li>
 	            <li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
@@ -631,7 +671,7 @@
               <li>Independence and self-reliance.</li>
               <li>Knowledge around open source technology</li>
           </ul>
-          <h3 class="section--paragraph__title">What we offer:</h3>
+          <h3 class="section--paragraph__title">Benefits:</h3>
           <ul>
               <li>A distributed, open team with a passion for working on and within the open source community</li>
               <li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
@@ -659,7 +699,7 @@
 		      <li>Independence and self-reliance.</li>
 		      <li>Knowledge around open source technology</li>
 	      </ul>
-	      <h3 class="section--paragraph__title">What we offer:</h3>
+	      <h3 class="section--paragraph__title">Benefits:</h3>
 	      <ul>
 		      <li>A distributed, open team with a passion for working on and within the open source community</li>
 		      <li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
@@ -688,7 +728,7 @@
               <li>Independence and self-reliance.</li>
               <li>Knowledge around open source technology</li>
           </ul>
-          <p>What we offer:</p>
+          <p>Benefits:</p>
           <ul>
               <li>A distributed, open team with a passion for working on and within the open source community</li>
               <li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
@@ -717,7 +757,7 @@
               <li>Independence and self-reliance.</li>
               <li>Knowledge around open source technology</li>
           </ul>
-          <p>What we offer:</p>
+          <p>Benefits:</p>
           <ul>
               <li>A distributed, open team with a passion for working on and within the open source community</li>
               <li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
@@ -749,7 +789,7 @@
               <li>Independence and self-reliance.</li>
               <li>Knowledge around open source technology</li>
           </ul>
-          <h3 class="section--paragraph__title">What we offer:</h3>
+          <h3 class="section--paragraph__title">Benefits:</h3>
           <ul>
               <li>A distributed, open team with a passion for working on and within the open source community</li>
               <li>Working on a product which pushes the boundaries of technology and with a global user and contributor community</li>
@@ -779,7 +819,7 @@
               <li>Independence and self-reliance.</li>
               <li>Knowledge around open source technology</li>
           </ul>
-          <h3 class="section--paragraph__title">What we offer:</h3>
+          <h3 class="section--paragraph__title">Benefits:</h3>
           <ul>
               <li>A distributed, open team with a passion for working on and within the open source community</li>
               <li>Working on a product which pushes the boundaries of technology and with a global user and contributor community</li>
