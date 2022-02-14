@@ -4,7 +4,15 @@
             <div class="row navigation-row">
                 <a href="#" class="close install-close">&times;</a>
                 <ul class="install-nav nav-tabs" role="tablist">
-                    <li id="li-tab-archive" class="active">
+                    <li class="active">
+                        <a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab">
+                            <div>
+                            <i class="fa-cloud"></i> <br />
+                            <?php echo $l->t('Appliances');?><br>
+                            </div>
+                        </a>
+                    </li>
+                    <li id="li-tab-archive" >
                         <a href="#tab-archive" title="For server owners" role="tab" data-toggle="tab">
                             <div>
                             <i class="fa-archive"></i><br/>
@@ -20,19 +28,11 @@
                             </div>
                         </a>
                     </li>
-                    <li>
-                        <a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab">
-                            <div>
-                            <i class="fa-cloud"></i> <br />
-                            <?php echo $l->t('Appliances');?><br>
-                            </div>
-                        </a>
-                    </li>
                 </ul>
             </div>
 
             <div  class="tab-content">
-                <div id="tab-archive" role="tabpanel" class="tab-pane active">
+                <div id="tab-archive" role="tabpanel" class="tab-pane">
                     <div class="overlay-body row">
                         <div class="col-md-6">
                             <p><?php echo $l->t('The <strong>archive</strong> should be extracted in a folder your web server has access to. Latest stable version');?>:  <?php echo $VERSIONS_SERVER_FULL_STABLE; ?> (<a class="hyperlink" href="<?php echo home_url('changelog') ?>"><small><?php echo $l->t('Changelog');?></small></a>)</br>
@@ -106,7 +106,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="tab-cloud" role="tabpanel" class="tab-pane">
+                <div id="tab-cloud" role="tabpanel" class="tab-pane active">
                     <div class="overlay-body row">
                         <div class="col-md-8">
                             <div class="row">

@@ -284,10 +284,10 @@ require(["require.config"], function() {
                         <li class="nav__item">
                             <a href="<?php echo home_url('install/#instructions-server'); ?>">
                                 <div class="nav__logo">
-                                    <?php echo file_get_contents(__DIR__."/../assets/img/icons/server.svg");?>
+                                    <?php echo file_get_contents(__DIR__."/../assets/img/icons/download.svg");?>
                                 </div>
                                 <div class="nav__text">
-                                    <?php echo $l->t('<strong>Server packages</strong><br><small>For self-hosting on your server</small>'); ?>
+                                    <?php echo $l->t('<strong>Nextcloud server</strong><br><small>For self-hosting on your server</small>'); ?>
                                 </div>
                             </a>
                         </li>
