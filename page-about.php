@@ -163,28 +163,46 @@
 		<p class="section--paragraph"><?php echo $l->t('We keep track of some of the mentions of Nextcloud in the press.');?> Find our Press center <a href="<?php echo home_url('press') ?>" class="hyperlink">here.</a></p>
         <div class="row newsrow">
             <div class="col-md-4">
-            <a class="hyperlink" href="https://www.hostingadvice.com/blog/nextcloud-delivers-free-client-server-software/" target="_blank" title="HostingAdvice.com covering Nextcloud">
+                <a class="hyperlink" href="https://www.theregister.com/2021/12/02/nextcloud_onedrive_interview/" target="_blank" title="The Register interviews Frank">
+                    <img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/register.png" title="The Register interviews Frank"/>
+                    <span class="text">The Register interviews Nextcloud CEO and founder, Frank Karlitschek</span>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a class="hyperlink" href="https://www.politico.eu/article/microsoft-targeted-in-eu-antitrust-complaint-over-onedrive/" target="_blank" title="Politico covering MS anti-trust case">
+                    <img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/politico.png" title="Politico covering MS anti-trust case"/>
+                    <span class="text">"a privacy-friendly alternative to OneDrive and other U.S. rivals such as Dropbox and Google Drive,"</span>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a class="hyperlink" href="https://nextcloud.com/blog/swedish-government-nextcloud-premier-digital-collaboration-platform/" target="_blank" title="Swedish government on Nextcloud">
+                    <img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/sweden.png" title="Swedish government on Nextcloud"/>
+                    <span class="text">Swedish government report picks Nextcloud as best integrated platform: "Nextcloud stands out as a customisable open-source solution"</span>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a class="hyperlink" href="https://www.hostingadvice.com/blog/nextcloud-delivers-free-client-server-software/" target="_blank" title="HostingAdvice.com covering Nextcloud">
                     <img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/ha.png" title="HostingAdvice.com covering Nextcloud"/>
                     <span class="text">"a new standard in self-hosted collaboration, providing security and control in an open, transparent, and reliable manner"</span>
                 </a>
             </div>
             <div class="col-md-4">
 				<a class="hyperlink" href="https://www.tijd.be/dossiers/de-tijd-vooruit/datakluizenproject-van-tim-berners-lee-wint-veld-in-europa-maar-opent-ook-debat/10303256.html" target="_blank" title="De Tijd on Nextcloud and Solid">
-				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/detijd.png" title="De Tijd on Nextcloud and Solid"/>
-				<span class="text">"Er zijn ongeveer 400.000 Nextcloud-servers online waarvan sommige miljoenen gebruikers hebben"</span>
+                    <img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/detijd.png" title="De Tijd on Nextcloud and Solid"/>
+                    <span class="text">"Er zijn ongeveer 400.000 Nextcloud-servers online waarvan sommige miljoenen gebruikers hebben"</span>
 				</a>
 			</div>
             <div class="col-md-4">
 				<a class="hyperlink" href="https://www.techrepublic.com/article/nextcloud-21-improvements-in-speed-and-added-features-make-its-cloud-offering-more-business-friendly/" target="_blank" title="Techrepublic on Nextcloud Hub">
-				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/techrepublic.png" title="Techrepublic on Nextcloud Hub"/>
-				<span class="text">"the best on-premise cloud solution available"</span>
+                    <img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/techrepublic.png" title="Techrepublic on Nextcloud Hub"/>
+                    <span class="text">"the best on-premise cloud solution available"</span>
 				</a>
 			</div>
             <div class="col-md-4">
-				<a class="hyperlink" href="https://www.golem.de/news/office-kollaboration-nextcloud-21-verspricht-zehnfache-leistung-2102-154388.html" target="_blank" title="Golem on Nextcloud Hub">
-				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/golem.png" title="Golem on Nextcloud Hub"/>
-				<span class="text">"Nextcloud 21 verspricht zehnfache Leistung."</span>
-				</a>
+                <a class="hyperlink" href="https://www.golem.de/news/office-kollaboration-nextcloud-21-verspricht-zehnfache-leistung-2102-154388.html" target="_blank" title="Golem on Nextcloud Hub">
+                    <img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/golem.png" title="Golem on Nextcloud Hub"/>
+                    <span class="text">"Nextcloud 21 verspricht zehnfache Leistung."</span>
+                </a>
 			</div>
             <div class="col-md-4">
 				<a class="hyperlink" href="https://cloud7.news/cloud/nextcloud-hub-21-is-available/" target="_blank" title="Cloud7 on Nextcloud Hub">
