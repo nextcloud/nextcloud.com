@@ -186,7 +186,7 @@ require(["require.config"], function() {
                 <h2 class=""><?php echo $l->t('Stadtsparkasse Munich Switches to Local Cloud');?></h2>
                 <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <p><label for="email"><?php echo $l->t('Nextcloud partner HNK has provided this Munich city bank with a secure, compliant collaboration platform.');?><br>
-                    <input type="hidden" name="segmentId" value="48">
+                    <input type="hidden" name="segmentId" value="20">
                     <input type="hidden" name="firstname" value="">
                     <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
