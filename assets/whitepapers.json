@@ -106,6 +106,10 @@
     "19": {
         "whitepaper_name": "Case Study SIB in France, English version",
         "whitepaper_url": "English: https://nextcloud.com/media/wp135098u/CaseStudy-SIB-v2-EN.pdf \nFrench: https://nextcloud.com/media/wp135098u/CaseStudy-SIB-v2-FR.pdf"
+    },
+    "20": {
+        "whitepaper_name": "Sparkasse Munich uses Nextcloud with HKN",
+        "whitepaper_url": "English: https://nextcloud.com/media/wp135098u/whitepaper_Stadtsparkasse-Munich.pdf"
     }
 
 }
