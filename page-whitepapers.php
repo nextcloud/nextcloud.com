@@ -22,7 +22,7 @@
     <p class="section--paragraph"><?php echo $l->t('The Nextcloud case studies focus on the real-world benefits of Nextcloud deployments for our customers.');?></p>
     <p class="section--paragraph"><small><?php echo $l->t('Note: unless you opt in to the newsletter, we do not store your email address, we just email you the link to the whitepaper.');?></small></p>
 	<div class="row list display-flex">
-        <div class="col-md-3">
+<!--        <div class="col-md-3">
             <div class="row wpthumbnail">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/skmunich-thumbnail-banner.png"/>
             </div>
@@ -38,14 +38,13 @@
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <div class="newsletter">
                         <input type="hidden" name="newsletter" value="0" />
-<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
                         <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?> <?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
-		</div>
+		</div>-->
         <div class="col-md-3">
             <div class="row wpthumbnail">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/luxembourg-thumbnail-banner.png"/>

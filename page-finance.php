@@ -179,7 +179,7 @@ require(["require.config"], function() {
     </div>
 </section>
 
-<section class="section--whitepaper quote">
+<!--<section class="section--whitepaper quote">
 	<div class="container ">
         <div class="row">
 			<div class="col-lg-8">
@@ -192,7 +192,6 @@ require(["require.config"], function() {
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <div class="newsletter">
                         <input type="hidden" name="newsletter" value="0" />
-<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
                         <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?></small><br/>
                         <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
@@ -203,7 +202,7 @@ require(["require.config"], function() {
         </div>
         <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/skmunich-thumbnail-banner.png"/>
 	</div>
-</section>
+</section>-->
 
 <section class="section--customerdetail">
 	<div class="container">
