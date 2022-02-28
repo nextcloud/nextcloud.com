@@ -1122,7 +1122,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="partner-col" data-type="silver resell" data-country="russ">
+<!--                            <div class="partner-col" data-type="silver resell" data-country="russ">
                                 <div class="partner-box">
                                     <div class="certificate-line silver">
                                         Silver Partner
@@ -1139,7 +1139,7 @@
                                         <li><a href="http://www.is-systems.org" target="_blank">Go to website</a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div>-->
                             <div class="partner-col" data-type="silver train archi resell" data-country="eu">
                                 <div class="partner-box">
                                     <div class="certificate-line silver">
