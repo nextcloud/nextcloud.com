@@ -980,6 +980,19 @@
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Vinícius Reis</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Nextcloud Office</h4>
+					<h4 class="teamlocation">Lives in Rio de Janeiro, Brazil</h4>
+					<p class="teamsocial"><a href="https://github.com/vinicius73"><i class="fa-github fa"></i></a> <a href="https://twitter.com/luizvinicius73"><i class="fa-twitter fa"></i></a> <a href="https://vinicius73.dev/"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/luizvinicius73/"><i class="fa-linkedin fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Vinicius is passionate about coding and open-source communities.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
 				<h2 class="teamname">Vitor Mattos</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
