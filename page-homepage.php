@@ -59,7 +59,7 @@
 </div>
 </section>
 
-<section class="section--intro">
+<!--<section class="section--intro">
 <div class="container">
 	<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
@@ -73,7 +73,7 @@
 		</div>
 	</div>
 </div>
-</section>
+</section>-->
 
 <section class="section--hub">
 <div class="container-fluid icon-background">
