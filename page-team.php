@@ -535,19 +535,6 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/aleksandra.jpg" />
-				<h2 class="teamname">Aleksandra Lazarević</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software engineer</h3>
-					<h4 class="teamexpertise">Talk iOS, Swift</h4>
-					<h4 class="teamlocation">Lives in Belgrade, Serbia</h4>
-					<p class="teamsocial"><a href="https://github.com/alazarevic5"><i class="fa-github fa"></i></a></p>
-				</div>
-				<p class="teamdescription">Aleksandra has finished her master studies in University in Belgrade for Information Technology. She has been developing iOS mobile applications for several years. In addition to application development, she has experience in teaching.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/alvaro.jpg" />
 				<h2 class="teamname">Álvaro Brey Vilas</h2>
 				<div class="teammeta">
@@ -687,19 +674,6 @@
 					<p class="teamsocial"> <a href="https://github.com/kesselb"><i class="fa-github fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Daniel has been contributing to Nextcloud for several years and worked as a software engineer for much longer.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/felix.jpg" />
-				<h2 class="teamname">Felix Weilbach</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Desktop client engineer</h4>
-					<h4 class="teamlocation">lives near Stuttgart, Germany</h4>
-					<p class="teamsocial"> <a href="https://github.com/FlexW"><i class="fa-github fa"></i></a> <a href="https://www.linkedin.com/in/felix-weilbach-73a0651b9/"><i class="fa-linkedin fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Felix apprenticed in automotive mechatronics and then decided to study Computer Science in Augsburg. He is a big free software fan and develops a small Android app named SplitBills. He's an Emacs user and loves mountain biking.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -870,19 +844,6 @@
 					<p class="teamsocial"> <a href="https://github.com/marinofaggiana"><i class="fa-github fa"></i></a> <a href="https://twitter.com/marinofaggiana"><i class="fa-twitter fa"></i></a> <a href="https://www.linkedin.com/in/marino-faggiana-596569106/"><i class="fa-linkedin fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Marino studied telecommunications in Vicenza. While studing engineering at Padua University he founded software company T.W.S. He is the principal author of Crypto Cloud, a popular iOS application which became the base for the Nextcloud iOS app. He is fond of microelectronics, telecommunications and information technology.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marius.jpg" />
-				<h2 class="teamname">Marius Blüm</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Customer Service</h3>
-					<h4 class="teamexpertise">Support and Documentation</h4>
-					<h4 class="teamlocation">Lives in Heilbronn, Germany</h4>
-					<p class="teamsocial"><a href="https://github.com/MariusBluem"><i class="fa-github fa"></i></a> <a href="https://twitter.com/MariusBluem"><i class="fa-twitter fa"></i></a></p>
-				</div>
-				<p class="teamdescription">Marius was active in Nextcloud since day one, contributing in various forms to documentation, website, support and more. He is studying and works part time.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
