@@ -953,6 +953,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Vanessa Pertsch</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Files</h4>
+					<h4 class="teamlocation">Lives in Berlin, Germany</h4>
+					<p class="teamsocial"><a href="https://github.com/vanpertsch"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Vanessa sports a degree in European Ethnologie and History and has ran a cafe before moving to IT and becoming a Drupal developer. She has a passion for user experience and Javascript, but also enjoys reading and Netflixing.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/vincent.jpg" />
 				<h2 class="teamname">Vincent Petry</h2>
 				<div class="teammeta">
