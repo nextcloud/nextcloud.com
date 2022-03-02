@@ -964,7 +964,7 @@
 				<p class="teamdescription">Vincent is a full-stack software engineer with many years of experience in the open-source space. He's well-known for quickly finding bugs in various systems and his ability to debug deeply in unknown territories and also write extensive bug reports. He's now working in the Nextcloud server team using Vue.js, PHP and other technologies.</p>
 			</div>
 		</div>
-		<!--<div class="col-md-4">
+		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
 				<h2 class="teamname">Vinícius Reis</h2>
@@ -976,7 +976,7 @@
 				</div>
 				<p class="teamdescription">Vinícius has more hobbies than he has time for, but is passionate about coding and open source.</p>
 			</div>
-		</div>-->
+		</div>
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
