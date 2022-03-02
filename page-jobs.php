@@ -267,7 +267,7 @@
 				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfil the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
-      <a href="#marketing" data-toggle="collapse"><h3 class="jobs">Marketing and event manager France<span class="icon-arrow"></span></h3></a>
+      <a href="#marketing" data-toggle="collapse"><h3 class="jobs">B2B marketing manager software France<span class="icon-arrow"></span></h3></a>
 			<div id="marketing" class="collapse">
 				<p>Our marketing team is looking for a new member: you would help grow and multiply our marketing efforts in France. You'd be responsible for building up Nextcloud marketing in France, and your efforts would include implementing marketing campaigns, reaching out to and working with press, translating and putting together promotional materials and organizing or attending events. We're looking for somebody with marketing experience, able to work remote in an international team and willing to learn and try new things!</p>
 				<h3 class="section--paragraph__title">Responsibilities:</h3>
@@ -300,7 +300,7 @@
 				</ul>
 				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of building up a local presence. It is a wide-ranging job and we strive to provide the freedom and space to find the right approach! We look for somebody with some marketing or sales/business development experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
-            <a href="#marketing-spain" data-toggle="collapse"><h3 class="jobs">Marketing and event manager Spain<span class="icon-arrow"></span></h3></a>
+            <a href="#marketing-spain" data-toggle="collapse"><h3 class="jobs">B2B marketing manager software Spain<span class="icon-arrow"></span></h3></a>
 			<div id="marketing-spain" class="collapse">
 				<p>Our marketing team is looking for a new member: you would help grow and multiply our marketing efforts in Spain. You'd be responsible for building up Nextcloud marketing in Spain, and your efforts would include implementing marketing campaigns, reaching out to and working with press, translating and putting together promotional materials and organizing or attending events. We're looking for somebody with marketing experience, able to work remote in an international team and willing to learn and try new things!</p>
 				<h3 class="section--paragraph__title">Responsibilities:</h3>
@@ -332,7 +332,7 @@
 				</ul>
 				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of building up a local presence. It is a wide-ranging job and we strive to provide the freedom and space to find the right approach! We look for somebody with some marketing or sales/business development experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
-            <a href="#marketing-italy" data-toggle="collapse"><h3 class="jobs">Marketing and event manager Italy<span class="icon-arrow"></span></h3></a>
+            <a href="#marketing-italy" data-toggle="collapse"><h3 class="jobs">B2B marketing manager software Italy<span class="icon-arrow"></span></h3></a>
 			<div id="marketing-italy" class="collapse">
 				<p>Our marketing team is looking for a new member: you would help grow and multiply our marketing efforts in Italy. You'd be responsible for building up Nextcloud marketing in Italy, and your efforts would include implementing marketing campaigns, reaching out to and working with press, translating and putting together promotional materials and organizing or attending events. We're looking for somebody with marketing experience, able to work remote in an international team and willing to learn and try new things!</p>
 				<h3 class="section--paragraph__title">Responsibilities:</h3>
@@ -365,7 +365,7 @@
 				</ul>
 				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of building up a local presence. It is a wide-ranging job and we strive to provide the freedom and space to find the right approach! We look for somebody with some marketing or sales/business development experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
-            <a href="#marketing-nordics" data-toggle="collapse"><h3 class="jobs">Marketing and event manager Nordics<span class="icon-arrow"></span></h3></a>
+            <a href="#marketing-nordics" data-toggle="collapse"><h3 class="jobs">B2B marketing manager software Nordics<span class="icon-arrow"></span></h3></a>
 			<div id="marketing-nordics" class="collapse">
 				<p>Our marketing team is looking for a new member: you would help grow and multiply our marketing efforts in the Nordic countries, Denmark, Norway, Sweden and Finland. You'd be responsible for building up Nextcloud marketing in your region, and your efforts would include implementing marketing campaigns, reaching out to and working with press, translating and putting together promotional materials and organizing or attending events. We're looking for somebody with marketing experience, able to work remote in an international team and willing to learn and try new things!</p>
 				<h3 class="section--paragraph__title">Responsibilities:</h3>
@@ -398,7 +398,7 @@
 				</ul>
 				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of building up a local presence. It is a wide-ranging job and we strive to provide the freedom and space to find the right approach! We look for somebody with some marketing or sales/business development experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
-            <a href="#marketing-_benelux" data-toggle="collapse"><h3 class="jobs">Marketing and event manager Benelux<span class="icon-arrow"></span></h3></a>
+            <a href="#marketing-_benelux" data-toggle="collapse"><h3 class="jobs">B2B marketing manager software Benelux<span class="icon-arrow"></span></h3></a>
 			<div id="marketing-_benelux" class="collapse">
 				<p>Our marketing team is looking for a new member: you would help grow and multiply our marketing efforts in the Benelux. You'd be responsible for building up Nextcloud marketing in your region, and your efforts would include implementing marketing campaigns, reaching out to and working with press, translating and putting together promotional materials and organizing or attending events. We're looking for somebody with marketing experience, able to work remote in an international team and willing to learn and try new things!</p>
 				<h3 class="section--paragraph__title">Responsibilities:</h3>
@@ -433,7 +433,7 @@
 				<p>We are looking for somebody who wants to make a difference, who wants to be responsible for the results of building up a local presence. It is a wide-ranging job and we strive to provide the freedom and space to find the right approach! We look for somebody with some marketing or sales/business development experience, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
-			<a href="#marketing-local" data-toggle="collapse"><h3 class="jobs">Marketing and event manager - in your region!<span class="icon-arrow"></span></h3></a>
+			<a href="#marketing-local" data-toggle="collapse"><h3 class="jobs">B2B marketing manager software - in your region!<span class="icon-arrow"></span></h3></a>
 			<div id="marketing-local" class="collapse">
 				<p>Our marketing team is looking for a new member: you would help grow and multiply our marketing efforts in your region. We are looking for enthusiastic people in countries and regions not mentioned above and where Nextcloud has a small presence but great potential! You'd be responsible for building up Nextcloud marketing to achieve that potential, and your efforts would include implementing marketing campaigns, reaching out to and working with press, translating and putting together promotional materials and organizing or attending events. We're looking for somebody with marketing experience, able to work remote in an international team and willing to learn and try new things!</p>
 				<h3 class="section--paragraph__title">Responsibilities:</h3>
