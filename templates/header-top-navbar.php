@@ -1,15 +1,13 @@
 <?php $l = new L10N('header-navbar');
 require get_template_directory() . '/strings.php';
 ?>
-<!-- <meta http-equiv="refresh" content="60"> -->
-
 <!--<script>
 require(["require.config"], function() {
 	require(["jquery"], ($) => {
 		/**
 		 * Event date in UTC, modify the string!!
 		 */
-		const eventDateUTC =  new Date('06 July 2021 10:59:59');
+		const eventDateUTC =  new Date('25 April 2022 12:59:59');
 
 		const updateCounter = function() {
 			// Get time left

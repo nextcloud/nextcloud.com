@@ -12,10 +12,10 @@
 <div class=" background security-background">
     <div class="container">
         <div class="col-md-6 topheader">
-<!--             <h1>Coming soon!</h1> -->
-<!--             <h2>Stay tuned for our announcement on July 6<br>at 1PM CET</h2> -->
-            <h1>Nextcloud 22 is here!</h2>
-             <h2>Re-watch our announcement below.</h2>
+            <h1>Coming soon!</h1>
+            <h2>Stay tuned for an event starting April 25<br>at 2PM CET</h2>
+<!--             <h1>Nextcloud 22 is here!</h2> -->
+<!--              <h2>Re-watch our announcement below.</h2> -->
         </div>
     </div>
 </div>
@@ -46,7 +46,7 @@
 </section>
 
 
-<section>
+<!--<section>
     <div class="container">
         <div class="row text-center">
             <iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/bjivOowRao4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -56,22 +56,22 @@
             <iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/iMCza-AX3hg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
-</section>
+</section>-->
 
 
 
-<!--<section class="section--intro">
+<section class="section--intro">
 <div class="container">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
-            <p class="section--paragraph text-center"><?php echo $l->t('Be there!');?></p>
-            <p class="section--paragraph text-center"><?php echo $l->t('Join us at our Berlin office, Tempelhofer Ufer 23-24 on January 17, 14:00.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Stay tuned!');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('More information coming in about a week!');?></p>
 		</div>
 	</div>
 </div>
-</section>-->
+</section>
 
-<section class="section--join">
+<!--<section class="section--join">
 <div class="container">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
@@ -107,6 +107,6 @@
             <p>Can't make it? No worries, we'll publish the video and live stream later!</p>
         </div>
     </div>
-</div>
+</div>-->
 </section>
 
