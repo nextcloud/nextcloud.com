@@ -355,7 +355,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+            <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
 				<h2 class="teamname">Mikaela Schneider</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Content marketing</h3>
@@ -364,10 +364,9 @@
 					<p class="teamsocial"><a href="http://www.msbutterflyblessings.com"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/mikaela-schneider/"><i class="fa-linkedin fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Mikaela has a masters in Global Business from Canada and much experience in marketing in the IT sector.</p>
-      </div>
-		</div>
-
-<div class="col-md-4">
+            </div>
+        </div>
+        <div class="col-md-4">
 			<div class="teamp">
 			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mariusq.jpg" />
 				<h2 class="teamname">Marius Quabeck</h2>
@@ -378,19 +377,6 @@
 					<p class="teamsocial"><a href="https://mariusquabeck.de/"><i class="fa-rss fa"></i></a> <a href="https://twitter.com/MariusQuabeck"><i class="fa-twitter fa"></i></a> <a href="https://www.linkedin.com/in/marius-quabeck-3a984020b/"><i class="fa-linkedin fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Marius has been working as an IT Consultant for many big IT companies and startups. <br />He is also a blogger, podcaster, YouTuber, streamer and manages audio and video productions at Nextcloud.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/sandra.jpg" />
-				<h2 class="teamname">Sandra Stutz</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Partner Marketing Manager</h3>
-					<h4 class="teamexpertise">Partner and customer relations</h4>
-					<h4 class="teamlocation">Lives in Karlsruhe, Germany</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/sandra-stutz-02904a135"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Sandra_Stutz4"><i class="fa-xing fa"></i></a></p>
-				</div>
-				<p class="teamdescription">Sandra studied business administration at the dual university Ravensburg. The last 20 years she worked as marketing and business development manager for different departments at CAS Sofware AG. Knowing what the market needs and customer centricity are very important to her.</p>
 			</div>
 		</div>
 	</div>
