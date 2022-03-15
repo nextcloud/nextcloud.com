@@ -561,7 +561,7 @@
             </p>
             <ul >
                 <li><?php echo $l->t('EUR 5.41/USD 6.6 per user per month at 100 users');?></li>
-                <li><?php echo $l->t('EUR 2.75/USD 3.33 per user per year at 500 users');?></li>
+                <li><?php echo $l->t('EUR 2.75/USD 3.33 per user per month at 500 users');?></li>
             </ul>
             <p class="section--paragraph">
             <small><?php echo $l->t('(further volume discounts at larger user numbers available)');?></small>
