@@ -73,24 +73,22 @@ require(["require.config"], function() {
         <div class="col-lg-4">
             <div class="block-container">
                 <div class="text-center">
-                    <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/ubosbox-nextcloud-on-nuc-model-a-on-500x375.png" class="text-center featureimg" /></a>
+                    <a href="https://indiecomputing.com/products/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/ubosbox-nextcloud-on-nuc-model-a-on-500x375.png" class="text-center featureimg" /></a>
                 </div>
                 <div class="col-md-12">
-                    <h3 class="section--paragraph__title"><?php echo $l->t('UBOSbox Nextcloud on NUC &ndash; Home/Office Server');?></h3>
-                    <p class="section--paragraph"><em><?php echo $l->t('Fully-assembled based on Intel NUC with optional management service');?></em></p>
+                    <h3 class="section--paragraph__title"><?php echo $l->t('UBOSbox Nextcloud Home/Office Server');?></h3>
+                    <p class="section--paragraph"><em><?php echo $l->t('Fully-assembled based on Intel or ARM processors with optional management service');?></em></p>
                     <ul class="section--paragraph" style="list-style-type: disc">
                         <li><?php echo $l->t('Preconfigured: UBOS Linux (pre-installed) and Nextcloud plus apps (auto-install on first boot)');?></li>
                         <li><?php echo $l->t('Can be set up and maintained without attached monitor and keyboard')?></li>
-                        <li><?php echo $l->t('Choose low power option for energy-conscious 24x7 operation or speed option for many concurrent users')?></li>
                         <li><?php echo $l->t('Easy day-to-day management: upgrades, backups, network configuration and more are just a single command')?></li>
-                        <li><?php echo $l->t('UBOS Live systems management service for automatic upgrades, remote systems diagnosis and troubleshooting (option)');?></li>
-                        <li><?php echo $l->t('Different variants available including ARM SBC devices')?></li>
+                        <li><?php echo $l->t('Different variants available based on Intel and ARM processors')?></li>
                     </ul>
                     <div class="devices-tags">
                         <span>Commercial</span>
                         <span>Managed</span>
                     </div>
-                    <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about Indiecomputing');?></a>
+                    <a href="https://indiecomputing.com/products/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about UBOSbox Nextcloud');?></a>
                 </div>
             </div>
         </div>
