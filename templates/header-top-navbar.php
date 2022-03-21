@@ -1,7 +1,7 @@
 <?php $l = new L10N('header-navbar');
 require get_template_directory() . '/strings.php';
 ?>
-<!--<script>
+<script>
 require(["require.config"], function() {
 	require(["jquery"], ($) => {
 		/**
@@ -90,7 +90,7 @@ require(["require.config"], function() {
 	})
 });
 
-</script>-->
+</script>
 
 <nav class="nav" id="nav">
 <!-- To finish -->
@@ -330,12 +330,12 @@ require(["require.config"], function() {
 														</a>
                         </li>
                     </ul>
-<!--                     <li class="ghost-btn clock">
+                     <li class="ghost-btn clock">
                         <a href="<?php echo home_url('countdown'); ?>" class="nav__label">
 
                             <span id="clockday"></span><span id="clockhour"></span><span id="clockmin"></span><span id="clocksec"></span>
                         </a>
-                    </li>-->
+                    </li>
                 </li>
             </ul>
 			</div>
