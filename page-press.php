@@ -34,6 +34,8 @@ height: 100px;
     <a href="<?php echo home_url('press/pr20210706') ?>" class="button button--large button--white button--arrow">Press release</a>
     <h2>Press releases 2021</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20220322') ?>">March 22, 2022: Nextcloud and MariaDB Collaborate to Boost Scalability and High Availability for Customers</a></li>
+        <li>See below for press releases from 2021 and before.</li>
         <li><a href="<?php echo home_url('press/pr20220201') ?>">February 1st, 2022: Nextcloud joins OpenForum Europe for an open and competitive digital ecosystem</a></li>
         <li>See below for press releases from 2021 and before.</li>
     </ul>
