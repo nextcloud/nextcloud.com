@@ -41,13 +41,13 @@
 
 <a id="latest23"></a>
 
-<h3 id="23-0-4">Version 23.0.4 <small>March 22 2022</small></h3>
-<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.4.tar.bz2">nextcloud-23.0.4.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.4.zip">nextcloud-23.0.4.zip</a></br>
+<h3 id="23-0-3">Version 23.0.3 <small>March 21 2022</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.3.tar.bz2">nextcloud-23.0.3.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.3.zip">nextcloud-23.0.3.zip</a></br>
 Check the file integrity with:</br>
-MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.4.tar.bz2.md5">nextcloud-23.0.4.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.4.zip.md5">nextcloud-23.0.4.zip.md5</a></br>
-SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.4.tar.bz2.sha256">nextcloud-23.0.4.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.4.zip.sha256">nextcloud-23.0.4.zip.sha256</a></br>
-SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.4.tar.bz2.sha512">nextcloud-23.0.4.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.4.zip.sha512">nextcloud-23.0.4.zip.sha512</a></br>
-PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.4.tar.bz2.asc">nextcloud-23.0.4.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.4.zip.asc">nextcloud-23.0.4.zip.asc</a></p>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.3.tar.bz2.md5">nextcloud-23.0.3.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.3.zip.md5">nextcloud-23.0.3.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.3.tar.bz2.sha256">nextcloud-23.0.3.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.3.zip.sha256">nextcloud-23.0.3.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.3.tar.bz2.sha512">nextcloud-23.0.3.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.3.zip.sha512">nextcloud-23.0.3.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.3.tar.bz2.asc">nextcloud-23.0.3.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-23.0.3.zip.asc">nextcloud-23.0.3.zip.asc</a></p>
 
 <h4>Changes</h4>
 <ul>
@@ -368,13 +368,13 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 
 <a id="latest22"></a>
 
-<h3 id="22-2-7">Version 22.2.7 <small>March 22 2022</small></h3>
-<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.7.tar.bz2">nextcloud-22.2.7.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.7.zip">nextcloud-22.2.7.zip</a></br>
+<h3 id="22-2-6">Version 22.2.6 <small>March 21 2022</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.6.tar.bz2">nextcloud-22.2.6.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.6.zip">nextcloud-22.2.6.zip</a></br>
 Check the file integrity with:</br>
-MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.7.tar.bz2.md5">nextcloud-22.2.7.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.7.zip.md5">nextcloud-22.2.7.zip.md5</a></br>
-SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.7.tar.bz2.sha256">nextcloud-22.2.7.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.7.zip.sha256">nextcloud-22.2.7.zip.sha256</a></br>
-SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.7.tar.bz2.sha512">nextcloud-22.2.7.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.7.zip.sha512">nextcloud-22.2.7.zip.sha512</a></br>
-PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.7.tar.bz2.asc">nextcloud-22.2.7.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.7.zip.asc">nextcloud-22.2.7.zip.asc</a></p>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.6.tar.bz2.md5">nextcloud-22.2.6.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.6.zip.md5">nextcloud-22.2.6.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.6.tar.bz2.sha256">nextcloud-22.2.6.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.6.zip.sha256">nextcloud-22.2.6.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.6.tar.bz2.sha512">nextcloud-22.2.6.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.6.zip.sha512">nextcloud-22.2.6.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.6.tar.bz2.asc">nextcloud-22.2.6.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-22.2.6.zip.asc">nextcloud-22.2.6.zip.asc</a></p>
 
 <h4>Changes</h4>
 <ul>
