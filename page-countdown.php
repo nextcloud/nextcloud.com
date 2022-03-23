@@ -65,7 +65,7 @@
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
             <p class="section--paragraph text-center"><?php echo $l->t('Stay tuned!');?></p>
-            <p class="section--paragraph text-center"><?php echo $l->t('More information coming Wednesday 23-3!');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('More information coming Thursday the 24th of March!');?></p>
 		</div>
 	</div>
 </div>
