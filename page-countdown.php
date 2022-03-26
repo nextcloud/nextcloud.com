@@ -1,10 +1,18 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/clock.css?v=1" rel="stylesheet">
-
-<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/gears.jpg">
+<style>
+.security-background {
+  background-color: #0082c9;
+}
+</style>
+<!--<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/gears.jpg">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/gears.jpg">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/gears.jpg">
-<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/gears.jpg">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/gears.jpg">-->
+<meta itemprop="image" content="https://nextcloud.com/media/EC-Hackathon-Feature-Image.jpeg">
+<meta name="twitter:image" content="https://nextcloud.com/media/EC-Hackathon-Feature-Image.jpeg">
+<meta name="twitter:image:src" content="https://nextcloud.com/media/EC-Hackathon-Feature-Image.jpeg">
+<meta property="og:image" content="https://nextcloud.com/media/EC-Hackathon-Feature-Image.jpeg">
 <meta name=”Description” content="Nextcloud is the most secure private cloud solution - learn how it keeps your data safe!">
 <!-- <meta http-equiv="refresh" content="60"> -->
 </head>
@@ -12,8 +20,8 @@
 <div class=" background security-background">
     <div class="container">
         <div class="col-md-6 topheader">
-            <h1>Coming soon!</h1>
-            <h2>Stay tuned for an event starting April 25<br>at 2PM CET</h2>
+             <h1>NextGov Hackathon</h1>
+             <h2>Starting April 25 - sign up now!</h2>
 <!--             <h1>Nextcloud 22 is here!</h2> -->
 <!--              <h2>Re-watch our announcement below.</h2> -->
         </div>
@@ -58,16 +66,38 @@
     </div>
 </section>-->
 
-
+<div class="container">
+<img class="img-responsive" src="https://nextcloud.com/media/EC-Hackathon-Feature-Image.jpeg">
+</div>
 
 <section class="section--intro">
 <div class="container">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
-            <p class="section--paragraph text-center"><?php echo $l->t('Stay tuned!');?></p>
-            <p class="section--paragraph text-center"><?php echo $l->t('More information coming Thursday the 24th of March!');?></p>
-		</div>
+            <p>Contribute to Nextcloud and compete for a prize from the EC: join the <a href="https://nextgov-hackathon.eu/">NextGov Hackathon</a>!
+            &nbsp;
+            <p>Starting April 25th, Nextcloud and the European Commission’s <a href="https://ec.europa.eu/info/departments/informatics/open-source-strategy-history_en">Open Source Program</a> Office will be hosting a week long Hackathon with the mission to help build and protect Europe’s digital sovereignty.</p>
+            <div class="text-center">
+            <blockquote>Help build and protect Europe’s digital sovereignty!</blockquote>
+            </div>
+        </div>
 	</div>
+</div>
+</section>
+
+<section class="section--join">
+<div class="container">
+	<div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <img src="https://nextcloud.com/media/Prizes.png" alt="" class="img-responsive" />
+            <p>For registration and more information on contest details and important dates, check out the <a class="hyperlink" href="https://nextgov-hackathon.eu">NextGov Hackathon</a> page!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="text-center">
+            <a class="button button--blue" href="https://eventornado.com/event/nextgovhackathon#home">Join the Hackathon!</a>
+        </div>
+    </div>
 </div>
 </section>
 
