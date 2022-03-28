@@ -40,6 +40,21 @@
     <link>https://nextcloud.com/podcast/</link>
       
    <item>
+      <title>Episode 16: Interview with Daphne Muller, Support lead at Nextcloud</title>
+      <itunes:subtitle>In this 16th episode, our host Ingo talked with Daphne Muller, the Support lead at Nextcloud.</itunes:subtitle>
+      <itunes:summary>In this 16th episode, our host Ingo talked with Daphne Muller, the Support lead at Nextcloud. Daphne shared with us the interesting story that led her to Nextcloud, her well-known Tedx talk on privacy and much more!</itunes:summary>
+      <itunes:duration>00:43:05</itunes:duration>
+      <description>In this 16th episode, our host Ingo talked with Daphne Muller, the Support lead at Nextcloud. Daphne shared with us the interesting story that led her to Nextcloud, her well-known Tedx talk on privacy and much more!</description>
+      <pubDate>Tue, 29 Mar 2022 9:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_016.mp3"
+                 type="audio/mpeg" length="36331698"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_016.mp3</guid>
+      <link>https://nextcloud.com/blog/episode-16-interview-with-daphne-muller-support-lead-at-nextcloud/</link>
+    </item>
+      
+   <item>
       <title>Nextcloud podcast 15: Interview about Collectives app and Prototype Fund</title>
       <itunes:subtitle>In this 15th episode, our host Ingo talked with Marie Gutbub from Prototype Fund and Max and Jonas, developers at Nextcloud about Collectives app and Prototype Fund.</itunes:subtitle>
       <itunes:summary>Max &amp; Jonas share the idea behind the Collectives app and Marie explains what Prototype Fund is, how can you apply and get your innovative Open source project funded!</itunes:summary>
