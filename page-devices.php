@@ -73,44 +73,22 @@ require(["require.config"], function() {
         <div class="col-lg-4">
             <div class="block-container">
                 <div class="text-center">
-                    <a href="https://shop.hanssonit.se/product-category/nextcloud/home-sme-server/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/asuspn51back.png" class="text-center featureimg" /></a>
+                    <a href="https://indiecomputing.com/products/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/ubosbox-nextcloud-on-nuc-model-a-on-500x375.png" class="text-center featureimg" /></a>
                 </div>
                 <div class="col-md-12">
-                    <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Home/SME Server');?></h3>
-                    <p class="section--paragraph"><em><?php echo $l->t('Get your own self-hosted cloud server!');?></em></p>
-                    <p class="section--paragraph"><?php echo $l->t('The Nextcloud Home/SME Server is a Nextcloud server pre-configured with Nextcloud and ready to boot once delivered. Just as the Nextcloud VM it includes easy to setup apps like Collabora, OnlyOffice, Talk and more.');?></p>
-                    <p class="section--paragraph"><?php echo $l->t('Updates are managed with a easy-to-run update script which updates the whole server in just one single command. The server is based on a powerful AMD Ryzen 5500U 64-bit CPU (6 cores, 12 threads), 500 GB M2 PCIe SSD + 2/4 TB HDD/SSD, and 16/32 GB RAM.');?></p>
-                    <p class="section--paragraph"><?php echo $l->t('The Nextcloud Home/SME server is made by the team behind the Nextcloud VM, and aims to be the easiest way to setup your own cloud - now available as a bare-bone server!');?></p>
-                    <div class="devices-tags">
-                        <span>Managed</span>
-                        <span>Commercial</span>
-                        <span>Community</span>
-                    </div>
-                    <a href="https://shop.hanssonit.se/product-category/nextcloud/home-sme-server/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about HanssonIT');?></a>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4">
-            <div class="block-container">
-                <div class="text-center">
-                    <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/ubosbox-nextcloud-on-nuc-model-a-on-500x375.png" class="text-center featureimg" /></a>
-                </div>
-                <div class="col-md-12">
-                    <h3 class="section--paragraph__title"><?php echo $l->t('UBOSbox Nextcloud on NUC &ndash; Home/Office Server');?></h3>
-                    <p class="section--paragraph"><em><?php echo $l->t('Fully-assembled based on Intel NUC with optional management service');?></em></p>
+                    <h3 class="section--paragraph__title"><?php echo $l->t('UBOSbox Nextcloud Home/Office Server');?></h3>
+                    <p class="section--paragraph"><em><?php echo $l->t('Fully-assembled based on Intel or ARM processors with optional management service');?></em></p>
                     <ul class="section--paragraph" style="list-style-type: disc">
                         <li><?php echo $l->t('Preconfigured: UBOS Linux (pre-installed) and Nextcloud plus apps (auto-install on first boot)');?></li>
                         <li><?php echo $l->t('Can be set up and maintained without attached monitor and keyboard')?></li>
-                        <li><?php echo $l->t('Choose low power option for energy-conscious 24x7 operation or speed option for many concurrent users')?></li>
                         <li><?php echo $l->t('Easy day-to-day management: upgrades, backups, network configuration and more are just a single command')?></li>
-                        <li><?php echo $l->t('UBOS Live systems management service for automatic upgrades, remote systems diagnosis and troubleshooting (option)');?></li>
-                        <li><?php echo $l->t('Different variants available including ARM SBC devices')?></li>
+                        <li><?php echo $l->t('Different variants available based on Intel and ARM processors')?></li>
                     </ul>
                     <div class="devices-tags">
                         <span>Commercial</span>
                         <span>Managed</span>
                     </div>
-                    <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about Indiecomputing');?></a>
+                    <a href="https://indiecomputing.com/products/" class="button button--blue button--arrow button--large"><?php echo $l->t('More about UBOSbox Nextcloud');?></a>
                 </div>
             </div>
         </div>
