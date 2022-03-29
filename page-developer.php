@@ -144,7 +144,7 @@
             <div class="col-md-6  feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Include');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Diversity strengthens a community. The Nextcloud Include initiative helps underrepresented groups to join the Nextcloud project, building an inclusive and diverse space where we collaborate and develop world class software.');?></p>
-                <a href="<?php echo home_url('include') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Lear more and request mentoring');?></a>
+                <a href="<?php echo home_url('include') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more and request mentoring');?></a>
             </div>
         </div>
     </div>
