@@ -273,6 +273,26 @@
                                     </ul>
                                 </div>
                             </div>
+                            <div class="partner-col" data-type="platinum host-own host-rend archi" data-country="asia">
+                                <div class="partner-box">
+                                    <div class="certificate-line platinum">
+                                        Platinum Partner
+                                    </div>
+                                    <div class="partner-logo">
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/stylez.png" alt="Stylez logo" title="Stylez"/>
+                                    </div>
+                                    <div class="partner-text">
+                                        <h4>Stylez Corporation</h4>
+                                        <p>
+                                            Since 2013, Stylez has grown by focusing on integration and Business Process Outsourcing. Today Stylez expands its scope into cloud and open source services, keeping up their focus on customers and quality.
+                                        </p>
+                                    </div>
+                                    <ul class="partner-info">
+                                        <li>Reseller</li>
+                                        <li><a href="https://nextcloud.stylez.co.jp" target="_blank">Go to website</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                             <div class="partner-col" data-type="gold hardware" data-country="dach">
                                 <div class="partner-box">
                                     <div class="certificate-line gold">
@@ -894,26 +914,6 @@
                                     <ul class="partner-info">
                                         <li>Reseller</li>
                                         <li><a href="http://www.sorint.it" target="_blank">Go to website</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="partner-col" data-type="gold host-own host-rend archi" data-country="asia">
-                                <div class="partner-box">
-                                    <div class="certificate-line gold">
-                                        Gold Partner
-                                    </div>
-                                    <div class="partner-logo">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/stylez.png" alt="Stylez logo" title="Stylez"/>
-                                    </div>
-                                    <div class="partner-text">
-                                        <h4>Stylez Corporation</h4>
-                                        <p>
-                                            Since 2013, Stylez has grown by focusing on integration and Business Process Outsourcing. Today Stylez expands its scope into cloud and open source services, keeping up their focus on customers and quality.
-                                        </p>
-                                    </div>
-                                    <ul class="partner-info">
-                                        <li>Reseller</li>
-                                        <li><a href="https://nextcloud.stylez.co.jp" target="_blank">Go to website</a></li>
                                     </ul>
                                 </div>
                             </div>
