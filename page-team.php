@@ -189,19 +189,6 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/olivier.jpg" />
-				<h2 class="teamname">Olivier Paroz</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Sales Manager France</h3>
-					<h4 class="teamexpertise">Consulting and Sales</h4>
-					<h4 class="teamlocation">Lives in Basel, Switzerland</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/olivierparoz"><i class="fa-linkedin fa"></i></a> <a href="https://github.com/oparoz"><i class="fa-github fa"></i></a> <a href="https://twitter.com/oparoz"><i class="fa-twitter fa"></i></a></p>
-				</div>
-				<p class="teamdescription">Olivier studied Economics and Information and Communications Systems Management at the University of Geneva. He did work on the Nextcloud code base and has close to 20 years experience in Consulting, Business Development and large scale deployments. He has helped customers in a broad range of industies both in the private and public sector, with a focus on open source, usability, security and privacy.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/viktoria.jpg" />
 				<h2 class="teamname">Viktoria Elvert</h2>
 				<div class="teammeta">
