@@ -110,6 +110,10 @@
     "20": {
         "whitepaper_name": "Sparkasse Munich uses Nextcloud with HKN",
         "whitepaper_url": "English: https://nextcloud.com/media/wp135098u/whitepaper_Stadtsparkasse-Munich.pdf"
+    },
+    "21": {
+        "whitepaper_name": "Vile de Genève deploys Nextcloud to protect Digital Sovereignty",
+        "whitepaper_url": "English: https://nextcloud.com/media/wp135098u/Ville-de-Geneve.pdf"
     }
 
 }
