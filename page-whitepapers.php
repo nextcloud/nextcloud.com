@@ -29,7 +29,7 @@
             <div class="row">
 				<div class="description">
 					<h3 class="section--paragraph__title"><?php echo $l->t('Vile de Genève deploys Nextcloud');?></h3>
-                    <p class="section--paragraph"><?php echo $l->t('The city of Genève aims to protect their Digital Sovereignty.');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('Find out how the city of Genève aims to protect their Digital Sovereignty.');?></p>
                 </div>
                 <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
                     <input type="hidden" name="segmentId" value="21">
