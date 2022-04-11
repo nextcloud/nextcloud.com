@@ -45,7 +45,7 @@
                 </form>
 			</div>
 		</div>
-<!--        <div class="col-md-3">
+        <div class="col-md-3">
             <div class="row wpthumbnail">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/skmunich-thumbnail-banner.png"/>
             </div>
@@ -67,7 +67,7 @@
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
-		</div>-->
+		</div>
         <div class="col-md-3">
             <div class="row wpthumbnail">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/luxembourg-thumbnail-banner.png"/>
