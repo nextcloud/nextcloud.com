@@ -275,7 +275,7 @@
                             </div>
                             <div class="partner-col" data-type="platinum host-own host-rend archi" data-country="asia">
                                 <div class="partner-box">
-                                    <div class="certificate-line platinum">
+                                    <div class="certificate-line plat">
                                         Platinum Partner
                                     </div>
                                     <div class="partner-logo">
