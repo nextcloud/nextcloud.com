@@ -22,6 +22,29 @@
     <p class="section--paragraph"><?php echo $l->t('The Nextcloud case studies focus on the real-world benefits of Nextcloud deployments for our customers.');?></p>
     <p class="section--paragraph"><small><?php echo $l->t('Note: unless you opt in to the newsletter, we do not store your email address, we just email you the link to the whitepaper.');?></small></p>
 	<div class="row list display-flex">
+	        <div class="col-md-3">
+            <div class="row wpthumbnail">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/sunet-thumbnail-banner.png"/>
+            </div>
+            <div class="row">
+				<div class="description">
+					<h3 class="section--paragraph__title"><?php echo $l->t('Sunet Drive for students in Sweden');?></h3>
+                    <p class="section--paragraph"><?php echo $l->t('Safespring developed Sunet Drive brings compliant collaboration to universities in Sweden.');?></p>
+                </div>
+                <form name="whitepaper" method="post" action="<?php echo home_url('whitepaper-submit') ?>">
+                    <input type="hidden" name="segmentId" value="22">
+                    <input type="hidden" name="firstname" value="">
+                    <input type="hidden" name="requesttime" value="<?php echo time(); ?>">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Subscribe me to the monthly Nextcloud newsletter');?> <?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
+                </form>
+			</div>
+		</div>
         <div class="col-md-3">
             <div class="row wpthumbnail">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/geneve-thumbnail-banner.png"/>
