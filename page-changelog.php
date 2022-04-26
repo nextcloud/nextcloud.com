@@ -51,136 +51,65 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 
 <h4>Changes</h4>
 <ul>
-<li><a href="https://github.com/nextcloud/server/pull/31453">Run tests
-with primary object storage in CI + large upload fixes
-(server#31453)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31514">User_ldap
-fix ldap connection resets #31421 (server#31514)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31518">Validate
-<code>overwrite.cli.url</code> to be a url in setup check
-(server#31518)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31521">Fix
-duplicated UUID detection when there are empty uuids
-(server#31521)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31536">Fix occ
-user:add-app-password (server#31536)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31540">Fix the
-logger that is imported for critical actions (server#31540)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31624">Toggle
-profile globally (server#31624)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31634">Improve
-imagick, bcmath and gmp extension warnings (server#31634)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31641">Add
-optional WebDav propfind properties to count sub elements
-(server#31641)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31656">Fix
-listeners declaration in case of occ usage (server#31656)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31666">Do not
-forget DB table prefix with truncate query (server#31666)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31678">Limit the
-length of app password names (server#31678)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31705">Add OPcache
-recommendations to Transifex (server#31705)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31721">Bump
-babel-loader from 8.2.3 to 8.2.4 (server#31721)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31730">Add
-oauth2_clients migration for Owncloud (server#31730)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31733">Don’t
-create cards_abiduri it if already exists (server#31733)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31740">Show that
-the web updater is not recommended on big instances
-(server#31740)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31748">Add direct
-arg to login flow (server#31748)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31774">Wrap oauth2
-migrations inside conditions (server#31774)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31785">Fix
-assignment of the LDAP Wizard connection (server#31785)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31804">Fix ldap
-wizard styling (server#31804)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31821">Bump
-guzzlehttp/psr7 from 1.8.3 to 1.8.5 (server#31821)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31831">Ignore
-errors when searching for bundled preview (server#31831)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31835">Deduplicate
-storage ids in list before reusing (server#31835)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31836">Dont
-re-query fileinfo when getting dav quota (server#31836)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31846">Take
-permissions from multiple paths into account for share permissions
-(server#31846)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31856">Log in
-audit log federated shares events (server#31856)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31862">Update
-autoloaders and Node package-lock.json (server#31862)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31878">Fix
-incorrect if conditions in View (server#31878)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31880">Do not
-decorate the CLI output if it’s explicitly turned off
-(server#31880)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31882">Fix
-_App::getCurrentApp() when being called from CLI or phpunit
-(server#31882)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31913">Bump moment
-from 2.29.1 to 2.29.2 (server#31913)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31923">Fix shared
-mount roots not being returned from <code>getSharesInFolder</code>
-(server#31923)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31940">Confirm
-user is internal to globalscale (server#31940)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31946">AmazonS3:
-allow not implemented versioning (server#31946)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31949">Fix
-accept/reject remote share action (server#31949)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31955">Update CRL
-after revocation of socialsharing_telegram.csr (server#31955)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/31968">Fix LDAP
-Dark Theme Issue (server#31968)</a></li>
-<li><a href="https://github.com/nextcloud/3rdparty/pull/1016">Bump
-guzzlehttp/psr7 from 1.8.3 to 1.8.5 (3rdparty#1016)</a></li>
-<li><a href="https://github.com/nextcloud/activity/pull/781">Fallback to
-the admin settings if the user did not configure it
-(activity#781)</a></li>
-<li><a
-href="https://github.com/nextcloud/circles/pull/1001">Bypass/limit
-permissions (circles#1001)</a></li>
-<li><a href="https://github.com/nextcloud/circles/pull/1007">Update
-memberships on path change (circles#1007)</a></li>
-<li><a href="https://github.com/nextcloud/circles/pull/1010">Check owner
-attendance (circles#1010)</a></li>
-<li><a href="https://github.com/nextcloud/circles/pull/1015">Remove
-child shares (circles#1015)</a></li>
-<li><a href="https://github.com/nextcloud/circles/pull/1017">Update
-displayName (circles#1017)</a></li>
-<li><a href="https://github.com/nextcloud/circles/pull/978">Oracle
-support (circles#978)</a></li>
-<li><a href="https://github.com/nextcloud/circles/pull/982">Limit some
-feature when Circles is managed by an app (circles#982)</a></li>
-<li><a href="https://github.com/nextcloud/circles/pull/985">Use stable23
-for oci tests (circles#985)</a></li>
-<li><a href="https://github.com/nextcloud/circles/pull/995">Missing
-$prec (circles#995)</a></li>
-<li><a href="https://github.com/nextcloud/circles/pull/997">Update
-population (circles#997)</a></li>
-<li><a
-href="https://github.com/nextcloud/firstrunwizard/pull/693">Disable
-social recommendation (firstrunwizard#693)</a></li>
-<li><a href="https://github.com/nextcloud/firstrunwizard/pull/697">Fix
-settings navigation order (firstrunwizard#697)</a></li>
-<li><a href="https://github.com/nextcloud/privacy/pull/752">Bump
-babel-loader from 8.2.3 to 8.2.4 (privacy#752)</a></li>
-<li><a href="https://github.com/nextcloud/text/pull/2233">Build(deps):
-bump prosemirror-view from 1.23.7 to 1.23.9 (text#2233)</a></li>
-<li><a href="https://github.com/nextcloud/text/pull/2259">Build(deps):
-bump prosemirror-view from 1.23.9 to 1.23.10 (text#2259)</a></li>
-<li><a href="https://github.com/nextcloud/text/pull/2274">Build(deps):
-bump prosemirror-view from 1.23.10 to 1.23.11 (text#2274)</a></li>
-<li><a href="https://github.com/nextcloud/text/pull/2277">Fix: menu
-bubble size at the end of the line (text#2277)</a></li>
-<li><a href="https://github.com/nextcloud/text/pull/2286">Build(deps):
-bump prosemirror-view from 1.23.11 to 1.23.12 (text#2286)</a></li>
-<li><a href="https://github.com/nextcloud/viewer/pull/1208">Properly
-cancel and reset ongoing streams when unmounting (viewer#1208)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31453">Run tests with primary object storage in CI + large upload fixes (server#31453)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31514">User_ldap fix ldap connection resets #31421 (server#31514)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31518">Validate <code>overwrite.cli.url</code> to be a url in setup check (server#31518)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31521">Fix duplicated UUID detection when there are empty uuids (server#31521)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31536">Fix occ user:add-app-password (server#31536)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31540">Fix the logger that is imported for critical actions (server#31540)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31624">Toggle profile globally (server#31624)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31634">Improve imagick, bcmath and gmp extension warnings (server#31634)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31641">Add optional WebDav propfind properties to count sub elements (server#31641)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31656">Fix listeners declaration in case of occ usage (server#31656)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31666">Do not forget DB table prefix with truncate query (server#31666)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31678">Limit the length of app password names (server#31678)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31705">Add OPcache recommendations to Transifex (server#31705)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31721">Bump babel-loader from 8.2.3 to 8.2.4 (server#31721)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31730">Add oauth2_clients migration for Owncloud (server#31730)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31733">Don’t create cards_abiduri it if already exists (server#31733)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31740">Show that the web updater is not recommended on big instances (server#31740)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31748">Add direct arg to login flow (server#31748)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31774">Wrap oauth2 migrations inside conditions (server#31774)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31785">Fix assignment of the LDAP Wizard connection (server#31785)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31804">Fix ldap wizard styling (server#31804)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31821">Bump guzzlehttp/psr7 from 1.8.3 to 1.8.5 (server#31821)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31831">Ignore errors when searching for bundled preview (server#31831)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31835">Deduplicate storage ids in list before reusing (server#31835)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31836">Dont re-query fileinfo when getting dav quota (server#31836)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31846">Take permissions from multiple paths into account for share permissions (server#31846)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31856">Log in audit log federated shares events (server#31856)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31862">Update autoloaders and Node package-lock.json (server#31862)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31878">Fix incorrect if conditions in View (server#31878)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31880">Do not decorate the CLI output if it’s explicitly turned off (server#31880)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31882">Fix _App::getCurrentApp() when being called from CLI or phpunit (server#31882)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31913">Bump moment from 2.29.1 to 2.29.2 (server#31913)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31923">Fix shared mount roots not being returned from <code>getSharesInFolder</code> (server#31923)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31940">Confirm user is internal to globalscale (server#31940)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31946">AmazonS3: allow not implemented versioning (server#31946)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31949">Fix accept/reject remote share action (server#31949)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31955">Update CRL after revocation of socialsharing_telegram.csr (server#31955)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/31968">Fix LDAP Dark Theme Issue (server#31968)</a></li>
+<li><a href="https://github.com/nextcloud/3rdparty/pull/1016">Bump guzzlehttp/psr7 from 1.8.3 to 1.8.5 (3rdparty#1016)</a></li>
+<li><a href="https://github.com/nextcloud/activity/pull/781">Fallback to the admin settings if the user did not configure it (activity#781)</a></li>
+<li><a href="https://github.com/nextcloud/circles/pull/1001">Bypass/limit permissions (circles#1001)</a></li>
+<li><a href="https://github.com/nextcloud/circles/pull/1007">Update memberships on path change (circles#1007)</a></li>
+<li><a href="https://github.com/nextcloud/circles/pull/1010">Check owner attendance (circles#1010)</a></li>
+<li><a href="https://github.com/nextcloud/circles/pull/1015">Remove child shares (circles#1015)</a></li>
+<li><a href="https://github.com/nextcloud/circles/pull/1017">Update displayName (circles#1017)</a></li>
+<li><a href="https://github.com/nextcloud/circles/pull/978">Oracle support (circles#978)</a></li>
+<li><a href="https://github.com/nextcloud/circles/pull/982">Limit some feature when Circles is managed by an app (circles#982)</a></li>
+<li><a href="https://github.com/nextcloud/circles/pull/985">Use stable23 for oci tests (circles#985)</a></li>
+<li><a href="https://github.com/nextcloud/circles/pull/995">Missing $prec (circles#995)</a></li>
+<li><a href="https://github.com/nextcloud/circles/pull/997">Update population (circles#997)</a></li>
+<li><a href="https://github.com/nextcloud/firstrunwizard/pull/693">Disable social recommendation (firstrunwizard#693)</a></li>
+<li><a href="https://github.com/nextcloud/firstrunwizard/pull/697">Fix settings navigation order (firstrunwizard#697)</a></li>
+<li><a href="https://github.com/nextcloud/privacy/pull/752">Bump babel-loader from 8.2.3 to 8.2.4 (privacy#752)</a></li>
+<li><a href="https://github.com/nextcloud/text/pull/2233">Build(deps): bump prosemirror-view from 1.23.7 to 1.23.9 (text#2233)</a></li>
+<li><a href="https://github.com/nextcloud/text/pull/2259">Build(deps): bump prosemirror-view from 1.23.9 to 1.23.10 (text#2259)</a></li>
+<li><a href="https://github.com/nextcloud/text/pull/2274">Build(deps): bump prosemirror-view from 1.23.10 to 1.23.11 (text#2274)</a></li>
+<li><a href="https://github.com/nextcloud/text/pull/2277">Fix: menu bubble size at the end of the line (text#2277)</a></li>
+<li><a href="https://github.com/nextcloud/text/pull/2286">Build(deps): bump prosemirror-view from 1.23.11 to 1.23.12 (text#2286)</a></li>
+<li><a href="https://github.com/nextcloud/viewer/pull/1208">Properly cancel and reset ongoing streams when unmounting (viewer#1208)</a></li>
 </ul>
 
 
