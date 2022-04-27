@@ -880,7 +880,7 @@
 					<h3 class="teamtitle">Designer</h3>
 					<h4 class="teamexpertise">User experience and Interface design</h4>
 					<h4 class="teamlocation">Lives in Bangalore, India</h4>
-					<p class="teamsocial"><a href="https://linkedin.com/in/nimisha-vijay"><i class="fa-linkedin fa"></i></a> <a href="https://github.com/nimisha-vijay"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nimishaavijay"><i class="fa-twitter fa"></i></a> </p>
+					<p class="teamsocial"><a href="https://linkedin.com/in/nimisha-vijay"><i class="fa-linkedin fa"></i></a> <a href="https://github.com/nimishavijay"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nimishaavijay"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Nimisha is a user experience designer based in India. She has a degree in engineering and has been contributing to Nextcloud design since late 2020. She is interested in the relationship we have with technology and the role of design in shaping it, and is passionate about ethical, democratic, and open-source software.</p>
 			</div>
