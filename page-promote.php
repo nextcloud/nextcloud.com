@@ -30,7 +30,7 @@
     </div>
     <p>Nextcloud users and enthusiasts can discuss and share Nextcloud experiences on our Forums and IRC channels.</p>
         <ul>
-            <li>Join the <a href="https://help.nextcloud.com">Nextcloud forums</a> and our <a class="hyperlink" href="https://riot.im/app/#/room/#freenode_#nextcloud-dev:matrix.org" target="_blank">chat channel #nextcloud-dev (IRC)</a>, also accessible via <a class="hyperlink" href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>.
+            <li>Join the <a href="https://help.nextcloud.com">Nextcloud forums</a> and our <a class="hyperlink" href="https://app.element.io/#/room/#freenode_#nextcloud-dev:matrix.org" target="_blank">chat channel #nextcloud-dev (IRC)</a>, also accessible via <a class="hyperlink" href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>.
             <li>See Nextcloud development questions on <a href="https://stackoverflow.com/questions/tagged/nextcloud">Stack Overflow</a> and <a href="https://community.spiceworks.com/">Spiceworks</a></li>
             <li>We meet each other in real life, too, at conferences and meetups. See <a href="/events">our event pages</a> for more information</li>
         </ul>
