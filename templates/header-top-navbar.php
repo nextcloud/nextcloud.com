@@ -7,7 +7,7 @@ require(["require.config"], function() {
 		/**
 		 * Event date in UTC, modify the string!!
 		 */
-		const eventDateUTC =  new Date('25 April 2022 12:59:59');
+		const eventDateUTC =  new Date('3 May 2022 10:59:59');
 
 		const updateCounter = function() {
 			// Get time left
@@ -330,12 +330,12 @@ require(["require.config"], function() {
 														</a>
                         </li>
                     </ul>
-                     <!--<li class="ghost-btn clock">
+                     <li class="ghost-btn clock">
                         <a href="<?php echo home_url('countdown'); ?>" class="nav__label">
 
                             <span id="clockday"></span><span id="clockhour"></span><span id="clockmin"></span><span id="clocksec"></span>
                         </a>
-                    </li>-->
+                    </li>
                 </li>
             </ul>
 			</div>
