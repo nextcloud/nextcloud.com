@@ -223,7 +223,7 @@
 			</ol>
 			<p class="section--paragraph"><?php echo $l->t('<strong>Note:</strong> This guide does <em>NOT</em> cover self-signed certificates. If you use a self-signed certificate then you\'re mostly on your own ;-)');?></p>
 			<h3 class="section--paragraph__title"><?php echo $l->t('1. Install the Collabora Online server');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('The following steps will download the Collabora Online docker, make sure to replace "cloud.nextcloud.com" with the host that your own Nextcloud runs on. Also make sure to escape all dots with double backslashes (<code>\\</code>), since this string will be evaluated as a regular expression (and your bash \'eats\' the first backslash.) If you want to use the docker container with more than one Nextcloud, you\'ll need to use');?> <code>'domain=cloud\\.nextcloud\\.com\|second\\.nextcloud\\.com'</code> <?php echo $l->t('instead. (All hosts are separated by <code>\|</code>.)');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The following steps will download the Collabora Online docker, make sure to replace "cloud.nextcloud.com" with the host that your own Nextcloud runs on. If you want to use the docker container with more than one Nextcloud, you\'ll need to use');?> <code>'-e "aliasgroup1=https://<domain1>:443,https://<your-dot-escaped-aliasname1>|<your-dot-escaped-aliasname2>:443" -e "aliasgroup2=https://<domain2>:443"'</code> <?php echo $l->t('instead.');?></p>
 			<p><pre><code class="docker">
                 docker pull collabora/code
                 docker run -t -d -p 127.0.0.1:9980:9980 -e 'aliasgroup1=https://cloud.nextcloud.com:443' --restart always --cap-add MKNOD collabora/code
@@ -243,7 +243,6 @@
 				<li><code class="apache">a2enmod proxy_http</code></li>
 				<li><code class="apache">a2enmod ssl</code></li>
 			</ol>
-			<p class="section--paragraph"><?php echo $l->t('Warning, if you are using Nextcloud 23 (Nextcloud HUB II), the VirtualHost configuration has changed. You can find the latest installation information on <a href="%s">Collabora Online official documentation</a>', ['https://sdk.collaboraonline.com/docs/installation/Proxy_settings.html#reverse-proxy-with-apache-2-webserver']);?></p>
 			<p class="section--paragraph"><?php echo $l->t('Afterward, configure one VirtualHost properly to proxy the traffic. For security reason we recommend to use a subdomain such as office.nextcloud.com instead of running on the same domain. An example config can be found below:');?></p>
 			<p><pre>
 				<code class="apache">
@@ -296,7 +295,7 @@ ProxyPassReverse    /hosting/capabilities https://127.0.0.1:9980/hosting/capabil
 &lt;/VirtualHost&gt;
 			</code></pre></p>
 			<a id="update"></a>
-			<p class="section--paragraph"><?php echo $l->t('After configuring these do restart your apache using <code>/etc/init.d/apache2 restart</code>.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('After configuring these do restart your apache using <code>systemctl restart apache2.service</code>.');?></p>
 			<h3 class="section--paragraph__title"><?php echo $l->t('3. Configure the app in Nextcloud');?></h3>
 			<ol>
 				<li class="section--paragraph"><?php echo $l->t('Go to the Apps section and choose "Office & text"');?></li>
