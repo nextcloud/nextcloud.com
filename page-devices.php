@@ -35,6 +35,25 @@ require(["require.config"], function() {
         <div class="col-lg-4">
             <div class="block-container">
                 <div class="text-center">
+                    <a href="https://pibox.io/?ref=nextcloud"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/pibox.png" class="text-center featureimg" /></a>
+                </div>
+                <div class="col-md-12">
+                    <h3 class="section--paragraph__title"><?php echo $l->t('PiBox with Nextcloud');?></h3>
+                    <p class="section--paragraph"><?php echo $l->t('PiBox is ready to run Nextcloud in your home or office! Remote access is included, no router setup needed!');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('The server comes with a Raspberry Pi CM4 64-bit CPU (4 cores), up to 16TB of SSD storage, and 8 GB RAM. Automatic dynamic DNS, an SSH console, and everything you need to host anything at home.');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('No proprietary tech - built to be open and hackable');?></p>
+                    <div class="devices-tags">
+                        <span>Managed</span>
+                        <span>Commercial</span>
+                        <span>Community</span>
+                    </div>
+                    <a href="https://pibox.io/?ref=nextcloud" class="button button--blue button--arrow button--large"><?php echo $l->t('More about PiBox');?></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="block-container">
+                <div class="text-center">
                 <a href=""><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/TrueNAS-banner.jpg" class="text-center featureimg" /></a>
                 </div>
                 <div class="col-md-12">
