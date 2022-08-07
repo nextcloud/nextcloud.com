@@ -18,5 +18,9 @@
     "requirejs": "^2.3.3",
     "scrollmagic": "^2.0.5",
     "waypoints": "^4.0.1"
+  },
+  "engines": {
+    "node": "^16.0.0",
+    "npm": "^7.0.0 || ^8.0.0"
   }
 }
